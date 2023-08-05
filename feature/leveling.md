@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-07-02T05:32:00.154Z
+date: 2023-08-05T06:25:09.312Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -76,6 +76,17 @@ This sets the minimum and maximum XP a user can be given per minute spent inside
 The default values for this setting are:
 * Min Voice XP: 5
 * Min Voice XP: 8
+
+## Leaderboard Vanity URL
+> This setting is limited to premium servers.
+{.is-warning}
+
+This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
+
+For example, the default leaderboard URL will look something like this: `https://cakeybot.app/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
+If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakeybot.app/leaderboard/caketropolis` which is alot easier for users to remember.
+
+NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
 
 ## XP Rate
 This is a multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up. You can set these rates:

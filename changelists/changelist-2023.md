@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-07-13T23:08:40.061Z
+date: 2023-08-05T06:21:28.391Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -10,6 +10,10 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 > New changelists will be posted on our feedback site: [https://cakeybot.sleekplan.app/changelog](https://cakeybot.sleekplan.app/changelog).
 {.is-warning}
+
+# Aug 5th - Leaderboard Vanity URLs
+## Added
+* Added the ability to set a custom vanity URL for your leveling/XP leaderboards! For example: https://cakeybot.app/leaderboard/caketropolis
 
 # July 7th - Bug Fixes
 ## Fixed

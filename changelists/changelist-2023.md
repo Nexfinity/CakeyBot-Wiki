@@ -2,14 +2,11 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-09T17:57:10.919Z
+date: 2023-08-09T17:57:25.067Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
-
-> New changelists will be posted on our feedback site: [https://cakeybot.sleekplan.app/changelog](https://cakeybot.sleekplan.app/changelog).
-{.is-warning}
 
 # Aug 9th - Revoking Invites
 ## Added

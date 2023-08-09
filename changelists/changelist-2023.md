@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-05T06:21:28.391Z
+date: 2023-08-09T17:57:10.919Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -10,6 +10,10 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 > New changelists will be posted on our feedback site: [https://cakeybot.sleekplan.app/changelog](https://cakeybot.sleekplan.app/changelog).
 {.is-warning}
+
+# Aug 9th - Revoking Invites
+## Added
+* Added the ability to revoke new invite links via a button for audit log entries.
 
 # Aug 5th - Leaderboard Vanity URLs
 ## Added

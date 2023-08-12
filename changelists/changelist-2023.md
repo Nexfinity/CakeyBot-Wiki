@@ -2,13 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-12T22:24:39.141Z
+date: 2023-08-12T22:29:08.131Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # Aug 12th - Server Timezones
+## Fixed
+* Fixed an issue with `/search lmgtfy` due to expired SSL certificate
+
 ## Added
 * Added new `Server Timezone` setting on the web dashboard. Currently just affects when birthday announcements are sent on your server but it may also impact other features in the future.
 

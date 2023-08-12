@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-09T17:57:25.067Z
+date: 2023-08-12T22:24:39.141Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# Aug 12th - Server Timezones
+## Added
+* Added new `Server Timezone` setting on the web dashboard. Currently just affects when birthday announcements are sent on your server but it may also impact other features in the future.
 
 # Aug 9th - Revoking Invites
 ## Added

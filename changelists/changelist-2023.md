@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-12T22:29:08.131Z
+date: 2023-08-14T17:02:47.839Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# Aug 14th - Fixed Lyrics
+## Fixed
+* Fixed `/lyrics` command
 
 # Aug 12th - Server Timezones
 ## Fixed

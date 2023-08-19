@@ -2,11 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-14T17:02:47.839Z
+date: 2023-08-19T04:42:43.010Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# Aug 19th - User Roles Updated
+## Changed
+* The "User Roles Modified" audit log event will now show _who_ changed the target user's roles
+* The "User Roles Modified" audit log event now also supports listing multiple roles being added/removed at once (such as when bots bulk add/remove roles)
 
 # Aug 14th - Fixed Lyrics
 ## Fixed

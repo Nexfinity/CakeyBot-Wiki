@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-19T04:42:43.010Z
+date: 2023-08-20T17:38:21.120Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# Aug 20th - Nickname Changed Updated
+## Changed
+* The "Nickname Changed" audit log event will now show _who_ changed the target user's nickname (if it wasn't the user themselves)
 
 # Aug 19th - User Roles Updated
 ## Changed

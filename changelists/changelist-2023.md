@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-20T17:38:21.120Z
+date: 2023-08-23T22:43:43.367Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# Aug 23rd - Git Preview Label
+## Changed
+* Add "Delete Preview" label to the Git Preview button
 
 # Aug 20th - Nickname Changed Updated
 ## Changed

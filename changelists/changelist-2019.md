@@ -2,7 +2,7 @@
 title: Changelist 2019
 description: 
 published: 1
-date: 2022-10-18T20:11:02.945Z
+date: 2023-08-26T18:21:52.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:51:15.306Z
@@ -163,6 +163,5 @@ dateCreated: 2022-10-18T07:51:15.306Z
 * Users are now able to force-skip the currently playing if they are the ones who added it, regardless of current vote skips or lack of moderator permissions
 * You can now loop your favorite songs with `!loop`!
 
-{% hint style="warning" %}
-Any historical changes before this point must be viewed on our Discord server's update/announcement channels.
-{% endhint %}
+> Any historical changes before this point must be viewed on our Discord server's update/announcement channels.
+{.is-warning}

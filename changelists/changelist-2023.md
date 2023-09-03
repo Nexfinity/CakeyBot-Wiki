@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-08-26T18:21:15.451Z
+date: 2023-09-03T05:20:41.492Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# September 3rd - Censor Improvements
+## Fixed
+* Fixed some issues where strings would not be properly censored as well as fixing several false positives. (Mainly with AI chat bot)
 
 # Aug 25th - Custom Embed Fix
 ## Fixed

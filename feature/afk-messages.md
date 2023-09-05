@@ -2,7 +2,7 @@
 title: AFK Messages
 description: 
 published: 1
-date: 2023-09-05T10:24:37.449Z
+date: 2023-09-05T10:26:13.092Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z
@@ -44,7 +44,7 @@ You can also configure AFK messages further by using our [Web Dashboard](https:/
      * This is the default value for all servers.
 3. AFK Prefix
    * This setting will automatically apply a `[AFK]` prefix to a user's nickname when they go AFK and remove it when they are no longer AFK.
-> In order for the bot to modify other user's nicknames they bust have the `Manage Nicknames` permission AND the bot's highest role must exceed the user's highest role.
+> In order for Cakey Bot to modify other user's nicknames Cakey Bot must have the `Manage Nicknames` permission AND Cakey Bot's highest role must exceed the user's highest role.
 {.is-warning}
 
 4. Auto Remove AFK

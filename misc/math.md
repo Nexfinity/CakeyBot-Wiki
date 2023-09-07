@@ -1,8 +1,8 @@
 ---
-title: math
+title: Math Command
 description: 
 published: 1
-date: 2022-10-18T09:15:18.404Z
+date: 2023-09-07T21:24:03.147Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z

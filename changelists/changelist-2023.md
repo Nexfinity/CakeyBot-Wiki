@@ -2,11 +2,17 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-03T05:20:41.492Z
+date: 2023-09-13T22:30:35.577Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# September 13th - Warning Bug Fixes
+## Fixed
+* Fixed an issue where `/warnings` would display garbled/unreadable text for warning reasons
+* Fixed an issue where warnings would instantly expire if the server had expiry test to "Never"
+* Fixed several other misc. bugs related to new EF core system
 
 # September 3rd - Censor Improvements
 ## Fixed

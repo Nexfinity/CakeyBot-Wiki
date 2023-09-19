@@ -2,13 +2,17 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-19T07:23:17.462Z
+date: 2023-09-19T07:50:58.087Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
-# September 19th - Report Improvements
+# September 19th - Moderation Improvements & Bug Fixes
+## Fixed
+* Fixed an issue where `/tictactoe` would respond with The application did not respond
+* Fixed an issue where the AI player could override a tile already selected by the human player.
+
 ## Changed
 * You can now use a custom reason when clicking "Warn User" on a user or message report.
 * Removed the 31 day max limit from TempBans and TempMutes.

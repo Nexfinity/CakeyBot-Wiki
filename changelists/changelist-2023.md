@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-19T07:08:22.826Z
+date: 2023-09-19T07:23:17.462Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -11,9 +11,11 @@ dateCreated: 2023-01-02T17:57:13.587Z
 # September 19th - Report Improvements
 ## Changed
 * You can now use a custom reason when clicking "Warn User" on a user or message report.
+* Removed the 31 day max limit from TempBans and TempMutes.
 
 ## Added
 * Added the ability to blacklist certain file extensions on your server.
+* Added the ability to assign temporary roles to users with `/role temporary`
 
 # September 13th - Warning Bug Fixes
 ## Fixed

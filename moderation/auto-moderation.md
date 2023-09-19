@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2023-05-29T22:47:16.109Z
+date: 2023-09-19T07:08:48.587Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -24,6 +24,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 
 # Features
 
+* Blacklist file extensions
 * Capitalization check
 * Duplicated text
 * Duplicated words

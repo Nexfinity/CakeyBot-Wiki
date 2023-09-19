@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-13T22:30:35.577Z
+date: 2023-09-19T04:44:02.790Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# September 19th - Report Improvements
+## Changed
+* You can now use a custom reason when clicking "Warn User" on a user or message report.
 
 # September 13th - Warning Bug Fixes
 ## Fixed

@@ -2,11 +2,19 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-19T07:50:58.087Z
+date: 2023-09-21T08:25:07.226Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# September 21st - Bug Fixes
+## Fixed
+* Fixed `/suggestion` command
+* Fixed `/imagepoll` command
+* Fixed `/poll` command
+* Fixed some audit log events failing to log due to missing user avatars
+* Fixed some other misc. bugs.
 
 # September 19th - Moderation Improvements & Bug Fixes
 ## Fixed

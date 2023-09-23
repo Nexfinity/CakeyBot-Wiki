@@ -2,11 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-21T08:25:07.226Z
+date: 2023-09-23T12:48:07.704Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# September 23rd - Add & Remove Tag Placeholders
+## Added
+* Added a new placeholder: `{addtag:tag-name-here}` - Adds a tag to the thread if it doesn't exist already.
+* Added a new placeholder: `{removetag:tag-name-here}` - Removes a tag from the thread if it exists.
 
 # September 21st - Bug Fixes
 ## Fixed

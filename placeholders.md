@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-09-23T12:47:03.716Z
+date: 2023-09-23T12:47:12.247Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -186,7 +186,7 @@ Examples:
 ```
 
 ## Add Tag/Remove Tag on Threads
-> These placeholders will only trigegr for the initial post on a new thread. Existing threads will be unaffected.
+> These placeholders will only trigger for the initial post on a new thread. Existing threads will be unaffected.
 {.is-warning}
 
 `{addtag:tag-name-here}` - Adds a tag to the thread if it doesn't exist already.

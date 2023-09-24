@@ -2,19 +2,36 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-24T09:49:21.380Z
+date: 2023-09-24T20:54:51.434Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # September 24th - New Emote Command
+## Fixed
+* `/emote create` & `/emote rename` now enforces Discord's 2 character minimum requirement for the name (and regex checks the name for validity)
+
+## Changed
+* Updated `/emote create` & `/emote delete` to display the remaining emote slot count after creating or deleting an emote.
+* The sticker count for `/serverinfo` will now also show remaining slot count and max slot count for stickers.
+
 ## Added
 * Added new `/emote create <file> <name>` command.
 * Added new `/emote delete <emote>` command.
 * Added new `/emote list` command.
 * Added new `/emote rename <emote> <newName>` command.
 * Added new `/emote download <emote>` command.
+* Added new `/emote big <emote>` command.
+* Added new `/sticker create <file> <name> <description>` command.
+* Added new `/sticker delete <emote>` command.
+* Added new `/sticker list` command.
+* Added new `/sticker rename <emote> <newName>` command.
+* Added new `/sticker download <emote>` command.
+* Added new `/sticker big <emote>` command.
+
+## Removed
+* Removed the `/banlookup` command.
 
 # September 23rd - Add & Remove Tag Placeholders
 ## Added

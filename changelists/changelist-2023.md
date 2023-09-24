@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-24T20:55:05.986Z
+date: 2023-09-24T21:34:40.777Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -23,12 +23,16 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * Added new `/emote rename <emote> <newName>` command.
 * Added new `/emote download <emote>` command.
 * Added new `/emote big <emote>` command.
+* Added new `/emote import <zipFile>` command.
+* Added new `/emote export` command.
 * Added new `/sticker create <file> <name> <description>` command.
 * Added new `/sticker delete <emote>` command.
 * Added new `/sticker list` command.
 * Added new `/sticker rename <emote> <newName>` command.
 * Added new `/sticker download <emote>` command.
 * Added new `/sticker big <emote>` command.
+* Added new `/sticker import <zipFile>` command.
+* Added new `/sticker export` command.
 
 ## Removed
 * Removed the `/banlookup` command.

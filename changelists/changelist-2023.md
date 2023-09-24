@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-24T21:34:40.777Z
+date: 2023-09-24T21:53:52.537Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -15,6 +15,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 ## Changed
 * Updated `/emote create` & `/emote delete` to display the remaining emote slot count after creating or deleting an emote.
 * The sticker count for `/serverinfo` will now also show remaining slot count and max slot count for stickers.
+* Increased max `/purge` limit to 200 (Previously 100)
 
 ## Added
 * Added new `/emote create <file> <name>` command.

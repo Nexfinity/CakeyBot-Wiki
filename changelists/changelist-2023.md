@@ -2,13 +2,13 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-24T20:54:51.434Z
+date: 2023-09-24T20:55:05.986Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
-# September 24th - New Emote Command
+# September 24th - New Emote & Sticker Commands
 ## Fixed
 * `/emote create` & `/emote rename` now enforces Discord's 2 character minimum requirement for the name (and regex checks the name for validity)
 

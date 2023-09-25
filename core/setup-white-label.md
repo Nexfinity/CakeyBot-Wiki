@@ -1,8 +1,8 @@
 ---
-title: Setup White Label
+title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-09-25T10:17:32.591Z
+date: 2023-09-25T10:17:45.664Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z

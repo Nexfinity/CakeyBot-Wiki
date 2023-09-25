@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2023-01-11T22:02:19.442Z
+date: 2023-09-25T10:18:32.716Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -138,6 +138,6 @@ You can configure advanced features like the ones listed below in the web dashbo
 
 and more!
 
-# White Label/Self-Hosting
+# Custom Bot/Self-Hosting
 
 Cakey Bot is not open-sourced and as such can not be self-hosted. However, we are currently working on a white label system that will allow you to use Cakey Bot in your server with a custom profile picture, username, and bio text!

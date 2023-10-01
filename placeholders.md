@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-10-01T15:30:36.909Z
+date: 2023-10-01T23:15:48.980Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -88,7 +88,7 @@ dateCreated: 2022-10-18T08:00:48.805Z
 `{server.countcategories}` - The number of category channels in the server
 `{server.countstickers}` - The number of stickers in the server
 `{server.ruleschannel}` - The current rules channel (community-enabled servers)
-`{server.maxuploadlimit}` - The current amx upload limit for files (Depends on boost level)
+`{server.maxuploadlimit}` - The current max upload limit for files (Depends on boost level)
 
 ## Role
 

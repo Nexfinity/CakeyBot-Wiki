@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2023-09-25T10:18:32.716Z
+date: 2023-10-01T15:31:48.448Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -104,22 +104,16 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/inv
 > It is not recommended to freely give out Administrator permission. It would just make setting up the bot simpler. Cakey Bot has many built-in safeguards to prevent the bot from being abused by users if the bot has Administrator so it is safe to grant, just not a recommended practice to do so.
 {.is-warning}
 
-# Commands
-
-## Slash Commands
+# Slash Commands
 
 Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else! You can find a full list of our available commands on our [website here](https://cakeybot.app/commands.html).
-
-## Custom Commands
-
-You can set custom commands alongside Cakey Bot's default commands. For more information on how to do this, check out the [custom command section](custom-commands).
 
 # Per-Server Settings (Web Dashboard)
 
 > You will need **`Manage Server`** or **`Administrator`** permission to customize Cakey Bot in your server.
 {.is-warning}
 
-After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, custom commands, audit logging, etc.
+After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, auto responders, audit logging, etc.
 
 You can access the web dashboard [here](https://cakeybot.app/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 
@@ -128,7 +122,7 @@ You can configure advanced features like the ones listed below in the web dashbo
 -   Default music volume
 -   Bot Language
 -   Modify Module-Specific Configurations
--   Setup Custom Commands/Auto Responders
+-   Setup Auto Responders
 -   Setup Auto-Moderation
 -   View Server Stats
 -   View Music Queue

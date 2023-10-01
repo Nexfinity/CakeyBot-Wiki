@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2023-06-28T04:32:02.172Z
+date: 2023-10-01T15:40:02.951Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -148,11 +148,6 @@ The template CSV file and bulk exported CSVs will have a few different columns w
 * Command
   * This is the command/trigger phrase for a response.
   * It must be Base64 encoded and be less than 200 characters before Base64 encoding.
-* Triggers
-  * This is an internal value that determines whether or not a command is an Auto Responder or a Custom Command. The import script will ignore any value you put here and force set it internally.
-  * Acceptable values:
-    * 1 - Custom Commands
-    * 2 - Auto Responders
 * Flags
   * These are only used for Auto Responders, they map directly to the Auto Responder [flags](#flags).
   * Acceptable values:

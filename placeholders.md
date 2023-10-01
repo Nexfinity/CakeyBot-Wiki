@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-09-23T12:47:12.247Z
+date: 2023-10-01T15:30:36.909Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -138,7 +138,7 @@ dateCreated: 2022-10-18T08:00:48.805Z
 
 # Advanced Placeholders
 
-> _Advanced Placeholders only work on "Auto Responder" and "Custom Commands". They will **not** work on join/leave/ban announcements._
+> _Advanced Placeholders only work on "Auto Responders". They will **not** work on join/leave/ban announcements._
 {.is-warning}
 
 ## Delete
@@ -221,12 +221,12 @@ Examples:
 {dm:@225182513465786369}    //Specific user ID
 ```
 
-> Spamming commands that use this variable will lead to your server being blacklisted from using Custom Commands.
+> Spamming commands that use this variable will lead to your server being blacklisted from using Auto Responders.
 {.is-danger}
 
 ## Response Chance
 
-Don't want to have the bot respond every...single...time? Well with the response chance placeholder, you can set a percentage between 0% and 100% for the bot to respond or not respond to the trigger. This works on both Auto Responders and Custom Commands. Also, only the first chance placeholder will be taken into account, any extras will be ignored. You can see some examples below:
+Don't want to have the bot respond every...single...time? Well with the response chance placeholder, you can set a percentage between 0% and 100% for the bot to respond or not respond to the trigger. Also, only the first chance placeholder will be taken into account, any extras will be ignored. You can see some examples below:
 
 ```asciidoc
 {chance:0}   //0% chance to respond
@@ -263,7 +263,7 @@ Examples:
 `{xp-remove:<amount>}` - Removes XP from the user.
 
 ## Moderation
-> Note that moderation placeholders will only work on Auto Responders and can NOT be used for Custom Commands or Announcements.
+> Note that moderation placeholders will only work on Auto Responders and can NOT be used for Announcements.
 {.is-info}
 
 - The maximum time for any temporary moderation action used in an Auto Responder is 27 days. Invalid times will be ignored or capped to 27 days.
@@ -314,11 +314,7 @@ Examples:
 My favorite fruit is {choice1} and my favorite animal is {choice2}!
 ```
 
-## Arguments/$N Variable (Custom Commands Only)
-
-> **Note:** Command arguments ($N variable) can only be used with custom commands. This placeholder will **not** work with auto responders.
-{.is-warning}
-
+## Arguments/$N Variable
 `$N` - Returns a command argument.
 
 **Examples:**
@@ -336,4 +332,4 @@ $3+ represents all the arguments after the first one in the command call (big fi
 > **Remember:** Do **not** include this variable in the initial command/trigger. Place $1 $2 and so on **only** in the _response_ field.&#x20;
 {.is-info}
 
-![The diagram above is a visual representation of how argument variables work in custom commands.](https://cdn.discordapp.com/attachments/690401612254019625/1031875605630824448/unknown.png)
+![The diagram above is a visual representation of how argument variables work in auto responders.](https://cdn.discordapp.com/attachments/690401612254019625/1031875605630824448/unknown.png)

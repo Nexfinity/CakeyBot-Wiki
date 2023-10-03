@@ -2,11 +2,19 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-09-24T21:53:52.537Z
+date: 2023-10-03T15:58:30.436Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 3rd - Misc. Bug Fixes
+## Fixed
+* Added validation to the `/emote import` and `/sticker import` commands to verify the file is actually a zip.
+* Fixed several other misc. bugs
+
+## Changed
+* All commands should now properly return _some_ error if something goes wrong. (even if it's only a generic error message) 
 
 # September 24th - New Emote & Sticker Commands
 ## Fixed

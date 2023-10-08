@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-06T02:09:55.899Z
+date: 2023-10-08T15:28:39.232Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 8th - Trivia Category Selection
+## Added
+* Allow optional category selection for `/trivia`
 
 # October 5th - Transcript Fixes
 ## Fixed

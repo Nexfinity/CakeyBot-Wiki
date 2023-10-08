@@ -2,16 +2,16 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-10-08T04:26:01.033Z
+date: 2023-10-08T04:27:27.755Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
 ---
 
 # What is Cakey Bot Premium?
-Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to the next level. It includes unlimited music queues/playlists, customizable banners for join/leave announcements, unlimited RSS feeds, access to the premium placeholders and more to come.
+Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to the next level. It includes unlimited music queues/playlists, customizable banners for join/leave announcements, unlimited RSS feeds, access to the premium placeholders and much more!
 
-# Server VS White Label Premium Plans
+# Server VS Custom Bot Premium Plans
 ### Server Premium
 Server Premium is a subscription that applies to only one server / licence but it has way more features, such as:
 - Custom Join/Leave Banner Images
@@ -20,8 +20,8 @@ Server Premium is a subscription that applies to only one server / licence but i
 - Custom Boost Announcements
 - **[See the full list of features](https://cakeybot.app/premium.php)**
 
-### White Label
-White Label is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos and Username! White Label allows you to have:
+### Custom Bot
+Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos, Emotes, Bio, Username and more! Custom Bot allows you to have:
 - Remove Branding
 - Custom Bot Profile Picture
 - Custom Bot Username
@@ -32,7 +32,7 @@ White Label is an advanced version of Premium that allows you to completely rebr
 - Custom Emotes
 - Better Performance
 
-# How to Purchase Premium
+# How to Purchase Premium / Custom Bot
 To purchase Cakey Bot Premium, you can follow these steps:
 1. Go to [cakeybot.app/premium.php](https://cakeybot.app/premium.php).
 2. Log in with your Discord account.
@@ -40,26 +40,20 @@ To purchase Cakey Bot Premium, you can follow these steps:
 4. Follow the instructions to complete the payment process.
 
 After, you can also purchase add-ons or cancel the subscription.
-# How to Apply Premium to Servers
-> This section only applies to the Server Premium/White Label subscriptions.
-{.is-info}
-
+# How to Apply Premium / Custom Bot to Servers
 Here are some step-by-step instructions on how to apply premium to servers:
 1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers", then click "Add Server".
 4. Select the server and the subscription from the downdown menus.
 5. Click on the green "Add Server" button to confirm.
-# How to Remove Premium from Servers
-> This section only applies to the Server Premium/White Label subscriptions.
-{.is-info}
-
+# How to Remove Premium / Custom Bot from Servers
 Here are some step-by-step instructions on how to remove premium from servers:
 1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers".
 4. Next to your server, press "Deactivate".
-# How to Manage/Cancel Premium Susbcriptions
+# How to Manage/Cancel Premium / Custom Bot Susbcriptions
 1. Go to the [premium page](https://cakeybot.app/premium.php), then log in.
 2. Click "Manage Account".
 <image src="/image_2023-06-02_114040495.png" width="600px">

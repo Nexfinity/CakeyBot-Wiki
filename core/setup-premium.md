@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-06-02T12:16:14.627Z
+date: 2023-10-08T04:26:01.033Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -11,15 +11,7 @@ dateCreated: 2023-06-01T01:06:38.138Z
 # What is Cakey Bot Premium?
 Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to the next level. It includes unlimited music queues/playlists, customizable banners for join/leave announcements, unlimited RSS feeds, access to the premium placeholders and more to come.
 
-# User VS Server VS White Label Premium Plans
-### User Premium
-User Premium is a subscription that allows you to use premium features in every server you share with Cakey Bot, even if the server doesn't have Server Premium. Some of these features include:
-- Unlimited Songs in Music Queue
-- Unlimited Spotify/Custom Playlist Sizes	
-- EQ Preset Filters		
-- Vaporwave/Nightcore Filters
-- **[See the full list of features](https://cakeybot.app/premium.php)**
-
+# Server VS White Label Premium Plans
 ### Server Premium
 Server Premium is a subscription that applies to only one server / licence but it has way more features, such as:
 - Custom Join/Leave Banner Images
@@ -30,10 +22,14 @@ Server Premium is a subscription that applies to only one server / licence but i
 
 ### White Label
 White Label is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos and Username! White Label allows you to have:
-- Custom Chat Bot AI API Key
+- Remove Branding
 - Custom Bot Profile Picture
 - Custom Bot Username
 - Custom Bot Bio
+- Custom Embed Colors
+- Custom API Keys
+- Custom Chat Bot AI API Key
+- Custom Emotes
 - Better Performance
 
 # How to Purchase Premium

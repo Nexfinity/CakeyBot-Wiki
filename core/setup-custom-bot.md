@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-09-25T10:17:45.664Z
+date: 2023-10-08T04:31:24.517Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -17,7 +17,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 * Better Performance
 
 # Purchasing Custom Bot
-To purchase a Custom Bot bot simply follow these instructions:
+To purchase a Custom Bot simply follow these instructions:
 1. Navigate to our [premium website page](https://cakeybot.app/premium.php)
 2. If you haven't done so already, you will need to login to Discord using any of the "Login to Purchase" buttons on the page.
 3. Go to the "Custom Bot" section and choose either Monthly or Yearly.
@@ -27,7 +27,7 @@ To purchase a Custom Bot bot simply follow these instructions:
 > Note: All of the steps below assume that you have already purchased a Custom Bot subscription and are currently trying to configure it and set it up.
 {.is-info}
 
-## Creating a Custom Bot Bot Token
+## Creating a Custom Bot Token
 1. Go to https://discord.com/developers/applications, login with your Discord account and press the "New Application" button.
 <image src="https://wiki.cakeybot.app/newapp.png" width="800px">
 
@@ -55,7 +55,7 @@ To purchase a Custom Bot bot simply follow these instructions:
 > This token is super secret and you should never give it to anyone else without knowing why or you risk someone else taking over your bot. If you think your token might have leaked, please press the regenerate button or delete your application.
 {.is-warning}
 
-Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboard/public/premium) to set up your Custom Bot bot with this token. To set up the Custom Bot bot on Cakey Bot's dashboard just follow these steps:
+Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboard/public/premium) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
 
 1. Login to the web dashboard
 
@@ -75,7 +75,7 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
 
 ## Enabling 2FA For Moderation
-If the Custom Bot Bot isn't moderating a server properly, the server may have the Highest security setting enabled. This means that the owner of the Custom Bot Bot will need to have 2FA (2-Factor Authentication) enabled for their Discord account.
+If the Custom Bot isn't moderating a server properly, the server may have the Highest security setting enabled. This means that the owner of the Custom Bot will need to have 2FA (2-Factor Authentication) enabled for their Discord account.
 
 The following actions will all fail if that person does not have 2FA (2-Factor Authentication) enabled for their Discord account.
 * kick (/kick and automated actions)
@@ -95,5 +95,5 @@ If this isn't an option, you can also disable the 2FA requirement on the server,
 If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakeybot.app/discord)!
 
 # Increasing Number of Allowed Servers
-> Currently Custom Bot bots are limited to a singular server. We plan to allow users to purchase server limit increases later on for a reduced price.
+> Currently Custom Bots are limited to a singular server. If you need more than one server, you can purchase additional Custom Bot subscriptions.
 {.is-warning}

@@ -2,7 +2,7 @@
 title: AI Chat Bot
 description: 
 published: 1
-date: 2023-05-27T05:33:59.108Z
+date: 2023-10-08T04:24:39.149Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:16:34.016Z
@@ -64,21 +64,16 @@ In order to increase your limit you will need to follow these steps:
 
 1. Go to the [premium page](https://cakeybot.app/premium.php).
 2. Click "LOGIN TO MANAGE ACCOUNT" above the blue diamond in the center of the page
-3. Once you have logged in, you will then need to click on "MANAGE ACCOUNT" located in the exact same place
-4. This will bring up the Chargebee login page. Sign into the account linked to your premium subscription.&#x20;
-   1. **Note: This is the email you used to purchase premium, NOT your Discord email.**
-5. Once signed in, select the premium subscription you would like to modify.&#x20;
-   1. **Note: The additional requests you purchase will be assigned later and are not locked to the server linked to this subscription.**
-6. Click "Edit Subscription" then click "Add Addons"
-7. Click "500 Additional API Requests" and hit the "Add" button
-8. You can now optionally select a quantity or leave it defaulted to 1.&#x20;
+3. Once you have logged in, find the "Additional Chat Requests" section and click "Subscribe"
+4. This will bring up the Chargebee login page. Sign into your Chargebee account or create a new one.
+5. Once signed in, You can now optionally select a quantity or leave it defaulted to 1.
+   1. **Note: The additional requests you purchase will be assigned later in Cakey Bot's web dashboard
    1. Each increase in quantity is an additional 500 requests. So a quantity of 5 would give you access to 2,500 requests/month plus the original free 500 requests/month for a total of 3,000 requests/month.
    2. **Note: You will be charged for the number of requests you select here every month even if you don't use the total amount selected.**
-9. Click "Update Subscription"
 
 ## Applying Your Additional Requests
 
 1. Once you have purchased additional requests using the method above you can go to the [web dashboard](https://cakeybot.app/dashboard/public/) to apply them.
 2. Once signed in to the dashboard go to the "[Premium](https://cakeybot.app/dashboard/public/premium)" page.
-3. Click the button named "**Assign Additional Chat Bot Requests**" under the "Premium Subscriptions" table
-4. Select the server you would like to apply the additional requests to and the premium plan you'd like to pull them from and hit the green "Assign Additional Chat Bot Requests" button
+3. Click the button named "**Assign Additional Chat Bot Requests**" under the "Premium Subscriptions" table.
+4. Select the server you would like to apply the additional requests to and hit the green "Assign Additional Chat Bot Requests" button.

@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-10-08T04:27:27.755Z
+date: 2023-10-08T04:29:37.058Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -32,7 +32,10 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 - Custom Emotes
 - Better Performance
 
-# How to Purchase Premium / Custom Bot
+> For instructions on how to purchase and setup Custom Bot subscriptions, check out our dedicated page [here](core/setup-custom-bot).
+{.is-info}
+
+# How to Purchase Premium
 To purchase Cakey Bot Premium, you can follow these steps:
 1. Go to [cakeybot.app/premium.php](https://cakeybot.app/premium.php).
 2. Log in with your Discord account.
@@ -40,20 +43,20 @@ To purchase Cakey Bot Premium, you can follow these steps:
 4. Follow the instructions to complete the payment process.
 
 After, you can also purchase add-ons or cancel the subscription.
-# How to Apply Premium / Custom Bot to Servers
+# How to Apply Premium to Servers
 Here are some step-by-step instructions on how to apply premium to servers:
 1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers", then click "Add Server".
 4. Select the server and the subscription from the downdown menus.
 5. Click on the green "Add Server" button to confirm.
-# How to Remove Premium / Custom Bot from Servers
+# How to Remove Premium from Servers
 Here are some step-by-step instructions on how to remove premium from servers:
 1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers".
 4. Next to your server, press "Deactivate".
-# How to Manage/Cancel Premium / Custom Bot Susbcriptions
+# How to Manage/Cancel Premium Susbcriptions
 1. Go to the [premium page](https://cakeybot.app/premium.php), then log in.
 2. Click "Manage Account".
 <image src="/image_2023-06-02_114040495.png" width="600px">

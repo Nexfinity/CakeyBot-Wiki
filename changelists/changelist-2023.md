@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-09T04:33:29.392Z
+date: 2023-10-09T20:30:01.081Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -11,6 +11,8 @@ dateCreated: 2023-01-02T17:57:13.587Z
 # October 9th - Permission Overwrite Audit Log
 ## Changed
 * Re-enabled permission overwrite updated list for Channel Modified audit log event (and made the output human-readable instead of raw values)
+* `/warn` now shows the warning ID in the success message.
+* `/trivia` will now display the user's selected answer.
 
 # October 8th - Trivia Category Selection
 ## Added

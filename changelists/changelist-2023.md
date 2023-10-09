@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-08T15:28:39.232Z
+date: 2023-10-09T04:33:29.392Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 9th - Permission Overwrite Audit Log
+## Changed
+* Re-enabled permission overwrite updated list for Channel Modified audit log event (and made the output human-readable instead of raw values)
 
 # October 8th - Trivia Category Selection
 ## Added

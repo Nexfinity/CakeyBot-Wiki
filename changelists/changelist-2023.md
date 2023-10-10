@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-10T01:00:48.209Z
+date: 2023-10-10T03:55:46.397Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -16,6 +16,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * Removed all duplicate trivia questions to decrease likelihood of duplicate questions appearing.
 
 ## Added
+* Re-added the ability to purchase additional AI Chat Bot requests (You no longer need to have an active premium subscription to purchase additional requests)
 * Several `/trivia` categories had very few questions so over a thousand new questions have been added. (Up to a total of over 2,600+ now!)
 * Added two new categories to `/trivia`. "Art" and "Celebrities"
 

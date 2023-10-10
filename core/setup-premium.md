@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-10-08T04:29:37.058Z
+date: 2023-10-10T07:13:35.267Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -11,7 +11,7 @@ dateCreated: 2023-06-01T01:06:38.138Z
 # What is Cakey Bot Premium?
 Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to the next level. It includes unlimited music queues/playlists, customizable banners for join/leave announcements, unlimited RSS feeds, access to the premium placeholders and much more!
 
-# Server VS Custom Bot Premium Plans
+# Server Premium VS Custom Bot Plans
 ### Server Premium
 Server Premium is a subscription that applies to only one server / licence but it has way more features, such as:
 - Custom Join/Leave Banner Images

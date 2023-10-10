@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-10-10T07:13:35.267Z
+date: 2023-10-10T07:14:13.502Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -32,7 +32,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 - Custom Emotes
 - Better Performance
 
-> For instructions on how to purchase and setup Custom Bot subscriptions, check out our dedicated page [here](core/setup-custom-bot).
+> For instructions on how to purchase and setup Custom Bot subscriptions, check out our dedicated page [here](/core/setup-custom-bot).
 {.is-info}
 
 # How to Purchase Premium

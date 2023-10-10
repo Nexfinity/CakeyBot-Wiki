@@ -2,17 +2,22 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-09T20:30:01.081Z
+date: 2023-10-10T01:00:48.209Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
-# October 9th - Permission Overwrite Audit Log
+# October 9th - Permission Overwrite Audit Log & Trivia Updates
 ## Changed
 * Re-enabled permission overwrite updated list for Channel Modified audit log event (and made the output human-readable instead of raw values)
 * `/warn` now shows the warning ID in the success message.
 * `/trivia` will now display the user's selected answer.
+* Removed all duplicate trivia questions to decrease likelihood of duplicate questions appearing.
+
+## Added
+* Several `/trivia` categories had very few questions so over a thousand new questions have been added. (Up to a total of over 2,600+ now!)
+* Added two new categories to `/trivia`. "Art" and "Celebrities"
 
 # October 8th - Trivia Category Selection
 ## Added

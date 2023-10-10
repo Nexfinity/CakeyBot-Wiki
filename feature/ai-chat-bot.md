@@ -2,7 +2,7 @@
 title: AI Chat Bot
 description: 
 published: 1
-date: 2023-10-08T04:24:39.149Z
+date: 2023-10-10T04:03:06.281Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:16:34.016Z
@@ -54,26 +54,28 @@ Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! 
 Since every request made to OpenAI costs Cakey Bot money we will include limits on the number of requests you can make to the bot each month. Every message sent to the bot is equal to a single request. You can also buy higher limits than this if you need to. You can view a detailed list of limits below:
 * Non-Premium: 20 Request/month
 * Premium: 500 Request/month
-	* You can also purchase additional requests (See section "Increasing Your Limit" below)
 * White Label: 500 Request/month
   * White Label servers also have the option to use their own custom API key instead
+  
+> You can also purchase additional requests in increments of 500 for both (See section "Increasing Your Limit" below)
+{.is-info}
 
 ## Increasing Your Limit
 
 In order to increase your limit you will need to follow these steps:
 
 1. Go to the [premium page](https://cakeybot.app/premium.php).
-2. Click "LOGIN TO MANAGE ACCOUNT" above the blue diamond in the center of the page
-3. Once you have logged in, find the "Additional Chat Requests" section and click "Subscribe"
-4. This will bring up the Chargebee login page. Sign into your Chargebee account or create a new one.
-5. Once signed in, You can now optionally select a quantity or leave it defaulted to 1.
-   1. **Note: The additional requests you purchase will be assigned later in Cakey Bot's web dashboard
+2. Click any of the "Login to Purchase" buttons. *(Skip this if you are already logged in)*
+3. Once you have logged in, find the "Additional AI Chat Bot Requests" section and click "Subscribe"
+4. This will bring up the Chargebee purchase modal. You can now optionally select a quantity or leave it defaulted to 1.
    1. Each increase in quantity is an additional 500 requests. So a quantity of 5 would give you access to 2,500 requests/month plus the original free 500 requests/month for a total of 3,000 requests/month.
+5) Sign into your Chargebee account or create a new one. Once signed in follow the prompts to complete your purchase.
+   1. **Note: The additional requests you purchase will be assigned later in Cakey Bot's web dashboard
    2. **Note: You will be charged for the number of requests you select here every month even if you don't use the total amount selected.**
 
 ## Applying Your Additional Requests
 
 1. Once you have purchased additional requests using the method above you can go to the [web dashboard](https://cakeybot.app/dashboard/public/) to apply them.
 2. Once signed in to the dashboard go to the "[Premium](https://cakeybot.app/dashboard/public/premium)" page.
-3. Click the button named "**Assign Additional Chat Bot Requests**" under the "Premium Subscriptions" table.
-4. Select the server you would like to apply the additional requests to and hit the green "Assign Additional Chat Bot Requests" button.
+3. Click the button named "**Add Server**" button under the "Applied Subscriptions" table.
+4. Select the server you would like to apply the additional requests to and hit the green "Add Server" button.

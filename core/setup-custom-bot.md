@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T02:25:48.282Z
+date: 2023-10-11T03:18:46.031Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -76,6 +76,13 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 {.is-info}
 
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
+  
+## Assign Servers
+Once you have created and setup the custom bot instance, you will need to assign it to the servers you plan to invite it to/configure it on. To assign the bot to a server follow these steps:
+1. Click the "Add Server" button under the "Applied Subscriptions" section
+2. Select the custom bot plan and the server you want to assign it to.
+3. Click "Add Server" button.
+4. Repeat for every server you want to use the custom bot in.
 
 ## Inviting Your Custom Bot
 1. On the Discord Developer dashbaord select your bot application

@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-08T04:31:24.517Z
+date: 2023-10-11T02:23:51.984Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -54,6 +54,9 @@ To purchase a Custom Bot simply follow these instructions:
 
 > This token is super secret and you should never give it to anyone else without knowing why or you risk someone else taking over your bot. If you think your token might have leaked, please press the regenerate button or delete your application.
 {.is-warning}
+  
+> Keep this Discord Developer dashboard open for now. We'll return to invite the bot later.
+{.is-info}
 
 Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboard/public/premium) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
 
@@ -74,7 +77,16 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
 
-## Enabling 2FA For Moderation
+## Inviting your Custom Bot
+1. On the Discord Developer dashbaord select your bot application
+2. Go to the "Oauth2"->"General" page from the elft navigation bar
+3. Click the "Add Redirect" button
+  
+4. In the text field enter `https://cakeybot.app` and hit the "Save" button
+5. You can now invite your bot using this URL: `https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
+  a. Replace `BOT_ID_HERE` with your bot applications client ID. (Visibale at the top of the OAuth2 page)
+  
+# Enabling 2FA For Moderation
 If the Custom Bot isn't moderating a server properly, the server may have the Highest security setting enabled. This means that the owner of the Custom Bot will need to have 2FA (2-Factor Authentication) enabled for their Discord account.
 
 The following actions will all fail if that person does not have 2FA (2-Factor Authentication) enabled for their Discord account.

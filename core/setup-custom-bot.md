@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T17:19:26.061Z
+date: 2023-10-11T17:22:49.847Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -81,10 +81,11 @@ If you have any issues with this, do not hesitate to join our [support server](h
   
 ## Assign Servers
 Once you have created and setup the custom bot instance, you will need to assign it to the servers you plan to invite it to/configure it on. To assign the bot to a server follow these steps:
-1. Click the "Add Server" button under the "Applied Subscriptions" section
-2. Select the custom bot plan and the server you want to assign it to.
-3. Click "Add Server" button.
-4. Repeat for every server you want to use the custom bot in.
+1. Navigate to the "Premium" page on the web dashboard if you are not already on the page.
+2. Click the "Add Server" button under the "Applied Subscriptions" section
+3. Select the custom bot plan and the server you want to assign it to.
+4. Click "Add Server" button.
+5. Repeat for every server you want to use the custom bot in.
 
 ## Inviting Your Custom Bot
 1. On the Discord Developer dashboard select your bot application

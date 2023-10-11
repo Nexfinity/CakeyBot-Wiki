@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T17:16:31.324Z
+date: 2023-10-11T17:19:26.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -89,8 +89,10 @@ Once you have created and setup the custom bot instance, you will need to assign
 ## Inviting Your Custom Bot
 1. On the Discord Developer dashboard select your bot application
 2. Go to the "OAuth2"->"General" page from the left navigation bar
-3. Click the "Add Redirect" button
+3. Click the blue "Add Redirect" button. This button may say "Add Another" if a redirect already exists, this is fine. 
 <image src="https://wiki.cakeybot.app/redirects.png" width="800px">
+> **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
+{.is-info}
 4. In the text field enter `https://cakeybot.app` and hit the "Save" button
 5. You can now invite your bot using this URL: 
 `https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`

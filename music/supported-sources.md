@@ -2,7 +2,7 @@
 title: Supported Sources
 description: 
 published: 1
-date: 2023-10-11T00:17:38.437Z
+date: 2023-10-11T22:43:44.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:22.063Z
@@ -15,34 +15,31 @@ Cakey bot can play music from multiple sources/streams. This includes normal vid
 > YouTube is no longer supported due to Discord policy.
 {.is-warning}
 
-* Twitch
-  * Including Clips/VODs/Highlights
+* Twitch Live Streams
 * Bandcamp
-  * Including Playlists & Albums
-* Vimeo
-* Deezer
-  * Including Playlists & Albums
+* Bandcamp Playlists & Albums
 * Soundcloud
 * Direct URL/Web File
   * MP3, MP4, WAV, OGG, FLAC, MOV, MKV & M4A formats
 * Live Online Radio (M3U, streams, etc)
 * Bitchute
 * Spotify
-  * Including Playlists & Albums
+* Spotify Albums & Playlists
 * Apple Music
-  * Including Playlists & Albums _(Coming soon)_
+* Apple Music Playlists
 * OC Remix
 * Get Yarn
 * Clyp It
-* Reddit
-* Mix Cloud
 * TikTok _**(Experimental, works on some videos)**_
 
-# **Planned Sources**
-
-There are also some sources that we do not currently support but do plan to add in the future, these include:
-
-* Feel free to suggest some!
+# Temporarily Broken Sources
+* Twitch Clips/VODs/Highlights (Live streams still work)
+* Deezer
+* Deezer Playlists & Albums
+* Vimeo
+* Apple Albums
+* Reddit
+* Mix Cloud
 
 # Removed Sources
 

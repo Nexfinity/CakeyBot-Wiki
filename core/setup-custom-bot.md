@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T17:22:49.847Z
+date: 2023-10-11T17:23:44.344Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -25,6 +25,9 @@ To purchase a Custom Bot simply follow these instructions:
 
 # Setting Up Custom Bot
 > Note: All of the steps below assume that you have already purchased a Custom Bot subscription and are currently trying to configure it and set it up.
+{.is-info}
+
+> Note: For the easiest setup possible you should try to follow this guide step-by-step in order.
 {.is-info}
 
 ## Creating a Custom Bot Token

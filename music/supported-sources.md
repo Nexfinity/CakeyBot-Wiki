@@ -2,7 +2,7 @@
 title: Supported Sources
 description: 
 published: 1
-date: 2023-10-10T22:00:53.825Z
+date: 2023-10-11T00:17:38.437Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:22.063Z
@@ -18,10 +18,10 @@ Cakey bot can play music from multiple sources/streams. This includes normal vid
 * Twitch
   * Including Clips/VODs/Highlights
 * Bandcamp
+  * Including Playlists & Albums
 * Vimeo
 * Deezer
   * Including Playlists & Albums
-* Mixer
 * Soundcloud
 * Direct URL/Web File
   * MP3, MP4, WAV, OGG, FLAC, MOV, MKV & M4A formats

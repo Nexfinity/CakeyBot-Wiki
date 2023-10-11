@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T03:23:46.955Z
+date: 2023-10-11T17:15:51.672Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -34,23 +34,25 @@ To purchase a Custom Bot simply follow these instructions:
 2. Give a name to your application and press "Create". Don't worry about it too much right now, you can always change the name of your bot at any time!
 <image src="https://wiki.cakeybot.app/image_(1).png" width="800px">
 
-3. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
-3a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
+3. Select the "Bot" page from the left side navigation.
+  
+4. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
+4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
 <image src="https://wiki.cakeybot.app/intents.png" width="800px">
 
-4. Press the "Reset Token" button to reset your token
+5. Press the "Reset Token" button to reset your token
 <image src="https://wiki.cakeybot.app/image_(5).png" width="800px">
   
-5. Press "Yes, do it!" on the modal
+6. Press "Yes, do it!" on the modal
 <image src="https://wiki.cakeybot.app/image_(2).png" width="800px">
   
-6. Enter 2FA code if necessary
+7. Enter 2FA code if necessary
 <image src="https://wiki.cakeybot.app/image_(3).png" width="800px">
 
-7. Now you should see your token, just like in the screenshot below: 
+8. Now you should see your token, just like in the screenshot below: 
 ![token2.png](/token2.png)
   
-8. Press the "Copy" button and keep a hold of your token for later use
+9. Press the "Copy" button and keep a hold of your token for later use
 
 > This token is super secret and you should never give it to anyone else without knowing why or you risk someone else taking over your bot. If you think your token might have leaked, please press the regenerate button or delete your application.
 {.is-warning}
@@ -85,8 +87,8 @@ Once you have created and setup the custom bot instance, you will need to assign
 4. Repeat for every server you want to use the custom bot in.
 
 ## Inviting Your Custom Bot
-1. On the Discord Developer dashbaord select your bot application
-2. Go to the "Oauth2"->"General" page from the elft navigation bar
+1. On the Discord Developer dashboard select your bot application
+2. Go to the "OAuth2"->"General" page from the left navigation bar
 3. Click the "Add Redirect" button
 <image src="https://wiki.cakeybot.app/redirects.png" width="800px">
 4. In the text field enter `https://cakeybot.app` and hit the "Save" button

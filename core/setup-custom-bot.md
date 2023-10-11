@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T17:23:44.344Z
+date: 2023-10-11T17:39:45.163Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -77,7 +77,7 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 
 5. Click "Set Token".
 
-> Note: the new bot replaces Cakey Bot. You can keep the default Cakey Bot in your server if you wish, however we reccomend kicking the default bot to prevent spam/duplicate entries for stuff like Audit Logs and Custom Commands/Auto Responders.
+> Note: the new bot replaces Cakey Bot. You can keep the default Cakey Bot in your server if you wish, however we recommend kicking the default bot to prevent spam/duplicate entries for stuff like Audit Logs and Custom Commands/Auto Responders.
 {.is-info}
 
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!

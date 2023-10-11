@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T03:18:46.031Z
+date: 2023-10-11T03:21:52.363Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -113,6 +113,9 @@ If this isn't an option, you can also disable the 2FA requirement on the server,
 
 If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakeybot.app/discord)!
 
+# Additional Customization
+Once you have setup and configured your bot you can setup additional customizations like custom API keys, custom embed colors and more. Simply login to the web dashboard, select the server you want to configure and navigate to the "Custom Bot" page.
+  
 # Increasing Number of Allowed Servers
 > Currently Custom Bots are limited to a singular server. If you need more than one server, you can purchase additional Custom Bot subscriptions.
 {.is-warning}

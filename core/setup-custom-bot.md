@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-11T17:15:51.672Z
+date: 2023-10-11T17:16:31.324Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -92,7 +92,8 @@ Once you have created and setup the custom bot instance, you will need to assign
 3. Click the "Add Redirect" button
 <image src="https://wiki.cakeybot.app/redirects.png" width="800px">
 4. In the text field enter `https://cakeybot.app` and hit the "Save" button
-5. You can now invite your bot using this URL: `https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
+5. You can now invite your bot using this URL: 
+`https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
   a. Replace `BOT_ID_HERE` with your bot applications client ID. (Visibale at the top of the OAuth2 page)
   
 ## Enabling 2FA For Moderation

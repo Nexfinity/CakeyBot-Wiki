@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T00:32:06.680Z
+date: 2023-10-12T00:37:09.749Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -129,3 +129,13 @@ If you have any issues in getting this sorted, do not hesitate to join our [supp
 
 # Additional Customization
 Once you have setup and configured your bot you can setup additional customizations like custom API keys, custom embed colors and more. Simply login to the web dashboard and navigate to the "Custom Bot" page.
+  
+# Frequently Asked Questions
+1. How many servers can I invite the custom bot to?
+   A. Currently, unlimited. This may change in the future if users abuse the capability however.
+2. Will my settings persist from the main Cakey Bot or will I need to set them up again?
+   A. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
+3. Do I need to assign every server in the dashboard that I invite the custom bot to?
+   A: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
+4. How do I setup custom status, emotes and other advanced customization for the custom bot?
+   A: Check out the "Additional Customization" section above this FAQ for more information.

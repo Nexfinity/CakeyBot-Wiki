@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T00:31:10.731Z
+date: 2023-10-12T00:32:06.680Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -99,11 +99,13 @@ Once you have created and setup the custom bot instance, you will need to assign
 3. Click the blue "Add Redirect" button. This button may say "Add Another" if a redirect already exists, this is fine. 
 <image src="https://wiki.cakeybot.app/redirects.png" width="800px">
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
-{.is-info}
+{.is-warning}
 4. In the text field enter `https://cakeybot.app` and hit the "Save" button
 5. You can now invite your bot using this URL: 
 `https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
   a. Replace `BOT_ID_HERE` in the URL above with your bot applications client ID from the developer dashboard. (Visable at the top of the OAuth2 page)
+> Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
+{.is-info}
   
 ## Enabling 2FA For Moderation
 If the Custom Bot isn't moderating a server properly, the server may have the Highest security setting enabled. This means that the owner of the Custom Bot will need to have 2FA (2-Factor Authentication) enabled for their Discord account.

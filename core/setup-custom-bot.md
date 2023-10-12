@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T00:37:09.749Z
+date: 2023-10-12T00:38:35.778Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -137,5 +137,7 @@ Once you have setup and configured your bot you can setup additional customizati
    A. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
 3. Do I need to assign every server in the dashboard that I invite the custom bot to?
    A: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
-4. How do I setup custom status, emotes and other advanced customization for the custom bot?
+4. How do I change the profile picture, username or bio/about me?
+   A: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
+5. How do I setup custom status, emotes and other advanced customization for the custom bot?
    A: Check out the "Additional Customization" section above this FAQ for more information.

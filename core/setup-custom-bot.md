@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T00:30:49.067Z
+date: 2023-10-12T00:31:10.731Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -83,7 +83,7 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
   
 ## Assign Servers
->  Custom Bots will work/function in any number of servers you invite the bot to, even if it is not assigned to the server in the web dashboard. Assigning a server is only required if you wish to change settings for the bot on a specific server.
+>  Custom Bots will work/function in any number of servers you invite the bot to, even if it is not assigned to the server in the web dashboard. Assigning a server is only required if you wish to change settings for the bot on a specific server in the web dashboard.
 {.is-info}
 
 Once you have created and setup the custom bot instance, you will need to assign it to the servers you plan to invite it to/configure it on. To assign the bot to a server follow these steps:

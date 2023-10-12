@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T00:38:35.778Z
+date: 2023-10-12T19:44:43.389Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -77,7 +77,10 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 
 5. Click "Set Token".
 
-> Note: the new bot replaces Cakey Bot. You can keep the default Cakey Bot in your server if you wish, however we recommend kicking the default bot to prevent spam/duplicate entries for stuff like Audit Logs and Custom Commands/Auto Responders.
+> Note: Once you set the token, you will see a blue "Invite" button appear on the table. Do NOT click this yet, you will need to follow additional steps in the "Inviting Your Custom Bot" section below before the invite URL will work properly.
+{.is-warning}
+  
+> Note: The new bot replaces Cakey Bot. You can keep the default Cakey Bot in your server if you wish, however we recommend kicking the default bot to prevent spam/duplicate entries for stuff like Audit Logs and Custom Commands/Auto Responders.
 {.is-info}
 
 If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
@@ -101,9 +104,10 @@ Once you have created and setup the custom bot instance, you will need to assign
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
 {.is-warning}
 4. In the text field enter `https://cakeybot.app` and hit the "Save" button
-5. You can now invite your bot using this URL: 
+5. You may return to the web dashbord and on the "Premium" page there should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
+<!--5. You can now invite your bot using this URL: 
 `https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
-  a. Replace `BOT_ID_HERE` in the URL above with your bot applications client ID from the developer dashboard. (Visable at the top of the OAuth2 page)
+  a. Replace `BOT_ID_HERE` in the URL above with your bot applications client ID from the developer dashboard. (Visable at the top of the OAuth2 page)-->
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
 {.is-info}
   

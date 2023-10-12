@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-11T20:26:29.995Z
+date: 2023-10-12T02:37:59.549Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -12,6 +12,10 @@ dateCreated: 2023-01-02T17:57:13.587Z
 ## Fixed
 * Fixed an issue where `/birthday set` wouldn't let users set a valid year
 * Fixed an issue where "Channel Updated" audit log event could spam when there are no changes to listed due to Discord.
+* `/filterpreset none` will now properly disable the "Reverb" effects
+
+## Changed
+* Re-implemented music track artwork resolution.
 
 # October 9th - Permission Overwrite Audit Log & Trivia Updates
 ## Changed

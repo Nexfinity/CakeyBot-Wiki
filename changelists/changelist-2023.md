@@ -2,11 +2,21 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-12T02:37:59.549Z
+date: 2023-10-18T21:58:22.189Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 18th - Custom Bot Improvements
+## Added
+* Added support for custom chat bot API key from open AI on custom bots
+* Added support for custom chat bot personality on custom bots
+* Added support for custom status messages on custom bots
+
+# October 12th - Language File Updates
+## Changed
+* Updated all of Cakey Bot's language files to the latest translations on Crowdin.
 
 # October 11th - Birthday Fix
 ## Fixed

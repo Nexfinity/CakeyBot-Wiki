@@ -2,13 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-19T00:29:27.582Z
+date: 2023-10-19T01:47:28.942Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # October 18th - Custom Bot Improvements
+## Fixed
+* Fixed an issue where tickets would not send a DM when closed
+
 ## Changed
 * Discord Invites in automod will now allow whitelisted URLs/invites
 

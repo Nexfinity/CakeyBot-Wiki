@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-19T01:47:28.942Z
+date: 2023-10-19T02:23:22.454Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -16,6 +16,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * Discord Invites in automod will now allow whitelisted URLs/invites
 
 ## Added
+* Added new Brazillian Portuguese language
 * Added support for custom chat bot API key from open AI on custom bots
 * Added support for custom chat bot personality on custom bots
 * Added support for custom status messages on custom bots

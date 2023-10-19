@@ -2,13 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-18T21:58:22.189Z
+date: 2023-10-19T00:29:27.582Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # October 18th - Custom Bot Improvements
+## Changed
+* Discord Invites in automod will now allow whitelisted URLs/invites
+
 ## Added
 * Added support for custom chat bot API key from open AI on custom bots
 * Added support for custom chat bot personality on custom bots

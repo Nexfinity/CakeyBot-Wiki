@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2023-05-27T08:10:49.481Z
+date: 2023-10-19T02:59:50.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -81,8 +81,8 @@ Defaults to disabled. When enabled, it will ping the Support Team staff role whe
 ## Default Embed
 You can also create a fancy embed with a button that users can click to automatically open up tickets instead of using the slash commands as well. You can create this embed using the `/setup createticketembed default` command.
 
-> You can set a custom message for this default embed on the Web Dashboard!
-{.is}
+> You can set a custom message for this default embed on the Web Dashboard!  You are also able to use [Basic Placeholders](https://wiki.cakeybot.app/en/placeholders) in this custom message.
+{.is-info}
 
 ## Reason Categories
 You can also create category-specific embeds which will prompt users to select a reason from a dropdown menu to pre-fill the ticket with. You can create these category embeds by typing `/setup createticketembed <type>`. You can check out the full list of category types and their pre-filled reasons below:

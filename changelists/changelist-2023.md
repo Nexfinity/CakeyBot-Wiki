@@ -2,11 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-19T02:23:22.454Z
+date: 2023-10-22T08:50:36.864Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 22nd - QOL Improvements
+## Added
+* Added the ability to have starboard ignore specific channels.
+* Added a toggle for tickets to ping the user who opened the ticket.
 
 # October 18th - Custom Bot Improvements
 ## Fixed

@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-23T03:50:18.521Z
+date: 2023-10-23T05:40:39.645Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 23rd - Custom Embed Placeholder Support
+## Added
+* Added support for placeholder variables inside of Custom Embeds used for Auto Responders.
 
 # October 22nd - QOL Improvements
 ## Added

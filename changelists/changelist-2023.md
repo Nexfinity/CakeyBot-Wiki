@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-22T08:50:36.864Z
+date: 2023-10-23T03:50:18.521Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -10,8 +10,13 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 # October 22nd - QOL Improvements
 ## Added
+* Added new "Analyze Message" context menu option for messages
 * Added the ability to have starboard ignore specific channels.
 * Added a toggle for tickets to ping the user who opened the ticket.
+
+## Removed
+* Removed "Base64 Encode" & "Base64 Decode" context menu options for messages
+* Removed "Mute" & "Unmute" context menu options for users
 
 # October 18th - Custom Bot Improvements
 ## Fixed

@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-24T08:30:18.237Z
+date: 2023-10-24T19:31:44.231Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -15,6 +15,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
   * Unverified Bots
   * New Accounts (<24 Hours Old)
   * No Avatar
+* Added new "Disable Self-Starring" option for starboard
 
 # October 23rd - Custom Embed Placeholder Support
 ## Added

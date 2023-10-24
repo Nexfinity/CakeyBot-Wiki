@@ -2,11 +2,19 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-23T05:40:39.645Z
+date: 2023-10-24T08:30:18.237Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 24th - Auto Ban Moderation
+## Added
+* Added a new "Auto Ban" settings that can be found on the "Auto Mod" page. It currently includes 4 different toggles to apply to new users who join your Discord server:
+  * Invite in Username
+  * Unverified Bots
+  * New Accounts (<24 Hours Old)
+  * No Avatar
 
 # October 23rd - Custom Embed Placeholder Support
 ## Added

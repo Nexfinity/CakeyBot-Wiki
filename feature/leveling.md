@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-08-05T06:25:09.312Z
+date: 2023-10-25T00:22:53.477Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -129,8 +129,8 @@ Currently image banners will be applied to ALL users in the server. <!-- Premium
 Premium servers and users are able to upload a custom image to use as their `/rank` banner. The URL MUST be an imgur.com link. For example `https://i.imgur.com/xk9s6J1.png` is a valid URL.
 Also, while premium users are able to set a custom banner for themselves, server owners have the option to disable this feature and force the server-selected banner. -->
 
-## Primary & Accent Colors
-The ability to change/set the primary and accent colors is an up-coming feature and has NOT been released yet.
+## Accent Colors & Overlay Opacity
+You can also change/set the accent color as well as the opacity of the the black overlay between the text and background image to improve readability.
 
 # Rank Card Badges
 Users who support Cakey Bot will get badges on their profile, so you'll know they're cool.

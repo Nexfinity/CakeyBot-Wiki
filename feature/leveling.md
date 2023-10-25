@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-10-25T00:22:53.477Z
+date: 2023-10-25T03:49:55.404Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -101,6 +101,11 @@ This is a multiplier that is set for ever user in the server. It can adjust how 
 
 ## Ignored Roles & Channels (NoXP Roles/Channels)
 This is a list of channels or roles where XP will NOT be rewarded to users.
+
+## Double XP Days
+You can also specify days for Cakey Bot to award double XP on. The double XP will be calculated AFTER the XP rate has been calculated. You can select multiple days to apply double XP on.
+
+![image_(9).png](/image_(9).png)
 
 # Role Rewards
 You can set up to 10 different role rewards. As users level up they will receive these roles once they meet the level requirement. You can also use the "Remove Roles on Level Up" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.

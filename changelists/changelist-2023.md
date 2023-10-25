@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-24T19:31:44.231Z
+date: 2023-10-25T00:07:03.446Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -16,6 +16,8 @@ dateCreated: 2023-01-02T17:57:13.587Z
   * New Accounts (<24 Hours Old)
   * No Avatar
 * Added new "Disable Self-Starring" option for starboard
+* Added the ability to change the `/rank` overlay opacity
+* Added the ability to change the `/rank` accent color
 
 # October 23rd - Custom Embed Placeholder Support
 ## Added

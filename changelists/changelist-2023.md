@@ -2,13 +2,13 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-25T00:07:03.446Z
+date: 2023-10-25T03:47:55.196Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
-# October 24th - Auto Ban Moderation
+# October 24th - Auto Ban Moderation & Double XP Days
 ## Added
 * Added a new "Auto Ban" settings that can be found on the "Auto Mod" page. It currently includes 4 different toggles to apply to new users who join your Discord server:
   * Invite in Username
@@ -18,6 +18,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * Added new "Disable Self-Starring" option for starboard
 * Added the ability to change the `/rank` overlay opacity
 * Added the ability to change the `/rank` accent color
+* Added the ability to set specific days to award double XP to users for leveling
 
 # October 23rd - Custom Embed Placeholder Support
 ## Added

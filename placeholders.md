@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-10-01T23:15:48.980Z
+date: 2023-10-26T05:31:07.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -257,6 +257,7 @@ Examples:
 ## User Management
 > Note: Cakey Bot must have access to manage roles & Cakey Bot's highest role must be above the role you are trying to grant/remove from the user. Cakey Bot's role must also be higher than the user's highest role.
 {.is-info}
+
 `{addrole:<id>}` - Adds a role to the user.
 `{removerole:<id>}` - Removes the role from the user.
 `{xp-add:<amount>}` - Adds XP to the user.

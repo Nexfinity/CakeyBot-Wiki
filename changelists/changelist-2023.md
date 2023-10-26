@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-26T00:12:10.403Z
+date: 2023-10-26T11:59:53.247Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 26th - Giveaways!
+## Added
+* New `/giveaway` commands!
 
 # October 25th - /lockqueue Removal
 ## Removed

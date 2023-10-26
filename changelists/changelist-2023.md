@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-25T03:47:55.196Z
+date: 2023-10-26T00:12:10.403Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 25th - /lockqueue Removal
+## Removed
+* Removed `/lockqueue` command
 
 # October 24th - Auto Ban Moderation & Double XP Days
 ## Added

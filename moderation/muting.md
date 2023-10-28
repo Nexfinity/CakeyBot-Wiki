@@ -2,7 +2,7 @@
 title: Muting
 description: 
 published: 1
-date: 2022-10-18T08:40:58.417Z
+date: 2023-10-28T07:00:44.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:14:40.491Z
@@ -19,6 +19,9 @@ When you run the `/mute <user>` command, Cakey Bot will assign a mute role to th
 > Note: In order for Cakey Bot to mute a user several things must happen. Cakey Bot must have **`Manage Roles`** permission and Cakey Bot's highest role must be higher than the Mute role and the muted user's highest role.
 {.is-info}
 
-# Temporary Mutes
+# Temporary Mutes/Timeouts
 
-You can also mute people temporarily. It works exactly like normal muting above and requires the same setup/permissions but it will automatically remove the mute after the specified time. You can temporarily mute someone by using the `/tempmute <user> <time> <opt:reason>`command.
+You can also mute people temporarily. It works exactly like normal muting above and requires the same setup/permissions but it will automatically remove the mute after the specified time. You can temporarily mute someone by using the `/timeout <user> <time> <opt:reason> <opt:isSilent>`command.
+
+> Note: This command was previously known as `/tempmute`, it has now been replaced in favor of `/timeout` as it uses native Discord systems to mute the user which is more effective and reliable.
+{.is-info}

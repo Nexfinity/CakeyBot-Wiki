@@ -2,11 +2,22 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-26T11:59:53.247Z
+date: 2023-10-28T07:50:03.279Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 28th - General Fixes/Improvements
+## Fixed
+* Fixed `/sticker` create command
+* Fixed several other misc/random bugs
+
+## Changed
+* Improved error messages and validation for `/sticker` & `/emoji` commands
+
+## Removed
+* Removed `/tempmute` command in favor of `/timeout` (As well as related auto responder placeholders)
 
 # October 26th - Giveaways!
 ## Added

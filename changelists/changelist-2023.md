@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-28T07:50:03.279Z
+date: 2023-10-28T08:56:42.687Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -11,6 +11,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 # October 28th - General Fixes/Improvements
 ## Fixed
 * Fixed `/sticker` create command
+* Fixed `/playlist` add command
 * Fixed several other misc/random bugs
 
 ## Changed

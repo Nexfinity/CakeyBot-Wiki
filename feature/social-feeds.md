@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2022-10-18T10:23:43.956Z
+date: 2023-10-28T07:03:41.231Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -41,7 +41,3 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 {.is-warning}
 
 ![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752962383942/unknown.png)
-
-## Twitter
-> Twitter social feeds are planned but have been postponed due to complications when working with their API systems. There is no current ETA.
-{.is-info}

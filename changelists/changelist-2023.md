@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-10-28T08:56:42.687Z
+date: 2023-10-29T07:32:14.031Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# October 29th - Song Request Fix
+## Fixed
+* Fixed an issue `/setup songrequest` would not properly create a song request channel or 'repair' an existing broken one.
 
 # October 28th - General Fixes/Improvements
 ## Fixed

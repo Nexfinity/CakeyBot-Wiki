@@ -2,7 +2,7 @@
 title: Audit Log
 description: 
 published: 1
-date: 2023-11-06T05:29:44.747Z
+date: 2023-11-06T05:32:02.118Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:46.692Z
@@ -84,14 +84,13 @@ In order to start logging you will need to designate a text channel as the log c
   * When a moderator uses the `/warn` command it will log the usage to the audit log
 * Purges
   * When a moderator uses the `/purge` command it will log the amount of messages and the purge type to the audit log
-  * If Cakey Bot has not hit the rate limit yet, purge will also include a Pastebin perma-link to all of the messages that were purged.
   * Unlike other bots, Cakey Bot will also provide a transcript of all deleted messages if available.
 
 # Additional Information
 
 * Message Deletion
   * Cakey Bot only caches the last 100 messages per channel. If a message is deleted past that, Cakey Bot will not be able to show the content of that message.
-  * Cakey Bot will not log who deleted the message.
+  * Cakey Bot will not log who deleted the message. (Discord limitation)
   * Cakey Bot will also attach an image to the log if the original message contained one.
     * Note: It will currently only log the first image attached to a message.
   * Cakey Bot will not show the content of deleted embed messages.

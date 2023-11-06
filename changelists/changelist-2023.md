@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-06T05:33:57.678Z
+date: 2023-11-06T05:34:03.799Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 # November 6th - Server Modified Audit Logs
 ## Added
-* The "Server Modified" audit log event will now actually log chanegs made to server settings now.
+* The "Server Modified" audit log event will now actually log changes made to server settings now.
 
 # October 29th - Song Request Fix
 ## Fixed

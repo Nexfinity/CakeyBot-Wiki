@@ -2,7 +2,7 @@
 title: Audit Log
 description: 
 published: 1
-date: 2023-07-01T00:14:22.898Z
+date: 2023-11-06T05:29:44.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:46.692Z
@@ -53,6 +53,7 @@ In order to start logging you will need to designate a text channel as the log c
 * Server Updated (Nitro Boost)
   * Shows before/after boost count
   * Shows Current Tier level
+* Server Updated (Settings)
 * Role Created/Deleted
 * Role Updated
   * Shows before/after permissions

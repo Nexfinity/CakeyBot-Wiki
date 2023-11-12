@@ -2,7 +2,7 @@
 title: Music Playlists
 description: 
 published: 1
-date: 2023-02-14T21:30:11.046Z
+date: 2023-11-12T16:27:16.866Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:02:54.523Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:02:54.523Z
 
 # Overview
 
-> Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. ([Premium](https://cakeybot.app/premium.php) users are excluded from this limit)
+> Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. ([Premium](https://cakey.bot/premium.php) users are excluded from this limit)
 {.is-warning}
 
 # Load Playlists

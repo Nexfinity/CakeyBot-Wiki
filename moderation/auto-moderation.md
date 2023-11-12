@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2023-10-24T08:43:02.834Z
+date: 2023-11-12T16:36:04.924Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -17,7 +17,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers and setup Auto Moderation.
 {.is-warning}
 
-1. Login to the web dashboard on the [main website here](https://cakeybot.app/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
 2. Click on the server you want to edit custom commands on.
 3. Go to the "Auto Moderation" page.
 4. You can then customization how Auto Moderation works in your server. Including which checks/rules are applied and their thresholds.

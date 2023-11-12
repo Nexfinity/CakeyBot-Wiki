@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-10-10T07:14:13.502Z
+date: 2023-11-12T16:30:50.051Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -18,7 +18,7 @@ Server Premium is a subscription that applies to only one server / licence but i
 - Multiple Music Bots & 24/7 Music
 - Auto Responder & Custom Command Embeds				
 - Custom Boost Announcements
-- **[See the full list of features](https://cakeybot.app/premium.php)**
+- **[See the full list of features](https://cakey.bot/premium.php)**
 
 ### Custom Bot
 Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos, Emotes, Bio, Username and more! Custom Bot allows you to have:
@@ -37,7 +37,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 
 # How to Purchase Premium
 To purchase Cakey Bot Premium, you can follow these steps:
-1. Go to [cakeybot.app/premium.php](https://cakeybot.app/premium.php).
+1. Go to [https://cakey.bot/premium.php](https://cakey.bot/premium.php).
 2. Log in with your Discord account.
 3. Select the plan you want to purchase.
 4. Follow the instructions to complete the payment process.
@@ -45,19 +45,19 @@ To purchase Cakey Bot Premium, you can follow these steps:
 After, you can also purchase add-ons or cancel the subscription.
 # How to Apply Premium to Servers
 Here are some step-by-step instructions on how to apply premium to servers:
-1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
+1. Open the [web dashboard](https://cakey.bot/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers", then click "Add Server".
 4. Select the server and the subscription from the downdown menus.
 5. Click on the green "Add Server" button to confirm.
 # How to Remove Premium from Servers
 Here are some step-by-step instructions on how to remove premium from servers:
-1. Open the [web dashboard](https://cakeybot.app/dashboard/public).
+1. Open the [web dashboard](https://cakey.bot/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers".
 4. Next to your server, press "Deactivate".
 # How to Manage/Cancel Premium Susbcriptions
-1. Go to the [premium page](https://cakeybot.app/premium.php), then log in.
+1. Go to the [premium page](https://cakey.bot/premium.php), then log in.
 2. Click "Manage Account".
 <image src="/image_2023-06-02_114040495.png" width="600px">
 3. In the popup, enter your e-mail, then the OTP that was sent to your email.

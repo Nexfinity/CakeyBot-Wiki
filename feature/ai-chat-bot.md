@@ -2,7 +2,7 @@
 title: AI Chat Bot
 description: 
 published: 1
-date: 2023-10-10T04:03:06.281Z
+date: 2023-11-12T16:37:03.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:16:34.016Z
@@ -17,13 +17,13 @@ Cakey Bot has a built-in AI chatbot that can generate semi-realistic conversatio
 
 # Try It Out
 
-All servers start with 20 FREE requests every month! After that you will have to purchase premium to play with it further or you can give it a try by talking to it in the [#ai-chat-bot](https://discord.com/channels/408424043482447872/1016061990613041202) channel on our [Support Discord](https://cakeybot.app/discord) for FREE.
+All servers start with 20 FREE requests every month! After that you will have to purchase premium to play with it further or you can give it a try by talking to it in the [#ai-chat-bot](https://discord.com/channels/408424043482447872/1016061990613041202) channel on our [Support Discord](https://cakey.bot/discord) for FREE.
 
 # Setup
 
 To setup Cakey Bot's chat AI simply follow these steps:
 
-1. Login to the web dashboard on the [main website here](https://cakeybot.app/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
 2. Click on the server you want to enable the chat bot on.
 3. Go to the "Bot Settings/Core" page.
 4. Toggle the "Enable AI Chat Bot" setting to on.
@@ -33,7 +33,7 @@ To setup Cakey Bot's chat AI simply follow these steps:
 {.is-warning}
 
 # Accents
-Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakeybot.app/dashboard/public/) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
+Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakey.bot/dashboard/public/) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
 * Default English
 * Australian accent
 * British Accent
@@ -64,7 +64,7 @@ Since every request made to OpenAI costs Cakey Bot money we will include limits 
 
 In order to increase your limit you will need to follow these steps:
 
-1. Go to the [premium page](https://cakeybot.app/premium.php).
+1. Go to the [premium page](https://cakey.bot/premium.php).
 2. Click any of the "Login to Purchase" buttons. *(Skip this if you are already logged in)*
 3. Once you have logged in, find the "Additional AI Chat Bot Requests" section and click "Subscribe"
 4. This will bring up the Chargebee purchase modal. You can now optionally select a quantity or leave it defaulted to 1.
@@ -75,7 +75,7 @@ In order to increase your limit you will need to follow these steps:
 
 ## Applying Your Additional Requests
 
-1. Once you have purchased additional requests using the method above you can go to the [web dashboard](https://cakeybot.app/dashboard/public/) to apply them.
-2. Once signed in to the dashboard go to the "[Premium](https://cakeybot.app/dashboard/public/premium)" page.
+1. Once you have purchased additional requests using the method above you can go to the [web dashboard](https://cakey.bot/dashboard/public/) to apply them.
+2. Once signed in to the dashboard go to the "[Premium](https://cakey.bot/dashboard/public/premium)" page.
 3. Click the button named "**Add Server**" button under the "Applied Subscriptions" table.
 4. Select the server you would like to apply the additional requests to and hit the green "Add Server" button.

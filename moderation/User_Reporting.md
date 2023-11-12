@@ -2,7 +2,7 @@
 title: User Reporting
 description: 
 published: 1
-date: 2023-05-31T20:50:53.223Z
+date: 2023-11-12T16:35:09.372Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T07:59:28.811Z
@@ -15,13 +15,13 @@ Overall, the User Reporting feature in Cakey Bot is a valuable tool for maintain
 
 # Setting a Report Channel
 
-1. Go to the [web dashboard](https://cakeybot.app/dashboard/public)
+1. Go to the [web dashboard](https://cakey.bot/dashboard/public)
 2. Select the server you want to set the report channel on. 
 3. From the left menu click on `Moderation`.
 4. Select a report channel from the dropdown menu then click `Update`.
 <br />
 
-<image src="https://wiki.cakeybot.app/image_2023-05-31_105019249.png" width="800px">
+<image src="/image_2023-05-31_105019249.png" width="800px">
 
 # Reporting Messages/Users
 
@@ -32,7 +32,7 @@ Your uers can follow the steps below to report users or content:
 4. Once the report is submitted, it is sent to the staff team who can then take appropriate action.
 <br />
  
-<image src="https://wiki.cakeybot.app/image_(8).png" width="800px">
+<image src="/image_(8).png" width="800px">
 
 # What do the staff see?
 
@@ -45,4 +45,4 @@ The embed will also include these punishment actions:
 * Delete the Report
 <br />
 
-<image src="https://wiki.cakeybot.app/image_2023-05-31_105845157.png" width="800px">
+<image src="/image_2023-05-31_105845157.png" width="800px">

@@ -2,7 +2,7 @@
 title: Tags
 description: 
 published: 1
-date: 2023-06-10T03:45:57.350Z
+date: 2023-11-12T16:23:35.968Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -30,8 +30,8 @@ This feature allows you to set up a variety of "tags" that users can list and us
 
 # Create/Manage Tags (Web Dashboard)
 
-1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
-2. Go to "Tags" [here](https://cakeybot.app/dashboard/public/tags).
+1. Login to our [web dashboard](https://cakey.bot/dashboard/).
+2. Go to "Tags" [here](https://cakey.bot/dashboard/public/tags).
 3. Click the "Add New Tag" button
 4. Fill in the required information. All tags will require a name and a response.
 5. Click "Create"

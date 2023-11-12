@@ -2,7 +2,7 @@
 title: AFK Messages
 description: 
 published: 1
-date: 2023-09-05T10:26:13.092Z
+date: 2023-11-12T16:33:19.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z
@@ -33,7 +33,7 @@ Server moderators with **Manage Server** can also remove AFK statuses from the w
 
 # Extra Configurations
 
-You can also configure AFK messages further by using our [Web Dashboard](https://cakeybot.app/dashboard/public). There are a few options you can change:
+You can also configure AFK messages further by using our [Web Dashboard](https://cakey.bot/dashboard/public). There are a few options you can change:
 
 1. AFK Module Status
    * This toggles whether or not users can set AFK statuses in your server
@@ -50,4 +50,4 @@ You can also configure AFK messages further by using our [Web Dashboard](https:/
 4. Auto Remove AFK
    * This setting will automatically remove a user from AFK if they send a message in any channel or if they join a voice channel. (If they get moved to a guild-set AFK channel they will keep their AFK status)
 
-You can also view all AFK users [here](https://cakeybot.app/dashboard/public/afk-list).
+You can also view all AFK users [here](https://cakey.bot/dashboard/public/afk-list).

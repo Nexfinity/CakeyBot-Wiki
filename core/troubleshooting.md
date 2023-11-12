@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: 1
-date: 2022-10-18T10:36:46.447Z
+date: 2023-11-12T16:33:03.415Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:20:52.188Z
@@ -52,8 +52,8 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
      * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
   2. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakeybot.app/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
-  4. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakeybot.app/discord) server to receive assistance from a member of our Support Team.
+  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakey.bot/discord) server to see if there are any issues going on. You can also check out our NEW [status page](https://cakeybot.statuspage.io).
+  4. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakey.bot/discord) server to receive assistance from a member of our Support Team.
 
 # Audio Troubleshooting
 
@@ -65,7 +65,7 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 ## Cakey Bot will not play audio or the  laggy/buggy&#x20;
 
 * As you are using Cakey Bot, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
-* If you are encountering these issues, you can check out [this section](https://cakeybot.app/faq.html) in order to resolve these issues.
+* If you are encountering these issues, you can check out [this section](https://cakey.bot/faq.html) in order to resolve these issues.
 
 ## Cakey Bot forgets the playlist I queued after it leaves
 
@@ -96,5 +96,5 @@ Cakey Bot uses a number of fancy custom emoji to make everything fun and visuall
 
 ## I met the error "Not supported within the Android app", what should I do?
 
-* If you encounter this error when inviting Cakey Bot, try opening an **Incognito Tab** and copy this link into the search bar: [https://cakeybot.app/invite](https://cakeybot.app/invite)
+* If you encounter this error when inviting Cakey Bot, try opening an **Incognito Tab** and copy this link into the search bar: [https://cakey.bot/invite](https://cakey.bot/invite)
 * [Click here](https://support.google.com/chrome/answer/95464) to learn how to open an Incognito Tab.

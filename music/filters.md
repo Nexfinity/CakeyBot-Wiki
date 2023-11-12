@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2022-10-18T08:48:32.830Z
+date: 2023-11-12T16:26:37.490Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -14,7 +14,7 @@ You can set custom equalizer bands using the `/equalizer <band> <value>` command
 
 # Equalizer Presets
 
-> Equalizer presets require a [premium subscription](https://cakeybot.app/premium.php) to use.
+> Equalizer presets require a [premium subscription](https://cakey.bot/premium.php) to use.
 {.is-warning}
 
 You can also use our presets for those of you who just want a quick and easy solution by typing `/eqpreset <preset>`. Our presets include:
@@ -33,7 +33,7 @@ You can also use our presets for those of you who just want a quick and easy sol
 
 # Custom Filters
 
-> Filters require a [premium subscription](https://cakeybot.app/premium.php) to use due to increased CPU usage requirements.
+> Filters require a [premium subscription](https://cakey.bot/premium.php) to use due to increased CPU usage requirements.
 {.is-warning}
 
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
@@ -77,7 +77,7 @@ You can also set custom filters on your music using the `/filter <name> <options
 
 # Filter Presets
 
-> All preset music filters require a [premium subscription](https://cakeybot.app/premium.php) to use due to increased CPU usage requirements.
+> All preset music filters require a [premium subscription](https://cakey.bot/premium.php) to use due to increased CPU usage requirements.
 {.is-warning}
 
 * **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `/filterpreset nightcore` command.

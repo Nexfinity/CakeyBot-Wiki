@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2023-10-28T07:03:41.231Z
+date: 2023-11-12T16:37:21.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -10,12 +10,12 @@ dateCreated: 2022-10-18T08:18:44.517Z
 
 # Overview
 
-Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakeybot.app/dashboard/public).
+Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakey.bot/dashboard/public).
 
 # Setup/Add Feeds
 
-1. Login to our [web dashboard](https://cakeybot.app/dashboard/).
-2. Go to "Social Feeds" [here](https://cakeybot.app/dashboard/public/feeds).
+1. Login to our [web dashboard](https://cakey.bot/dashboard/).
+2. Go to "Social Feeds" [here](https://cakey.bot/dashboard/public/feeds).
 3. Click the tab for the feed you want to add (i.e. Reddit, Twitch, etc)
 4. Click the "Add New Feed" button
 5. Fill in the required information. All feeds will require a channel ID and a web hook URL for that channel in order to post messages there. You can read how to create a web hook URL [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
@@ -37,7 +37,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 ![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752614244352/unknown.png)
 
 ## Reddit
-> Reddit feeds currently require a [premium subscription](https://cakeybot.app/premium.php) to use due to rate limit concerns.
+> Reddit feeds currently require a [premium subscription](https://cakey.bot/premium.php) to use due to rate limit concerns.
 {.is-warning}
 
 ![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752962383942/unknown.png)

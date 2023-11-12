@@ -2,7 +2,7 @@
 title: Warnings
 description: 
 published: 1
-date: 2023-06-30T18:14:50.724Z
+date: 2023-11-12T16:32:38.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
@@ -26,13 +26,13 @@ There are a few ways to view warnings for users. The most popular method is to v
 You can view a user's warnings with the `/warnings <user>` command. This will show every warning the user has been given in that server and the status of it (if it is active or expired). If there's too many results, the embed will be paginated with buttons under the embed.
 
 ### With Dashboard
-You can also view warnings on our web dashboard. Once you log in and sleect a server, you can select the "[Warnings](https://cakeybot.app/dashboard/public/warnings)" page on the left sidebar.
+You can also view warnings on our web dashboard. Once you log in and sleect a server, you can select the "[Warnings](https://cakey.bot/dashboard/public/warnings)" page on the left sidebar.
 
 ## Remove Warnings
 Cakey Bot provides a few ways to remove and clear warnings from users.
 
 ### Single Warning
-You can clear a specific warning from a user with the `/unwarn <id>` command. You can get the warning ID from the `/warnings <user>` command or from the [web dashboard](https://cakeybot.app/dashboard/public).
+You can clear a specific warning from a user with the `/unwarn <id>` command. You can get the warning ID from the `/warnings <user>` command or from the [web dashboard](https://cakey.bot/dashboard/public).
 
 ### Clear All Warnings
 You can clear every warning from a user with the `/clearwarnings <user>` command.
@@ -46,7 +46,7 @@ You can clear every warning from a user with the `/clearwarnings <user>` command
 The "Warning Auto Punishments" feature in Cakey Bot automatically enforces consequences for rule violations by tracking user warnings and triggering pre-defined punishments, such as mutes, kicks, or bans. It helps maintain a healthy community environment, reduces the burden on moderators, and ensures consistency and fairness in disciplinary actions.
 
 ## Configuration
-You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakeybot.app/dashboard/public/moderation), on the Moderation page.
+You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public/moderation), on the Moderation page.
 Here's how to add your first auto-punishment:
 1. Click "Add Punishment".
 2. Select the punishment and the required warnings to get that punishment.

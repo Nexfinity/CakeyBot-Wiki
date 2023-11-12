@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-10-12T19:44:43.389Z
+date: 2023-11-12T16:31:56.762Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -18,7 +18,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 
 # Purchasing Custom Bot
 To purchase a Custom Bot simply follow these instructions:
-1. Navigate to our [premium website page](https://cakeybot.app/premium.php)
+1. Navigate to our [premium website page](https://cakey.bot/premium.php)
 2. If you haven't done so already, you will need to login to Discord using any of the "Login to Purchase" buttons on the page.
 3. Go to the "Custom Bot" section and choose either Monthly or Yearly.
 4. Once you have done so, you can then click "Subscribe" and follow the on-screen instructions.
@@ -32,25 +32,25 @@ To purchase a Custom Bot simply follow these instructions:
 
 ## Creating a Custom Bot Token
 1. Go to https://discord.com/developers/applications, login with your Discord account and press the "New Application" button.
-<image src="https://wiki.cakeybot.app/newapp.png" width="800px">
+<image src="/newapp.png" width="800px">
 
 2. Give a name to your application and press "Create". Don't worry about it too much right now, you can always change the name of your bot at any time!
-<image src="https://wiki.cakeybot.app/image_(1).png" width="800px">
+<image src="/image_(1).png" width="800px">
 
 3. Select the "Bot" page from the left side navigation.
   
 4. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
 4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
-<image src="https://wiki.cakeybot.app/intents.png" width="800px">
+<image src="/intents.png" width="800px">
 
 5. Press the "Reset Token" button to reset your token
-<image src="https://wiki.cakeybot.app/image_(5).png" width="800px">
+<image src="/image_(5).png" width="800px">
   
 6. Press "Yes, do it!" on the modal
-<image src="https://wiki.cakeybot.app/image_(2).png" width="800px">
+<image src="/image_(2).png" width="800px">
   
 7. Enter 2FA code if necessary
-<image src="https://wiki.cakeybot.app/image_(3).png" width="800px">
+<image src="/image_(3).png" width="800px">
 
 8. Now you should see your token, just like in the screenshot below: 
 ![token2.png](/token2.png)
@@ -63,7 +63,7 @@ To purchase a Custom Bot simply follow these instructions:
 > Keep this Discord Developer dashboard open for now. We'll return to invite the bot later.
 {.is-info}
 
-Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboard/public/premium) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
+Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/public/premium) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
 
 1. Login to the web dashboard
 
@@ -83,7 +83,7 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakeybot.app/dashboa
 > Note: The new bot replaces Cakey Bot. You can keep the default Cakey Bot in your server if you wish, however we recommend kicking the default bot to prevent spam/duplicate entries for stuff like Audit Logs and Custom Commands/Auto Responders.
 {.is-info}
 
-If you have any issues with this, do not hesitate to join our [support server](https://cakeybot.app/discord)!
+If you have any issues with this, do not hesitate to join our [support server](https://cakey.bot/discord)!
   
 ## Assign Servers
 >  Custom Bots will work/function in any number of servers you invite the bot to, even if it is not assigned to the server in the web dashboard. Assigning a server is only required if you wish to change settings for the bot on a specific server in the web dashboard.
@@ -100,13 +100,13 @@ Once you have created and setup the custom bot instance, you will need to assign
 1. On the Discord Developer dashboard select your bot application
 2. Go to the "OAuth2"->"General" page from the left navigation bar
 3. Click the blue "Add Redirect" button. This button may say "Add Another" if a redirect already exists, this is fine. 
-<image src="https://wiki.cakeybot.app/redirects.png" width="800px">
+<image src="/redirects.png" width="800px">
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
 {.is-warning}
-4. In the text field enter `https://cakeybot.app` and hit the "Save" button
+4. In the text field enter `https://cakey.bot` and hit the "Save" button
 5. You may return to the web dashbord and on the "Premium" page there should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
 <!--5. You can now invite your bot using this URL: 
-`https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakeybot.app&response_type=code&scope=bot+applications.commands+identify+guilds`
+`https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakey.bot&response_type=code&scope=bot+applications.commands+identify+guilds`
   a. Replace `BOT_ID_HERE` in the URL above with your bot applications client ID from the developer dashboard. (Visable at the top of the OAuth2 page)-->
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
 {.is-info}
@@ -129,7 +129,7 @@ In order to fix this issue, you will need to enable 2FA on the Discord account t
 
 If this isn't an option, you can also disable the 2FA requirement on the server, however, **we do NOT recommend doing that.**
 
-If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakeybot.app/discord)!
+If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakey.bot/discord)!
 
 # Additional Customization
 Once you have setup and configured your bot you can setup additional customizations like custom API keys, custom embed colors and more. Simply login to the web dashboard and navigate to the "Custom Bot" page.

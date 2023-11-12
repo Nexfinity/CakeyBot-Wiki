@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2023-10-19T02:16:12.893Z
+date: 2023-11-12T16:28:06.846Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -59,7 +59,7 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
    accurate translation, you can create a discussion or issue oin the string or
-   you can join our [Discord](https://cakeybot.app/discord) and a proof reader will
+   you can join our [Discord](https://cakey.bot/discord) and a proof reader will
    provide further info/screenshots.
 5. Do not translate commands. Cakey Bot only accepts base commands in English.
    For example if the translation string is `Usage: /userinfo <user>`, you can
@@ -69,19 +69,19 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
    capitalization on them.
 7. If you are unsure how you should format a specific string you can look at
    another language's file or you can open up a discussion. (You can also ask on
-   our [Discord](https://cakeybot.app/discord))
+   our [Discord](https://cakey.bot/discord))
 8. Don't translate emojis or emotes. This will cause them to break and display incorrectly to users.
 
 # FAQ
 
 **1) What if I don't see a section for my language?**
 
-- You can join our [Discord](https://cakeybot.app/discord) and create a ticket requesting for it to be added.
+- You can join our [Discord](https://cakey.bot/discord) and create a ticket requesting for it to be added.
 
 **2) What do the different files mean?**
 
 - **strings.resx:** This file contains all translations that are used in Cakey Bot's responses on [Discord](https://discord.gg/Y3VdQAD).
-- **web-strings.php:** This file contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakeybot.app/dashboard/public).
+- **web-strings.php:** This file contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakey.bot/dashboard/public).
 - **slash-commands.resx:** This file contains all translations that are used in the slash commands for Cakey Bot on [Discord](https://discord.gg/Y3VdQAD).
 
 **3) Do I need permission to contribute?**

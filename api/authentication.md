@@ -2,14 +2,14 @@
 title: Authentication
 description: 
 published: 1
-date: 2023-05-20T00:33:58.116Z
+date: 2023-11-12T16:33:49.537Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T05:43:11.629Z
 ---
 
 # Overview
-Cakey Bot exposes a select few API endpoints to help you automate some of Cakey Bot's features and extend them into your own websites and bots. Note this API may change over time and endpoints may be added, changed or removed. If you would like to stay up-to-date on all of our changes regarding the API you should join our [support Discord](https://cakeybot.app/discord).
+Cakey Bot exposes a select few API endpoints to help you automate some of Cakey Bot's features and extend them into your own websites and bots. Note this API may change over time and endpoints may be added, changed or removed. If you would like to stay up-to-date on all of our changes regarding the API you should join our [support Discord](https://cakey.bot/discord).
 
 # Authentication
 Access to the API requires a valid API token, which can be generated from the "Bot Settings" page.

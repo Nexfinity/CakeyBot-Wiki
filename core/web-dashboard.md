@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2023-05-10T06:24:38.820Z
+date: 2023-11-12T16:30:21.013Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z
@@ -15,7 +15,7 @@ dateCreated: 2022-09-01T02:36:22.985Z
 
 ## Overview
 
-Cakey Bot is a highly customizable utility and moderation bot. You can configure many features and settings in Cakey Bot using our web dashboard. You can access our web dashboard by visiting [this link](https://cakeybot.app/dashboard/public) or by clicking "Manage Servers" in the navigation bar of our website.
+Cakey Bot is a highly customizable utility and moderation bot. You can configure many features and settings in Cakey Bot using our web dashboard. You can access our web dashboard by visiting [this link](https://cakey.bot/dashboard/public) or by clicking "Manage Servers" in the navigation bar of our website.
 
 Once you have selected a server to manage you will be taken to that server's home page. This page will show you general server stats and some basic bot settings like the default music volume, language, and command prefix. After you are on this page you can either modify these settings or navigate to other modules to configure.
 
@@ -23,7 +23,7 @@ Once you have selected a server to manage you will be taken to that server's hom
 
 ## Login
 
-You can login to our web dashboard by visiting [this link](https://cakeybot.app/dashboard/public). After you login you will be redirected to a list of servers that you are able to manage. If you attempt to open/manage a server that Cakey Bot is not in you will be directed to invite Cakey Bot. If Cakey Bot is in the server you will be redirected to the panel for that server.
+You can login to our web dashboard by visiting [this link](https://cakey.bot/dashboard/public). After you login you will be redirected to a list of servers that you are able to manage. If you attempt to open/manage a server that Cakey Bot is not in you will be directed to invite Cakey Bot. If Cakey Bot is in the server you will be redirected to the panel for that server.
 
 ## Manage/Customize
 

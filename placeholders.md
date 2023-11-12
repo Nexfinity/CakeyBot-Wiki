@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-10-26T05:31:07.360Z
+date: 2023-11-12T16:36:38.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -206,7 +206,7 @@ Examples:
 
 ## DM
 
-> In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakeybot.app/premium.php) placeholder.
+> In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakey.bot/premium.php) placeholder.
 {.is-info}
 
 > Cakey Bot can sometimes fail to send a DM if the user has their privacy settings set to block DMs from users in the server. This is NOT a bug and not something Cakey Bot can bypass.
@@ -243,7 +243,7 @@ _(Note: You don't need `{chance:100}` to make the bot respond all the time, simp
 Examples:
 
 ```asciidoc
-{linkbutton:(Cakey Bot)[https://cakeybot.app]}
+{linkbutton:(Cakey Bot)[https://cakey.bot]}
 {linkbutton:(Open Link)[https://google.com]}
 {linkbutton:(Some Random Text)[https://youtube.com]}
 ```
@@ -285,7 +285,7 @@ Examples:
 > **Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any server that Cakey Bot is in. (Similar to nitro users)
 {.is-warning}
 
-> Due to rate limit concerns, this is a [**Premium Only**](https://cakeybot.app/premium.html) placeholder to discourage abuse.
+> Due to rate limit concerns, this is a [**Premium Only**](https://cakey.bot/premium.php) placeholder to discourage abuse.
 {.is-info}
 
 You can also add reactions to responses (up to 3). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:

@@ -2,7 +2,7 @@
 title: Audit Log
 description: 
 published: 1
-date: 2023-11-06T05:32:02.118Z
+date: 2023-11-12T16:37:44.036Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:46.692Z
@@ -14,7 +14,7 @@ Cakey Bot has a very detailed feature-rich audit log, in addition to logging all
 
 # Enable/Disable Logging
 
-In order to start logging you will need to designate a text channel as the log channel. You can do this by selecting a channel in the [Web Dashboard](https://cakeybot.app/dashboard/public/) on the "Audit Log" page. In order to disable logging, simply select "none" in the channel dropdown list.
+In order to start logging you will need to designate a text channel as the log channel. You can do this by selecting a channel in the [Web Dashboard](https://cakey.bot/dashboard/public/) on the "Audit Log" page. In order to disable logging, simply select "none" in the channel dropdown list.
 
 > Cakey Bot will need access to Send/Read messages in the channel you designate as the audit log.
 {.is-warning}

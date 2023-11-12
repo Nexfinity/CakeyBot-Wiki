@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2023-11-10T10:58:18.834Z
+date: 2023-11-12T16:23:18.922Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -10,14 +10,14 @@ dateCreated: 2022-08-31T04:14:14.623Z
 
 # Getting Started
 
-> This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakeybot.app/dashboard/public) to manage your server.
+> This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakey.bot/dashboard/public) to manage your server.
 {.is-info}
 
 Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
 
 This documentation provides information on every module/feature, including the description, usage, and examples.
 
-If you need any additional help with Cakey Bot, ask in our [Discord server](https://cakeybot.app/discord)!
+If you need any additional help with Cakey Bot, ask in our [Discord server](https://cakey.bot/discord)!
 
 # Getting Started Video
 <div style="left: 0; width: 100%; height: 0; max-width: 560px; max-height: 315px; position: relative; padding-bottom: 315px;"><iframe src="https://www.youtube.com/embed/hC7pP4wKDIo?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; max-width: 560px; max-height: 315px; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
@@ -26,11 +26,11 @@ If you need any additional help with Cakey Bot, ask in our [Discord server](http
 
 ## Troubleshooting
 
-If you are having issues with the bot check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakeybot.app/faq.html). If you do not find your issue there you can also join our discord [support server](https://cakeybot.app/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there you can also join our discord [support server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 
-If you would like to make a suggestion or request a new feature you can also post these in our discord [support server](https://cakeybot.app/discord).
+If you would like to make a suggestion or request a new feature you can also post these in our discord [support server](https://https://cakey.bot/discord).
 
 ## Anonymous Feedback
 
@@ -41,7 +41,7 @@ In addition to this, we also accept anonymous feedback via this [google forms](h
 > You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {.is-warning}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
+You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
 
 ## Required Permissions:
 
@@ -106,7 +106,7 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakeybot.app/inv
 
 # Slash Commands
 
-Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else! You can find a full list of our available commands on our [website here](https://cakeybot.app/commands.html).
+Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else! You can find a full list of our available commands on our [website here](https://cakey.bot/commands.html).
 
 # Per-Server Settings (Web Dashboard)
 
@@ -115,7 +115,7 @@ Cakey Bot makes use of Discord's slash command system. Slash commands will promp
 
 After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, auto responders, audit logging, etc.
 
-You can access the web dashboard [here](https://cakeybot.app/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
+You can access the web dashboard [here](https://cakey.bot/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 
 You can configure advanced features like the ones listed below in the web dashboard:
 

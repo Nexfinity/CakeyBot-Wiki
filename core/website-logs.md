@@ -2,7 +2,7 @@
 title: Dashboard Audit Logs
 description: 
 published: 1
-date: 2022-12-22T00:53:32.823Z
+date: 2023-11-12T16:29:49.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:55:26.492Z
@@ -12,8 +12,8 @@ dateCreated: 2022-10-18T07:55:26.492Z
 Cakey Bot has a few different logs which can be found on the website. This includes changes to the Bot settings via the Dashboard, Moderation actions performed by Moderators or Auto Mod and lists of persistent roles or temporary actions applied to users.
 
 # How to locate your Website Logs
-1. Head over to the [Web Dashboard](https://cakeybot.app/dashboard/public) and select your server.
-2. Select the type of logs you want to look  at from the sidebar. ([Logs](https://cakeybot.app/dashboard/public/mod-logs), [Warnings](https://cakeybot.app/dashboard/public/warnings), [Persistent Roles](https://cakeybot.app/dashboard/public/persistent-roles) or [Temporary Actions](https://cakeybot.app/dashboard/public/temporary-actions))
+1. Head over to the [Web Dashboard](https://cakey.bot/dashboard/public) and select your server.
+2. Select the type of logs you want to look  at from the sidebar. ([Logs](https://cakey.bot/dashboard/public/mod-logs), [Warnings](https://cakey.bot/dashboard/public/warnings), [Persistent Roles](https://cakey.bot/dashboard/public/persistent-roles) or [Temporary Actions](https://cakey.bot/dashboard/public/temporary-actions))
 3. If you selected Logs, you can also narrow it down by selecting one of the Dashboard, Moderation or Auto Mod tabs.
 4. Scrolling down the page will reveal the options to switch pages as well as the number of results shown in the page.
 

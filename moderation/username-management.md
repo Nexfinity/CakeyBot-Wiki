@@ -2,7 +2,7 @@
 title: Username Management
 description: 
 published: 1
-date: 2022-11-21T05:06:14.300Z
+date: 2023-11-12T16:37:31.382Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:12:51.806Z
@@ -42,7 +42,7 @@ You can manually dehoist users by typing the `/managenicks dehoist` command in D
 
 ## Automatically Dehoist
 
-You can setup automatic dehoisting by logging into our [web dashboard](https://cakeybot.app/dashboard/public) and going to the "Auto Mod" page. Once on the page, simply enable the "Auto Dehoist" feature and Cakey Bot will start automatically dehoisting users.
+You can setup automatic dehoisting by logging into our [web dashboard](https://cakey.bot/dashboard/public) and going to the "Auto Mod" page. Once on the page, simply enable the "Auto Dehoist" feature and Cakey Bot will start automatically dehoisting users.
 
 > Note: Auto Dehoist will only apply to new users in the server or suers who change their nickname AFTER the feature has been enabled. For existing users you will need to manually dehoist them. After existing users have been dehoisted, auto dehoist will take affect for new nickname changes.
 {.is-info}

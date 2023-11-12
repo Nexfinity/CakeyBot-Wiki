@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2022-10-29T08:57:08.962Z
+date: 2023-11-12T16:35:20.099Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -26,5 +26,5 @@ You can force users to run the `/verify` command in order to be granted a role t
 
 In order to set the role that you want users to get, you will need to type `/setup verifyrole <role>`. You can also disable or remove the role by typing `/setup verifyrole 0`. If you want to change the role later, you can just run the initial setup command and type the new role and it will update the currently saved role.
 
-> **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakeybot.app/dashboard/public)!
+> **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakey.bot/dashboard/public)!
 {.is-success}

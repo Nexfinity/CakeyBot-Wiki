@@ -2,19 +2,19 @@
 title: Endpoints
 description: 
 published: 1
-date: 2023-06-13T05:25:20.897Z
+date: 2023-11-12T16:23:52.440Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T05:44:43.759Z
 ---
 
 # API Endpoints
-> We currently have no public endpoints. If you would be interested in playing with our API once we open up testing you can show your interest in our [support Discord](https://cakeybot.app/discord).
+> We currently have no public endpoints. If you would be interested in playing with our API once we open up testing you can show your interest in our [support Discord](https://cakey.bot/discord).
 {.is-warning}
 
 API Base URL:
 ```
-https://cakeybot.app/dashboard/public/api
+https://cakey.bot/dashboard/public/api
 ```
 
 # Default Response

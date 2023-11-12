@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2022-10-18T10:35:57.316Z
+date: 2023-11-12T16:29:25.463Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -33,22 +33,22 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 
 # Title Blacklist
 
-Cakey Bot also supports blacklisting specific words and phrases from song titles. This can be useful to discourage or prevent users from enqueueing abusing music (such as ear rape or inappropriate content). You can configure this list on the [web dashboard](https://cakeybot.app/dashboard/public) on the Music page.
+Cakey Bot also supports blacklisting specific words and phrases from song titles. This can be useful to discourage or prevent users from enqueueing abusing music (such as ear rape or inappropriate content). You can configure this list on the [web dashboard](https://cakey.bot/dashboard/public) on the Music page.
 
 # Default Volume
 
-By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakeybot.app/dashboard/public/) from 50 to any number between 0 and 100.
+By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakey.bot/dashboard/public/) from 50 to any number between 0 and 100.
 
 # Multiple Music Bots
 
-Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our premium page [here](https://cakeybot.app/dashboard/public/premium). Note that you must have premium enabled on the server in order to invite these additional music bots.
+Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our premium page [here](https://cakey.bot/dashboard/public/premium). Note that you must have premium enabled on the server in order to invite these additional music bots.
 
 # 24/7 Music
 
 > 24/7 music requires an active premium subscription to use due to increased CPU usage.
 {.is-warning}
 
-Cakey Bot has the ability to play music 24/7 and never leave a voice channel (except during bot restarts). You can enable this feature by toggling the "24/7 music" switch on the [Web Dashboard](https://cakeybot.app/dashboard/public) on the Music page.
+Cakey Bot has the ability to play music 24/7 and never leave a voice channel (except during bot restarts). You can enable this feature by toggling the "24/7 music" switch on the [Web Dashboard](https://cakey.bot/dashboard/public) on the Music page.
 
 # Supported Sources
 

@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2023-11-12T16:34:19.612Z
+date: 2023-11-12T16:34:44.720Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -81,7 +81,7 @@ Defaults to disabled. When enabled, it will ping the Support Team staff role whe
 ## Default Embed
 You can also create a fancy embed with a button that users can click to automatically open up tickets instead of using the slash commands as well. You can create this embed using the `/setup createticketembed default` command.
 
-> You can set a custom message for this default embed on the Web Dashboard!  You are also able to use [Basic Placeholders](placeholders) in this custom message.
+> You can set a custom message for this default embed on the Web Dashboard!  You are also able to use [Basic Placeholders](../../placeholders) in this custom message.
 {.is-info}
 
 ## Reason Categories

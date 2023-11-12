@@ -2,7 +2,7 @@
 title: Auto Role
 description: 
 published: 1
-date: 2022-10-18T08:44:28.163Z
+date: 2023-11-12T16:30:06.073Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:36.935Z
@@ -20,4 +20,4 @@ Auto Role allows you to make Cakey Bot automatically give a specific role to a m
 
 # Auto Role Command
 
-Auto Role will automatically assign the given role to users when they join your server. In order to set the Auto Role you will need to set it in the [Web Dashboard](https://cakeybot.app/dashboard/public/). You can also remove/disable the Auto Role feature by simply setting the role with "none" in the dropdown menu.
+Auto Role will automatically assign the given role to users when they join your server. In order to set the Auto Role you will need to set it in the [Web Dashboard](https://cakey.bot/dashboard/public/). You can also remove/disable the Auto Role feature by simply setting the role with "none" in the dropdown menu.

@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2023-10-23T05:38:49.050Z
+date: 2023-11-12T16:27:05.044Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -19,7 +19,7 @@ This feature allows you to set up custom trigegrs that Cakey Bot can automatical
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers and auto responders.
 {.is-warning}
 
-1. Login to the web dashboard on the [main website here](https://cakeybot.app/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
 2. Click on the server you want to edit auto responders on.
 3. Go to the "Auto Responder" page.
 4. You can then create, delete, and edit any responses on this page. You can get an overview of any flags that are available below.&#x20;
@@ -89,13 +89,13 @@ To use images in responses, you can simply just type the image URL/link like you
 
 # Custom Embeds
 
-> Using custom embeds on responses is a [**Premium Only**](https://cakeybot.app/premium.php) feature.
+> Using custom embeds on responses is a [**Premium Only**](https://cakey.bot/premium.php) feature.
 {.is-warning}
 
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.
-2. Use our [custom embed editor](https://cakeybot.app/dashboard/public/embed-editor) to design your embed.
+2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Create an auto responder like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
 
@@ -150,4 +150,4 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * It must be Base64 encoded and be less than 2,000 characters before Base64 encoding.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
-  * The URL must start with [https://cakeybot.app/dashboard/public/embed-editor?data=](https://cakeybot.app/dashboard/public/embed-editor)
+  * The URL must start with [https://cakeybot.app/dashboard/public/embed-editor?data=](https://cakey.bot/dashboard/public/embed-editor)

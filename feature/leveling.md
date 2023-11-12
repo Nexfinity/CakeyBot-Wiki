@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-10-25T03:49:55.404Z
+date: 2023-11-12T16:27:42.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -11,7 +11,7 @@ dateCreated: 2022-12-23T12:37:54.412Z
 # Overview
 Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features!
 
-> Migrating from MEE6? We can move all of your XP/user data from MEE6 into Cakey Bot seamlessly! Just open a support ticket on our [Support Discord](https://cakeybot.app/support).
+> Migrating from MEE6? We can move all of your XP/user data from MEE6 into Cakey Bot seamlessly! Just open a support ticket on our [Support Discord](https://cakey.bot/support).
 {.is-info}
 
 # Leveling Configuration
@@ -83,8 +83,8 @@ The default values for this setting are:
 
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
 
-For example, the default leaderboard URL will look something like this: `https://cakeybot.app/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
-If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakeybot.app/leaderboard/caketropolis` which is alot easier for users to remember.
+For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
+If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
 
 NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
 
@@ -143,7 +143,7 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 [![A demo profile card](/card.png)](/card.png)
 
 ## ![two cyan hands shaking](/cb-partner.png) Partner Badge
-This badge is given out to [our partners](https://cakeybot.app/partners.html), some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 4 users!
+This badge is given out to [our partners](https://cakey.bot/partners.html), some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 4 users!
 <br />
  
 ## ![two cyan hands shaking](/cb-translator.png) Translater Badge

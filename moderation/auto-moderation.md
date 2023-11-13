@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2023-11-12T16:36:04.924Z
+date: 2023-11-13T21:29:08.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -71,10 +71,15 @@ You view a list of category channels you can configure below:
 * Counting Only
 
 # Auto Ban
-Cakey Bot also allows you to automatically ban users when they join your server if certain conditions are met. This can help you automatically combat specific types of bot attacks if all of the attacking users meet the criteria.
+Cakey Bot also allows you to automatically ban users when they join your server if certain conditions are met. This can help you automatically combat specific types of bot attacks if all of the attacking users meet the criteria. 
+
+> Keep in mind these options are not intended to always be enabled as they can impact real users, however, they can be useful to combat certain types of bot/raid attacks. Especially if used in addition to regular auto moderation settings.
+{.is-info}
 
 You can automatically ban users when they join if they meet any of the criteria below:
+* Numeric Only Usernames
+  * This will automatically ban users whose entire username is nothing but numbers (for example: `534534534534`) as this is a commonly used naming scheme for some raids.
 * Invite in Username
 * Unverified Bots
-* New Accounts (<24 Hours Old)
+* New Accounts (<48 Hours Old)
 * No Avatar

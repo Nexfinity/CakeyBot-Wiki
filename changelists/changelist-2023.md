@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-06T05:34:03.799Z
+date: 2023-11-13T21:26:28.272Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# November 13th - Numeric Only Username Auto Ban
+## Added
+* Added new "Numeric Only Usernames" to auto mod ban options.
 
 # November 6th - Server Modified Audit Logs
 ## Added

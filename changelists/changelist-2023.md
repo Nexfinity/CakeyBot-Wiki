@@ -2,13 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-13T21:26:28.272Z
+date: 2023-11-13T23:22:06.346Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # November 13th - Numeric Only Username Auto Ban
+## Fixed
+* Fixed an issue where `{nomentions}` would not work on auto responders
+
 ## Added
 * Added new "Numeric Only Usernames" to auto mod ban options.
 

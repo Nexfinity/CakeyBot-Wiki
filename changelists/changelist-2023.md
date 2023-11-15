@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-14T03:53:15.306Z
+date: 2023-11-15T05:09:14.127Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# November 15th - Custom Emote Overrides
+## Added
+* Added support for custom emote overrides on custom bots.
 
 # November 13th - Numeric Only Username Auto Ban
 ## Fixed

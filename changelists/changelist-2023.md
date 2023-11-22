@@ -2,11 +2,17 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-20T06:08:38.285Z
+date: 2023-11-22T00:09:01.092Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# November 21st - Ticket Improvements
+## Added
+* Added new "Allow Feedback Rating" setting to Support Tickets
+* Added new "Blacklisted Roles" setting to Support Tickets
+* Added new "Embed Color" setting to Support Tickets
 
 # November 17th - Multi-Embed Support
 ## Added

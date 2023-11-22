@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2023-11-12T16:34:44.720Z
+date: 2023-11-22T00:08:27.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -76,12 +76,30 @@ Defaults to disabled. When enabled, it will ping the Support Team staff role whe
 > Note: You MUST have a Support Team role configured on the web dashboard or this setting will not do anyhting.
 {.is-info}
 
+## Allow Feedback Ratings
+This allows users to submit feedback ratings on the support they received inside of a ticket.
+
+How it works:
+1. Ticket is closed, transcript is created. (a transcript channel **MUST** be set for this feature to work)
+2. The bot will send a DM to the user notifying the user their ticket was closed and ask for feedback.
+3. The user can then rate their support between 1 and 5 stars.
+4. This feedback will be posted/updated on the transcript message for the ticket in the server for staff to review.
+
+> Note: Ticket transcripts must be enabled for this feature to work properly.
+{.is-warning}
+
+## Blacklisted Roles
+This allows you to prevent specific roles from creating tickets. This can be useful if you have users who are spamming or abusing the ticket system. This will blacklist users from creating tickets via the `/ticket new` command as well as any ticket embeds.
+
+## Embed Color
+This will modify the color for the initial embed that is created inside of newly created tickets.
+
 # Ticket Creation Embed
 
 ## Default Embed
 You can also create a fancy embed with a button that users can click to automatically open up tickets instead of using the slash commands as well. You can create this embed using the `/setup createticketembed default` command.
 
-> You can set a custom message for this default embed on the Web Dashboard!  You are also able to use [Basic Placeholders](../../placeholders) in this custom message.
+> You can set a custom message and a custom color for this default embed on the Web Dashboard! You are also able to use [Basic Placeholders](../../placeholders) in this custom message.
 {.is-info}
 
 ## Reason Categories

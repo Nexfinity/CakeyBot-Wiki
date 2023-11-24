@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2023-11-24T01:17:02.483Z
+date: 2023-11-24T09:36:27.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -15,6 +15,9 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 * Custom Bot Username
 * Custom Bot Bio
 * Better Performance
+
+> Note: It is important that you follow every step in this guide. If you skip or ignore steps or sections the bot will not work as expected or you may not be able to configure it on the web dashboard. Also please read the FAQ at the bottom of the page. It answers many common issues/questions. If you run into issues, please open a ticket on our [support Discord](https://cakey.bot/discord).
+{.is-danger}
 
 # Purchasing Custom Bot
 To purchase a Custom Bot simply follow these instructions:

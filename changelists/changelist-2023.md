@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-25T20:13:36.457Z
+date: 2023-11-25T20:14:20.068Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -27,13 +27,13 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * Added new "Blacklisted Roles" setting to Support Tickets
 * Added new "Embed Color" setting to Support Tickets
 
-# November 17th - Multi-Embed Support
-## Added
-* Added support for multiple embeds per-message using Cakey Bot's embed editor (used for things like auto responder, join/leave announcements, etc)
-
 # November 18th - Improved Git Previewer
 ## Added
 * Added support for GitHub pull request & issue URLs to the "Git Code Previewer"
+
+# November 17th - Multi-Embed Support
+## Added
+* Added support for multiple embeds per-message using Cakey Bot's embed editor (used for things like auto responder, join/leave announcements, etc)
 
 # November 15th - Custom Emote Overrides
 ## Added

@@ -2,11 +2,24 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-22T00:09:01.092Z
+date: 2023-11-25T20:13:36.457Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# November 23rd - Git Previewer Improvements
+## Fixed
+* Fixed several issues where `/trivia` and `Apps->Analyze Image` would fail
+* Fixed some issues where some GitHub PRs and Issue URLs would not display previews
+* Fixed several other misc. bugs
+
+## Changed
+* Song request embed no longer contains links back to Cakey Bot's website for Custom Bots
+
+## Added
+* Added check run status info to GitHub PR previewer
+* Added "Open on Github" button for GitHub PR & Issue previewer
 
 # November 21st - Ticket Improvements
 ## Added

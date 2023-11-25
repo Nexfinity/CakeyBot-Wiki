@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2023-11-12T16:27:05.044Z
+date: 2023-11-25T22:27:28.247Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -50,7 +50,7 @@ This feature allows you to set up custom trigegrs that Cakey Bot can automatical
     * **`?`** - Matches a single character
       * If you need to have a literal question mark in the trigger, you can escape it using a backslash: `\?`
 * Regex Match
-  * A more powerful version of the wildcard contains flag, allows you to amtch using a full regex
+  * A more powerful version of the wildcard contains flag, allows you to match using a full regex
   
 * Contains image attachment
   * Will check to see if any attachments contains one of these file extension types: `.jpg, .jpeg, .png, .gif, .bmp, .tiff, .ico, .svg, .webp, .heic, .heif, .jfif, .exif, .raw, .psd, .ai, .eps`

@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-11-27T04:18:58.022Z
+date: 2023-11-27T04:19:24.835Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -11,8 +11,8 @@ dateCreated: 2022-12-23T12:37:54.412Z
 # Overview
 Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features!
 
-<!--> Migrating from MEE6? We can move all of your XP/user data from MEE6 into Cakey Bot seamlessly! Just open a support ticket on our [Support Discord](https://cakey.bot/support).-->
-<!--{.is-info}-->
+> Migrating from MEE6? We can move all of your XP/user data from MEE6 into Cakey Bot seamlessly! Just open a support ticket on our [Support Discord](https://cakey.bot/support).
+{.is-info}
 
 # Leveling Configuration
 

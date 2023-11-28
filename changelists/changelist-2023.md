@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-28T20:08:26.962Z
+date: 2023-11-28T20:11:28.086Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -21,7 +21,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 ## Changed
 * Update Cakey's voice-to-text transcribe's default setting to "prompt" (Previously was disabled)
 
-# November 23rd - Git Previewer Improvements
+# November 25th - Git Previewer Improvements
 ## Fixed
 * Fixed several issues where `/trivia` and `Apps->Analyze Image` would fail
 * Fixed some issues where some GitHub PRs and Issue URLs would not display previews

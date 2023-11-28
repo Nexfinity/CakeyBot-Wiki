@@ -2,11 +2,24 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-25T20:14:20.068Z
+date: 2023-11-28T20:08:26.962Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# November 28th - Localization & Voice Transcibe Fixes
+## Fixed
+* Fixed all slash commands not being properly localized to the selected language on the server. 
+* Fixed several issues where voice-to-text transcriptions for Discord audio messages would fail to generate or send. (Including adding a few proper error messages)
+* Fixed an issue where Cakey's voice-to-text transcribe system would attempt to transcribe voice messages that are shorter than 1 second (and fail lol)
+* Fixed an issue where Cakey's `/kick` command would not properly create an audit log reason for the kick
+* Fixed an issue where "Apps->Analyze Image" would fail on valid images
+* Fixed several issues where `/trivia` would fail to respond correctly
+* Fixed several misc. bugs
+
+## Changed
+* Update Cakey's voice-to-text transcribe's default setting to "prompt" (Previously was disabled)
 
 # November 23rd - Git Previewer Improvements
 ## Fixed

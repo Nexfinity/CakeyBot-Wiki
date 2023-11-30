@@ -2,13 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-11-30T19:39:16.901Z
+date: 2023-11-30T23:26:36.941Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
 # November 30th - Trivia Fix
+## Added
+* Added new "Apps->Analyze URL/Link" context menu option
+
 ## Fixed
 * Fixed `/trivia` errors when trying to click an answer button
 * Fixed `/poll`, `/suggestion` & `/b64encodeimage` permission checks

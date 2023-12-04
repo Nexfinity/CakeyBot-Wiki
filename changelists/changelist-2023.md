@@ -2,13 +2,18 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-03T21:05:54.199Z
+date: 2023-12-04T19:15:46.502Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
 
-December 3rd - Auto Responder Embed Fix
+# December 4th - /rp ship Improvements
+## Changed
+* The `/rp ship` command now uses a seed system so that if you ship the same users multiple timea, they will receive the same compatibility.
+* Updated the `/rp ship` command so the second user is optional. If you don't specify a second user the command will automatically ship you with the first provided user.
+
+# December 3rd - Auto Responder Embed Fix
 ## Fixed
 * Fixed an issue where new multi-embed auto responders would not parse specific fields correctly (images, footer, fields, etc).
 

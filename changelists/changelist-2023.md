@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-04T19:16:10.236Z
+date: 2023-12-07T06:38:22.489Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 7th - Playlist Premium Bug Fix
+## Fixed
+* Fixed an issue where `/playlist load` didn't properly check a server's premium status for large playlists/queues.
 
 # December 4th - /rp ship Improvements
 ## Changed

@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-11-12T16:30:50.051Z
+date: 2023-12-07T06:30:28.320Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -48,7 +48,7 @@ Here are some step-by-step instructions on how to apply premium to servers:
 1. Open the [web dashboard](https://cakey.bot/dashboard/public).
 2. Select the "Premium" page from the left sidebar.
 3. Scroll down until you see "Premium Servers", then click "Add Server".
-4. Select the server and the subscription from the downdown menus.
+4. Select the server and the subscription from the dropdown menus.
 5. Click on the green "Add Server" button to confirm.
 # How to Remove Premium from Servers
 Here are some step-by-step instructions on how to remove premium from servers:

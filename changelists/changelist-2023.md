@@ -2,11 +2,16 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-17T06:59:57.302Z
+date: 2023-12-19T08:22:03.437Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 19th - Leveling/XP Improvements
+## Added
+* Added the ability to automatically import MEE6 leveling/xp data with the `/setup import-mee6-levels` command!
+* Added the ability to export your Cakey Bot leveling/xp data to a csv file with the `/setup export-cakey-levels` command
 
 # December 17th - Twitch & Invite Tracking Fix
 ## Fixed

@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-12-19T08:24:40.111Z
+date: 2023-12-19T08:25:34.753Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -22,7 +22,7 @@ This disables or enables message leveling in the server.
 {.is-info}
 
 ## Voice Leveling Enabled
-This disables or enables voice leveling in the server. You can keep this disabled while regular leveling is enabled so that users only earn XP for emssages if you wish.
+This disables or enables voice leveling in the server. You can keep this disabled while regular leveling is enabled so that users only earn XP for messages if you wish.
 
 ## Remove Roles on Demotion
 Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user gets demoted via the `/manage-xp` or `/manage-level` commands.

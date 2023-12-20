@@ -2,11 +2,17 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-19T08:22:03.437Z
+date: 2023-12-20T11:45:16.504Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 20th - Misc Bug Fixes
+## Fixed
+* Fixed not being able to update/set leveling rank card background image
+* Fixed `/setup import-mee6-levels` command not working
+* Fixed an issue where `/manage-xp` & `/manage-levels` commands would apply to the user running the command instead of the selected user
 
 # December 19th - Leveling/XP Improvements
 ## Added

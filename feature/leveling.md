@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2023-12-19T08:25:34.753Z
+date: 2023-12-20T10:13:03.658Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -13,6 +13,24 @@ Cakey Bot provides all servers with free role rewards and leaderboards. Configur
 
 > Migrating from MEE6? You can automatically import your leveling/xp data with the `/setup import-mee6-levels` command!
 {.is-info}
+
+# Importing/Exporting Leveling Data
+## Importing
+Cakey Bot makes it extremely easy to import your data from external/third-party bots! Currently we have support to automatically import data from these bots:
+* MEE6
+
+Don't see your prevous leveling/xp bot in the list above? No problem! You can still use the `/manage-levels` and `/manage-xp` commands to manually migrate your user data to Cakey Bot! Unlike some other bots, bot of these commands are completely free to use!
+
+In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-mee6-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
+
+> Note that importing data will **WIPE** all existing leveling data for your server. This process can not be reversed so be sure before you run the command.
+{.is-warning}
+
+## Exporting
+We believe in vastly different philosophy than our competitors and as end-users of these kinds of systems ourselves in the past, we understand the pain and frustrations some of the other options give you.
+All of which is why we allow you to export/download your leveling data at any time, instantly and completely for free!
+
+In order to export your data, simple run the `/setup export-mee6-levels` command and you'll receive a CSV file with all of your data. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 
 # Leveling Configuration
 

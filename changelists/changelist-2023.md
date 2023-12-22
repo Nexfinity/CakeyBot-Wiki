@@ -2,11 +2,18 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-20T11:45:16.504Z
+date: 2023-12-22T03:59:34.958Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 21st - More Bug Fixes
+## Fixed
+* Fixed some issues where Twitch would send duplicated alerts
+* Added some validation to improve `/birthday set` command
+* Fixed an issue where `/leaderboard` would take along time to load on large servers
+* Misc. bug fixes
 
 # December 20th - Misc Bug Fixes
 ## Fixed

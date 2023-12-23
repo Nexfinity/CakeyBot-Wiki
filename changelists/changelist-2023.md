@@ -2,11 +2,20 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-22T03:59:34.958Z
+date: 2023-12-23T06:20:31.284Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 23rd - Birthday Improvements
+## Changed
+* Added Discord timestamps to `/birthday next`
+* Added Discord timestamps to `/birthday view`
+* Updated `/birthday set` to use enums/text selection for months instead of raw number input
+
+## Added
+* Added the ability to ignore/whitelist partnered & verified servers for Discord Invite Auto Mod check
 
 # December 21st - More Bug Fixes
 ## Fixed

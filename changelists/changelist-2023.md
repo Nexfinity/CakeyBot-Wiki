@@ -2,11 +2,15 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-23T06:20:31.284Z
+date: 2023-12-28T18:59:26.433Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
 ---
+
+# December 28th - Avatar Decorations
+## Changed
+* The `/avatar` command now supports avatar decorations.
 
 # December 23rd - Birthday Improvements
 ## Changed

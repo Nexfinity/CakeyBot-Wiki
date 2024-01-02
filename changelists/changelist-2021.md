@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-02T10:18:16.243Z
+date: 2024-01-02T10:20:09.005Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -759,7 +759,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Added
 
 * Added `!persistrole` as alias to `!persistentrole`
-* New placeholder! Add link buttons on custom commands/auto responders `{linkbutton:(text)[url]}`. Read more [here](https://docs.cakeybot.app/setup/placeholders-variables#link-url-buttons).
+* New placeholder! Add link buttons on custom commands/auto responders `{linkbutton:(text)[url]}`. Read more [here](https://docs.cakey.bot/setup/placeholders-variables#link-url-buttons).
 
 # 6/15/2021 - Web Dashboard + Locale Updates
 

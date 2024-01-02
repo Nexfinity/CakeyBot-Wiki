@@ -2,7 +2,7 @@
 title: Changelist 2022
 description: 
 published: 1
-date: 2024-01-02T10:05:23.762Z
+date: 2024-01-02T10:21:47.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:13.252Z
@@ -128,7 +128,7 @@ dateCreated: 2022-10-18T07:50:13.252Z
 
 ### Added
 * Support Tickets now use a fancy web-based transcript system
-  * Preview: https://transcript.cakeybot.app/5A8AB16621EDAE968C99C4B3C.html
+  * Preview: https://transcript.cakey.bot/5A8AB16621EDAE968C99C4B3C.html
 * Added the ability to anonymously respond to support tickets with `/ticket anonreply <message>`
 
 # Oct 22nd - Support Ticket Categories
@@ -191,7 +191,7 @@ dateCreated: 2022-10-18T07:50:13.252Z
   * You can view your current usage and limits on the "Bot Settings" page of the web dashboard
   * You can purchase higher limits on the premium page by modifying your existing subscriptions. 
     * Starts at $1 per 500 additional requests
-    * For more info checkout our guide posted here: [https://wiki.cakeybot.app/feature/ai-chat-bot#request-limit](../feature/ai-chat-bot#request-limit)
+    * For more info checkout our guide posted here: [https://wiki.cakey.bot/feature/ai-chat-bot#request-limit](https://wiki.cakey.bot/en/feature/ai-chat-bot#request-limit)
 
 # Oct 13th - Music Bug Fix
 
@@ -810,7 +810,7 @@ dateCreated: 2022-10-18T07:50:13.252Z
 ### Added
 
 * You can now attach a custom embed to your auto responders and custom commands!
-* To create an embed, log in to our web dashboard and navigate to the "**Embed Editor**" page which will take you to: [https://cakeybot.app/dashboard/public/embed-editor](https://cakeybot.app/dashboard/public/embed-editor). Once on this page, you can customize the embed to your heart's content and copy the browser URL. You then take the browser URL you copied and paste it into the embed or custom command of your choice in the "**Embed URL**" input field.
+* To create an embed, log in to our web dashboard and navigate to the "**Embed Editor**" page which will take you to: [https://cakey.bot/dashboard/public/embed-editor](https://cakey.bot/dashboard/public/embed-editor). Once on this page, you can customize the embed to your heart's content and copy the browser URL. You then take the browser URL you copied and paste it into the embed or custom command of your choice in the "**Embed URL**" input field.
 * Note: For the time being custom embeds will be limited to Premium servers only.
 
 # April 5th - Song Thumbnails

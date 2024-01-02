@@ -2,7 +2,7 @@
 title: Changelist 2022
 description: 
 published: 1
-date: 2023-01-02T17:58:46.862Z
+date: 2024-01-02T09:57:21.292Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:13.252Z
@@ -225,8 +225,8 @@ dateCreated: 2022-10-18T07:50:13.252Z
 ### Added
 
 * Added the ability to bulk import/export custom command and auto responder data. Read more details on our doc pages below:
-  * Custom Commands: [https://docs.cakeybot.app/tools-and-utilities/custom-commands#bulk-import-export](../custom-commands#bulk-importexport)
-  * Auto Responders: [https://docs.cakeybot.app/tools-and-utilities/auto-responder#bulk-import-export](../auto-responder#bulk-importexport)
+  * Custom Commands: [https://wiki.cakey.bot/en/auto-responder#bulk-import-export](../en/auto-responder#bulk-importexport)
+  * Auto Responders: [https://wiki.cakey.bot/en/auto-responder#bulk-import-export](../en/auto-responder#bulk-importexport)
 
 # Oct 5th - Snipe Removal
 

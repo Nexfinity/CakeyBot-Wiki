@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2023-12-28T18:59:26.433Z
+date: 2024-01-02T10:04:23.119Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -482,10 +482,10 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * A bug that caused the Spotify autocompleter to fail when a song title exceeded 100 characters has been fixed.
 
 ## Changed
-* We have rewrote our entire announcement system for Cakey Bot! You can checkout more on our wiki page [here](/feature/announcements).
+* We have rewrote our entire announcement system for Cakey Bot! You can checkout more on our wiki page [here](https://wiki.cakey.bot/en/feature/announcements).
 
 ## Added
-* The new `/perms` command lets you manage permissions for Cakey Bot commands on the public bot, it does not function on White Label Bots. You can learn more about it in the [Command Perms](/moderation/command-perms) documentation page.
+* The new `/perms` command lets you manage permissions for Cakey Bot commands on the public bot, it does not function on White Label Bots. You can learn more about it in the [Command Perms](https://wiki.cakey.bot/en/core/setup-permissions) documentation page.
 
 # May 16th - Chat Bot AI Accents
 ## Added

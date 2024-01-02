@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2023-11-12T16:29:25.463Z
+date: 2024-01-02T10:15:26.061Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -15,7 +15,7 @@ dateCreated: 2022-10-18T08:01:58.307Z
 
 # Overview
 
-Cakey Bot can play music from multiple sources which you can view a full list of [here](../music/supported-sources). In order to listen to music you will need to follow the steps below.
+Cakey Bot can play music from multiple sources which you can view a full list of [here](https://wiki.cakey.bot/en/music/supported-sources). In order to listen to music you will need to follow the steps below.
 
 1. Join a voice channel that Cakey bot has access to join/speak in
 2. Type `/play <song>` (The `/play` command will auto-summon Cakey Bot)
@@ -54,4 +54,4 @@ Cakey Bot has the ability to play music 24/7 and never leave a voice channel (ex
 
 Cakey Bot supports many different sources including Twitch and Youtube!
 
-You can view all of our current and planned music sources on [this page](../music/supported-sources).
+You can view all of our current and planned music sources on [this page](https://wiki.cakey.bot/en/music/supported-sources).

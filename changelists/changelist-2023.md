@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2024-01-02T10:04:23.119Z
+date: 2024-01-02T10:17:07.487Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -331,7 +331,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 # Aug 5th - Leaderboard Vanity URLs
 ## Added
-* Added the ability to set a custom vanity URL for your leveling/XP leaderboards! For example: https://cakeybot.app/leaderboard/caketropolis
+* Added the ability to set a custom vanity URL for your leveling/XP leaderboards! For example: https://cakey.bot/leaderboard/caketropolis
 
 # July 7th - Bug Fixes
 ## Fixed
@@ -512,7 +512,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 * In preparation for White Label bots, we have migrated @Cakey Bot over to a dockerized container system. We've fixed most of the issues we ran into but there could still be a few issues/bugs. Please report any bugs or issues that you notice over the next week so we can get them fixed!
 
 ## Added
-* In addition this this, we also released the Chat Bot AI to ALL servers! Non-premium servers will now get a FREE 20 requests/month while premium servers will retain the current 500 requests/month. You can check out how to enable this feature on our wiki here: [https://wiki.cakeybot.app/en/feature/ai-chat-bot](https://wiki.cakeybot.app/en/feature/ai-chat-bot)
+* In addition this this, we also released the Chat Bot AI to ALL servers! Non-premium servers will now get a FREE 20 requests/month while premium servers will retain the current 500 requests/month. You can check out how to enable this feature on our wiki here: [https://wiki.cakey.bot/en/feature/ai-chat-bot](https://wiki.cakey.bot/en/feature/ai-chat-bot)
 
 # May 9th - Leveling/QOL Role Rewards
 ## Fixed

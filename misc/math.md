@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2023-09-07T21:24:03.147Z
+date: 2024-01-02T10:25:22.611Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -48,7 +48,7 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * Information \(Kb, Mb, Gb, etc\)
 * Volume
 
-> You can find a list of supported units [here](math-command.md#supported-units).
+> You can find a list of supported units [here](https://wiki.cakey.bot/en/misc/math#supported-units).
 {.is-info}
 
 ## Operators

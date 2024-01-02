@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2023-12-07T06:30:28.320Z
+date: 2024-01-02T10:04:47.247Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -32,7 +32,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 - Custom Emotes
 - Better Performance
 
-> For instructions on how to purchase and setup Custom Bot subscriptions, check out our dedicated page [here](/core/setup-custom-bot).
+> For instructions on how to purchase and setup Custom Bot subscriptions, check out our dedicated page [here](https://wiki.cakey.bot/en/core/setup-custom-bot).
 {.is-info}
 
 # How to Purchase Premium

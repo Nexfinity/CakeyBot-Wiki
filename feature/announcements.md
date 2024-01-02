@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2023-11-12T16:33:38.155Z
+date: 2024-01-02T10:14:57.473Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -45,7 +45,7 @@ Premium users can also set a custom embed for join/leave announcements too! To s
 
 # Placeholders
 
-Announcements will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](../placeholders).
+Announcements will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders).
 
 > Announcements will **NOT** work with the **Advanced Placeholders**.
 {.is-warning}

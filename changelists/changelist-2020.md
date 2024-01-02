@@ -2,7 +2,7 @@
 title: Changelist 2020
 description: 
 published: 1
-date: 2022-10-18T20:10:44.828Z
+date: 2024-01-02T10:10:14.068Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:55.602Z
@@ -12,7 +12,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ### Added
 
-* Released more [Advanced Placeholders](../other-misc/placeholders-variables.md#advanced-placeholders):
+* Released more [Advanced Placeholders](https://wiki.cakey.bot/en/placeholders#advanced-placeholders):
   * Released `{require:}` placeholders - You can now specify specific channels/users where a command can be used.
   * Released `{not:x}` placeholders - You can now specify specific channels/users where a command can not be used.
 
@@ -20,7 +20,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ### Added
 
-* Released more [Advanced Placeholders](../other-misc/placeholders-variables.md#advanced-placeholders):
+* Released more [Advanced Placeholders](https://wiki.cakey.bot/en/placeholders#advanced-placeholders):
   * `{deleteafter:x}` - Delete the response after X amount of seconds. Replace the x with a number between 1 and 9.
   * `{confirmdelete}` - Add a trashcan reaction to the response that deletes it after it is clicked. (Similar to AFK messages)
   * `{respond:#channel}` - The channel that the command will send the response to
@@ -67,7 +67,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ### Added
 
-* Added first "[Advanced Placeholder](../other-misc/placeholders-variables.md#advanced-placeholders)": `{delete}`
+* Added first "[Advanced Placeholder](https://wiki.cakey.bot/en/placeholders#advanced-placeholders)": `{delete}`
 
 # 12/19/2020 - Among Us Gif
 
@@ -282,12 +282,12 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ### Fixed
 
-* Fixed Join/Leave announcements (They will now work with [Basic Placeholders](../other-misc/placeholders-variables.md#basic-placeholders) as intended)
+* Fixed Join/Leave announcements (They will now work with [Basic Placeholders](https://wiki.cakey.bot/en/placeholders#basic-placeholders) as intended)
 * Improved voice channel join checks (Now checks for user limit AND permissions)
 
 ### Added
 
-* New [audit log](../tools-and-utilities/audit-log.md#audit-events)[ events](../tools-and-utilities/audit-log.md#audit-events)!
+* New [audit log events](https://wiki.cakey.bot/en/moderation/audit-log#audit-events)!
   * Invite Created
   * Invite Deleted
   * User Joined/Left/Swapped voice channels
@@ -443,7 +443,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
   * Contains - Will search entire message to see if it contains this string/trigger
   * Begins With - Will check to see if the message begins with this string/trigger
   * Ends With - Will check to see if the message ends with this string/trigger
-* Added placeholder support to Auto Responder & Custom Commands. You can view these [here](../other-misc/placeholders-variables.md#basic-placeholders).
+* Added placeholder support to Auto Responder & Custom Commands. You can view these [here](https://wiki.cakey.bot/en/placeholders#basic-placeholders).
 
 # 8/4/2020
 
@@ -473,7 +473,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added a new role verification command. Read more [here](../tools-and-utilities/verification-role.md).
+* Added a new role verification command. Read more [here](https://wiki.cakey.bot/en/feature/verification-role).
 
 # 6/10/2020 - The Equalizer Update
 
@@ -530,7 +530,6 @@ dateCreated: 2022-10-18T07:50:55.602Z
 ## Added
 
 * You can now use moderator commands silently.
-  * See more information [here](../tools-and-utilities/moderation.md#silent-actions).
 
 # 4/27/2020 - Temporary Moderation
 
@@ -617,7 +616,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added the ability to use an image banner instead of custom text for join/leave announcements. More info can be found [here](../tools-and-utilities/join-leave-ban-announcements.md#image-banner-announcements).
+* Added the ability to use an image banner instead of custom text for join/leave announcements. More info can be found [here](https://wiki.cakey.bot/en/feature/announcements#image-banner-announcements).
 * Added new `!covid <country>` command to keep up-to-date with the COVID-19 pandemic.
 * Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a server.
 
@@ -637,7 +636,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 * Reminders
   * Maximum time limit for reminders is 1 month
   * You can not currently list/remove reminders, this functionality will be added later.
-  * You can more more information and usage details [here](../tools-and-utilities/reminders.md).
+  * You can more more information and usage details [here](https://wiki.cakey.bot/en/feature/reminders).
 
 # 3/19/2020 - Song Request Channel
 
@@ -656,7 +655,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
   * Control your music and view a real-time updated queue list in a dedicated music text channel!
   * Tired of using commands to add new songs? Just type your song name/url into the channel and it'll be auto-queued!
   * Prefer using commands? That's fine! If you have the music embed setup, it'll automatically update with song/queue info even if you keep using commands!
-  * More information including usage and setup can be found [here](../music/song-request-channel.md).
+  * More information including usage and setup can be found [here](https://wiki.cakey.bot/en/music/song-request-channel).
 
 # 3/18/2020
 
@@ -668,7 +667,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 ## Added
 
 * Song Request channel
-  * You can view more information about this [here](../music/music-basics.md#song-request-channel).
+  * You can view more information about this [here](https://wiki.cakey.bot/en/music/song-request-channel).
 
 # 3/6/2020
 
@@ -687,7 +686,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added documentation to the [custom commands](../tools-and-utilities/custom-commands.md#using-emote-emotes-in-commands) section explaining how to use emoji/emotes in them
+* Added documentation to the [custom commands](https://wiki.cakey.bot/en/auto-responder#using-emote-emotes-in-commands) section explaining how to use emoji/emotes in them
 * Added music support for Vlare.tv AND MP4 web URLs
 
 # 2/25/2020 - Spotify Music Support
@@ -807,7 +806,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added a `!math` command. To see a list of features you can check out [this page](../other-misc/math-command.md).
+* Added a `!math` command. To see a list of features you can check out [this page](https://wiki.cakey.bot/en/misc/math).
 
 # 1/14/2020
 

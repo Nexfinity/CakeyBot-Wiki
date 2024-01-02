@@ -2,7 +2,7 @@
 title: Changelist 2019
 description: 
 published: 1
-date: 2023-08-26T18:21:52.379Z
+date: 2024-01-02T10:17:39.127Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:51:15.306Z
@@ -33,7 +33,7 @@ dateCreated: 2022-10-18T07:51:15.306Z
 ### Added
 
 * Support for "DJ" role instead of Server Moderator permissions on music commands
-* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](https://cakeybot.app/faq.html).
+* Added Cakey Bot's definition of a "Server Moderator" to the [FAQ](https://cakey.bot/faq.html).
 
 # 12/28/2019 - Soundcloud Support Added
 

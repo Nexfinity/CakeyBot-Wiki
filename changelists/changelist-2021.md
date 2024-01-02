@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-02T10:12:24.742Z
+date: 2024-01-02T10:18:16.243Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -807,7 +807,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Changed
 
 * Updated Cakey Bot's invite to no longer request administrator while inviting
-  * [https://cakeybot.app/invite](https://cakeybot.app/invite)
+  * [https://cakey.bot/invite](https://cakey.bot/invite)
 * Updated website navbar buttons to be consistent across all pages (Previously colors were inverted on some pages)
 * Pushed Korean and Swedish translations live
 

@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2023-11-25T22:27:28.247Z
+date: 2024-01-02T10:13:18.834Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -74,7 +74,7 @@ This feature allows you to set up custom trigegrs that Cakey Bot can automatical
 
 # Placeholders/Variables
 
-Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the list of supported placeholders [here](../placeholders).
+Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placeholders**. Placeholders can be included in the response section and can modify the behavior/output of the response. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders).
 
 # Using Emoji/Emotes in Responses
 
@@ -99,7 +99,7 @@ You can include an optional embed on responses by following the steps below:
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Create an auto responder like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
 
-> Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](../placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
+> Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
 {.is-info}
 
 # Bulk Import/Export
@@ -150,4 +150,4 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * It must be Base64 encoded and be less than 2,000 characters before Base64 encoding.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
-  * The URL must start with [https://cakeybot.app/dashboard/public/embed-editor?data=](https://cakey.bot/dashboard/public/embed-editor)
+  * The URL must start with [https://cakey.bot/dashboard/public/embed-editor?data=](https://cakey.bot/dashboard/public/embed-editor)

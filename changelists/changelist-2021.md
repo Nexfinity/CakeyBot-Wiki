@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-02T10:01:11.875Z
+date: 2024-01-02T10:12:24.742Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -1144,7 +1144,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Added
 
 * Re-enabled advanced purge filters
-  * Also added documentation for this [here](../tools-and-utilities/moderation.md#advanced-purge-filters).
+  * Also added documentation for this [here](https://wiki.cakey.bot/en/moderation/purging#advanced-purge-filters).
   * Added pastebin message logs for advanced purges
   * Added aliases for common typos on types
   * Audit log for delete now displays the original specified amount to help remove confusion
@@ -1221,7 +1221,3 @@ As part of prep towards fully implementing slash commands and their extremely li
   * Load Larger Music Playlists (50 => Unlimited)
   * Access to `{dm}` placeholders in Custom commands/Auto Responder
   * Custom `!query` Background Banner Images
-  *
-    * More Coming Soon
-
-.

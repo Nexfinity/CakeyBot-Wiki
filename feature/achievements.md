@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-03T05:26:56.463Z
+date: 2024-01-03T05:27:05.454Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -14,6 +14,7 @@ dateCreated: 2023-12-18T10:08:47.560Z
 
 # Create/Manage Achievements
 ## Create Achievements
+## Delete Achievements
 
 # Types of Achievements
 ## Progression-Based Achievements

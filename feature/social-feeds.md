@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2024-01-04T01:45:53.323Z
+date: 2024-01-04T20:18:38.657Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -43,4 +43,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 ![](/reddit.png)
 
 ## Generic RSS 
+> **Notice:** Currently Atom & RSS 2.0 feeds are supported. Other feeds might work but are NOT guarenteed.
+{.is-info}
+
 ![](/image_(11).png)

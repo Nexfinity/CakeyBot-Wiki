@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: 
 published: 1
-date: 2022-10-18T10:20:49.978Z
+date: 2024-01-04T14:55:35.725Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -19,7 +19,7 @@ In order to set up this feature you must have **`Manage Server`** permissions. Y
 
 In this new channel, you will see a fancy embed with 6 buttons added to it and a block of text with more information above it. Do NOT delete this message. If you do, you will need to delete the channel and run the setup again.
 
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031874422367326268/unknown.png)
+![](/song_request.png)
 
 > You can freely rename and move the song request channel into other categories after it's created without any issues as Cakey Bot uses the channel ID to update the messages.
 {.is-success}

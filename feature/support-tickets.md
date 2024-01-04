@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2024-01-02T10:13:51.500Z
+date: 2024-01-04T14:52:30.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -15,7 +15,7 @@ dateCreated: 2022-10-18T08:20:47.352Z
 
 Cakey Bot's support ticket system allows your users to make tickets and get 1 on 1 support from your support team. You can easily manage tickets via Discord's button system and even save transcripts of the ticket history.
 
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031875438550712330/unknown.png)
+![](/tickets1.png)
 
 # Configure Tickets
 
@@ -46,7 +46,7 @@ Once a user has closed a ticket, Cakey Bot will send an embed with three differe
 * **Delete:** This option will delete the ticket and clears the channel history.
   * This option does NOT save a transcript unless auto-save is enabled.
 
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031875438886273095/unknown.png)
+![](/tickets2.png)
 
 # Ticket Management
 ## Add User

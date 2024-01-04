@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2023-11-14T20:30:40.025Z
+date: 2024-01-04T14:54:52.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -13,7 +13,7 @@ dateCreated: 2022-10-18T08:00:48.805Z
 > **Quick reminder:** You must include the brackets { } when typing the placeholder so Cakey Bot knows to replace it with the correct values.
 {.is-success}
 
-![Example usage of placeholders](https://cdn.discordapp.com/attachments/690401612254019625/1031875605341425695/unknown.png)
+![Example usage of placeholders](/placeholders1.png)
 
 > Don't know how to find role/channel/user IDs? You can use this extremely detailed and easy to follow guide [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) written by Discord.
 {.is-info}
@@ -333,4 +333,4 @@ $3+ represents all the arguments after the first one in the command call (big fi
 > **Remember:** Do **not** include this variable in the initial command/trigger. Place $1 $2 and so on **only** in the _response_ field.&#x20;
 {.is-info}
 
-![The diagram above is a visual representation of how argument variables work in auto responders.](https://cdn.discordapp.com/attachments/690401612254019625/1031875605630824448/unknown.png)
+![The diagram above is a visual representation of how argument variables work in auto responders.](/placeholders2.png)

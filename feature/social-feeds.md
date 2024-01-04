@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2023-11-12T16:37:21.361Z
+date: 2024-01-04T01:45:53.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -28,16 +28,19 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 # Previews
 # Tabs {.tabset}
 ## Twitch
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752249331763/unknown.png)
+![](/twitch.png)
 
 ## YouTube
 > **Notice:** Due to how slowly YouTube's video RSS feeds update, upload notifications can be delayed _UP TO_ 30 minutes after the actual upload time. &#x20;
 {.is-warning}
 
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752614244352/unknown.png)
+![](/youtube2.png)
 
 ## Reddit
 > Reddit feeds currently require a [premium subscription](https://cakey.bot/premium.php) to use due to rate limit concerns.
 {.is-warning}
 
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031874752962383942/unknown.png)
+![](/reddit.png)
+
+## Generic RSS 
+![](/image_(11).png)

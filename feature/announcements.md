@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-01-02T10:14:57.473Z
+date: 2024-01-04T14:48:35.914Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -37,7 +37,7 @@ You can set/modify messages and the announcement channel via our [web dashboard]
 You can also use a fancy banner picture for your join/leave announcements too! In order to set an image banner as your join/leave message just toggle the "Image Banner" setting to enabled. You can also choose a custom banner image to use if you have a [premium subscription](https://cakey.bot/premium.php). Custom banners must be uploaded to [PostImg](https://postimg.cc/) and the PostImg URL can then posted in the "Banner Background Image" field.
 
 Default join/leave banner images:
-![](https://cdn.discordapp.com/attachments/690401612254019625/1031874617456996392/unknown.png)
+![](/announcements2.png)
 
 # Embed Announcements
 

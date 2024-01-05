@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-01-02T10:13:18.834Z
+date: 2024-01-05T07:08:15.743Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T07:56:56.699Z
 
 # Overview
 
-This feature allows you to set up custom trigegrs that Cakey Bot can automatically respond to. For example, you can make Cakey Bot respond to messages such as `wot` with a link to a funny gif. You can also set some flags to determine what types of messages Cakey Bot will respond to.
+This feature allows you to set up custom triggers that Cakey Bot can automatically respond to. For example, you can make Cakey Bot respond to messages such as `wot` with a link to a funny gif. You can also set some flags to determine what types of messages Cakey Bot will respond to.
 
 ![image.png](/dash/autoresp/image.png)
 

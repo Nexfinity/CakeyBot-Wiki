@@ -2,14 +2,14 @@
 title: Warnings
 description: 
 published: 1
-date: 2023-11-12T16:32:38.523Z
+date: 2024-01-06T12:20:28.691Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
 ---
 
 # Overview
-Warnings will record the date the warning was received, the reason as well as the moderator who made the warning. Warnings will also automatically post to your [Audit Log](audit-log) if you have one set up for Cakey Bot. This makes it useful to record previous moderation history for a user and allows you to impost stronger moderation punishments for repeat offenders.
+Warnings will record the date the warning was received, the reason as well as the moderator who made the warning. Warnings will also automatically post to your [Audit Log](https://wiki.cakey.bot/en/moderation/audit-log) if you have one set up for Cakey Bot. This makes it useful to record previous moderation history for a user and allows you to impost stronger moderation punishments for repeat offenders.
 
 # Usage
 ## Warn Users

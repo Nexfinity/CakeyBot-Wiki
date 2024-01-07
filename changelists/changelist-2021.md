@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-02T10:20:09.005Z
+date: 2024-01-07T13:36:58.987Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -484,7 +484,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 
 * Added new Tags system!
   * You can now create "tags" that anyone can use.
-  * To read more about these check out our documentation here: [https://wiki.cakey.bot/tools-and-utilities/tags](https://wiki.cakey.bot/tools-and-utilities/tags)
+  * To read more about these check out our documentation here: [https://wiki.cakey.bot/en/feature/tags](https://wiki.cakey.bot/en/feature/tags)
 
 # 7/25/2021 - TTT Fixes + Random Number Placeholder
 

@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-01-08T01:22:34.999Z
+date: 2024-01-08T01:22:48.960Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -46,7 +46,7 @@ To purchase a Custom Bot simply follow these instructions:
 4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
 <image src="/intents.png" width="800px">
 > Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
-{.is-warning}
+{.is-danger}
 
 5. Press the "Reset Token" button to reset your token
 <image src="/image_(5).png" width="800px">

@@ -2,7 +2,7 @@
 title: Ban Syncing
 description: 
 published: 1
-date: 2024-01-09T07:08:32.094Z
+date: 2024-01-09T07:29:33.100Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:18:18.508Z
@@ -19,6 +19,8 @@ The "Ban Sync" feature in Cakey Bot offers server owners an efficient and synchr
 * **Quick Updates:** The Ban Sync feature processes bans via a queue which prevents the bot from being restricted by ratelimits. However, bans are also checked when a user joins the server allowing almost real-time enforcement by banning users instantly who have not been processed by the queue yet.
 
 * **Multi-Way Syncing:** Within a designated pool, bans are synchronized across all servers, irrespective of the server where the ban was initially issued. This means bans will sync across all servers within the pool even if the ban did not originate in the server that created the pool.
+
+> Note: If a server is in multiple pools, it is possible for the ban to propogate across multiple pools.
 
 # Creating a Pool
 > Currently severs are limited to creating 1 pool per server. However, servers can be incldued in any number of pools.

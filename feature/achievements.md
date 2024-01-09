@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T07:36:24.484Z
+date: 2024-01-09T07:37:36.943Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -46,8 +46,8 @@ Currently there is a "Dark Mode" background (shown top) and a "Light Mode" backg
 <image src="/achievement-backgrounds.png" width="600px">
 
 ## Badge Shapes & Colors
-There are currently 5 different shapes that can have 6 different colors applied to them. 
-These 5 shapes include:
+There are several different badge combinations that you can select for your achievement unlock banners.
+You can chose between 5 shapes including:
 * Hexagon
 * Pentagon
 * Circle

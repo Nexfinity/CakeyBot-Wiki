@@ -2,14 +2,21 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T06:45:37.624Z
+date: 2024-01-09T07:06:06.992Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
 ---
 
 # Overview
-TBD
+The Achievement System within our Discord bot empowers server owners to create diverse and engaging milestones for users to unlock based on their activities and contributions within the community. These achievements serve as markers of accomplishment, encouraging participation and interaction across the server.
+
+# How it Works
+* **Achievement Creation:** Server owners can create and customize various achievements with specific requirements tailored to diverse user engagements. These achievements encompass a wide range of activities and events within the server.
+
+* **User Engagement Tracking:** The bot continuously tracks user activities and progress towards achieving the set criteria for each milestone. Progression is monitored for various actions like time spent in voice channels, message count, boosting the server, participation in events, reactions added, thread creation and involvement, and birthday settings.
+
+* **Unlock Alerts:** Once a user fulfills the prerequisites for unlocking an achievement, a visually appealing image alert is automatically generated and sent to a specified channel, showcasing the user's accomplishment and encouraging further engagement within the server.
 
 # Create/Manage Achievements
 ## Create Achievements
@@ -21,8 +28,20 @@ TBD
 
 # Types of Achievements
 ## Progression-Based Achievements
-TBD
+Currently Cakey Bot supports several progression-based events for awarding achievements. These events include:
+* X minutes spent in voice channels.
+* Send X messages.
+* Boosted the server.
+* Joined X giveaways.
+* Add X reactions.
+* Create X threads.
+* Joined X threads.
+* Set their birthday.
+
+**Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
+
 ## Integration-Based Achievements
 > Coming Soon
+
 ## Custom Acheivements
 > Coming Soon

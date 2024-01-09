@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-04T20:39:45.337Z
+date: 2024-01-09T17:36:42.657Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 5th - Ban Sync
+## Added
+* Added ban sync. Now you can create pools of guilds; a ban in a server will be replicated to all servers it has a common pool with. 
 
 # January 4th - Generic RSS Feeds & Music Fixes
 ## Fixed

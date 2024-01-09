@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T07:06:06.992Z
+date: 2024-01-09T07:07:26.728Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -20,11 +20,22 @@ The Achievement System within our Discord bot empowers server owners to create d
 
 # Create/Manage Achievements
 ## Create Achievements
-TBD
+To create an achievement login to our [web dashboard](https://cakey.bot/dashboard/public/) then follow these steps:
+1. 
+2. 
+3. 
+
 ## Edit Achievements
-TBD
+To modify an achievement follow these steps:
+1. 
+2. 
+3. 
+
 ## Delete Achievements
-TBD
+To delete an achievement follow these steps:
+1. 
+2. 
+3. 
 
 # Types of Achievements
 ## Progression-Based Achievements

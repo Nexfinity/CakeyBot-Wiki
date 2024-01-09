@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T07:35:37.732Z
+date: 2024-01-09T07:36:24.484Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -43,7 +43,7 @@ To delete an achievement follow these steps:
 # Customization Options
 ## Background Banners
 Currently there is a "Dark Mode" background (shown top) and a "Light Mode" background (shown bottom).
-![achievement-backgrounds.png](/achievement-backgrounds.png)
+<image src="/achievement-backgrounds.png" width="600px">
 
 ## Badge Shapes & Colors
 There are currently 5 different shapes that can have 6 different colors applied to them. 
@@ -54,7 +54,7 @@ These 5 shapes include:
 * Diamond
 * Square
 
-![achievement-backgrounds.png](/achievement-badges.png)
+<image src="/achievement-badges.png" width="600px">
 
 You can also chose between 6 different colors:
 * Red

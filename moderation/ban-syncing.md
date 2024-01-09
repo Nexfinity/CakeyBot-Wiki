@@ -2,7 +2,7 @@
 title: Ban Syncing
 description: 
 published: 1
-date: 2024-01-09T06:41:38.096Z
+date: 2024-01-09T07:08:32.094Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:18:18.508Z
@@ -39,7 +39,7 @@ You will need to enable ban sync for every server you wish to add to a ban sync 
 **Note:** Once the server has been added to a pool you can disable this toggle again to prevent the server from being added to other pools. This toggle will NOT remove servers from existing pools, it only prevents the server from being added to new pools.
 
 # Adding Servers to Pools
-> Currently only 3 servers can be added to a pool.
+> Currently only 3 servers can be in a given pool at once. However, a server can be included in multiple different pools.
 {.is-info}
 
 While on the Ban Sync page follow these steps:

@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T07:14:07.334Z
+date: 2024-01-09T07:35:37.732Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -39,6 +39,33 @@ To delete an achievement follow these steps:
 2. Find the achievement you want to delete
 3. Click the red trash can button on the achievement
 4. Confirm the deletion in the pop-up modal
+
+# Customization Options
+## Background Banners
+Currently there is a "Dark Mode" background (shown top) and a "Light Mode" background (shown bottom).
+![achievement-backgrounds.png](/achievement-backgrounds.png)
+
+## Badge Shapes & Colors
+There are currently 5 different shapes that can have 6 different colors applied to them. 
+These 5 shapes include:
+* Hexagon
+* Pentagon
+* Circle
+* Diamond
+* Square
+
+![achievement-backgrounds.png](/achievement-badges.png)
+
+You can also chose between 6 different colors:
+* Red
+* Brown
+* Blue
+* Purple
+* Grey
+* Grren
+
+## Icons
+Currently there is a small selection of icons that you can select for your banners. You can select any RGB color to be applied to the icon as well.
 
 # Types of Achievements
 ## Progression-Based Achievements

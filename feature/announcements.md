@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-01-04T14:48:35.914Z
+date: 2024-01-11T03:11:03.522Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -23,6 +23,17 @@ Supported announcement event types:
 * User Boosted the server
 
 > Cakey Bot will need access to Send/Read messages in the channel you designate for announcements. Cakey Bot may also require **`Use External Emoji`** permission if you include external emojis in the announcement messages.
+{.is-warning}
+
+# Send as DM Toggle
+You can also toggle an option called "Send as DM". When enabled this setting will attempt to send any configured message, image and embeds via the user's DMs. This setting is separate from the regular channel sending, this means it can can be configured in any of these 3 ways:
+* Send message only in server channel
+* Send message only in DM
+* Send message in DM & in channel
+
+Note: DMs for the user leave event will likely fail 90% of the time due to the user likely no longer sharing any servers with Cakey Bot.
+
+> Due to Discord limitations DMs will sometimes fail to send to users and should not be considered guarenteed to be sent. For example, some user's privacy settings may block randfom DMs from bots, or the user may have the bot blocked.
 {.is-warning}
 
 # Message Announcements

@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-09T17:36:42.657Z
+date: 2024-01-11T01:57:22.538Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 10th - $N Fix
+## Fixed
+* Fixed an issue where $N was applied to the message response, not the initial message
 
 # January 5th - Ban Sync
 ## Added

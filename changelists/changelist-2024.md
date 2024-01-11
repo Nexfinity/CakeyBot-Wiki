@@ -2,15 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-11T01:57:22.538Z
+date: 2024-01-11T03:06:40.071Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# January 10th - $N Fix
+# January 10th - $N Fix & Join DMs
 ## Fixed
 * Fixed an issue where $N was applied to the message response, not the initial message
+
+## Added
+* Added the ability to send join & leave announcements as a DM to the user.
 
 # January 5th - Ban Sync
 ## Added

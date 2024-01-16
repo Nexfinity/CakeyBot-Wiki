@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-11T03:06:40.071Z
+date: 2024-01-16T23:02:33.354Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 16th - Achievement Commands
+## Added
+* Added the accompanying commands for Cakey's achievement system: 
+  * `/achievements info <achievement>` - View information about a specific achievement
+  * `/achievements list` - View a list of all achievements for this server.
+  * `/achievements view [user]` - View the selected users progress towards achievements.
 
 # January 10th - $N Fix & Join DMs
 ## Fixed

@@ -2,7 +2,7 @@
 title: Changelist 2022
 description: 
 published: 1
-date: 2024-01-02T10:21:47.368Z
+date: 2024-01-17T08:17:24.052Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:13.252Z
@@ -191,7 +191,6 @@ dateCreated: 2022-10-18T07:50:13.252Z
   * You can view your current usage and limits on the "Bot Settings" page of the web dashboard
   * You can purchase higher limits on the premium page by modifying your existing subscriptions. 
     * Starts at $1 per 500 additional requests
-    * For more info checkout our guide posted here: [https://wiki.cakey.bot/feature/ai-chat-bot#request-limit](https://wiki.cakey.bot/en/feature/ai-chat-bot#request-limit)
 
 # Oct 13th - Music Bug Fix
 
@@ -224,9 +223,7 @@ dateCreated: 2022-10-18T07:50:13.252Z
 
 ### Added
 
-* Added the ability to bulk import/export custom command and auto responder data. Read more details on our doc pages below:
-  * Custom Commands: [https://wiki.cakey.bot/en/auto-responder#bulk-import-export](https://wiki.cakey.bot/en/auto-responder#bulk-importexport)
-  * Auto Responders: [https://wiki.cakey.bot/en/auto-responder#bulk-import-export](https://wiki.cakey.bot/en/auto-responder#bulk-importexport)
+* Added the ability to bulk import/export custom command and auto responder data.
 
 # Oct 5th - Snipe Removal
 
@@ -810,7 +807,6 @@ dateCreated: 2022-10-18T07:50:13.252Z
 ### Added
 
 * You can now attach a custom embed to your auto responders and custom commands!
-* To create an embed, log in to our web dashboard and navigate to the "**Embed Editor**" page which will take you to: [https://cakey.bot/dashboard/public/embed-editor](https://cakey.bot/dashboard/public/embed-editor). Once on this page, you can customize the embed to your heart's content and copy the browser URL. You then take the browser URL you copied and paste it into the embed or custom command of your choice in the "**Embed URL**" input field.
 * Note: For the time being custom embeds will be limited to Premium servers only.
 
 # April 5th - Song Thumbnails

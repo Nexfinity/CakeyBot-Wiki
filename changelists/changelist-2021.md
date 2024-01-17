@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-07T13:36:58.987Z
+date: 2024-01-17T08:16:34.257Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -484,7 +484,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 
 * Added new Tags system!
   * You can now create "tags" that anyone can use.
-  * To read more about these check out our documentation here: [https://wiki.cakey.bot/en/feature/tags](https://wiki.cakey.bot/en/feature/tags)
+  * To read more about these check out our documentation here
 
 # 7/25/2021 - TTT Fixes + Random Number Placeholder
 
@@ -759,7 +759,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Added
 
 * Added `!persistrole` as alias to `!persistentrole`
-* New placeholder! Add link buttons on custom commands/auto responders `{linkbutton:(text)[url]}`. Read more [here](https://docs.cakey.bot/setup/placeholders-variables#link-url-buttons).
+* New placeholder! Add link buttons on custom commands/auto responders `{linkbutton:(text)[url]}`. Read more here.
 
 # 6/15/2021 - Web Dashboard + Locale Updates
 
@@ -829,9 +829,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 * Added `/afk` and `/unafk` slash commands
 * Added two new placeholders!
   * You can now use the `{chance:X}` placeholder to randomly send a response (or not :P)
-    * You can check out more details on our documentation here: [https://wiki.cakey.bot/en/placeholders#response-chance](https://wiki.cakey.bot/en/placeholders#response-chance)
   * You can now use the `{react:X}` placeholder to add basic reactions to your responses! `[Premium Only]`
-    * You can check out more details on our documentation here: [https://wiki.cakey.bot/en/placeholders#reactions](https://wiki.cakey.bot/en/placeholders#reactions)
 
 # 6/6/2021 - TTT Fixes
 
@@ -952,7 +950,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 
 ### Added
 
-* Custom Command Arguments/$N variables are now released. You can read up on them here: [https://wiki.cakey.bot/en/placeholders#arguments-usdn-variable-custom-commands-only](https://wiki.cakey.bot/en/placeholders#arguments-usdn-variable-custom-commands-only)
+* Custom Command Arguments/$N variables are now released.(https://wiki.cakey.bot/en/placeholders#arguments-usdn-variable-custom-commands-only)
   * This placeholder is very new and could be buggy, please report any problems!
 
 # 3/20/2021 - Choose & Choice Placeholders
@@ -963,7 +961,7 @@ As part of prep towards fully implementing slash commands and their extremely li
 
 ### Added
 
-* Implemented Choice and Choose advanced placeholders! You can read up on how to use these here: [https://wiki.cakey.bot/en/placeholders#choose-and-choice](https://wiki.cakey.bot/en/placeholders#choose-and-choice)
+* Implemented Choice and Choose advanced placeholders!
 
 # 3/14/2021 - Music Updates
 
@@ -1144,7 +1142,6 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Added
 
 * Re-enabled advanced purge filters
-  * Also added documentation for this [here](https://wiki.cakey.bot/en/moderation/purging#advanced-purge-filters).
   * Added pastebin message logs for advanced purges
   * Added aliases for common typos on types
   * Audit log for delete now displays the original specified amount to help remove confusion

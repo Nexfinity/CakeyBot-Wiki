@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-16T23:02:33.354Z
+date: 2024-01-20T05:32:43.716Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 19th - Minecraft Command Category
+## Fixed
+* Fixed an issue where "Total Channels" on the `/stats` command was incorrect
+
+## Changed
+* Grouped `/query` command into `/minecraft query` command
+* Grouped `/mcskin` command into `/minecraft skin` command
 
 # January 16th - Achievement Commands
 ## Added

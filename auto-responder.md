@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-01-24T23:34:04.504Z
+date: 2024-01-25T08:58:58.111Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -79,6 +79,9 @@ Auto Responder will work with BOTH **Basic Placeholders** & **Advanced Placehold
 # Using Emoji/Emotes in Responses
 
 Emoji/Emotes CAN be used in auto responders. However, it requires slightly more work due to how discord parses emotes. Normally in Discord, you could just type `:lel:` or `:smile:` to get an emote, however in Cakey Bot, neither of these will work. In order to get valid emojis you have to send the emojis in discord but place a backward slash in front of it to get the emote's full ID. Like so: `\:lel:` or `\:smile:` which will produce these results: `<:lel:408424717217693717>` or for Unicode emoji: `😄` . Once you have the full emoji id or the raw Unicode output, you can paste these into Cakey Bot's web dashboard and they should work as long as Cakey Bot is in a server that has that custom emote in it.
+
+> It is worth noting that Cakey Bot can use emojis in between servers (similar to nitro users). So if you have an emoji in Server #1, you can use that emoji in a response for Server #2 if Cakey bot is in both of those servers.
+{.is-info}
 
 # Using Images in Responses
 

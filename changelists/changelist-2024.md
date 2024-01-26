@@ -2,11 +2,30 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-20T05:32:43.716Z
+date: 2024-01-26T16:39:02.345Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 26th - Music Improvements & Fixes
+## Fixed
+* Fixed international Spotify playlist URLs not loading all songs in the playlist
+* Fixed the "Est. Time Until Play" time calculation to be more accurate
+* Fixed an issue where /play song name auto completer would fail without a valid error message sometimes
+* Fixed an issue where some song names or authors would be stripped/removed incorrectly if they contained non-Latin characters
+
+## Changed
+* Spotify playlists will now instantly queue all songs in the playlist (Instead of taking up to several minutes with extremely large playlists with hundreds of songs in them)
+* Made some internal adjustments to caching for music to improve performance when loading/searching for songs
+
+# January 20th - Command Changes
+## Fixed
+* Fixed an issue where "Total Channels" on the `/stats` command was incorrect
+
+## Changed
+* Grouped `/query` command into `/minecraft query` command
+* Grouped `/mcskin` command into `/minecraft skin` command
 
 # January 19th - Minecraft Command Category
 ## Fixed

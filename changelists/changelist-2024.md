@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-26T16:39:36.927Z
+date: 2024-01-27T11:07:38.027Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 27th - Auto Quoter QOL
+## Changed
+* Auto Quoter feature will now allow quoting messages across channels within the same server
 
 # January 26th - Music Improvements & Fixes
 ## Fixed

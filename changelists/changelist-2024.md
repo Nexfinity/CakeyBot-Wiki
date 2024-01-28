@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-27T11:07:38.027Z
+date: 2024-01-28T19:57:56.185Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 28th - Job Scheduler Fix
+## Fixed
+* Fixed an issue that caused `/reminder`, `/tempban` and birthdays to not correctly trigger after a bot restart.
 
 # January 27th - Auto Quoter QOL
 ## Changed

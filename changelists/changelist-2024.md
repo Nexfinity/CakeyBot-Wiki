@@ -2,11 +2,21 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-28T19:57:56.185Z
+date: 2024-01-29T08:46:38.758Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 29th - Premium Adjustments
+## Changed
+* Removed premium requirements for `{dm}` & `{reaction}` placeholders
+* Updated boost announcements to no longer be premium locked
+* Auto responders are now limited to 250 responders for free servers. (Still unlimited for premium)
+* `/imagine` command limits adjusted. (5 for free servers, 100 for premium servers)
+
+## Removed
+* Removed `/perms` command
 
 # January 28th - Job Scheduler Fix
 ## Fixed

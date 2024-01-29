@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-01-04T14:54:52.082Z
+date: 2024-01-29T08:36:04.201Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -206,9 +206,6 @@ Examples:
 
 ## DM
 
-> In order to decrease the chances to abuse this placeholder, it is a [**Premium Only**](https://cakey.bot/premium.php) placeholder.
-{.is-info}
-
 > Cakey Bot can sometimes fail to send a DM if the user has their privacy settings set to block DMs from users in the server. This is NOT a bug and not something Cakey Bot can bypass.
 {.is-warning}
 
@@ -284,9 +281,6 @@ Examples:
 
 > **Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any server that Cakey Bot is in. (Similar to nitro users)
 {.is-warning}
-
-> Due to rate limit concerns, this is a [**Premium Only**](https://cakey.bot/premium.php) placeholder to discourage abuse.
-{.is-info}
 
 You can also add reactions to responses (up to 3). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 

@@ -2,7 +2,7 @@
 title: Reminders
 description: 
 published: 1
-date: 2024-01-30T03:23:02.259Z
+date: 2024-01-30T03:23:09.103Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:19:42.217Z
@@ -11,9 +11,6 @@ dateCreated: 2022-10-18T08:19:42.217Z
 # Overview
 
 Cakey Bot allows you to set reminders for yourself easily using the `/reminder` command. When you use this command, Cakey Bot will send you a Direct Message on the date and time that you use in the command along with whatever message you set.
-
-> Reminders have a maximum time limit of 1 month
-{.is-info}
 
 # Usage
 

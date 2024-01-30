@@ -2,18 +2,23 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-29T08:46:38.758Z
+date: 2024-01-30T03:20:38.040Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# January 29th - Premium Adjustments
+# January 29th - Premium Adjustments & Reminder QOL
 ## Changed
+* Changed `/reminder <time> <message>` to `/reminder create <time> <message>`
 * Removed premium requirements for `{dm}` & `{reaction}` placeholders
 * Updated boost announcements to no longer be premium locked
 * Auto responders are now limited to 250 responders for free servers. (Still unlimited for premium)
 * `/imagine` command limits adjusted. (5 for free servers, 100 for premium servers)
+
+## Added
+* Added new `/reminder list` command
+* Added new `/reminder delete <reminder>` command
 
 ## Removed
 * Removed `/perms` command

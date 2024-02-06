@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-01-30T03:20:38.040Z
+date: 2024-02-06T06:24:26.545Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 6th - QOL
+## Added
+* Added support for importing XP/level data from Amari Bot using `/setup import` (Already supports importing from MEE6)
+* Added the ability for users to leave giveaways by clicking the button again.
 
 # January 29th - Premium Adjustments & Reminder QOL
 ## Changed

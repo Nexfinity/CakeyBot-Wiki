@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-02-06T09:20:08.374Z
+date: 2024-02-06T09:20:21.822Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -20,7 +20,7 @@ Cakey Bot makes it extremely easy to import your data from external/third-party 
 * [MEE6](https://mee6.xyz/)
 * [Amari](https://amaribot.com/)
 
-In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-mee6-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
+In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 
 > Note that importing data will **WIPE** all existing leveling data for your server. This process can not be reversed so be sure before you run the command.
 {.is-warning}

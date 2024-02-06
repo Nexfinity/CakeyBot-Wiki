@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-02-06T09:20:21.822Z
+date: 2024-02-06T09:22:52.723Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -144,7 +144,8 @@ You can set different image banners for the `/rank` card. By default you can cha
 * Light Teal
 * Yellow
 
-Currently image banners will be applied to ALL users in the server. <!-- Premium users are able to set their own separate banner images. However, server owners are able to disable this feature if they wish and force the server-selected banner image. -->
+Currently image banners will be applied to ALL users in the server.  [Premium](https://cakey.bot/premium.php) servers will have access to a wider selection of image banners for their rank cards.
+<!-- Premium users are able to set their own separate banner images. However, server owners are able to disable this feature if they wish and force the server-selected banner image. -->
 <!--
 ## Custom Banner Images
 > This feature is limited to premium servers.

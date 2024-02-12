@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-01-08T01:22:48.960Z
+date: 2024-02-12T07:02:29.215Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -108,11 +108,9 @@ Once you have created and setup the custom bot instance, you will need to assign
 <image src="/redirects.png" width="800px">
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
 {.is-warning}
-4. In the text field enter `https://cakey.bot` and hit the "Save" button
+4. In the text field enter `https://cakey.bot/success_invite.html` and hit the "Save" button
 5. You may return to the web dashbord and on the "Premium" page there should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
-<!--5. You can now invite your bot using this URL: 
-`https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE&permissions=8&redirect_uri=https://cakey.bot&response_type=code&scope=bot+applications.commands+identify+guilds`
-  a. Replace `BOT_ID_HERE` in the URL above with your bot applications client ID from the developer dashboard. (Visable at the top of the OAuth2 page)-->
+
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
 {.is-info}
   

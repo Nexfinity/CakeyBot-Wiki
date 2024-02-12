@@ -2,13 +2,17 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-06T06:24:26.545Z
+date: 2024-02-12T12:40:36.932Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# January 6th - QOL
+# February 12th - Reaction Placeholder
+## Added
+* Added new `{reactoriginal:}` placeholder. This allows auto responders to add reactions to the original message.
+
+# February 6th - QOL
 ## Added
 * Added support for importing XP/level data from Amari Bot using `/setup import` (Already supports importing from MEE6)
 * Added the ability for users to leave giveaways by clicking the button again.

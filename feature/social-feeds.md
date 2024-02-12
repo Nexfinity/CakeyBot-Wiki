@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2024-01-04T20:31:28.767Z
+date: 2024-02-12T12:44:16.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -47,3 +47,11 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 {.is-info}
 
 ![](/image_(11).png)
+
+# How to Create & Aquire Webhook URLs
+Webhook URLs are created within Discord. Cakey Bot will send data to these URLs which in turn will post the social feed emssages in the given channel. To create and aquire a webhook URL simply follow these steps: 
+1. Open the settings for the channel you want to create a webhook for. (Click the gear icon)
+2. Click the "Integrations" tab.
+3. In the webhooks section, click the "Create Webhook" button.
+4. Click the webhook you just created and click the "Copy Webhook URL".
+5. Paste this URL on Cakey Bot's dashboard when creating your social feed when you are asked for a "Webhook URL".

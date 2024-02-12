@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-01-29T08:36:04.201Z
+date: 2024-02-12T12:33:35.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -288,6 +288,13 @@ You can also add reactions to responses (up to 3). To add a reaction simply incl
 {react:<a:200IQ:730769872698736692>} //Animated/Gif Emote
 {react:<:r6s:847490914749382719>}    //Custom Server Emote
 {react:😄}                           //Normal Unicode Emote
+```
+
+You can also have reactions apply to the original message that triggered the auto responder by using the `{reactoriginal}` placeholders:
+```asciidoc
+{reactoriginal:<a:200IQ:730769872698736692>} //Animated/Gif Emote
+{reactoriginal:<:r6s:847490914749382719>}    //Custom Server Emote
+{reactoriginal:😄}                           //Normal Unicode Emote
 ```
 
 ## Choose & Choice

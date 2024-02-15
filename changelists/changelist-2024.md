@@ -2,11 +2,27 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-12T12:40:36.932Z
+date: 2024-02-15T08:45:35.673Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 15th - Multiple Auto Roles
+## Changed
+* Updated "Bulk Update" settings for audit log so each setting applies separately instead of bulk applying all of them.
+
+## Added
+* Added the ability to select multiple auto roles.
+
+# February 13th - Bulk Role Management
+## Changed
+* Invalid Twitch feeds are not automatically removed.
+* Auto Quoter is now enabled by default for new servers.
+
+## Added
+* Added new `/role bulkadd <role> <roleToAdd>` command.
+* Added new `/role bulkremove <role> <roleToRemove>` command.
 
 # February 12th - Reaction Placeholder
 ## Added

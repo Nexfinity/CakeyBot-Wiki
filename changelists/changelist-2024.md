@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-15T08:45:35.673Z
+date: 2024-02-18T05:37:07.570Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 18th - Misc. Bug Fixes
+## Fixed
+* Fixed an issue where Twitch social feeds were not updating correctly.
+* Fixed an issue where `/birthday next` didn't sort birthdays correctly due to the year they were set to.
 
 # February 15th - Multiple Auto Roles
 ## Changed

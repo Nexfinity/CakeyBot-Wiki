@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-02-06T09:22:52.723Z
+date: 2024-02-19T07:11:44.918Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -144,15 +144,8 @@ You can set different image banners for the `/rank` card. By default you can cha
 * Light Teal
 * Yellow
 
-Currently image banners will be applied to ALL users in the server.  [Premium](https://cakey.bot/premium.php) servers will have access to a wider selection of image banners for their rank cards.
+Currently image banners will be applied to ALL users in the server.  [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
 <!-- Premium users are able to set their own separate banner images. However, server owners are able to disable this feature if they wish and force the server-selected banner image. -->
-<!--
-## Custom Banner Images
-> This feature is limited to premium servers.
-{.is-warning}
-
-Premium servers and users are able to upload a custom image to use as their `/rank` banner. The URL MUST be an imgur.com link. For example `https://i.imgur.com/xk9s6J1.png` is a valid URL.
-Also, while premium users are able to set a custom banner for themselves, server owners have the option to disable this feature and force the server-selected banner. -->
 
 ## Accent Colors & Overlay Opacity
 You can also change/set the accent color as well as the opacity of the the black overlay between the text and background image to improve readability.

@@ -2,11 +2,17 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-18T05:37:07.570Z
+date: 2024-02-19T07:10:40.963Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 19th - Premium /rank Image Banners
+## Fixed
+* Fixed an issue with the `/selfrole embed` command.
+## Added
+* Added several new `/rank` card background banner images for premium servers.
 
 # February 18th - Misc. Bug Fixes
 ## Fixed

@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-02-06T09:22:05.836Z
+date: 2024-02-20T13:31:20.494Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -45,7 +45,7 @@ You can set/modify messages and the announcement channel via our [web dashboard]
 
 # Image/Banner Announcements
 
-You can also use a fancy banner picture for your join/leave announcements too! In order to set an image banner as your join/leave message just toggle the "Image Banner" setting to enabled. [Premium](https://cakey.bot/premium.php) servers will have access to a wider selection of image banners for their announcements.
+You can also use a fancy banner picture for your join/leave announcements too! In order to set an image banner as your join/leave message just toggle the "Image Banner" setting to enabled. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their announcements.
 
 Default join/leave banner images:
 ![](/announcements2.png)

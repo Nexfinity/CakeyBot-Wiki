@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-20T13:30:33.777Z
+date: 2024-02-21T07:33:50.503Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 21st - Multiple Category Channels
+## Changed
+* Updated Auto Mod's Category Channels to allow multiple channel selections instead of just one.
+
+## Added
+* Added sever more new `/rank` card background banner images for premium servers.
 
 # February 20th - Premium Join/Leave Banners
 ## Added

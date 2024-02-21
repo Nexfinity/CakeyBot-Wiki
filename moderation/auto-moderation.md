@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2023-11-13T21:29:08.690Z
+date: 2024-02-21T07:34:47.006Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -56,7 +56,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 
 Cakey Bot allows you to define category channels. This means Cakey Bot will automatically delete messages that do not fit the category you set on the channel. For example, if you set a channel to only allow GitHub URLs, Cakey Bot will delete every message that isn't a GitHub URL posted in that channel.
 
-You view a list of category channels you can configure below:
+You can view a list of category channels you can configure below:
 
 * YouTube URLs Only
 * Spotify URLs Only

@@ -2,15 +2,18 @@
 title: Anti-Raid
 description: 
 published: 1
-date: 2024-02-22T07:27:41.025Z
+date: 2024-02-22T07:31:19.824Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:17:53.684Z
 ---
 
 # Overview
-> Coming Soon
-{.is-warning}
+The Anti-Raid feature serves as a robust defense mechanism against coordinated attacks on community. By implementing a suite of customizable checks against users and message content, it effectively detects and mitigates common Anti-Raid attacks used on Discord, safeguarding your community and maintaining a positive user experience.
+
+With the capability to monitor user joins, message activity, and other suspicious behaviors, our Anti-Raid feature allows you to stop attacks against your server quickly when they occur. Whether it's detecting mass influxes of new users, identifying patterns in message spam, or flagging accounts created en masse, this feature provides granular control to combat raid attempts effectively.
+
+Additionally, the ability to pause invites or timeout offending users enables you to halt disruptive activities quickly and giving your moderators time to review the offending content at a later point.
 
 # User Join Settings
 ## Mass Joins

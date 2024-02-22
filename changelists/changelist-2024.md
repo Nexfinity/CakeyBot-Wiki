@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-21T07:33:50.503Z
+date: 2024-02-22T07:36:14.870Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 22nd - Anti-Raid Released
+## Added
+* Released new Anti-Raid feature!
 
 # February 21st - Multiple Category Channels
 ## Changed

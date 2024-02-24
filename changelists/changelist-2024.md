@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-22T07:36:14.870Z
+date: 2024-02-24T05:09:20.829Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 24th - Bug Fix + Free /eqpreset
+## Changed
+* Updated `/playlist create` so it now includes the currently playing song in addition to any items in the queue itself.
+* The `/eqpreset` command is now available to non-premium servers.
 
 # February 22nd - Anti-Raid Released
 ## Added

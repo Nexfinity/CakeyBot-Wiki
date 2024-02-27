@@ -2,11 +2,21 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-24T05:09:20.829Z
+date: 2024-02-27T06:56:28.709Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 27th - Economy Balancing
+## Fixed
+* Fixed an issue where message deleted audit log events were not firing correctly
+* Fixed an issue where rate limit time messages would display an incorrect timer when running multiple rate limited commands back to back.
+
+## Changed
+* Dropped cooldown on the `/eco work` command. (30Min => 15Min)
+* Adjusted `/eco rob` to cap based on a percentage of target user's balance instead of hard coded numbers. (Allows dynamic scaling for larger balances)
+* Modified profit values for the `/eco work` and `/eco beg` commands.
 
 # February 24th - Bug Fix + Free /eqpreset
 ## Changed

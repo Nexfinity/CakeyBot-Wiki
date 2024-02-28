@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-27T06:56:28.709Z
+date: 2024-02-28T13:20:22.028Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# February 28th - Economy Gambling
+## Added
+* Added new `/eco guess` command - Guess the number (1-10) for a chance to double your money.
+* Added new `/eco coinflip` command - Guess the result to win 50% more money.
 
 # February 27th - Economy Balancing
 ## Fixed

@@ -2,13 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-29T10:30:34.530Z
+date: 2024-02-29T15:18:12.535Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
 # February 29th - 1v1 Economy Gambling
+## Fixed
+* Fixed the `/tempban` and `/role temporary` commands.
+
 ## Added
 * Added new `/eco rock-paper-scissors <amount>` command -	Challenge another user to Rock, Paper, Scissors.
 * Added new `/eco split-or-steal`	command - Challenge another user to split or steal.

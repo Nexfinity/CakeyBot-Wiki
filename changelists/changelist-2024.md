@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-02-29T15:18:12.535Z
+date: 2024-03-02T15:00:24.796Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 2nd - Locale Updates
+## Fixed
+* Fixed several misc. bugs.
+
+## Changed
+* Russian, Portuguese Brazilian, and German translations updated for bot and website.
 
 # February 29th - 1v1 Economy Gambling
 ## Fixed

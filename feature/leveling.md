@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-02-19T07:11:44.918Z
+date: 2024-03-04T15:37:34.018Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -130,6 +130,12 @@ You can also specify days for Cakey Bot to award double XP on. The double XP wil
 You can set up to 10 different role rewards. As users level up they will receive these roles once they meet the level requirement. You can also use the "Remove Roles on Level Up" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
 
 > Note: Newly added role rewards will only apply to users the next time they level up, they will not retroactively apply to current users who are high enough level.
+{.is-info}
+
+# Role XP Multipliers
+You can set up to 5 different role multipliers. If a user has one (or more) of these roles, all of their received XP will be multiplied by the largest role multiplier they have. Role XP multipliers will NOT stack with each other if a user has multiple roles. However, they WILL stack wityh existing multipliers like double XP days.
+
+> Note: Role XP multipliers will get added AFTER other XP multipliers (such as double XP days).
 {.is-info}
 
 # Rank Card Customization

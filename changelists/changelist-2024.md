@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-04T15:38:00.558Z
+date: 2024-03-04T16:12:34.107Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -11,6 +11,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 # March 4th - Role XP Multipliers
 ## Added
 * Added the ability to create up to 5 role multipliers for leveling XP. 
+* Added the ability for custom bot servers to use custom avatar/usernames on social feed embeds.
 
 # March 2nd - Locale Updates
 ## Fixed

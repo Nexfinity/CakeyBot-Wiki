@@ -2,7 +2,7 @@
 title: Changelist 2020
 description: 
 published: 1
-date: 2024-01-17T08:14:14.953Z
+date: 2024-03-07T20:39:35.449Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:55.602Z
@@ -473,7 +473,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added a new role verification command. Read more [here](https://wiki.cakey.bot/en/feature/verification-role).
+* Added a new role verification command.
 
 # 6/10/2020 - The Equalizer Update
 
@@ -616,7 +616,7 @@ dateCreated: 2022-10-18T07:50:55.602Z
 
 ## Added
 
-* Added the ability to use an image banner instead of custom text for join/leave announcements. More info can be found [here](https://wiki.cakey.bot/en/feature/announcements#image-banner-announcements).
+* Added the ability to use an image banner instead of custom text for join/leave announcements. .
 * Added new `!covid <country>` command to keep up-to-date with the COVID-19 pandemic.
 * Cakey Bot will now inform you if the the bot is missing 'required permissions' via DM when first invited to a server.
 

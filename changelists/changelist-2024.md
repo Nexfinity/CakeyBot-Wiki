@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-04T16:12:34.107Z
+date: 2024-03-07T01:28:02.055Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 6th - Fix Duplicate Twitch Announcements
+## Changed
+* Twitch social feed streams should no longer send duplicate announcements if the bot restarts or if we push an update. 
 
 # March 4th - Role XP Multipliers
 ## Added

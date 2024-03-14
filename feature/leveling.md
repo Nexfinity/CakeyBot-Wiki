@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-03-04T15:37:34.018Z
+date: 2024-03-14T09:41:17.949Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -180,3 +180,19 @@ This badge is given to users who actively help test new Cakey Bot features and p
 ## ![The highest tier badge](/tier_10_64.png) Premium Badge
 Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership.
 ![progression_banner.png](/progression_banner.png)
+
+# Frequently Asked Questions
+## What XP equation is used for leveling?
+Cakey Bot uses the same leveling XP equation as the popular MEE6 bot. You can use the following formula to calculate how much XP you need to level up:
+`5 * (lvl ^ 2) + (50 * lvl) + 100 - xp`, where
+* `lvl` is your current level
+* `xp` is how much XP you already have towards the next level.
+
+## Is there a cooldown or anti-abuse?
+Yes, Cakey Bot has a cooldown for messages to help discourage spamming. Only one message per 60 second interval will award XP, even if multiple messages are sent during that time.
+
+## How can I combat malicious users spamming for free XP?
+There's several tools you can use:
+* `/manage-level` and `/manage-xp` commands allow you to manually adjust a user's XP or level to remove ill-gotten xp or levels
+* You can mute or timeout the user to prevent them sending messages.
+* Could you configure a no-xp/ignored role on the dashbaord and assign it to them to prevent them from getting any XP while they are unmuted.

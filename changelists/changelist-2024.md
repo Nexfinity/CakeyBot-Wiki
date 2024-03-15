@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-15T01:15:45.424Z
+date: 2024-03-15T13:24:24.353Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 15th - Voice Channel Selection
+## Changed
+* Added the ability to select voice & stage channels for stuff on the web dashboard (ignored channels, announcement output, category channels, etc) since voice channels have text support now.
 
 # March 14th - Released Sticky Messages!
 ## Added

@@ -2,11 +2,25 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-07T01:28:02.055Z
+date: 2024-03-15T01:15:45.424Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 14th - Released Sticky Messages!
+## Added
+* Added the ability to create sticky messages!
+  * Commands: 
+    * `/stickymessage create <message> [channel] [embedUrl] [delay] [minMessages]`
+    * `/stickymessage list`
+    * `/stickymessage delete <stickyMessageId>`
+  * Default values: 20s delay & 8 minimum messages
+  * Premium servers can customize the delay and minimum messages.
+  * Max number of sticky messages depends on server tier: 
+    * Free: 3 Sticky Messages
+    * Premium: 10 Sticky Messages
+    * Custom Bots: 15 Sticky Messages
 
 # March 6th - Fix Duplicate Twitch Announcements
 ## Changed

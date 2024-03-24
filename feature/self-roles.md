@@ -2,7 +2,7 @@
 title: Self Roles
 description: 
 published: 1
-date: 2022-10-18T08:46:23.688Z
+date: 2024-03-24T23:41:07.382Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:14.430Z
@@ -12,6 +12,10 @@ dateCreated: 2022-10-18T08:20:14.430Z
 
 > Make sure that Cakey Bot has the **`Manage Roles`** permission and that the Cakey Bot's role is _above_ the roles it is trying to assign.
 {.is-warning}
+
+> This feature is sunsetting. There will be no new updates or improvements made to it and users will no longer be able to add or remove roles. Pre-existing setups will continue to work for the time being.
+{.is-danger}
+
 
 # Self Role Command
 
@@ -25,17 +29,3 @@ After you have added some roles to the self role list you \(and your users\) can
 
 > If you want to use any of our advanced self-assign methods \(like buttons, reactions or selection dropdowns\) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed using the assignment method you set on our web dashboard.
 {.is-info}
-
-# Button Roles
-
-> This feature is planned and is not currently implemented in the public version of Cakey Bot. Check back later for more information.
-{.is-danger}
-
-# Selection Menu Roles
-
-WIP
-
-# Reaction Roles
-
-> This feature is planned and is not currently implemented in the public version of Cakey Bot. Check back later for more information.
-{.is-danger}

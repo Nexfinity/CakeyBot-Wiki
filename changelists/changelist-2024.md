@@ -2,11 +2,23 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-15T19:12:34.216Z
+date: 2024-03-24T23:39:59.078Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 24th - Channel Selector Icons
+## Changed
+* Channel selectors on the web dashboard (like ignored channels or such) will now show different icons for Voice, Stage and Announcement channels instead of the regular text # so you can tell the different between channels with the same name.
+
+# March 20th - Cakey Bot Everywhere!
+## Added
+* You can now install Cakey Bot as a user app! 
+
+# March 19th - New Banners
+## Added
+* Added some new join and leave background images.
 
 # March 15th - Voice Channel Selection
 ## Fixed

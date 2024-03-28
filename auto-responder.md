@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-03-28T02:01:02.863Z
+date: 2024-03-28T02:01:50.768Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -113,8 +113,8 @@ You can include an optional embed on responses by following the steps below:
 * File **MUST** be formatted with all of the required columns.
 * Additional/extra columns will be ignored.
 * Any fields that have too many characters will be trimmed. Column limits:
-  * **Command:** 200 characters (before base64 encoding)
-  * **Response:** 2,000 characters (before base64 encoding)
+  * **Command:** 200 characters
+  * **Response:** 2,000 characters
 * Any fields that exceed the character will NOT work after importing.
 * Bulk importing can **NOT** be canceled or reversed once started.
 * Any broken commands will have to be individually deleted or fixed _after_ the import is finished.

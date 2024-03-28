@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-01-25T08:58:58.111Z
+date: 2024-03-28T02:01:02.863Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -131,7 +131,7 @@ The template CSV file and bulk exported CSVs will have a few different columns w
     * 1 - Enabled
 * Command
   * This is the command/trigger phrase for a response.
-  * It must be Base64 encoded and be less than 200 characters before Base64 encoding.
+  * It must be less than 200 characters.
 * Flags
   * These are only used for Auto Responders, they map directly to the Auto Responder [flags](#flags).
   * Acceptable values:
@@ -147,7 +147,7 @@ The template CSV file and bulk exported CSVs will have a few different columns w
     * 10 - Wildcard Contains
 * Response
   * This is the response phrase for a trigger/command.
-  * It must be Base64 encoded and be less than 2,000 characters before Base64 encoding.
+  * It must be less than 2,000 characters.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
   * The URL must start with [https://cakey.bot/dashboard/public/embed-editor?data=](https://cakey.bot/dashboard/public/embed-editor)

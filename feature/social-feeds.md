@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2024-03-28T19:23:53.355Z
+date: 2024-03-28T19:24:15.193Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -56,4 +56,4 @@ Webhook URLs are created within Discord. Cakey Bot will send data to these URLs 
 4. Click the webhook you just created and click the "Copy Webhook URL".
 5. Paste this URL on Cakey Bot's dashboard when creating your social feed when you are asked for a "Webhook URL".
 
-You can read more about webhooks on Discord's help articles [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
+You can read more about webhooks on [Discord's help article](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).

@@ -2,11 +2,28 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-24T23:39:59.078Z
+date: 2024-03-30T07:59:38.758Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 30th - Tons of fixes and improvements
+## Fixed
+* Fixed Deezer as a supported music source.
+* Fixed the increase of "Unknown errors" with music recently.
+* Fixed an issue where users could sue the "Report User" feature to timeout Cakey Bot.
+* Fixed an issue where generic RSS feeds would try to ping `@delete-role` when no role was actually set.
+* Fixed an issue where social feeds would not always send reliably for custom bots.
+* Fixed several other misc. bugs.
+
+## Changed
+* Improved music quality slightly and improved search results.
+* The `/play` song name auto completer now displays the author as well to help users find the correct track and artist.
+* Updated all language locales for Cakey Bot and the web dashboard.
+
+## Added
+* Added image parsing support for markdown-based generic RSS feeds.
 
 # March 24th - Channel Selector Icons
 ## Changed

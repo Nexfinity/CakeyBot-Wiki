@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-30T08:01:03.885Z
+date: 2024-03-31T07:52:21.559Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# March 31st - More Bug Fixes
+## Fixed
+* Fixed an issue where `/lyrics` would fail when taking too long to load sometimes
+* Fixed an issue where `/playlist` related commands would fail if the user had more than 25 playlists saved
+* Fixed an issue where the additional music bots could eb sued in non-premium servers
+* Fixed an issue where slash commands would sometimes fail for user-installed versions of Cakey Bot
+* Fixed an issue where Join Raid detection would sometimes fail to detect properly
 
 # March 30th - Tons of fixes and improvements
 ## Fixed

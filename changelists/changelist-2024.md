@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-31T07:52:21.559Z
+date: 2024-03-31T07:54:05.409Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -12,7 +12,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 ## Fixed
 * Fixed an issue where `/lyrics` would fail when taking too long to load sometimes
 * Fixed an issue where `/playlist` related commands would fail if the user had more than 25 playlists saved
-* Fixed an issue where the additional music bots could eb sued in non-premium servers
+* Fixed an issue where the additional music bots could be used in non-premium servers
 * Fixed an issue where slash commands would sometimes fail for user-installed versions of Cakey Bot
 * Fixed an issue where Join Raid detection would sometimes fail to detect properly
 

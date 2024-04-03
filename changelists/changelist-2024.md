@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-03-31T07:54:05.409Z
+date: 2024-04-03T06:33:21.735Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 2nd - Report Improvements
+## Added
+* Added the ability for users to claim message/user reports
+* Added the ability to mark a message/user report as finished
 
 # March 31st - More Bug Fixes
 ## Fixed

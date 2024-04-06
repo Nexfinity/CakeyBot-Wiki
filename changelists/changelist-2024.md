@@ -2,11 +2,20 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-03T06:33:21.735Z
+date: 2024-04-06T04:02:15.490Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 6th - Leveling Improvements
+## Fixed
+* Fixed leveling roles not being properly removed when leveling up or being demoted
+* Fixed XP adjustments not assigning the highest eligible role available instead of only exact level matches
+
+## Changed
+* `/rank` and `/leaderboard` usernames are now title cased 
+* Level up announcements will no longer actually mention all users within the role.
 
 # April 2nd - Report Improvements
 ## Added

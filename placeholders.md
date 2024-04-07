@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-02-12T12:33:35.176Z
+date: 2024-04-07T05:36:36.909Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -146,11 +146,11 @@ dateCreated: 2022-10-18T08:00:48.805Z
 > **Note:** Delete placeholders will not work while using DM placeholders on a command.
 {.is-warning}
 
-`{delete}` - Delete initial command the user sent after the response sent\
-`{deleteafter:x}` - Delete the response automatically after `X` amount of seconds. Replace the `x` with a number between 1 and 9.\
-`{confirmdelete}` - Add a trashcan reaction to the response that deletes it after it is clicked. (Similar to AFK messages) _Note: The ability to delete will expire after 60 seconds._
+`{delete}` - Delete initial message the user sent _after_ the response sent.
+`{deleteafter:x}` - Delete the response automatically after `X` amount of seconds. Replace the `x` with a number between 1 and 99.
+`{confirmdelete}` - Add a trashcan button to the response that deletes the response when it is clicked. (Similar to AFK messages & Git Previews)
 
-> These require Cakey Bot to have "Manage Message" permissions. `{confirmdelete}` also requires Cakey Bot to have access to add reactions to messages.
+> These require Cakey Bot to have "Manage Message" permissions.
 {.is-info}
 
 ## Require

@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-06T04:02:15.490Z
+date: 2024-04-07T05:39:52.809Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 7th - Misc. Fixes
+## Fixed
+* Fixed an issue where the new leveling changes would spam role awarded messages even if the user already had the role assigned. (Reported by @jixenator )
+
+## Changed
+* Updated the `{deleteafter:X}` placeholder to allow number values between 1 and 99 instead of just 1 and 9.
+* Made several improvements to the music core.
 
 # April 6th - Leveling Improvements
 ## Fixed

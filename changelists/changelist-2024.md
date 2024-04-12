@@ -2,11 +2,20 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-12T02:13:30.676Z
+date: 2024-04-12T22:59:38.994Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 12th - Economy Balancing
+## Fixed
+* Fixed success message on `/eco coinflip` displaying the wrong value
+
+## Changed
+* Increased the `/eco guess` reward from 2x to 5x
+* Added a small chance to lose money on `/eco beg` to deter auto botting
+*  Added 15s cooldown to `/eco guess`
 
 # April 11th - Economy Shop & items
 ## Added

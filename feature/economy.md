@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-04-12T02:23:56.607Z
+date: 2024-04-12T02:24:10.186Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -43,5 +43,5 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 **/eco iteminfo** - View information about a specific item.
 **/eco items** - View all of the items you or someone else owns.
 
-## Items
+## Avilable Items
 TBD

@@ -2,11 +2,20 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-07T05:39:52.809Z
+date: 2024-04-12T02:13:30.676Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 11th - Economy Shop & items
+## Added
+* Added new `/eco donate <user>`
+* Added new `/eco shop` command
+* Added new `/eco items` command
+* Added new `/eco iteminfo <item>` command
+* Added new `/eco buy-item <item>` command
+* Added new `/eco sell-item <item>` command
 
 # April 7th - Misc. Fixes
 ## Fixed

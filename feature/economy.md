@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-04-12T02:22:47.414Z
+date: 2024-04-12T02:23:56.607Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -37,6 +37,11 @@ Cakey Bot also includes several other ways to earn money that do not include any
 Items can be purchased from the item shop in order to gain an advantage or improve your odds in various economy games/activites. Currently all items are persistent and are not consumable. Items will also incur a daily cost which will remove the item if you run out of money to pay for them.
 ## Usage
 There's several commands that are used to view, buy and sell items in Cakey Bot. You can see all of the commands below:
-**/eco shop** - View 
+**/eco shop** - Purchase items from the shop for bonuses. 
+**/eco buy-item** - Purchase a specific item.
+**/eco sell-item** - Sell a specific item for half the original value.
+**/eco iteminfo** - View information about a specific item.
+**/eco items** - View all of the items you or someone else owns.
 
 ## Items
+TBD

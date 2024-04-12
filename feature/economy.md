@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-04-12T02:24:10.186Z
+date: 2024-04-12T02:25:34.521Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -43,5 +43,18 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 **/eco iteminfo** - View information about a specific item.
 **/eco items** - View all of the items you or someone else owns.
 
-## Avilable Items
-TBD
+## Available Items
+* **Nice Suit** - Improves begging odds by 50%
+  * **Cost:** $5,000 + $100 per day
+
+* **Ninja Costume** - Improves chance of robbery success by 25%
+  * **Cost:** $25,000 + $1,000 per day
+
+* **Lucky Cube** - Improves chance to win RNG-based games by 33%
+  * **Cost:** $25,000 + $1,000 per day
+
+* **Guard Dog** - Decreases the likelihood of a successful robbery against you by 50%
+  * **Cost:** $50,000 + $2,500 per day
+
+* **Bus Ticket** - Decreases the chance of someone being able to rob you by 25%
+  * **Cost:** $5,000 + $250 per day

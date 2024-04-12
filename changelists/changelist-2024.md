@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-12T22:59:38.994Z
+date: 2024-04-12T23:44:42.130Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -14,6 +14,8 @@ dateCreated: 2024-01-02T23:52:26.127Z
 
 ## Changed
 * Increased the `/eco guess` reward from 2x to 5x
+* `/eco guess` will now give 2x if you are +/- 1 from the result
+* Increased the `/eco coinflip` reward from 30% to 50%
 * Added a small chance to lose money on `/eco beg` to deter auto botting
 *  Added 15s cooldown to `/eco guess`
 

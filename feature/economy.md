@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-04-12T23:19:56.924Z
+date: 2024-04-12T23:42:47.765Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -19,8 +19,8 @@ dateCreated: 2024-03-14T19:35:02.607Z
 # Earn Money
 ## RNG Games
 There's several games that rely entirely on RNG/randomization to determine the outcome. These games tend to have the highest risk-to-reward ratio and are usually more pfoitable. they can also be played entirely solo so you don't have to wait on other users to play. These games include:
-* **/eco coinflip** - Guess the result to win 30% more money.
-* **/eco guess** - Guess the number (1-10) for a chance to gain 5x the amount.
+* **/eco coinflip** - Guess the result to win 50% of your bet.
+* **/eco guess** - Guess the number (1-10) for a chance to gain 2x-5x the amount.
   * You also get 2x if you are +/- 1 off from the correct answer instead of 5x.
 
 ## Player VS Player Games

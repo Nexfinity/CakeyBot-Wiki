@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-04-12T02:26:44.119Z
+date: 2024-04-12T22:58:51.141Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -20,7 +20,7 @@ dateCreated: 2024-03-14T19:35:02.607Z
 ## RNG Games
 There's several games that rely entirely on RNG/randomization to determine the outcome. These games tend to have the highest risk-to-reward ratio and are usually more pfoitable. they can also be played entirely solo so you don't have to wait on other users to play. These games include:
 * **/eco coinflip** - Guess the result to win 30% more money.
-* **/eco guess** - Guess the number (1-10) for a chance to double your money.
+* **/eco guess** - Guess the number (1-10) for a chance to gain 5x the amount.
 
 ## Player VS Player Games
 There's also several games that allow you to directly challange other users in the server. These tend to be a little less profitable than RNG games but can introduce a new level of competition and fun among the players. These games include:

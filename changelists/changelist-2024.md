@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-13T00:14:17.157Z
+date: 2024-04-13T00:14:58.831Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -18,7 +18,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Increased the `/eco coinflip` reward from 30% to 50%
 * Added a small chance to lose money on `/eco beg` to deter auto botting
 * Added 15s cooldown to `/eco guess`
-* Implemented randomzied cooldowns for RNG economy games to discourage botting.
+* Implemented randomized cooldowns for RNG economy games to discourage botting.
 
 # April 11th - Economy Shop & items
 ## Added

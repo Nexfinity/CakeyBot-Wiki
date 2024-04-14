@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-13T00:14:58.831Z
+date: 2024-04-14T09:37:59.365Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 14th - More Economy Balancing
+## Changed
+* Economy RNG now uses Cryptographically secure random number generation
+* Decreased `/eco coinflip` cooldown (60s => 20s)
+* Decreased `/eco rob` cooldown (200s => 120s)
+* Increased the minimum values for regular and super successful robberies
 
 # April 12th - Economy Balancing
 ## Fixed

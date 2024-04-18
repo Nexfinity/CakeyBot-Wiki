@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-14T09:37:59.365Z
+date: 2024-04-18T05:16:30.078Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 18th - Minor Bug Fix
+## Fixed
+* Fixed an issue where report user/message buttons would become desynced when using claim/mark as finished
 
 # April 14th - More Economy Balancing
 ## Changed

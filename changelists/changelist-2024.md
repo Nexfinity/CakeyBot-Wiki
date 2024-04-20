@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-18T05:16:30.078Z
+date: 2024-04-20T11:34:35.434Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 20th - Playlist Fix
+## Fixed
+* Fixed an issue where creating/adding to Cakey playlists would result in invalid tracks which would prevent loading the playlists later.
 
 # April 18th - Minor Bug Fix
 ## Fixed

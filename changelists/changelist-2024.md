@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-20T11:34:35.434Z
+date: 2024-04-22T10:16:39.195Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 22nd - Spy.Pet Detection Improvements
+## Fixed
+* Created a bypass and re-enabled the "Has Server Been Tracked?" field for the `/setup spypet` command.
+
+## Added
+* Added a "Bulk Ban Known Accounts" button to the `/setup spypet` command. (This allows you to bulk ban all of their known accounts, even if they haven't joined yet)
 
 # April 20th - Playlist Fix
 ## Fixed

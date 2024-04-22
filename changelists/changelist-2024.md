@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-22T10:16:39.195Z
+date: 2024-04-22T10:17:32.347Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -14,6 +14,19 @@ dateCreated: 2024-01-02T23:52:26.127Z
 
 ## Added
 * Added a "Bulk Ban Known Accounts" button to the `/setup spypet` command. (This allows you to bulk ban all of their known accounts, even if they haven't joined yet)
+
+# April 21st - Spy.Pet Detection
+## Added
+Not sure how many of you follow the news, however, recently a new site called SpyPet was released which actively tracks thousands of servers, hundreds of millions of users and billions of messages across Discord. This is a HUGE invasion of privacy and we think users should not only be aware that this is happening but also provide tools to help defend against it. That's why we have released a new command (`/setup spypet`) which will scan your server and inform you if any of SpyPet's known tracking accounts that are in your server. Which you can then ban or quarantine as you see fit. 
+
+Currently this command will provide 3 things:
+1) A list of confirmed SpyPet accounts in your server via ID blacklisting checks
+2) A list of highly likely but not 100% confirmed probably accounts by matching their avatar hashes (SpyPet uses a random collection of the same avatars for their accounts, making it easy to track)
+3) A true/false showing if you server is or has been tracked by SpyPet currently or previously (even if none of their accounts are still in your server.)
+
+For more info about SpyPet and how it works, you can check out No Text To Speech's video [here](https://www.youtube.com/watch?v=ktxbXlF6UQE)
+
+Also a shout out to @hampus. and @Sylveondeko for providing data and tools to help us provide this feature.
 
 # April 20th - Playlist Fix
 ## Fixed

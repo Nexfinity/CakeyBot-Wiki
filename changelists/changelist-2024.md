@@ -2,11 +2,17 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-22T10:17:32.347Z
+date: 2024-04-24T01:42:24.654Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 23rd - Misc. Fixes
+## Fixed
+* Fixed the Image & GIF only category channels deleting valid posts
+* Fixed loading non-Spotify playlists in music (Soundcloud and such)
+* Fixed a slightly issue causing birthday announcements to be heavily offset (Might still be off a bit but should be better than before)
 
 # April 22nd - Spy.Pet Detection Improvements
 ## Fixed

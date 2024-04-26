@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2024-01-02T10:15:26.061Z
+date: 2024-04-26T18:04:04.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -52,6 +52,6 @@ Cakey Bot has the ability to play music 24/7 and never leave a voice channel (ex
 
 # Supported Sources
 
-Cakey Bot supports many different sources including Twitch and Youtube!
+Cakey Bot supports many different sources including Spotify, Bandcamp, Twitch and more!
 
 You can view all of our current and planned music sources on [this page](https://wiki.cakey.bot/en/music/supported-sources).

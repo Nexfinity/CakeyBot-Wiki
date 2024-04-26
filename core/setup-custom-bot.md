@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-02-12T07:03:00.231Z
+date: 2024-04-26T19:10:03.461Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -139,14 +139,16 @@ Once you have setup and configured your bot you can setup additional customizati
   
 # Frequently Asked Questions
 1. Do I need to keep the main Cakey Bot?
-   A. No. You can keep both bots if you want. However, if you make use of things like Audit Logs, join/leave announcements, etc you will receive duplicate messages from both bots. It is recommended to kick/remove the main bot once you have invited the custom bot.
-2. How many servers can I invite the custom bot to?
+   A. No. You should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
+2. My bot appears to be offline.
+   A. Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
+3. How many servers can I invite the custom bot to?
    A. Currently, unlimited. This may change in the future if users abuse the capability however.
-3. Will my settings persist from the main Cakey Bot or will I need to set them up again?
+4. Will my settings persist from the main Cakey Bot or will I need to set them up again?
    A. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
-4. Do I need to assign every server in the dashboard that I invite the custom bot to?
+5. Do I need to assign every server in the dashboard that I invite the custom bot to?
    A: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
-5. How do I change the profile picture, username or bio/about me?
+6. How do I change the profile picture, username or bio/about me?
    A: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
-6. How do I setup custom status, emotes and other advanced customization for the custom bot?
+7. How do I setup custom status, emotes and other advanced customization for the custom bot?
    A: Check out the "Additional Customization" section above this FAQ for more information.

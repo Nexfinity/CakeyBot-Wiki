@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-24T01:42:24.654Z
+date: 2024-04-28T02:39:48.430Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 27th - Support Rating Fix
+## Fixed
+* Fixed support ticket ratings not sending correctly.
 
 # April 23rd - Misc. Fixes
 ## Fixed

@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-28T02:39:48.430Z
+date: 2024-04-29T02:10:43.993Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# April 28th - Achievements Ignored Channels
+## Added
+* Added the ability to have specific channels ignored for Achievements. 
 
 # April 27th - Support Rating Fix
 ## Fixed

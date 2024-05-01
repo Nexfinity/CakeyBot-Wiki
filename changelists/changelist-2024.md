@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-04-29T02:10:43.993Z
+date: 2024-05-01T09:21:42.895Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# May 1st - Leaderboard Fixes
+## Fixed
+* Fixed an issue where the leveling leaderboard on the website would display incorrect progress bars
+* Fixed an issue where the leveling leaderboard on the website would fail to display certain users if their level/XP was too low.
 
 # April 28th - Achievements Ignored Channels
 ## Added

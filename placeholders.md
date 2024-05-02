@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-04-07T05:36:36.909Z
+date: 2024-05-02T22:24:42.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -194,7 +194,11 @@ Examples:
 
 ## Forum/Thread Posts/Comments
 
-> Using these placeholders will prevent the message from being triggered inside of ALL non-thread channels.
+`{closethread}` - Closes/archives the thread to prevent new replies/comments.
+`{lockthread}` - Locks the thread so that only moderators can open/unlock it.
+`{deletethread}` - Deletes the thread entirely.
+
+> Using the thread placeholders *below* will prevent the message from being triggered inside of ALL non-thread channels.
 {.is-warning}
 
 `{originalpostonly}` - Only trigger for the original post in a thread.

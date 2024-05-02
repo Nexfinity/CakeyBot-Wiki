@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-05-01T09:21:42.895Z
+date: 2024-05-02T22:22:21.094Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# May 2nd - Reset Levels & Thread Management
+## Added
+* Added new `/setup reset-levels` command to reset ALL XP/leveling data for a server.
+* Added several new thread-specific placeholders: `{closethread}`, `{lockthread}`, & `{deletethread}`
 
 # May 1st - Leaderboard Fixes
 ## Fixed

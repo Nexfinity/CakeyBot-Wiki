@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-02-20T13:31:20.494Z
+date: 2024-05-03T20:59:31.632Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -50,9 +50,20 @@ You can also use a fancy banner picture for your join/leave announcements too! I
 Default join/leave banner images:
 ![](/announcements2.png)
 
-# Embed Announcements
+# Custom Embeds
 
-Premium users can also set a custom embed for join/leave announcements too! To set a custom embed you will need to go to our embed editor located [here](https://cakey.bot/dashboard/public/embed-editor). Once you have designed a custom embed, you can copy the URL and paste it into the "Embed URL" field on the announcements page.
+> Using custom embeds on announcements is a [**Premium Only**](https://cakey.bot/premium.php) feature.
+{.is-warning}
+
+You can include an optional embed on announcements by following the steps below:
+
+1. Login to the dashboard.
+2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
+3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
+4. Paste the URL you copied in the last step into the **Embed URL** text field.
+
+> Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
+{.is-info}
 
 # Placeholders
 

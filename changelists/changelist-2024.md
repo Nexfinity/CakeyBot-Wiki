@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-05-18T13:59:50.822Z
+date: 2024-05-18T14:17:55.267Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -11,6 +11,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 # May 18th - Add/Remove Roles on Achievements
 ## Changed
 * Updated Auto Responder placeholder priority so message deletion is calculated before thread placeholders (Prevents a niche issue with message deletion when closing a thread via placeholders)
+* Economy command rate limits are now per-user+per-server instead of explicitly per user. (This means a user's cooldown is separate for each server instead of being globally linked to the user)
 
 ## Added
 * Added the ability to grant and remove roles when users unlock achievements

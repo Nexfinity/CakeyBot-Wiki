@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-05-02T22:22:21.094Z
+date: 2024-05-18T13:59:50.822Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# May 18th - Add/Remove Roles on Achievements
+## Changed
+* Updated Auto Responder placeholder priority so message deletion is calculated before thread placeholders (Prevents a niche issue with message deletion when closing a thread via placeholders)
+
+## Added
+* Added the ability to grant and remove roles when users unlock achievements
 
 # May 2nd - Reset Levels & Thread Management
 ## Added

@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-05-18T14:17:55.267Z
+date: 2024-05-21T05:39:59.833Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# May 21st - High Leveling Limits
+## Changed
+* Leveling role reward limit has now been increased to a maximum of 20 for premium servers
+* Leveling role XP modifier limit has now been increased to a maximum of 10 for premium servers
 
 # May 18th - Add/Remove Roles on Achievements
 ## Changed

@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-03-28T02:01:50.768Z
+date: 2024-05-21T05:46:05.330Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -25,6 +25,9 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 4. You can then create, delete, and edit any responses on this page. You can get an overview of any flags that are available below.&#x20;
 
 # Flags
+
+> Note: Only a single auto responder will ever trigger on a given message, even if the meet meets the requirements of multiple auto responders. This selection is prioritized by the lowest ID of any matching responders.
+{.is-info}
 
 * Exact Match
   * Default behavior, looks for exact match strings

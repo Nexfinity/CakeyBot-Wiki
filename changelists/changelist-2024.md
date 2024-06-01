@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-01T19:10:18.101Z
+date: 2024-06-01T19:10:37.753Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -10,7 +10,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 
 # June 1st - Birthday QOL
 ## Fixed
-* The success message on the `/birthday` set command now correctly displays when setting another user's birthday.
+* The success message on the `/birthday set` command now correctly displays when setting another user's birthday.
 
 ## Changed
 * Added the ability to set a custom birthday announcement message. (Includes basic placeholder support)

@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-05-28T06:49:11.172Z
+date: 2024-06-01T19:10:18.101Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 1st - Birthday QOL
+## Fixed
+* The success message on the `/birthday` set command now correctly displays when setting another user's birthday.
+
+## Changed
+* Added the ability to set a custom birthday announcement message. (Includes basic placeholder support)
+* The `/birthday set` command no longer requires a year. (Defaults to Cakey's creation year if not supplied)
 
 # May 28th - Birthday QOL
 ## Changed

@@ -2,7 +2,7 @@
 title: Birthdays
 description: 
 published: 1
-date: 2023-11-12T16:29:07.761Z
+date: 2024-06-01T19:14:55.620Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-09T01:24:46.396Z
@@ -18,8 +18,8 @@ The birthday announcement channel is where all of the birthday announcements wil
 {.is-info}
 
 ## Setting your birthday
-You can set your own birthday by running the `/birthday set <date>` command. You can also change or update your birthday by running this command again and using the updated date.
-> The date MUST be formatted like `MM/DD/YYYY`. Time is not required and announcements will be sent to servers at 12:01 AM EST.
+You can set your own birthday by running the `/birthday set` command. You can also change or update your birthday by running this command again and using the updated date.
+> Server moderators can manually set/update other user's birthdays.
 {.is-info}
 
 ## View upcoming birthdays

@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-08T05:12:53.027Z
+date: 2024-06-08T05:14:53.622Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -12,6 +12,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 ## Changed
 * You can now assign optional thread IDs for social feeds
 * The social feed page will now preserve the last selected tab when editing/adding feeds on the dashboard now
+* The auto mod page will now preserve the last selected tab when modifying settings now
 
 # June 1st - Birthday QOL
 ## Fixed

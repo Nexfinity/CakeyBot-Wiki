@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-08T05:14:53.622Z
+date: 2024-06-11T19:26:44.153Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 11th - AI Chat Bot Improvements
+## Added
+* Added `GPT4` and `GPT-Turbo` options for the AI chat bot _(Limited to custom bots)_
+* Increased "max token" usage for AI chat bot from 200 to 1k _(Limited to custom bots)_
 
 # June 8th - Social Feed Threads
 ## Changed

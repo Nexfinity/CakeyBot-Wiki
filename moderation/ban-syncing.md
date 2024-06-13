@@ -2,7 +2,7 @@
 title: Ban Syncing
 description: 
 published: 1
-date: 2024-01-09T07:29:33.100Z
+date: 2024-06-13T22:17:57.748Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:18:18.508Z
@@ -23,7 +23,7 @@ The "Ban Sync" feature in Cakey Bot offers server owners an efficient and synchr
 > Note: If a server is in multiple pools, it is possible for the ban to propogate across multiple pools.
 
 # Creating a Pool
-> Currently severs are limited to creating 1 pool per server. However, servers can be incldued in any number of pools.
+> Currently servers are limited to creating 1 pool per server. However, servers can be included in any number of pools.
 {.is-info}
 
 To create a new pool simply login to the web dashboard and follow these steps:

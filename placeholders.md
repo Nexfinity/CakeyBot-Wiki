@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-05-02T22:24:42.798Z
+date: 2024-06-17T05:57:11.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -318,6 +318,14 @@ Examples:
 {choose1:apples;oranges;pears}
 {choose2:dogs;cats;horses}
 My favorite fruit is {choice1} and my favorite animal is {choice2}!
+```
+
+## Math Expressions
+The `{math:X}` placeholder allows you to parse math expressions! 
+
+Example:
+```asciidoc
+What is 5-2? It is: {math:5-2}!
 ```
 
 ## Arguments/$N Variable

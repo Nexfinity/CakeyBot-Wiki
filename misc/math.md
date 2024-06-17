@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:49:05.283Z
+date: 2024-06-17T05:49:22.961Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -28,6 +28,7 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * [Mathematical Constants](https://mathparser.org/mxparser-math-collection/constants/)
 * [Physical Constants](https://mathparser.org/mxparser-math-collection/physical-constants/)
 * [Astronomical Constants](https://mathparser.org/mxparser-math-collection/astronomical-constants/)
+* [Metric Prefixes](https://mathparser.org/mxparser-math-collection/metric-prefixes/)
 * Base 1-36 Literals
 * Base N
 

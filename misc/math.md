@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:48:22.022Z
+date: 2024-06-17T05:49:05.283Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -26,6 +26,8 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * Unary Zero
 * [Variadic Functions](https://mathparser.org/mxparser-math-collection/variadic-functions/)
 * [Mathematical Constants](https://mathparser.org/mxparser-math-collection/constants/)
+* [Physical Constants](https://mathparser.org/mxparser-math-collection/physical-constants/)
+* [Astronomical Constants](https://mathparser.org/mxparser-math-collection/astronomical-constants/)
 * Base 1-36 Literals
 * Base N
 

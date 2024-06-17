@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:53:24.557Z
+date: 2024-06-17T05:54:56.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -42,3 +42,6 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * Natural N \(N &lt;= 10^k for k = 1, 2, ...,9\)
 * Uniform Continuous Distribution U\(0,1\)
 * Normal Distribution N\(0,1\)
+
+## Examples
+TBD

@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-01-02T10:25:22.611Z
+date: 2024-06-17T05:47:03.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -15,10 +15,14 @@ dateCreated: 2022-10-18T09:14:56.805Z
 
 ## Numbers
 
-* Binary
+* [Operators](https://mathparser.org/mxparser-math-collection/operators/)
+* [Binary](https://mathparser.org/mxparser-math-collection/binary-functions/)
+* [Binary Relations](https://mathparser.org/mxparser-math-collection/binary-relations/)
+* [Boolean Operators](https://mathparser.org/mxparser-math-collection/boolean-operators/)
+* [Bitwise Operators](https://mathparser.org/mxparser-math-collection/bitwise-operators/)
 * Octal
 * Hexadecimal
-* Unary
+* [Unary](https://mathparser.org/mxparser-math-collection/unary-functions/)
 * Unary Zero
 * Base 1-36 Literals
 * Base N

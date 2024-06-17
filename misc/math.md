@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:47:03.526Z
+date: 2024-06-17T05:47:42.288Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -24,6 +24,7 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * Hexadecimal
 * [Unary](https://mathparser.org/mxparser-math-collection/unary-functions/)
 * Unary Zero
+* [Variadic Functions](https://mathparser.org/mxparser-math-collection/variadic-functions/)
 * Base 1-36 Literals
 * Base N
 

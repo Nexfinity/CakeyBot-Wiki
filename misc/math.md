@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:49:22.961Z
+date: 2024-06-17T05:49:37.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z
@@ -31,6 +31,7 @@ dateCreated: 2022-10-18T09:14:56.805Z
 * [Metric Prefixes](https://mathparser.org/mxparser-math-collection/metric-prefixes/)
 * Base 1-36 Literals
 * Base N
+* [Units](https://mathparser.org/mxparser-math-collection/units/)
 
 ## Random Numbers
 

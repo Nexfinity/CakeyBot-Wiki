@@ -2,11 +2,33 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-17T05:57:54.120Z
+date: 2024-06-21T18:22:30.526Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 21st - Economy Items & More!
+## Changed
+* The `/poll` command now requires atleast 2 options. (Reduces number of clicks)
+* Updated the `{choose:}` placeholder for auto responders. You can now have up to 20 different lists and an unlimited number of items per list.
+
+## Added
+* Added several new economy placeholders: (Suggested by @sash.gg )
+  * `{user.balance}` - Displays the user's current economy balance as a raw number. (No commas)
+  * `{user.balance-formatted}` - Displays the user's current economy balance with a formatted number. (With commas)
+  * `{economy-add:<amount>}` - Adds economy money to the user.
+  * `{economy-remove:<amount>}` - Removes economy money from the user.
+* Added economy item shop! You can purchase items to affect your odds:
+  * **Nice Suit** - Improves begging odds by 50%
+  * **Ninja Costume** - Improves chance of robbery success by 25%
+  * **Lucky Cube** - Improves chance to win RNG-based games by 33%
+  * **Guard Dog** - Decreases the likelihood of a successful robbery against you by 50%
+  * **Bus Ticket** - Decreases the chance of someone being able to rob you by 25%
+* Add several cooldown placeholders for auto responders:
+  * `{cooldown-server:<seconds>}` - Adds a cooldown for the entire server for the specified amount of seconds.
+  * `{cooldown-channel:<seconds>}` - Adds a cooldown per-channel for the specified amount of seconds.
+  * `{cooldown-user:<seconds>}` - Adds a cooldown per-user for the specified amount of seconds.
 
 # June 17th - Math Placeholder
 ## Added

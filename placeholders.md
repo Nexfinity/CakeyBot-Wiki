@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-06-21T18:02:16.636Z
+date: 2024-06-21T18:19:22.949Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -224,6 +224,13 @@ Examples:
 
 > Spamming commands that use this variable will lead to your server being blacklisted from using Auto Responders.
 {.is-danger}
+
+## Cooldowns
+Adds custom cooldowns for your responses. Note that the original anti-spam cooldown for the bot is still applied.
+
+* `{cooldown-server:<seconds>}` - Adds a cooldown for the entire server for the specified amount of seconds.
+* `{cooldown-channel:<seconds>}` - Adds a cooldown per-channel for the specified amount of seconds.
+* `{cooldown-user:<seconds>}` - Adds a cooldown per-user for the specified amount of seconds.
 
 ## Response Chance
 

@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-06-21T17:19:35.330Z
+date: 2024-06-21T18:02:16.636Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -312,7 +312,7 @@ You can also have reactions apply to the original message that triggered the aut
 ## Choose & Choice
 
 The `{choose:}` and `{choice}` variables let you pick random items from a list or lists.\
-To set up a list, use `{choose:item1;item2;item3}`. You can have up to 10 lists, using `{choose1:}`, `{choose2:}`, and so on. You can have up to 20 items per list.
+To set up a list, use `{choose:item1;item2;item3}`. You can have up to 20 lists, using `{choose1:}`, `{choose2:}`, and so on. There is no limit for the number of items in a list.
 
 `{choice}` - Get a random value from your list.\
 `{choice3}` - Get a random value from list 3.

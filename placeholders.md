@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-06-17T05:57:11.567Z
+date: 2024-06-21T17:19:35.330Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -261,8 +261,16 @@ Examples:
 
 `{addrole:<id>}` - Adds a role to the user.
 `{removerole:<id>}` - Removes the role from the user.
+
+## Leveling/XP
 `{xp-add:<amount>}` - Adds XP to the user.
 `{xp-remove:<amount>}` - Removes XP from the user.
+
+## Economy
+`{user.balance}` - Displays the user's current economy balance as a raw number. (No commas)
+`{user.balance-formatted}` - Displays the user's current economy balance with a formatted number. (With commas)
+`{economy-add:<amount>}` - Adds economy money to the user.
+`{economy-remove:<amount>}` - Removes economy money from the user.
 
 ## Moderation
 > Note that moderation placeholders will only work on Auto Responders and can NOT be used for Announcements.

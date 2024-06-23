@@ -2,11 +2,21 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-21T18:22:30.526Z
+date: 2024-06-23T19:09:26.242Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 23rd - Interactive Audit Logs
+## Added
+* Added interactive audit logs! Several audit log events will now include various action buttons to revert or modify certain audit log events. Some of these events include:
+  * User join
+  * User banned/unbanned
+  * Invite created
+  * Channel, role & webhook created
+  
+Note: These buttons will still enforce required permissions and role hierarchy on the mods attempting to use them.
 
 # June 21st - Economy Items & More!
 ## Changed

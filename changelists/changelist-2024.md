@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-24T16:45:23.017Z
+date: 2024-06-24T16:48:45.616Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -13,7 +13,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Fixed some incorrect text formatting on the `/birthday set` command.
 
 ## Added
-* Added a 5% chance top get "super work" on the `/eco work` command for up to double the pay.
+* Added a 5% chance to get "super work" on the `/eco work` command for up to double the pay.
 * Added multiple poll types including "Simple", "Advanced" and "Discord".
 
 # June 23rd - Interactive Audit Logs

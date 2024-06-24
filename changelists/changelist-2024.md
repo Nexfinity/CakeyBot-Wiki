@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-23T19:09:26.242Z
+date: 2024-06-24T16:45:23.017Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 24th - QOL Updates
+## Fixed
+* Fixed some incorrect text formatting on the `/birthday set` command.
+
+## Added
+* Added a 5% chance top get "super work" on the `/eco work` command for up to double the pay.
+* Added multiple poll types including "Simple", "Advanced" and "Discord".
 
 # June 23rd - Interactive Audit Logs
 ## Added

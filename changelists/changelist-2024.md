@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-30T23:09:08.283Z
+date: 2024-06-30T23:09:14.065Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -13,7 +13,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Fixed not being able to buy multiple items from the `/eco shop`
 * Fixed an issue where voice minute related achievements would not announce if the time didn't match the achievement _exactly_.
 
-## changed
+## Changed
 * Removed year display for `/birthday next`
 
 ## Added

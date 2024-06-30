@@ -2,11 +2,24 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-24T16:48:45.616Z
+date: 2024-06-30T23:09:08.283Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# June 30th - Misc. Fixes & Changes
+## Fixed
+* Fixed not being able to buy multiple items from the `/eco shop`
+* Fixed an issue where voice minute related achievements would not announce if the time didn't match the achievement _exactly_.
+
+## changed
+* Removed year display for `/birthday next`
+
+## Added
+* Added new 0.02% chance for coinflips to result in the coin landing on the side. (Causes a 3x win multiplier for economy coinflips, regardless of user's original guess)
+* Added the `/setup songrequest-disable` command to unset the song request channel. It won't delete the physical channel though.
+* Added `/rp cry` & `/rp pout` commands.
 
 # June 24th - QOL Updates
 ## Fixed

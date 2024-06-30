@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: 
 published: 1
-date: 2024-01-04T14:55:35.725Z
+date: 2024-06-30T23:12:05.575Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -24,6 +24,12 @@ In this new channel, you will see a fancy embed with 6 buttons added to it and a
 > You can freely rename and move the song request channel into other categories after it's created without any issues as Cakey Bot uses the channel ID to update the messages.
 {.is-success}
 
+# Removal
+You can also use the `/setup songrequest-disable` command to disable the song request channel. This will NOT delete the channel OR the embed. This will simply prevent the bot from listening for song requests in the channel. To re-enable the feature you will need to run the `/setup songrequest` command again. 
+
+> Note: Running the setup command again after disabling the channel will create a NEW channel. It will not re-enable the old channel.
+{.is-info}
+ 
 # Usage
 
 The song request channel is very simple to use. In order to use it, you (or whoever is attempting to use it) must be in a voice channel that Cakey Bot can view/join. Once you are in a voice channel, you can either post a song name or a URL/Link to a valid music source and Cakey Bot will automatically search for and add the song to the queue. When it has done so, it will also update the embed picture/content. As you add/remove items to/from the queue, the queue message under the embed will also update.

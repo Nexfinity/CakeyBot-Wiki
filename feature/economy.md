@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-06-30T23:09:56.676Z
+date: 2024-07-02T17:54:00.343Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -52,7 +52,7 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 * **Ninja Costume** - Improves chance of robbery success by 25%
   * **Cost:** $25,000
 
-* **Lucky Cube** - Improves chance to win RNG-based games by 33%
+* **Lucky Cube** - Improves chance to win RNG-based games by 7%
   * **Cost:** $25,000
   * Games affected:
     * Coinflip

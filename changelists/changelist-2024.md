@@ -2,11 +2,21 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-06-30T23:09:14.065Z
+date: 2024-07-02T17:53:42.035Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# July 2nd - More Bug Fixes
+## Fixed
+* Fixed `/eco shop` command not working once every item has been bought.
+* Fixed interactive audit log buttons show both an error and success message
+* Fixed `/role add` command sometimes failing hierarchy checks or not returning any message.
+
+## Changed
+* Disabled the ability to interact with bots using economy commands.
+* Decreased "Lucky Cube" RNG improvement from 33% to 7%
 
 # June 30th - Misc. Fixes & Changes
 ## Fixed

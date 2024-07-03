@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-07-03T04:16:01.188Z
+date: 2024-07-03T04:18:48.366Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -16,7 +16,7 @@ dateCreated: 2022-09-01T03:26:55.413Z
 Cakey Bot (and our web dashboard) both support over 15 different languages. The language can be changed per-server and will apply for every user in that server. You can change the server's language from our web dashboard. Currently supported languages are listed below:
 
 * English
-* French
+* French/Français
 * Dutch/Nederlands `(Vikthor)`
 * German/Deutsch `(Marcel, MST2 & Angelo)`
 * Korean/한국어 `(Johnmacro)`

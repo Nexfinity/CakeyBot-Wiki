@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-07-04T10:12:06.379Z
+date: 2024-07-04T10:13:51.780Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -12,12 +12,13 @@ dateCreated: 2024-01-02T23:52:26.127Z
 ## Fixed
 * Fixed voice transcripts not being properly censored.
 * Fixed not being able to purchase economy items.
-* Fixed not being able to check own balance with `/eco balance`
+* Fixed not being able to use some economy commands on yourself.
 * Fixed not being able to bulk import some auto responder flag types.
 
 ## Changed
 * Updated `/eco shop` to display a "All items owned" option when everything is owned.
 * Removed the additional date formatting when viewing birthdays.
+* Enabled some game commands for user apps. (like `/coinflip` & `/dice`)
 
 ## Added
 * Added `/setup clear-all-birthdays` & `/setup clear-missing-birthdays` commands.

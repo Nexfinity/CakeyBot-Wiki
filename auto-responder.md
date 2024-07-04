@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-05-21T05:46:29.417Z
+date: 2024-07-04T10:09:15.427Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -148,6 +148,12 @@ The template CSV file and bulk exported CSVs will have a few different columns w
     * 8 - Contains channel mention
     * 9 - Contains role mention
     * 10 - Wildcard Contains
+    * 11 - Regex Match
+    * 12 - Contains image attachment
+    * 13 - Contains video attachment"
+    * 14 - Contains audio attachment
+    * 15 - Contains text attachment
+    * 16 - Contains executable attachment
 * Response
   * This is the response phrase for a trigger/command.
   * It must be less than 2,000 characters.

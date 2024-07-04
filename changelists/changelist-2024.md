@@ -2,11 +2,26 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-07-02T17:53:42.035Z
+date: 2024-07-04T10:12:06.379Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# July 4th - Economy Fixes & Birthday Resetting
+## Fixed
+* Fixed voice transcripts not being properly censored.
+* Fixed not being able to purchase economy items.
+* Fixed not being able to check own balance with `/eco balance`
+* Fixed not being able to bulk import some auto responder flag types.
+
+## Changed
+* Updated `/eco shop` to display a "All items owned" option when everything is owned.
+* Removed the additional date formatting when viewing birthdays.
+
+## Added
+* Added `/setup clear-all-birthdays` & `/setup clear-missing-birthdays` commands.
+* Added thread owner info to "Thread Created" & "Thread Deleted" audit log entries
 
 # July 2nd - More Bug Fixes
 ## Fixed

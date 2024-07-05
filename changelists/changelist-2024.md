@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-07-04T10:13:51.780Z
+date: 2024-07-05T03:38:40.734Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -14,11 +14,13 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Fixed not being able to purchase economy items.
 * Fixed not being able to use some economy commands on yourself.
 * Fixed not being able to bulk import some auto responder flag types.
+* Fixed integer overflow issue on some economy commands.
 
 ## Changed
 * Updated `/eco shop` to display a "All items owned" option when everything is owned.
 * Removed the additional date formatting when viewing birthdays.
 * Enabled some game commands for user apps. (like `/coinflip` & `/dice`)
+* Temporarily disabled lucky cube again for re-balancing.
 
 ## Added
 * Added `/setup clear-all-birthdays` & `/setup clear-missing-birthdays` commands.

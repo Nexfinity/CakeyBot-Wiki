@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-07-05T03:38:40.734Z
+date: 2024-07-17T00:16:48.366Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# July 16th - AFK Fix
+## Fixed
+* Server admins can now actually remove AFK messages from other users
 
 # July 4th - Economy Fixes & Birthday Resetting
 ## Fixed

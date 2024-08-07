@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-07-17T00:16:48.366Z
+date: 2024-08-07T11:24:14.543Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August - Bug Fix Roundup
+## Fixed
+* Fixed a massive collection of bugs and internal issues.
 
 # July 16th - AFK Fix
 ## Fixed

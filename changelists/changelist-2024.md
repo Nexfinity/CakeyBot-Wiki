@@ -2,11 +2,23 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-07T11:25:14.408Z
+date: 2024-08-08T09:25:52.469Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August - Polls and Poleplay
+## Fixed
+* Fixed several more bugs.
+
+## Changed
+* Added the ability to "Re-roll" dice with the click of a button.
+
+## Added
+* Added new `{poll:}` placeholder to put Discord polls on auto responders.
+* Added new `/rp bonk <user>` command.
+* Added new `/role listusers` command.
 
 # August - Bug Fix Roundup
 ## Fixed

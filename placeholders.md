@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-08-08T08:59:55.319Z
+date: 2024-08-08T09:01:23.391Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -322,9 +322,9 @@ You can also have reactions apply to the original message that triggered the aut
 
 You can send Discord polls using this `{poll:question:time:answer1:answer2:etc}` placeholder. There are some limitations:
 - Max limit of 1 poll per auto responder.
-- Question: Max length of X characters.
+- Question: Max length of 300 characters.
 - Time: Integer value between 1 and 168. (In hours)
-- Answers: Variable amount of 1 to 10 answers per poll. Max length of X characters per answer.
+- Answers: Variable amount of 1 to 10 answers per poll. Max length of 55 characters per answer.
 
 Examples:
 ```asciidoc

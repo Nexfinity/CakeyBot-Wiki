@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-06-21T18:19:22.949Z
+date: 2024-08-08T08:59:34.597Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -314,6 +314,23 @@ You can also have reactions apply to the original message that triggered the aut
 {reactoriginal:<a:200IQ:730769872698736692>} //Animated/Gif Emote
 {reactoriginal:<:r6s:847490914749382719>}    //Custom Server Emote
 {reactoriginal:😄}                           //Normal Unicode Emote
+```
+
+## Polls
+> **Note:** This placeholder will not work on messages that use `{dm}`.
+{.is-warning}
+
+You can send Discord polls using this `{poll:question:time:answer1:answer2:etc}` placeholder. There are some limitations:
+- Max limit of 1 poll per auto responder.
+- Question: Max length of X characters.
+- Time: Integer value between 1 and 168.
+- Answers: Variable amount of 1 to 10 answers per poll. Max length of X characters per answer.
+
+Examples:
+```
+{poll:this is the question:168:answer1:answer2}
+
+{poll:What is your favorite fruit?:1:Apples:Peaches:Coconuts:Grapes}
 ```
 
 ## Choose & Choice

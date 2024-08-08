@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-08T09:25:52.469Z
+date: 2024-08-08T11:33:13.902Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -19,6 +19,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Added new `{poll:}` placeholder to put Discord polls on auto responders.
 * Added new `/rp bonk <user>` command.
 * Added new `/role listusers` command.
+* Added new `/setup force-check-boosts` command.
 
 # August - Bug Fix Roundup
 ## Fixed

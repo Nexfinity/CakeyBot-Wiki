@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-08-08T08:59:34.597Z
+date: 2024-08-08T08:59:44.402Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -327,7 +327,7 @@ You can send Discord polls using this `{poll:question:time:answer1:answer2:etc}`
 - Answers: Variable amount of 1 to 10 answers per poll. Max length of X characters per answer.
 
 Examples:
-```
+```asciidoc
 {poll:this is the question:168:answer1:answer2}
 
 {poll:What is your favorite fruit?:1:Apples:Peaches:Coconuts:Grapes}

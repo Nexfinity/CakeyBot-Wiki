@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-04-26T19:10:03.461Z
+date: 2024-08-09T04:58:08.246Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -136,6 +136,21 @@ If you have any issues in getting this sorted, do not hesitate to join our [supp
 
 # Additional Customization
 Once you have setup and configured your bot you can setup additional customizations like custom API keys, custom embed colors and more. Simply login to the web dashboard and navigate to the "Custom Bot" page.
+  
+# Custom Emote Replacement
+Cakey Bot even allows you to customize and swap out every custom emote we use in the bot. In order to do this simply follow the steps listed below:
+1. Naivate to the [Discord dev portal](https://discord.dev) website where you first created your bot.
+2. Open/select your custom bot/application from the dashboard
+3. Click the "Emote" tab on the left sidebar
+4. Find the emote that you want to replace with your own. (Write down or take note of the EXACT name of this emote)
+5. Delete the emote
+6. Upload your new custom emote image (Use the EXACT name of the one you deleted previously)
+7. Restart your custom bot via Cakey Bot's custom bot dashboard
+  
+<image src="/custom-emotes.png" width="800px">
+  
+> Note: Custom bots will syncronize their emotes on every startup. This means any random extra/invalid emotes will be deleted and any missing emotes will be replaced by the default. Be sure you use the EXACT name of the emotes when swapping them out.
+{.is-warning}
   
 # Frequently Asked Questions
 1. Do I need to keep the main Cakey Bot?

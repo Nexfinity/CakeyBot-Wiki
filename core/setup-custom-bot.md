@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-08-09T04:58:08.246Z
+date: 2024-08-09T04:59:01.500Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -166,4 +166,4 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
 6. How do I change the profile picture, username or bio/about me?
    A: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
 7. How do I setup custom status, emotes and other advanced customization for the custom bot?
-   A: Check out the "Additional Customization" section above this FAQ for more information.
+   A: Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.

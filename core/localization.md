@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-07-03T04:18:48.366Z
+date: 2024-08-12T15:30:20.846Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -60,8 +60,8 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
    `Requested by MrCake#1337`. For the website strings :data, :data2 and :name are 
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
-   accurate translation, you can create a discussion or issue oin the string or
-   you can join our [Discord](https://cakey.bot/discord) and a proof reader will
+   accurate translation, you can create a discussion or issue on the string or
+   you can join our [Discord](https://cakey.bot/discord) and a proofreader will
    provide further info/screenshots.
 5. Do not translate commands. Cakey Bot only accepts base commands in English.
    For example if the translation string is `Usage: /userinfo <user>`, you can

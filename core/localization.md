@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-08-12T15:30:20.846Z
+date: 2024-08-15T18:10:19.165Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -31,6 +31,7 @@ Cakey Bot (and our web dashboard) both support over 15 different languages. The 
 * Chinese Simplified/中文 `(Lukeee)`
 * Portuguese/Português `(Kaiser)`
 * Russian/Русский язык `(Misha133)`
+* Spanish/Español `(Xurtan)`
 
 We are adding more languages and you can contribute on our Crowdin page [here](https://crowdin.com/project/cakey-bot). Once the majority of a language is completed (>80% translated) on Github/Crowdin it will be added as an officially supported language. Crowdin and Github are frequently synced so you can contribute to whichever you find the easiest.
 

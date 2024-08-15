@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-08-15T18:10:19.165Z
+date: 2024-08-15T18:29:28.800Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -13,7 +13,7 @@ dateCreated: 2022-09-01T03:26:55.413Z
 > New translations are constantly being added to the bot. This means some strings/phrases may not be translated yet especially for features that have been added recently.
 {.is-info}
 
-Cakey Bot (and our web dashboard) both support over 15 different languages. The language can be changed per-server and will apply for every user in that server. You can change the server's language from our web dashboard. Currently supported languages are listed below:
+Cakey Bot (and our web dashboard) both support over 16 different languages. The language can be changed per-server and will apply for every user in that server. You can change the server's language from our web dashboard. Currently supported languages are listed below:
 
 * English
 * French/Français

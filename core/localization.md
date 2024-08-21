@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-08-15T18:29:28.800Z
+date: 2024-08-21T01:25:11.494Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -29,7 +29,7 @@ Cakey Bot (and our web dashboard) both support over 16 different languages. The 
 * Japanese/日本語 `(hikarun)`
 * Ukrainian/Українська `(papip1)`
 * Chinese Simplified/中文 `(Lukeee)`
-* Portuguese/Português `(Kaiser)`
+* Portuguese/Português `(Kaiser & LoadSec)`
 * Russian/Русский язык `(Misha133)`
 * Spanish/Español `(Xurtan)`
 

@@ -2,13 +2,30 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-08T11:33:13.902Z
+date: 2024-08-22T23:29:21.588Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# August - Polls and Poleplay
+# August 22nd - New Games & Bug Fixes
+## Fixed
+* Fixed an issue where Cakey Bot would not automatically generate default Anti-Raid settings when joining a new server.
+## Changed
+* Added new custom error message pages to web dashboard for when data is missing from the database.
+* Relocated the `/debug` command to `/setup debug`
+
+## Added
+* Added the ability to bypass ban syncs by using `-nosync` in the ban reason.
+* Added the ability to have ticket channels ignored for Channel Created & Deleted audit log events.
+* Added new `/random-user` command.
+* Added new `/eco high-or-low` economy game command.
+
+# August 15th - Spanish Locale
+## Added 
+* Added new Spanish locale for web dashboard and the bot. Thanks @Xurtan & @Tonno for your contributions!
+
+# August 8th - Polls and Poleplay
 ## Fixed
 * Fixed several more bugs.
 
@@ -21,7 +38,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 * Added new `/role listusers` command.
 * Added new `/setup force-check-boosts` command.
 
-# August - Bug Fix Roundup
+# August 7th - Bug Fix Roundup
 ## Fixed
 * Fixed a massive collection of bugs and internal issues. (Too many to really list, majority of which were fairly minor, or specific edge-cases)
 

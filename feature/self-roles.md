@@ -2,7 +2,7 @@
 title: Self Roles
 description: 
 published: 1
-date: 2024-03-24T23:41:07.382Z
+date: 2024-08-23T22:45:41.888Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:14.430Z
@@ -13,15 +13,11 @@ dateCreated: 2022-10-18T08:20:14.430Z
 > Make sure that Cakey Bot has the **`Manage Roles`** permission and that the Cakey Bot's role is _above_ the roles it is trying to assign.
 {.is-warning}
 
-> This feature is sunsetting. There will be no new updates or improvements made to it and users will no longer be able to add or remove roles. Pre-existing setups will continue to work for the time being.
-{.is-danger}
-
-
 # Self Role Command
 
 Self Roles allows users to add/remove roles to/from themselves from a list of roles that have been created/set by the server admins.
 
-To add/remove a role from this list you can use the `/selfrole add <role>` and `/selfrole remove <role>` commands.
+To add/remove a role from this list you can use the `/selfrole addrole <role>` and `/selfrole removerole <role>` commands.
 
 To list all roles that can be self-assigned you can use the `/selfrole list` command.
 

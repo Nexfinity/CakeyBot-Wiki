@@ -2,14 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-23T22:07:27.278Z
+date: 2024-08-23T22:45:12.955Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# August 23rd - Role Mention Cooldowns
+# August 23rd - Role Mention Cooldowns & Self Roles
 ## Added
+* Re-added a widely requested feature, self roles! Use the /selfrole command to configure.
 * Added new "Role Mention Cooldown" system. This allows you to define cooldowns for mentionable roles to prevent users from spamming mentions.
 
 # August 22nd - New Games & Bug Fixes

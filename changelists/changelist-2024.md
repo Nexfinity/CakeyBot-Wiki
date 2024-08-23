@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-22T23:29:21.588Z
+date: 2024-08-23T22:07:27.278Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August 23rd - Role Mention Cooldowns
+## Added
+* Added new "Role Mention Cooldown" system. This allows you to define cooldowns for mentionable roles to prevent users from spamming mentions.
 
 # August 22nd - New Games & Bug Fixes
 ## Fixed

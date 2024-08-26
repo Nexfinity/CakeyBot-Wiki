@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-26T01:26:17.236Z
+date: 2024-08-26T16:24:47.781Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August 26th - Bug Fixes
+## Fixed
+* Fixed an issue where economy high/lo buttons would override ticket creation.
+* Fixed an incorrect error message for the `/ecoadmin manage-money` command.
 
 # August 24th - Bulk Kick Role
 ## Added

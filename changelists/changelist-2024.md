@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-23T22:45:12.955Z
+date: 2024-08-26T01:26:17.236Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August 24th - Bulk Kick Role
+## Added
+* Added new `/role bulkkick <role>` command. Requires ManageServer AND ManageRoles permission to use.
+
+## Changed
+* Updated the previous Auto role/Leveling role change to also disable roles that have the Manage Roles permission to prevent role escalation.
 
 # August 23rd - Role Mention Cooldowns & Self Roles
 ## Added

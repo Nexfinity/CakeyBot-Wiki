@@ -2,11 +2,21 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-30T03:57:57.145Z
+date: 2024-08-30T04:38:48.423Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# August 30th - Server Banners & Bug Fixes
+## Fixed
+* Misc. bug fixes.
+
+## Changed
+* Added some additional permission checks for some moderation commands.
+
+## Added
+* Added server banner to the `/serverinfo` command, if the server has one.
 
 # August 29th - Ticket Transcript Fix
 ## Fixed

@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-08-30T04:38:48.423Z
+date: 2024-09-03T03:00:12.353Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# September 2nd - Temporary Voice Lobbies
+## Added
+* Added temporary voice lobbies!
+  * Create a temporary voice channel lobby with: `/temp-voice admin create-lobby` (You can freely rename the lobby and category channels)
+  * Users can then join the voice channel and automatically get their own voice channel they can manage
+  * You can disable/remove the feature either by deleting the channels or running the `/temp-voice admin clear-lobby` command.
 
 # August 30th - Server Banners & Bug Fixes
 ## Fixed

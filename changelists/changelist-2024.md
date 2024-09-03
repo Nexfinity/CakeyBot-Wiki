@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-09-03T03:00:51.242Z
+date: 2024-09-03T15:41:37.010Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# September 3rd - User App Context Menus
+## Changed
+* Added support for Cakey Bot's context menu in user apps/DMs (excluding user/message reporting)
 
 # September 2nd - Temporary Voice Lobbies
 ## Added

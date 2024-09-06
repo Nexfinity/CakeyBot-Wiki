@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-05-21T05:40:59.703Z
+date: 2024-09-06T08:47:13.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -159,7 +159,7 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 [![A demo profile card](/card.png)](/card.png)
 
 ## ![two cyan hands shaking](/cb-partner.png) Partner Badge
-This badge is given out to [our partners](https://cakey.bot/partners.html), some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 4 users!
+This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users!
 <br />
  
 ## ![two cyan hands shaking](/cb-translator.png) Translater Badge

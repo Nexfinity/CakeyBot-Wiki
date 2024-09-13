@@ -2,11 +2,17 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-09-03T15:41:37.010Z
+date: 2024-09-13T05:17:59.336Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# September 12th - New Resources
+## Added
+* Added two new resources to the website:
+  * https://cakey.bot/xp-table.html
+  * https://cakey.bot/xp-calculator.html
 
 # September 3rd - User App Context Menus
 ## Changed

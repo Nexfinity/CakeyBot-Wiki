@@ -2,7 +2,7 @@
 title: Temp Voice Lobbies
 description: 
 published: 1
-date: 2024-09-13T05:10:44.356Z
+date: 2024-09-13T05:15:58.595Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-03T02:47:56.721Z
@@ -26,4 +26,24 @@ The Temporary Voice Lobby feature provides server owners with a dynamic and flex
  
 * **Automatic Deletion:** Once all users have left the temporary voice channel, it will be automatically deleted by the bot, keeping the server clean and organized without any manual intervention.
 
-# Configuring
+# Setup
+> You will need **`Manage Server`** or **`Administrator`** permission to set up this feature.
+{.is-warning}
+
+Admins can easily set up and manage the Temporary Voice Lobby feature using a set of simple commands. Follow these instructions to configure and control the lobby and temporary voice channels.
+
+## Creating the Lobby
+To create the Lobby voice channel and its associated category, use the following command: `/temp-voice admin create-lobby`.
+
+This will create a Lobby channel and a new category to house the temporary voice channels. 
+> Both the Lobby and Category channels can be freely renamed after creation without affecting functionality.
+
+## Removing the Lobby
+If you want to disable the temporary voice feature and remove all related channels, you can use: `/temp-voice admin clear-lobby`.
+
+This will delete the Lobby channel, the category, and any existing temporary voice channels that were created by the bot.
+
+## Managing temporary voice channels
+If needed, admins can forcefully delete any user's temporary voice channel without waiting for it to auto-delete by running: `/temp-voice admin force-delete <channel>`.
+
+This command gives admins control over manual removal of temporary channels.

@@ -2,7 +2,7 @@
 title: Mention Cooldowns
 description: 
 published: 1
-date: 2024-09-13T05:05:23.031Z
+date: 2024-09-13T05:09:39.603Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T21:59:57.952Z
@@ -13,6 +13,7 @@ The Role Mention Cooldown feature allows users to manage the frequency at which 
 
 This feature is ideal for managing high-traffic channels where certain roles may be over-mentioned, ensuring that these roles only receive pings when necessary. It prevents unnecessary spam and ensures that role notifications remain meaningful.
 
+## Key Features
 * **Customizable Cooldown Duration:** Users can set a cooldown for role mentions between 1 minute and 1440 minutes (24 hours). This ensures flexibility in how frequently roles can be mentioned.
 * **Up to 5 Roles:** You can add up to 5 roles to be managed by the mention cooldown system, giving control over which roles are protected from excessive pings.
 * **Automatic Cooldown Reset:** When a role is mentioned in a chat channel, it automatically becomes unmentionable for the duration of the cooldown. Once the cooldown expires, the role will be automatically restored to a mentionable state.

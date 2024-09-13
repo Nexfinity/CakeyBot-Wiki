@@ -2,7 +2,7 @@
 title: Mention Cooldowns
 description: 
 published: 1
-date: 2024-09-13T05:09:39.603Z
+date: 2024-09-13T05:13:39.898Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T21:59:57.952Z
@@ -19,7 +19,7 @@ This feature is ideal for managing high-traffic channels where certain roles may
 * **Automatic Cooldown Reset:** When a role is mentioned in a chat channel, it automatically becomes unmentionable for the duration of the cooldown. Once the cooldown expires, the role will be automatically restored to a mentionable state.
 * **Automated Role Management:** No manual intervention is required to make roles mentionable again—everything is handled automatically, allowing for a hands-off experience once the cooldown is set.
 
-# Configuring
+# Setup
 1. Login into the [web dashboard](https://cakey.bot/dashboard/public).
 2. Select the server you want to configure.
 2. From the left menu, select the "Mention Cooldowns" page.

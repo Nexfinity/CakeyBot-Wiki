@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-08-08T09:01:23.391Z
+date: 2024-09-26T14:48:35.955Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -262,7 +262,7 @@ Examples:
 > Note: Discord has a limit of 50 pins per-channel. 
 {.is-info}
 
-## User Management
+## User Role Management
 > Note: Cakey Bot must have access to manage roles & Cakey Bot's highest role must be above the role you are trying to grant/remove from the user. Cakey Bot's role must also be higher than the user's highest role.
 {.is-info}
 

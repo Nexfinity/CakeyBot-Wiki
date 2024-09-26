@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-09-26T14:48:35.955Z
+date: 2024-09-26T15:13:58.886Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -269,9 +269,21 @@ Examples:
 `{addrole:<id>}` - Adds a role to the user.
 `{removerole:<id>}` - Removes the role from the user.
 
+Examples:
+
+```asciidoc
+{addrole:173439637388263425}
+```
+
 ## Leveling/XP
 `{xp-add:<amount>}` - Adds XP to the user.
 `{xp-remove:<amount>}` - Removes XP from the user.
+
+Examples:
+
+```asciidoc
+{xp-add:5004}
+```
 
 ## Economy
 `{user.balance}` - Displays the user's current economy balance as a raw number. (No commas)

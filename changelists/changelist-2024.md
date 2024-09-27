@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-09-13T05:17:59.336Z
+date: 2024-09-27T09:18:06.712Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# September 27th - Misc. improvements
+## Fixed
+* Fixed an issue where "Thread Updated" audit log events would not display modified tags
+## Changed
+* Birthday messages now allow mentions/pings
+* Server Boosted roles can now be selected as XP role multipliers
+* Twitch social feeds will now automatically strip @ symbols to prevent invalid username inputs
 
 # September 12th - New Resources
 ## Added

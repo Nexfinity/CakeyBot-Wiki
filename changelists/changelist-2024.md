@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-09-27T09:18:06.712Z
+date: 2024-09-27T09:18:52.302Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -11,6 +11,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 # September 27th - Misc. improvements
 ## Fixed
 * Fixed an issue where "Thread Updated" audit log events would not display modified tags
+
 ## Changed
 * Birthday messages now allow mentions/pings
 * Server Boosted roles can now be selected as XP role multipliers

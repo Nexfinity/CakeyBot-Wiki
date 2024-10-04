@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-09-27T09:18:52.302Z
+date: 2024-10-04T18:13:45.116Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# October 4th - Placeholder Fixes
+## Fixed
+* Fixed an issue where the `{user.nickname}` placeholder would show the username instead of the nickname.
+
+## Added
+* Added support for global names with the `{user.globalname}` placeholder.
 
 # September 27th - Misc. improvements
 ## Fixed

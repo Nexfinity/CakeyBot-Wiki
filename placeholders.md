@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-09-26T15:13:58.886Z
+date: 2024-10-04T18:10:29.691Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -27,6 +27,7 @@ dateCreated: 2022-10-18T08:00:48.805Z
 `{user.id}` - The ID of the user\
 `{user.nickname}` - The user’s nickname
 `{user.username}` - The user’s username
+`{user.globalname}` - The user's globalname
 `{user.avatar}`- The user’s avatar URL\
 `{user.mention}` - Mentions the user\
 `{user.createdAt}` - The user’s registration date\

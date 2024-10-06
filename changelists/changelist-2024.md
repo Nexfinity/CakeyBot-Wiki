@@ -2,11 +2,20 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-10-04T18:13:45.116Z
+date: 2024-10-06T00:32:54.818Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# October 5th - Ignore Categories
+## Fixed
+* Fixed an issue where editing a YouTube social feed would cause an "undefined" error for the URL.
+* Fixed an issue with command ratelimit cooldown timers displaying incorrect times.
+* Fixed a string newlines issue on the `/temp-voice admin create` command.
+
+## Changed
+* Added the ability to select entire categories to be ignored for Leveling, AutoMod, AuditLogs, Starboard, & Achievements.
 
 # October 4th - Placeholder Fixes
 ## Fixed

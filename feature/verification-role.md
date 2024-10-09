@@ -1,8 +1,8 @@
 ---
-title: Verification Role
+title: User Verification
 description: 
 published: 1
-date: 2023-11-12T16:35:20.099Z
+date: 2024-10-09T23:05:26.109Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z

@@ -2,7 +2,7 @@
 title: Auto Role
 description: 
 published: 1
-date: 2024-10-10T02:49:25.644Z
+date: 2024-10-10T02:50:50.215Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:36.935Z
@@ -13,7 +13,7 @@ dateCreated: 2022-10-18T08:17:36.935Z
 > Make sure that Cakey Bot has the **`Manage Roles`** permission and that the Cakey Bot's role is _above_ the role it is trying to assign.
 {.is-warning}
 
-> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain Administrator, Manage Server or Manage Role permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
 Auto Role allows you to make Cakey Bot automatically give a specific role to a member after they join your server. This role is granted immediately unless you have the server Verification level set to extreme. In which case, Cakey Bot will automatically grant the role after 10 minutes have passed.

@@ -2,11 +2,19 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-10-06T00:32:54.818Z
+date: 2024-10-10T02:44:48.512Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# October 9th - Verification V2
+## Changed
+* Overhauled the verification role system and added 3 new methods for verification!
+  * Slash Command (Same as previously)
+  * Button Press
+  * Captcha Solving
+  * Custom Password
 
 # October 5th - Ignore Categories
 ## Fixed

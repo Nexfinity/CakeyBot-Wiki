@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2024-10-10T02:50:08.351Z
+date: 2024-10-10T02:50:21.322Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -52,7 +52,7 @@ In order to set the role that you want users to get, you will need to type `/set
 > **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakey.bot/dashboard/public)!
 {.is-success}
 
-> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain Administrator, Manage Server or Manage Role permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Role` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
 ## Create the Verification Embed ~(Required~ ~for~ ~some~ ~methods)~

@@ -2,7 +2,7 @@
 title: Birthdays
 description: 
 published: 1
-date: 2024-06-01T19:14:55.620Z
+date: 2024-10-10T02:51:31.786Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-09T01:24:46.396Z
@@ -36,3 +36,6 @@ A birthday role is NOT required for birthday announcements to be made. Announcem
 
 > Note: Due to a Discord limitation you can't disable the birthday auto role by using the `/birthday role` command. You will have to set it to "**None**" in the [web dashboard](https://cakey.bot/dashboard/public).
 {.is-info}
+
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
+{.is-danger}

@@ -2,7 +2,7 @@
 title: Auto Role
 description: 
 published: 1
-date: 2023-11-12T16:30:06.073Z
+date: 2024-10-10T02:48:52.969Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:36.935Z
@@ -15,6 +15,9 @@ dateCreated: 2022-10-18T08:17:36.935Z
 
 > If your server has the High or Extreme Verification level set, the auto role will be given after 10 minutes in order to prevent bypassing discord verification levels.
 {.is-info}
+
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain Administrator, Manage Server or Manage Role permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
+{.is-danger}
 
 Auto Role allows you to make Cakey Bot automatically give a specific role to a member after they join your server. This role is granted immediately unless you have the server Verification level set to extreme. In which case, Cakey Bot will automatically grant the role after 10 minutes have passed.
 

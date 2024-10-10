@@ -2,7 +2,7 @@
 title: Auto Role
 description: 
 published: 1
-date: 2024-10-10T02:48:52.969Z
+date: 2024-10-10T02:49:16.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:36.935Z
@@ -21,6 +21,6 @@ dateCreated: 2022-10-18T08:17:36.935Z
 
 Auto Role allows you to make Cakey Bot automatically give a specific role to a member after they join your server. This role is granted immediately unless you have the server Verification level set to extreme. In which case, Cakey Bot will automatically grant the role after 10 minutes have passed.
 
-# Auto Role Command
+# Setup
 
 Auto Role will automatically assign the given role to users when they join your server. In order to set the Auto Role you will need to set it in the [Web Dashboard](https://cakey.bot/dashboard/public/). You can also remove/disable the Auto Role feature by simply setting the role with "none" in the dropdown menu.

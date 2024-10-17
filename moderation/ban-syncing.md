@@ -2,7 +2,7 @@
 title: Ban Syncing
 description: 
 published: 1
-date: 2024-08-22T22:32:11.350Z
+date: 2024-10-17T20:16:02.310Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:18:18.508Z
@@ -54,6 +54,19 @@ While on the Ban Sync page follow these steps:
 
 > By default, servers will NOT be able to be added to Ban Sync pools. You will have the manually toggle this to be "Enabled" on each server you wish to add.
 {.is-warning}
+
+## Configuring Ban Sync Direction
+
+Cakey Bot has 3 types of direction. These can be set independantly for both bans and unbans depending on your needs. The 3 types include:
+* **Two-Way** ~(Default~ ~Behavior)~
+  * Servers that have this set will both send bans/unbans to other servers in the pool as well as receive bans/unbans from other servers in the pool.
+* **Only Share**
+  * Servers that have this set will only send it's own bans/unbans to the rest of the pool and will not receive bans/unbans from other servers in the pool.
+* **Only Receive**
+  * Servers that have this set will only receive bans/unbans from other servers in the pool and will not broadcast it's own bans/unbans to the rest of the pool.
+
+> Note: Since these can be mix & matched, you should take note of how they will interact with each other. For example, if server A is set to "Two-Way" but server B is set to "Only Receive" then any bans in server B will NOT send to server A even though server A is set to Two-Way.
+{.is-info}
 
 # Removing Servers from Pools
 > Only the server that created the pool can remove servers from the pool. Servers that have been added to the pool can choose to "leave" the pool however.

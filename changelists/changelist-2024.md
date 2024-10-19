@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-10-17T20:09:12.549Z
+date: 2024-10-19T02:16:07.494Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# October 18th - Code Block Reminders
+## Added
+* Added code block reminders for plaintext code snippits in chat.
 
 # October 17th - Ban Sync Directions
 ## Added

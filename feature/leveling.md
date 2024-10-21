@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-10-10T02:51:18.414Z
+date: 2024-10-21T16:48:34.951Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -19,6 +19,7 @@ Cakey Bot provides all servers with free role rewards and leaderboards. Configur
 Cakey Bot makes it extremely easy to import your data from external/third-party bots! Currently we have support to automatically import data from these bots:
 * [MEE6](https://mee6.xyz/)
 * [Amari](https://amaribot.com/)
+* [XP-Bot.Net](https://xp-bot.net/) - **Note:** This source requires a file upload, read more: https://xp-bot.net/blog/b1728227181194p
 
 In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 

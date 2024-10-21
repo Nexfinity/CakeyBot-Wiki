@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-10-19T02:16:07.494Z
+date: 2024-10-21T16:49:16.667Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# October 21st - XP Bot Import
+## Added 
+* Added support for importing XP data from XP-Bot.Net. Read more: https://xp-bot.net/blog/b1728227181194p
 
 # October 18th - Code Block Reminders
 ## Added

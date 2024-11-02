@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: 1
-date: 2023-11-12T16:33:03.415Z
+date: 2024-11-02T06:05:33.610Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:20:52.188Z
@@ -40,10 +40,6 @@ Discord requires you to verify your e-mail account to add bots into your servers
 ## I can't invite Cakey Bot on my mobile device!
 
 * &#x20;For any issue with inviting Cakey Bot on mobile devices, see the [Mobile Troubleshooting](#mobile-troubleshooting) section.
-
-## Emoji are showing up as text in command responses!
-
-Cakey Bot uses a number of fancy custom emoji to make everything fun and visually appealing. These emoji are pulled from the main Cakey Bot discord server and the bot requires access to the "User External Emoji/Stickers" permission node in order to send these. Additionally, due to a limitation within Discord itself, the @everyone role will need access to this permission node for the emoji to work inside of slash command responses.
 
 ## Cakey Bot isn't responding to my commands!
 

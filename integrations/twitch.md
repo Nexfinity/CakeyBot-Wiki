@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:28:30.845Z
+date: 2024-11-07T06:29:30.453Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -31,6 +31,9 @@ Technically, Cakey Bot can support _most_ of the events listed on [this page](ht
 * User Banned
 * User Timedout
 * User Unbanned/Timeout Removed
+* Warnings
+  * Sent
+  * Acknowledged
 
 > Note: Internally Twitch handles Timeouts as bans with a duration (think like Temp Bans). In addition to this, their API does NOT provide us a way to determine the difference between an unban and a timeout removal. This means both of these actions will be linked to the same event. This is a limitation on Twitch's end.
 

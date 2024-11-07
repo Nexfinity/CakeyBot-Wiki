@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:36:31.068Z
+date: 2024-11-07T06:37:23.143Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -28,7 +28,7 @@ In order to re-link your Twitch account you can simply click the "Re-Link Twitch
 If you no longer wish to use this feature, you can click the "Un-Link Twitch account button on the integration page. This will wipe your OAuth token from our database immediately AND wipe all of your configuration settings. You will be able to re-link your Twitch account later if you wish, however, you will need to reconfigure all of your settings if you do.
 
 # Supported Events
-Cakey Bot currently supports 6 primary events for regular accounts and 8 primary events for affiliates/partners. Some events may have additional subevents such as `Begin`, `Progress` or `End` that can be toggled separately. 
+Cakey Bot currently supports 7 primary events for regular accounts and 8 primary events for affiliates/partners. Some events may have additional subevents such as `Begin`, `Progress` or `End` that can be toggled separately. 
 
 Technically, Cakey Bot can support _most_ of the events listed on [this page](https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/). If you are interested in additional events being added, feel free to make a #feature-request on our [support discord](https://cakey.bot/discord).
 

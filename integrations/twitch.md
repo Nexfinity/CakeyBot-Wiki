@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:29:40.601Z
+date: 2024-11-07T06:35:14.507Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -13,9 +13,17 @@ dateCreated: 2024-10-24T06:16:41.719Z
 {.is-warning}
 
 # Linking/Unlinking a Twitch Account
-> Note: All of the scopes that Cakey Bot requests are read-only. Linking your account to Cakey Bot will not give Cakey Bot edit access to anything. You can also fully unlink your account at any time.
+## Linking 
+In order to access and our Twitch OAuth Integration you will need to link your Twitch account. In order to do so you will need to click the "Link Twitch Account" button on the Twitch OAuth Integration page and "Authorize" Cakey Bot to your Twitch account. If you do not authorize Cakey Bot, you will be unable to use this feature.
+
+> Note: All of the scopes that Cakey Bot requests are read-only. Linking your account to Cakey Bot will _not_ give Cakey Bot edit access to anything. You can also fully unlink your account at any time.
 {.is-info}
 
+## Re-Linking
+In order to re-link your Twitch account you can simply click the "Re-Link Twitch Account" button and complete the provided OAuth flow. This can be useful if your OAuth token gets revoked or becomes invalid and needs to be updated. In addition, this will update your Affiliate/Partner status if you achieved it after initially linking your account without it.
+
+## Unlinking
+If you no longer wish to use this feature, you can click the "Un-Link Twitch account button on the integration page. This will wipe your OAuth token from our database immediately AND wipe all of your configuration settings. You will be able to re-link your Twitch account later if you wish, however, you will need to reconfigure all of your settings if you do.
 
 # Supported Events
 Cakey Bot currently supports 6 primary events for regular accounts and 8 primary events for affiliates/partners. Some events may have additional subevents such as `Begin`, `Progress` or `End` that can be toggled separately. 

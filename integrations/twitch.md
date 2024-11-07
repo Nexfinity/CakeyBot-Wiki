@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:29:30.453Z
+date: 2024-11-07T06:29:40.601Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -35,7 +35,7 @@ Technically, Cakey Bot can support _most_ of the events listed on [this page](ht
   * Sent
   * Acknowledged
 
-> Note: Internally Twitch handles Timeouts as bans with a duration (think like Temp Bans). In addition to this, their API does NOT provide us a way to determine the difference between an unban and a timeout removal. This means both of these actions will be linked to the same event. This is a limitation on Twitch's end.
+> Note: Internally Twitch handles timeouts as bans with a duration (think like Temp Bans). In addition to this, their API does NOT provide us a way to determine the difference between an unban and a timeout removal. This means both of these actions will be linked to the same event. This is a limitation on Twitch's end.
 
 ## Affiliate/Partner Events
 > This events/actions are only available on affiliate/partner accounts. If you become an affiliate/partner after initially linking your Tiwtch account as a non-affiliate, you can use the "Re-Link Twitch Account" button to update your affiliate/partner status in our dashboard to access these settings.

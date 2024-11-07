@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:37:23.143Z
+date: 2024-11-07T06:37:44.690Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -16,7 +16,7 @@ The Twitch OAuth Integration allows you to link your Twitch account with Cakey B
 
 # Linking/Unlinking a Twitch Account
 ## Linking 
-In order to access and our Twitch OAuth Integration you will need to link your Twitch account. In order to do so you will need to click the "Link Twitch Account" button on the Twitch OAuth Integration page and "Authorize" Cakey Bot to your Twitch account. If you do not authorize Cakey Bot, you will be unable to use this feature.
+To access and our Twitch OAuth Integration you will need to link your Twitch account. In order to do so you will need to click the "Link Twitch Account" button on the Twitch OAuth Integration page and "Authorize" Cakey Bot to your Twitch account. If you do not authorize Cakey Bot, you will be unable to use this feature.
 
 > Note: All of the scopes that Cakey Bot requests are read-only. Linking your account to Cakey Bot will _not_ give Cakey Bot edit access to anything. You can also fully unlink your account at any time.
 {.is-info}

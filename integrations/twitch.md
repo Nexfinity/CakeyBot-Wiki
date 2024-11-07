@@ -2,7 +2,7 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:37:44.690Z
+date: 2024-11-07T06:39:00.467Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
@@ -25,7 +25,7 @@ To access and our Twitch OAuth Integration you will need to link your Twitch acc
 In order to re-link your Twitch account you can simply click the "Re-Link Twitch Account" button and complete the provided OAuth flow. This can be useful if your OAuth token gets revoked or becomes invalid and needs to be updated. In addition, this will update your Affiliate/Partner status if you achieved it after initially linking your account without it.
 
 ## Unlinking
-If you no longer wish to use this feature, you can click the "Un-Link Twitch account button on the integration page. This will wipe your OAuth token from our database immediately AND wipe all of your configuration settings. You will be able to re-link your Twitch account later if you wish, however, you will need to reconfigure all of your settings if you do.
+If you no longer wish to use this feature, you can click the "Un-Link Twitch Account" button on the integration page. This will wipe your OAuth token from our database immediately AND wipe all of your configuration settings. You will be able to re-link your Twitch account later if you wish, however, you will need to reconfigure all of your settings if you do.
 
 # Supported Events
 Cakey Bot currently supports 7 primary events for regular accounts and 8 primary events for affiliates/partners. Some events may have additional subevents such as `Begin`, `Progress` or `End` that can be toggled separately. 

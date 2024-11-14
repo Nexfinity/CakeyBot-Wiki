@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-10-21T16:49:16.667Z
+date: 2024-11-14T21:26:22.184Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# November 14th - Custom Image Banner Editor
+## Added
+* We've now added a super fancy new custom image banner editor for our join & leave announcement banners.
 
 # October 21st - XP Bot Import
 ## Added 

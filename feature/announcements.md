@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-05-03T20:59:31.632Z
+date: 2024-11-14T21:24:58.639Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -43,12 +43,15 @@ You can set/modify messages and the announcement channel via our [web dashboard]
 > In order to have Cakey Bot send the messages, you will have to set a channel for Cakey Bot to post to. You can find more information about this below.
 {.is-info}
 
-# Image/Banner Announcements
+# Image Banner Announcements
 
 You can also use a fancy banner picture for your join/leave announcements too! In order to set an image banner as your join/leave message just toggle the "Image Banner" setting to enabled. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their announcements.
 
 Default join/leave banner images:
 ![](/announcements2.png)
+
+Our fancy image banner editor:
+![](/image_(25).png)
 
 # Custom Embeds
 

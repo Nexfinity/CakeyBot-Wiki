@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-11-14T21:24:58.639Z
+date: 2024-11-14T21:25:35.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -51,7 +51,7 @@ Default join/leave banner images:
 ![](/announcements2.png)
 
 Our fancy image banner editor:
-![](/image_(25).png)
+<image src="/image_(25).png" width="800px">
 
 # Custom Embeds
 

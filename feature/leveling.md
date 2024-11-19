@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-11-19T18:52:57.298Z
+date: 2024-11-19T18:54:25.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -145,7 +145,7 @@ You can set up to 5 different role multiplierss (Or up to 10 with a premium susb
 You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
 
 Our fancy image banner editor:
-<image src="/image_(25).png" width="800px">
+<image src="/leveling-editor.jpg" width="800px">
   
 Currently image banners will be applied to ALL users in the server.
 

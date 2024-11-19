@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-11-14T21:26:22.184Z
+date: 2024-11-19T18:49:51.049Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# November 19th - Custom Rank Banner Editor
+## Added
+* Added support for using our new fancy image editor on `/rank` leveling cards. (Similar to join/leave banners)
 
 # November 14th - Custom Image Banner Editor
 ## Added

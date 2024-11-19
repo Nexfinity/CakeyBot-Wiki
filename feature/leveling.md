@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-10-21T16:48:34.951Z
+date: 2024-11-19T18:52:57.298Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -142,20 +142,12 @@ You can set up to 5 different role multiplierss (Or up to 10 with a premium susb
 # Rank Card Customization
 
 ## Banner Images
-You can set different image banners for the `/rank` card. By default you can change the color of the banner from Red (Default color) to any of the colors listed below:
-* Blue
-* Green
-* Orange
-* Pink
-* Purple
-* Light Teal
-* Yellow
+You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
 
-Currently image banners will be applied to ALL users in the server.  [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
-<!-- Premium users are able to set their own separate banner images. However, server owners are able to disable this feature if they wish and force the server-selected banner image. -->
-
-## Accent Colors & Overlay Opacity
-You can also change/set the accent color as well as the opacity of the the black overlay between the text and background image to improve readability.
+Our fancy image banner editor:
+<image src="/image_(25).png" width="800px">
+  
+Currently image banners will be applied to ALL users in the server.
 
 # Rank Card Badges
 Users who support Cakey Bot will get badges on their profile, so you'll know they're cool.

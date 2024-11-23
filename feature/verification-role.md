@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2024-10-10T02:50:28.811Z
+date: 2024-11-23T01:36:24.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -25,21 +25,21 @@ Cakey Not offers a versatile user verification system that allows server adminis
 {.is-warning}
 
 ## Slash Command
-The user simply types the `/verify` command and they receive the role.
+1) The user simply types the `/verify` command and they receive the role.
 
 ## Button Click
-The user simply presses the "Verify" button at the bottom of the verification embed and they receive the role.
+1) The user simply presses the "Verify" button at the bottom of the verification embed and they receive the role.
 
 ## Captcha
-The user presses the "Verify" button at the bottom of the verification embed. 
-Once they do, they will receive a captcha image along with a new "Verify" button. 
-The user then clicks this button and enters the captcha letters into the popup. 
-If they type the correct letters, they receive the role.
+1) The user presses the "Verify" button at the bottom of the verification embed. 
+2) Once they do, they will receive a captcha image along with a new "Verify" button. 
+3) The user then clicks this button and enters the captcha letters into the popup. 
+4) If they type the correct letters, they receive the role.
 
 ## Custom Password
-The user presses the "Verify" button at the bottom of the verification embed. 
-Once they do, they will receive a popup asking for the server's custom password.
-If they type the correct password, they receive the role.
+1) The user presses the "Verify" button at the bottom of the verification embed. 
+2) Once they do, they will receive a popup asking for the server's custom password.
+3) If they type the correct password, they receive the role.
 
 > Note: You will have to set the password on the web dashboard. If no password is set, ALL attempts will fail.
 {.is-warning}

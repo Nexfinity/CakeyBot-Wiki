@@ -2,16 +2,13 @@
 title: Twitch Integration
 description: 
 published: 1
-date: 2024-11-07T06:40:40.676Z
+date: 2024-11-23T21:01:05.789Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-24T06:16:41.719Z
 ---
 
 # Overview
-> This feature is currently in BETA testing.
-{.is-warning}
-
 The Twitch OAuth Integration allows you to link your Twitch account with Cakey Bot, enabling enhanced functionality and event tracking. Once your Twitch account is linked, Cakey Bot can listen to a variety of events related to your Twitch channel, such as user follows, raids, subscriptions, and more. This integration provides you with a seamless experience in managing and interacting with your Twitch events directly inside of Discord.
 
 # Linking/Unlinking a Twitch Account

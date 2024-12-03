@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2024-01-06T01:05:04.904Z
+date: 2024-01-06T01:05:06.003Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z

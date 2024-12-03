@@ -2,7 +2,7 @@
 title: Setup Permissions
 description: 
 published: 1
-date: 2024-11-02T06:04:35.470Z
+date: 2024-11-02T06:04:36.508Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-21T21:30:23.705Z

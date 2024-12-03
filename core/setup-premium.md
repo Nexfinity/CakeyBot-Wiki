@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2024-03-04T07:21:38.268Z
+date: 2024-03-04T07:21:39.395Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z

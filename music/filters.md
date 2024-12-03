@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2023-11-12T16:26:37.490Z
+date: 2023-11-12T16:26:38.561Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z

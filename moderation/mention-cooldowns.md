@@ -2,7 +2,7 @@
 title: Mention Cooldowns
 description: 
 published: 1
-date: 2024-09-13T05:13:39.898Z
+date: 2024-09-13T05:13:40.959Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T21:59:57.952Z

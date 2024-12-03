@@ -2,7 +2,7 @@
 title: Core Category
 description: 
 published: 1
-date: 2024-03-07T20:43:57.394Z
+date: 2024-03-07T20:43:58.478Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-07T20:43:57.394Z

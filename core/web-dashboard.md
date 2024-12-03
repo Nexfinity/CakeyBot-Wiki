@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2023-11-12T16:30:21.013Z
+date: 2023-11-12T16:30:22.043Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z

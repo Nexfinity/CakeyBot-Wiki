@@ -2,7 +2,7 @@
 title: Math Command
 description: 
 published: 1
-date: 2024-06-17T05:54:56.273Z
+date: 2024-06-17T05:54:57.342Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T09:14:56.805Z

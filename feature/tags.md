@@ -2,7 +2,7 @@
 title: Tags
 description: 
 published: 1
-date: 2024-12-04T03:34:39.301Z
+date: 2024-12-04T06:17:11.906Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -68,6 +68,16 @@ To use images in responses, you can simply just type the image URL/link like you
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command           | Description                                   | Usage           | Permission                |
+| :---------------- | :------------------------------------------- | :-------------: | :-----------------------: |
+| /tag              | Display the content for a tag.               | \<name>         | None                      |
+| /tags create      | Create a new server tag.                     | N/A             | None                      |
+| /tags delete      | Delete a server tag.                         | \<tag>          | None                      |
+| /tags edit        | Modify a server tag.                         | \<tag>          | None                      |
+| /tags info        | View info for a specific tag.                | \<tag>          | None                      |
+| /tags list        | List server tags.                            | N/A             | None                      |
+| /tags nuke        | Delete ALL tags in a server.                 | N/A             | ManageServer or Adminstrator |
+| /tags prune       | Delete ALL tags from a user.                 | \<user>         | ManageServer or Adminstrator |
+| /tags raw         | Display tag in raw format.                   | \<tag>          | None                      |
+| /tags transfer    | Transfer one of your tags to someone else.   | \<tag> \<user>  | None                      |
+| /tags user        | List the tags a user has made.               | \<user>         | None                      |

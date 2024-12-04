@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-12-04T03:19:40.449Z
+date: 2024-12-04T03:34:33.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -178,3 +178,9 @@ There's several tools you can use:
 * `/manage-level` and `/manage-xp` commands allow you to manually adjust a user's XP or level to remove ill-gotten xp or levels
 * You can mute or timeout the user to prevent them sending messages.
 * Could you configure a no-xp/ignored role on the dashbaord and assign it to them to prevent them from getting any XP while they are unmuted.
+  
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

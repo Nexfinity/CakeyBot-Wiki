@@ -2,7 +2,7 @@
 title: Reminders
 description: 
 published: 1
-date: 2024-12-04T03:34:36.351Z
+date: 2024-12-04T03:36:44.037Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:19:42.217Z
@@ -29,4 +29,6 @@ You also have the ability to delete any of your existing reminders by using the 
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /reminder create | Creates a personal reminder for the time given. | \<time> \<text> | None | 
+| /reminder delete | Deletes the selected reminder. | \<reminderId> | None | 
+| /reminder list | List all of your current reminders. | N/A | None | 

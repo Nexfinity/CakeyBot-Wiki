@@ -2,7 +2,7 @@
 title: Username Management
 description: 
 published: 1
-date: 2023-11-12T16:37:32.386Z
+date: 2024-12-04T03:34:47.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:12:51.806Z
@@ -46,3 +46,9 @@ You can setup automatic dehoisting by logging into our [web dashboard](https://c
 
 > Note: Auto Dehoist will only apply to new users in the server or suers who change their nickname AFTER the feature has been enabled. For existing users you will need to manually dehoist them. After existing users have been dehoisted, auto dehoist will take affect for new nickname changes.
 {.is-info}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

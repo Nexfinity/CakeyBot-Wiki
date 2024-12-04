@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2024-11-14T21:25:36.806Z
+date: 2024-12-04T03:22:02.847Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -53,11 +53,7 @@ Default join/leave banner images:
 Our fancy image banner editor:
 <image src="/image_(25).png" width="800px">
 
-# Custom Embeds
-
-> Using custom embeds on announcements is a [**Premium Only**](https://cakey.bot/premium.php) feature.
-{.is-warning}
-
+# Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 You can include an optional embed on announcements by following the steps below:
 
 1. Login to the dashboard.

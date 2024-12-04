@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2024-12-04T03:35:29.567Z
+date: 2024-12-04T06:23:29.676Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -82,6 +82,23 @@ You can also set custom filters on your music using the `/filter <name> <options
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                     | Description                                         | Usage                                                | Permission |
+| :-------------------------- | :------------------------------------------------- | :-------------------------------------------------: | :--------: |
+| /eqpreset | Applies a preset qualizer to the current song. | N/A | None | 
+| /filter channelmix          | Applies a channelmix filter to the current song.   | \<leftotoleft> \<leftotoright> \<righttoleft> \<righttoright> | None       |
+| /filter distortion          | Applies a distortion filter to the current song.   | \<Sin Offset> \<Sin Scale> \<Cos Offset> \<Cos Scale> \<Tan Offset> \<Tan Scale> \<Offset> \<Scale> | None       |
+| /filter karaoke             | Applies a karaoke filter to the current song.      | \<level> \<monolevel> \<filterband> \<filterwidth>      | None       |
+| /filter lowpass             | Applies a lowpass filter to the current song.      | \<smoothing>                                         | None       |
+| /filter rotation            | Applies a rotation filter to the current song.     | \<rotation>                                          | None       |
+| /filter timescale           | Applies a timescale filter to the current song.    | \<speed> \<pitch> \<rate>                              | None       |
+| /filter tremolo             | Applies a tremolo filter to the current song.      | \<frequency> \<depth>                                 | None       |
+| /filter vibrato             | Applies a vibrato filter to the current song.      | \<frequency> \<depth>                                 | None       |
+| /filterpreset 8d            | Applies an 8D audio effect to the current song.    | N/A                                                 | None       |
+| /filterpreset chipmunk      | Applies a chipmunk effect to the current song.     | N/A                                                 | None       |
+| /filterpreset darthvader    | Applies a darth vader effect to the current song.  | N/A                                                 | None       |
+| /filterpreset nightcore     | Applies a nightcore effect to the current song.    | N/A                                                 | None       |
+| /filterpreset reverb        | Applies a reverb effect to the current song.       | N/A                                                 | None       |
+| /filterpreset slowmo        | Applies a slow mo effect to the current song.      | N/A                                                 | None       |
+| /filterpreset speed         | Applies a speed effect to the current song.        | N/A                                                 | None       |
+| /filterpreset vaporwave     | Applies a vaporwave effect to the current song.    | N/A                                                 | None       |
+| /filterpreset vibrate       | Applies a vibrating effect to the current song.    | N/A                                                 | None       |

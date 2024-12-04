@@ -2,7 +2,7 @@
 title: Music Playlists
 description: 
 published: 1
-date: 2024-12-04T03:35:22.345Z
+date: 2024-12-04T06:06:34.836Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:02:54.523Z
@@ -44,4 +44,6 @@ If you want to see a list of all of your playlists and the number of songs in ea
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /playlist | Creates, deletes or loads a custom music playlist. (Use !play for youtube/spotify playlists) | \<create \| load \| delete> \<name> | None | 
+| /playlist list | List all of your currently saved playlists. | N/A | None | 
+| /playlist rename | Renames the selected playlist. | \<name> \<newName> | None | 

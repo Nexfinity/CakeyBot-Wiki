@@ -2,7 +2,7 @@
 title: Birthdays
 description: 
 published: 1
-date: 2024-12-04T03:34:31.175Z
+date: 2024-12-04T06:19:51.134Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-09T01:24:46.396Z
@@ -42,6 +42,13 @@ A birthday role is NOT required for birthday announcements to be made. Announcem
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                           | Description                                                          | Usage                                | Permission                |
+| :-------------------------------- | :------------------------------------------------------------------- | :---------------------------------: | :-----------------------: |
+| /birthday channel                 | Sets or updates the birthday announcement channel.                  | \<channel>                           | ManageServer or Administrator |
+| /birthday next                    | View any upcoming birthdays.                                        | \<limit>                             | None                      |
+| /birthday remove                  | Remove your birthday. (Or another user's birthday)                  | [user]                               | None                      |
+| /birthday role                    | Sets or updates the birthday auto role.                             | \<role>                              | ManageServer or Administrator |
+| /birthday set                     | Sets or updates your birthday.                                      | \<month> \<day> [year] [user]        | None                      |
+| /birthday view                    | View a user's birthday. (If they have one set)                      | \<user>                              | None                      |
+| /setup clear-all-birthdays        | Remove ALL birthdays for the server.                                | \<confirm>                           | ManageServer or Administrator |
+| /setup clear-missing-birthdays    | Remove birthdays for users who have left the server.                | \<confirm>                           | ManageServer or Administrator |

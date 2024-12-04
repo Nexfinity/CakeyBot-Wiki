@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-12-04T03:34:33.960Z
+date: 2024-12-04T06:18:57.060Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -181,6 +181,13 @@ There's several tools you can use:
   
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                          | Description                                                              | Usage                                   | Permission                |
+| :------------------------------- | :----------------------------------------------------------------------- | :------------------------------------: | :-----------------------: |
+| /leaderboard                     | View the top 10 users on the leaderboard.                                | N/A                                    | None                      |
+| /manage-level                    | Manage a user's level.                                                  | \<give \| remove \| set> \<user> \<level>  | ManageServer             |
+| /manage-xp                       | Manage a user's XP.                                                     | \<give \| remove \| set> \<user> \<xp>    | ManageServer             |
+| /rank                            | Get your rank or another user's rank.                                   | [user]                                 | None                      |
+| /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                            | N/A                                    | ManageServer or Administrator |
+| /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | N/A | ManageServer or Administrator |
+| /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                              | ManageServer or Administrator |
+| /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                 | \<confirm>                              | ManageServer or Administrator |

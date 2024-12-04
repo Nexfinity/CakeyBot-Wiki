@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2024-12-04T03:24:42.654Z
+date: 2024-12-04T03:32:25.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -127,3 +127,13 @@ You can also create category-specific embeds which will prompt users to select a
     * Suggestion
     * Feedback
     * Question
+    
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| /setup createticketembed | Create an embed to open tickets with a button. | N/A | None | 
+| /ticket adduser | Adds a user to the ticket. | \<user> | None | 
+| /ticket anonreply | Replies to a support ticket anonymously. | \<message> | None | 
+| /ticket create | Create a new support ticket. | [description] | None | 
+| /ticket removeuser | Removes a user from a ticket. | \<user> | None | 

@@ -2,7 +2,7 @@
 title: Music Playlists
 description: 
 published: 1
-date: 2023-11-12T16:27:17.894Z
+date: 2024-12-04T03:35:22.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:02:54.523Z
@@ -39,3 +39,9 @@ If you want to see a list of all of your playlists and the number of songs in ea
 
 > A remarkable feature of using Cakey Bot's custom playlist system is that you don't have to navigate to external websites to use it AND your playlist can contain songs from multiple different sources (YouTube, Twitch, Spotify, Bandcamp, etc).
 {.is-success}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

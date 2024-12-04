@@ -2,7 +2,7 @@
 title: Purging
 description: 
 published: 1
-date: 2024-12-04T03:35:03.047Z
+date: 2024-12-04T06:21:50.023Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:11:39.725Z
@@ -30,13 +30,24 @@ If you only want to purge specific messages that meet certain conditions you can
   * **Special Format:** `/purge between <message id> <message id>`
 
 > Sometimes Cakey Bot will purge fewer messages than the number you specify. This could be due to a few reasons:
-> - There are not enough messages that meet the specified filter
-> - Some messages may be older than 2 weeks within the specified amount
-> - Some messages may be "pinned" within the specified amount
-{.is-warning}
+> \* There are not enough messages that meet the specified filter
+> \* Some messages may be older than 2 weeks within the specified amount
+> \* Some messages may be "pinned" within the specified amount
+{.is-info}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command            | Description                                                                | Usage                           | Permission    |
+| :----------------- | :------------------------------------------------------------------------- | :----------------------------: | :-----------: |
+| /purge any         | Delete a number of messages in the channel.                               | \<amount>                        | Administrator |
+| /purge between     | Delete every message between the two given message IDs. (Includes the two given) | \<first-message-id> \<second-message-id> | Administrator |
+| /purge bots        | Delete messages sent by any bots in the channel.                          | \<amount>                        | Administrator |
+| /purge components  | Delete messages that contain components. (buttons/selects).               | \<amount>                        | Administrator |
+| /purge embeds      | Delete messages containing rich embeds in the channel.                    | \<amount>                        | Administrator |
+| /purge images      | Delete a number of images in the channel.                                 | \<amount>                        | Administrator |
+| /purge invites     | Delete server invites posted in the channel.                              | \<amount>                        | Administrator |
+| /purge links       | Delete a number of links posted in the channel.                           | \<amount>                        | Administrator |
+| /purge mentions    | Delete messages with mentions in the channel.                             | \<amount>                        | Administrator |
+| /purge self        | Delete messages sent by Cakey Bot in the channel.                         | \<amount>                        | Administrator |
+| /purge until       | Delete every message after the given message ID.                          | \<message-id>                    | Administrator |
+| /purge user        | Delete messages sent by given user.                                       | \<user> \<amount>                 | Administrator |

@@ -2,7 +2,7 @@
 title: Temp Voice Lobbies
 description: 
 published: 1
-date: 2024-09-13T05:15:59.660Z
+date: 2024-12-04T03:34:40.314Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-03T02:47:56.721Z
@@ -47,3 +47,9 @@ This will delete the Lobby channel, the category, and any existing temporary voi
 If needed, admins can forcefully delete any user's temporary voice channel without waiting for it to auto-delete by running: `/temp-voice admin force-delete <channel>`.
 
 This command gives admins control over manual removal of temporary channels.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

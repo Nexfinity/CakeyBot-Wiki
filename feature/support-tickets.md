@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2024-01-04T14:52:32.049Z
+date: 2024-12-04T03:24:42.654Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -27,7 +27,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 **Transcript Channel:** Selecting a transcript channel will unlock the ability to save ticket history to the selected channel. Which will allow staff to review old closed/deleted tickets.
 
-**Auto Save Transcripts:** The option requires premium. If enabled, it will automatically create transcripts for all closed tickets. A transcript channel will have to be configured/set for this to function.
+**Auto Save Transcripts:** If enabled, it will automatically create transcripts for all closed tickets. A transcript channel will have to be configured/set for this to function. <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 
 # Usage/Creating Tickets
 

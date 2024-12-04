@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2024-12-04T03:35:38.903Z
+date: 2024-12-04T06:28:24.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -54,6 +54,26 @@ You can view all of our current and planned music sources on [this page](https:/
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command         | Description                                                | Usage                            | Permission           |
+| :-------------- | :--------------------------------------------------------- | :--------------------------------| :------------------- |
+| /clearqueue     | Clears all tracks from the queue.                          | N/A                              | Server Mod/DJ        |
+| /disconnect     | Makes the bot leave your voice channel.                    | N/A                              | None                 |
+| /forward        | Fast forwards the song the specified amount.               | [time]                           | None                 |
+| /jumpto         | Jumps to a specific song in the queue.                     | \<song id>                        | None                 |
+| /loop           | Makes the current song loop until it's toggled off.        | N/A                              | None                 |
+| /lyrics         | Displays the lyrics for the song searched if any are available. | \<query>                        | None                 |
+| /nowplaying     | Displays the current song being played.                    | N/A                              | None                 |
+| /pause          | Pauses the current song.                                  | N/A                              | None                 |
+| /play           | Starts playing music with the given query.                 | \<query>                          | None                 |
+| /playfile       | Starts playing the uploaded music file.                    | \<query>                          | None                 |
+| /playlist       | Creates, deletes or loads a custom music playlist. (Use !play for youtube/spotify playlists) | \<create \| load \| delete> \<name> | None |
+| /playlist list  | List all of your currently saved playlists.                | N/A                              | None                 |
+| /playlist rename| Renames the selected playlist.                             | \<name> \<newName>                 | None                 |
+| /queue          | Displays the current music queue.                          | N/A                              | None                 |
+| /restart        | Goes to the start of the current song.                     | N/A                              | None                 |
+| /resume         | Resumes the current song.                                  | N/A                              | None                 |
+| /rewind         | Rewinds the song the specified amount.                     | [time]                           | None                 |
+| /seek           | Goes to a specific part of the current song.               | \<time>                           | None                 |
+| /shuffle        | Shuffles the current song queue randomly.                  | N/A                              | None                 |
+| /skip           | Votes to skip the current song.                            | [count]                          | None                 |
+| /volume         | Changes the bot's volume.                                  | \<volume>                         | None                 |

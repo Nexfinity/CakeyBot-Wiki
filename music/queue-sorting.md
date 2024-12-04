@@ -2,7 +2,7 @@
 title: Queue Sorting
 description: 
 published: 1
-date: 2024-12-04T03:35:15.055Z
+date: 2024-12-04T06:25:36.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:07:47.675Z
@@ -63,6 +63,19 @@ This will remove any songs where the title of the song contains the provided key
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                | Description                                                     | Usage                                   | Permission           |
+| :--------------------- | :------------------------------------------------------------- | :------------------------------------- | :------------------- |
+| /sortqueue author       | Sorts the queue based on the author.                           | <asc/desc>                              | Server Mod/DJ        |
+| /sortqueue length       | Sorts the queue based on the length.                           | <asc/desc>                              | Server Mod/DJ        |
+| /sortqueue reverse      | Sorts the queue in reverse of current order.                   | N/A                                     | Server Mod/DJ        |
+| /sortqueue swap         | Swaps two different tracks in the queue.                       | \<firstIndex> \<secondIndex>              | Server Mod/DJ        |
+| /sortqueue title        | Sorts the queue based on the title.                            | \<asc/desc>                              | Server Mod/DJ        |
+| /remove dupes           | Removes any duplicate songs from the queue.                    | N/A                                     | None                 |
+| /remove duplicates      | Removes any duplicate songs from the queue.                    | N/A                                     | None                 |
+| /remove first           | Remove the first song from the queue.                          | N/A                                     | Server Mod/DJ        |
+| /remove keyword         | Removes songs from the queue if their title contains the specified keyword. | \<keyword>                              | Server Mod/DJ        |
+| /remove last            | Remove the last song from the queue.                           | N/A                                     | Server Mod/DJ        |
+| /remove range           | Removes the range of songs from the queue.                     | \<song id> \<song id>                     | Server Mod/DJ        |
+| /remove single          | Removes the given song from the queue.                         | \<song id>                               | Server Mod/DJ        |
+| /remove user            | Removes songs from the queue that were added by the specified user. | \<user>                                 | Server Mod/DJ        |
+| /remove userleft        | Removes songs from the queue if users are no longer in the voice channel. | N/A                                     | None                 |

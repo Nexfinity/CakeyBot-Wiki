@@ -2,7 +2,7 @@
 title: Reminders
 description: 
 published: 1
-date: 2024-01-30T03:23:10.202Z
+date: 2024-12-04T03:34:36.351Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:19:42.217Z
@@ -24,3 +24,9 @@ You can also view all of your current reminders with the `/reminder list` comman
 You also have the ability to delete any of your existing reminders by using the `/reminder delete <remidnerId>` command.
 
 ![Reminder Example](/reminder_1.png)
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

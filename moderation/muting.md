@@ -2,7 +2,7 @@
 title: Muting
 description: 
 published: 1
-date: 2023-10-28T07:00:46.215Z
+date: 2024-12-04T03:34:57.677Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:14:40.491Z
@@ -25,3 +25,9 @@ You can also mute people temporarily. It works exactly like normal muting above 
 
 > Note: This command was previously known as `/tempmute`, it has now been replaced in favor of `/timeout` as it uses native Discord systems to mute the user which is more effective and reliable.
 {.is-info}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2024-12-04T03:34:25.093Z
+date: 2024-12-04T06:11:50.021Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -82,4 +82,6 @@ In order to set a custom password, simply login to the [web dashboard](https://c
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /verify | The command that users run to verify themselves. | N/A | None | 
+| /setup verifyrole | Set a role that users can assign to themselves when typing the command. | \<role> | ManageServer or Administrator | 
+| /setup createverifyembed | Generate an embed with verification instructions. | N/A | None | 

@@ -2,7 +2,7 @@
 title: Purging
 description: 
 published: 1
-date: 2022-10-18T10:45:31.788Z
+date: 2024-12-04T03:35:03.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:11:39.725Z
@@ -34,3 +34,9 @@ If you only want to purge specific messages that meet certain conditions you can
 > - Some messages may be older than 2 weeks within the specified amount
 > - Some messages may be "pinned" within the specified amount
 {.is-warning}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

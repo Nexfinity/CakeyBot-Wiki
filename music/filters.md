@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2024-12-04T03:21:19.632Z
+date: 2024-12-04T03:35:29.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -79,3 +79,9 @@ You can also set custom filters on your music using the `/filter <name> <options
 * **Slow Mo** is a special effect that slows down the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset slowmo` command.
 * **Speed** is a special effect that speeds up the music to provide a more faster listening experience. You can toggle this preset with the `/filterpreset speed` command.
 * **Vibrate** is a special effect that 'vibrates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset vibrate` command.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

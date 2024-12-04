@@ -2,7 +2,7 @@
 title: Warnings
 description: 
 published: 1
-date: 2024-12-04T03:34:26.715Z
+date: 2024-12-04T06:13:06.231Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
@@ -61,4 +61,7 @@ If you have any Auto Mod events enabled you can set the punishment to automatica
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /clearwarnings | Removes all warnings from the specified user. | \<user> | MuteMembers or Administrator | 
+| /unwarn | Unwarns the specified user. | \<id> [isSilent] | MuteMembers or Administrator | 
+| /warn | Warns the specified user. | \<user> \<reason> [isSilent] | MuteMembers or Administrator | 
+| /warnings | List all warnings for the specified user. | \<user> | MuteMembers or Administrator | 

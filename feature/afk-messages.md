@@ -2,7 +2,7 @@
 title: AFK Messages
 description: 
 published: 1
-date: 2024-12-04T03:34:29.616Z
+date: 2024-12-04T06:14:58.040Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z
@@ -56,4 +56,5 @@ You can also view all AFK users [here](https://cakey.bot/dashboard/public/afk-li
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /afk | Set an AFK status to display when you are mentioned. | \<reason> | None | 
+| /unafk | Removes any AFK message you have set if one is set. (Unset other user's AFK if your admin) | [username] | None / ManageGuild | 

@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-01-09T07:37:37.967Z
+date: 2024-12-04T02:02:12.237Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -80,9 +80,6 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Set their birthday.
 
 **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
-
-## Integration-Based Achievements
-> Coming Soon
 
 ## Custom Acheivements
 > Coming Soon

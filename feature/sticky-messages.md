@@ -2,7 +2,7 @@
 title: Sticky Messages
 description: 
 published: 1
-date: 2024-05-26T02:38:01.604Z
+date: 2024-12-04T03:24:08.596Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-12T18:44:40.360Z
@@ -16,9 +16,13 @@ Sticky messages are a feature that ensures important information remains visible
 To create a sticky message, use the `/stickymessage create <message-text> [channel] [embed-url] [delay] [min-messages]` command. You can view a description of the parameters below:
 * `message-text`: The text of the message to be stickied.
 * `channel`: The channel to sticky the message in (or current if none is provided).
-* `embed-url`: The embed URL for the message (premium feature).
-* `delay`: The delay between reposting the sticky message in seconds (premium feature, 5-60 seconds, default for free users is 20 seconds).
-* `min-messages`: The minimum amount of messages between sticky messages (premium only, 3-100 messages, default for free users is 8).
+* `embed-url`: The embed URL for the message. <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+* `delay`: The delay between reposting the sticky message in seconds.
+  * Default: 20 seconds
+  * 5-60 seconds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+* `min-messages`: The minimum amount of messages between sticky messages.
+  * Default: 8
+  * 3-100 messages <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 
 Example: `/stickymessage create "Welcome to the channel! Please read the rules." #general 30 10`
 

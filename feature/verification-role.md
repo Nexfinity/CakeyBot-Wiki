@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2024-11-23T01:36:25.417Z
+date: 2024-12-04T03:34:25.093Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -77,3 +77,9 @@ In order to set a custom password, simply login to the [web dashboard](https://c
 
 > Note: A custom password will only be required with the "Custom Password" method. Also, if no password is set, ALL attempts will fail.
 {.is-info}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

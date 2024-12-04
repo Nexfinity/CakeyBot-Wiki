@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2024-04-26T18:04:05.809Z
+date: 2024-12-04T03:21:34.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -43,11 +43,7 @@ By default, Cakey Bot's volume will be set to 50 when playing music. You can cha
 
 Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our premium page [here](https://cakey.bot/dashboard/public/premium). Note that you must have premium enabled on the server in order to invite these additional music bots.
 
-# 24/7 Music
-
-> 24/7 music requires an active premium subscription to use due to increased CPU usage.
-{.is-warning}
-
+# 24/7 Music <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 Cakey Bot has the ability to play music 24/7 and never leave a voice channel (except during bot restarts). You can enable this feature by toggling the "24/7 music" switch on the [Web Dashboard](https://cakey.bot/dashboard/public) on the Music page.
 
 # Supported Sources

@@ -2,7 +2,7 @@
 title: Username Management
 description: 
 published: 1
-date: 2024-12-04T03:34:47.368Z
+date: 2024-12-04T06:24:24.296Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:12:51.806Z
@@ -49,6 +49,17 @@ You can setup automatic dehoisting by logging into our [web dashboard](https://c
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                           | Description                                             | Usage                              | Permission                           |
+| :-------------------------------- | :----------------------------------------------------- | :--------------------------------- | :----------------------------------- |
+| /managenicks alpha-numeric all    | Applies the nickname modification to all users in the server. | N/A                                | ManageNicknames or Administrator     |
+| /managenicks alpha-numeric role   | Applies the nickname modification to all users with the specified role. | \<role>                             | ManageNicknames or Administrator     |
+| /managenicks alpha-numeric user   | Applies the nickname modification to the specified user. | \<user>                             | ManageNicknames or Administrator     |
+| /managenicks clear all            | Clears the nickname of all users in the server.        | N/A                                | ManageNicknames or Administrator     |
+| /managenicks clear role           | Clears the nickname of all users with the specified role. | \<role>                             | ManageNicknames or Administrator     |
+| /managenicks clear user           | Clears the nickname of the specified user.             | \<user>                             | ManageNicknames or Administrator     |
+| /managenicks dehoist all          | Applies the nickname modification to all users in the server. | N/A                                | ManageNicknames or Administrator     |
+| /managenicks dehoist role         | Applies the nickname modification to all users with the specified role. | \<role>                             | ManageNicknames or Administrator     |
+| /managenicks dehoist user         | Applies the nickname modification to the specified user. | \<user>                             | ManageNicknames or Administrator     |
+| /managenicks set all              | Applies the nickname to all users in the server.       | \<nickname>                         | ManageNicknames or Administrator     |
+| /managenicks set role             | Applies the nickname to all users with the specified role. | \<role> \<nickname>                  | ManageNicknames or Administrator     |
+| /managenicks set user             | Applies the nickname to the specified user.            | \<user> \<nickname>                  | ManageNicknames or Administrator     |

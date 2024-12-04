@@ -2,7 +2,7 @@
 title: Sticky Messages
 description: 
 published: 1
-date: 2024-12-04T03:34:38.311Z
+date: 2024-12-04T03:39:31.016Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-12T18:44:40.360Z
@@ -37,4 +37,6 @@ To delete a sticky message, use the `/stickymessage delete <id>` command with th
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /stickymessage create | Create a new sticky message. | \<message> [channel] [embedUrl] [delay] [minMessages] | ManageServer or Administrator | 
+| /stickymessage delete | Delete the specified sticky message. | \<stickyMessageId> | ManageServer or Administrator | 
+| /stickymessage list | Get a list of all sticky messages in the server. | N/A | ManageServer or Administrator | 

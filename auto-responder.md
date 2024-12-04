@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2024-07-04T10:09:16.585Z
+date: 2024-12-04T03:25:02.388Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -90,11 +90,7 @@ Emoji/Emotes CAN be used in auto responders. However, it requires slightly more 
 
 To use images in responses, you can simply just type the image URL/link like you would in a normal message. If you have the file on your local machine/PC but no URL/link, you can upload it to an image hosting website (such as [Imgur](https://imgur.com/upload)) and paste the URL they provide into the response. Cakey Bot should automatically embed the image in Discord's client if it's a valid URL/image.
 
-# Custom Embeds
-
-> Using custom embeds on responses is a [**Premium Only**](https://cakey.bot/premium.php) feature.
-{.is-warning}
-
+# Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.

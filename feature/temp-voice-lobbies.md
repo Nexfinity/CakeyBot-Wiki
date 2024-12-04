@@ -2,7 +2,7 @@
 title: Temp Voice Lobbies
 description: 
 published: 1
-date: 2024-12-04T03:34:40.314Z
+date: 2024-12-04T06:17:53.993Z
 tags: 
 editor: markdown
 dateCreated: 2024-09-03T02:47:56.721Z
@@ -50,6 +50,14 @@ This command gives admins control over manual removal of temporary channels.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command | Description | Usage | Permission |
-| :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| Command                               | Description                                                         | Usage            | Permission                |
+| :------------------------------------ | :------------------------------------------------------------------ | :--------------: | :-----------------------: |
+| /temp-voice admin clear-lobby         | Disables/removes the lobby for this server.                         | \<confirm>        | ManageServer or Administrator |
+| /temp-voice admin create-lobby        | Creates the voice lobby for this server.                            | N/A              | ManageServer or Administrator |
+| /temp-voice admin force-delete        | Force deletes a temporary voice channel.                            | \<voice-channel>  | ManageServer or Administrator |
+| /temp-voice user add-allowed-user     | Adds a user to the allowed list of your temporary voice channel.     | \<user>           | None                      |
+| /temp-voice user add-blocked-user     | Adds a user to the blocked list of your temporary voice channel.     | \<user>           | None                      |
+| /temp-voice user delete               | Delete your temporary voice channel.                                | N/A              | None                      |
+| /temp-voice user remove-allowed-user  | Removes a user from the allowed list of your temporary voice channel.| \<user>           | None                      |
+| /temp-voice user remove-blocked-user  | Removes a user from the blocked list of your temporary voice channel.| \<user>           | None                      |
+| /temp-voice user toggle-private       | Toggle the privacy of your temporary voice channel.                 | N/A              | None                      |

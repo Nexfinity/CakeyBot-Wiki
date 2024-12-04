@@ -2,7 +2,7 @@
 title: Persistent Roles
 description: 
 published: 1
-date: 2024-12-04T03:34:52.209Z
+date: 2024-12-04T06:10:41.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:12:19.317Z
@@ -32,4 +32,5 @@ A common use case for persistent roles is to automatically re-apply a mute role 
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /mute | Mutes the specified user. | \<user> [reason] [isSilent] | MuteMembers or Administrator | 
+| /role persistent | Toggles a persistent role on a user. | \<user> \<role> | ManageRoles | 

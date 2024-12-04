@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2023-11-12T16:26:38.561Z
+date: 2024-12-04T03:21:19.632Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -12,11 +12,7 @@ dateCreated: 2022-10-18T08:06:53.977Z
 
 You can set custom equalizer bands using the `/equalizer <band> <value>` command. There are 15 bands (**0-14**) that can be changed. gain is the multiplier for the given band. The default value is **0**. Valid values range from **-0.25** to **1.0**, where **-0.25** means the given band is completely muted, and **0.25** means it is doubled.
 
-# Equalizer Presets
-
-> Equalizer presets require a [premium subscription](https://cakey.bot/premium.php) to use.
-{.is-warning}
-
+# Equalizer Presets <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 You can also use our presets for those of you who just want a quick and easy solution by typing `/eqpreset <preset>`. Our presets include:
 
 * Lowpass
@@ -31,10 +27,7 @@ You can also use our presets for those of you who just want a quick and easy sol
 * Pop
 * Ear Rape
 
-# Custom Filters
-
-> Filters require a [premium subscription](https://cakey.bot/premium.php) to use due to increased CPU usage requirements.
-{.is-warning}
+# Custom Filters <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 
@@ -75,11 +68,7 @@ You can also set custom filters on your music using the `/filter <name> <options
 > All filters will show minimum and maximum values in the command descriptions.
 {.is-info}
 
-# Filter Presets
-
-> All preset music filters require a [premium subscription](https://cakey.bot/premium.php) to use due to increased CPU usage requirements.
-{.is-warning}
-
+# Filter Presets <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 * **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `/filterpreset nightcore` command.
 * **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `/filterpreset vaporwave` command.
 * **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset 8d` command.

@@ -2,7 +2,7 @@
 title: Warnings
 description: 
 published: 1
-date: 2024-01-06T12:20:29.756Z
+date: 2024-12-04T03:34:26.715Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
@@ -56,3 +56,9 @@ Here's how to add your first auto-punishment:
 
 # Auto Moderation Punishment
 If you have any Auto Mod events enabled you can set the punishment to automatically warn users when the violate the rules as well. Any warnings given by Auto Mod will be listed next to regular warnings and will be able to removed using the same methods.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: 
 published: 1
-date: 2024-12-04T03:35:08.414Z
+date: 2024-12-04T06:07:15.703Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -41,4 +41,5 @@ The song request channel is very simple to use. In order to use it, you (or whoe
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /setup songrequest | Creates and configures the song request channel. | N/A | ManageServer or Administrator | 
+| /setup songrequest-disable | Disables the song request channel. (If one is set) | N/A | ManageServer or Administrator | 

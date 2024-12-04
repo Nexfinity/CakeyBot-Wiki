@@ -2,7 +2,7 @@
 title: Sticky Messages
 description: 
 published: 1
-date: 2024-12-04T03:24:08.596Z
+date: 2024-12-04T03:34:38.311Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-12T18:44:40.360Z
@@ -32,3 +32,9 @@ This command will display all sticky messages currently set in the server along 
 
 ## Deleting Sticky Messages
 To delete a sticky message, use the `/stickymessage delete <id>` command with the message ID. Where ID is the unique identifier of the sticky message to be deleted.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

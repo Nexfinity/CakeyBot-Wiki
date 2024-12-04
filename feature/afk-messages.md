@@ -2,7 +2,7 @@
 title: AFK Messages
 description: 
 published: 1
-date: 2023-11-12T16:33:20.063Z
+date: 2024-12-04T03:34:29.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z
@@ -51,3 +51,9 @@ You can also configure AFK messages further by using our [Web Dashboard](https:/
    * This setting will automatically remove a user from AFK if they send a message in any channel or if they join a voice channel. (If they get moved to a guild-set AFK channel they will keep their AFK status)
 
 You can also view all AFK users [here](https://cakey.bot/dashboard/public/afk-list).
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

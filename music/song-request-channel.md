@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: 
 published: 1
-date: 2024-06-30T23:12:06.666Z
+date: 2024-12-04T03:35:08.414Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -36,3 +36,9 @@ The song request channel is very simple to use. In order to use it, you (or whoe
 
 > You don't have to use the _`#cakey_songrequests`_ channel in order to make use of the embed system! As long as you have the embed/song request channel setup, it will always update with the current song/queue info regardless if you use the channel or if you use regular commands.
 {.is-info}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

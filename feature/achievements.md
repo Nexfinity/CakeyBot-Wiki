@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-04T03:34:28.162Z
+date: 2024-12-04T06:14:10.518Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -88,4 +88,7 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /achievements info | View information about a specific achievement. | \<achievement> | None | 
+| /achievements list | View a list of all achievements for this server. | N/A | None | 
+| /achievements view | View the selected users progress towards achievements. | [user] | None | 
+| /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 

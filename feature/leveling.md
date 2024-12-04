@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-11-19T18:54:27.245Z
+date: 2024-12-04T03:19:40.449Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -24,7 +24,7 @@ Cakey Bot makes it extremely easy to import your data from external/third-party 
 In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 
 > Note that importing data will **WIPE** all existing leveling data for your server. This process can not be reversed so be sure before you run the command.
-{.is-warning}
+{.is-danger}
 
 Don't see your prevous leveling/xp bot in the list above? No problem! You can still use the `/manage-levels` and `/manage-xp` commands to manually migrate your user data to Cakey Bot! Unlike some other bots, both of these commands are completely free to use!
 
@@ -50,10 +50,7 @@ Enabling this feature will have Cakey Bot automatically remove any Role Rewards 
 ## Remove Roles on Level Up
 Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user levels up. (Including the `/manage-xp` or `/manage-level` commands.)
 
-## Max Level
-> This setting is limited to premium servers.
-{.is-warning}
-
+## Max Level <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set the maximum level that a user a level up to. By default the max level is set to 999.
 
 ## Announcement Location
@@ -71,9 +68,7 @@ You can also use a few placeholders in this message:
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
 
-## Min/Max XP
-> This setting is limited to premium servers.
-{.is-warning}
+## Min/Max XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 
 This sets the minimum and maximum XP a user can be given per message. There's a few limits: 
 * The Max XP must be larger than the Min XP
@@ -84,10 +79,7 @@ The default values for this setting are:
 * Min XP: 15
 * Min XP: 25
 
-## Min/Max Voice XP
-> This setting is limited to premium servers.
-{.is-warning}
-
+## Min/Max Voice XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This sets the minimum and maximum XP a user can be given per minute spent inside of a voice channel. There's a few limits: 
 * The Max XP must be larger than the Min XP
 * Both must be larger than 0
@@ -97,10 +89,7 @@ The default values for this setting are:
 * Min Voice XP: 5
 * Min Voice XP: 8
 
-## Leaderboard Vanity URL
-> This setting is limited to premium servers.
-{.is-warning}
-
+## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
 
 For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 

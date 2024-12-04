@@ -2,7 +2,7 @@
 title: Queue Sorting
 description: 
 published: 1
-date: 2022-10-22T13:17:35.414Z
+date: 2024-12-04T03:35:15.055Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:07:47.675Z
@@ -60,3 +60,9 @@ This will remove any songs that were added to the queue by a specific user. You 
 
 ## Keyword
 This will remove any songs where the title of the song contains the provided keyword. This can be useful to remove inappropriate or "ear rape" type songs. You can remove these songs by using the `/remove keyword <keyword>` command.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

@@ -2,7 +2,7 @@
 title: Muting
 description: 
 published: 1
-date: 2024-12-04T03:34:57.677Z
+date: 2024-12-04T06:07:56.783Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:14:40.491Z
@@ -30,4 +30,4 @@ You can also mute people temporarily. It works exactly like normal muting above 
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| / | TBD | N/A | None | 
+| /timeout | 	Times out the given user for the specified amount of time. | \<user> \<time> [reason] [isSilent] | ModerateMembers or Administrator | 

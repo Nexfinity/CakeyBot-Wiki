@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-07-05T03:37:55.113Z
+date: 2024-12-04T03:34:32.447Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -66,3 +66,9 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
   
 > Lucky cube is temporarily disabled for re-balancing.
 {.is-warning}
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

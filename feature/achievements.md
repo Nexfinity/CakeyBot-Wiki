@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-04T02:02:12.237Z
+date: 2024-12-04T03:34:28.162Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -83,3 +83,9 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 
 ## Custom Acheivements
 > Coming Soon
+  
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

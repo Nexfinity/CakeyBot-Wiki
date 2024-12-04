@@ -2,7 +2,7 @@
 title: Tags
 description: 
 published: 1
-date: 2024-02-08T22:57:36.500Z
+date: 2024-12-04T03:34:39.301Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -65,3 +65,9 @@ Emoji/Emotes CAN be used in Tags. However, it requires slightly more work due to
 # Using Images in Tags
 
 To use images in responses, you can simply just type the image URL/link like you would in a normal message. If you have the file on your local machine/PC but no URL/link, you can upload it to an image hosting website (such as [Imgur](https://imgur.com/upload)) and paste the URL they provide into the response. Cakey Bot should automatically embed the image in Discord's client if it's a valid URL/image.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| / | TBD | N/A | None | 

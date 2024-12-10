@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-10T19:39:08.970Z
+date: 2024-12-10T19:51:18.576Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -17,10 +17,19 @@ Statistic channels are locked voice channels on the side of your server that dis
 {.is-info}
 
 # Setup
-TBD - Feature is in BETA Testing
+1. Login to our [web dashboard](https://cakey.bot/dashboard/).
+2. Go to "Statistic Channels" [here](https://cakey.bot/dashboard/public/statistic-channels).
+3. Toggle/enable any statistic channels you want. (Wait up to 20 minutes for them to generate)
+4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number.
 
 > **Helpful Tip:** You can freely reposition the stats category and channels! Also, you can freely rename/customize the category name!
 {.is-success}
+
+# Removing/Deleting Stat Channels
+In order to remove or delete a stat channel you will first need to Disable/toggle the specific stat channel in the dashboard. Once you have done that, you can freely delete the channel in your server just like a normal channel.
+
+> **Note:** If you delete the stat channel _without_ disabling it in the dashboard, it will continue to re-generate/create the channel every time the stats update.
+{.is-info}
 
 # Supported Stats
 * Total Members ~ The total number of members in the server

@@ -2,16 +2,13 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-10T04:25:56.813Z
+date: 2024-12-10T06:43:25.193Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
 ---
 
 # Overview
-> Feature is WIP.
-{.is-warning}
-
 The statistic channels feature allows you to track many things relating to your server, from online members, channel count, role count, and more.
 
 Statistic channels are locked voice channels on the side of your server that display the information in the channel name.
@@ -20,7 +17,7 @@ Statistic channels are locked voice channels on the side of your server that dis
 {.is-info}
 
 # Setup
-TBD
+TBD - Feature is in BETA Testing
 
 # Supported Stats
 * Total Members ~ The total number of members in the server

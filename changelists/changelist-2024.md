@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-11-19T18:49:52.478Z
+date: 2024-12-10T20:20:59.274Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 10th - Statistic Channels
+## Added
+* Cakey Bot now has support for statistic channels! You can currently configure up to 7 different statistic channels
+* Added optional "Required XP Level" requirement for giveaways!
 
 # November 19th - Custom Rank Banner Editor
 ## Added

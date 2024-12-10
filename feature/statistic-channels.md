@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-10T19:51:18.576Z
+date: 2024-12-10T19:54:24.402Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -26,7 +26,7 @@ Statistic channels are locked voice channels on the side of your server that dis
 {.is-success}
 
 # Removing/Deleting Stat Channels
-In order to remove or delete a stat channel you will first need to Disable/toggle the specific stat channel in the dashboard. Once you have done that, you can freely delete the channel in your server just like a normal channel.
+In order to remove or delete a stat channel you will first need to disable/toggle the specific stat channel in the dashboard. Once you have done that, you can freely delete the channel in your server just like a normal channel.
 
 > **Note:** If you delete the stat channel _without_ disabling it in the dashboard, it will continue to re-generate/create the channel every time the stats update.
 {.is-info}

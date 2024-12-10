@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-09T03:14:58.113Z
+date: 2024-12-10T04:25:56.813Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -23,10 +23,14 @@ Statistic channels are locked voice channels on the side of your server that dis
 TBD
 
 # Supported Stats
-* Bots ~ Tracks how many bots are in the server
-* Humans ~ Tracks how many Humans are in the server
-* Text Channels ~ The total number of text channels in the server
-* Total Channels ~ The total number of all channel types in the server
 * Total Members ~ The total number of members in the server
-* Total Roles ~ The total number of roles made in the server
+* Total Bots ~ Tracks how many bots are in the server
+* Total Humans ~ Tracks how many Humans are in the server
+<hr>
+
+* Total Channels ~ The total number of all channel types in the server
+* Text Channels ~ The total number of text channels in the server
 * Voice Channels ~ The total number of voice channels made in the server
+<hr>
+
+* Total Roles ~ The total number of roles made in the server

@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-10T06:43:25.193Z
+date: 2024-12-10T19:39:08.970Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -18,6 +18,9 @@ Statistic channels are locked voice channels on the side of your server that dis
 
 # Setup
 TBD - Feature is in BETA Testing
+
+> **Helpful Tip:** You can freely reposition the stats category and channels! Also, you can freely rename/customize the category name!
+{.is-success}
 
 # Supported Stats
 * Total Members ~ The total number of members in the server

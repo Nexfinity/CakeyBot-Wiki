@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-10T20:20:59.274Z
+date: 2024-12-12T04:56:29.245Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 11th - Emote Fix
+## Fixed
+* Fixed the CB_Check emote not displaying correctly.
 
 # December 10th - Statistic Channels
 ## Added

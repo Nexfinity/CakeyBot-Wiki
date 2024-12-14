@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-12T04:56:29.245Z
+date: 2024-12-14T09:24:04.570Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 14th - Channel XP Multipliers
+## Added
+* Added Channel XP Multiplier support for leveling.
 
 # December 11th - Emote Fix
 ## Fixed

@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-12-04T06:18:57.060Z
+date: 2024-12-14T09:28:17.996Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -122,10 +122,10 @@ You can set up to 10 different role rewards (Or up to 20 with a premium susbcrip
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
-# Role XP Multipliers
-You can set up to 5 different role multiplierss (Or up to 10 with a premium susbcription). If a user has one (or more) of these roles, all of their received XP will be multiplied by the largest role multiplier they have. Role XP multipliers will NOT stack with each other if a user has multiple roles. However, they WILL stack with existing multipliers like double XP days.
+# Role & Channel XP Multipliers
+You can set up to 5 different role multiplierss (Or up to 10 with a premium susbcription). Role and Channel multipliers are counted separately. If a user qualifies one (or more) of these multipliers, all of their received XP will be multiplied by the largest multiplier they have. Role and Channel XP multipliers will NOT stack with other multipliers of the same type if a user qualifies for multiple (Role multipliers WILL stack with a Channel multiplier though). However, they WILL stack with existing multipliers like double XP days.
 
-> Note: Role XP multipliers will get added AFTER other XP multipliers (such as double XP days).
+> Note: Role/Channel XP multipliers will get added AFTER other XP multipliers (such as double XP days and global rate).
 {.is-info}
 
 # Rank Card Customization

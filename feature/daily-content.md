@@ -2,7 +2,7 @@
 title: Daily Content
 description: 
 published: 1
-date: 2024-12-18T02:31:34.767Z
+date: 2024-12-18T02:32:28.804Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -17,7 +17,7 @@ dateCreated: 2024-12-18T02:24:11.247Z
 2) 
 3) 
 
-> **Fun Fact:** You can change Cakey Bot's timezone on the dashboard so the facts always announce at noon in your timezone!
+> **Fun Fact:** You can change Cakey Bot's timezone on the dashboard so the content always announces at noon in your timezone!
 {.is-success}
 
 # Daily Image Types

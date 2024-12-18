@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-14T09:24:04.570Z
+date: 2024-12-18T22:49:40.248Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 15th - Achievement Fix
+## Fixed
+* Fixed an issue where achievements would count thread creations twice.
 
 # December 14th - Channel XP Multipliers
 ## Added

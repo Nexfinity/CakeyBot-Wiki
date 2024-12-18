@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2024-12-04T03:32:25.367Z
+date: 2024-12-18T03:02:20.557Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -31,7 +31,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 # Usage/Creating Tickets
 
-Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `/ticket create <description>` command. You can also create a embed with a button to create tickets with using [this method](#Ticket-Creation-Embed).
+Once you have enabled and configured support tickets via the web dashboard your users can start making tickets using the `/ticket create <description>` command. You can also create a embed with a button to create tickets with using the **Ticket Creation Embed** section below.
 
 > **Note:** The issue description is optional and a default reason will be filled in if a user does not provide one.
 {.is-info}

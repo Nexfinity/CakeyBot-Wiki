@@ -2,7 +2,7 @@
 title: Mention Cooldowns
 description: 
 published: 1
-date: 2024-09-13T05:13:40.959Z
+date: 2024-12-19T21:16:42.947Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T21:59:57.952Z
@@ -22,7 +22,7 @@ This feature is ideal for managing high-traffic channels where certain roles may
 # Setup
 1. Login into the [web dashboard](https://cakey.bot/dashboard/public).
 2. Select the server you want to configure.
-2. From the left menu, select the "Mention Cooldowns" page.
+3. From the left menu, select the "Mention Cooldowns" page.
 
 ## Add a Role
 

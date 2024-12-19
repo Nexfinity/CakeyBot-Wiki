@@ -2,14 +2,14 @@
 title: Daily Content
 description: 
 published: 1
-date: 2024-12-19T21:17:32.970Z
+date: 2024-12-19T21:20:05.455Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
 ---
 
 # Overview
-TBD
+Cakey Bot's Daily Content feature allows servers to automatically receive fun and engaging daily updates at noon in their server. With a variety of images and facts to choose from, this feature adds a touch of entertainment and curiosity to your server. Whether it’s adorable animal pictures or fascinating facts, you can customize the type of content delivered to suit your community’s interests.
 
 > **Fun Fact:** You can change Cakey Bot's timezone on the dashboard so the content always announces at noon in your timezone!
 {.is-success}

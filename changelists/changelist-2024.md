@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-18T22:49:40.248Z
+date: 2024-12-19T21:12:01.921Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 19th - Daily Content
+## Added
+* Added new Daily Content alerts! You can now have daily images and facts posted to channels in your server!
 
 # December 15th - Achievement Fix
 ## Fixed

@@ -2,7 +2,7 @@
 title: Birthdays
 description: 
 published: 1
-date: 2024-12-04T06:19:51.134Z
+date: 2024-12-19T22:40:17.070Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-09T01:24:46.396Z
@@ -28,6 +28,9 @@ You can view upcoming birthdays with the `/birthday next` command. By default it
 ## Remove your own birthday or another user's birthday
 You can remove your birthday by running the `/birthday remove` command. 
 In addition to this you can remove another user's birthday by running `/birthday remove <user>`, however you must have **Manage Server** permission to remove the birthday of another user.
+
+> **Helpful Tip:** You can also view and delete birthdays on the dashboard!
+{.is-success}
 
 # Birthday Role
 You can also have Cakey Bot assign a temporary birthday role to users on the day of their birthday! This role will be added to the user when the announcement for their birthday is sent, and it'll be remvoed when the birthdays for the next day are checked. In order to set a birthday role you can either use the `/birthday role <role>` command or you can configure it on the birthday page of the [web dashboard](https://cakey.bot/dashboard/public).

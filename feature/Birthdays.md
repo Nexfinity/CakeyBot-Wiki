@@ -2,7 +2,7 @@
 title: Birthdays
 description: 
 published: 1
-date: 2024-12-19T22:40:17.070Z
+date: 2024-12-20T01:15:41.485Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-09T01:24:46.396Z
@@ -33,7 +33,7 @@ In addition to this you can remove another user's birthday by running `/birthday
 {.is-success}
 
 # Birthday Role
-You can also have Cakey Bot assign a temporary birthday role to users on the day of their birthday! This role will be added to the user when the announcement for their birthday is sent, and it'll be remvoed when the birthdays for the next day are checked. In order to set a birthday role you can either use the `/birthday role <role>` command or you can configure it on the birthday page of the [web dashboard](https://cakey.bot/dashboard/public).
+You can also have Cakey Bot assign a temporary birthday role to users on the day of their birthday! This role will be added to the user when the announcement for their birthday is sent, and it'll be removed when the birthdays for the next day are checked. In order to set a birthday role you can either use the `/birthday role <role>` command or you can configure it on the birthday page of the [web dashboard](https://cakey.bot/dashboard/public).
 
 A birthday role is NOT required for birthday announcements to be made. Announcements will be sent regardless if a role is set or not.
 

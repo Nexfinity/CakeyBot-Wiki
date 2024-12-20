@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-20T01:05:45.253Z
+date: 2024-12-20T01:26:48.059Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -12,6 +12,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 ## Added
 * Added new Daily Content alerts! You can now have daily images and facts posted to channels in your server!
 * Added dedicated birthday page to dashboard. (Including ability to view and delete birthdays in the server)
+* Added new `/setup clear-achievement-data` command.
 
 # December 15th - Achievement Fix
 ## Fixed

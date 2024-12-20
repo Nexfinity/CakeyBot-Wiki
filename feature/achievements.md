@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-04T06:14:10.518Z
+date: 2024-12-20T01:25:04.787Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -92,3 +92,4 @@ Usage Key: `<required>` / `[optional]`
 | /achievements list | View a list of all achievements for this server. | N/A | None | 
 | /achievements view | View the selected users progress towards achievements. | [user] | None | 
 | /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 
+| /setup clear-achievement-data | Remove ALL achievement data for the server. | N/A | ManageServer or Administrator | 

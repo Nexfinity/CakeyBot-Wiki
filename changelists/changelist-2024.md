@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-20T01:26:48.059Z
+date: 2024-12-21T08:09:32.822Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 21st - Force to Starboard
+## Changed
+* Combined "Analyze Image" and "Analyze Message" into the same context menu option
+
+## Added
+* Added new "Force to Starboard" context menu option
 
 # December 19th - Daily Content
 ## Added

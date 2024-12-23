@@ -2,11 +2,23 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-21T08:09:32.822Z
+date: 2024-12-23T04:06:10.519Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 22nd - Custom Achievements
+## Added
+* Added support for custom/manual achievements!
+  * Management command: `/achievements custom <grant | revoke> <achievement> [user]`
+  * Related auto responder placeholders: 
+    * `{achievement-grant:<id>}` - Grants the custom achievement to the user.
+    * `{achievement-revoke:<id>}` - Revokes the custom achievement from the user.
+
+**Notes:** 
+* You can only grant/revoke CUSTOM achievements. You can NOT grant/revoke progress-based achievements.
+* You can not swap progress based achievements into CUSTOM / MANUAL achievements after they have been created. (or vice-versa)
 
 # December 21st - Force to Starboard
 ## Changed

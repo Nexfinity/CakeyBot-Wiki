@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-12-23T03:59:23.537Z
+date: 2024-12-23T04:05:31.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -296,7 +296,7 @@ Examples:
 {achievement-grant:1337}
 ```
 
-> **Note:** You can only grant/revoke CUSTOM achievemnts. You can NOT grant/revoke progress-based achievements.
+> **Note:** You can only grant/revoke CUSTOM achievements. You can NOT grant/revoke progress-based achievements.
 {.is-info}
 
 ## Economy

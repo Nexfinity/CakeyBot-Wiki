@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-10-04T18:10:30.943Z
+date: 2024-12-23T03:59:23.537Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -285,6 +285,19 @@ Examples:
 ```asciidoc
 {xp-add:5004}
 ```
+
+## Custom Achievements
+`{achievement-grant:<id>}` - Grants the custom achievement to the user.
+`{achievement-revoke:<id>}` - Revokes the custom achievement from the user.
+
+Examples:
+
+```asciidoc
+{achievement-grant:1337}
+```
+
+> **Note:** You can only grant/revoke CUSTOM achievemnts. You can NOT grant/revoke progress-based achievements.
+{.is-info}
 
 ## Economy
 `{user.balance}` - Displays the user's current economy balance as a raw number. (No commas)

@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-20T01:25:04.787Z
+date: 2024-12-23T04:02:10.562Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -78,11 +78,13 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Create X threads.
 * Joined X threads.
 * Set their birthday.
+* CUSTOM / MANUAL
 
-**Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
-
-## Custom Acheivements
-> Coming Soon
+> **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
+{.is-info}
+  
+> **Note:** You can not swap progress based achievements into CUSTOM / MANUAL acheivemnts _after_ they have been created. (or vice-versa)
+{.is-warning}
   
 # Related Commands
 Usage Key: `<required>` / `[optional]`
@@ -91,5 +93,6 @@ Usage Key: `<required>` / `[optional]`
 | /achievements info | View information about a specific achievement. | \<achievement> | None | 
 | /achievements list | View a list of all achievements for this server. | N/A | None | 
 | /achievements view | View the selected users progress towards achievements. | [user] | None | 
+| /achievements custom | Grant or revoke a custom achievement. | \<grant \| revoke> \<achievement> [user] | ManageServer or Administrator |
 | /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 
 | /setup clear-achievement-data | Remove ALL achievement data for the server. | N/A | ManageServer or Administrator | 

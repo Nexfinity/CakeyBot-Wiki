@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-23T04:05:12.581Z
+date: 2024-12-25T23:01:48.276Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -56,13 +56,16 @@ You can chose between 5 shapes including:
 
 <image src="/achievement-badges.png" width="600px">
 
-You can also chose between 6 different colors:
+You can also chose between 9 different colors:
 * Red
 * Brown
 * Blue
 * Purple
 * Grey
-* Grren
+* Green
+* Pink
+* Teal
+* Yellow
 
 ## Icons
 Currently there is a small selection of icons that you can select for your banners. You can select any RGB color to be applied to the icon as well.

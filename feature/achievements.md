@@ -2,7 +2,7 @@
 title: Achievements
 description: 
 published: 1
-date: 2024-12-25T23:01:48.276Z
+date: 2024-12-25T23:03:49.626Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -66,6 +66,8 @@ You can also chose between 9 different colors:
 * Pink
 * Teal
 * Yellow
+  
+<image src="/colors.jpg" width="600px">
 
 ## Icons
 Currently there is a small selection of icons that you can select for your banners. You can select any RGB color to be applied to the icon as well.

@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-23T04:06:10.519Z
+date: 2024-12-28T03:06:11.720Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# December 27th - Misc. Fixes
+## Fixed
+* You can no longer challange bots to tic-tac-toe
+* Fixed an issue where the new achievement color banners would not display correctly. (Teal w/ dark background still currently broken)
 
 # December 22nd - Custom Achievements
 ## Added

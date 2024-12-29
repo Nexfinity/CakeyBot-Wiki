@@ -2,15 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-29T07:51:54.952Z
+date: 2024-12-29T08:08:31.853Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
 
-# December 29th - Daily Capybaras
+# December 29th - Daily Capybaras & Anonymous Warnings
 ## Added
 * Added Capybaras to "Daily Content"
+* Added support for anonymous warnings
 
 # December 27th - Misc. Fixes
 ## Fixed

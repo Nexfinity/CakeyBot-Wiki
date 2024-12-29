@@ -2,7 +2,7 @@
 title: Daily Content
 description: 
 published: 1
-date: 2024-12-19T21:20:05.455Z
+date: 2024-12-29T07:52:18.146Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -30,7 +30,8 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 * Bird
 * Panda
 * Pikachu
-* RedPanda
+* Red Panda
+* Capybara
 
 # Daily Fact Types
 * General
@@ -40,3 +41,4 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 * Fox
 * Bird
 * Koala
+* Capybara

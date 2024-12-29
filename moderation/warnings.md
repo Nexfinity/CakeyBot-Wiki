@@ -2,7 +2,7 @@
 title: Warnings
 description: 
 published: 1
-date: 2024-12-04T06:13:06.231Z
+date: 2024-12-29T08:05:18.941Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
@@ -16,6 +16,22 @@ Warnings will record the date the warning was received, the reason as well as th
 You can warn users with a given reason using the `/warn <user> <reason>` . It will place a warning on their account which you can then view later. By default warnings will also send the user a DM. There is also an optional "isSilent" parameter which will suppress the DM sent to the user for the warning.
 
 > Warnings will also be sent to Cakey bot's audit log as a special event if you have one configured for moderation logs.
+{.is-info}
+
+## Anonymous Warnings
+The `/warn` command also includes an optional "isAnonymous" parameter. If this is set to true, the user will not see the moderator's name who warned them. 
+
+This will be applied on:
+* The DM the user receives (if warning is not silent)
+* The audit log entry (Some servers display this publicly)
+* The `/warnings` comamnd when ran by a non-moderator
+
+This will NOT be applied on:
+* The `/warnings` command when ran by a moderator
+* The website dashboard audit logs
+* When a warning is triggered/created via automod or button press
+
+> **Note:** Other moderators will still be able to see the moderwator who gave the warning.
 {.is-info}
 
 ## View Warnings
@@ -63,5 +79,5 @@ Usage Key: `<required>` / `[optional]`
 | :--- | :--- | :---: | :---: |
 | /clearwarnings | Removes all warnings from the specified user. | \<user> | MuteMembers or Administrator | 
 | /unwarn | Unwarns the specified user. | \<id> [isSilent] | MuteMembers or Administrator | 
-| /warn | Warns the specified user. | \<user> \<reason> [isSilent] | MuteMembers or Administrator | 
+| /warn | Warns the specified user. | \<user> \<reason> [isSilent] [isAnonymous] | MuteMembers or Administrator | 
 | /warnings | List all warnings for the specified user. | \<user> | MuteMembers or Administrator | 

@@ -2,7 +2,7 @@
 title: Warnings
 description: 
 published: 1
-date: 2024-12-29T08:05:18.941Z
+date: 2024-12-29T08:06:56.870Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:13:25.136Z
@@ -28,6 +28,7 @@ This will be applied on:
 
 This will NOT be applied on:
 * The `/warnings` command when ran by a moderator
+* When the "View Warnings" button is pressed on the `/warn` confirmation message
 * The website dashboard audit logs
 * When a warning is triggered/created via automod or button press
 

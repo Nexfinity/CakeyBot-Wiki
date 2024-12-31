@@ -2,7 +2,7 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2024-12-31T22:13:11.233Z
+date: 2024-12-31T22:13:33.618Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
@@ -10,6 +10,7 @@ dateCreated: 2024-01-02T23:52:26.127Z
 
 # December 31st - New Animal Images
 ## Added 
+* Added new `/giveaways list-entries` command.
 * Added "Duck, Alpaca, Fish, Seal, Camel & Wolf" imagesm to Daily Content
 * Added "Duck, Alpaca, Fish, Seal, Camel & Wolf" to the `/image` command
 

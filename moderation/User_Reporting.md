@@ -2,7 +2,7 @@
 title: User Reporting
 description: 
 published: 1
-date: 2024-02-10T09:14:39.541Z
+date: 2025-01-01T01:21:00.373Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T07:59:28.811Z
@@ -29,7 +29,8 @@ Your uers can follow the steps below to report users or content:
 1. Users can **right-click** on the user or message that they want to report. 
 2. Click on `Apps` froms the context menu.
 3. Select `Report Message` or `Report User` depending on the type of content being reported.
-4. Once the report is submitted, it is sent to the staff team who can then take appropriate action.
+4. Provide reason for the report. (Only for `Report User`)
+5. Once the report is submitted, it is sent to the staff team who can then take appropriate action.
 <br />
  
 <image src="/image_(8).png" width="800px">

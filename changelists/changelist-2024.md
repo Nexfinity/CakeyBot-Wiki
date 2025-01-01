@@ -2,11 +2,15 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2025-01-01T01:21:57.109Z
+date: 2025-01-01T19:14:58.849Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 1st - Server Boost Count
+## Added
+* Added "Server Boost Count" to statistic channels.
 
 # December 31st - New Animal Images
 ## Changed

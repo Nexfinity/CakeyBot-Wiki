@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2024-12-10T19:54:24.402Z
+date: 2025-01-01T19:15:33.721Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -43,3 +43,6 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 <hr>
 
 * Total Roles ~ The total number of roles made in the server
+<hr>
+
+* Total Server Boosts ~ The total number of boosts in the server

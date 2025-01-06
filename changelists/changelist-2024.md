@@ -2,11 +2,18 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2025-01-01T19:14:58.849Z
+date: 2025-01-06T01:29:40.240Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 5th - Suggestion Overhaul
+## Changed
+* Visual overhaul for `/suggestion` command.
+  * Reactions replaced with upvote/downvote buttons
+  * Added ability for server owners to approve/deny suggestions
+  * Added a button to create a discussion thread
 
 # January 1st - Server Boost Count
 ## Added

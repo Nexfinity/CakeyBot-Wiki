@@ -2,11 +2,16 @@
 title: Changelist 2024
 description: 
 published: 1
-date: 2025-01-06T01:29:40.240Z
+date: 2025-01-07T11:52:19.979Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-02T23:52:26.127Z
 ---
+
+# January 7th - Bug Fixes
+## Fixed
+* Removed some incorrect images from the "Panda" & "Capybara" daily image collections.
+* Fixed support for selecting category, forums and media channels as ignored channels for Starboard, Audit Logs, and Auto Mod. (Selecting these will ignore threads created in these channels)
 
 # January 5th - Suggestion Overhaul
 ## Changed

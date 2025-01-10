@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-10T14:55:14.523Z
+date: 2025-01-10T15:08:26.035Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 10th - Custom Daily Content
+## Added
+* Added new "Custom Data" support for Daily Content (Limited to custom bots)
 
 # January 7th - Bug Fixes
 ## Fixed

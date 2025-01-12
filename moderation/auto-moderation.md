@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2024-02-21T07:34:48.122Z
+date: 2025-01-12T18:10:12.314Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -69,6 +69,7 @@ You can view a list of category channels you can configure below:
 * Files Only
 * Emotes & Stickers Only
 * Counting Only
+* Links Only
 
 # Auto Ban
 Cakey Bot also allows you to automatically ban users when they join your server if certain conditions are met. This can help you automatically combat specific types of bot attacks if all of the attacking users meet the criteria. 

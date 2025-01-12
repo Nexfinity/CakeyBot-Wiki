@@ -2,11 +2,24 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-10T15:08:26.035Z
+date: 2025-01-12T09:20:52.546Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 12th - Misc. Fixes
+## Fixed
+* Fixed an issue where custom bot social feeds wouldn't respect the "Use Default Data" setting.
+* Fixed an issue where custom daily content wouldn't handle "mixed" content types correctly.
+* Fixed an issue where long descriptions would not eb displayed on achievements correctly.
+* Misc. internal bug fixes.
+
+## Changed
+* Achievement descriptions are now limited to 140 characters. (Previously 500)
+
+## Added
+* Added an ending message with user mentions for when giveaways end.
 
 # January 10th - Custom Daily Content
 ## Added

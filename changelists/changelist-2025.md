@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-12T09:21:02.998Z
+date: 2025-01-12T18:10:41.951Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -20,6 +20,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 ## Added
 * Added an ending message with user mentions for when giveaways end.
+* Added "Links Only" category to Auto Mod
 
 # January 10th - Custom Daily Content
 ## Added

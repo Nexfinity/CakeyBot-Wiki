@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-12T09:20:52.546Z
+date: 2025-01-12T09:21:02.998Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -12,7 +12,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 ## Fixed
 * Fixed an issue where custom bot social feeds wouldn't respect the "Use Default Data" setting.
 * Fixed an issue where custom daily content wouldn't handle "mixed" content types correctly.
-* Fixed an issue where long descriptions would not eb displayed on achievements correctly.
+* Fixed an issue where long descriptions would not be displayed on achievements correctly.
 * Misc. internal bug fixes.
 
 ## Changed

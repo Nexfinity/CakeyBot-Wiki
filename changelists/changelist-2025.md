@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-12T18:10:41.951Z
+date: 2025-01-13T05:00:37.863Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 13th - Daily Content Pings
+## Changed
+* Updated tickets to auto-pin the initial message
+
+## Added
+* Added the ability to ping a role for Daily Content
 
 # January 12th - Misc. Fixes
 ## Fixed

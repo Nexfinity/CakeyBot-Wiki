@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-13T05:00:37.863Z
+date: 2025-01-15T13:07:08.050Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 15th - Dashboard Improvements
+## Added
+* Added new alerts to the top of all of the dashboard pages to help direct users to the related wiki articles.
+* Implemented a ton of internal caching for data. (This should make page loading a bit faster/more responsive)
 
 # January 13th - Daily Content Pings
 ## Changed

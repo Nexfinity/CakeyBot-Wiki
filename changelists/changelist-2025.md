@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-15T13:07:08.050Z
+date: 2025-01-18T01:55:31.815Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 17th - Randomized Birthday Messages
+## Added
+* Added the ability to set randomized/multiple birthday messages. (Semicolon `;` separated list)
 
 # January 15th - Dashboard Improvements
 ## Added

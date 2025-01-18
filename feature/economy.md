@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2024-12-04T06:26:34.284Z
+date: 2025-01-18T16:20:27.413Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -40,32 +40,11 @@ Items can be purchased from the item shop in order to gain an advantage or impro
 ## Usage
 There's several commands that are used to view, buy and sell items in Cakey Bot. You can see all of the commands below:
 * **/eco shop** - Purchase items from the shop for bonuses. 
-* **/eco buy-item** - Purchase a specific item.
-* **/eco sell-item** - Sell a specific item for half the original value.
 * **/eco iteminfo** - View information about a specific item.
 * **/eco items** - View all of the items you or someone else owns.
 
 ## Available Items
-* **Nice Suit** - Improves begging odds by 50%
-  * **Cost:** $5,000
-
-* **Ninja Costume** - Improves chance of robbery success by 25%
-  * **Cost:** $25,000
-
-~~* **Lucky Cube** - Improves chance to win RNG-based games by 7%~~
-  * ~~**Cost:** $25,000~~
-  * ~~Games affected:~~
-    * ~~Coinflip~~
-    * ~~Guess~~
-
-* **Guard Dog** - Decreases the likelihood of a successful robbery against you by 50%
-  * **Cost:** $50,000
-
-* **Bus Ticket** - Decreases the chance of someone being able to rob you by 25%
-  * **Cost:** $5,000
-  
-> Lucky cube is temporarily disabled for re-balancing.
-{.is-warning}
+TBD
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

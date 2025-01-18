@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-18T16:20:27.413Z
+date: 2025-01-18T22:09:53.247Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -59,6 +59,7 @@ Usage Key: `<required>` / `[optional]`
 | /eco items               | View all of the items you or someone else owns.                | \<user>                                    | None                   |
 | /eco leaderboard         | View the top 10 users on the leaderboard.                      | N/A                                       | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
+| /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
 | /eco rob                 | Attempt to rob another user.                                   | \<user>                                    | None                   |
 | /eco rock-paper-scissors | Challenge another user to Rock, Paper, Scissors.               | \<amount>                                  | None                   |
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                       | None                   |

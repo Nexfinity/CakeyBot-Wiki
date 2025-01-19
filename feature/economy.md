@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-18T22:09:53.247Z
+date: 2025-01-19T23:52:44.615Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -34,6 +34,10 @@ Cakey Bot also includes several other ways to earn money that do not include any
 * **/eco work** - Work for money.
 * **/eco rob** - Attempt to rob another user.
 * **/eco beg** - Beg for money.
+
+# Customization
+In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
+## 
 
 # Item Shop
 Items can be purchased from the item shop in order to gain an advantage or improve your odds in various economy games/activites. Currently all items are persistent and are not consumable. Items will also incur a daily cost which will remove the item if you run out of money to pay for them.

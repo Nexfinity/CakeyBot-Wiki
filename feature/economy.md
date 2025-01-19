@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-19T23:52:44.615Z
+date: 2025-01-19T23:58:39.482Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -37,7 +37,15 @@ Cakey Bot also includes several other ways to earn money that do not include any
 
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
-## 
+## Currency Symbol & Position
+
+## Initial & Max Balance
+
+## Number Separator Character
+
+## Allow Balance Transfers
+
+## Wipe User Balance on Leave
 
 # Item Shop
 Items can be purchased from the item shop in order to gain an advantage or improve your odds in various economy games/activites. Currently all items are persistent and are not consumable. Items will also incur a daily cost which will remove the item if you run out of money to pay for them.

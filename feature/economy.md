@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-19T23:58:39.482Z
+date: 2025-01-20T00:03:14.310Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -38,14 +38,25 @@ Cakey Bot also includes several other ways to earn money that do not include any
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
 ## Currency Symbol & Position
+Customize the currency symbol displayed in your server's economy commands. Choose a symbol (e.g., $, €, ¥, or even custom emojis) and define its position—either before ($100) or after (100$) the balance amount.
 
 ## Initial & Max Balance
+Set the starting balance for new users and the maximum balance users can hold. The initial balance ensures every member has a fair start in the economy, while the maximum balance helps maintain balance and prevent inflation. Both values are fully adjustable to suit your server's economy goals.
+
+> Note: If you use the `/ecoadmin reset-economy` command, all user's will be reset to the current "Initial Balance" setting, not 0.
+{.is-info}
 
 ## Number Separator Character
+Control how large numbers are formatted by specifying a separator character (e.g., commas 1,000 or periods 1.000). This improves readability for balances in regions with different number formatting standards.
 
 ## Allow Balance Transfers
+Enable or disable the ability for users to transfer money to one another. This setting can help regulate the economy by preventing abuse or fostering collaboration through shared wealth. Enabling this feature will disable commands and features that allow users to transfer money directly to each other such as `/rob`, `/pay`, and `/eco rock-paper-scissors`. *(This is not a fully inclusive list)*
 
 ## Wipe User Balance on Leave
+Decide whether user balances should be wiped when they leave the server (or when kicked/banned). Enable this option to ensure the economy remains balanced by preventing users from returning with excessive wealth, or disable it to allow users to retain their progress if they rejoin later.
+
+> Note: If users re-join the server later, their original balance will NOT be returned if this setting was enabled. They will retain the "Initial Balance".
+{.is-info}
 
 # Item Shop
 Items can be purchased from the item shop in order to gain an advantage or improve your odds in various economy games/activites. Currently all items are persistent and are not consumable. Items will also incur a daily cost which will remove the item if you run out of money to pay for them.

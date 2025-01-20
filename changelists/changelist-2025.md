@@ -2,11 +2,26 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-18T01:55:31.815Z
+date: 2025-01-20T01:57:15.928Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 19th - Economy Customization
+## Added
+* Added a ton of new economy customization! Including:
+  * Custom currency symbol (plus position)
+  * Initial & max balances
+  * Separator character customization
+  * Ability to wipe user balances on user leave
+  * Ability to disable commands related to money transferring between users (i.e. /rob, /pay, etc)
+* Added ability to wipe user XP data on user leave for leveling
+
+# January 18th - Economy Changes
+## Removed
+* The `/eco sell` command has been removed
+* Removed all economy shop items
 
 # January 17th - Randomized Birthday Messages
 ## Added

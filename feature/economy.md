@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T00:06:41.025Z
+date: 2025-01-20T00:12:11.951Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -47,7 +47,7 @@ Customize the currency symbol displayed in your server's economy commands. Choos
 ## Initial & Max Balance
 Set the starting balance for new users and the maximum balance users can hold. The initial balance ensures every member has a fair start in the economy, while the maximum balance helps maintain balance and prevent inflation. Both values are fully adjustable to suit your server's economy goals.
 
-> Note: If you use the `/ecoadmin reset-economy` command, all user's will be reset to the current "Initial Balance" setting, not 0.
+> Note: If you use the `/ecoadmin reset-economy` command, all users will be reset to the current "Initial Balance" setting, not 0.
 {.is-info}
 
 ## Number Separator Character

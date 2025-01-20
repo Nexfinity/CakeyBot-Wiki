@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T00:43:01.911Z
+date: 2025-01-20T20:14:56.518Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -61,6 +61,9 @@ Decide whether user balances should be wiped when they leave the server (or when
 
 > Note: If users re-join the server later, their original balance will NOT be returned if this setting was enabled. They will retain the "Initial Balance".
 {.is-info}
+
+## Add Space to Currency Symbol
+Enable this setting to add a space between the currency symbol and the balance amount, improving clarity and readability. For example, `$100` becomes `$ 100` or `100$` becomes `100 $`. This option works seamlessly with both currency symbol positions, whether the symbol is placed on the left or the right of the amount.
 
 # Item Shop
 Items can be purchased from the item shop in order to TBD.

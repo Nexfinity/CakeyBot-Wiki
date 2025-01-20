@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T20:14:56.518Z
+date: 2025-01-20T20:49:53.503Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -66,7 +66,10 @@ Decide whether user balances should be wiped when they leave the server (or when
 Enable this setting to add a space between the currency symbol and the balance amount, improving clarity and readability. For example, `$100` becomes `$ 100` or `100$` becomes `100 $`. This option works seamlessly with both currency symbol positions, whether the symbol is placed on the left or the right of the amount.
 
 # Item Shop
-Items can be purchased from the item shop in order to TBD.
+The item shop allows server owners to create a customizable list of purchasable items for their members. These items can include role unlocks, which grant users specific roles upon purchase, and leveling XP to help them progress faster in the server's leveling system. Each item can have its own unique cost, making it easy to design a diverse economy tailored to your server's needs.
+
+> Economy boosts marked as "purchasable" will also display in this shop list.
+{.is-info}
 
 ## Usage
 There's several commands that are used to view, buy and sell items in Cakey Bot. You can see all of the commands below:
@@ -74,8 +77,15 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 * **/eco iteminfo** - View information about a specific item.
 * **/eco items** - View all of the items you or someone else owns.
 
+## Item Types
+This is the list of support item types that you can configure for users to purchase:
+* Leveling XP
+* Role Unlocks
+* Economy Boosts
+
 # Boosts
-TBD
+> Economy boosts are WIP and will be coming soon.
+{.is-warning}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

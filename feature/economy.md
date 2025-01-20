@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T00:05:48.894Z
+date: 2025-01-20T00:06:30.414Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -63,7 +63,8 @@ Decide whether user balances should be wiped when they leave the server (or when
 {.is-info}
 
 # Item Shop
-Items can be purchased from the item shop in order to gain an advantage or improve your odds in various economy games/activites. Currently all items are persistent and are not consumable. Items will also incur a daily cost which will remove the item if you run out of money to pay for them.
+Items can be purchased from the item shop in order to TBD.
+
 ## Usage
 There's several commands that are used to view, buy and sell items in Cakey Bot. You can see all of the commands below:
 * **/eco shop** - Purchase items from the shop for bonuses. 

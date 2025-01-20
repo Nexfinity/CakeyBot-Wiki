@@ -2,15 +2,19 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T00:03:14.310Z
+date: 2025-01-20T00:05:48.894Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
 ---
 
 # Overview
-> This feature is still currently in "BETA" and may change considerably before release.
-{.is-warning}
+The economy system offers a dynamic and customizable experience that fosters engagement and competition among server members. Users can earn currency through commands like `/eco beg`, `/eco work`, and mini-games such as `/eco coinflip`, `/eco high-or-low`, and `/eco guess`, while also competing for the top spot on the leaderboard with `/eco leaderboard`. 
+
+They can spend or trade their wealth using `/eco shop`, `/eco pay`, and `/eco donate`, or take risks with commands like `/eco rob` and `/eco split-or-steal`. The system is highly configurable, allowing server owners to personalize settings such as the currency symbol and its position, number formatting, initial and max balances, the ability to transfer balances, and whether user balances are wiped when they leave the server. 
+
+This combination of commands and customization options makes the economy system a versatile feature that adds excitement and interaction to any community.
+
 ## Basic Commands
 * **/eco balance** - Check your balance or the balance of another user.
 * **/eco leaderboard** - View the top 10 users on the leaderboard.

@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-20T20:49:53.503Z
+date: 2025-01-21T00:18:40.130Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -82,6 +82,9 @@ This is the list of support item types that you can configure for users to purch
 * Leveling XP
 * Role Unlocks
 * Economy Boosts
+
+> Note: When creating/adding items, the `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
+{.is-info}
 
 # Boosts
 > Economy boosts are WIP and will be coming soon.

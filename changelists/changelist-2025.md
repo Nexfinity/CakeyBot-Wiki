@@ -2,13 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-21T18:59:12.168Z
+date: 2025-01-21T19:00:04.503Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
 # January 21st - Economy Boosts
+## Fixed
+* Fixed an issue where economy items were displayed globally for the `/eco iteminfo` command.
+
 ## Added
 * Added economy boosts! You can create custom boosts on the dashboard and allow users to purchase them via `/eco itemshop`.
 

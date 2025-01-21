@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T00:19:53.739Z
+date: 2025-01-21T00:20:56.563Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -89,6 +89,9 @@ This is the list of support item types that you can configure for users to purch
 # Boosts
 > Economy boosts are WIP and will be coming soon.
 {.is-warning}
+
+> **Fun Fact:** Multiple boosts will automatically stack, allowing users to purchase multiple boosts and gain even more money!
+{.is-success}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

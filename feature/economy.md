@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T03:08:32.296Z
+date: 2025-01-21T03:10:55.144Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -93,7 +93,14 @@ This is the list of support item types that you can configure for users to purch
 Boosts allow server owners to create multipliers that users can activate to enhance their earnings in the server's economy. Boosts can stack, meaning users can apply multiple boosts at once for greater rewards. These multipliers only apply to certain commands, such as games, and do not affect direct money modifications like `/pay` or `/donate`. In multiplayer scenarios, boosts are applied to the winnings received by the boosted player, but losses incurred by other players remain unaffected.
 
 ## Configuration
-TBD
+* Duration
+  * This is how long the boost is active for once purchased. The time is based in hours.
+* Multiplier
+  * This is how much the boost affects earnings. Keep in mind that boosts can stack with other boosts.
+* Cost
+  * The cost for the user to purchase the boost. Note: This only applies if `IsPurchasable` is enabled for the boost.
+* IsPurchasable
+  * When this is enabled, it allows the boost to be purchased in the `/eco shop`. Otherwise users are unable to aquire the boost.
 
 ## Notes Regarding Functionality:
 * Multiple boosts can be stacked/applied at once.

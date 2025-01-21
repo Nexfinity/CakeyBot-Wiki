@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T03:10:55.144Z
+date: 2025-01-21T18:33:24.099Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -87,9 +87,6 @@ This is the list of support item types that you can configure for users to purch
 {.is-info}
 
 # Boosts
-> Economy boosts are WIP and will be coming soon.
-{.is-warning}
-
 Boosts allow server owners to create multipliers that users can activate to enhance their earnings in the server's economy. Boosts can stack, meaning users can apply multiple boosts at once for greater rewards. These multipliers only apply to certain commands, such as games, and do not affect direct money modifications like `/pay` or `/donate`. In multiplayer scenarios, boosts are applied to the winnings received by the boosted player, but losses incurred by other players remain unaffected.
 
 ## Configuration

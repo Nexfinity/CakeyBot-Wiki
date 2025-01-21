@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T00:19:05.076Z
+date: 2025-01-21T00:19:53.739Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -81,7 +81,7 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 This is the list of support item types that you can configure for users to purchase:
 * Leveling XP
 * Role Unlocks
-* Economy Boosts
+* Economy Boosts (Created on separate "Boosts" page.)
 
 > **Note:** When creating/adding items, the `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
 {.is-info}

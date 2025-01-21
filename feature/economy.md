@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T00:18:40.130Z
+date: 2025-01-21T00:19:05.076Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -47,7 +47,7 @@ Customize the currency symbol displayed in your server's economy commands. Choos
 ## Initial & Max Balance
 Set the starting balance for new users and the maximum balance users can hold. The initial balance ensures every member has a fair start in the economy, while the maximum balance helps maintain balance and prevent inflation. Both values are fully adjustable to suit your server's economy goals.
 
-> Note: If you use the `/ecoadmin reset-economy` command, all users will be reset to the current "Initial Balance" setting, not 0.
+> **Note:** If you use the `/ecoadmin reset-economy` command, all users will be reset to the current "Initial Balance" setting, not 0.
 {.is-info}
 
 ## Number Separator Character
@@ -59,7 +59,7 @@ Enable or disable the ability for users to transfer money to one another. This s
 ## Wipe User Balance on Leave
 Decide whether user balances should be wiped when they leave the server (or when kicked/banned). Enable this option to ensure the economy remains balanced by preventing users from returning with excessive wealth, or disable it to allow users to retain their progress if they rejoin later.
 
-> Note: If users re-join the server later, their original balance will NOT be returned if this setting was enabled. They will retain the "Initial Balance".
+> **Note:** If users re-join the server later, their original balance will NOT be returned if this setting was enabled. They will retain the "Initial Balance".
 {.is-info}
 
 ## Add Space to Currency Symbol
@@ -83,7 +83,7 @@ This is the list of support item types that you can configure for users to purch
 * Role Unlocks
 * Economy Boosts
 
-> Note: When creating/adding items, the `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
+> **Note:** When creating/adding items, the `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
 {.is-info}
 
 # Boosts

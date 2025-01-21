@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T00:20:56.563Z
+date: 2025-01-21T02:54:09.283Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -89,6 +89,14 @@ This is the list of support item types that you can configure for users to purch
 # Boosts
 > Economy boosts are WIP and will be coming soon.
 {.is-warning}
+
+## Notes Regarding Functionality:
+* Multiple boosts can be stacked/applied at once.
+* Multipliers will only be applied to users who have active boosts (in regards to multi-player games).
+* Commands that directly modify money such as `/pay`, `/donate` and `/ecoadmin manage-money` will **NOT** have boosts applied at all.
+* When games take money from one player and give it to another, only the amount given to the winner will have boosts applied. The money _taken_ will **NOT** have a multiplier.
+  * For example, assume player A has a 2x boost. If player A robs player B successfully, and the resulting amount is `$100`, then player A will receive `$200` (due to the boost), however, player B will only lose `$100` their loss will **NOT** be multiplied/boosted.
+  * When this occurs, the success message will display/show the boosted amount, however, it will still only take the non-boosted amount from the loser.
 
 > **Fun Fact:** Multiple boosts will automatically stack, allowing users to purchase multiple boosts and gain even more money!
 {.is-success}

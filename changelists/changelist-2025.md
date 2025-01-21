@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-20T20:51:44.455Z
+date: 2025-01-21T00:17:32.811Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,6 +11,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # January 20th - Economy Shop Re-Release
 ## Added
 * Added the ability for server owners to create a list of items that can be purchased in the economy shop. These items allow users to unlock specific roles or gain leveling XP.
+* Added a toggle to put a space between the currency prefix and the value.
 
 # January 19th - Economy Customization
 ## Added

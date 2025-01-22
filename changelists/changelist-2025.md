@@ -2,17 +2,21 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-22T05:07:02.276Z
+date: 2025-01-22T15:06:21.965Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# January 22nd - Giveaway Descriptions
+# January 22nd - XP Decay
 ## Changed
 * Adjusted `/rob` cooldown to match `/work`.
 
 ## Added
+* Added XP decay system, can configure:
+  * Days since last activity before decay starts
+  * Percentage to decay per day
+  * Minimum level before user is eligible to start decaying (and where decay stops)
 * Added optional "Description" field for giveaways.
 
 # January 21st - Economy Boosts

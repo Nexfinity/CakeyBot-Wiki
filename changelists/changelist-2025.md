@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-21T19:00:04.503Z
+date: 2025-01-22T05:07:02.276Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 22nd - Giveaway Descriptions
+## Changed
+* Adjusted `/rob` cooldown to match `/work`.
+
+## Added
+* Added optional "Description" field for giveaways.
 
 # January 21st - Economy Boosts
 ## Fixed

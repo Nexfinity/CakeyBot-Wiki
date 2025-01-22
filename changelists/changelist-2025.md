@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-22T15:06:21.965Z
+date: 2025-01-22T20:25:12.112Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -18,6 +18,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
   * Percentage to decay per day
   * Minimum level before user is eligible to start decaying (and where decay stops)
 * Added optional "Description" field for giveaways.
+* Added the ability to send the Level Up messages inside of a basic embed.
 
 # January 21st - Economy Boosts
 ## Fixed

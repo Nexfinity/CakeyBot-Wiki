@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2024-12-14T09:29:21.404Z
+date: 2025-01-22T00:07:11.234Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -127,6 +127,22 @@ You can set up to 5 different multipliers of each type (Or up to 10 with a premi
 
 > Note: Role/Channel XP multipliers will get added AFTER other XP multipliers (such as double XP days and global rate).
 {.is-info}
+
+# XP Decaying
+> This is a WIP and coming soon feature.
+{.is-warning}
+
+## Decay Enabled
+TBD
+
+## Decay Rate
+TBD
+
+## Decay Days
+TBD
+
+## Decay Minimum
+TBD
 
 # Rank Card Customization
 

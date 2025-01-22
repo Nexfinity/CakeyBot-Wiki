@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T00:07:11.234Z
+date: 2025-01-22T00:07:58.516Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -131,6 +131,9 @@ You can set up to 5 different multipliers of each type (Or up to 10 with a premi
 # XP Decaying
 > This is a WIP and coming soon feature.
 {.is-warning}
+
+> **Note:** XP decay is **NOT** affected by multipliers.
+{.is-info}
 
 ## Decay Enabled
 TBD

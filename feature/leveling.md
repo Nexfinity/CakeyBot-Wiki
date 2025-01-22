@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T00:07:58.516Z
+date: 2025-01-22T01:16:43.720Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -155,7 +155,8 @@ You can set different image banners for the `/rank` card. [Premium](https://cake
 Our fancy image banner editor:
 <image src="/leveling-editor.jpg" width="800px">
   
-Currently image banners will be applied to ALL users in the server.
+> The recommended image size is `Width: 930` x `Height: 280` for custom image banners.
+{.is-info}
 
 # Rank Card Badges
 Users who support Cakey Bot will get badges on their profile, so you'll know they're cool.

@@ -2,7 +2,7 @@
 title: Announcements
 description: 
 published: 1
-date: 2025-01-22T01:15:44.798Z
+date: 2025-01-22T01:15:58.869Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -53,7 +53,7 @@ Default join/leave banner images:
 Our fancy image banner editor:
 <image src="/image_(25).png" width="800px">
   
-> The reccomended image size is `Width: 1920` x `Height: 512` for custom image banners.
+> The recommended image size is `Width: 1920` x `Height: 512` for custom image banners.
 {.is-info}
 
 # Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>

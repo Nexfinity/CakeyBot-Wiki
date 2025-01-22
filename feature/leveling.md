@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T01:16:43.720Z
+date: 2025-01-22T15:10:09.005Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -129,23 +129,17 @@ You can set up to 5 different multipliers of each type (Or up to 10 with a premi
 {.is-info}
 
 # XP Decaying
-> This is a WIP and coming soon feature.
-{.is-warning}
-
 > **Note:** XP decay is **NOT** affected by multipliers.
 {.is-info}
 
-## Decay Enabled
-TBD
-
 ## Decay Rate
-TBD
+This field determines the percentage of XP lost per day once the decay process begins. The default decay rate is set to 10% (`0.10`) of the user's current XP ***per day***.
 
 ## Decay Days
-TBD
+This specifies the minimum number of days of inactivity required before XP decay starts. By default, XP decay will not begin until a user has been inactive for **7 days**.
 
 ## Decay Minimum
-TBD
+This field sets the minimum XP level required for a user to be eligible for decay. It also defines the point at which the decay process stops. The default value is set to `1`, meaning users will not lose XP below level 1 due to decay.
 
 # Rank Card Customization
 

@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T15:10:09.005Z
+date: 2025-01-22T15:10:37.900Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -129,6 +129,8 @@ You can set up to 5 different multipliers of each type (Or up to 10 with a premi
 {.is-info}
 
 # XP Decaying
+XP Decay reduces a user's XP over time when they are inactive, ensuring leaderboards reflect active participation. Decay begins after a set period of inactivity and is applied daily at a configurable rate. It stops once users reach a minimum XP level. Multipliers do not affect XP decay, ensuring fairness across all users.
+
 > **Note:** XP decay is **NOT** affected by multipliers.
 {.is-info}
 

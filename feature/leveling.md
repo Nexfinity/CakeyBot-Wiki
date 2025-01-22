@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T15:10:37.900Z
+date: 2025-01-22T20:27:30.043Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -49,6 +49,12 @@ Enabling this feature will have Cakey Bot automatically remove any Role Rewards 
 
 ## Remove Roles on Level Up
 Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user levels up. (Including the `/manage-xp` or `/manage-level` commands.)
+
+## Wipe User XP on Leave
+Enabling this will wipe user's XP whenever they leave the server. This will also apply if they get kicked or banned.
+
+## Send Messages as Embed <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+This will cause any level up messages to be sent inside of a simple Discord embed instead of just plaintext.
 
 ## Max Level <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set the maximum level that a user a level up to. By default the max level is set to 999.

@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-23T04:29:44.857Z
+date: 2025-01-23T21:02:59.433Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 23rd - Support Ticket Customization
+## Added
+* Added the ability to customize _both_ the embed used to open support tickets AND the initial embed sent inside of newly created tickets.
 
 # January 22nd - XP Decay & Ticket Re-Work Prep
 ## Changed

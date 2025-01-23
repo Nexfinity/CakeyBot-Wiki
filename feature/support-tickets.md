@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2025-01-23T04:35:00.422Z
+date: 2025-01-23T21:02:32.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -32,9 +32,6 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 # Usage/Creating Tickets
 
 Once you have enabled and configured support tickets via the web dashboard your users can start making tickets once you create an embed using the `/setup createticketembed` command. Running this command will create a fancy embed with a button that users can click to automatically open up tickets. When users click the button it will prompt them to enter a reason for their ticket.
-
-> **Note:** The support ticket description is *optional* and a default reason will be filled in if a user does not provide one.
-{.is-info}
 
 You do _not_ need to make/set up a support category, Cakey Bot will automatically generate the correct channels and permissions if Cakey Bot has access to do so.
 
@@ -92,10 +89,7 @@ How it works:
 {.is-warning}
 
 ## Blacklisted Roles
-This allows you to prevent specific roles from creating tickets. This can be useful if you have users who are spamming or abusing the ticket system. This will blacklist users from creating tickets via the `/ticket new` command as well as any ticket embeds.
-
-## Embed Color
-This will modify the color for the initial embed that is created inside of newly created tickets.
+This allows you to prevent specific roles from creating tickets. This can be useful if you have users who are spamming or abusing the ticket system.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-23T04:27:11.799Z
+date: 2025-01-23T04:29:44.857Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -15,7 +15,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 ## Removed
 * Removed the `/ticket create` command. (You now have to create a ticket embed for users to open tickets using `/setup createticketembed`)
-* Removed the "category" options from the `/setup createticketembed` command. Instead it will ask for a panel nubmer to generate an embed for (Currently just 1)
+* Removed the "category" options from the `/setup createticketembed` command. Instead it will ask for a panel number to generate an embed for (Currently just 1)
 
 ## Added
 * Added XP decay system, can configure:

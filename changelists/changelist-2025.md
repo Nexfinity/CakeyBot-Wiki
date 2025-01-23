@@ -2,15 +2,20 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-22T20:25:12.112Z
+date: 2025-01-23T04:27:11.799Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# January 22nd - XP Decay
+# January 22nd - XP Decay & Ticket Re-Work Prep
 ## Changed
 * Adjusted `/rob` cooldown to match `/work`.
+* Pre-existing embeds using this category system will still function, however, they will act as a default embed and won't specify the additional drop-down menus anymore.
+
+## Removed
+* Removed the `/ticket create` command. (You now have to create a ticket embed for users to open tickets using `/setup createticketembed`)
+* Removed the "category" options from the `/setup createticketembed` command. Instead it will ask for a panel nubmer to generate an embed for (Currently just 1)
 
 ## Added
 * Added XP decay system, can configure:

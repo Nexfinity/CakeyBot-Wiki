@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2024-12-23T04:05:31.015Z
+date: 2025-01-23T21:09:20.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -139,8 +139,8 @@ dateCreated: 2022-10-18T08:00:48.805Z
 
 # Advanced Placeholders
 
-> _Advanced Placeholders only work on "Auto Responders". They will **not** work on join/leave/ban announcements._
-{.is-warning}
+> _Advanced Placeholders only work on "Auto Responders". They will **not** work on join/leave announcements, birthday messages, etc._
+{.is-danger}
 
 ## Delete
 

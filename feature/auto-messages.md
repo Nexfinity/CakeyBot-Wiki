@@ -2,7 +2,7 @@
 title: Auto Messages
 description: 
 published: 1
-date: 2025-01-24T04:22:59.685Z
+date: 2025-01-24T04:23:52.933Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-24T04:16:57.525Z
@@ -19,15 +19,12 @@ TBD
 1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
 2. Click on the server you want to edit auto messages on.
 3. Go to the "Auto Messages" page.
-4. You can then create, delete, and edit any messages on this page. You can get an overview of each configuration property below:
+4. You can then create, delete, and edit any messages on this page.
 
-## Channel
+> Auto Messages will send every day at the specified time. The time will be absed on the "Timezone" that you configure for your server on the "Bot Settings" page.
+{.is-info}
 
-## Time
-
-## Message
-
-## Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+# Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.

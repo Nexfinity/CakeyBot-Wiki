@@ -2,7 +2,7 @@
 title: Persistent Roles
 description: 
 published: 1
-date: 2024-12-04T06:10:41.694Z
+date: 2024-12-04T06:10:42.744Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:12:19.317Z

@@ -2,7 +2,7 @@
 title: Basic Usage
 description: 
 published: 1
-date: 2024-12-04T06:28:24.694Z
+date: 2024-12-04T06:28:25.788Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z

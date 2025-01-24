@@ -2,13 +2,17 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-23T21:02:59.433Z
+date: 2025-01-24T01:10:06.935Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
 # January 23rd - Support Ticket Customization
+## Changed
+* Introduced a +50% bonus to the user who steals in `/eco split-or-steal` to help discourage collusion/abuse.
+* `/eco split-or-steal` will now introduce a prize modifier based on the player's previous choice history.
+
 ## Added
 * Added the ability to customize _both_ the embed used to open support tickets AND the initial embed sent inside of newly created tickets.
 

@@ -2,7 +2,7 @@
 title: Daily Content
 description: 
 published: 1
-date: 2025-01-10T14:52:20.249Z
+date: 2025-01-24T16:20:26.453Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -50,7 +50,7 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 * Capybara
 
 # Custom Content
-> You MUST have an active custom bot subscriptino to use this type.
+> You MUST have an active custom bot subscription to use this type.
 {.is-warning}
 
 This daily content type allows you to specify a custom list of text or images for the bot to send. The list is separated by semicolons (`;`).

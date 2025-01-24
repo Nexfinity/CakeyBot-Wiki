@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-24T04:20:06.248Z
+date: 2025-01-24T16:56:03.562Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,6 +11,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # January 24th - Auto Messages
 ## Added
 * Added new recurring "Auto Message" system!
+* Added new `/setup toggle-autopublish` command to quickly and easily toggle the auto-publish status of the current channel.
 
 # January 23rd - Support Ticket Customization
 ## Changed

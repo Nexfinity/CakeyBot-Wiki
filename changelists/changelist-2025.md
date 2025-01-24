@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-24T01:10:06.935Z
+date: 2025-01-24T04:20:05.080Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 24th - Auto Messages
+## Added
+* Added new recurring "Auto Message" system!
 
 # January 23rd - Support Ticket Customization
 ## Changed

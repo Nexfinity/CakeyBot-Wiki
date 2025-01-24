@@ -2,7 +2,7 @@
 title: Auto Messages
 description: 
 published: 1
-date: 2025-01-24T04:22:13.063Z
+date: 2025-01-24T04:22:59.685Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-24T04:16:57.525Z
@@ -27,4 +27,13 @@ TBD
 
 ## Message
 
-## Embed URL
+## Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+You can include an optional embed on responses by following the steps below:
+
+1. Follow the instructions at the top of this page to sign in to the dashboard.
+2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
+3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
+4. Create an auto message like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
+
+> Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
+{.is-info}

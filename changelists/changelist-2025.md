@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-24T16:56:03.562Z
+date: 2025-01-26T02:25:10.353Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# Januar 25th - Emote Stats
+## Added
+* Added new `/emote stats` & `/emote top` commands.
 
 # January 24th - Auto Messages
 ## Added

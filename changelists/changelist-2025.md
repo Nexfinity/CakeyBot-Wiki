@@ -2,13 +2,21 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-26T02:25:10.353Z
+date: 2025-01-28T23:27:40.253Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# Januar 25th - Emote Stats
+# January 28th - Suggestion Improvements
+## Changed
+* The `/suggestion` command will now swap votes if the user has already voted for the opposite option, instead of erroring.
+* The "Approve" & "Deny" buttons for `/suggestion` have been moved to the same row as the upvote/downvote buttons to save vertical space.
+
+## Added
+* Added the ability to forward approved/denied suggestions to a specific output channel.
+
+# January 25th - Emote Stats
 ## Added
 * Added new `/emote stats` & `/emote top` commands.
 

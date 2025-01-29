@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2025-01-29T01:38:36.895Z
+date: 2025-01-29T01:38:56.197Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -59,6 +59,12 @@ You can also remove other users from tickets by typing the `/ticket removeuser <
 By default, any staff members who have view/send access to tickets can respond to them like they would in other channels. However, sometimes staff memebrs may want to reply to a ticket anonymously without showing their username. In order to this all they have to do is run the `/ticket anonreply <message>` command. this will send a generic anonymous message from Cakey Bot instead of the staff member.
 > In order to use the anonymous reply system, the staff member MUST have the Support Team role which can be set on the web dashboard.
 {.is-info}
+
+## Reminders
+TBD
+
+## Close Requests
+TBD
 
 # Advanced Settings
 These are advanced settings that you can configure via the web dashboard to further customize your support ticket system!

@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2025-01-23T21:02:33.553Z
+date: 2025-01-29T01:38:36.895Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -96,6 +96,8 @@ Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
 | /setup createticketembed | Create an embed to open tickets with a button. | N/A | None | 
+| /ticket remind | Sends a reminder to the user. | N/A | None | 
+| /ticket request-close | Requests to close the ticket. | N/A | None | 
 | /ticket adduser | Adds a user to the ticket. | \<user> | None | 
 | /ticket anonreply | Replies to a support ticket anonymously. | \<message> | None | 
 | /ticket removeuser | Removes a user from a ticket. | \<user> | None | 

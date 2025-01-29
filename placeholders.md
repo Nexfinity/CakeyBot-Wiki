@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2025-01-23T21:09:21.624Z
+date: 2025-01-29T02:31:13.632Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -103,9 +103,6 @@ dateCreated: 2022-10-18T08:00:48.805Z
 `{date}` - Current date\
 `{datetime}` - Current date with the 24 hour time\
 `{datetime12}` - Current date with the 12 hour time
-
-> Currently, all times & dates are for the United States Eastern timezone. In the future, you will be able to select your timezone per-server.
-{.is-warning}
 
 ## Mentions
 

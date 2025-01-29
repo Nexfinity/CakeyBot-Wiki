@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2024-01-06T01:05:06.003Z
+date: 2025-01-29T20:53:28.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -17,7 +17,8 @@ Cakey Bot is a powerful and highly customizable Discord bot for your server. Cak
 
 This documentation provides information on every module/feature, including the description, usage, and examples.
 
-If you need any additional help with Cakey Bot, ask in our [Discord server](https://cakey.bot/discord)!
+> If you need any additional help with Cakey Bot, ask in our [Discord server](https://cakey.bot/discord)!
+{.is-success}
 
 # Getting Started Video
 <div style="left: 0; width: 100%; height: 0; max-width: 560px; max-height: 315px; position: relative; padding-bottom: 315px;"><iframe src="https://www.youtube.com/embed/hC7pP4wKDIo?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; max-width: 560px; max-height: 315px; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
@@ -103,10 +104,6 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 
 > It is not recommended to freely give out Administrator permission. It would just make setting up the bot simpler. Cakey Bot has many built-in safeguards to prevent the bot from being abused by users if the bot has Administrator so it is safe to grant, just not a recommended practice to do so.
 {.is-warning}
-
-# Slash Commands
-
-Cakey Bot makes use of Discord's slash command system. Slash commands will prompt you for arguments/parameters if they are required and some will send "ephemerally", meaning that the results are only shown to you. This means that you can use some slash commands without spamming the chat for everyone else! You can find a full list of our available commands on our [website here](https://cakey.bot/commands.html).
 
 # Per-Server Settings (Web Dashboard)
 

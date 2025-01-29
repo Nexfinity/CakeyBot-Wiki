@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-28T23:27:40.253Z
+date: 2025-01-29T01:40:39.752Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -15,6 +15,8 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 ## Added
 * Added the ability to forward approved/denied suggestions to a specific output channel.
+* Added new `/ticket remind` command. This will send a DM reminder to this user.
+* Added new `/ticket request-close` command. This will send a close request in the ticket for the user.
 
 # January 25th - Emote Stats
 ## Added

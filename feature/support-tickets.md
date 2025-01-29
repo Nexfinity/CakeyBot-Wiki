@@ -2,7 +2,7 @@
 title: Support Tickets
 description: 
 published: 1
-date: 2025-01-29T01:38:56.197Z
+date: 2025-01-29T20:52:00.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -61,10 +61,10 @@ By default, any staff members who have view/send access to tickets can respond t
 {.is-info}
 
 ## Reminders
-TBD
+Staff members can use the `/ticket remind` command to send a DM reminder to the user who opened the ticket. The DM prompts them to respond if the issue is still unresolved and provides a button link to open the ticket.
 
 ## Close Requests
-TBD
+The `/ticket request-close` command allows staff members to request the closure of a ticket. Instead of immediately closing the ticket, this command notifies the original user that opened the ticket that the staff have requested the ticket to be closed. The user can then review and approve or deny the request.
 
 # Advanced Settings
 These are advanced settings that you can configure via the web dashboard to further customize your support ticket system!

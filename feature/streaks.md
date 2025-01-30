@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-01-29T00:04:47.319Z
+date: 2025-01-30T16:41:24.594Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -37,3 +37,11 @@ Here's how to do that:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public/) and select your server.
 2. From the left sidebar, pick "Streaks".
 3. After that, under the "CStreak Icon" section, select the emote you would like to be used for the streak icon.
+
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| /streaks top | Shows the top streaks for the server. | N/A | None | 
+| /streaks view | Shows your current streak. (Or the selected user's) | [user] | None | 
+| /streaks toggle-opt-out | Allows you to opt out of streaks for your account. | N/A | None | 

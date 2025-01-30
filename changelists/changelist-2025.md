@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-29T01:40:39.752Z
+date: 2025-01-30T19:34:33.949Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 30th - Streaks!
+## Removed
+* Removed `/emotetext` command.
+
+## Added
+* Added new "Streaks" feature. Encourage users to be active in your server by rewarding them for consecutive days of activity. Users can even compete on the leaderboard to see who has the longest streak!
 
 # January 28th - Suggestion Improvements
 ## Changed

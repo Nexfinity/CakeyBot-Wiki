@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-01-30T16:41:24.594Z
+date: 2025-01-30T23:06:27.525Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -37,6 +37,9 @@ Here's how to do that:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public/) and select your server.
 2. From the left sidebar, pick "Streaks".
 3. After that, under the "CStreak Icon" section, select the emote you would like to be used for the streak icon.
+
+> You can even set custom streak emotes for 100 day streaks and 1 year streaks!
+{.is-success}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-30T19:34:33.949Z
+date: 2025-01-31T05:07:53.227Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# January 31st - Streak Achievements
+## Added
+* Added the ability to create achievements that unlock when a user acquires a certain streak.
 
 # January 30th - Streaks!
 ## Removed

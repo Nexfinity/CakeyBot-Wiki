@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-01-22T20:27:31.438Z
+date: 2025-01-31T18:28:30.749Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -179,6 +179,10 @@ This badge is given to developers, moderators, writers, and administrators worki
 
 ## ![cb-tester.png](/cb-tester.png) Active Tester
 This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server.
+<br />
+  
+## ![cb-custom-bot.png](/cb-custom-bot.png) Custom Bot Owner
+TBD
 <br />
 
 ## ![The highest tier badge](/tier_10_64.png) Premium Badge

@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-01-30T23:06:27.525Z
+date: 2025-01-31T05:09:25.503Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -19,6 +19,9 @@ Encourage users to be active in your server by rewarding them for consecutive da
 Each time a user sends a message, their streak updates if at least 24 hours have passed since their last message. If more than 48 hours pass without a message, the streak resets. 
 
 The bot will also automatically update the user's nickname to display their current streak alongside a customizable streak icon, ensuring real-time tracking of active participation.
+
+> **Fun fact:** You can also create Achievements that unlock when users reach a certain number of days on their streak!
+{.is-success}
 
 # Setup
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public/) and select your server.

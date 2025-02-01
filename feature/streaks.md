@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-01-31T05:09:25.503Z
+date: 2025-02-01T17:05:48.850Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -43,6 +43,9 @@ Here's how to do that:
 
 > You can even set custom streak emotes for 100 day streaks and 1 year streaks!
 {.is-success}
+
+## Ignored Channels
+This is a list of channels that will be ignored when looking for messages to update a user's streak.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

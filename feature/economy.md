@@ -84,7 +84,7 @@ This is the list of support item types that you can configure for users to purch
 * Temporary Role Unlocks
 * Economy Boosts (Created on separate "Boosts" page.)
 
-## Configurtion
+## Configuration
 * Cost
   * The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item.
 * Type

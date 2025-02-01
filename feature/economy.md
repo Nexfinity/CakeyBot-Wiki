@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-01-21T18:33:25.492Z
+date: 2025-02-01T04:25:03.968Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -81,10 +81,18 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 This is the list of support item types that you can configure for users to purchase:
 * Leveling XP
 * Role Unlocks
+* Temporary Role Unlocks
 * Economy Boosts (Created on separate "Boosts" page.)
 
-> **Note:** When creating/adding items, the `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
-{.is-info}
+## Configurtion
+* Cost
+  * The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item.
+* Type
+  * The type of item for the user to unlock/buy.
+* Data
+  * The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
+* Secondary Data
+  * This field is only used when "Temporary Role" type is selected. It is the number of hours for the bot to grant the role to the user.
 
 # Boosts
 Boosts allow server owners to create multipliers that users can activate to enhance their earnings in the server's economy. Boosts can stack, meaning users can apply multiple boosts at once for greater rewards. These multipliers only apply to certain commands, such as games, and do not affect direct money modifications like `/pay` or `/donate`. In multiplayer scenarios, boosts are applied to the winnings received by the boosted player, but losses incurred by other players remain unaffected.

@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2025-01-29T20:53:28.209Z
+date: 2025-02-01T06:03:41.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -32,10 +32,6 @@ If you are having issues with the bot check out our [troubleshooting page](core/
 ## Suggestions
 
 If you would like to make a suggestion or request a new feature you can also post these in our discord [support server](https://https://cakey.bot/discord).
-
-## Anonymous Feedback
-
-In addition to this, we also accept anonymous feedback via this [google forms](https://forms.gle/hT5ujwu4XmZuYcHJA) page as well to encourage honest and truthful feedback to improve our services.
 
 # Inviting Cakey Bot
 

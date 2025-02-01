@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-01T17:04:21.853Z
+date: 2025-02-01T18:50:46.616Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -13,6 +13,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 * Added the ability to add "Temporary Role" unlocks into the economy shop.
 * Added some anti-abuse checks to Streaks to prevent people artificially modifying their streak.
 * Added the ability to have some channels ignored for Streaks.
+* Added the ability to "Clone" existing achievements.
 
 # January 31st - Streak Achievements
 ## Added

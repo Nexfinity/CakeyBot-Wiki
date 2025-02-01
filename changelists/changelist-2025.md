@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-01-31T05:07:53.227Z
+date: 2025-02-01T04:28:20.657Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 1st - Tempory Role Item Shop
+## Added
+* Added the ability to add "Temporary Role" unlocks into the economy shop.
 
 # January 31st - Streak Achievements
 ## Added

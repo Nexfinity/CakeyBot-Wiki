@@ -2,13 +2,13 @@
 title: Changelist Category
 description: 
 published: 1
-date: 2025-02-01T06:00:38.783Z
+date: 2025-02-01T06:00:51.374Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-07T20:44:02.615Z
 ---
 
-> **Note:** This is an archived list for our previous changelists. If you are looking for our latest changelist, check out [this page](/changelists/changelist-2025).
+> **Note:** This is an archive list for our previous changelists. If you are looking for our latest changelist, check out [this page](/changelists/changelist-2025).
 {.is-info}
 
 # [2024](/changelists/changelist-2024)

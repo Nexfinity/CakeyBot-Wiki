@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-02-01T04:26:19.917Z
+date: 2025-02-01T04:27:15.724Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -92,7 +92,7 @@ This is the list of support item types that you can configure for users to purch
 * Data
   * The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
 * Secondary Data
-  * The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the number of hours for the bot to grant the role to the user.
+  * The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user.
   
 > **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
 {.is-warning}

@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-02-01T04:25:03.968Z
+date: 2025-02-01T04:26:19.917Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -92,7 +92,10 @@ This is the list of support item types that you can configure for users to purch
 * Data
   * The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
 * Secondary Data
-  * This field is only used when "Temporary Role" type is selected. It is the number of hours for the bot to grant the role to the user.
+  * The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the number of hours for the bot to grant the role to the user.
+  
+> **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
+{.is-warning}
 
 # Boosts
 Boosts allow server owners to create multipliers that users can activate to enhance their earnings in the server's economy. Boosts can stack, meaning users can apply multiple boosts at once for greater rewards. These multipliers only apply to certain commands, such as games, and do not affect direct money modifications like `/pay` or `/donate`. In multiplayer scenarios, boosts are applied to the winnings received by the boosted player, but losses incurred by other players remain unaffected.

@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-02-04T01:22:18.552Z
+date: 2025-02-04T01:24:00.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -181,7 +181,7 @@ This badge is given to developers, moderators, writers, and administrators worki
 This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server.
 <br />
   
-## ![cb-graphic-designer.png](/cb-graphic-designer.png) Graphic Designer
+## ![graphic designer badge](/cb-graphic-designer.png) Graphic Designer
 TBD
 <br />
   

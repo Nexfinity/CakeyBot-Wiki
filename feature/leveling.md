@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-02-04T01:24:00.233Z
+date: 2025-02-04T01:25:22.899Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -182,7 +182,7 @@ This badge is given to users who actively help test new Cakey Bot features and p
 <br />
   
 ## ![graphic designer badge](/cb-graphic-designer.png) Graphic Designer
-TBD
+This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord.
 <br />
   
 ## ![cb-custom-bot.png](/cb-custom-bot.png) Custom Bot Owner

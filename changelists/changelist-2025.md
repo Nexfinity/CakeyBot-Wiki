@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-01T18:50:46.616Z
+date: 2025-02-05T00:41:47.358Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 4th - Reaction Purging
+## Added
+* Added the ability to bulk purge reactions using `/purge` commands via an optional `[reactions-only]` parameter.
 
 # February 1st - Tempory Role Item Shop
 ## Added

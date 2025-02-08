@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-05T00:41:47.358Z
+date: 2025-02-08T08:22:37.313Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 7th - Streak Fixes
+## Fixed
+* Fixed an issue where /streaks top could show duplicate entries for the same user.
+* Fixed an issue where users who left might not have their streak data wiped correctly.
 
 # February 4th - Reaction Purging
 ## Added

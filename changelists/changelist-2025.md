@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-08T08:22:37.313Z
+date: 2025-02-14T06:26:50.270Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 14th - Leveling Category Support
+## Changed
+* Added the ability to set categories on leveling channel multipliers
+
+## Added
+* Updated birthday role handler to be more reliable
 
 # February 7th - Streak Fixes
 ## Fixed

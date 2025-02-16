@@ -2,13 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-16T06:29:38.963Z
+date: 2025-02-16T06:44:17.146Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
 # February 16th - Forwarded Message Voice Transcription
+## Changed
+* Bumped `{react:}` placeholder limit to 5. Previously 3.
+
 ## Added
 * Added voice message transcription support for forwarded messages
 

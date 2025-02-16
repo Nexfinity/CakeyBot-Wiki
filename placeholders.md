@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2025-01-29T02:31:13.632Z
+date: 2025-02-16T06:43:30.991Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -324,7 +324,7 @@ Examples:
 > **Note:** This placeholder will not work on messages that use `{confirmdelete}` or `{dm}`. Also, Cakey Bot can ONLY use Emoji from any server that Cakey Bot is in. (Similar to nitro users)
 {.is-warning}
 
-You can also add reactions to responses (up to 3). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
+You can also add reactions to responses (up to 5). To add a reaction simply include a reaction placeholder anywhere in the response string. You will need to get Discord's unique ID for the reaction you plan to use. You can do this by typing the emoji in Discord and placing a backslash in front of it. Some placeholder examples are shown here:
 
 ```asciidoc
 {react:<a:200IQ:730769872698736692>} //Animated/Gif Emote

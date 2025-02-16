@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-14T06:26:50.270Z
+date: 2025-02-16T06:29:38.963Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 16th - Forwarded Message Voice Transcription
+## Added
+* Added voice message transcription support for forwarded messages
 
 # February 14th - Leveling Category Support
 ## Changed

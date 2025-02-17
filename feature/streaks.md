@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:53:39.083Z
+date: 2025-02-17T05:55:09.309Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -54,7 +54,10 @@ TBD
 {.is-info}
 
 ## Disable Nickname Change
-TBD
+Enabling this feature will prevent Cakey Bot from modifying the nickname of users to add the `| 1🔥` to the end of their usernames. This means that the only way to view/monitor streaks is with the `/streaks top` command.
+
+> Note: If this setting is enabled _after_ the bot has already started setting nicknames, you will have to manually remove the streak data from the nicknames.
+{.is-warning}
 
 > Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command.
 {.is-info}

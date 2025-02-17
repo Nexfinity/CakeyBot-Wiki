@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-01T17:05:48.850Z
+date: 2025-02-17T05:31:06.176Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -54,3 +54,4 @@ Usage Key: `<required>` / `[optional]`
 | /streaks top | Shows the top streaks for the server. | N/A | None | 
 | /streaks view | Shows your current streak. (Or the selected user's) | [user] | None | 
 | /streaks toggle-opt-out | Allows you to opt out of streaks for your account. | N/A | None | 
+| /streaks toggle-reminder-opt-out | Allows you to opt out of streak DM reminders. | N/A | None | 

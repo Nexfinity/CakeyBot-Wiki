@@ -2,7 +2,7 @@
 title: Anti-Raid
 description: 
 published: 1
-date: 2024-02-22T07:31:20.896Z
+date: 2025-02-17T07:31:57.465Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:17:53.684Z
@@ -41,6 +41,7 @@ This check will trigger when a user spams the specified amount of messages acros
 * Timeout User Duration - This is how long the user will be timed out for when the check has been triggered. This can prevent new messages.
 * Notification Channel - Raid alerts for this check will be sent to this channel.
 * Role Ping - This role will be pinged/mentioned when the check has been triggered. (This requires a notification channel to be set.)
+* Ignored Roles & Channels - This is a list of channels or roles where this check will be ignored.
 
 ## Other Checks
 This will check the content of messages sent by different users to see if they are similar. This can be effective when a raid contains multiple user accounts all sapmming the same message. The settings you can configure include:
@@ -50,3 +51,4 @@ This will check the content of messages sent by different users to see if they a
 * Timeout User Duration - This is how long the user will be timed out for when the check has been triggered. This can prevent new messages.
 * Notification Channel - Raid alerts for this check will be sent to this channel.
 * Role Ping - This role will be pinged/mentioned when the check has been triggered. (This requires a notification channel to be set.)
+* Ignored Roles & Channels - This is a list of channels or roles where this check will be ignored.

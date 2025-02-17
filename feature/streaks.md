@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:55:09.309Z
+date: 2025-02-17T05:56:34.702Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -48,7 +48,10 @@ Here's how to do that:
 This is a list of channels that will be ignored when looking for messages to update a user's streak.
 
 ## Send DM Reminders
-TBD
+Enabling this feature will have Cakey Bot send reminders to users via DMs when their streak is either going to end soon and when it actually expires.
+
+> Note: Due to privacy settings and Discord limitations users may sometimes _not_ receive DMs even when this setting is enabled. There is nothing Cakey Bot can do to bypass this if users have DMs blocked.
+{.is-warning}
 
 > Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command.
 {.is-info}

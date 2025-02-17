@@ -2,11 +2,19 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-16T06:44:17.146Z
+date: 2025-02-17T05:30:31.399Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 17th - Streaks Improvements
+## Added
+* Added the ability to view multiple pages on the `/streaks top` command instead of just the first top 10.
+* Added DM reminders for soon to expire streaks as well as when the streak finally expires.
+* Added new `/streaks toggle-reminder-opt-out` command to opt out of DM updates.
+* Added new "SendDmReminders" setting on the dashboard. Defaults to disabled.
+* Added new "DisableNicknameChange" setting on the dashboard. Defaults to disabled.
 
 # February 16th - Forwarded Message Voice Transcription
 ## Changed

@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:56:34.702Z
+date: 2025-02-17T05:57:41.078Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -50,7 +50,7 @@ This is a list of channels that will be ignored when looking for messages to upd
 ## Send DM Reminders
 Enabling this feature will have Cakey Bot send reminders to users via DMs when their streak is either going to end soon and when it actually expires.
 
-> Note: Due to privacy settings and Discord limitations users may sometimes _not_ receive DMs even when this setting is enabled. There is nothing Cakey Bot can do to bypass this if users have DMs blocked.
+> Note: Due to privacy settings and Discord limitations users may sometimes **not** receive DMs even when this setting is enabled. There is nothing Cakey Bot can do to bypass this if users have DMs blocked.
 {.is-warning}
 
 > Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command.
@@ -59,7 +59,7 @@ Enabling this feature will have Cakey Bot send reminders to users via DMs when t
 ## Disable Nickname Change
 Enabling this feature will prevent Cakey Bot from modifying the nickname of users to add the `| 1🔥` to the end of their usernames. This means that the only way to view/monitor streaks is with the `/streaks top` command.
 
-> Note: If this setting is enabled _after_ the bot has already started setting nicknames, you will have to manually remove the streak data from the nicknames.
+> Note: If this setting is enabled **after** the bot has already started setting nicknames, you will have to manually remove the streak data from the nicknames.
 {.is-warning}
 
 > Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command.

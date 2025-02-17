@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-17T05:30:31.399Z
+date: 2025-02-17T07:30:14.007Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -15,6 +15,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 * Added new `/streaks toggle-reminder-opt-out` command to opt out of DM updates.
 * Added new "SendDmReminders" setting on the dashboard. Defaults to disabled.
 * Added new "DisableNicknameChange" setting on the dashboard. Defaults to disabled.
+* Added the ability to set ignored channels & roles for anti-raid.
 
 # February 16th - Forwarded Message Voice Transcription
 ## Changed

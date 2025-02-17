@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:31:37.820Z
+date: 2025-02-17T05:53:39.083Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -50,8 +50,14 @@ This is a list of channels that will be ignored when looking for messages to upd
 ## Send DM Reminders
 TBD
 
+> Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command.
+{.is-info}
+
 ## Disable Nickname Change
 TBD
+
+> Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command.
+{.is-info}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

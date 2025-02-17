@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:31:06.176Z
+date: 2025-02-17T05:31:37.820Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -46,6 +46,12 @@ Here's how to do that:
 
 ## Ignored Channels
 This is a list of channels that will be ignored when looking for messages to update a user's streak.
+
+## Send DM Reminders
+TBD
+
+## Disable Nickname Change
+TBD
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

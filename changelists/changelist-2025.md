@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-17T07:30:14.007Z
+date: 2025-02-17T07:46:01.352Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -16,6 +16,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 * Added new "SendDmReminders" setting on the dashboard. Defaults to disabled.
 * Added new "DisableNicknameChange" setting on the dashboard. Defaults to disabled.
 * Added the ability to set ignored channels & roles for anti-raid.
+* Added the ability to toggle achievements enabled status.
 
 # February 16th - Forwarded Message Voice Transcription
 ## Changed

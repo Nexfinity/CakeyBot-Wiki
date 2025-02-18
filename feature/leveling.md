@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-02-04T01:25:22.899Z
+date: 2025-02-18T22:52:15.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -214,10 +214,10 @@ Usage Key: `<required>` / `[optional]`
 | Command                          | Description                                                              | Usage                                   | Permission                |
 | :------------------------------- | :----------------------------------------------------------------------- | :------------------------------------: | :-----------------------: |
 | /leaderboard                     | View the top 10 users on the leaderboard.                                | N/A                                    | None                      |
-| /manage-level                    | Manage a user's level.                                                  | \<give \| remove \| set> \<user> \<level>  | ManageServer             |
-| /manage-xp                       | Manage a user's XP.                                                     | \<give \| remove \| set> \<user> \<xp>    | ManageServer             |
-| /rank                            | Get your rank or another user's rank.                                   | [user]                                 | None                      |
-| /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                            | N/A                                    | ManageServer or Administrator |
+| /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer             |
+| /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>    | ManageServer             |
+| /rank                            | Get your rank or another user's rank.                                    | [user]                                 | None                      |
+| /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                             | N/A                                    | ManageServer or Administrator |
 | /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | N/A | ManageServer or Administrator |
 | /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                              | ManageServer or Administrator |
-| /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                 | \<confirm>                              | ManageServer or Administrator |
+| /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                  | \<confirm>                              | ManageServer or Administrator |

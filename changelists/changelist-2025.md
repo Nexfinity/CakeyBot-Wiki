@@ -2,13 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-18T22:55:29.449Z
+date: 2025-02-18T23:20:32.712Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
 # February 18th - Leveling Command Merge
+## Fixed
+* Fixed an issue where streak reminders would be duplicated during bot restarts
+
 ## Changed
 * Merged `/manage-xp` & `/manage-level` commands into a single `/leveling` command.
 

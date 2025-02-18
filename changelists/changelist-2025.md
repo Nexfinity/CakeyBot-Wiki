@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-17T07:46:01.352Z
+date: 2025-02-18T22:55:29.449Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 18th - Leveling Command Merge
+## Changed
+* Merged `/manage-xp` & `/manage-level` commands into a single `/leveling` command.
 
 # February 17th - Streaks Improvements
 ## Added

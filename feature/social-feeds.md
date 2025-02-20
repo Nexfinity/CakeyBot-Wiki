@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2024-03-28T19:24:16.264Z
+date: 2025-02-20T05:27:23.423Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -14,7 +14,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 
 # Setup/Add Feeds
 
-1. Login to our [web dashboard](https://cakey.bot/dashboard/).
+1. Login to our [web dashboard](https://cakey.bot/dashboard/public/).
 2. Go to "Social Feeds" [here](https://cakey.bot/dashboard/public/feeds).
 3. Click the tab for the feed you want to add (i.e. Reddit, Twitch, etc)
 4. Click the "Add New Feed" button

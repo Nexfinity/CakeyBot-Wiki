@@ -2,7 +2,7 @@
 title: Edit Testing
 description: 
 published: 1
-date: 2025-02-20T20:23:11.545Z
+date: 2025-02-20T20:24:34.755Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-20T20:19:52.385Z
@@ -16,6 +16,10 @@ Your content here
 ### Header 3
 
 #### Header 4
+
+This is a [text link](/core) to another wiki page
+
+This is a [text link](https://google.com) to google
 
 > Block quote
 

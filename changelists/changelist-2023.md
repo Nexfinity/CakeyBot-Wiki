@@ -2,7 +2,7 @@
 title: Changelist 2023
 description: 
 published: 1
-date: 2024-01-17T08:17:51.005Z
+date: 2025-02-20T06:47:48.852Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T17:57:13.587Z
@@ -331,7 +331,7 @@ dateCreated: 2023-01-02T17:57:13.587Z
 
 # Aug 5th - Leaderboard Vanity URLs
 ## Added
-* Added the ability to set a custom vanity URL for your leveling/XP leaderboards! For example: https://cakey.bot/leaderboard/caketropolis
+* Added the ability to set a custom vanity URL for your leveling/XP leaderboards!
 
 # July 7th - Bug Fixes
 ## Fixed

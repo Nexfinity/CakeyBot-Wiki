@@ -2,7 +2,7 @@
 title: Changelist 2022
 description: 
 published: 1
-date: 2024-01-17T08:17:25.429Z
+date: 2025-02-20T06:47:11.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:13.252Z
@@ -128,7 +128,6 @@ dateCreated: 2022-10-18T07:50:13.252Z
 
 ### Added
 * Support Tickets now use a fancy web-based transcript system
-  * Preview: https://transcript.cakey.bot/5A8AB16621EDAE968C99C4B3C.html
 * Added the ability to anonymously respond to support tickets with `/ticket anonreply <message>`
 
 # Oct 22nd - Support Ticket Categories

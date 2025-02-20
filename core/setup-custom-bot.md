@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2024-08-09T04:59:02.923Z
+date: 2025-02-20T05:01:54.246Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -35,27 +35,27 @@ To purchase a Custom Bot simply follow these instructions:
 
 ## Creating a Custom Bot Token
 1. Go to https://discord.com/developers/applications, login with your Discord account and press the "New Application" button.
-<image src="/newapp.png" width="800px">
+<image src="/newapp.png" width="800px" alt="New application popup">
 
 2. Give a name to your application and press "Create". Don't worry about it too much right now, you can always change the name of your bot at any time!
-<image src="/image_(1).png" width="800px">
+<image src="/image_(1).png" width="800px" alt="Create application popup">
 
 3. Select the "Bot" page from the left side navigation.
   
 4. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
 4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
-<image src="/intents.png" width="800px">
+<image src="/intents.png" width="800px" alt="Privileged intents">
 > Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
 {.is-danger}
 
 5. Press the "Reset Token" button to reset your token
-<image src="/image_(5).png" width="800px">
+<image src="/image_(5).png" width="800px" alt="Token reset">
   
 6. Press "Yes, do it!" on the modal
-<image src="/image_(2).png" width="800px">
+<image src="/image_(2).png" width="800px" alt="Confirmation popup">
   
 7. Enter 2FA code if necessary
-<image src="/image_(3).png" width="800px">
+<image src="/image_(3).png" width="800px" alt="2FA popup">
 
 8. Now you should see your token, just like in the screenshot below: 
 ![token2.png](/token2.png)
@@ -105,7 +105,7 @@ Once you have created and setup the custom bot instance, you will need to assign
 1. On the Discord Developer dashboard select your bot application
 2. Go to the "OAuth2"->"General" page from the left navigation bar
 3. Click the blue "Add Redirect" button. This button may say "Add Another" if a redirect already exists, this is fine. 
-<image src="/redirects.png" width="800px">
+<image src="/redirects.png" width="800px" alt="Redirect configuration">
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
 {.is-warning}
 4. In the text field enter `https://cakey.bot/success_invite.html` and hit the "Save" button (**Note:** This link does not match the one in the screenshot.)
@@ -147,7 +147,7 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
 6. Upload your new custom emote image (Use the EXACT name of the one you deleted previously)
 7. Restart your custom bot via Cakey Bot's custom bot dashboard
   
-<image src="/custom-emotes.png" width="800px">
+<image src="/custom-emotes.png" width="800px" alt="Custom emote management">
   
 > Note: Custom bots will syncronize their emotes on every startup. This means any random extra/invalid emotes will be deleted and any missing emotes will be replaced by the default. Be sure you use the EXACT name of the emotes when swapping them out.
 {.is-warning}

@@ -20,7 +20,7 @@ The Achievement System within our Discord bot empowers server owners to create d
 
 # Create/Manage Achievements
 ## Create Achievements
-To create an achievement login to our [web dashboard](https://cakey.bot/dashboard/public/) then follow these steps:
+To create an achievement login to our [web dashboard](https://cakey.bot/dashboard/public) then follow these steps:
 1. Open the "Achievements" page
 2. Click the blue "Create New Acheivement" button
 3. Make any desired configurations on the pop-up modal

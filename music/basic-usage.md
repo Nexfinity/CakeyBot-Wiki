@@ -37,7 +37,7 @@ Cakey Bot also supports blacklisting specific words and phrases from song titles
 
 # Default Volume
 
-By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakey.bot/dashboard/public/) from 50 to any number between 0 and 100.
+By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakey.bot/dashboard/public) from 50 to any number between 0 and 100.
 
 # Multiple Music Bots
 

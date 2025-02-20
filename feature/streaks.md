@@ -24,7 +24,7 @@ The bot will also automatically update the user's nickname to display their curr
 {.is-success}
 
 # Setup
-1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public/) and select your server.
+1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public) and select your server.
 2. From the left sidebar, pick "Streaks".
 3. After that check "Enable Feature".
 
@@ -37,7 +37,7 @@ The bot will also automatically update the user's nickname to display their curr
 You can set a custom streak icon that will be used instead of `🔥`.
 
 Here's how to do that:
-1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public/) and select your server.
+1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public) and select your server.
 2. From the left sidebar, pick "Streaks".
 3. After that, under the "CStreak Icon" section, select the emote you would like to be used for the streak icon.
 

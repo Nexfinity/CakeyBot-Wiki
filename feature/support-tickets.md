@@ -19,7 +19,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 # Configure Tickets
 
-1. Login to our [web dashboard](https://cakey.bot/dashboard/public/).
+1. Login to our [web dashboard](https://cakey.bot/dashboard/public).
 2. Go to "Support Tickets".
 3. Configure your desired settings
 

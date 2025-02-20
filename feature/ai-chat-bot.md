@@ -33,7 +33,7 @@ To setup Cakey Bot's chat AI simply follow these steps:
 {.is-warning}
 
 # Accents
-Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakey.bot/dashboard/public/) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
+Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakey.bot/dashboard/public) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
 * Default English
 * Australian accent
 * British Accent

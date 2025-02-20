@@ -12,7 +12,7 @@ dateCreated: 2023-12-20T10:18:18.508Z
 The "Ban Sync" feature in Cakey Bot offers server owners an efficient and synchronized method to manage bans across multiple servers within a designated pool. This feature significantly streamlines moderation efforts and maintains consistency in enforcing bans across interconnected communities.
 
 # How It Works
-* **Server Pool Creation:** Server owners initiate the ban synchronization process by creating a designated pool of servers through the [web dashboard](https://cakey.bot/dashboard/public/).
+* **Server Pool Creation:** Server owners initiate the ban synchronization process by creating a designated pool of servers through the [web dashboard](https://cakey.bot/dashboard/public).
 
 * **Ban Replication:** When a user receives a ban within a server in the established pool, the bot identifies and replicates this ban, swiftly implementing the same action across all other connected servers.
 

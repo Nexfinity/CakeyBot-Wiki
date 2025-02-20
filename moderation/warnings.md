@@ -63,7 +63,7 @@ You can clear every warning from a user with the `/clearwarnings <user>` command
 The "Warning Auto Punishments" feature in Cakey Bot automatically enforces consequences for rule violations by tracking user warnings and triggering pre-defined punishments, such as mutes, kicks, or bans. It helps maintain a healthy community environment, reduces the burden on moderators, and ensures consistency and fairness in disciplinary actions.
 
 ## Configuration
-You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public/), on the "Warnings" page.
+You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public), on the "Warnings" page.
 Here's how to add your first auto-punishment:
 1. Click "Add Punishment".
 2. Select the punishment and the required warnings to get that punishment.

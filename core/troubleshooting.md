@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: 1
-date: 2024-11-02T06:05:34.741Z
+date: 2025-02-20T04:57:37.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:20:52.188Z
@@ -32,9 +32,6 @@ dateCreated: 2022-09-01T03:20:52.188Z
   * Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
 
 ## When adding Cakey Bot, Discord asks me to verify my e-mail address.
-
-![](<../.gitbook/assets/SS5 (5).JPG>)
-
 Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
 
 ## I can't invite Cakey Bot on my mobile device!

@@ -60,7 +60,7 @@ Our fancy image banner editor:
 You can include an optional embed on announcements by following the steps below:
 
 1. Login to the dashboard.
-2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
+2. Use our custom embed editor to design your embed.
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Paste the URL you copied in the last step into the **Embed URL** text field.
 

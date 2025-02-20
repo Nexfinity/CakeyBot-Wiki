@@ -68,7 +68,7 @@ To purchase a Custom Bot simply follow these instructions:
 > Keep this Discord Developer dashboard open for now. We'll return to invite the bot later.
 {.is-info}
 
-Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/public/premium) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
+Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/public/) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
 
 1. Login to the web dashboard
 

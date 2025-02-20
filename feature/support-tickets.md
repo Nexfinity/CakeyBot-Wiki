@@ -20,7 +20,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 # Configure Tickets
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard/public/).
-2. Go to "Support Tickets" [here](https://cakey.bot/dashboard/public/tickets).
+2. Go to "Support Tickets".
 3. Configure your desired settings
 
 **Support Staff Role:** Selecting a support staff role will automatically allow users with the selected role to view/access all support tickets. If you do not select a support staff role only Administrators will have access to tickets.

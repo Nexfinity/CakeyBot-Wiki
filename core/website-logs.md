@@ -13,7 +13,7 @@ Cakey Bot has a few different logs which can be found on the website. This inclu
 
 # How to locate your Website Logs
 1. Head over to the [Web Dashboard](https://cakey.bot/dashboard/public) and select your server.
-2. Select the type of logs you want to look  at from the sidebar. ([Logs](https://cakey.bot/dashboard/public/mod-logs), [Warnings](https://cakey.bot/dashboard/public/warnings), [Persistent Roles](https://cakey.bot/dashboard/public/persistent-roles) or [Temporary Actions](https://cakey.bot/dashboard/public/temporary-actions))
+2. Select the type of logs you want to look  at from the sidebar. (Logs, Warnings, Persistent Roles, or Temporary Actions)
 3. If you selected Logs, you can also narrow it down by selecting one of the Dashboard, Moderation or Auto Mod tabs.
 4. Scrolling down the page will reveal the options to switch pages as well as the number of results shown in the page.
 

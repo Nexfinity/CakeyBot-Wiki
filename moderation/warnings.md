@@ -43,7 +43,7 @@ There are a few ways to view warnings for users. The most popular method is to v
 You can view a user's warnings with the `/warnings <user>` command. This will show every warning the user has been given in that server and the status of it (if it is active or expired). If there's too many results, the embed will be paginated with buttons under the embed.
 
 ### With Dashboard
-You can also view warnings on our web dashboard. Once you log in and sleect a server, you can select the "[Warnings](https://cakey.bot/dashboard/public/warnings)" page on the left sidebar.
+You can also view warnings on our web dashboard. Once you log in and select a server, you can select the "Warnings" page on the left sidebar.
 
 ## Remove Warnings
 Cakey Bot provides a few ways to remove and clear warnings from users.
@@ -63,7 +63,7 @@ You can clear every warning from a user with the `/clearwarnings <user>` command
 The "Warning Auto Punishments" feature in Cakey Bot automatically enforces consequences for rule violations by tracking user warnings and triggering pre-defined punishments, such as mutes, kicks, or bans. It helps maintain a healthy community environment, reduces the burden on moderators, and ensures consistency and fairness in disciplinary actions.
 
 ## Configuration
-You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public/moderation), on the Warnings page.
+You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public/), on the "Warnings" page.
 Here's how to add your first auto-punishment:
 1. Click "Add Punishment".
 2. Select the punishment and the required warnings to get that punishment.

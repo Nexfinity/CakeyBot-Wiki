@@ -18,7 +18,7 @@ Statistic channels are locked voice channels on the side of your server that dis
 
 # Setup
 1. Login to our [web dashboard](https://cakey.bot/dashboard/public/).
-2. Go to "Statistic Channels" [here](https://cakey.bot/dashboard/public/statistic-channels).
+2. Go to "Statistic Channels".
 3. Toggle/enable any statistic channels you want. (Wait up to 20 minutes for them to generate)
 4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number.
 

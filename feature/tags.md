@@ -31,7 +31,7 @@ This feature allows you to set up a variety of "tags" that users can list and us
 # Create/Manage Tags (Web Dashboard)
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard/public/).
-2. Go to "Tags" [here](https://cakey.bot/dashboard/public/tags).
+2. Go to "Tags".
 3. Click the "Add New Tag" button
 4. Fill in the required information. All tags will require a name and a response.
 5. Click "Create"

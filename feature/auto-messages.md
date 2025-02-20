@@ -28,7 +28,7 @@ The auto message feature allows server owners to schedule recurring daily messag
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.
-2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
+2. Use our custom embed editor to design your embed.
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Create an auto message like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
 

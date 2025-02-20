@@ -94,7 +94,7 @@ To use images in responses, you can simply just type the image URL/link like you
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.
-2. Use our [custom embed editor](https://cakey.bot/dashboard/public/embed-editor) to design your embed.
+2. Use our custom embed editor to design your embed on the dashboard.
 3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
 4. Create an auto responder like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
 
@@ -155,4 +155,4 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * It must be less than 2,000 characters.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
-  * The URL must start with [https://cakey.bot/dashboard/public/embed-editor?data=](https://cakey.bot/dashboard/public/embed-editor)
+  * The URL must start with `https://cakey.bot/dashboard/public/embed-editor?data=`

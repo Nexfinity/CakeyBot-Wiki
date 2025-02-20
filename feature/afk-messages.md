@@ -50,7 +50,7 @@ You can also configure AFK messages further by using our [Web Dashboard](https:/
 4. Auto Remove AFK
    * This setting will automatically remove a user from AFK if they send a message in any channel or if they join a voice channel. (If they get moved to a guild-set AFK channel they will keep their AFK status)
 
-You can also view all AFK users [here](https://cakey.bot/dashboard/public/afk-list).
+You can also view all AFK users on our web dashboard.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

@@ -2,7 +2,7 @@
 title: Changelist 2021
 description: 
 published: 1
-date: 2024-01-17T08:16:35.771Z
+date: 2025-02-20T06:11:55.320Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:50:36.947Z
@@ -876,7 +876,6 @@ As part of prep towards fully implementing slash commands and their extremely li
 ### Added
 
 * Discord recently added stage channels that splits speakers and audience into two groups. All you have to do is make Cakey Bot a stage moderator and it will play your favorite music in stage channels too! Note: For the moment, sometimes you also have to right-click Cakey Bot and click "Invite to Speak"
-  * How to add stage moderators: [https://support.discord.com/hc/article\_attachments/1500007375362/modifying\_stage\_moderators\_flow\_gif.gif](https://support.discord.com/hc/article\_attachments/1500007375362/modifying\_stage\_moderators\_flow\_gif.gif)&#x20;
   * Stage channels FAQ: [https://support.discord.com/hc/en-us/articles/1500005513722](https://support.discord.com/hc/en-us/articles/1500005513722)
 
 # 5/30/2021 - Slash Commands V2

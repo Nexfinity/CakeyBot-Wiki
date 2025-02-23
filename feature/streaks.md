@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-23T20:34:32.473Z
+date: 2025-02-23T20:56:41.409Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -64,6 +64,12 @@ Enabling this feature will prevent Cakey Bot from modifying the nickname of user
 
 > Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command.
 {.is-info}
+
+## Remove Roles on Streak Reset
+Enabling this feature will have Cakey Bot automatically remove all Role Rewards when a user's streak gets reset.
+
+## Remove Old Roles on New Streak
+Enabling this feature will have Cakey Bot automatically remove any old Role Rewards when a user earns a new streak.
 
 # Role Rewards
 You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users increase their streak they will receive these roles once they meet the streak requirement. You can also use the "Remove Roles on Streak Increase" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.

@@ -2,7 +2,7 @@
 title: Self Roles
 description: 
 published: 1
-date: 2024-12-04T03:38:37.213Z
+date: 2025-02-23T21:36:47.054Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:14.430Z
@@ -30,7 +30,7 @@ After you have added some roles to the self role list you (and your users) can a
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| /selfrole addrole | This command allows admins to add self roles for users to assign themselves roles. | \<role> | ManageRoles | 
+| /selfrole addrole | This command allows admins to add self roles for users to assign themselves roles. | \<role> [description] [requiredLevel] [requiredStreak] [requiredRole] | ManageRoles | 
 | /selfrole embed | This command creates a self-role embed message. | N/A | ManageRoles | 
 | /selfrole list | This command allows admins to list self roles users can assign to themselves. | N/A | None | 
 | /selfrole removerole | This command allows admins to remove self roles for users to assign themselves roles. | \<role> | ManageRoles | 

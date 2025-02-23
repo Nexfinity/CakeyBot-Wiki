@@ -2,7 +2,7 @@
 title: Self Roles
 description: 
 published: 1
-date: 2025-02-23T21:36:47.054Z
+date: 2025-02-23T21:36:56.599Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:14.430Z
@@ -25,6 +25,9 @@ After you have added some roles to the self role list you (and your users) can a
 
 > If you want to use any of our advanced self-assign methods (like buttons or selection dropdowns) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed using the assignment method you set on our web dashboard.
 {.is-info}
+
+# Role Requirements
+TBD
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-18T23:20:36.699Z
+date: 2025-02-23T20:32:35.227Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# Frbuary 23rd - Ignored Muted Users
+## Added
+* Added a toggle to ignore muted users in VC for leveling XP
 
 # February 18th - Leveling Command Merge
 ## Fixed

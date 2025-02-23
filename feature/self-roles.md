@@ -2,7 +2,7 @@
 title: Self Roles
 description: 
 published: 1
-date: 2025-02-23T21:36:56.599Z
+date: 2025-02-23T21:50:16.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:14.430Z
@@ -27,7 +27,10 @@ After you have added some roles to the self role list you (and your users) can a
 {.is-info}
 
 # Role Requirements
-TBD
+You can also set optional role requirements. This means users will need to meet or exceed these requirements in order to assign the role to themselves. The currently supported requirements are:
+* Required Level
+* Required Streak
+* Required Role
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

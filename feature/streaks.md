@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-02-17T05:57:41.078Z
+date: 2025-02-23T20:34:32.473Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -64,6 +64,12 @@ Enabling this feature will prevent Cakey Bot from modifying the nickname of user
 
 > Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command.
 {.is-info}
+
+# Role Rewards
+You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users increase their streak they will receive these roles once they meet the streak requirement. You can also use the "Remove Roles on Streak Increase" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
+
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
+{.is-danger}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

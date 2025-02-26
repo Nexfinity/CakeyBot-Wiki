@@ -2,7 +2,7 @@
 title: Daily Content
 description: 
 published: 1
-date: 2025-01-24T16:20:27.610Z
+date: 2025-02-26T03:12:20.088Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -24,6 +24,8 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 {.is-warning}
 
 # Daily Image Types
+* Random Image
+  * Will select a random image from any of the categories below.
 * Cat
 * Dog
 * Fox

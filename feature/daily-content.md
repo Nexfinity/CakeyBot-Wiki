@@ -2,7 +2,7 @@
 title: Daily Content
 description: 
 published: 1
-date: 2025-02-26T03:12:20.088Z
+date: 2025-02-26T03:12:47.401Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -43,6 +43,7 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 
 # Daily Fact Types
 * General
+  * Random general knowledge fact (not animal-specific)
 * Dog
 * Cat
 * Panda

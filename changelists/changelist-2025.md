@@ -2,13 +2,17 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-23T21:47:53.231Z
+date: 2025-02-26T03:11:44.255Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# Frbuary 23rd - Streak Role Rewards & Self Role Requirements
+# February 25th - Random Daily Image
+## Added
+* Added new "Random Image" for Daily Content
+
+# February 23rd - Streak Role Rewards & Self Role Requirements
 ## Added
 * Added role rewards for Streaks.
 * Added a toggle to ignore muted users in VC for leveling XP

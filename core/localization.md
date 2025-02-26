@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2024-08-21T01:25:12.638Z
+date: 2025-02-26T22:21:03.298Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -18,7 +18,7 @@ Cakey Bot (and our web dashboard) both support over 16 different languages. The 
 * English
 * French/Français
 * Dutch/Nederlands `(Vikthor)`
-* German/Deutsch `(Marcel, MST2 & Angelo)`
+* German/Deutsch `(Marcel, MST2, MrTonno & Angelo)`
 * Korean/한국어 `(Johnmacro)`
 * Greek/ελληνικά `(xxNikosGaming)`
 * Swedish/Svenska `(Hampus)`

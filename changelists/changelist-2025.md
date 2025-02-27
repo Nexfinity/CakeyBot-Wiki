@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-26T03:11:44.255Z
+date: 2025-02-27T18:47:31.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# February 27th - Leveling XP Fix
+## Fixed
+* Fixed a long-standing bug where muted/defaened users were not properly ignored when calculating leveling XP.
 
 # February 25th - Random Daily Image
 ## Added

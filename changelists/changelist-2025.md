@@ -2,11 +2,22 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-02-27T18:47:31.166Z
+date: 2025-03-16T21:48:29.920Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# March 16th - Bug Fixes
+## Fixed
+* Fixed XP being awarded to users in AFK channels.
+* Fixed the `{require:#}` placeholder not working on forums/threads when `{originalpostonly}` was missing.
+* Fixed auto message not parsing/sending Embeds at all.
+* Fixed an issue where toggling other leveling settings would also affect the "Ignore Muted Users" setting toggle as well.
+
+# March 6th - Minecraft QOL
+## Changed
+* `/minecraft query` will now display an error if port AND type are both null. You must specify atleast one.
 
 # February 27th - Leveling XP Fix
 ## Fixed

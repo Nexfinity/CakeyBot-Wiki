@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-19T22:01:32.152Z
+date: 2025-03-19T22:03:41.522Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -15,7 +15,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 ## Added
 * Added the ability to define a specific day for auto messages to send on.
 * Added a "Ignore Solo Users" setting for voice leveling.
-* Added an optional "require role" property for giveaways.
+* Added an optional "required role" property for giveaways.
 
 # March 16th - Bug Fixes
 ## Fixed

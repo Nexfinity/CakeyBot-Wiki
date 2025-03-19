@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-03-19T21:59:32.359Z
+date: 2025-03-19T21:59:48.016Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -53,10 +53,10 @@ Enabling this feature will have Cakey Bot automatically remove any Role Rewards 
 ## Wipe User XP on Leave
 Enabling this will wipe user's XP whenever they leave the server. This will also apply if they get kicked or banned.
 
-# Ignore Muted Users
+## Ignore Muted Users
 This setting will toggle whether or not Muted or Deafend users will be excluded from earning XP in voice channels. (Defaults to enabled)
 
-# Ignore Solo Users
+## Ignore Solo Users
 This setting will toggle whether or not users whoa re in a voice channel by themselves will be excluded from earning XP in voice channels. (Defaults to enabled)
 
 ## Send Messages as Embed <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>

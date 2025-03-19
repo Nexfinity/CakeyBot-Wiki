@@ -2,11 +2,20 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-16T21:48:29.920Z
+date: 2025-03-19T22:01:32.152Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# March 19th - Auto Message Days & Streak Adjustments
+## Changed
+* Streaks now send reminder DMs by default.
+
+## Added
+* Added the ability to define a specific day for auto messages to send on.
+* Added a "Ignore Solo Users" setting for voice leveling.
+* Added an optional "require role" property for giveaways.
 
 # March 16th - Bug Fixes
 ## Fixed

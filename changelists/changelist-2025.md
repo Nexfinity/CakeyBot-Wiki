@@ -2,11 +2,21 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-19T22:03:41.522Z
+date: 2025-03-20T10:23:18.448Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# March 20th - Leaderboard Overhaul
+## Changed
+* Overhauled the `/leaderboard` & `/eco leaderboard` commands. Changes include:
+  * Leaderboard slots are now dynamically generated. (Meaning you won't have extra empty slots displaying if you have less than 10 users)
+  * Font type & size is now consistent between the # text and the usernames
+  * Fix a spacing issue where names would get increasing offset the loser to #10 the slots got
+  * Custom Bot and Premium users now have a custom background gradient! (+Cakey Bot staff)
+  * Fixed a bug where leaderboards would fail to generate if avatar failed to load
+* Updated consistency on website/dashboard for premium & custom bot colors to match the bot. (Gold for custom bots & pink for premium)
 
 # March 19th - Auto Message Days & Streak Adjustments
 ## Changed

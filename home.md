@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2025-03-22T05:58:43.226Z
+date: 2025-03-22T06:03:00.004Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -27,18 +27,18 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot, check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot, check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 
-If you would like to make a suggestion or request a new feature, you can also post these in our [discord server](https://https://cakey.bot/discord).
+If you would like to make a suggestion or request a new feature, you can also post them in our [Discord server](https://https://cakey.bot/discord).
 
 # Inviting Cakey Bot
 
 > You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {.is-warning}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions, you can change them after you invite the bot like you would any other role/user.
+You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions, you can change them after you invite the bot like you would for any other role/user.
 
 ## Required Permissions:
 

@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2025-03-22T05:47:06.969Z
+date: 2025-03-22T05:53:53.312Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -27,18 +27,18 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot, check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our discord [support server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot, check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 
-If you would like to make a suggestion or request a new feature you can also post these in our discord [support server](https://https://cakey.bot/discord).
+If you would like to make a suggestion or request a new feature, you can also post these in our [discord server](https://https://cakey.bot/discord).
 
 # Inviting Cakey Bot
 
 > You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {.is-warning}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
+You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions, you can change them after you invite the bot like you would any other role/user.
 
 ## Required Permissions:
 
@@ -98,7 +98,7 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 
 - Administrator - If you don't want to worry about specific permissions you can just grant Administrator.
 
-> It is not recommended to freely give out Administrator permission. It would just make setting up the bot simpler. Cakey Bot has many built-in safeguards to prevent the bot from being abused by users if the bot has Administrator so it is safe to grant, just not a recommended practice to do so.
+> Granting Administrator permission is not generally recommended, as it poses potential risks. However, it would simplify the setup process for the bot. Cakey Bot is equipped with numerous safeguards to prevent abuse by users with Administrator access. While it is safe to grant this permission, it is not recommended.
 {.is-warning}
 
 # Per-Server Settings (Web Dashboard)

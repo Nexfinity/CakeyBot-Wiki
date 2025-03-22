@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2025-02-01T06:03:41.164Z
+date: 2025-03-22T05:40:16.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -13,7 +13,7 @@ dateCreated: 2022-08-31T04:14:14.623Z
 > This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakey.bot/dashboard/public) to manage your server.
 {.is-danger}
 
-Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
+Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has a massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
 
 This documentation provides information on every module/feature, including the description, usage, and examples.
 

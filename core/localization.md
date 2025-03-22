@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-03-22T06:27:34.637Z
+date: 2025-03-22T06:30:39.778Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -50,12 +50,12 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
 
 1. Please do not insert unnecessary punctuation into strings, unless it is
    required for that language
-2. Any string that contains ` symbols, please leave them in the same position
-   and don't remove them. Also do not change them to other symbols like ' or ",
+2. Any string that contains (`) symbols, please leave them in the same position
+   and don't remove them. Also do not change them to other symbols like (') or ("),
    these are used to highlight certain text or to prevent "@everyone" pings from
    being used/abused. Removing or changing these could break formatting in Cakey
    Bot
-3. If you encounter any placeholders like {0}, {1}, etc, keep them in the
+3. If you encounter any placeholders like {0}, {1}, etc. keep them in the
    string. These are automatically replaced in the bot with text so
    `Requested by {0}#{1}` when used in the bot will be replaced with like
    `Requested by MrCake#1337`. For the website strings :data, :data2 and :name are 

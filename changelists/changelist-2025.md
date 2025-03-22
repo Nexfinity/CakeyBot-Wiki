@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-20T10:23:18.448Z
+date: 2025-03-22T04:07:07.548Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# March 22nd - Streak DM Reminder Fix
+## Fixed
+* Fixed an issue where streak DM reminders would not send a pre-emptive reminder 12 hours prior to the streak expiring.
 
 # March 20th - Leaderboard Overhaul
 ## Changed

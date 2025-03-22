@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot Docs
 published: 1
-date: 2025-03-22T05:53:53.312Z
+date: 2025-03-22T05:58:43.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -96,7 +96,7 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 
 ## Wildcard Permissions:
 
-- Administrator - If you don't want to worry about specific permissions you can just grant Administrator.
+- If you don't want to worry about specific permissions, you can just grant the bot **`Administrator`**.
 
 > Granting Administrator permission is not generally recommended, as it poses potential risks. However, it would simplify the setup process for the bot. Cakey Bot is equipped with numerous safeguards to prevent abuse by users with Administrator access. While it is safe to grant this permission, it is not recommended.
 {.is-warning}

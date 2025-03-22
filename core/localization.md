@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-02-26T22:21:03.298Z
+date: 2025-03-22T06:27:34.637Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -41,9 +41,9 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
 # How Do I Translate?
 
 1. Open the project on the Crowdin page [here](https://crowdin.com/project/cakey-bot).
-2. Make any translations/edits/updates to your language
-3. Wait for the submissions to be reviewed
-4. Make any requested edits to your submissions (if requested by proof readers)
+2. Make any translations/edits/updates to your language.
+3. Wait for the submissions to be reviewed.
+4. Make any requested edits to your submissions (if requested by proof readers).
 5. Wait for the strings to be merged into the production bot and enjoy!
 
 # Formatting, Rules, Requirements

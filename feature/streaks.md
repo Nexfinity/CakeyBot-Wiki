@@ -2,7 +2,7 @@
 title: Streaks
 description: 
 published: 1
-date: 2025-03-22T04:07:59.954Z
+date: 2025-03-22T04:08:10.193Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -53,7 +53,7 @@ Enabling this feature will have Cakey Bot send reminders to users via DMs when t
 > Note: Due to privacy settings and Discord limitations users may sometimes **not** receive DMs even when this setting is enabled. There is nothing Cakey Bot can do to bypass this if users have DMs blocked.
 {.is-warning}
 
-> Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command or with the opt-out button included on the DM remidner itself.
+> Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command or with the opt-out button included on the DM reminder itself.
 {.is-info}
 
 ## Disable Nickname Change
@@ -62,7 +62,7 @@ Enabling this feature will prevent Cakey Bot from modifying the nickname of user
 > Note: If this setting is enabled **after** the bot has already started setting nicknames, you will have to manually remove the streak data from the nicknames.
 {.is-warning}
 
-> Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command or with the opt-out button included on the DM remidner itself.
+> Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command or with the opt-out button included on the DM reminder itself.
 {.is-info}
 
 ## Remove Roles on Streak Reset

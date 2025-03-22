@@ -2,14 +2,14 @@
 title: Dashboard Audit Logs
 description: 
 published: 1
-date: 2024-01-04T14:58:02.591Z
+date: 2025-03-22T06:18:24.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:55:26.492Z
 ---
 
 # Overview
-Cakey Bot has a few different logs which can be found on the website. This includes changes to the Bot settings via the Dashboard, Moderation actions performed by Moderators or Auto Mod and lists of persistent roles or temporary actions applied to users.
+Cakey Bot provides several logs accessible on the website. These include changes to bot settings via the dashboard, moderation actions taken by moderators or Auto Mod, and lists of persistent roles or temporary actions applied to users.
 
 # How to locate your Website Logs
 1. Head over to the [Web Dashboard](https://cakey.bot/dashboard/public) and select your server.
@@ -26,13 +26,13 @@ These logs are added whenever one of your Server Moderators successfully use a m
 ![](/logs2.png)
 
 # Auto Mod Logs
-These logs are added whenever a user triggers automod in your server. This will include the time of the automod violation, the Discord tag of the user which triggered automod, and which filter they triggered.
+These logs are added whenever a user triggers automod in your server. This will include the time of the Auto Mod violation, the Discord tag of the user which triggered the Auto Mod, and which filter they triggered.
 ![](/logs3.png)
 
 # Warnings
 These logs are added whenever a user is warned by a moderator. This will include the time of the warning, the Discord tag of the user which was warned, the Discord tag of the moderator, and the reason for the warning.
 
-To clear warnings from users in your server, you can use the `/clearwarnings` command
+To clear warnings from users in your server, you can use the `/clearwarnings` command.
 ![](/logs4.png)
 
 # Persistent Roles/Mutes
@@ -40,5 +40,5 @@ This page contains a list of all of the persistent roles applied to users. Inclu
 ![](/logs5.png)
 
 # Temporary Roles/Actions
-This page contains a list of all of the temporary roles and/or actions applied to users. This will include temporayr bans/mutes. These are roles that will automatically be expire and be removed from users some time in the future.
+This page lists all temporary roles and actions applied to users, including temporary bans and mutes. These roles are set to automatically expire and will be removed from users at a designated time in the future.
 ![](/logs6.png)

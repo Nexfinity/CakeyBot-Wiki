@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-03-22T06:30:39.778Z
+date: 2025-03-22T06:38:08.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -55,22 +55,22 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
    these are used to highlight certain text or to prevent "@everyone" pings from
    being used/abused. Removing or changing these could break formatting in Cakey
    Bot
-3. If you encounter any placeholders like {0}, {1}, etc. keep them in the
+3. If you encounter any placeholders like {0}, {1}, etc keep them in the
    string. These are automatically replaced in the bot with text so
    `Requested by {0}#{1}` when used in the bot will be replaced with like
    `Requested by MrCake#1337`. For the website strings :data, :data2 and :name are 
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
-   accurate translation, you can create a discussion or issue on the string or
-   you can join our [Discord](https://cakey.bot/discord) and a proofreader will
-   provide further info/screenshots.
+   accurate translation, you can create a discussion or issue on the string. 
+   Alternatively, you can join our [Discord](https://cakey.bot/discord), where a proofreader can
+   provide further details and screenshots.
 5. Do not translate commands. Cakey Bot only accepts base commands in English.
    For example if the translation string is `Usage: /userinfo <user>`, you can
    translate the `Usage:` and `<user>` parts, but you must leave the command
-   (`/userinfo`) in English.
+   `/userinfo` in English.
 6. Do not translate brand names (e.g. Discord, YouTube, Reddit) and be sure to keep any
    capitalization on them.
-7. If you are unsure how you should format a specific string you can look at
+7. If you are unsure how you should format a specific string, you can look at
    another language's file or you can open up a discussion. (You can also ask on
    our [Discord](https://cakey.bot/discord))
 8. Don't translate emojis or emotes. This will cause them to break and display incorrectly to users.
@@ -93,6 +93,6 @@ We are adding more languages and you can contribute on our Crowdin page [here](h
 
 **4) When do the translations get added to the bot/website?**
 
-- If the language has already been accepted, they will periodically be added to the produciton servers when major changes have been made. Keep an eye on our website and bot news announcement channels on Discord.
+- If the language has already been accepted, they will periodically be added to the production servers when major changes have been made. Keep an eye on our website and bot news announcement channels on Discord.
 - If the language hasn't been accepted yet, it will need to reach >70% of the strings being approved for it to be accepted and added as a language option.
   - Some accepted languages may have less than this due to new strings being added later. In these cases, the languages will _not_ be removed from the bot/website.

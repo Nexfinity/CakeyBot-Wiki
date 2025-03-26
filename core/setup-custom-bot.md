@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-02-20T05:01:54.246Z
+date: 2025-03-26T08:46:23.904Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -43,7 +43,10 @@ To purchase a Custom Bot simply follow these instructions:
 3. Select the "Bot" page from the left side navigation.
   
 4. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
-4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
+  
+> Note: "Presence Intent" is not currently used and does NOT have to be enabled. 
+{.is-info}
+  
 <image src="/intents.png" width="800px" alt="Privileged intents">
 > Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
 {.is-danger}

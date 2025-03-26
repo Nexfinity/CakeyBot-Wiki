@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: 
 published: 1
-date: 2025-03-26T08:35:57.781Z
+date: 2025-03-26T09:10:27.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:20:52.188Z
@@ -45,7 +45,7 @@ Discord requires you to verify your e-mail account to add bots into your servers
      * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
   2. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakey.bot/discord) server to see if there are any issues going on. You can also check out our new [status page](https://cakeybot.statuspage.io).
+  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakey.bot/discord) server to see if there are any issues going on.
   4. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakey.bot/discord) server to receive assistance from a member of our Support Team.
 
 # Audio Troubleshooting

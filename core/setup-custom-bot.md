@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T08:46:23.904Z
+date: 2025-03-26T08:48:03.350Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -48,6 +48,7 @@ To purchase a Custom Bot simply follow these instructions:
 {.is-info}
   
 <image src="/intents.png" width="800px" alt="Privileged intents">
+  
 > Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
 {.is-danger}
 

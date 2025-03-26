@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T08:48:03.350Z
+date: 2025-03-26T08:56:13.385Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -132,9 +132,9 @@ The following actions will all fail if that person does not have 2FA (2-Factor A
 * webhook creation (modlog, social feeds)
 * full permission option (administrator)
 
-In order to fix this issue, you will need to enable 2FA on the Discord account that created the custom bot. ([see this discord tutorial](https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication))
+In order to fix this issue, you will need to enable 2FA on the Discord account that created the custom bot. ([see this tutorial](https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication))
 
-If this isn't an option, you can also disable the 2FA requirement on the server, however, **we do NOT recommend doing that.**
+If this isn't an option, you can also disable the 2FA requirement on the server, however, we do NOT recommend doing that.
 
 If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakey.bot/discord)!
 
@@ -157,17 +157,30 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
 {.is-warning}
   
 # Frequently Asked Questions
-1. Do I need to keep the main Cakey Bot?
-   A. No. You should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
-2. My bot appears to be offline.
-   A. Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
-3. How many servers can I invite the custom bot to?
-   A. Currently, unlimited. This may change in the future if users abuse the capability however.
-4. Will my settings persist from the main Cakey Bot or will I need to set them up again?
-   A. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
-5. Do I need to assign every server in the dashboard that I invite the custom bot to?
-   A: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
-6. How do I change the profile picture, username or bio/about me?
-   A: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
-7. How do I setup custom status, emotes and other advanced customization for the custom bot?
-   A: Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.
+**Q**: Do I need to keep the main Cakey Bot?
+  
+   **A**. No, you should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
+  
+**Q**: My bot appears to be offline.
+  
+   **A**. Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
+  
+**Q**: How many servers can I invite the custom bot to?
+  
+   **A**. Currently, unlimited. This may change in the future if users abuse the capability however.
+  
+**Q**: Will my settings persist from the main Cakey Bot or will I need to set them up again?
+  
+   **A**. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
+  
+**Q**: Do I need to assign every server in the dashboard that I invite the custom bot to?
+  
+   **A**: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
+  
+**Q**: How do I change the profile picture, username or bio/about me?
+  
+   **A**: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
+  
+**Q**: How do I setup custom status, emotes and other advanced customization for the custom bot?
+  
+   **A**: Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.

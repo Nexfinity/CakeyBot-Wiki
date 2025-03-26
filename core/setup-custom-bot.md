@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T09:26:17.583Z
+date: 2025-03-26T09:27:56.807Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -134,7 +134,7 @@ The following actions will all fail if that person does not have 2FA (2-Factor A
 
 In order to fix this issue, you will need to enable 2FA on the Discord account that created the custom bot. ([see this tutorial](https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication))
 
-If this isn't an option, you can also disable the 2FA requirement on the server, however, we do NOT recommend doing that.
+If this isn't an option, you can also disable the 2FA requirement on the server, however, **we do NOT recommend doing that**.
 
 If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakey.bot/discord)!
 

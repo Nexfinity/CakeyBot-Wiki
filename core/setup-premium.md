@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2024-03-04T07:21:39.395Z
+date: 2025-03-26T08:38:11.201Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -13,12 +13,12 @@ Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to
 
 # Server Premium VS Custom Bot Plans
 ### Server Premium
-Server Premium is a subscription that applies to only one server / licence but it has way more features, such as:
+Server Premium is a subscription that applies to only one server per licence but it has way more features, such as:
 - Custom Join/Leave Banner Images
 - Multiple Music Bots & 24/7 Music
 - Auto Responder & Custom Command Embeds				
 - Custom Boost Announcements
-- **[See the full list of features](https://cakey.bot/premium.php)**
+- See the full list of features [here](https://cakey.bot/premium.php)
 
 ### Custom Bot
 Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos, Emotes, Bio, Username and more! Custom Bot allows you to have:

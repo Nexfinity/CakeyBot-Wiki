@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T09:29:15.140Z
+date: 2025-03-26T09:30:26.640Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -158,7 +158,7 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
   
 # Frequently Asked Questions
 **Q:** Do I need to keep the main Cakey Bot?
- **A:** No, you should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
+  **A:** No, you should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
   
 **Q:** My bot appears to be offline.
  **A:** Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.

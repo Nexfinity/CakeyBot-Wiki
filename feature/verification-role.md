@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2024-12-04T06:11:51.121Z
+date: 2025-03-26T08:30:23.251Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -19,7 +19,7 @@ dateCreated: 2022-10-18T08:21:54.369Z
 <div style="left: 0; width: 100%; height: 0; max-width: 560px; max-height: 315px; position: relative; padding-bottom: 315px;"><iframe src="https://www.youtube.com/embed/y_DgmqeXQnY?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; max-width: 560px; max-height: 315px; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div>
 
 # Overview
-Cakey Not offers a versatile user verification system that allows server administrators to select from four different verification methods. These options provide flexibility based on the server's needs and ensure that new members are properly verified before gaining access to the server's full features. This is a great way to make sure users read any rules or important info you have before they are able to chat in your server. Once a user successfully completes the verification process, they are automatically assigned the pre-selected verify role. Below is an overview of the available verification methods:
+Cakey Bot offers a versatile user verification system that allows server administrators to select from four different verification methods. These options provide flexibility based on the server's needs and ensure that new members are properly verified before gaining access to the server's full features. This is a great way to make sure users read any rules or important info you have before they are able to chat in your server. Once a user successfully completes the verification process, they are automatically assigned the pre-selected verify role. Below is an overview of the available verification methods:
 
 > Note: ALL of the methods below (except Slash Command) REQUIRE the verification embed. (See setup section below)
 {.is-warning}

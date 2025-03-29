@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-29T04:00:14.097Z
+date: 2025-03-29T04:00:27.784Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -10,7 +10,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 # March 29th - Color Fix
 ## Fixed
-* Fixed `/hex random` rgb and hex code not matching correctly.
+* Fixed `/color random` rgb and hex code not matching correctly.
 
 # March 22nd - Streak DM Reminder Fix
 ## Fixed

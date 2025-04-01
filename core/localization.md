@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-03-22T06:38:08.286Z
+date: 2025-04-01T05:14:06.514Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -33,14 +33,14 @@ Cakey Bot (and our web dashboard) both support over 16 different languages. The 
 * Russian/Русский язык `(Misha133)`
 * Spanish/Español `(Xurtan)`
 
-We are adding more languages and you can contribute on our Crowdin page [here](https://crowdin.com/project/cakey-bot). Once the majority of a language is completed (>80% translated) on Github/Crowdin it will be added as an officially supported language. Crowdin and Github are frequently synced so you can contribute to whichever you find the easiest.
+We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.
 
 > If you plan to contribute, please follow the rules and formatting guidelines provided below in the **Formatting, Rules, Requirements** section.
 {.is-warning}
 
 # How Do I Translate?
 
-1. Open the project on the Crowdin page [here](https://crowdin.com/project/cakey-bot).
+1. Open the project on the Weblate page [here](https://translate.cakey.bot/).
 2. Make any translations/edits/updates to your language.
 3. Wait for the submissions to be reviewed.
 4. Make any requested edits to your submissions (if requested by proof readers).

@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-04-01T05:14:06.514Z
+date: 2025-04-01T05:21:12.381Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -43,7 +43,7 @@ We are adding more languages and you can contribute on our Weblate page [here](h
 1. Open the project on the Weblate page [here](https://translate.cakey.bot/).
 2. Make any translations/edits/updates to your language.
 3. Wait for the submissions to be reviewed.
-4. Make any requested edits to your submissions (if requested by proof readers).
+4. Make any requested edits to your submissions (if requested by reviewers).
 5. Wait for the strings to be merged into the production bot and enjoy!
 
 # Formatting, Rules, Requirements
@@ -62,7 +62,7 @@ We are adding more languages and you can contribute on our Weblate page [here](h
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
    accurate translation, you can create a discussion or issue on the string. 
-   Alternatively, you can join our [Discord](https://cakey.bot/discord), where a proofreader can
+   Alternatively, you can join our [Discord](https://cakey.bot/discord), where a reviewer can
    provide further details and screenshots.
 5. Do not translate commands. Cakey Bot only accepts base commands in English.
    For example if the translation string is `Usage: /userinfo <user>`, you can

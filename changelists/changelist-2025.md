@@ -2,11 +2,17 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-03-29T04:00:27.784Z
+date: 2025-04-01T16:53:44.714Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 1st - Bug Fixes
+## Fixed
+* Fixed a visual bug on anti-raid alerts for message spam.
+* Fixed an issue where XP decay would remove roles but not add the next eligible role.
+* Fixed several misc. bugs.
 
 # March 29th - Color Fix
 ## Fixed

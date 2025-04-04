@@ -2,7 +2,7 @@
 title: Setup Premium
 description: 
 published: 1
-date: 2025-03-26T08:38:11.201Z
+date: 2025-04-04T01:54:19.871Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -60,7 +60,7 @@ Here are some step-by-step instructions on how to remove premium from servers:
 1. Go to the [premium page](https://cakey.bot/premium.php)
 2. Login by clicking the "Login To Manage Account" text above the diamond (NOT "Login to Dashboard" in the navigation bar)
 3. Click "Manage Account".
-<image src="/image_2023-06-02_114040495.png" width="600px">
+<image src="/image_2023-06-02_114040495.png" width="600px" alt="Management Screenshot">
 4. In the popup, enter your e-mail, then the OTP that was sent to your email.
 ### How to cancel your subscription
 1. From the popup, select the subscription you would like to cancel.

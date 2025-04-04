@@ -2,7 +2,7 @@
 title: User Reporting
 description: 
 published: 1
-date: 2025-01-01T01:21:01.578Z
+date: 2025-04-04T01:55:13.646Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T07:59:28.811Z
@@ -21,7 +21,7 @@ Overall, the User Reporting feature in Cakey Bot is a valuable tool for maintain
 4. Select a report channel from the dropdown menu then click `Update`.
 <br />
 
-<image src="/image_2023-05-31_105019249.png" width="800px">
+<image src="/image_2023-05-31_105019249.png" width="800px" alt="Channel Screenshot">
 
 # Reporting Messages/Users
 
@@ -33,7 +33,7 @@ Your uers can follow the steps below to report users or content:
 5. Once the report is submitted, it is sent to the staff team who can then take appropriate action.
 <br />
  
-<image src="/image_(8).png" width="800px">
+<image src="/image_(8).png" width="800px" alt="Report Message Screenshot">
 
 # What do the staff see?
 
@@ -46,4 +46,4 @@ The embed will also include these punishment actions:
 * Delete the Report
 <br />
 
-<image src="/image_2023-05-31_105845157.png" width="800px">
+<image src="/image_2023-05-31_105845157.png" width="800px" alt="Report Screenshot">

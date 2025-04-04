@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-03-19T21:59:48.016Z
+date: 2025-04-04T02:02:14.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -126,7 +126,7 @@ This is a list of channels or roles where XP will NOT be rewarded to users.
 ## Double XP Days
 You can also specify days for Cakey Bot to award double XP on. The double XP will be calculated AFTER the XP rate has been calculated. You can select multiple days to apply double XP on.
 
-![image_(9).png](/image_(9).png)
+![Double XP Options](/image_(9).png)
 
 # Role Rewards
 You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users level up they will receive these roles once they meet the level requirement. You can also use the "Remove Roles on Level Up" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
@@ -161,7 +161,7 @@ This field sets the minimum XP level required for a user to be eligible for deca
 You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
 
 Our fancy image banner editor:
-<image src="/leveling-editor.jpg" width="800px">
+<image src="/leveling-editor.jpg" width="800px" alt="Banner Editor">
   
 > The recommended image size is `Width: 930` x `Height: 280` for custom image banners.
 {.is-info}
@@ -171,11 +171,11 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 
 [![A demo profile card](/card.png)](/card.png)
 
-## ![two cyan hands shaking](/cb-partner.png) Partner Badge
+## ![partner badge](/cb-partner.png) Partner Badge
 This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users!
 <br />
  
-## ![two cyan hands shaking](/cb-translator.png) Translater Badge
+## ![translator badge](/cb-translator.png) Translater Badge
 This badge is given to people who make Cakey Bot available in other languages.
 <br />
 
@@ -183,7 +183,7 @@ This badge is given to people who make Cakey Bot available in other languages.
 This badge is given to developers, moderators, writers, and administrators working on Cakey Bot.
 <br />
 
-## ![cb-tester.png](/cb-tester.png) Active Tester
+## ![active tester badge](/cb-tester.png) Active Tester
 This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server.
 <br />
   
@@ -191,13 +191,13 @@ This badge is given to users who actively help test new Cakey Bot features and p
 This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord.
 <br />
   
-## ![cb-custom-bot.png](/cb-custom-bot.png) Custom Bot Owner
+## ![customb to icon](/cb-custom-bot.png) Custom Bot Owner
 This special badge is granted to users who purchase a Custom Bot version of Cakey Bot. <3
 <br />
 
 ## ![The highest tier badge](/tier_10_64.png) Premium Badge
 Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership.
-![progression_banner.png](/progression_banner.png)
+![progression banner](/progression_banner.png)
 
 # Frequently Asked Questions
 ## What XP equation is used for leveling?

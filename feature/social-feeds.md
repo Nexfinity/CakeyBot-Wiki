@@ -2,7 +2,7 @@
 title: Social Feeds
 description: 
 published: 1
-date: 2025-02-20T05:27:23.423Z
+date: 2025-04-04T02:00:30.701Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -28,25 +28,25 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 # Previews
 # Tabs {.tabset}
 ## Twitch
-![](/twitch.png)
+![Twitch Screenshot](/twitch.png)
 
 ## YouTube
 > **Notice:** Due to how slowly YouTube's video RSS feeds update, upload notifications can be delayed _UP TO_ 30 minutes after the actual upload time. &#x20;
 {.is-warning}
 
-![](/youtube2.png)
+![YouTube Screenshot](/youtube2.png)
 
 ## Reddit
 > Reddit feeds currently require a [premium subscription](https://cakey.bot/premium.php) to use due to rate limit concerns.
 {.is-warning}
 
-![](/reddit.png)
+![Reddit Screenshot](/reddit.png)
 
 ## Generic RSS 
 > **Notice:** Currently Atom & RSS 2.0 feeds are supported. Other feeds might work but are NOT guaranteed.
 {.is-info}
 
-![](/image_(11).png)
+![RSS Screenshot](/image_(11).png)
 
 # How to Create & Aquire Webhook URLs
 Webhook URLs are created within Discord. Cakey Bot will send data to these URLs which in turn will post the social feed emssages in the given channel. To create and aquire a webhook URL simply follow these steps: 

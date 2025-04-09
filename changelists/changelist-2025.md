@@ -2,11 +2,29 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-01T16:53:44.714Z
+date: 2025-04-09T21:27:49.707Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 9th - QOL & Fixes
+## Fixed
+* Fixed an issue where streak opt-in/opt-out buttons wouldn't apply for the correct server.
+
+## Changed
+* Streak opt-out will now remove streak data from the user's nickname.
+* `/achievements list` & `/achievements view` are now both paginated for servers with a lot of achievements.
+
+# April 5th - New Announcement Banners
+## Added
+* We have added 4 new premium join/leave banners! (with day & night variants)
+  * Gaming
+  * Lofi/Chill
+  * Floral
+  * Coffee Shop
+  
+Shout out to @CX for his awesome work on these banners!
 
 # April 1st - Bug Fixes
 ## Fixed

@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: 1
-date: 2025-04-03T12:09:05.073Z
+date: 2025-04-09T22:45:08.020Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -127,4 +127,4 @@ and more!
 
 # Custom Bot/Self-Hosting
 
-Cakey Bot is not open-sourced and as such can not be self-hosted. However, you can run your own custom version of Cakey Bot with our Custom Bot solutions. You can read up on our Custom Bot setup [here](core/setup-custom-bot).
+Cakey Bot is not open-sourced and as such can not be self-hosted. However, you can run your own custom version of Cakey Bot with our Custom Bot solutions. You can read up on our Custom Bot setup [here](/en/core/setup-custom-bot).

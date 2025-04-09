@@ -2,7 +2,7 @@
 title: Verification Role
 description: 
 published: 1
-date: 2025-03-26T08:30:23.251Z
+date: 2025-04-09T22:44:13.521Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -69,7 +69,7 @@ In order to set a custom embed message, simply login to the [web dashboard](http
 > Note: Setting a custom embed message is NOT requied. If no message is set, Cakey bot will generate a default message.
 {.is-info}
 
-> **Helpful Tip:** You can also use _some_ [basic placeholders](/placeholders) in the custom message!
+> **Helpful Tip:** You can also use _some_ [basic placeholders](/en/placeholders) in the custom message!
 {.is-success}
 
 ## Set a Custom Password

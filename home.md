@@ -2,7 +2,7 @@
 title: Getting Started
 description: 
 published: 1
-date: 2025-04-09T22:45:08.020Z
+date: 2025-04-09T22:45:34.782Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -27,7 +27,7 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot, check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 

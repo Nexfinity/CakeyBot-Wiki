@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-09T21:27:49.707Z
+date: 2025-04-17T00:44:57.430Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 16th - Command Toggles
+## Added
+* Added the ability to toggle/disable individual roleplay commands.
+* Added the ability to toggle/disable individual economy commands.
 
 # April 9th - QOL & Fixes
 ## Fixed

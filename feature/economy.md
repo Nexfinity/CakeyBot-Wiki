@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-18T07:47:17.481Z
+date: 2025-04-18T08:03:37.779Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -123,6 +123,10 @@ Boosts allow server owners to create multipliers that users can activate to enha
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`
+
+> Admins can turn economy commands on or off with a simple toggle in the bot's economy settings. 
+{.is-info}
+
 | Command                  | Description                                                     | Usage                                      | Permission             |
 | :----------------------- | :------------------------------------------------------------- | :---------------------------------------- | :--------------------- |
 | /eco balance             | Check your balance or the balance of another user.             | \<user>                                    | None                   |

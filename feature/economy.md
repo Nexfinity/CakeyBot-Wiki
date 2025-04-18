@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-18T07:18:59.880Z
+date: 2025-04-18T07:47:17.481Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -42,7 +42,7 @@ Cakey Bot also includes several other ways to earn money that do not include any
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
 ## Currency Symbol & Position
-Customize the currency symbol displayed in your server's economy commands. Choose a symbol (e.g., $, €, ¥, or even custom emojis) and define its position—either before ($100) or after (100$) the balance amount.
+Customize the currency symbol displayed in your server's economy commands. Choose a symbol (e.g., $, €, ¥, or even custom emojis) and define its position—either before (€100) or after (100€) the balance amount.
 
 ## Initial & Max Balance
 Set the starting balance for new users and the maximum balance users can hold. The initial balance ensures every member has a fair start in the economy, while the maximum balance helps maintain balance and prevent inflation. Both values are fully adjustable to suit your server's economy goals.

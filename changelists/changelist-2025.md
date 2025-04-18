@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-17T00:44:57.430Z
+date: 2025-04-18T05:05:45.514Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 18th - Bulk Voice Management
+## Added
+* Added new `/bulk-voice` commands.
+* Added new role ping parameter for `/giveaway` command for giveaway creation notifications.
 
 # April 16th - Command Toggles
 ## Added

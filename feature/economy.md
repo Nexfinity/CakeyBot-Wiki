@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-02-01T04:27:15.724Z
+date: 2025-04-18T07:18:59.880Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -22,14 +22,14 @@ This combination of commands and customization options makes the economy system 
 
 # Earn Money
 ## RNG Games
-There's several games that rely entirely on RNG/randomization to determine the outcome. These games tend to have the highest risk-to-reward ratio and are usually more pfoitable. they can also be played entirely solo so you don't have to wait on other users to play. These games include:
+There's several games that rely entirely on RNG/randomization to determine the outcome. These games tend to have the highest risk-to-reward ratio and are usually more profitable. They can also be played entirely solo so you don't have to wait on other users to play. These games include:
 * **/eco coinflip** - Guess the result to win 50% of your bet.
   * There's a 0.02% chance for the coin to land on it's side. If this occurs, the player wins 2x their bety regardless of their guess.
-* **/eco guess** - Guess the number (1-10) for a chance to gain 2x-3x the amount.
+* **/eco guess** - Guess the number (1-10) for a chance to gain 3x the amount.
   * You also get 2x if you are +/- 1 off from the correct answer instead of 3x.
 
 ## Player VS Player Games
-There's also several games that allow you to directly challange other users in the server. These tend to be a little less profitable than RNG games but can introduce a new level of competition and fun among the players. These games include:
+There's also several games that allow you to directly challenge other users in the server. These tend to be a little less profitable than RNG games but can introduce a new level of competition and fun among the players. These games include:
 * **/eco rock-paper-scissors** - Challenge another user to Rock, Paper, Scissors.
 * **/eco split-or-steal** - Challenge another user to split or steal.
 

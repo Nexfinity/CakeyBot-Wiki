@@ -2,11 +2,19 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-18T05:05:45.514Z
+date: 2025-04-24T06:51:10.305Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 24th - Misc Changes
+## Changed
+* Added pagination to the `/ping` command.
+* Music now uses a Lavalink cluster instead of a single node. (Should solve the problem with getting "no results" for Spotify)
+
+## Removed
+* Temporarily disabled birthday announcements while we debug and fix some timing issues.
 
 # April 18th - Bulk Voice Management
 ## Added

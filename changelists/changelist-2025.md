@@ -2,11 +2,19 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-24T06:51:10.305Z
+date: 2025-04-25T04:36:36.406Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# April 25th - Leaderboard Fixes
+## Fixed
+* Fixed rendering issues on `/eco leaderboard` so it now properly match's `/leaderboard`'s style
+*  Fixed an issue where both leaderboards could display blank gaps if the bot was unable to load data for some users (i.e. they share no server with the bot anymore)
+
+## Changed
+* `/eco leaderboard` will now display the user's current rank data if they are not within the Top 10. (Similar to `/leaderboard`)
 
 # April 24th - Misc Changes
 ## Changed

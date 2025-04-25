@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-25T04:36:40.004Z
+date: 2025-04-25T04:36:48.145Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -10,7 +10,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 # April 25th - Leaderboard Fixes
 ## Fixed
-* Fixed rendering issues on `/eco leaderboard` so it now properly matchs `/leaderboard`'s style
+* Fixed rendering issues on `/eco leaderboard` so it now properly matches `/leaderboard`'s style
 *  Fixed an issue where both leaderboards could display blank gaps if the bot was unable to load data for some users (i.e. they share no server with the bot anymore)
 
 ## Changed

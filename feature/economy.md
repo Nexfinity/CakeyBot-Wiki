@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-25T09:34:47.342Z
+date: 2025-04-25T09:36:51.881Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -122,7 +122,7 @@ Boosts allow server owners to create multipliers that users can activate to enha
 {.is-success}
 
 # Anti-Abuse Mechanics
-> Note: Details are intentionally limited for this in order to make it more difficult for malicious actors trying to abuse the economy system.
+> Note: Details are intentionally limited for this in order to make it more difficult for malicious actors trying to abuse the economy system. Also not all anti-abuse mechanics may be listed.
 {.is-info}
 
 To help maintain balance and fairness in the economy, Cakey Bot includes several anti-abuse measures across money transfer actions including (but not limited to) `/rob` and `/pay`. These checks are designed to discourage spammy or predatory behavior and ensure a fun experience for everyone. These limits help prevent users from exploiting alts or friends to quickly boost their balance unfairly.

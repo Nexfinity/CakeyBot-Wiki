@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-25T09:32:06.366Z
+date: 2025-04-25T09:34:25.280Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -127,14 +127,17 @@ Boosts allow server owners to create multipliers that users can activate to enha
 
 To help maintain balance and fairness in the economy, Cakey Bot includes several anti-abuse measures across money transfer actions including (but not limited to) `/rob` and `/pay`. These checks are designed to discourage spammy or predatory behavior and ensure a fun experience for everyone. These limits help prevent users from exploiting alts or friends to quickly boost their balance unfairly.
 
+## All Economy Commands
+Most economy commands will have some sort of rate-limit for each command. These generic rate limits are always within a randomized time period (to help prevent botting/automatic abuse) and may be linked to a specific user or the entire server.
+
 ## Rob Command Protections
-The rob command has a built-in randomized rate limit and also includes several layered checks:
+The `/rob` command also includes several layered checks:
 * Robbing Limit – Prevents users from robbing too many people in a random time frame.
 * Target Saturation – Protects users from being robbed excessively over a period of time.
 * Pair Abuse Prevention – Detects frequent rob attempts between the same two users within a random amount of time.
 
 ## Pay Command Protections
-The pay command has a built-in randomized rate limit to curb farming and funneling plus some additional checks such as:
+The `/pay` command also has some additional checks to curb farming and funneling:
 * Sender Limit – Users cannot send payments to others too frequently.
 * Receiver Limit – Users cannot receive too many payments within a random period of time.
 

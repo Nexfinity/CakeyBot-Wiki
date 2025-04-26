@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-25T09:37:36.921Z
+date: 2025-04-26T02:19:05.551Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,10 +11,12 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # April 25th - Leaderboard Fixes & Economy Anti-Abuse
 ## Fixed
 * Fixed rendering issues on `/eco leaderboard` so it now properly matches `/leaderboard`'s style
-*  Fixed an issue where both leaderboards could display blank gaps if the bot was unable to load data for some users (i.e. they share no server with the bot anymore)
+* Fixed an issue where both leaderboards could display blank gaps if the bot was unable to load data for some users (i.e. they share no server with the bot anymore)
+* Fixed an issue where `/leaderboard` showed the wrong position number for users not in the top ten.
 
 ## Changed
 * `/eco leaderboard` will now display the user's current rank data if they are not within the Top 10. (Similar to `/leaderboard`)
+* Modified `/donate` economy command to target users with less balance than the user running the command. 
 
 ## added
 * Added economy transaction log. Mainly for internal tracking and anti-abuse measures, may become visible on dashboard per-server later.

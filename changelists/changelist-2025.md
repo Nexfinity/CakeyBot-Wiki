@@ -2,13 +2,13 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-28T13:57:26.464Z
+date: 2025-04-28T13:57:46.267Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# april 27th - Economy Improvements
+# April 27th - Economy Improvements
 ## Fixed
 * Fixed an issue where `/eco leaderboard` would not display custom current formats/prefixes.
 

@@ -2,11 +2,19 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-26T02:19:05.551Z
+date: 2025-04-28T13:57:26.464Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# april 27th - Economy Improvements
+## Fixed
+* Fixed an issue where `/eco leaderboard` would not display custom current formats/prefixes.
+
+## Changed
+* Economy `/eco work` now has unique/random messages for both success and failures.
+* Economy `/eco work` now has a special 'scaling' bonus to pay pay when triggering the "super pay".
 
 # April 25th - Leaderboard Fixes & Economy Anti-Abuse
 ## Fixed

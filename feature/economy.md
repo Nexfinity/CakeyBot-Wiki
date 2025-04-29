@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-25T09:36:51.881Z
+date: 2025-04-29T16:00:07.500Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -32,6 +32,21 @@ There's several games that rely entirely on RNG/randomization to determine the o
 There's also several games that allow you to directly challenge other users in the server. These tend to be a little less profitable than RNG games but can introduce a new level of competition and fun among the players. These games include:
 * **/eco rock-paper-scissors** - Challenge another user to Rock, Paper, Scissors.
 * **/eco split-or-steal** - Challenge another user to split or steal.
+
+## Fishing
+Description TBD
+| Fish Name           | Rarity     | Chance % | Value Range     |
+|---------------------|------------|----------|-----------------|
+| Common Carp         | Common     | 25%      | 100–250         |
+| Rusty Trout         | Common     | 20%      | 150–300         |
+| Speckled Bass       | Uncommon   | 15%      | 300–500         |
+| Bluegill Perch      | Uncommon   | 10%      | 400–650         |
+| Electric Eel        | Rare       | 8%       | 700–1,000       |
+| Golden Salmon       | Rare       | 6%       | 1,000–1,500     |
+| Vampire Catfish     | Epic       | 4%       | 1,500–2,000     |
+| Phantom Ray         | Epic       | 3%       | 2,000–3,000     |
+| Crystal Koi         | Legendary  | 2.5%     | 3,000–4,000     |
+| Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
 
 ## Other
 Cakey Bot also includes several other ways to earn money that do not include any games, though some of them still include a certain level of RNG that can affect the profits. These commands include:

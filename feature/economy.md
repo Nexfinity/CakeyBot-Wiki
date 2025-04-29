@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-29T16:19:10.658Z
+date: 2025-04-29T19:28:58.912Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -56,6 +56,9 @@ There are 10 different types of fish to catch, each with its own rarity and rewa
 | Phantom Ray         | Epic       | 3%       | 2,000–3,000     |
 | Crystal Koi         | Legendary  | 2.5%     | 3,000–4,000     |
 | Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
+
+## Minefield
+TBD
 
 ## Other
 Cakey Bot also includes several other ways to earn money that do not include any games, though some of them still include a certain level of RNG that can affect the profits. These commands include:

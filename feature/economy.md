@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-29T19:28:58.912Z
+date: 2025-04-29T19:31:25.415Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -58,7 +58,13 @@ There are 10 different types of fish to catch, each with its own rarity and rewa
 | Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
 
 ## Minefield
-TBD
+When you run `/eco minefield`, a 4x4 grid of hidden tiles appears. Some of these tiles hide bombs, while the rest are safe. Your goal is to reveal as many safe tiles as possible to increase your reward — but beware: revealing a bomb ends the game and you lose everything!
+
+Each time you click a tile:
+* ✅ A safe tile increases your potential payout.
+* 💣 A bomb ends the round with no reward.
+
+You can choose to cash out at any time to lock in your earnings before hitting a bomb.
 
 ## Other
 Cakey Bot also includes several other ways to earn money that do not include any games, though some of them still include a certain level of RNG that can affect the profits. These commands include:

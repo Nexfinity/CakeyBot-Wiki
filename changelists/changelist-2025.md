@@ -2,15 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-29T16:24:27.015Z
+date: 2025-04-29T19:28:38.047Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# April 29th - Fishing Minigame
+# April 29th - Fishing & Minefield Minigames
 ## Added
 * Added new `/eco fishing` minigame!
+* Added new `/eco minefield` minigame!
 
 # April 27th - Economy Improvements
 ## Fixed

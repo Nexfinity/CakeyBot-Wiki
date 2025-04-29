@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-29T16:00:07.500Z
+date: 2025-04-29T16:19:10.658Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -21,7 +21,7 @@ This combination of commands and customization options makes the economy system 
 * **/eco pay** - Pay another user.
 
 # Earn Money
-## RNG Games
+## Solo Betting Games
 There's several games that rely entirely on RNG/randomization to determine the outcome. These games tend to have the highest risk-to-reward ratio and are usually more profitable. They can also be played entirely solo so you don't have to wait on other users to play. These games include:
 * **/eco coinflip** - Guess the result to win 50% of your bet.
   * There's a 0.02% chance for the coin to land on it's side. If this occurs, the player wins 2x their bety regardless of their guess.
@@ -34,7 +34,16 @@ There's also several games that allow you to directly challenge other users in t
 * **/eco split-or-steal** - Challenge another user to split or steal.
 
 ## Fishing
-Description TBD
+The `/eco fishing` command lets users try their luck at catching fish and earning money in return. It's a simple yet fun minigame that adds variety to the economy system.
+
+### How It Works
+When a user runs `/eco fishing`, the system randomly determines the outcome:
+ * Success: The user catches a fish and earns a reward based on that fish's rarity.
+ * Failure: The user experiences a humorous or unfortunate fishing event (e.g., the line snaps or they reel in an old boot).
+
+### Fish Rarity Table
+There are 10 different types of fish to catch, each with its own rarity and reward range. The rarer the fish, the more valuable it is—but the harder it is to catch!
+
 | Fish Name           | Rarity     | Chance % | Value Range     |
 |---------------------|------------|----------|-----------------|
 | Common Carp         | Common     | 25%      | 100–250         |

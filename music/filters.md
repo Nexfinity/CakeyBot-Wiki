@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2024-12-04T06:23:30.785Z
+date: 2025-04-30T10:46:07.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -31,54 +31,81 @@ You can also use our presets for those of you who just want a quick and easy sol
 
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can also type `/filter <name> reset`. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 
-* Distortion
-  * Sin Offset - Default: 0
-  * Sin Scale - Default: 1
-  * Cos Offset - Default: 0
-  * Cos Scale - Default: 1
-  * Tan Offset - Default: 0
-  * Tan Scale - Default: 1
-  * Offset - Default: 0
-  * Scale - Default: 1
-* Karaoke
-  * Level - Default: 1
-  * Mono Level - Default: 1
-  * Filter Band - Default: 220
-  * Filter Width - Default: 100
-* Lowpass
-  * Smoothing - Default: 20
-* Rotation
-  * Frequency - Default: 0
-* Timescale
-  * Speed - Default: 1
-  * Pitch - Default: 1
-  * Rate - Default: 1
-* Tremolo
-  * Frequency - Default: 2
-  * Depth - Default: 0.5
-* Vibrato
-  * Frequency - Default: 2
-  * Depth - Default: 0.5
-* Channel Mix
-  * Left to Left - Default: 1
-  * Left to Right - Default: 0
-  * Right to Left - Default: 0
-  * Right to Right - Default: 1
+## Distortion
+| Parameter   | Default Value | Min Value | Max Value |
+|-------------|---------------|-----------|-----------|
+| Sin Offset  | 0             | 0         | 5        |
+| Sin Scale   | 1             | 0         | 5        |
+| Cos Offset  | 0             | 0         | 5        |
+| Cos Scale   | 1             | 0         | 5        |
+| Tan Offset  | 0             | 0         | 5        |
+| Tan Scale   | 1             | 0         | 5        |
+| Offset      | 0             | 0         | 5        |
+| Scale       | 1             | 0         | 5        |
+
+## Karaoke
+| Parameter     | Default Value | Min Value | Max Value |
+|---------------|---------------|-----------|-----------|
+| Level         | 1             | 0        | 5        |
+| Mono Level    | 1             | 0        | 5        |
+| Filter Band   | 220           | 0        | 220        |
+| Filter Width  | 100           | 0        | 100        |
+
+## Lowpass
+| Parameter  | Default Value | Min Value | Max Value |
+|------------|---------------|-----------|-----------|
+| Smoothing  | 20            | 0.5        | 20        |
+
+## Rotation
+| Parameter  | Default Value | Min Value | Max Value |
+|------------|---------------|-----------|-----------|
+| Frequency  | 0             | 0        | 5        |
+
+## Timescale
+| Parameter | Default Value | Min Value | Max Value |
+|-----------|---------------|-----------|-----------|
+| Speed     | 1             | -1        | -1        |
+| Pitch     | 1             | -1        | -1        |
+| Rate      | 1             | -1        | -1        |
+
+## Tremolo
+| Parameter | Default Value | Min Value | Max Value |
+|-----------|---------------|-----------|-----------|
+| Frequency | 2             | -1        | -1        |
+| Depth     | 0.5           | -1        | -1        |
+
+## Vibrato
+| Parameter | Default Value | Min Value | Max Value |
+|-----------|---------------|-----------|-----------|
+| Frequency | 2             | -1        | -1        |
+| Depth     | 0.5           | -1        | -1        |
+
+## Channel Mix
+| Parameter       | Default Value | Min Value | Max Value |
+|------------------|---------------|-----------|-----------|
+| Left to Left     | 1             | -1        | -1        |
+| Left to Right    | 0             | -1        | -1        |
+| Right to Left    | 0             | -1        | -1        |
+| Right to Right   | 1             | -1        | -1        |
+
 
 > All filters will show minimum and maximum values in the command descriptions.
 {.is-info}
 
 # Filter Presets <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-* **Nightcore** is a special effect that speeds up the music while applying a slightly higher pitch to it. You can toggle this preset with the `/filterpreset nightcore` command.
-* **Vaporwave** is a special effect that slows down the music while applying a slightly lower pitch to it. You can toggle this preset with the `/filterpreset vaporwave` command.
-* **8D Audio** is a special effect that 'rotates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset 8d` command.
-* **Reverb** is a special effect that makes use of echo to create a more dynamic sound space for a song. You can toggle this preset with the `/filterpreset reverb` command.
-* **Bass Boost** is a special effect that boosts the overall bass for the song. You can toggle this preset with the `/filterpreset bassboost` command.
-* **Chipmunk** is a special effect that speeds up the music and icnrease the pitch to provide a more iconic listening experience. You can toggle this preset with the `/filterpreset chipmunk` command.
-* **Darth Vader** is a special effect that deepens the music to provide a more ominous listening experience. You can toggle this preset with the `/filterpreset darthvader` command.
-* **Slow Mo** is a special effect that slows down the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset slowmo` command.
-* **Speed** is a special effect that speeds up the music to provide a more faster listening experience. You can toggle this preset with the `/filterpreset speed` command.
-* **Vibrate** is a special effect that 'vibrates' the music to provide a more interesting listening experience. You can toggle this preset with the `/filterpreset vibrate` command.
+
+| Preset Name   | Description                                                                                                                                                   | Command                        |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| Nightcore     | Speeds up the music while applying a slightly higher pitch.                                                                                                  | `/filterpreset nightcore`     |
+| Vaporwave     | Slows down the music while applying a slightly lower pitch.                                                                                                  | `/filterpreset vaporwave`     |
+| 8D Audio      | 'Rotates' the music to provide a more interesting listening experience.                                                                                      | `/filterpreset 8d`            |
+| Reverb        | Adds echo to create a more dynamic sound space.                                                                                                               | `/filterpreset reverb`        |
+| Bass Boost    | Boosts the overall bass in the song.                                                                                                                          | `/filterpreset bassboost`     |
+| Chipmunk      | Speeds up the music and increases the pitch for a playful, iconic sound.                                                                                      | `/filterpreset chipmunk`      |
+| Darth Vader   | Deepens the music to provide a more ominous, dark tone.                                                                                                       | `/filterpreset darthvader`    |
+| Slow Mo       | Slows down the music to create a dramatic, slow-motion effect.                                                                                                | `/filterpreset slowmo`        |
+| Speed         | Speeds up the music for a faster listening experience.                                                                                                        | `/filterpreset speed`         |
+| Vibrate       | Applies a vibration effect to the music for an unusual and dynamic experience.                                                                                | `/filterpreset vibrate`       |
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

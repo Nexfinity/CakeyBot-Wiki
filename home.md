@@ -76,9 +76,9 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 ### Moderation
 -   Kick Members
 -   Ban Members
--   Mute Mmbers
--   Deafen Mmbers
--   Move Mmbers
+-   Mute Members
+-   Deafen Members
+-   Move Members
 -   Manage Nickname
 -   Manage Messages
 -   Manage Roles

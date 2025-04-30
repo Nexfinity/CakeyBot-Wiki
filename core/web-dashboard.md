@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2025-04-30T09:03:54.846Z
+date: 2025-04-30T09:05:59.472Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z
@@ -22,7 +22,7 @@ Once you have selected a server to manage, you will be taken to that server's ho
 
 To access the Web Dashboard, server administrators must:
 
-1) Visit [this link](https://cakey.bot/dashboard/public)or click "Manage Servers" on the main Cakey Bot website
+1) Visit [this link](https://cakey.bot/dashboard/public) or click "Manage Servers" on the main Cakey Bot website
 2) Authenticate with their Discord account
 3) Select a server from the list of servers they have permission to manage
 4) If Cakey Bot is not in the selected server, they will be prompted to invite the bot first
@@ -67,3 +67,16 @@ This panel displays all current warnings that have been issued to users in your 
 
 ## Temporary Actions
 This panel displays temporary data/actions such as temporary roles and temporary bans.
+
+# Best Practices
+When using the Web Dashboard, consider these recommended practices:
+
+1) **Regular Review:** Periodically review your configuration settings to ensure they still align with your server's needs.
+
+2) **Permission Management:** Only give `Manage Server` or `Administrator` permissions to trusted individuals, as they will gain full access to the dashboard.
+
+3) **Feature Integration:** When enabling new features, consider how they will interact with existing ones. For example, economy rewards might affect the leveling system.
+
+4) **Testing Changes:** After making significant changes, test the functionality in your server to ensure it behaves as expected.
+
+5) **Backup Settings:** Before making major configuration changes, consider documenting your current settings as a backup.

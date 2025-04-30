@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-04-30T10:22:09.162Z
+date: 2025-04-30T10:23:21.150Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -17,23 +17,23 @@ Cakey Bot supports over 16 different languages across the bot  and web dashboard
 
 | Language            | Contributors                          | Bot Completion % | Web Completion % |
 | :------------------| :------------------------------------- | :--------------- | :---------------- |
-| English            | –                                     | 100%             | 100%              |
-| French/Français    | –                                     | 81%              | 71%               |
-| Dutch/Nederlands   | Vikthor                               | 73%              | 69%               |
-| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         | 92%              | 90%               |
-| Korean/한국어        | Johnmacro                            | 75%              | 69%               |
-| Greek/ελληνικά      | xxNikosGaming                        | 74%              | 70%               |
-| Swedish/Svenska    | Hampus                                | 74%              | 70%               |
-| Turkish/Türkçe     | Aleph, Oğuzhan                        | 75%              | 70%               |
-| Italian/Italiano   | GiorgioHerbie                         | 75%              | 70%               |
 | Arabic/العربية      | Sipancoolboy, Basam                     | 40%              | 40%               |
-| Romanian/Limba română | Silviu200530                       | 73%              | 69%               |
-| Japanese/日本語       | hikarun                             | 73%              | 70%               |
-| Ukrainian/Українська | papip1                              | 74%              | 70%               |
+| English            | –                                     | 100%             | 100%              |
 | Chinese Simplified/中文 | Lukeee                            | 74%              | 70%               |
+| Dutch/Nederlands   | Vikthor                               | 73%              | 69%               |
+| French/Français    | –                                     | 81%              | 71%               |
+| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         | 92%              | 90%               |
+| Greek/ελληνικά      | xxNikosGaming                        | 74%              | 70%               |
+| Italian/Italiano   | GiorgioHerbie                         | 75%              | 70%               |
+| Japanese/日本語       | hikarun                             | 73%              | 70%               |
+| Korean/한국어        | Johnmacro                            | 75%              | 69%               |
 | Portuguese/Português | Kaiser, LoadSec                     | 82%              | 76%               |
+| Romanian/Limba română | Silviu200530                       | 73%              | 69%               |
 | Russian/Русский язык | Misha133                            | 92%              | 71%               |
 | Spanish/Español    | Xurtan                                | 93%              | 76%               |
+| Swedish/Svenska    | Hampus                                | 74%              | 70%               |
+| Turkish/Türkçe     | Aleph, Oğuzhan                        | 75%              | 70%               |
+| Ukrainian/Українська | papip1                              | 74%              | 70%               |
 
 
 We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.

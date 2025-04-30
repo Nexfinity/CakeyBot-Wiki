@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-29T19:31:25.415Z
+date: 2025-04-30T09:07:52.311Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -15,10 +15,15 @@ They can spend or trade their wealth using `/eco shop`, `/eco pay`, and `/eco do
 
 This combination of commands and customization options makes the economy system a versatile feature that adds excitement and interaction to any community.
 
-## Basic Commands
-* **/eco balance** - Check your balance or the balance of another user.
-* **/eco leaderboard** - View the top 10 users on the leaderboard.
-* **/eco pay** - Pay another user.
+## Popular Features
+The Economy System offers multiple ways for users to interact with the virtual economy:
+
+* **Currency Management:** Check balances, view leaderboards, and transfer funds
+* **Earning Methods:** Work, beg, or rob other users for currency
+* **Games & Gambling:** Play games of chance or challenge other users
+* **Item Shop:** Purchase items that provide benefits or unlock roles
+* **Boosts:** Apply multipliers to increase earnings
+* **Customization:** Configure currency symbol, initial balances, and other server-specific settings
 
 # Earn Money
 ## Solo Betting Games

@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2025-04-30T10:32:05.896Z
+date: 2025-04-30T10:33:29.607Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -117,22 +117,26 @@ The template CSV file and bulk exported CSVs will have a few different columns w
 * Flags
   * These are only used for Auto Responders, they map directly to the Auto Responder [flags](#flags).
   * Acceptable values:
-    * 1 - Exact Match
-    * 2 - Contains
-    * 3 - Starts With
-    * 4 - Ends With
-    * 5 - Contains Files
-    * 6 - From Webhook
-    * 7 - Contains user mention
-    * 8 - Contains channel mention
-    * 9 - Contains role mention
-    * 10 - Wildcard Contains
-    * 11 - Regex Match
-    * 12 - Contains image attachment
-    * 13 - Contains video attachment"
-    * 14 - Contains audio attachment
-    * 15 - Contains text attachment
-    * 16 - Contains executable attachment
+
+    | Value | Flag Name                   |
+| :---- | :-------------------------- |
+| 1     | Exact Match                 |
+| 2     | Contains                    |
+| 3     | Starts With                |
+| 4     | Ends With                  |
+| 5     | Contains Files             |
+| 6     | From Webhook               |
+| 7     | Contains user mention      |
+| 8     | Contains channel mention   |
+| 9     | Contains role mention      |
+| 10    | Wildcard Contains          |
+| 11    | Regex Match                |
+| 12    | Contains image attachment  |
+| 13    | Contains video attachment  |
+| 14    | Contains audio attachment  |
+| 15    | Contains text attachment   |
+| 16    | Contains executable attachment |
+
 * Response
   * This is the response phrase for a trigger/command.
   * It must be less than 2,000 characters.

@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-30T09:07:52.311Z
+date: 2025-04-30T09:11:09.392Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -37,6 +37,8 @@ There's several games that rely entirely on RNG/randomization to determine the o
 There's also several games that allow you to directly challenge other users in the server. These tend to be a little less profitable than RNG games but can introduce a new level of competition and fun among the players. These games include:
 * **/eco rock-paper-scissors** - Challenge another user to Rock, Paper, Scissors.
 * **/eco split-or-steal** - Challenge another user to split or steal.
+
+> The system includes safeguards against collusion in PvP games, such as prize modifiers based on player history in `/eco split-or-steal`.
 
 ## Fishing
 The `/eco fishing` command lets users try their luck at catching fish and earning money in return. It's a simple yet fun minigame that adds variety to the economy system.
@@ -117,20 +119,16 @@ There's several commands that are used to view, buy and sell items in Cakey Bot.
 
 ## Item Types
 This is the list of support item types that you can configure for users to purchase:
-* Leveling XP
-* Role Unlocks
-* Temporary Role Unlocks
-* Economy Boosts (Created on separate "Boosts" page.)
+* **Leveling XP:** Grants a specified amount of XP in the Leveling System.
+* **Role Unlocks:** Grants permanent access to specified Discord roles.
+* **Temporary Role Unlocks:** Grants time-limited access to roles. (specified in hours)
+* **Economy Boosts:** Enhances earning rates for specified periods. (Created on separate "Boosts" page.)
 
 ## Configuration
-* Cost
-  * The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item.
-* Type
-  * The type of item for the user to unlock/buy.
-* Data
-  * The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
-* Secondary Data
-  * The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user.
+* **Cost:** The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item.
+* **Type:** The type of item for the user to unlock/buy.
+* **Data:** The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
+* **Secondary Data:** The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user.
   
 > **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
 {.is-warning}

@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-04-30T10:23:52.078Z
+date: 2025-04-30T10:24:08.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -10,7 +10,7 @@ dateCreated: 2022-09-01T03:26:55.413Z
 
 # Supported Languages
 
-> New translations are constantly being added to the bot. This means some strings/phrases may not be translated yet especially for features that have been added recently.
+> New translations are continuously being added to the bot. This means some strings/phrases may not be translated yet, especially for recently added features.
 {.is-info}
 
 Cakey Bot supports over 16 different languages across the bot  and web dashboard. Localization is implemented on a per-server basis, meaning that when a server administrator changes the language setting, it affects all bot interactions for all users within that server. Currently supported languages are listed below:
@@ -36,9 +36,6 @@ Cakey Bot supports over 16 different languages across the bot  and web dashboard
 | Ukrainian/Українська | papip1                              | 74%              | 70%               |
 
 We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.
-
-> New translations are continuously being added to the bot. This means some strings/phrases may not be translated yet, especially for recently added features.
-{.is-info}
 
 > If you plan to contribute, please follow the rules and formatting guidelines provided below in the **Formatting, Rules, Requirements** section.
 {.is-warning}

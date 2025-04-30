@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:35:09.641Z
+date: 2025-04-30T09:41:59.363Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -56,34 +56,20 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 
 # Leveling Configuration
 
-## Leveling Enabled
-This disables or enables message leveling in the server.
-> While this is not requied to be enabled for Voice Leveling to work, the `/manage-xp` and `/manage-level` commands will not function while this is disabled.
+> While **Leveling Enabled** is not requied to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
 {.is-info}
 
-## Voice Leveling Enabled
-This disables or enables voice leveling in the server. You can keep this disabled while regular leveling is enabled so that users only earn XP for messages if you wish.
-
-## Remove Roles on Demotion
-Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user gets demoted via the `/manage-xp` or `/manage-level` commands.
-
-## Remove Roles on Level Up
-Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user levels up. (Including the `/manage-xp` or `/manage-level` commands.)
-
-## Wipe User XP on Leave
-Enabling this will wipe user's XP whenever they leave the server. This will also apply if they get kicked or banned.
-
-## Ignore Muted Users
-This setting will toggle whether or not Muted or Deafend users will be excluded from earning XP in voice channels. (Defaults to enabled)
-
-## Ignore Solo Users
-This setting will toggle whether or not users whoa re in a voice channel by themselves will be excluded from earning XP in voice channels. (Defaults to enabled)
-
-## Send Messages as Embed <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This will cause any level up messages to be sent inside of a simple Discord embed instead of just plaintext.
-
-## Max Level <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This allows you to set the maximum level that a user a level up to. By default the max level is set to 999.
+| Name                     | Description                                                                                                                                                                | Default Value | Premium Feature |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :--------------- |
+| Leveling Enabled        | Enables or disables message leveling in the server. Note: `/manage-xp` and `/manage-level` commands won't function if this is disabled.                                   | Enabled       | No               |
+| Voice Leveling Enabled  | Enables or disables voice leveling. You can keep this off to only grant XP for messages.                                                                                  | Enabled       | No               |
+| Remove Roles on Demotion | Automatically removes Role Rewards when a user is demoted using `/manage-xp` or `/manage-level`.                                                                         | Disabled      | No               |
+| Remove Roles on Level Up | Automatically removes Role Rewards when a user levels up, including via commands.                                                                                        | Disabled      | No               |
+| Wipe User XP on Leave   | Wipes a user’s XP when they leave, are kicked, or banned.                                                                                                                  | Disabled      | No               |
+| Ignore Muted Users      | Toggles whether muted or deafened users earn XP in voice channels.                                                                                                         | Enabled       | No               |
+| Ignore Solo Users       | Toggles whether users alone in a voice channel earn XP.                                                                                                                    | Enabled       | No               |
+| Send Messages as Embed  | Sends level up messages as Discord embeds instead of plaintext.                                                                                                            | Disabled      | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max Level               | Sets the maximum level a user can reach. Default is 999.                                                                                                                   | 999           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 
 ## Announcement Location
 * `Disabled`- This disables ALL level up messages. (`/rank` and `/leaderboard` commands will still work.)
@@ -166,14 +152,12 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 > **Note:** XP decay is **NOT** affected by multipliers.
 {.is-info}
 
-## Decay Rate
-This field determines the percentage of XP lost per day once the decay process begins. The default decay rate is set to 10% (`0.10`) of the user's current XP ***per day***.
-
-## Decay Days
-This specifies the minimum number of days of inactivity required before XP decay starts. By default, XP decay will not begin until a user has been inactive for **7 days**.
-
-## Decay Minimum
-This field sets the minimum XP level required for a user to be eligible for decay. It also defines the point at which the decay process stops. The default value is set to `1`, meaning users will not lose XP below level 1 due to decay.
+## Configuration Settings
+| Name          | Description                                                                                                                                         | Default Value |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Decay Rate    | Determines the percentage of XP lost per day once the decay process begins. This is based on the user's current XP and is applied daily.           | 0.10 (10%)    |
+| Decay Days    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
+| Decay Minimum | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
 
 # Rank Card Customization
 

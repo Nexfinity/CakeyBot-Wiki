@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:51:13.775Z
+date: 2025-04-30T09:51:51.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -97,7 +97,8 @@ This allows you to set a custom word or pharse to be used to easily access your 
 For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
 If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
 
-NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
+> NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
+{.is-info}
 
 ## Ignored Roles & Channels (NoXP Roles/Channels)
 This is a list of channels or roles where XP will NOT be rewarded to users.

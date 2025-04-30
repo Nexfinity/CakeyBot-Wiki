@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:21:41.589Z
+date: 2025-04-30T09:25:15.669Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -46,6 +46,13 @@ Key technical constraints:
 * Muted/deafened users can be excluded from voice XP (configurable)
 * XP rates can be modified server-wide or through multipliers
 * Channels and roles can be excluded from XP earning
+
+When a user earns enough XP to exceed their current level's threshold, a level-up event is triggered, which can:
+
+* Award role rewards if configured
+* Send level-up announcements via configured channels
+* Remove previous role rewards if configured
+* Update the user's rank on the leaderboard
 
 # Leveling Configuration
 

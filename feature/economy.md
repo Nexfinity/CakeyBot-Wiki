@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-30T10:03:02.300Z
+date: 2025-04-30T10:04:49.980Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -185,5 +185,7 @@ Usage Key: `<required>` / `[optional]`
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                       | None                   |
 | /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                       | None                   |
 | /eco work                | Work for money.                                                | N/A                                       | None                   |
+| /eco fishing             | Go fishing for a chance to earn money.                         | N/A                                       | None                   |
+| /eco minefield           | Play a minefield game for a chance to earn money.              | N/A                                       | None                   |
 | /ecoadmin manage-money   | Manage a user's economy balance.                               | \<give \| remove \| set> \<user> \<amount>     | ManageServer or Administrator |
 | /ecoadmin reset-economy  | Reset the economy for this server. This will RESET ALL user balances! | \<confirm>                             | ManageServer or Administrator |

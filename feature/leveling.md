@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:25:15.669Z
+date: 2025-04-30T09:34:58.518Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -191,32 +191,17 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 
 [![A demo profile card](/card.png)](/card.png)
 
-## ![partner badge](/cb-partner.png) Partner Badge
-This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users!
-<br />
- 
-## ![translator badge](/cb-translator.png) Translater Badge
-This badge is given to people who make Cakey Bot available in other languages.
-<br />
+| Badge      | Name      | Description                      |
+| :--------- | :--------- | :------------------------------ |
+| ![partner badge](/cb-partner.png) | Partner | This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users! |
+| ![translator badge](/cb-translator.png) | Translater | This badge is given to people who make Cakey Bot available in other languages. |
+| ![the CakeyBot logo](/cb-staff.png) | Staff | This badge is given to developers, moderators, writers, and administrators working on Cakey Bot. |
+| ![active tester badge](/cb-tester.png) | Active Tester | This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server. |
+| ![graphic designer badge](/cb-graphic-designer.png) | Graphic Designer | This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord. |
+| ![custom bot icon](/cb-custom-bot.png) | Custom Bot Owner | This special badge is granted to users who purchase a Custom Bot version of Cakey Bot. <3 |
+| ![The highest tier badge](/tier_10_64.png) | Premium User | Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership. |
 
-## ![the CakeyBot logo](/cb-staff.png) Staff Badge
-This badge is given to developers, moderators, writers, and administrators working on Cakey Bot.
-<br />
-
-## ![active tester badge](/cb-tester.png) Active Tester
-This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server.
-<br />
-  
-## ![graphic designer badge](/cb-graphic-designer.png) Graphic Designer
-This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord.
-<br />
-  
-## ![customb to icon](/cb-custom-bot.png) Custom Bot Owner
-This special badge is granted to users who purchase a Custom Bot version of Cakey Bot. <3
-<br />
-
-## ![The highest tier badge](/tier_10_64.png) Premium Badge
-Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership.
+## Premium User Badge Progression
 ![progression banner](/progression_banner.png)
 
 # Frequently Asked Questions

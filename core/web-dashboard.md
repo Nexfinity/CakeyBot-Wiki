@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2025-04-30T08:59:45.486Z
+date: 2025-04-30T09:00:29.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z
@@ -28,6 +28,15 @@ To access the Web Dashboard, server administrators must:
 2) Authenticate with their Discord account
 3) Select a server from the list of servers they have permission to manage
 4) If Cakey Bot is not in the selected server, they will be prompted to invite the bot first
+
+## Server Homepage
+After selecting a server, administrators are taken to that server's homepage. This page displays:
+
+* Server statistics (member count, channel count, etc.)
+* Core bot settings (prefix, default music volume, language)
+* Quick access to all available configuration modules
+
+This serves as the central hub from which administrators can navigate to other sections of the dashboard.
 
 ## Manage/Customize
 

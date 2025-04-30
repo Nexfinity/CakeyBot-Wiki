@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-04-30T10:23:21.150Z
+date: 2025-04-30T10:23:52.078Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -35,8 +35,10 @@ Cakey Bot supports over 16 different languages across the bot  and web dashboard
 | Turkish/Türkçe     | Aleph, Oğuzhan                        | 75%              | 70%               |
 | Ukrainian/Українська | papip1                              | 74%              | 70%               |
 
-
 We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.
+
+> New translations are continuously being added to the bot. This means some strings/phrases may not be translated yet, especially for recently added features.
+{.is-info}
 
 > If you plan to contribute, please follow the rules and formatting guidelines provided below in the **Formatting, Rules, Requirements** section.
 {.is-warning}

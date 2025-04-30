@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:41:59.363Z
+date: 2025-04-30T09:51:13.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -59,17 +59,22 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 > While **Leveling Enabled** is not requied to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
 {.is-info}
 
-| Name                     | Description                                                                                                                                                                | Default Value | Premium Feature |
-| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :--------------- |
-| Leveling Enabled        | Enables or disables message leveling in the server. Note: `/manage-xp` and `/manage-level` commands won't function if this is disabled.                                   | Enabled       | No               |
-| Voice Leveling Enabled  | Enables or disables voice leveling. You can keep this off to only grant XP for messages.                                                                                  | Enabled       | No               |
-| Remove Roles on Demotion | Automatically removes Role Rewards when a user is demoted using `/manage-xp` or `/manage-level`.                                                                         | Disabled      | No               |
-| Remove Roles on Level Up | Automatically removes Role Rewards when a user levels up, including via commands.                                                                                        | Disabled      | No               |
-| Wipe User XP on Leave   | Wipes a user’s XP when they leave, are kicked, or banned.                                                                                                                  | Disabled      | No               |
-| Ignore Muted Users      | Toggles whether muted or deafened users earn XP in voice channels.                                                                                                         | Enabled       | No               |
-| Ignore Solo Users       | Toggles whether users alone in a voice channel earn XP.                                                                                                                    | Enabled       | No               |
-| Send Messages as Embed  | Sends level up messages as Discord embeds instead of plaintext.                                                                                                            | Disabled      | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
-| Max Level               | Sets the maximum level a user can reach. Default is 999.                                                                                                                   | 999           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Name                     | Description                                                                                                                             | Default Value | Min Value | Max Value | Premium Feature  |
+| :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :-------- | :-------- | :--------------- |
+| Leveling Enabled         | Enables or disables message leveling in the server. Note: `/manage-xp` and `/manage-level` commands won't function if this is disabled. | Enabled       |           |           | No               |
+| Voice Leveling Enabled   | Enables or disables voice leveling. You can keep this off to only grant XP for messages.                                                | Enabled       |           |           | No               |
+| Remove Roles on Demotion | Automatically removes Role Rewards when a user is demoted using `/manage-xp` or `/manage-level`.                                        | Disabled      |           |           | No               |
+| Remove Roles on Level Up | Automatically removes Role Rewards when a user levels up, including via commands.                                                       | Disabled      |           |           | No               |
+| Wipe User XP on Leave    | Wipes a user’s XP when they leave, are kicked, or banned.                                                                               | Disabled      |           |           | No               |
+| Ignore Muted Users       | Toggles whether muted or deafened users earn XP in voice channels.                                                                      | Enabled       |           |           | No               |
+| Ignore Solo Users        | Toggles whether users alone in a voice channel earn XP.                                                                                 | Enabled       |           |           | No               |
+| Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max Level                | Sets the maximum level a user can reach. Default is 999.                                                                                | 999           | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Min Voice XP per Minute  | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max Voice XP per Minute  | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
 
 ## Announcement Location
 * `Disabled`- This disables ALL level up messages. (`/rank` and `/leaderboard` commands will still work.)
@@ -86,27 +91,6 @@ You can also use a few placeholders in this message:
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
 
-## Min/Max XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-
-This sets the minimum and maximum XP a user can be given per message. There's a few limits: 
-* The Max XP must be larger than the Min XP
-* Both must be larger than 0
-* Both must be less than 10,000
-
-The default values for this setting are:
-* Min XP: 15
-* Min XP: 25
-
-## Min/Max Voice XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This sets the minimum and maximum XP a user can be given per minute spent inside of a voice channel. There's a few limits: 
-* The Max XP must be larger than the Min XP
-* Both must be larger than 0
-* Both must be less than 10,000
-
-The default values for this setting are:
-* Min Voice XP: 5
-* Min Voice XP: 8
-
 ## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
 
@@ -114,17 +98,6 @@ For example, the default leaderboard URL will look something like this: `https:/
 If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
 
 NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
-
-## XP Rate
-This is a multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up. You can set these rates:
-* 0.25x
-* 0.5x
-* 0.75x
-* 1x
-* 1.5x
-* 2x
-* 2.5x
-* 3x
 
 ## Ignored Roles & Channels (NoXP Roles/Channels)
 This is a list of channels or roles where XP will NOT be rewarded to users.

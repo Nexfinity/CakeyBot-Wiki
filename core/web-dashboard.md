@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2025-04-30T09:05:59.472Z
+date: 2025-04-30T09:06:16.515Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z
@@ -79,4 +79,4 @@ When using the Web Dashboard, consider these recommended practices:
 
 4) **Testing Changes:** After making significant changes, test the functionality in your server to ensure it behaves as expected.
 
-5) **Backup Settings:** Before making major configuration changes, consider documenting your current settings as a backup.
+5) **Backup Settings:** Before making major configuration changes, consider documenting your current settings as a backup. The dashboard does not have any built-in rollback or backup systems.

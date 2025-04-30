@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2025-04-30T10:46:07.963Z
+date: 2025-04-30T10:46:59.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -54,31 +54,31 @@ You can also set custom filters on your music using the `/filter <name> <options
 ## Lowpass
 | Parameter  | Default Value | Min Value | Max Value |
 |------------|---------------|-----------|-----------|
-| Smoothing  | 20            | 0.5        | 20        |
+| Smoothing  | 20            | 0.5       | 20        |
 
 ## Rotation
 | Parameter  | Default Value | Min Value | Max Value |
 |------------|---------------|-----------|-----------|
-| Frequency  | 0             | 0        | 5        |
+| Frequency  | 0             | 0         | 5        |
 
 ## Timescale
 | Parameter | Default Value | Min Value | Max Value |
 |-----------|---------------|-----------|-----------|
-| Speed     | 1             | -1        | -1        |
-| Pitch     | 1             | -1        | -1        |
-| Rate      | 1             | -1        | -1        |
+| Speed     | 1             | 0.1        | 5        |
+| Pitch     | 1             | 0          | 5        |
+| Rate      | 1             | 0.1        | 5        |
 
 ## Tremolo
 | Parameter | Default Value | Min Value | Max Value |
 |-----------|---------------|-----------|-----------|
-| Frequency | 2             | -1        | -1        |
-| Depth     | 0.5           | -1        | -1        |
+| Frequency | 2             | 0         | 5        |
+| Depth     | 0.5           | 0         | 2        |
 
 ## Vibrato
 | Parameter | Default Value | Min Value | Max Value |
 |-----------|---------------|-----------|-----------|
-| Frequency | 2             | -1        | -1        |
-| Depth     | 0.5           | -1        | -1        |
+| Frequency | 2             | 0.1       | 5        |
+| Depth     | 0.5           | 0         | 1        |
 
 ## Channel Mix
 | Parameter       | Default Value | Min Value | Max Value |

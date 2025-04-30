@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-30T09:16:57.166Z
+date: 2025-04-30T10:03:02.300Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -81,29 +81,18 @@ Cakey Bot also includes several other ways to earn money that do not include any
 
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
-## Currency Symbol & Position
-Customize the currency symbol displayed in your server's economy commands. Choose a symbol (e.g., $, €, ¥, or even custom emojis) and define its position—either before (€100) or after (100€) the balance amount.
 
-## Initial & Max Balance
-Set the starting balance for new users and the maximum balance users can hold. The initial balance ensures every member has a fair start in the economy, while the maximum balance helps maintain balance and prevent inflation. Both values are fully adjustable to suit your server's economy goals.
+| Name                         | Description                                                                                                                                                                                                    | Default Value       | Min Value | Max Value | Premium Feature |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :-------- | :-------- | :--------------- |
+| Currency Symbol             | Customize the currency symbol (e.g., $, €, ¥, or emojis).                                                                            | $          |           |           | No               |
+| Currency Symbol Position    | Define the currency symbol's position before or after the balance (e.g., $100 or 100$).                                                                            | Before          |           |           | No               |
+| Initial Balance             | The starting balance for new users. Also used during resets with `/ecoadmin reset-economy`.                                                                                                                        | 100                 | 0         | 1,000,000,000 | No               |
+| Max Balance                 | The maximum balance users can hold to prevent inflation.                                                                                                                 | 1,000,000,000              | 0         | 1,000,000,000 | No               |
+| Number Separator Character  | Defines how large numbers are formatted (e.g., comma `1,000` or period `1.000`).                                                                                                                               | Comma (`,`)         |           |           | No               |
+| Allow Balance Transfers     | Enables or disables users sending money to one another. Disabling this restricts commands like `/pay`, `/rob`, etc.                                                                                           | Enabled             |           |           | No               |
+| Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
+| Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
 
-> **Note:** If you use the `/ecoadmin reset-economy` command, all users will be reset to the current "Initial Balance" setting, not 0.
-{.is-info}
-
-## Number Separator Character
-Control how large numbers are formatted by specifying a separator character (e.g., commas 1,000 or periods 1.000). This improves readability for balances in regions with different number formatting standards.
-
-## Allow Balance Transfers
-Enable or disable the ability for users to transfer money to one another. This setting can help regulate the economy by preventing abuse or fostering collaboration through shared wealth. Enabling this feature will disable commands and features that allow users to transfer money directly to each other such as `/rob`, `/pay`, and `/eco rock-paper-scissors`. *(This is not a fully inclusive list)*
-
-## Wipe User Balance on Leave
-Decide whether user balances should be wiped when they leave the server (or when kicked/banned). Enable this option to ensure the economy remains balanced by preventing users from returning with excessive wealth, or disable it to allow users to retain their progress if they rejoin later.
-
-> **Note:** If users re-join the server later, their original balance will NOT be returned if this setting was enabled. They will retain the "Initial Balance".
-{.is-info}
-
-## Add Space to Currency Symbol
-Enable this setting to add a space between the currency symbol and the balance amount, improving clarity and readability. For example, `$100` becomes `$ 100` or `100$` becomes `100 $`. This option works seamlessly with both currency symbol positions, whether the symbol is placed on the left or the right of the amount.
 
 # Item Shop
 The item shop allows server owners to create a customizable list of purchasable items for their members. These items can include role unlocks, which grant users specific roles upon purchase, and leveling XP to help them progress faster in the server's leveling system. Each item can have its own unique cost, making it easy to design a diverse economy tailored to your server's needs.

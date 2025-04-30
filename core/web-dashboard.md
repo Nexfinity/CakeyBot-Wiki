@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: 
 published: 1
-date: 2025-03-22T06:09:18.914Z
+date: 2025-04-30T08:59:45.486Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z
@@ -22,8 +22,12 @@ Once you have selected a server to manage, you will be taken to that server's ho
 ![image.png](/dash/image.png)
 
 ## Login
+To access the Web Dashboard, server administrators must:
 
-You can login to our web dashboard by visiting [this link](https://cakey.bot/dashboard/public). After you login you will be redirected to a list of servers that you are able to manage. If you attempt to open/manage a server that Cakey Bot is not in you will be directed to invite Cakey Bot. If Cakey Bot is in the server you will be redirected to the panel for that server.
+1) Visit [this link](https://cakey.bot/dashboard/public)or click "Manage Servers" on the main Cakey Bot website
+2) Authenticate with their Discord account
+3) Select a server from the list of servers they have permission to manage
+4) If Cakey Bot is not in the selected server, they will be prompted to invite the bot first
 
 ## Manage/Customize
 

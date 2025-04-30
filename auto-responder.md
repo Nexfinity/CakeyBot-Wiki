@@ -2,7 +2,7 @@
 title: Auto Responder
 description: 
 published: 1
-date: 2025-04-30T10:33:29.607Z
+date: 2025-04-30T10:33:30.908Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z

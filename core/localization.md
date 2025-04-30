@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-04-30T10:24:08.059Z
+date: 2025-04-30T10:24:09.218Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z

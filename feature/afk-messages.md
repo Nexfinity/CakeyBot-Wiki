@@ -2,7 +2,7 @@
 title: AFK Messages
 description: 
 published: 1
-date: 2025-04-30T11:05:07.210Z
+date: 2025-04-30T11:05:08.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z

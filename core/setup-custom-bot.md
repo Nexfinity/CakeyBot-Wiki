@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T09:30:26.640Z
+date: 2025-03-26T09:30:27.841Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z

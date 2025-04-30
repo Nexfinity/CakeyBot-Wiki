@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-30T10:04:49.980Z
+date: 2025-04-30T10:04:51.291Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z

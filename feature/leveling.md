@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T09:20:29.775Z
+date: 2025-04-30T09:21:41.589Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -34,6 +34,18 @@ We believe in vastly different philosophy than our competitors and as end-users 
 All of which is why we allow you to export/download your leveling data at any time, instantly and completely for free!
 
 In order to export your data, simple run the `/setup export-cakey-levels` command and you'll receive a CSV file with all of your data. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
+
+# XP Earning Mechanics
+The system provides two primary methods for users to earn XP:
+
+* **Message XP:** Users earn between 15-25 XP (default) for each message sent in the server
+* **Voice XP:** Users earn between 5-8 XP (default) per minute spent in voice channels
+
+Key technical constraints:
+* A 60-second cooldown between message XP awards prevents spam
+* Muted/deafened users can be excluded from voice XP (configurable)
+* XP rates can be modified server-wide or through multipliers
+* Channels and roles can be excluded from XP earning
 
 # Leveling Configuration
 

@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: 
 published: 1
-date: 2025-04-30T10:46:59.523Z
+date: 2025-04-30T10:47:20.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -83,10 +83,10 @@ You can also set custom filters on your music using the `/filter <name> <options
 ## Channel Mix
 | Parameter       | Default Value | Min Value | Max Value |
 |------------------|---------------|-----------|-----------|
-| Left to Left     | 1             | -1        | -1        |
-| Left to Right    | 0             | -1        | -1        |
-| Right to Left    | 0             | -1        | -1        |
-| Right to Right   | 1             | -1        | -1        |
+| Left to Left     | 1             | 0         | 20        |
+| Left to Right    | 0             | 0         | 20        |
+| Right to Left    | 0             | 0         | 20        |
+| Right to Right   | 1             | 0         | 20        |
 
 
 > All filters will show minimum and maximum values in the command descriptions.

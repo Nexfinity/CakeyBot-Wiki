@@ -2,7 +2,7 @@
 title: Queue Sorting
 description: 
 published: 1
-date: 2024-12-04T06:25:37.757Z
+date: 2025-04-30T10:50:40.643Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:07:47.675Z
@@ -15,51 +15,27 @@ Cakey Bot has several sorting methods to help you keep your queue clean and orga
 # Queue Sorting
 These options allow you to re-sort songs that are currently in the queue. It will not affect the currently playong song.
 
-## Title
-This will sort all of the songs in the queue based on their title. You can sort by ASC or DESC using the `/sortqueue title <asc/desc>` command.
-
-## Author
-This will sort all of the songs in the queue based on their author. You can sort by ASC or DESC using the `/sortqueue author <asc/desc>` command.
-
-## Length
-This will sort all of the songs in the queue based on their total length/duration. You can sort by ASC or DESC using the `/sortqueue length <asc/desc>` command.
-
-## Reverse
-This will reverse the order of every song in the queue. You can reverse the queue by using the `/sortqueue reverse` command.
-
-## Swap
-This will allow you to swap the position of two different songs in the queue. You can do this by running the `/sortqueue swap <firstTrackId> <secondTrackId>` command.
->  You must use the numeric ID of the songs in the queue for this command.
-{.is-info}
+| Subcommand | Description                                                                 | Command Example                                     | Requires Arguments |
+|------------|-----------------------------------------------------------------------------|----------------------------------------------------|--------------------|
+| `title`    | Sorts the queue by song titles (A–Z or Z–A).                                | `/sortqueue title asc`                             | Yes (`asc/desc`)   |
+| `author`   | Sorts the queue by the song author (A–Z or Z–A).                            | `/sortqueue author desc`                           | Yes (`asc/desc`)   |
+| `length`   | Sorts the queue by song duration (shortest to longest or vice versa).       | `/sortqueue length asc`                            | Yes (`asc/desc`)   |
+| `reverse`  | Reverses the entire queue order.                                            | `/sortqueue reverse`                               | No                 |
+| `swap`     | Swaps the positions of two songs in the queue by their track IDs.           | `/sortqueue swap 2 5`                              | Yes (2 track IDs)  |
 
 # Queue Cleanup
 These options allow you to remove a few songs or bulk remove a ton of songs from the queue using a few different filters. This can help remove spam and keep the queue clean overall.
 
-## First
-This will remove the very first song in the queue. You can remove the first song by using the `/remove first` command.
-
-## Last
-This will remove the last song in the queue. You can remove the last song by using the `/remove last` command.
-
-## Single
-This will remove a specific song from the queue. You can remove the song by using the `/remove single <trackId>` command.
-
-## Range
-This will remove a a range of tracks from the queue. You can remove the range of songs by using the `/remove range <firstTrackId> <secondTrackId>` command.
->  You must use the numeric ID of the songs in the queue for this command.
-{.is-info}
-
-## Duplicates
-This will remove any duplicate or repeat songs from the queue. You can remove the duplicates by using the `/remove duplicates` command.
-
-## User Left
-This will remove any songs that were added to the queue by any suers who are no longer in the voice channel with the bot. You can remove these songs by using the `/remove userleft` command.
-
-## User
-This will remove any songs that were added to the queue by a specific user. You can remove these songs by using the `/remove user <user>` command.
-
-## Keyword
-This will remove any songs where the title of the song contains the provided keyword. This can be useful to remove inappropriate or "ear rape" type songs. You can remove these songs by using the `/remove keyword <keyword>` command.
+| Subcommand   | Description                                                                                                          | Command Example                       | Requires Arguments         |
+|--------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------|----------------------------|
+| `first`      | Removes the very first song in the queue.                                                                            | `/remove first`                        | No                         |
+| `last`       | Removes the last song in the queue.                                                                                  | `/remove last`                         | No                         |
+| `single`     | Removes a specific song from the queue by its track ID.                                                              | `/remove single 4`                     | Yes (1 track ID)           |
+| `range`      | Removes a range of songs from the queue using their numeric track IDs.                                               | `/remove range 2 6`                    | Yes (2 track IDs)          |
+| `duplicates` | Removes duplicate or repeat songs from the queue.                                                                    | `/remove duplicates`                   | No                         |
+| `userleft`   | Removes all songs added by users who are no longer in the voice channel with the bot.                               | `/remove userleft`                     | No                         |
+| `user`       | Removes all songs added by a specific user.                                                                          | `/remove user @Username`               | Yes (user mention or ID)   |
+| `keyword`    | Removes all songs where the title contains a specific keyword (e.g., to filter inappropriate content).               | `/remove keyword loud`                 | Yes (keyword string)       |
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

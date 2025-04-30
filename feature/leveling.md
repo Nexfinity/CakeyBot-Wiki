@@ -2,14 +2,14 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-04T02:02:14.920Z
+date: 2025-04-30T09:19:59.496Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
 ---
 
 # Overview
-Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features!
+The Leveling & XP System in Cakey Bot provides a comprehensive user progression framework that rewards user activity in Discord servers. Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features! This technical documentation covers the mechanics of XP earning, level calculation, role rewards, and system configuration
 
 > Migrating from MEE6 or another leveling bot? You can automatically import your leveling/xp data with the `/setup import-levels` command!
 {.is-info}

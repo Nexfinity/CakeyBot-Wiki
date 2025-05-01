@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-04-29T19:28:39.341Z
+date: 2025-05-01T18:15:37.360Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 1st - Auto Kick
+## Fixed
+* Fixed an issue where `/eco minefield` would generate a new message when cashing out instead of updating the original one.
+
+## Added
+* Added new "Auto Kick" system (based on the Auto Ban system)
 
 # April 29th - Fishing & Minefield Minigames
 ## Added

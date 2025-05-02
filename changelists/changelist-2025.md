@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-01T18:15:37.360Z
+date: 2025-05-02T08:05:02.414Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 2nd - High/Low Multi-Stage
+## Changed
+* `/eco high-or-low` is now a multi-stage game, where you can keep guessing for higher potential rewards!
 
 # May 1st - Auto Kick
 ## Fixed

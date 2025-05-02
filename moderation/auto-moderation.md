@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2025-05-01T18:16:25.554Z
+date: 2025-05-02T09:17:02.123Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -82,5 +82,7 @@ You can automatically kick or ban users when they join if they meet any of the c
   * This will automatically kick ban users whose entire username is nothing but numbers (for example: `534534534534`) as this is a commonly used naming scheme for some raids.
 * Invite in Username
 * Unverified Bots
-* New Accounts (<48 Hours Old)
+* New Accounts (<48 Hours Old by default)
 * No Avatar
+
+You can even set a threshold for how old the user's account must be before the 'New Accounts' detection gets triggered.

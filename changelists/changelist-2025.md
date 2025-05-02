@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-02T08:05:02.414Z
+date: 2025-05-02T09:15:55.230Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,6 +11,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # May 2nd - High/Low Multi-Stage
 ## Changed
 * `/eco high-or-low` is now a multi-stage game, where you can keep guessing for higher potential rewards!
+* You can now set different thresholds for auto kick/ban for new account creation.
 
 # May 1st - Auto Kick
 ## Fixed

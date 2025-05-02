@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-05-02T08:04:04.482Z
+date: 2025-05-02T08:04:13.492Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -75,7 +75,7 @@ You can choose to cash out at any time to lock in your earnings before hitting a
 
 ## High or Low
 
-When you run `/eco highlow`, Your goal is to guess whether the number will be **higher** or **lower** than **5**.
+When you run `/eco high-or-low`, Your goal is to guess whether the number will be **higher** or **lower** than **5**.
 
 Each correct guess advances you to the next stage and increases your potential winnings. But beware — one wrong guess, and you lose **everything**!
 

@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-04-30T10:04:51.291Z
+date: 2025-05-02T08:01:17.583Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -169,23 +169,23 @@ Usage Key: `<required>` / `[optional]`
 {.is-info}
 
 | Command                  | Description                                                     | Usage                                      | Permission             |
-| :----------------------- | :------------------------------------------------------------- | :---------------------------------------- | :--------------------- |
-| /eco balance             | Check your balance or the balance of another user.             | \<user>                                    | None                   |
-| /eco beg                 | Beg for money.                                                 | N/A                                       | None                   |
+| :----------------------- | :------------------------------------------------------------- | :------------------------------------------ | :--------------------- |
+| /eco balance             | Check your balance or the balance of another user.             | \<user>                                     | None                   |
+| /eco beg                 | Beg for money.                                                 | N/A                                         | None                   |
 | /eco coinflip            | Guess the result to win 50% of your bet.                       | \<guess> \<amount>                          | None                   |
 | /eco guess               | Guess the number (1-10) for a chance to gain 2x-3x the amount. | \<guess> \<amount>                          | None                   |
-| /eco high-or-low         | Guess higher or lower to win 50% of your bet.                  | \<amount>                                  | None                   |
-| /eco iteminfo            | View information about a specific item.                        | \<item>                                    | None                   |
-| /eco items               | View all of the items you or someone else owns.                | \<user>                                    | None                   |
-| /eco leaderboard         | View the top 10 users on the leaderboard.                      | N/A                                       | None                   |
+| /eco high-or-low         | Guess higher or lower to win more money.                       | N/A                                         | None                   |
+| /eco iteminfo            | View information about a specific item.                        | \<item>                                     | None                   |
+| /eco items               | View all of the items you or someone else owns.                | \<user>                                     | None                   |
+| /eco leaderboard         | View the top 10 users on the leaderboard.                      | N/A                                         | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
 | /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
-| /eco rob                 | Attempt to rob another user.                                   | \<user>                                    | None                   |
-| /eco rock-paper-scissors | Challenge another user to Rock, Paper, Scissors.               | \<amount>                                  | None                   |
-| /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                       | None                   |
-| /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                       | None                   |
-| /eco work                | Work for money.                                                | N/A                                       | None                   |
-| /eco fishing             | Go fishing for a chance to earn money.                         | N/A                                       | None                   |
-| /eco minefield           | Play a minefield game for a chance to earn money.              | N/A                                       | None                   |
+| /eco rob                 | Attempt to rob another user.                                   | \<user>                                     | None                   |
+| /eco rock-paper-scissors | Challenge another user to Rock, Paper, Scissors.               | \<amount>                                   | None                   |
+| /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                         | None                   |
+| /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                         | None                   |
+| /eco work                | Work for money.                                                | N/A                                         | None                   |
+| /eco fishing             | Go fishing for a chance to earn money.                         | N/A                                         | None                   |
+| /eco minefield           | Play a minefield game for a chance to earn money.              | N/A                                         | None                   |
 | /ecoadmin manage-money   | Manage a user's economy balance.                               | \<give \| remove \| set> \<user> \<amount>     | ManageServer or Administrator |
 | /ecoadmin reset-economy  | Reset the economy for this server. This will RESET ALL user balances! | \<confirm>                             | ManageServer or Administrator |

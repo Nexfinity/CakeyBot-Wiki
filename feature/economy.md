@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-05-02T08:01:17.583Z
+date: 2025-05-02T08:04:04.482Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -72,6 +72,22 @@ Each time you click a tile:
 * 💣 A bomb ends the round with no reward.
 
 You can choose to cash out at any time to lock in your earnings before hitting a bomb.
+
+## High or Low
+
+When you run `/eco highlow`, Your goal is to guess whether the number will be **higher** or **lower** than **5**.
+
+Each correct guess advances you to the next stage and increases your potential winnings. But beware — one wrong guess, and you lose **everything**!
+
+At any point, you can choose to **cash out** and claim your current winnings instead of risking the next guess.
+
+Each stage:
+
+* 🔼 Guess **High** if you think the next number will be higher.
+* 🔽 Guess **Low** if you think it will be lower.
+* 💰 **Cash Out** to lock in your winnings before you guess wrong.
+
+The further you go, the more you earn — but one mistake resets it all!
 
 ## Other
 Cakey Bot also includes several other ways to earn money that do not include any games, though some of them still include a certain level of RNG that can affect the profits. These commands include:

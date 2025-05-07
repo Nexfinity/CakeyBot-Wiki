@@ -2,11 +2,24 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-02T09:15:55.230Z
+date: 2025-05-07T01:47:22.725Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 6th - QOL Updates
+## Fixed
+* Deployed a patch that should fix birthdays announcing 1 day late for some time zones.
+* Fixed a bug where a user couldn't have multiple temporary roles in the same server.
+
+## Changed
+* Added alert to dashboard to refresh server list. (Plus displays permissions required to configure servers)
+* Streak reset warning now has a different title from the actual reset message to make them less confusing. (The embed colors are also different)
+* XP & temporary roles can now be purchased multiple times in economy shop.
+
+## Added
+* Added new DM notice when XP decay gets applied to user. (Can be opted out similar to streak DM alerts)
 
 # May 2nd - High/Low Multi-Stage
 ## Changed

@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-08T19:58:20.259Z
+date: 2025-05-08T21:37:50.544Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,6 +11,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # May 8th - Economy & Self Role CV2 Overhaul
 ## Fixed
 * The `/selfrole add` command now has proper validation for maximum added roles
+* Fixed an issue where high-low games could be played by other users.
 
 ## Changed
 * Reformatted the `/eco shop` command to look nicer and be easier to navigate.

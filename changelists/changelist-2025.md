@@ -2,11 +2,22 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-07T01:47:22.725Z
+date: 2025-05-08T19:58:20.259Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 8th - Economy & Self Role CV2 Overhaul
+## Fixed
+* The `/selfrole add` command now has proper validation for maximum added roles
+
+## Changed
+* Reformatted the `/eco shop` command to look nicer and be easier to navigate.
+* The ability to allow multiple purchases for `/eco shop` items and boosts can now be configured per-item instead of globally forced.
+* Upgraded the self role limit from **125** to **250**. (Maximum number of roles a server can have)
+* The `/selfrole list` command is now paginated to support this.
+* The `/selfrole embed` command now makes use of Discord's new CV2 component system to allow up to 10 select menus in the same embed message.
 
 # May 6th - QOL Updates
 ## Fixed

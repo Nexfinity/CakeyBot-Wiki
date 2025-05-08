@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-08T21:37:50.544Z
+date: 2025-05-08T22:24:15.314Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -12,6 +12,8 @@ dateCreated: 2025-01-10T14:55:14.523Z
 ## Fixed
 * The `/selfrole add` command now has proper validation for maximum added roles
 * Fixed an issue where high-low games could be played by other users.
+* Fixed `/animequote` not returning any results
+* Fixed a visual bug on `/eco high-or-low` where it would always show 5 on the first stage but would select a random number behind the scenes. (The first stage is no longer randomized)
 
 ## Changed
 * Reformatted the `/eco shop` command to look nicer and be easier to navigate.
@@ -19,6 +21,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 * Upgraded the self role limit from **125** to **250**. (Maximum number of roles a server can have)
 * The `/selfrole list` command is now paginated to support this.
 * The `/selfrole embed` command now makes use of Discord's new CV2 component system to allow up to 10 select menus in the same embed message.
+* The `/eco minefield` bomb message now displays the tile number based on a 1-index instead of 0-index.
 
 # May 6th - QOL Updates
 ## Fixed

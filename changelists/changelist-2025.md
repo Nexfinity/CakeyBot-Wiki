@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-08T22:24:15.314Z
+date: 2025-05-20T16:37:23.872Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 20th - Rendering Fix
+## Fixed
+* Fixed an issue with `/rank` cards where corners were not properly rounded on the progress bar and the rectangle shapes.
 
 # May 8th - Economy & Self Role CV2 Overhaul
 ## Fixed

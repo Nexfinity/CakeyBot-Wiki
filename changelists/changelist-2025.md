@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-05-20T16:37:23.872Z
+date: 2025-05-21T05:04:33.815Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# May 21st - Temporary Role Placeholder
+## Added
+* Added `{addtemprole:}` placeholder.
 
 # May 20th - Rendering Fix
 ## Fixed

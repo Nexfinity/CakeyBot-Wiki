@@ -2,7 +2,7 @@
 title: Placeholders
 description: 
 published: 1
-date: 2025-02-16T06:43:32.211Z
+date: 2025-05-21T05:03:26.812Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -265,6 +265,7 @@ Examples:
 {.is-info}
 
 `{addrole:<id>}` - Adds a role to the user.
+`{addtemprole:<id>:<hours>}` - Adds a temporary role to the user for the specified amount of hours.
 `{removerole:<id>}` - Removes the role from the user.
 
 Examples:

@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-15T00:41:23.529Z
+date: 2025-06-15T01:18:46.409Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -14,6 +14,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 
 ## Changed
 * Voice channel join/leave audit logs now use mentions instead of plaintext usernames.
+* Display "Time in Channel" on join/leave voice audit logs.
 
 # May 21st - Temporary Role Placeholder
 ## Added

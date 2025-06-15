@@ -2,13 +2,13 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-15T00:41:10.602Z
+date: 2025-06-15T00:41:23.529Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# June 14th -
+# June 14th - Audit QOL
 ## Added
 * Added "Jump To" link for message deleted audit logs.
 

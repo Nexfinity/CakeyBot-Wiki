@@ -2,11 +2,23 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-15T01:18:46.409Z
+date: 2025-06-19T04:05:42.144Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# June 19th - Dashboard Security
+## Fixed
+* Fixed an issue where the sidebar info for the selected server did not updating correctly when swapping servers with the dropdown menu in the nav instead of the dashboard page.
+* Fixed an issue where the sidebar would incorrectly show the server icon & name when a user tried to access a server they didn't have access to.
+
+## Changed
+* The web dashboard now requires users to have "Manage Server" or "Administrator" permissions on one of their roles that does NOT include the `@everyone` role. 
+* The owner of the server will now always have access to manage the server regardless of their roles. (Previously they did, but the new role check could have potentially blocked them if they didn't have an admin role lol)
+
+## Added
+* Added new fancy portal graphic to the premium and custom bot error pages. (When users try to access the feature when they don't have premium/custom bot)
 
 # June 14th - Audit QOL
 ## Added

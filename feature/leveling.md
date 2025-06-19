@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-04-30T10:07:55.732Z
+date: 2025-06-19T19:23:02.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -86,7 +86,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 This is the message that is sent when a user levels up. The default message is: `Congratulations {user}! You have advanced to level {level}!`.
 
 You can also use a few placeholders in this message:
-* `{user}` - The username mention of the user who leveled up. (It will not send ping notifications)
+* `{user}` - The username mention of the user who leveled up.
 * `{level}` - The new level that the user has advanced to.
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**

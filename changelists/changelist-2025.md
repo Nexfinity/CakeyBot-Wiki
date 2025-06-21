@@ -2,11 +2,20 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-19T04:05:42.144Z
+date: 2025-06-21T06:36:59.960Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# June 21st - Eco Buff & Role Monitoring
+## Changed
+* Changed the permission required to grant/revoke custom achievements from `Manage Server` to `Manage Events`.
+* `/eco minefield` now has better payout options. Profit scales dynamically the more correct tiles you guess and 100% perfect games result in a double profit jackpot!
+
+## Added
+* Added the ability to 'Clone' Auto Messages on the dashboard.
+* Added the ability to audit log when _specific_ roles are added to/removed from users.
 
 # June 19th - Dashboard Security
 ## Fixed

@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-06-21T06:39:05.881Z
+date: 2025-06-21T06:43:25.536Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -73,7 +73,23 @@ Each time you click a tile:
 
 You can choose to cash out at any time to lock in your earnings before hitting a bomb.
 
-> Note: Perfect games result in a double profit jackpot!
+### Profit Table
+| Tiles Revealed | Old Reward (×500) | New Incremental Reward |
+| -------------- | ----------------- | ---------------------- |
+| 1              | 500               | 500                    |
+| 2              | 1,000             | 1,250                  |
+| 3              | 1,500             | 2,250                  |
+| 4              | 2,000             | 3,500                  |
+| 5              | 2,500             | 5,000                  |
+| 6              | 3,000             | 6,750                  |
+| 7              | 3,500             | 8,750                  |
+| 8              | 4,000             | 11,000                 |
+| 9              | 4,500             | 13,500                 |
+| 10             | 5,000             | 16,250                 |
+| 11             | 5,500             | 19,250                 |
+| 12             | 6,000             | 22,500                 |
+
+> Note: Perfect games result in a double profit jackpot! ($45,000!)
 {.is-info}
 
 ## High or Low

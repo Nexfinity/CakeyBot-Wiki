@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-05-02T08:04:13.492Z
+date: 2025-06-21T06:39:05.881Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -72,6 +72,9 @@ Each time you click a tile:
 * 💣 A bomb ends the round with no reward.
 
 You can choose to cash out at any time to lock in your earnings before hitting a bomb.
+
+> Note: Perfect games result in a double profit jackpot!
+{.is-info}
 
 ## High or Low
 

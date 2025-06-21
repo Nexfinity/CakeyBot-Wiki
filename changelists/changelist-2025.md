@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-21T06:36:59.960Z
+date: 2025-06-21T08:11:11.860Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -12,6 +12,8 @@ dateCreated: 2025-01-10T14:55:14.523Z
 ## Changed
 * Changed the permission required to grant/revoke custom achievements from `Manage Server` to `Manage Events`.
 * `/eco minefield` now has better payout options. Profit scales dynamically the more correct tiles you guess and 100% perfect games result in a double profit jackpot!
+* Increase max economy shop item count from `10` to `15`.
+* The `/eco shop` command is now paginated, meaning we can display all items regardless of length/amount.
 
 ## Added
 * Added the ability to 'Clone' Auto Messages on the dashboard.

@@ -2,16 +2,22 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-25T13:51:11.421Z
+date: 2025-06-26T01:49:24.414Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# june 25th - Economy Boost Fixes
-## fixed
+# June 25th - Economy Boost Fixes & Notes
+## Fixed
 * Fixed a visual error where `/eco minefield` cashout and `/eco fishing` would give boosted money amounts but only display non-boosted amounts in the success messages.
 * Fixed an issue where all boosts acted as if they were only a 1x (non-boosted) amount.
+
+## Added
+* Added `/notes` command! You can now create personal and public notes in servers. Staff/server notes coming soon.
+
+## Removed
+* Removed `/math` command.
 
 # June 21st - Eco Buff & Role Monitoring
 ## Changed

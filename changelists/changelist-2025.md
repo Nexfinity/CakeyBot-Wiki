@@ -2,11 +2,23 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-06-26T01:49:24.414Z
+date: 2025-07-13T23:05:04.328Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# July 13th - Giveaway Overhaul
+## Changed
+* Overhauled entire giveaway process to include a fancy new giveaway builder.
+
+## Added
+* Added support for image banners on giveaways.
+* Add clan tag support to the User Modified audit log event.
+
+# June 27th - Staff/Server Notes
+## Added
+* Staff/server notes are now also available. By default anyone with Administrator or Manage Server will be able to view/manage server notes. You can also optionally set a "Staff Role" on the dashboard to allow non-admins to also view/manage them.
 
 # June 25th - Economy Boost Fixes & Notes
 ## Fixed

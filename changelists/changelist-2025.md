@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-07-13T23:05:04.328Z
+date: 2025-07-17T21:51:46.759Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# July 17th - Giveaway Image Fix
+## Fixed
+* Fixed image banners not displaying on giveaways.
 
 # July 13th - Giveaway Overhaul
 ## Changed

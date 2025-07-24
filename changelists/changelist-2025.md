@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-07-17T22:48:22.332Z
+date: 2025-07-24T07:57:53.591Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# July 24th - Add'l Giveaway Fixes
+## Fixed
+* Fixed an issue where `/giveaway` output channel was not used correctly.
+* Fixed an issue where `/giveaway` considered image urls required instead of optional.
 
 # July 17th - Giveaway Image Fix
 ## Fixed

@@ -2,11 +2,28 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-07-24T07:57:53.591Z
+date: 2025-07-25T19:41:55.219Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# July 25th - Roleplay Update
+## Fixed
+* Fixed broken `/rp` commands.
+
+## Changed
+* Changed `/rp cuddles` to `/rp bite` (no cuddles gifs on new API)
+
+## Added
+* Added `/rp dance` command.
+* Added `/rp holdhands` command.
+* Added `/rp highfive` command.
+* Added `/rp grabcheeks` command.
+* Added `/rp lick` command.
+* Added `/rp poke` command.
+* Added `/rp stare` command.
+* Added `/rp wave` command.
 
 # July 24th - Add'l Giveaway Fixes
 ## Fixed

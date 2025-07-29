@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-03-26T09:30:27.841Z
+date: 2025-07-29T05:58:48.991Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -49,7 +49,7 @@ To purchase a Custom Bot simply follow these instructions:
   
 <image src="/intents.png" width="800px" alt="Privileged intents">
   
-> Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
+> Notice: It is important that you enable these intents. If you do not, the bot will NOT start. Also, do NOT enable the "Require OAuth2 Code Grant", it will block the bot from joining.
 {.is-danger}
 
 5. Press the "Reset Token" button to reset your token

@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-01T20:47:06.943Z
+date: 2025-08-01T20:47:17.853Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -11,9 +11,9 @@ dateCreated: 2025-01-10T14:55:14.523Z
 # August 1st - AI Version Bumps
 ## Changed
 * Updated the AI chat models.
- * Free upgraded from `gpt-3.5-turbo` to `gpt-4o`.
- * Premium upgraded from `gpt-4o` to `gpt-4.1`.
- * Custom bots now default to `gpt-4.1`, can still be changed if using custom API key.
+  * Free upgraded from `gpt-3.5-turbo` to `gpt-4o`.
+  * Premium upgraded from `gpt-4o` to `gpt-4.1`.
+  * Custom bots now default to `gpt-4.1`, can still be changed if using custom API key.
 
 # July 25th - Roleplay Update
 ## Fixed

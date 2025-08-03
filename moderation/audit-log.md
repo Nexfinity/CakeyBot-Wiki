@@ -2,7 +2,7 @@
 title: Audit Log
 description: 
 published: 1
-date: 2025-02-20T06:33:02.005Z
+date: 2025-08-03T09:17:44.384Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:46.692Z
@@ -46,6 +46,8 @@ In order to start logging you will need to designate a text channel as the log c
   * Shows role name + if it was added/removed
 * User Updated (Voice channels)
   * Shows when a User Joined/Left/Swapped voice channels
+* User Updated (Clan tag changed)
+  * Shows when a user updates their clan tag
 * User Banned/Unbanned
   * Shows the moderator & reason
 * User Kicked

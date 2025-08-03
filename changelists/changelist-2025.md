@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-01T20:47:17.853Z
+date: 2025-08-03T09:16:46.950Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 3rd - Clan Tag Audit Fixes
+## Fixed
+* Fixed clan tag change audit logging.
 
 # August 1st - AI Version Bumps
 ## Changed

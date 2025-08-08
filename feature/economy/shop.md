@@ -1,14 +1,14 @@
 ---
-title: Shop
+title: Item/Boost Shop
 description: 
 published: 1
-date: 2025-08-08T04:13:21.930Z
+date: 2025-08-08T04:13:34.650Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:12:25.252Z
 ---
 
-# Item Shop
+# Item/Boost Shop
 The item shop allows server owners to create a customizable list of purchasable items for their members. These items can include role unlocks, which grant users specific roles upon purchase, and leveling XP to help them progress faster in the server's leveling system. Each item can have its own unique cost, making it easy to design a diverse economy tailored to your server's needs.
 
 > Economy boosts marked as "purchasable" will also display in this shop list.

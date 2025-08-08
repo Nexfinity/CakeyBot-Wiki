@@ -2,7 +2,7 @@
 title: Other Minigames
 description: 
 published: 1
-date: 2025-08-08T04:20:41.219Z
+date: 2025-08-08T04:22:28.780Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:20:04.715Z
@@ -10,7 +10,7 @@ dateCreated: 2025-08-08T04:20:04.715Z
 
 ## Fishing
 > Looking for information regarding our fishing minigame? Check out [this page](/feature/economy/fishing).
-{.is-success}
+{.is-info}
 
 ## Minefield
 When you run `/eco minefield`, a 4x4 grid of hidden tiles appears. Some of these tiles hide bombs, while the rest are safe. Your goal is to reveal as many safe tiles as possible to increase your reward — but beware: revealing a bomb ends the game and you lose everything!

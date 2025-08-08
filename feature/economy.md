@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-06-21T06:43:25.536Z
+date: 2025-08-08T04:10:58.759Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -40,29 +40,8 @@ There's also several games that allow you to directly challenge other users in t
 
 > The system includes safeguards against collusion in PvP games, such as prize modifiers based on player history in `/eco split-or-steal`.
 
-## Fishing
-The `/eco fishing` command lets users try their luck at catching fish and earning money in return. It's a simple yet fun minigame that adds variety to the economy system.
-
-### How It Works
-When a user runs `/eco fishing`, the system randomly determines the outcome:
- * Success: The user catches a fish and earns a reward based on that fish's rarity.
- * Failure: The user experiences a humorous or unfortunate fishing event (e.g., the line snaps or they reel in an old boot).
-
-### Fish Rarity Table
-There are 10 different types of fish to catch, each with its own rarity and reward range. The rarer the fish, the more valuable it is—but the harder it is to catch!
-
-| Fish Name           | Rarity     | Chance % | Value Range     |
-|---------------------|------------|----------|-----------------|
-| Common Carp         | Common     | 25%      | 100–250         |
-| Rusty Trout         | Common     | 20%      | 150–300         |
-| Speckled Bass       | Uncommon   | 15%      | 300–500         |
-| Bluegill Perch      | Uncommon   | 10%      | 400–650         |
-| Electric Eel        | Rare       | 8%       | 700–1,000       |
-| Golden Salmon       | Rare       | 6%       | 1,000–1,500     |
-| Vampire Catfish     | Epic       | 4%       | 1,500–2,000     |
-| Phantom Ray         | Epic       | 3%       | 2,000–3,000     |
-| Crystal Koi         | Legendary  | 2.5%     | 3,000–4,000     |
-| Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
+> Looking for information regarding our fishing minigame? Check out [this page](/feature/economy/fishing).
+{.is-success}
 
 ## Minefield
 When you run `/eco minefield`, a 4x4 grid of hidden tiles appears. Some of these tiles hide bombs, while the rest are safe. Your goal is to reveal as many safe tiles as possible to increase your reward — but beware: revealing a bomb ends the game and you lose everything!

@@ -2,11 +2,47 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-03T09:16:46.950Z
+date: 2025-08-08T11:06:25.111Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 8th - Economy Fishing Giveaway
+## Removed
+* Removed the `/eco fishing` command to replace it with a new set of sub-commands.
+
+## Added
+* Added `/eco fishing fish <biome> <rod> <bait>` command!
+  * You can now acquire over **100 different unique fish** from **12 different biomes**!
+  * You can also purchase **unique baits** and **upgrade your fishing rod** for better chances or additional loot/money!
+  * Fish now have a rarity between: `Uncommon`, `Common`, `Rare`, `Epic`, `Legendary`, `Mythic`. With higher rarities being harder to find/catch.
+  * Fish now have a **randomized weight** when caught.
+  * All trash and fish caught will now be stored and you can view your stats using the `/eco fishing inventory` command!
+* Added `/eco fishing list-biomes`
+  * View all **13 biomes** as well as unique properties/info about them.
+  * Different biomes will have different fish and different chances.
+  * Some biomes may also have easier or harder difficult for catching fish at all
+* Added `/eco fishing list-rods`
+  * Lists available rods to purchase. Higher tier rods have a higher chance to catch fish instead of trash.
+* Added `/eco fishing list-bait`
+  * Lists available bait to purchase. Different baits have unique properties!
+* Added `/eco fishing inventory [user]`
+  * You can view all of your owned items in your inventory.
+  * You can also view **epic stats** about your fishing history, such as how many types of fish caught & the largest fish caught.
+  * you can also optional view another user's inventory and stats.
+* Added `/eco fishing leaderboard <type>`
+  * You can view 10 different types of leaderboard stats including:
+    * Total Fish Caught
+    * Total Trash Caught
+    * Total Value of Fish
+    * Total Weight of Fish
+    * Most Mythic Fish Caught
+    * Most Legendary Fish Caught
+    * Most Epic Fish Caught
+    * Most Rare Fish Caught
+    * Most Uncommon Fish Caught
+    * Most Common Fish Caught
 
 # August 3rd - Clan Tag Audit Fixes
 ## Fixed

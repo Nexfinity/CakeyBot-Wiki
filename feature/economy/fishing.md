@@ -1,8 +1,8 @@
 ---
-title: Fishing Overview
+title: Fishing
 description: 
 published: 1
-date: 2025-08-08T04:10:12.956Z
+date: 2025-08-08T04:12:42.043Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z

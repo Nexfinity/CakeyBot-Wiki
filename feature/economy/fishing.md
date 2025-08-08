@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-08T04:12:42.043Z
+date: 2025-08-08T04:23:23.404Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -31,3 +31,6 @@ There are 10 different types of fish to catch, each with its own rarity and rewa
 | Phantom Ray         | Epic       | 3%       | 2,000–3,000     |
 | Crystal Koi         | Legendary  | 2.5%     | 3,000–4,000     |
 | Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
+
+> There is currently a massive overhaul for fishing in the works, the data above will soon be invalid. Check back soon for an updated page.
+{.is-danger}

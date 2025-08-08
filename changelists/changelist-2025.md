@@ -2,13 +2,13 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-08T11:06:25.111Z
+date: 2025-08-08T11:06:34.613Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# August 8th - Economy Fishing Giveaway
+# August 8th - Economy Fishing Overhaul
 ## Removed
 * Removed the `/eco fishing` command to replace it with a new set of sub-commands.
 

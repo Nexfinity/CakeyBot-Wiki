@@ -2,7 +2,7 @@
 title: Economy
 description: 
 published: 1
-date: 2025-08-08T04:10:58.759Z
+date: 2025-08-08T04:11:39.879Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -40,6 +40,7 @@ There's also several games that allow you to directly challenge other users in t
 
 > The system includes safeguards against collusion in PvP games, such as prize modifiers based on player history in `/eco split-or-steal`.
 
+## Fishing
 > Looking for information regarding our fishing minigame? Check out [this page](/feature/economy/fishing).
 {.is-success}
 

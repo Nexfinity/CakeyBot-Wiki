@@ -2,7 +2,7 @@
 title: Fishing Overview
 description: 
 published: 1
-date: 2025-08-08T04:10:04.982Z
+date: 2025-08-08T04:10:12.956Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -31,31 +31,3 @@ There are 10 different types of fish to catch, each with its own rarity and rewa
 | Phantom Ray         | Epic       | 3%       | 2,000–3,000     |
 | Crystal Koi         | Legendary  | 2.5%     | 3,000–4,000     |
 | Mythic Leviathan    | Mythical   | 1.5%     | 5,000–10,000    |
-
-## Minefield
-When you run `/eco minefield`, a 4x4 grid of hidden tiles appears. Some of these tiles hide bombs, while the rest are safe. Your goal is to reveal as many safe tiles as possible to increase your reward — but beware: revealing a bomb ends the game and you lose everything!
-
-Each time you click a tile:
-* ✅ A safe tile increases your potential payout.
-* 💣 A bomb ends the round with no reward.
-
-You can choose to cash out at any time to lock in your earnings before hitting a bomb.
-
-### Profit Table
-| Tiles Revealed | Old Reward (×500) | New Incremental Reward |
-| -------------- | ----------------- | ---------------------- |
-| 1              | 500               | 500                    |
-| 2              | 1,000             | 1,250                  |
-| 3              | 1,500             | 2,250                  |
-| 4              | 2,000             | 3,500                  |
-| 5              | 2,500             | 5,000                  |
-| 6              | 3,000             | 6,750                  |
-| 7              | 3,500             | 8,750                  |
-| 8              | 4,000             | 11,000                 |
-| 9              | 4,500             | 13,500                 |
-| 10             | 5,000             | 16,250                 |
-| 11             | 5,500             | 19,250                 |
-| 12             | 6,000             | 22,500                 |
-
-> Note: Perfect games result in a double profit jackpot! ($45,000!)
-{.is-info}

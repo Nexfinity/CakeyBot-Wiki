@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T01:00:48.538Z
+date: 2025-08-09T01:00:56.117Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -93,7 +93,7 @@ You can check your own inventory or look at another player’s stats if you have
 | **Master Rod**    | 50,000 | 4%          | Fishing rod with a 4% chance of failure when casting.  |
 | **Legendary Rod** | 100,000 | 2%          | Fishing rod with a 2% chance of failure when casting.  |
 
-> Note: You must buy the previous rod before you can buy the next rod. For example, in order to buy the "Legendary Rod", you must first purchase the "Advanced Rod" THEN the "Master Rod" before you can purchase the "Legendary Rod".
+> **Note:** You must buy the previous rod before you can buy the next rod. For example, in order to buy the "Legendary Rod", you must first purchase the "Advanced Rod" THEN the "Master Rod" before you can purchase the "Legendary Rod".
 {.is-info}
 
 ## 💡 Efficiency Notes

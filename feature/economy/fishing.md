@@ -2,19 +2,39 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:28:04.850Z
+date: 2025-08-09T00:32:00.263Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
 ---
 
 ## Overview
-The `/eco fishing` command lets users try their luck at catching fish and earning money in return. It's a simple yet fun minigame that adds variety to the economy system.
+The `/eco fishing` command is your gateway into a fully overhauled fishing system where you can explore diverse biomes, catch fish of varying rarities, discover mythic treasures, and even reel in some unexpected trash loot.
+
+Fishing is no longer just “cast and hope” — your success is influenced by biome difficulty, bait choice, and the rod you use. Every catch adds to your stats, which feed into the server's leaderboards.
+
+Whether you’re chasing rare Mythic Fish, farming money in profitable waters, or just collecting everything the world’s oceans, rivers, and magical lakes have to offer, there’s always another fishing trip waiting.
 
 # How It Works
-When a user runs `/eco fishing`, the system randomly determines the outcome:
- * Success: The user catches a fish and earns a reward based on that fish's rarity.
- * Failure: The user experiences a humorous or unfortunate fishing event (e.g., the line snaps or they reel in an old boot).
+When you run `/eco fishing fish`, the system follows a multi-step process to determine your results:
+
+* 🎯 Biome Selection
+  * You can choose a specific biome to fish in (each has its own difficulty, fish species, and loot pool).
+
+* 🎣 Rod & Bait Effects
+  * Your equipped rod impacts your chances of catching more fish.
+  * Special bait can boost profits, increase rare fish odds, or even help you catch more trash for certain events.
+
+* ⚖ Catch Determination
+  * The game calculates your success based on biome difficulty, rarity chances, and bonuses from gear and bait.
+  * Possible results:
+    * Fish Catch — Earn money based on rarity and biome.
+    * Trash Catch — Old boots, cans, and other oddities (counts toward trash stats).
+    * Missed Catch — The fish got away, or something unexpected happened (also increments trash stats).
+
+* 💰 Rewards
+  * Fish value is randomized based on its rarity and biome.
+  * All catches (fish or trash) are recorded in your fishing stats and contribute to leaderboards.
  
 # Leaderboard Command
 The `/eco fishing leaderboard <type>` command lets you view the top 10 players in various fishing-related categories.

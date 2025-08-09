@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:32:00.263Z
+date: 2025-08-09T00:33:31.141Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -59,7 +59,7 @@ The `/eco fishing inventory [user]` command displays everything you own in the f
 You can check your own inventory or look at another player’s stats if you have their username.
 
 ## Inventory Details
-* 🎯 **Baits** - Shows how many of each special bait you currently own, along with your maximum carrying capacity for each type:
+* 🎯 **Baits** - Shows how many of each special bait you currently own, along with your maximum carrying capacity for each type.
 * 🎣 **Fishing Rods** - Lists which fishing rods you own.
 * **Statistics** - Alongside your inventory, this command also provides detailed fishing stats including:
   * 📊 Catch Stats

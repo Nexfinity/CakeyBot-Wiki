@@ -2,11 +2,26 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-08T11:06:34.613Z
+date: 2025-08-09T01:08:46.491Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 8th - Fishing V2 Re-Balance
+## Changed
+* Fishing rods must be purchased in order. (Can no longer jump straight to the legendary rod)
+* Increased the price of fishing rods:
+  * Advanced Rod: 10k => 25k
+  * Master Rod: 20k => 50k
+  * Legendary Rod: 30k => 100k
+* Adjusted the cost of some baits:
+  * Kraken's Charm: 20k => 50k
+  * Wormhole Larvae: 20k => 30k
+  * Titan Worm: 10k => 15k
+  * Golden Minnow: 30k => 25k
+  * Rusted Can Lure: 1k => 5k
+  * Pearlscale Grub: 2k => 5k
 
 # August 8th - Economy Fishing Overhaul
 ## Removed

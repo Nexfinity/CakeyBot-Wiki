@@ -2,16 +2,13 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:27:27.782Z
+date: 2025-08-09T00:27:33.353Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
 ---
 
 ## Overview
-> Fishing recently had a massive overhaul, the data on this page is invalid. Check back soon for an updated page.
-{.is-danger}
-
 The `/eco fishing` command lets users try their luck at catching fish and earning money in return. It's a simple yet fun minigame that adds variety to the economy system.
 
 # How It Works

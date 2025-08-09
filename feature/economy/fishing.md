@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:21:47.780Z
+date: 2025-08-09T00:27:27.782Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -18,6 +18,51 @@ The `/eco fishing` command lets users try their luck at catching fish and earnin
 When a user runs `/eco fishing`, the system randomly determines the outcome:
  * Success: The user catches a fish and earns a reward based on that fish's rarity.
  * Failure: The user experiences a humorous or unfortunate fishing event (e.g., the line snaps or they reel in an old boot).
+ 
+# Leaderboard Command
+The `/eco fishing leaderboard <type>` command lets you view the top 10 players in various fishing-related categories.
+It’s perfect for seeing who dominates the waters — whether they’re skilled anglers, treasure hunters, or just the most persistent trash collectors.
+
+## Leaderboard Types
+| Type                           | Description                                                                             |
+| ------------------------------ | --------------------------------------------------------------------------------------- |
+| **Total Fish Caught**          | Shows the top 10 players who have caught the highest total number of fish (any rarity). |
+| **Total Trash Caught**         | Shows the top 10 players who have caught the most junk items while fishing.             |
+| **Total Value of Fish**        | Ranks players by the total market value of all fish they’ve caught.                     |
+| **Total Weight of Fish**       | Ranks players by the combined weight of all fish caught.                                |
+| **Most Mythic Fish Caught**    | Players who have caught the highest number of *Mythic*-rarity fish.                     |
+| **Most Legendary Fish Caught** | Players who have caught the highest number of *Legendary*-rarity fish.                  |
+| **Most Epic Fish Caught**      | Players who have caught the highest number of *Epic*-rarity fish.                       |
+| **Most Rare Fish Caught**      | Players who have caught the highest number of *Rare*-rarity fish.                       |
+| **Most Uncommon Fish Caught**  | Players who have caught the highest number of *Uncommon*-rarity fish.                   |
+| **Most Common Fish Caught**    | Players who have caught the highest number of *Common*-rarity fish.                     |
+
+# Inventory & Stats Command
+The `/eco fishing inventory [user]` command displays everything you own in the fishing system — including your bait supply, rods, and a full set of fishing statistics.
+You can check your own inventory or look at another player’s stats if you have their username.
+
+## Inventory Details
+* 🎯 **Baits** - Shows how many of each special bait you currently own, along with your maximum carrying capacity for each type:
+* 🎣 **Fishing Rods** - Lists which fishing rods you own.
+* **Statistics** - Alongside your inventory, this command also provides detailed fishing stats including:
+  * 📊 Catch Stats
+    * Total Fish Caught (all rarities combined)
+    * Total Trash Caught
+    * Total Value of Fish (based on sell prices)
+    * Breakdown by rarity:
+      * Mythic, Legendary, Epic, Rare, Uncommon, Common
+
+  * 🌎 Biome Stats
+    * Total Biomes Fished In
+    * Most Fished Biome
+    * Least Fished Biome
+    * Catch count per biome
+
+  * ⚖ Weight Stats
+    * Largest Fish (by weight)
+    * Smallest Fish
+    * Average Weight of Fish
+    * Total Weight of All Fish Caught
 
 # Fishing Rod List
 | Rod Name          | Cost   | Fail Chance | Description                                            |
@@ -41,7 +86,6 @@ When a user runs `/eco fishing`, the system randomly determines the outcome:
 | HigherTierChance | Titan Worm | Increases chance (**1.5×**) of catching a higher-tier fish. **Consumed on any fish catch.** | 10,000 | 10 | `HigherTierChanceMultiplier ×= 1.5`<br>`ConsumeOnCatch = true` |
 | TrashMagnet | Rusted Can Lure | Increases chance (**+50%**) of catching trash instead of fish. **Consumed on trash caught.** | 1,000 | 10 | `FailChanceMultiplier ×= 1.5` |
 | FishMagnet | Pearlscale Grub | Decreases chance (**−50%**) of catching trash, making fish more likely. **Consumed on fish catch.** | 2,000 | 10 | `FailChanceMultiplier ×= 0.5`<br>`ConsumeOnCatch = true` |
-
 
 # 🎣 Fishing Biomes & Fish Guide
 

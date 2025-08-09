@@ -2,13 +2,13 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:33:31.141Z
+date: 2025-08-09T00:33:45.345Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
 ---
 
-## Overview
+# Overview
 The `/eco fishing` command is your gateway into a fully overhauled fishing system where you can explore diverse biomes, catch fish of varying rarities, discover mythic treasures, and even reel in some unexpected trash loot.
 
 Fishing is no longer just “cast and hope” — your success is influenced by biome difficulty, bait choice, and the rod you use. Every catch adds to your stats, which feed into the server's leaderboards.

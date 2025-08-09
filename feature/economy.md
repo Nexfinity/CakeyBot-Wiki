@@ -2,7 +2,7 @@
 title: Economy Overview
 description: 
 published: 1
-date: 2025-08-08T04:20:35.461Z
+date: 2025-08-09T00:22:06.182Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -103,7 +103,12 @@ Usage Key: `<required>` / `[optional]`
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                         | None                   |
 | /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                         | None                   |
 | /eco work                | Work for money.                                                | N/A                                         | None                   |
-| /eco fishing             | Go fishing for a chance to earn money.                         | N/A                                         | None                   |
+| /eco fishing fish              | Fish in a specific biome for a chance to catch fish.            | `<biome> <rod> <bait>`      | None       |
+| /eco fishing list-biomes       | List all available fishing biomes.                              | N/A                         | None       |
+| /eco fishing list-rods         | List all available fishing rods.                                | N/A                         | None       |
+| /eco fishing list-bait         | List all available fishing baits.                               | N/A                         | None       |
+| /eco fishing inventory         | View your (or selected players) fishing inventory & stats.      | `[user]`                    | None       |
+| /eco fishing leaderboard       | View the top 10 users on the fishing leaderboard.               | `<type>`                    | None       |
 | /eco minefield           | Play a minefield game for a chance to earn money.              | N/A                                         | None                   |
 | /ecoadmin manage-money   | Manage a user's economy balance.                               | \<give \| remove \| set> \<user> \<amount>     | ManageServer or Administrator |
 | /ecoadmin reset-economy  | Reset the economy for this server. This will RESET ALL user balances! | \<confirm>                             | ManageServer or Administrator |

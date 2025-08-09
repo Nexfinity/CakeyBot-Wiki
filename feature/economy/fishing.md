@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:27:33.353Z
+date: 2025-08-09T00:28:04.850Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -60,6 +60,10 @@ You can check your own inventory or look at another player’s stats if you have
     * Smallest Fish
     * Average Weight of Fish
     * Total Weight of All Fish Caught
+    
+> 💡 **Tip:** This command is a great way to track your progress toward leaderboard dominance or identify which biomes you should focus on next.
+{.is-success}
+
 
 # Fishing Rod List
 | Rod Name          | Cost   | Fail Chance | Description                                            |

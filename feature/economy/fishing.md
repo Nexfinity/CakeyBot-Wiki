@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T00:18:57.915Z
+date: 2025-08-09T00:21:47.780Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -179,3 +179,18 @@ When a user runs `/eco fishing`, the system randomly determines the outcome:
 | Gleamfin Wisp | Rare      | 900–1,350    | 32%     | 4.0–6.0     |
 | Sylphfish     | Epic      | 2,000–2,800   | 30%     | 7.0–10.0    |
 | Arcana Eel    | Legendary | 3,400–4,000   | 10%     | 11.0–16.0   |
+
+# Related Commands  
+Usage Key: `<required>` / `[optional]`  
+
+> Fishing commands can be toggled on/off via the web dashboard.  
+{.is-info}  
+
+| Command                       | Description                                                     | Usage                      | Permission |
+| :---------------------------- | :-------------------------------------------------------------- | :------------------------- | :--------- |
+| /eco fishing fish              | Fish in a specific biome for a chance to catch fish.            | `<biome> <rod> <bait>`      | None       |
+| /eco fishing list-biomes       | List all available fishing biomes.                              | N/A                         | None       |
+| /eco fishing list-rods         | List all available fishing rods.                                | N/A                         | None       |
+| /eco fishing list-bait         | List all available fishing baits.                               | N/A                         | None       |
+| /eco fishing inventory         | View your (or selected players) fishing inventory & stats.      | `[user]`                    | None       |
+| /eco fishing leaderboard       | View the top 10 users on the fishing leaderboard.               | `<type>`                    | None       |

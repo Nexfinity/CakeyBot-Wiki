@@ -2,11 +2,23 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-09T01:08:46.491Z
+date: 2025-08-11T10:02:39.966Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# august 11th - Fishing QOL & Bug Fixes
+## Fixed
+* Economy fishing now respects comma/decimal formatting for fish weight
+* Fixed a TON of random/misc. bugs
+
+## Added
+* Added a toggle between lbs and kg for fish weight
+
+## Removed
+* Removed support for XP-Bot.Net leveling importing since the bot no longer exists.
+* Removed support for Amaribot leveling importing since they actively block exporting data now.
 
 # August 8th - Fishing V2 Re-Balance
 ## Changed

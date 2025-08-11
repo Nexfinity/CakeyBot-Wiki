@@ -2,7 +2,7 @@
 title: Economy Overview
 description: 
 published: 1
-date: 2025-08-09T00:22:06.182Z
+date: 2025-08-11T10:03:57.160Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -59,6 +59,7 @@ In addition to the regular commands, there's a number of customization options t
 | Allow Balance Transfers     | Enables or disables users sending money to one another. Disabling this restricts commands like `/pay`, `/rob`, etc.                                                                                           | Enabled             |           |           | No               |
 | Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
 | Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
+| Fishing Weight    | Define if the weight of caught fish should be kg or lbs.                                                                            | lbs          |           |           | No               |
 
 # Anti-Abuse Mechanics
 > Note: Details are intentionally limited for this in order to make it more difficult for malicious actors trying to abuse the economy system. Also not all anti-abuse mechanics may be listed.

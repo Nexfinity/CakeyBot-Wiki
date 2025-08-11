@@ -2,13 +2,13 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-11T10:02:39.966Z
+date: 2025-08-11T10:02:59.758Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# august 11th - Fishing QOL & Bug Fixes
+# August 11th - Fishing QOL & Bug Fixes
 ## Fixed
 * Economy fishing now respects comma/decimal formatting for fish weight
 * Fixed a TON of random/misc. bugs

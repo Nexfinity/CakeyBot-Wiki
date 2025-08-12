@@ -2,18 +2,28 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-12T09:07:08.163Z
+date: 2025-08-12T09:58:05.110Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
 # August 12th - Fishing Balancing
+## Fixed
+* Fixed an issue where the biome difficulty did not previously actually affect catch rates.
+* Fixed some issues where fail chance multipliers were not being calculated correctly.
 ## Changed
 * Adjusted fail rate of fishing rods:
   * Basic Rod: 10% => 30%
   * Advanced Rod: 7% => 20%
   * Master Rod: 4% => 10%
+* Made a HUGE overhaul to the biome fish lists, difficulties, and catch chances. You can check the wiki for exact details, however some notable changes include:
+  * The names of fish in specific biomes should generally more closely resemble the theme/name of the biome they are in
+  * The catch chances for each tier of fish should be more consistent
+  * The biome difficulty is now properly calculated/scaled based on the amount of each tier of fish available in the biome (and therefore more consistent)
+  * Fish names, profit, weight and rarity level were unaffected during this overhaul.
+
+This means some fish were swapped or moved between different biomes and catch chances were changed for many of the more rare fish.
 
 # August 11th - Fishing QOL & Bug Fixes
 ## Fixed

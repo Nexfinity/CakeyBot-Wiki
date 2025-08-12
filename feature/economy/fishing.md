@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-12T09:39:51.047Z
+date: 2025-08-12T09:40:45.587Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -118,7 +118,7 @@ You can check your own inventory or look at another player’s stats if you have
 | **Weight (lbs)**     | The minimum and maximum possible weight range of the fish.                   |
 | **Biome Difficulty** | Affects all fish in the biome. Higher = harder to catch fish.                |
 
-## 🌿 Verdant Marsh — Difficulty 0.8x
+## 🌿 Verdant Marsh — Difficulty 0.6x
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
 | Glimmerfin Tetra | Common   | 110–230     | 95%     | 0.3–0.7      |
@@ -128,7 +128,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Bramble Pike     | Rare     | 800–1,200   | 38%     | 4.0–6.5      |
 | Thornscale Eel   | Epic     | 1,700–2,400 | 18%     | 5.5–8.0      |
 
-## ❄ Frostpeak Lake — Difficulty 1.0x
+## ❄ Frostpeak Lake — Difficulty 1.3x
 | Fish             | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ---------------- | --------- | ----------- | ------- | ------------ |
 | Icewhisk Minnow  | Common    | 120–270     | 93%     | 0.4–0.8      |
@@ -138,7 +138,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Snowblade Trout  | Epic      | 1,800–2,700 | 20%     | 7.0–12.0     |
 | Cryo Leviathan   | Legendary | 3,400–4,000 | 6%      | 15.0–25.0    |
 
-## 🔥 Emberdeep Caverns — Difficulty 1.2x
+## 🔥 Emberdeep Caverns — Difficulty 1.4x
 | Fish                | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------------- | --------- | ----------- | ------- | ------------ |
 | Ember Guppy         | Common    | 100–210     | 91%     | 0.3–0.7      |
@@ -170,7 +170,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Sylvan Eel              | Epic      | 1,800–2,800 | 18%     | 6.0–9.0      |
 | Spiritfish of the Grove | Legendary | 3,400–4,000 | 5%      | 9.0–14.0     |
 
-## 🏜 Sunscorch Dunes — Difficulty 1.0x
+## 🏜 Sunscorch Dunes — Difficulty 1.1x
 | Fish            | Rarity    | Value Range | Catch % | Weight (lbs) |
 | --------------- | --------- | ----------- | ------- | ------------ |
 | Mirage Minnow   | Common    | 110–250     | 84%     | 0.2–0.6      |
@@ -200,7 +200,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Quartzjaw     | Epic      | 1,800–2,700 | 20%     | 6.0–10.0     |
 | Opal Serpent  | Legendary | 3,400–4,000 | 5%      | 10.0–15.0    |
 
-## 🌩 Stormbreaker Coast — Difficulty 2.2x
+## 🌩 Stormbreaker Coast — Difficulty 2.5x
 | Fish                 | Rarity   | Value Range  | Catch % | Weight (lbs) |
 | -------------------- | -------- | ------------ | ------- | ------------ |
 | Tempest Darter       | Common   | 110–240      | 97%     | 0.4–0.9      |

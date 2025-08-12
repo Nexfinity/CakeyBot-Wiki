@@ -2,11 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-11T10:02:59.758Z
+date: 2025-08-12T09:07:08.163Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 12th - Fishing Balancing
+## Changed
+* Adjusted fail rate of fishing rods:
+  * Basic Rod: 10% => 30%
+  * Advanced Rod: 7% => 20%
+  * Master Rod: 4% => 10%
 
 # August 11th - Fishing QOL & Bug Fixes
 ## Fixed

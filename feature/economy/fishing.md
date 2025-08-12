@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-12T09:40:45.587Z
+date: 2025-08-12T09:40:58.699Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -210,7 +210,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Stormspine Barracuda | Epic     | 2,000–2,900  | 18%     | 8.0–13.0     |
 | Skyshatter Leviathan | Mythic   | 6,500–10,000 | 2%      | 30.0–50.0    |
 
-## ☠ Cursed Bog — Difficulty 1.8x
+## ☠ Cursed Bog — Difficulty 2.2x
 | Fish       | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------- | -------- | ----------- | ------- | ------------ |
 | Bogskipper | Common   | 120–240     | 90%     | 0.3–0.8      |
@@ -220,7 +220,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Soulcarp   | Epic     | 1,800–2,800 | 20%     | 6.5–10.0     |
 | Wraithfin  | Mythic   | 5,800–9,200 | 2%      | 22.0–35.0    |
 
-## 🏔 Crystalglass Highlands — Difficulty 1.1x
+## 🏔 Crystalglass Highlands — Difficulty 1.3x
 | Fish                 | Rarity    | Value Range | Catch % | Weight (lbs) |
 | -------------------- | --------- | ----------- | ------- | ------------ |
 | Silverstream Koi     | Common    | 150–270     | 89%     | 0.4–1.0      |
@@ -230,7 +230,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Glassscale           | Epic      | 1,900–2,900 | 20%     | 7.0–11.0     |
 | Celestine Ray        | Legendary | 3,400–4,000 | 5%      | 12.0–18.0    |
 
-## ✨ Faelight Glade — Difficulty 1.2x
+## ✨ Faelight Glade — Difficulty 1.1x
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |
 | Petalfin      | Common    | 120–260     | 86%     | 0.3–0.7      |

@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-09T01:07:54.360Z
+date: 2025-08-12T08:19:58.927Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -95,11 +95,6 @@ You can check your own inventory or look at another player’s stats if you have
 
 > **Note:** You must buy the previous rod before you can buy the next rod. For example, in order to buy the "Legendary Rod", you must first purchase the "Advanced Rod" THEN the "Master Rod" before you can purchase the "Legendary Rod".
 {.is-info}
-
-## 💡 Efficiency Notes
-* Each 10,000 upgrade cost consistently reduces fail chance by 2–3%.
-* The Advanced → Master step gives the same fail chance drop as Basic → Advanced but at the same cost, making it a solid mid-tier upgrade.
-* The final Legendary Rod upgrade is the most expensive per % improvement, but ideal for minimizing wasted casts.
 
 # Fishing Bait Types
 | Bait Type | Name | Description | Cost | Max Inventory | Effect |

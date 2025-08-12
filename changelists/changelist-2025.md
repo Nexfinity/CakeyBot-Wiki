@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-12T09:58:05.110Z
+date: 2025-08-12T10:01:33.002Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -12,6 +12,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 ## Fixed
 * Fixed an issue where the biome difficulty did not previously actually affect catch rates.
 * Fixed some issues where fail chance multipliers were not being calculated correctly.
+    * This means upgraded rods should make a much more significant difference in catch chances, especially in biomes with greater difficulties.
 ## Changed
 * Adjusted fail rate of fishing rods:
   * Basic Rod: 10% => 30%

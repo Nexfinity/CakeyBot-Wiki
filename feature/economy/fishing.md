@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-12T08:19:58.927Z
+date: 2025-08-12T08:24:41.567Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -88,9 +88,9 @@ You can check your own inventory or look at another player’s stats if you have
 # Fishing Rod List
 | Rod Name          | Cost   | Fail Chance | Description                                            |
 | ----------------- | ------ | ----------- | ------------------------------------------------------ |
-| **Basic Rod**     | Free   | 10%         | Fishing rod with a 10% chance of failure when casting. |
-| **Advanced Rod**  | 25,000 | 7%          | Fishing rod with a 7% chance of failure when casting.  |
-| **Master Rod**    | 50,000 | 4%          | Fishing rod with a 4% chance of failure when casting.  |
+| **Basic Rod**     | Free   | 30%         | Fishing rod with a 30% chance of failure when casting. |
+| **Advanced Rod**  | 25,000 | 20%          | Fishing rod with a 20% chance of failure when casting.  |
+| **Master Rod**    | 50,000 | 10%          | Fishing rod with a 10% chance of failure when casting.  |
 | **Legendary Rod** | 100,000 | 2%          | Fishing rod with a 2% chance of failure when casting.  |
 
 > **Note:** You must buy the previous rod before you can buy the next rod. For example, in order to buy the "Legendary Rod", you must first purchase the "Advanced Rod" THEN the "Master Rod" before you can purchase the "Legendary Rod".

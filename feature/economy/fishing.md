@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-12T08:24:41.567Z
+date: 2025-08-12T08:47:24.694Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -103,7 +103,7 @@ You can check your own inventory or look at another player’s stats if you have
 | ExtraBaitChance | Wormhole Larvae | Increases chance of finding additional bait while fishing to **15%**. **Consumed on any bait find.** | 30,000 | 10 | `ExtraBaitChance += 0.15` |
 | DoubleProfitNextCatch | Golden Minnow | Doubles the profit of the next fish caught. **Consumed on any fish catch.** | 25,000 | 10 | `ProfitMultiplier = 2.0`<br>`ConsumeOnCatch = true` |
 | HigherTierChance | Titan Worm | Increases chance (**1.5×**) of catching a higher-tier fish. **Consumed on any fish catch.** | 15,000 | 10 | `HigherTierChanceMultiplier ×= 1.5`<br>`ConsumeOnCatch = true` |
-| TrashMagnet | Rusted Can Lure | Increases chance (**+50%**) of catching trash instead of fish. **Consumed on trash caught.** | 5,000 | 10 | `FailChanceMultiplier ×= 1.5` |
+| TrashMagnet | Rusted Can Lure | Increases chance (**+50%**) of catching trash instead of fish. **Consumed on trash catch.** | 5,000 | 10 | `FailChanceMultiplier ×= 1.5` |
 | FishMagnet | Pearlscale Grub | Decreases chance (**−50%**) of catching trash, making fish more likely. **Consumed on fish catch.** | 5,000 | 10 | `FailChanceMultiplier ×= 0.5`<br>`ConsumeOnCatch = true` |
 
 # 🎣 Fishing Biomes & Fish Guide

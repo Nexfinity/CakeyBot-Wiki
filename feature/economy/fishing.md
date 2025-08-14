@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-14T11:44:01.399Z
+date: 2025-08-14T11:45:35.295Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -120,7 +120,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🌿 Verdant Marsh
 **Difficulty:** 0.6x
-**Cost:** FREE
+**Cost:** FREE (Unlocked by default)
 **Min. Owned Biomes:** 0
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
@@ -133,7 +133,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## ❄ Frostpeak Lake
 **Difficulty:** 1.3x
-**Cost:** FREE
+**Cost:** 88,000
 **Min. Owned Biomes:** 0
 | Fish             | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ---------------- | --------- | ----------- | ------- | ------------ |
@@ -146,7 +146,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🔥 Emberdeep Caverns
 **Difficulty:** 1.4x
-**Cost:** FREE
+**Cost:** 94,000
 **Min. Owned Biomes:** 0
 | Fish                | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------------- | --------- | ----------- | ------- | ------------ |
@@ -159,7 +159,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🪸 Coral Archipelago
 **Difficulty:** 2.0x
-**Cost:** FREE
+**Cost:** 188,000
 **Min. Owned Biomes:** 3
 | Fish                  | Rarity   | Value Range | Catch % | Weight (lbs) |
 | --------------------- | -------- | ----------- | ------- | ------------ |
@@ -173,7 +173,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🌌 Twilight Forest Streams
 **Difficulty:** 0.7x
-**Cost:** FREE
+**Cost:** FREE (Unlocked by default)
 **Min. Owned Biomes:** 0
 | Fish                    | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ----------------------- | --------- | ----------- | ------- | ------------ |
@@ -187,7 +187,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🏜 Sunscorch Dunes
 **Difficulty:** 1.1x
-**Cost:** FREE
+**Cost:** 70,000
 **Min. Owned Biomes:** 0
 | Fish            | Rarity    | Value Range | Catch % | Weight (lbs) |
 | --------------- | --------- | ----------- | ------- | ------------ |
@@ -200,7 +200,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🌊 Abyssal Trench
 **Difficulty:** 3.0x
-**Cost:** FREE
+**Cost:** 327,000
 **Min. Owned Biomes:** 5
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
@@ -213,7 +213,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 💎 Crystal Caverns
 **Difficulty:** 1.2x
-**Cost:** FREE
+**Cost:** 83,000
 **Min. Owned Biomes:** 0
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |
@@ -226,7 +226,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🌩 Stormbreaker Coast
 **Difficulty:** 2.5x
-**Cost:** FREE
+**Cost:** 269,000
 **Min. Owned Biomes:** 4
 | Fish                 | Rarity   | Value Range  | Catch % | Weight (lbs) |
 | -------------------- | -------- | ------------ | ------- | ------------ |
@@ -239,7 +239,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## ☠ Cursed Bog
 **Difficulty:** 2.2x
-**Cost:** FREE
+**Cost:** 223,000
 **Min. Owned Biomes:** 4
 | Fish       | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------- | -------- | ----------- | ------- | ------------ |
@@ -252,7 +252,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## 🏔 Crystalglass Highlands
 **Difficulty:** 1.3x
-**Cost:** FREE
+**Cost:** 91,000
 **Min. Owned Biomes:** 0
 | Fish                 | Rarity    | Value Range | Catch % | Weight (lbs) |
 | -------------------- | --------- | ----------- | ------- | ------------ |
@@ -265,7 +265,7 @@ You can check your own inventory or look at another player’s stats if you have
 
 ## ✨ Faelight Glade
 **Difficulty:** 1.1x
-**Cost:** FREE
+**Cost:** 77,000
 **Min. Owned Biomes:** 3
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |

@@ -2,7 +2,7 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-14T12:30:33.754Z
+date: 2025-08-14T12:31:10.908Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
@@ -13,7 +13,7 @@ dateCreated: 2025-01-10T14:55:14.523Z
 * Improved context color for fishing purchases (i.e. owned/max items are now have different colors)
 * Changed "View Fish" for a biome from a button into a link to the wiki instead
 * Higher tier biomes must now be purchased/unlocked
-  * 2 Biomes are available by default for FREE
+  * 2 Biomes are available by default for FREE (atleast one of which includes a legendary fish)
   * Biomes that have higher tier fish are more expensive
   * Some biomes require payment AND a minimum amount of previous biomes to be purchased. (Specific order of biomes does not matter, only amount)
 

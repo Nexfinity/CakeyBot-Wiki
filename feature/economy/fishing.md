@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-14T11:40:27.107Z
+date: 2025-08-14T11:44:01.399Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -160,7 +160,7 @@ You can check your own inventory or look at another player’s stats if you have
 ## 🪸 Coral Archipelago
 **Difficulty:** 2.0x
 **Cost:** FREE
-**Min. Owned Biomes:** 0
+**Min. Owned Biomes:** 3
 | Fish                  | Rarity   | Value Range | Catch % | Weight (lbs) |
 | --------------------- | -------- | ----------- | ------- | ------------ |
 | Dazzlefin             | Common   | 120–250     | 94%     | 0.3–0.8      |
@@ -201,7 +201,7 @@ You can check your own inventory or look at another player’s stats if you have
 ## 🌊 Abyssal Trench
 **Difficulty:** 3.0x
 **Cost:** FREE
-**Min. Owned Biomes:** 0
+**Min. Owned Biomes:** 5
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
 | Gloomfang        | Uncommon | 380–600     | 75%     | 2.5–4.0      |
@@ -227,7 +227,7 @@ You can check your own inventory or look at another player’s stats if you have
 ## 🌩 Stormbreaker Coast
 **Difficulty:** 2.5x
 **Cost:** FREE
-**Min. Owned Biomes:** 0
+**Min. Owned Biomes:** 4
 | Fish                 | Rarity   | Value Range  | Catch % | Weight (lbs) |
 | -------------------- | -------- | ------------ | ------- | ------------ |
 | Tempest Darter       | Common   | 110–240      | 97%     | 0.4–0.9      |
@@ -240,7 +240,7 @@ You can check your own inventory or look at another player’s stats if you have
 ## ☠ Cursed Bog
 **Difficulty:** 2.2x
 **Cost:** FREE
-**Min. Owned Biomes:** 0
+**Min. Owned Biomes:** 4
 | Fish       | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------- | -------- | ----------- | ------- | ------------ |
 | Bogskipper | Common   | 120–240     | 90%     | 0.3–0.8      |
@@ -266,7 +266,7 @@ You can check your own inventory or look at another player’s stats if you have
 ## ✨ Faelight Glade
 **Difficulty:** 1.1x
 **Cost:** FREE
-**Min. Owned Biomes:** 0
+**Min. Owned Biomes:** 3
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |
 | Petalfin      | Common    | 120–260     | 86%     | 0.3–0.7      |

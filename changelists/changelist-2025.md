@@ -2,11 +2,23 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-12T10:01:33.002Z
+date: 2025-08-14T12:30:33.754Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 14th - Purchase Fishing Biomes
+## Changed
+* Improved context color for fishing purchases (i.e. owned/max items are now have different colors)
+* Changed "View Fish" for a biome from a button into a link to the wiki instead
+* Higher tier biomes must now be purchased/unlocked
+  * 2 Biomes are available by default for FREE
+  * Biomes that have higher tier fish are more expensive
+  * Some biomes require payment AND a minimum amount of previous biomes to be purchased. (Specific order of biomes does not matter, only amount)
+
+## Added
+* Added "Buy X with X command" alerts to fishing auto-completers to inform users they can buy better gear/biomes
 
 # August 12th - Fishing Balancing
 ## Fixed

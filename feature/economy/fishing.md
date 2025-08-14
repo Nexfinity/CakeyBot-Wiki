@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-14T11:40:01.148Z
+date: 2025-08-14T11:40:27.107Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -131,7 +131,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Bramble Pike     | Rare     | 800–1,200   | 38%     | 4.0–6.5      |
 | Thornscale Eel   | Epic     | 1,700–2,400 | 18%     | 5.5–8.0      |
 
-## ❄ Frostpeak Lake — Difficulty 1.3x
+## ❄ Frostpeak Lake
 **Difficulty:** 1.3x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -144,7 +144,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Snowblade Trout  | Epic      | 1,800–2,700 | 20%     | 7.0–12.0     |
 | Cryo Leviathan   | Legendary | 3,400–4,000 | 6%      | 15.0–25.0    |
 
-## 🔥 Emberdeep Caverns — Difficulty 1.4x
+## 🔥 Emberdeep Caverns
 **Difficulty:** 1.4x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -157,7 +157,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Flamegill Serpent   | Epic      | 2,000–2,900 | 20%     | 6.0–9.0      |
 | Ashdrake            | Legendary | 3,300–3,900 | 5%      | 10.0–18.0    |
 
-## 🪸 Coral Archipelago — Difficulty 2.0x
+## 🪸 Coral Archipelago
 **Difficulty:** 2.0x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -171,7 +171,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Prismtail Marlin      | Epic     | 2,100–2,900 | 18%     | 10.0–16.0    |
 | Tidewyrm              | Mythic   | 6,200–9,800 | 2%      | 20.0–35.0    |
 
-## 🌌 Twilight Forest Streams — Difficulty 0.7x
+## 🌌 Twilight Forest Streams
 **Difficulty:** 0.7x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -185,7 +185,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Sylvan Eel              | Epic      | 1,800–2,800 | 18%     | 6.0–9.0      |
 | Spiritfish of the Grove | Legendary | 3,400–4,000 | 5%      | 9.0–14.0     |
 
-## 🏜 Sunscorch Dunes — Difficulty 1.1x
+## 🏜 Sunscorch Dunes
 **Difficulty:** 1.1x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -198,7 +198,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Blisterjaw      | Epic      | 1,600–2,500 | 20%     | 6.0–10.0     |
 | Djinnscale      | Legendary | 3,200–3,950 | 6%      | 10.0–18.0    |
 
-## 🌊 Abyssal Trench — Difficulty 3.0x
+## 🌊 Abyssal Trench
 **Difficulty:** 3.0x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -211,7 +211,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Abyssborn Eel    | Epic     | 1,700–2,700 | 20%     | 7.0–12.0     |
 | Leviathan Wraith | Mythic   | 6,000–9,500 | 2%      | 25.0–40.0    |
 
-## 💎 Crystal Caverns — Difficulty 1.2x
+## 💎 Crystal Caverns
 **Difficulty:** 1.2x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -224,7 +224,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Quartzjaw     | Epic      | 1,800–2,700 | 20%     | 6.0–10.0     |
 | Opal Serpent  | Legendary | 3,400–4,000 | 5%      | 10.0–15.0    |
 
-## 🌩 Stormbreaker Coast — Difficulty 2.5x
+## 🌩 Stormbreaker Coast
 **Difficulty:** 2.5x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -237,7 +237,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Stormspine Barracuda | Epic     | 2,000–2,900  | 18%     | 8.0–13.0     |
 | Skyshatter Leviathan | Mythic   | 6,500–10,000 | 2%      | 30.0–50.0    |
 
-## ☠ Cursed Bog — Difficulty 2.2x
+## ☠ Cursed Bog
 **Difficulty:** 2.2x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -250,7 +250,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Soulcarp   | Epic     | 1,800–2,800 | 20%     | 6.5–10.0     |
 | Wraithfin  | Mythic   | 5,800–9,200 | 2%      | 22.0–35.0    |
 
-## 🏔 Crystalglass Highlands — Difficulty 1.3x
+## 🏔 Crystalglass Highlands
 **Difficulty:** 1.3x
 **Cost:** FREE
 **Min. Owned Biomes:** 0
@@ -263,7 +263,7 @@ You can check your own inventory or look at another player’s stats if you have
 | Glassscale           | Epic      | 1,900–2,900 | 20%     | 7.0–11.0     |
 | Celestine Ray        | Legendary | 3,400–4,000 | 5%      | 12.0–18.0    |
 
-## ✨ Faelight Glade — Difficulty 1.1x
+## ✨ Faelight Glade
 **Difficulty:** 1.1x
 **Cost:** FREE
 **Min. Owned Biomes:** 0

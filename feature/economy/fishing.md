@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-12T09:40:58.699Z
+date: 2025-08-14T11:40:01.148Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -118,7 +118,10 @@ You can check your own inventory or look at another player’s stats if you have
 | **Weight (lbs)**     | The minimum and maximum possible weight range of the fish.                   |
 | **Biome Difficulty** | Affects all fish in the biome. Higher = harder to catch fish.                |
 
-## 🌿 Verdant Marsh — Difficulty 0.6x
+## 🌿 Verdant Marsh
+**Difficulty:** 0.6x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
 | Glimmerfin Tetra | Common   | 110–230     | 95%     | 0.3–0.7      |
@@ -129,6 +132,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Thornscale Eel   | Epic     | 1,700–2,400 | 18%     | 5.5–8.0      |
 
 ## ❄ Frostpeak Lake — Difficulty 1.3x
+**Difficulty:** 1.3x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish             | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ---------------- | --------- | ----------- | ------- | ------------ |
 | Icewhisk Minnow  | Common    | 120–270     | 93%     | 0.4–0.8      |
@@ -139,6 +145,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Cryo Leviathan   | Legendary | 3,400–4,000 | 6%      | 15.0–25.0    |
 
 ## 🔥 Emberdeep Caverns — Difficulty 1.4x
+**Difficulty:** 1.4x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish                | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------------- | --------- | ----------- | ------- | ------------ |
 | Ember Guppy         | Common    | 100–210     | 91%     | 0.3–0.7      |
@@ -149,6 +158,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Ashdrake            | Legendary | 3,300–3,900 | 5%      | 10.0–18.0    |
 
 ## 🪸 Coral Archipelago — Difficulty 2.0x
+**Difficulty:** 2.0x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish                  | Rarity   | Value Range | Catch % | Weight (lbs) |
 | --------------------- | -------- | ----------- | ------- | ------------ |
 | Dazzlefin             | Common   | 120–250     | 94%     | 0.3–0.8      |
@@ -160,6 +172,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Tidewyrm              | Mythic   | 6,200–9,800 | 2%      | 20.0–35.0    |
 
 ## 🌌 Twilight Forest Streams — Difficulty 0.7x
+**Difficulty:** 0.7x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish                    | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ----------------------- | --------- | ----------- | ------- | ------------ |
 | Shadow Minnow           | Common    | 100–230     | 87%     | 0.2–0.5      |
@@ -171,6 +186,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Spiritfish of the Grove | Legendary | 3,400–4,000 | 5%      | 9.0–14.0     |
 
 ## 🏜 Sunscorch Dunes — Difficulty 1.1x
+**Difficulty:** 1.1x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish            | Rarity    | Value Range | Catch % | Weight (lbs) |
 | --------------- | --------- | ----------- | ------- | ------------ |
 | Mirage Minnow   | Common    | 110–250     | 84%     | 0.2–0.6      |
@@ -181,6 +199,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Djinnscale      | Legendary | 3,200–3,950 | 6%      | 10.0–18.0    |
 
 ## 🌊 Abyssal Trench — Difficulty 3.0x
+**Difficulty:** 3.0x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish             | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------------- | -------- | ----------- | ------- | ------------ |
 | Gloomfang        | Uncommon | 380–600     | 75%     | 2.5–4.0      |
@@ -191,6 +212,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Leviathan Wraith | Mythic   | 6,000–9,500 | 2%      | 25.0–40.0    |
 
 ## 💎 Crystal Caverns — Difficulty 1.2x
+**Difficulty:** 1.2x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |
 | Gleamfish     | Common    | 140–260     | 88%     | 0.5–1.0      |
@@ -201,6 +225,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Opal Serpent  | Legendary | 3,400–4,000 | 5%      | 10.0–15.0    |
 
 ## 🌩 Stormbreaker Coast — Difficulty 2.5x
+**Difficulty:** 2.5x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish                 | Rarity   | Value Range  | Catch % | Weight (lbs) |
 | -------------------- | -------- | ------------ | ------- | ------------ |
 | Tempest Darter       | Common   | 110–240      | 97%     | 0.4–0.9      |
@@ -211,6 +238,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Skyshatter Leviathan | Mythic   | 6,500–10,000 | 2%      | 30.0–50.0    |
 
 ## ☠ Cursed Bog — Difficulty 2.2x
+**Difficulty:** 2.2x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish       | Rarity   | Value Range | Catch % | Weight (lbs) |
 | ---------- | -------- | ----------- | ------- | ------------ |
 | Bogskipper | Common   | 120–240     | 90%     | 0.3–0.8      |
@@ -221,6 +251,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Wraithfin  | Mythic   | 5,800–9,200 | 2%      | 22.0–35.0    |
 
 ## 🏔 Crystalglass Highlands — Difficulty 1.3x
+**Difficulty:** 1.3x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish                 | Rarity    | Value Range | Catch % | Weight (lbs) |
 | -------------------- | --------- | ----------- | ------- | ------------ |
 | Silverstream Koi     | Common    | 150–270     | 89%     | 0.4–1.0      |
@@ -231,6 +264,9 @@ You can check your own inventory or look at another player’s stats if you have
 | Celestine Ray        | Legendary | 3,400–4,000 | 5%      | 12.0–18.0    |
 
 ## ✨ Faelight Glade — Difficulty 1.1x
+**Difficulty:** 1.1x
+**Cost:** FREE
+**Min. Owned Biomes:** 0
 | Fish          | Rarity    | Value Range | Catch % | Weight (lbs) |
 | ------------- | --------- | ----------- | ------- | ------------ |
 | Petalfin      | Common    | 120–260     | 86%     | 0.3–0.7      |

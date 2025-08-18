@@ -2,11 +2,20 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-14T12:31:10.908Z
+date: 2025-08-18T17:16:08.115Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 18th - Modify Image Fixes
+## Fixed
+* Fixed most of the `/modifyimage` commands excluding the basic re-color ones such as 'red', 'green' ,'blue', etc.
+
+## Changed
+* The `/modifyimage` commands no longer force-resize images down to be tiny.
+* The `/modifyimage` commands now preserve original quality and aspect ratio.
+* Most of the `/modifyimage` commands (the working ones), are now processed in-memory in the bot itself rather than depending on a third-party API. This ensures better performance (faster), quality and availability.
 
 # August 14th - Purchase Fishing Biomes
 ## Changed

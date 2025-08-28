@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-18T17:16:08.115Z
+date: 2025-08-28T23:42:36.627Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# August 28th - Banner Rendering Fixes
+## Fixed
+* Fixed some rendering issues relating to center alignment and shape strokes for join/leave & rank card banners.
 
 # August 18th - Modify Image Fixes
 ## Fixed

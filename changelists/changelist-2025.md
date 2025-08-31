@@ -2,15 +2,18 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-30T23:20:28.522Z
+date: 2025-08-31T02:11:38.904Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# August 29th - Chat Bot Replies
+# August 29th - Chat Bot Replies & Phishing image Detection
 ## Changed
 * Chat AI Bot will now use Discord 'replies' when responding. This makes it more clear that the bot is explicitly replying to a specific user. Also makes the conversation feel a bit more 'natural'.
+
+## Added
+* Added image hash detection to Auto Mod's "Phishing URLs" detection. This should help automatically detect alot of the new phishing attacks using images to bypass the traditional text auto moderation. (Such as the recent "MrBeast" and "elon musk" gambling phishing sites).
 
 # August 28th - Banner Rendering Fixes
 ## Fixed

@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: 
 published: 1
-date: 2025-05-02T09:17:02.123Z
+date: 2025-08-31T02:12:54.799Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -41,6 +41,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Zalgo detection
 * Phishing URL Detection
   * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
+  * **Note:** We now include a blacklisted image hash database. This will actively try to block known phishing related images that bypass traditional text moderation bots/tools.
 * Markdown Headers
 
 # Punishment Types

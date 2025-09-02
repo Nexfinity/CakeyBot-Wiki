@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-09-02T03:52:48.522Z
+date: 2025-09-02T09:23:43.016Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# September 2nd - DALLE3 Support
+## Added
+* Added the ability to swap between StableDiffusion and DALLE3 enginges on the `/imagine` command.
 
 # September 1st - AI Chat Bot Limit Increase
 ## Changed

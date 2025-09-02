@@ -2,11 +2,16 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-08-31T02:11:38.904Z
+date: 2025-09-02T03:52:31.720Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+#September 1st - AI Chat Bot Limit Increase
+## Changed
+* Increased the chat bot AI request limit to 1k (previously was 750)
+* Increased the chat bot AI max token limit to 4k for custom bots and 1k for all others. Previously it was 1k for custom bots and 200 for all others. This means output text should now be significantly longer than it was previously. (and in the case of custom bots, much closer to Discord's 2k character limit) 
 
 # August 29th - Chat Bot Replies & Phishing image Detection
 ## Changed

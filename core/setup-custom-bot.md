@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-07-29T05:58:48.991Z
+date: 2025-09-11T22:12:44.885Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -116,6 +116,9 @@ Once you have created and setup the custom bot instance, you will need to assign
 5. You may return to the web dashbord and on the "Premium" page there should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
 
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
+{.is-info}
+  
+> **Note:** While you can keep the main Cakey Bot & your Custom Bot in the same server. It is advised to kick the main Cakey Bot to prevent duplicate data (such as double audit logs, or users gaining extra leveling xp from both bots.)
 {.is-info}
   
 ## Enabling 2FA For Moderation

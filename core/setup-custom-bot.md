@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-09-12T01:44:53.265Z
+date: 2025-09-12T01:50:01.773Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -91,6 +91,8 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/
 ![settoken.png](/settoken.png)
 
 5. Click "Set Token".
+  
+6. The bot will now being the start-up sequence. Note that the very first startup may take a minute or two while the bot performs initial setup and uploads the custom emotes.
 
 > Note: Once you set the token, you will see a blue "Invite" button appear on the table. Do NOT click this yet, you will need to follow additional steps in the "Inviting Your Custom Bot" section below before the invite URL will work properly.
 {.is-warning}

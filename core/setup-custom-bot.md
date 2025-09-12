@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: 
 published: 1
-date: 2025-09-11T22:12:44.885Z
+date: 2025-09-12T01:41:41.947Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -180,3 +180,6 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
   
 **Q:** How do I setup custom status, emotes and other advanced customization for the custom bot? 
  **A:** Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.
+  
+**Q:** I'm getting the "Private application cannot have a default authorization link" error.
+ **A:** Go to the "Installation" section on the Discord developer dashboard and set your "Install Link" to "None". You can also optionally just make the bot public, however, making the bot public is not reccomended as anyone can invite the custom bot to their server and potentially abuse it.

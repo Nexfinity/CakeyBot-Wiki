@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: 
 published: 1
-date: 2025-05-12T01:20:20.294Z
+date: 2025-10-22T19:47:27.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -17,23 +17,23 @@ Cakey Bot supports over 16 different languages across the bot  and web dashboard
 
 | Language            | Contributors                          | Bot Completion % | Web Completion % |
 | :------------------| :------------------------------------- | :--------------- | :---------------- |
-| Arabic/العربية      | Sipancoolboy, Basam                     | 24%               | 40%               |
+| Arabic/العربية      | Sipancoolboy, Basam                     | 24%               | 39%               |
 | English            | –                                     | 100%              | 100%              |
-| Chinese Simplified/中文 | Lukeee                            | 45%               | 69%               |
-| Dutch/Nederlands   | Vikthor                               | 44%               | 68%               |
-| French/Français    | –                                     | 49%               | 70%               |
-| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         | 70%               | 91%               |
-| Greek/ελληνικά      | xxNikosGaming                        | 44%               | 69%               |
-| Italian/Italiano   | GiorgioHerbie                         | 45%               | 69%               |
-| Japanese/日本語       | hikarun                             | 44%               | 69%               |
-| Korean/한국어        | Johnmacro                            | 45%               | 68%               |
-| Portuguese/Português | Kaiser, LoadSec                     | 50%               | 75%               |
-| Romanian/Limba română | Silviu200530                       | 44%               | 68%               |
-| Russian/Русский язык | Misha133                            | 55%               | 70%               |
-| Spanish/Español    | Xurtan                                | 100%              | 100%              |
-| Swedish/Svenska    | Hampus                                | 45%               | 69%               |
-| Turkish/Türkçe     | Aleph, Oğuzhan                        | 45%               | 69%               |
-| Ukrainian/Українська | papip1                              | 45%               | 70%               |
+| Chinese Simplified/中文 | Lukeee                            | 44%               | 68%               |
+| Dutch/Nederlands   | Vikthor                               | 44%               | 66%               |
+| French/Français    | –                                     | 48%               | 68%               |
+| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         | 75%               | 90%               |
+| Greek/ελληνικά      | xxNikosGaming                        | 44%               | 67%               |
+| Italian/Italiano   | GiorgioHerbie                         | 45%               | 68%               |
+| Japanese/日本語       | hikarun                             | 44%               | 67%               |
+| Korean/한국어        | Johnmacro                            | 45%               | 67%               |
+| Portuguese/Português | Kaiser, LoadSec                     | 49%               | 73%               |
+| Romanian/Limba română | Silviu200530                       | 44%               | 67%               |
+| Russian/Русский язык | Misha133                            | 54%               | 69%               |
+| Spanish/Español    | Xurtan                                | 100%              | 99%              |
+| Swedish/Svenska    | Hampus                                | 44%               | 67%               |
+| Turkish/Türkçe     | Aleph, Oğuzhan                        | 45%               | 68%               |
+| Ukrainian/Українська | papip1                              | 44%               | 68%               |
 
 We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.
 

@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: 
 published: 1
-date: 2025-02-20T06:32:56.124Z
+date: 2025-10-23T01:40:53.266Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -32,7 +32,7 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 {.is-info}
 
 # Supported Stats
-* Total Members ~ The total number of members in the server
+* Total Members ~ The total number of members in the server (bots & humans combined)
 * Total Bots ~ Tracks how many bots are in the server
 * Total Humans ~ Tracks how many Humans are in the server
 <hr>

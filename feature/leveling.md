@@ -2,7 +2,7 @@
 title: Leveling
 description: 
 published: 1
-date: 2025-08-11T10:01:26.833Z
+date: 2025-10-24T05:16:27.973Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -130,6 +130,33 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 | Decay Rate    | Determines the percentage of XP lost per day once the decay process begins. This is based on the user's current XP and is applied daily.           | 0.10 (10%)    |
 | Decay Days    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
 | Decay Minimum | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
+
+
+# Season XP Drops
+Season XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming.
+
+> **Note:** Season XP Drops can only occur when the feature is enabled and a valid output channel is configured.
+{.is-info}
+
+## Configuration Settings
+| Name                  | Description                                                                                                                                              | Default Value |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Drops Enabled         | Determines whether Season XP Drops are active. When disabled, no XP drops will occur regardless of other settings.                                      | Off (0)       |
+| Output Channel        | The channel where XP drop events are announced. If no valid channel is set, drops will not trigger.                                                     | None (0)      |
+| Min. XP               | The minimum XP amount that can be awarded during a drop event.                                                                                          | 500           |
+| Max. XP               | The maximum XP amount that can be awarded during a drop event.                                                                                          | 2000          |
+| Min. Time (Hours)     | The minimum interval between XP drop events, measured in hours.                                                                                         | 2 hours       |
+| Max. Time (Hours)     | The maximum interval between XP drop events, measured in hours.                                                                                         | 6 hours       |
+
+**Behavior Overview**
+- XP drop events are randomly scheduled between the configured minimum and maximum hours.  
+- Each drop awards a random XP amount within the defined XP range.  
+- Drops will only occur when both the feature and output channel are set.  
+- Claiming a drop resets the drop timer and triggers the next event window.
+* The previous drop must be claimed for a new one to spawn.
+
+> **Tip:** Use shorter time intervals during events to increase engagement and activity.
+{.is-success}
 
 # Rank Card Customization
 

@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: 
 published: 1
-date: 2025-09-02T09:27:58.037Z
+date: 2025-10-24T05:17:13.890Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# October 24th - Seasonal XP Drops
+## Added
+* Added seasonal XP drops for leveling
 
 # September 2nd - DALLE3 Support
 ## Added

@@ -1,6 +1,6 @@
 ---
 title: Twitch Integration
-description: 
+description: Discord Twitch alerts with Cakey Bot - Stream notifications, live roles, subscriber sync. Streamer integration guide.
 published: 1
 date: 2024-11-23T21:01:06.899Z
 tags: 

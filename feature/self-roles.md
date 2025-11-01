@@ -1,6 +1,6 @@
 ---
 title: Self Roles
-description: 
+description: Discord self-assignable roles with Cakey Bot - Reaction roles, role menus, color selection. Member customization guide.
 published: 1
 date: 2025-02-23T21:53:08.659Z
 tags: 

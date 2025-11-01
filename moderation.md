@@ -1,6 +1,6 @@
 ---
 title: Moderation Category
-description: 
+description: Discord moderation with Cakey Bot - Auto mod, bans, raid protection, logging. Complete moderation documentation.
 published: 1
 date: 2024-03-07T20:44:08.275Z
 tags: 

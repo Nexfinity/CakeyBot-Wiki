@@ -1,6 +1,6 @@
 ---
 title: Tags
-description: 
+description: Discord tag system with Cakey Bot - Quick responses, stored information, command aliases. Knowledge base creation guide.
 published: 1
 date: 2024-12-04T06:17:13.072Z
 tags: 

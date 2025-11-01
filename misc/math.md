@@ -1,6 +1,6 @@
 ---
 title: Math Command
-description: 
+description: Math calculations in Discord with Cakey Bot - Calculator commands, expressions, conversions. Mathematical tools usage guide.
 published: 1
 date: 2024-06-17T05:54:57.342Z
 tags: 

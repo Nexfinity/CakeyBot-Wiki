@@ -1,6 +1,6 @@
 ---
 title: Purging
-description: 
+description: Bulk delete Discord messages with Cakey Bot - Purge commands, selective deletion, cleanup tools. Message management guide.
 published: 1
 date: 2025-02-05T00:40:26.647Z
 tags: 

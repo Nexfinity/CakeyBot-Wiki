@@ -1,6 +1,6 @@
 ---
 title: Announcements
-description: 
+description: Discord welcome messages with Cakey Bot - Greet members, assign roles, send DMs automatically. Custom welcome setup guide.
 published: 1
 date: 2025-01-22T01:16:00.017Z
 tags: 

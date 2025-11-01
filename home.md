@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Cakey Bot Docs
+description: Cakey Bot documentation - Complete guide for Discord bot setup, features, commands. Configure music, moderation, leveling and more.
 published: 1
 date: 2025-02-01T06:03:41.164Z
 tags: 

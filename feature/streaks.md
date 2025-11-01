@@ -1,6 +1,6 @@
 ---
 title: Streaks
-description: 
+description: Discord daily streak system with Cakey Bot - Reward consistency, daily check-ins, streak tracking. Engagement rewards setup guide.
 published: 1
 date: 2025-02-23T20:56:41.409Z
 tags: 

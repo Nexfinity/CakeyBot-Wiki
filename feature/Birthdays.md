@@ -1,6 +1,6 @@
 ---
 title: Birthdays
-description: 
+description: Discord birthday bot features - Track birthdays, send wishes, birthday roles with Cakey Bot. Community celebration guide.
 published: 1
 date: 2024-12-20T01:15:42.593Z
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: AFK Messages
-description: 
+description: Discord AFK status with Cakey Bot - Away messages, return notifications, status tracking. Automatic presence system guide.
 published: 1
 date: 2024-12-04T06:14:59.110Z
 tags: 

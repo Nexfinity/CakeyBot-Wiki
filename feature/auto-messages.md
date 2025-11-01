@@ -1,6 +1,6 @@
 ---
 title: Auto Messages
-description: 
+description: Schedule Discord messages with Cakey Bot - Timed announcements, recurring posts, auto content. Automated messaging setup guide.
 published: 1
 date: 2025-01-24T06:24:40.436Z
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Support Tickets
-description: 
+description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
 date: 2025-01-29T20:52:00.963Z
 tags: 

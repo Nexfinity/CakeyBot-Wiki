@@ -1,6 +1,6 @@
 ---
 title: Mention Cooldowns
-description: 
+description: Discord mention spam prevention with Cakey Bot - Cooldown timers, anti-ping, rate limiting. Mention abuse protection guide.
 published: 1
 date: 2024-12-19T21:16:44.051Z
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Music Category
-description: 
+description: Free Discord music bot - Spotify, Soundcloud, Apple Music playback with Cakey Bot. Queue management and setup guide.
 published: 1
 date: 2024-03-07T20:44:06.034Z
 tags: 

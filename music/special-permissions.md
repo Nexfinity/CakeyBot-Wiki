@@ -1,6 +1,6 @@
 ---
 title: Special Permissions
-description: 
+description: Discord music bot permissions with Cakey Bot - DJ roles, skip voting, queue control access. Music permission configuration guide.
 published: 1
 date: 2023-11-12T16:35:37.299Z
 tags: 

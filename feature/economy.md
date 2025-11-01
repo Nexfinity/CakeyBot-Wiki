@@ -1,6 +1,6 @@
 ---
 title: Economy
-description: 
+description: Discord economy bot features - Work, rob, shop, gambling games with Cakey Bot. Free economy system configuration guide.
 published: 1
 date: 2025-02-01T04:27:15.724Z
 tags: 

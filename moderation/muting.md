@@ -1,6 +1,6 @@
 ---
 title: Muting
-description: 
+description: Discord mute commands with Cakey Bot - Timed mutes, voice muting, mute roles. Complete timeout moderation guide.
 published: 1
 date: 2024-12-04T06:07:57.827Z
 tags: 

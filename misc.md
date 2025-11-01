@@ -1,6 +1,6 @@
 ---
 title: Misc Category
-description: 
+description: Cakey Bot miscellaneous features - Utility commands, fun features, additional tools for Discord. Extra features documentation.
 published: 1
 date: 2024-03-07T20:44:14.890Z
 tags: 

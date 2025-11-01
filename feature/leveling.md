@@ -1,6 +1,6 @@
 ---
 title: Leveling
-description: 
+description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
 date: 2025-02-23T20:33:23.879Z
 tags: 

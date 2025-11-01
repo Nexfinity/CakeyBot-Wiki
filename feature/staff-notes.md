@@ -1,6 +1,6 @@
 ---
 title: Staff Notes
-description: 
+description: Discord staff notes system with Cakey Bot - Track member warnings, mod comments, user history. Moderation notes management guide.
 published: 1
 date: 2025-02-26T03:23:10.102Z
 tags: 

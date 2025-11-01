@@ -1,6 +1,6 @@
 ---
 title: Persistent Roles
-description: 
+description: Discord persistent roles with Cakey Bot - Restore roles after rejoin, sticky roles, role memory. Member role retention guide.
 published: 1
 date: 2024-12-04T06:10:42.744Z
 tags: 

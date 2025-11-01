@@ -1,6 +1,6 @@
 ---
 title: Supported Sources
-description: 
+description: Cakey Bot music sources - Spotify, Apple Music, Soundcloud, Bandcamp support. Multi-platform music streaming guide.
 published: 1
 date: 2024-06-11T21:07:46.778Z
 tags: 

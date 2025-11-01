@@ -1,6 +1,6 @@
 ---
 title: Song Request Channel
-description: 
+description: Discord song request channel with Cakey Bot - Dedicated music commands channel, queue management. Music bot channel setup guide.
 published: 1
 date: 2024-12-04T06:07:16.800Z
 tags: 

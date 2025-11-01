@@ -1,6 +1,6 @@
 ---
 title: Temp Voice Lobbies
-description: 
+description: Discord temporary voice channels with Cakey Bot - Auto-create channels, custom lobbies. Dynamic voice management guide.
 published: 1
 date: 2024-12-04T06:17:55.125Z
 tags: 

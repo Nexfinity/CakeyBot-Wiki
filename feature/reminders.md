@@ -1,6 +1,6 @@
 ---
 title: Reminders
-description: 
+description: Set Discord reminders with Cakey Bot - Personal alerts, scheduled messages, recurring notifications. Time management guide.
 published: 1
 date: 2024-12-04T03:36:45.149Z
 tags: 

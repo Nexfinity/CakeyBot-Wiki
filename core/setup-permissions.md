@@ -1,6 +1,6 @@
 ---
 title: Setup Permissions
-description: 
+description: Configure Cakey Bot Discord permissions - Role requirements, command restrictions, permission setup. Complete security guide.
 published: 1
 date: 2024-11-02T06:04:36.508Z
 tags: 

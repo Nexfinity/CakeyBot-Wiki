@@ -1,6 +1,6 @@
 ---
 title: Warnings
-description: 
+description: Discord warning system with Cakey Bot - Strike tracking, punishment escalation, moderation logs. Discipline management guide.
 published: 1
 date: 2025-02-19T21:13:32.647Z
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Setup Custom Bot
-description: 
+description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
 date: 2025-02-20T05:01:54.246Z
 tags: 

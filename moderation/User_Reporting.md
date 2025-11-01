@@ -1,6 +1,6 @@
 ---
 title: User Reporting
-description: 
+description: Discord user report system with Cakey Bot - Member reports, mod alerts, report tracking. Community moderation reporting guide.
 published: 1
 date: 2025-01-01T01:21:01.578Z
 tags: 

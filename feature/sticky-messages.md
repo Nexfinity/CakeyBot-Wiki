@@ -1,6 +1,6 @@
 ---
 title: Sticky Messages
-description: 
+description: Discord sticky messages with Cakey Bot - Pin important info, persistent announcements. Channel information management guide.
 published: 1
 date: 2024-12-04T03:39:32.106Z
 tags: 

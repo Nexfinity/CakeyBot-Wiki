@@ -1,6 +1,6 @@
 ---
 title: Daily Content
-description: 
+description: Daily automated Discord content with Cakey Bot - Facts, jokes, quotes, custom posts. Engagement automation setup guide.
 published: 1
 date: 2025-02-26T03:12:47.401Z
 tags: 

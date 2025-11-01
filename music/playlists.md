@@ -1,6 +1,6 @@
 ---
 title: Music Playlists
-description: 
+description: Advanced Discord music bot features - Playlists with Cakey Bot. Professional audio setup guide.
 published: 1
 date: 2024-12-04T06:06:35.892Z
 tags: 

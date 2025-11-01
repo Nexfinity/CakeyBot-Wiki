@@ -1,6 +1,6 @@
 ---
 title: Anti-Raid
-description: 
+description: Discord raid protection with Cakey Bot - Mass join detection, verification gates, lockdown. Server security defense guide.
 published: 1
 date: 2025-02-17T07:31:57.465Z
 tags: 

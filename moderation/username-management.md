@@ -1,6 +1,6 @@
 ---
 title: Username Management
-description: 
+description: Discord username moderation with Cakey Bot - Filter usernames, dehoist, normalize names. Username policy enforcement guide.
 published: 1
 date: 2024-12-04T06:24:25.381Z
 tags: 

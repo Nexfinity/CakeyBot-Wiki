@@ -1,6 +1,6 @@
 ---
 title: Audit Log
-description: 
+description: Discord audit logging with Cakey Bot - Track moderation, message edits, member changes. Server security monitoring guide.
 published: 1
 date: 2023-11-12T16:37:45.082Z
 tags: 

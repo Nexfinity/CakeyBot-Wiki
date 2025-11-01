@@ -1,6 +1,6 @@
 ---
 title: Setup Premium
-description: 
+description: Activate Cakey Bot Premium features - 24/7 music, unlimited playlists, advanced moderation. Step-by-step premium activation guide.
 published: 1
 date: 2024-03-04T07:21:39.395Z
 tags: 

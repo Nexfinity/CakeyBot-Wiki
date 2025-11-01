@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2025-02-20T05:01:54.246Z
+date: 2025-09-12T01:50:01.773Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -40,27 +40,37 @@ To purchase a Custom Bot simply follow these instructions:
 2. Give a name to your application and press "Create". Don't worry about it too much right now, you can always change the name of your bot at any time!
 <image src="/image_(1).png" width="800px" alt="Create application popup">
 
-3. Select the "Bot" page from the left side navigation.
+3. Select the "Installation" page and set the "Install Link" to "None".
+
+4. Select the "Bot" page from the left side navigation.
   
-4. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
-4a. Note: "Presence Intent" is not currently used and does NOT have to be enabled.
+5. Scroll down to the Privileged Gateway Intents section and enable the "Server Members Intent" and "Message Content Intent".
+   **Note:** You can also optionally set the bot to private in this step to prevent other suers from inviting it to their servers.
+  
+> Note: "Presence Intent" is not currently used and does NOT have to be enabled. 
+{.is-info}
+  
 <image src="/intents.png" width="800px" alt="Privileged intents">
-> Notice: It is important that you enable these intents. If you do not, the bot will NOT start.
+  
+> If you did not set your "Install Link" to "None" previously, then you will be unable to set your bot as "Private".
+{.is-warning}
+
+> Notice: It is important that you enable these intents. If you do not, the bot will NOT start. Also, do NOT enable the "Require OAuth2 Code Grant", it will block the bot from joining.
 {.is-danger}
 
-5. Press the "Reset Token" button to reset your token
+6. Press the "Reset Token" button to reset your token
 <image src="/image_(5).png" width="800px" alt="Token reset">
   
-6. Press "Yes, do it!" on the modal
+7. Press "Yes, do it!" on the modal
 <image src="/image_(2).png" width="800px" alt="Confirmation popup">
   
-7. Enter 2FA code if necessary
+8. Enter 2FA code if necessary
 <image src="/image_(3).png" width="800px" alt="2FA popup">
 
-8. Now you should see your token, just like in the screenshot below: 
+9. Now you should see your token, just like in the screenshot below: 
 ![token2.png](/token2.png)
   
-9. Press the "Copy" button and keep a hold of your token for later use
+10. Press the "Copy" button and keep a hold of your token for later use
 
 > This token is super secret and you should never give it to anyone else without knowing why or you risk someone else taking over your bot. If you think your token might have leaked, please press the regenerate button or delete your application.
 {.is-warning}
@@ -81,6 +91,8 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/
 ![settoken.png](/settoken.png)
 
 5. Click "Set Token".
+  
+6. The bot will now being the start-up sequence. Note that the very first startup may take a minute or two while the bot performs initial setup and uploads the custom emotes.
 
 > Note: Once you set the token, you will see a blue "Invite" button appear on the table. Do NOT click this yet, you will need to follow additional steps in the "Inviting Your Custom Bot" section below before the invite URL will work properly.
 {.is-warning}
@@ -114,6 +126,9 @@ Once you have created and setup the custom bot instance, you will need to assign
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
 {.is-info}
   
+> **Note:** While you can keep the main Cakey Bot & your Custom Bot in the same server. It is advised to kick the main Cakey Bot to prevent duplicate data (such as double audit logs, or users gaining extra leveling xp from both bots.)
+{.is-info}
+  
 ## Enabling 2FA For Moderation
 If the Custom Bot isn't moderating a server properly, the server may have the Highest security setting enabled. This means that the owner of the Custom Bot will need to have 2FA (2-Factor Authentication) enabled for their Discord account.
 
@@ -128,9 +143,9 @@ The following actions will all fail if that person does not have 2FA (2-Factor A
 * webhook creation (modlog, social feeds)
 * full permission option (administrator)
 
-In order to fix this issue, you will need to enable 2FA on the Discord account that created the custom bot. ([see this discord tutorial](https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication))
+In order to fix this issue, you will need to enable 2FA on the Discord account that created the custom bot. ([see this tutorial](https://support.discord.com/hc/en-us/articles/219576828-Setting-up-Two-Factor-Authentication))
 
-If this isn't an option, you can also disable the 2FA requirement on the server, however, **we do NOT recommend doing that.**
+If this isn't an option, you can also disable the 2FA requirement on the server, however, **we do NOT recommend doing that**.
 
 If you have any issues in getting this sorted, do not hesitate to join our [support server](https://cakey.bot/discord)!
 
@@ -153,17 +168,26 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
 {.is-warning}
   
 # Frequently Asked Questions
-1. Do I need to keep the main Cakey Bot?
-   A. No. You should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
-2. My bot appears to be offline.
-   A. Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
-3. How many servers can I invite the custom bot to?
-   A. Currently, unlimited. This may change in the future if users abuse the capability however.
-4. Will my settings persist from the main Cakey Bot or will I need to set them up again?
-   A. Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
-5. Do I need to assign every server in the dashboard that I invite the custom bot to?
-   A: No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
-6. How do I change the profile picture, username or bio/about me?
-   A: You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
-7. How do I setup custom status, emotes and other advanced customization for the custom bot?
-   A: Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.
+**Q:** Do I need to keep the main Cakey Bot?
+  **A:** No, you should kick the main bot once the custom one is added. However, you can use the premium music bots next to your custom bot, although they will not receive custom branding.
+  
+**Q:** My bot appears to be offline.
+ **A:** Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
+  
+**Q:** How many servers can I invite the custom bot to?
+ **A:** Currently, unlimited. This may change in the future if users abuse the capability however.
+  
+**Q:** Will my settings persist from the main Cakey Bot or will I need to set them up again?
+ **A:** Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
+  
+**Q:** Do I need to assign every server in the dashboard that I invite the custom bot to?
+ **A:** No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
+  
+**Q:** How do I change the profile picture, username or bio/about me? 
+ **A:** You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
+  
+**Q:** How do I setup custom status, emotes and other advanced customization for the custom bot? 
+ **A:** Check out the "Additional Customization" & "Custom Emote Replacement" sections above this FAQ for more information.
+  
+**Q:** I'm getting the "Private application cannot have a default authorization link" error.
+ **A:** Go to the "Installation" section on the Discord developer dashboard and set your "Install Link" to "None". You can also optionally just make the bot public, however, making the bot public is not reccomended as anyone can invite the custom bot to their server and potentially abuse it.

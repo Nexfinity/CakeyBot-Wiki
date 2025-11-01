@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: Discord auto moderation bot - Spam filters, raid protection, content blocking with Cakey Bot. Complete security setup guide.
 published: 1
-date: 2025-01-12T18:10:13.618Z
+date: 2025-08-31T02:12:54.799Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -41,6 +41,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Zalgo detection
 * Phishing URL Detection
   * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
+  * **Note:** We now include a blacklisted image hash database. This will actively try to block known phishing related images that bypass traditional text moderation bots/tools.
 * Markdown Headers
 
 # Punishment Types
@@ -71,16 +72,18 @@ You can view a list of category channels you can configure below:
 * Counting Only
 * Links Only
 
-# Auto Ban
-Cakey Bot also allows you to automatically ban users when they join your server if certain conditions are met. This can help you automatically combat specific types of bot attacks if all of the attacking users meet the criteria. 
+# Auto Kick/Ban
+Cakey Bot also allows you to automatically kick or ban users when they join your server if certain conditions are met. This can help you automatically combat specific types of bot attacks if all of the attacking users meet the criteria. 
 
 > Keep in mind these options are not intended to always be enabled as they can impact real users, however, they can be useful to combat certain types of bot/raid attacks. Especially if used in addition to regular auto moderation settings.
 {.is-info}
 
-You can automatically ban users when they join if they meet any of the criteria below:
+You can automatically kick or ban users when they join if they meet any of the criteria below:
 * Numeric Only Usernames
-  * This will automatically ban users whose entire username is nothing but numbers (for example: `534534534534`) as this is a commonly used naming scheme for some raids.
+  * This will automatically kick ban users whose entire username is nothing but numbers (for example: `534534534534`) as this is a commonly used naming scheme for some raids.
 * Invite in Username
 * Unverified Bots
-* New Accounts (<48 Hours Old)
+* New Accounts (<48 Hours Old by default)
 * No Avatar
+
+You can even set a threshold for how old the user's account must be before the 'New Accounts' detection gets triggered.

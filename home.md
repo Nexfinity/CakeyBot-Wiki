@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot documentation - Complete guide for Discord bot setup, features, commands. Configure music, moderation, leveling and more.
 published: 1
-date: 2025-02-01T06:03:41.164Z
+date: 2025-04-09T22:45:35.975Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -13,7 +13,7 @@ dateCreated: 2022-08-31T04:14:14.623Z
 > This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakey.bot/dashboard/public) to manage your server.
 {.is-danger}
 
-Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
+Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has a massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
 
 This documentation provides information on every module/feature, including the description, usage, and examples.
 
@@ -27,18 +27,18 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot check out our [troubleshooting page](core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there you can also join our discord [support server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 
-If you would like to make a suggestion or request a new feature you can also post these in our discord [support server](https://https://cakey.bot/discord).
+If you would like to make a suggestion or request a new feature, you can also post them in our [Discord server](https://https://cakey.bot/discord).
 
 # Inviting Cakey Bot
 
 > You will need **`Manage Server`** or **`Administrator`** permission to add Cakey Bot to your server.
 {.is-warning}
 
-You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions you can change them after you invite the bot like you would any other role/user.
+You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite). If you do not want the bot to have **`Administrator`** permissions, you can change them after you invite the bot like you would for any other role/user.
 
 ## Required Permissions:
 
@@ -76,9 +76,9 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 ### Moderation
 -   Kick Members
 -   Ban Members
--   Mute Mmbers
--   Deafen Mmbers
--   Move Mmbers
+-   Mute Members
+-   Deafen Members
+-   Move Members
 -   Manage Nickname
 -   Manage Messages
 -   Manage Roles
@@ -96,9 +96,9 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 
 ## Wildcard Permissions:
 
-- Administrator - If you don't want to worry about specific permissions you can just grant Administrator.
+- If you don't want to worry about specific permissions, you can just grant the bot **`Administrator`**.
 
-> It is not recommended to freely give out Administrator permission. It would just make setting up the bot simpler. Cakey Bot has many built-in safeguards to prevent the bot from being abused by users if the bot has Administrator so it is safe to grant, just not a recommended practice to do so.
+> Granting Administrator permission is not generally recommended, as it poses potential risks. However, it would simplify the setup process for the bot. Cakey Bot is equipped with numerous safeguards to prevent abuse by users with Administrator access. While it is safe to grant this permission, it is not recommended.
 {.is-warning}
 
 # Per-Server Settings (Web Dashboard)
@@ -127,4 +127,4 @@ and more!
 
 # Custom Bot/Self-Hosting
 
-Cakey Bot is not open-sourced and as such can not be self-hosted. However, you can run your own custom version of Cakey Bot with our Custom Bot solutions. You can read up on our Custom Bot setup [here](core/setup-custom-bot).
+Cakey Bot is not open-sourced and as such can not be self-hosted. However, you can run your own custom version of Cakey Bot with our Custom Bot solutions. You can read up on our Custom Bot setup [here](/en/core/setup-custom-bot).

@@ -2,7 +2,7 @@
 title: Basic Usage
 description: Play music in Discord with Cakey Bot - Basic commands, queue management, volume control. Music bot beginner's guide.
 published: 1
-date: 2024-12-04T06:28:25.788Z
+date: 2025-04-30T10:37:36.039Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -31,20 +31,18 @@ If no song is currently playing when you add one, it will start to play instantl
 
 Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to function. You will also need to be in a voice channel to summon Cakey Bot to it. If Cakey Bot is currently being used by users in another channel you will not be able to summon it to your channel. Many commands in Cakey Bot excluding `/dc` require a song to be playing in order to be used. If a song is not playing an error message will be displayed. Some commands can not be used while a live stream is playing, to use these commands you will have to wait until the live stream ends or skip the live stream.
 
-# Title Blacklist
-
-Cakey Bot also supports blacklisting specific words and phrases from song titles. This can be useful to discourage or prevent users from enqueueing abusing music (such as ear rape or inappropriate content). You can configure this list on the [web dashboard](https://cakey.bot/dashboard/public) on the Music page.
-
-# Default Volume
-
-By default, Cakey Bot's volume will be set to 50 when playing music. You can change the volume using the `/volume <amount>` command but the volume will revert to 50 if the queue runs out of songs or the next time you use Cakey Bot. You can however change the default volume on our [web dashboard](https://cakey.bot/dashboard/public) from 50 to any number between 0 and 100.
+# Configuration
+| Name               | Description                                                                                                                                                                                                         | Default Value | Min Value | Max Value | Premium Feature |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|-----------|-----------------|
+| Title Blacklist    | A list of words/phrases that are blocked from appearing in song titles. Used to filter inappropriate or abusive content.                                                                                           | Empty         | —         | —         | No              |
+| Default Volume     | Controls the initial playback volume of the bot. Resets to this value when the queue ends or new playback begins.                                                                                                  | 50            | 0         | 100       | No              |
+| 24/7 Music         | Keeps the bot in a voice channel continuously, even when not actively playing music.                                                                                                                               | Disabled      | —         | —         | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>             |
+| Vote Skipping      | Enables vote-based skipping of currently playing songs.                                                                                                                     | False         | —         | —         | No              |
+| Max Song Length    | Restricts the maximum allowed duration of a song in the queue (in minutes).                                                                                                  | 10            | 1         | 180       | No              |
 
 # Multiple Music Bots
 
 Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our "Premium" page of the [web dashboard](https://cakey.bot/dashboard/public). Note that you must have premium enabled on the server in order to invite these additional music bots.
-
-# 24/7 Music <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-Cakey Bot has the ability to play music 24/7 and never leave a voice channel (except during bot restarts). You can enable this feature by toggling the "24/7 music" switch on the [Web Dashboard](https://cakey.bot/dashboard/public) on the Music page.
 
 # Supported Sources
 

@@ -2,7 +2,7 @@
 title: Audit Log
 description: Discord audit logging with Cakey Bot - Track moderation, message edits, member changes. Server security monitoring guide.
 published: 1
-date: 2023-11-12T16:37:45.082Z
+date: 2025-08-03T09:17:44.384Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:46.692Z
@@ -46,6 +46,8 @@ In order to start logging you will need to designate a text channel as the log c
   * Shows role name + if it was added/removed
 * User Updated (Voice channels)
   * Shows when a User Joined/Left/Swapped voice channels
+* User Updated (Clan tag changed)
+  * Shows when a user updates their clan tag
 * User Banned/Unbanned
   * Shows the moderator & reason
 * User Kicked

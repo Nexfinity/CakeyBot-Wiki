@@ -2,7 +2,7 @@
 title: Placeholders
 description: 100+ Cakey Bot placeholders for Discord messages - User, server, channel variables. Complete reference guide with syntax examples.
 published: 1
-date: 2025-02-16T06:43:30.991Z
+date: 2025-09-08T04:55:38.343Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -265,12 +265,14 @@ Examples:
 {.is-info}
 
 `{addrole:<id>}` - Adds a role to the user.
+`{addtemprole:<id>:<hours>}` - Adds a temporary role to the user for the specified amount of hours.
 `{removerole:<id>}` - Removes the role from the user.
 
 Examples:
 
 ```asciidoc
 {addrole:173439637388263425}
+{addtemprole:173439637388263425:24}
 ```
 
 ## Leveling/XP

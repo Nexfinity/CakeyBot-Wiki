@@ -2,7 +2,7 @@
 title: AFK Messages
 description: Discord AFK status with Cakey Bot - Away messages, return notifications, status tracking. Automatic presence system guide.
 published: 1
-date: 2024-12-04T06:14:59.110Z
+date: 2025-04-30T11:05:08.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:02.783Z
@@ -31,26 +31,22 @@ You are able to remove your own AFK message by typing the `/unafk` command.
 
 Server moderators with **Manage Server** can also remove AFK statuses from the web dashboard and see a list of all currently applied AFK messages.
 
-# Extra Configurations
+# Configuration
 
 You can also configure AFK messages further by using our [Web Dashboard](https://cakey.bot/dashboard/public). There are a few options you can change:
 
-1. AFK Module Status
-   * This toggles whether or not users can set AFK statuses in your server
-2. Max AFK Time
-   * This sets how long the user's AFK status will be active before being automatically removed.
-   * This can be anywhere from 1 minute to 10,080 minutes. (1 week)
-   * If you want AFK statues to be permanent, you can just set this value to -1.
-     * This is the default value for all servers.
-3. AFK Prefix
-   * This setting will automatically apply a `[AFK]` prefix to a user's nickname when they go AFK and remove it when they are no longer AFK.
+| Name                | Description                                                                                                                                                    | Default Value | Min Value | Max Value | Premium Feature |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|-----------|------------------|
+| AFK Module Status   | Toggles whether users can set AFK statuses in your server.                                                                                                     | Enabled       | N/A       | N/A       | No               |
+| Max AFK Time        | Determines how long a user's AFK status remains before being removed. Use `-1` for permanent AFK status.                                                       | `-1`          | `1`       | `10080` (1 week)   | No               |
+| AFK Prefix          | Automatically applies `[AFK]` to a user's nickname while AFK, and removes it once they return. Bot must have proper nickname permissions.                      | Disabled       | N/A       | N/A       | No               |
+| Auto Remove AFK     | Automatically removes AFK status if a user sends a message or joins a voice channel (excluding being moved to AFK voice channels).                             | Enabled       | N/A       | N/A       | No               |
+
 > In order for Cakey Bot to modify other user's nicknames Cakey Bot must have the `Manage Nicknames` permission AND Cakey Bot's highest role must exceed the user's highest role.
 {.is-warning}
 
-4. Auto Remove AFK
-   * This setting will automatically remove a user from AFK if they send a message in any channel or if they join a voice channel. (If they get moved to a guild-set AFK channel they will keep their AFK status)
-
-You can also view all AFK users on our web dashboard.
+> **Helpful Tip:** You can also view all AFK users on our web dashboard.
+{.is-success}
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

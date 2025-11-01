@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: Discord song request channel with Cakey Bot - Dedicated music commands channel, queue management. Music bot channel setup guide.
 published: 1
-date: 2024-12-04T06:07:16.800Z
+date: 2025-04-04T01:59:23.426Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -19,7 +19,7 @@ In order to set up this feature you must have **`Manage Server`** permissions. Y
 
 In this new channel, you will see a fancy embed with 6 buttons added to it and a block of text with more information above it. Do NOT delete this message. If you do, you will need to delete the channel and run the setup again.
 
-![](/song_request.png)
+![Song Request Embed](/song_request.png)
 
 > You can freely rename and move the song request channel into other categories after it's created without any issues as Cakey Bot uses the channel ID to update the messages.
 {.is-success}

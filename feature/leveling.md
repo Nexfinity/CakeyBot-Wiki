@@ -2,14 +2,14 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2025-02-23T20:33:23.879Z
+date: 2025-10-24T05:16:27.973Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
 ---
 
 # Overview
-Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features!
+The Leveling & XP System in Cakey Bot provides a comprehensive user progression framework that rewards user activity in Discord servers. Cakey Bot provides all servers with free role rewards and leaderboards. Configure custom XP rates, ignored/no XP roles/channels, and other configuration features! This technical documentation covers the mechanics of XP earning, level calculation, role rewards, and system configuration
 
 > Migrating from MEE6 or another leveling bot? You can automatically import your leveling/xp data with the `/setup import-levels` command!
 {.is-info}
@@ -18,8 +18,6 @@ Cakey Bot provides all servers with free role rewards and leaderboards. Configur
 ## Importing
 Cakey Bot makes it extremely easy to import your data from external/third-party bots! Currently we have support to automatically import data from these bots:
 * [MEE6](https://mee6.xyz/)
-* [Amari](https://amaribot.com/)
-* [XP-Bot.Net](https://xp-bot.net/) - **Note:** This source requires a file upload, read more: https://xp-bot.net/blog/b1728227181194p
 
 In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 
@@ -30,37 +28,51 @@ Don't see your prevous leveling/xp bot in the list above? No problem! You can st
 
 ## Exporting
 We believe in vastly different philosophy than our competitors and as end-users of these kinds of systems ourselves in the past, we understand the pain and frustrations some of the other options give you.
+
 All of which is why we allow you to export/download your leveling data at any time, instantly and completely for free!
 
 In order to export your data, simple run the `/setup export-cakey-levels` command and you'll receive a CSV file with all of your data. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
 
+# XP Earning Mechanics
+The system provides two primary methods for users to earn XP:
+
+* **Message XP:** Users earn between 15-25 XP (default) for each message sent in the server
+* **Voice XP:** Users earn between 5-8 XP (default) per minute spent in voice channels
+
+Key technical constraints:
+* A 60-second cooldown between message XP awards prevents spam
+* Muted/deafened users can be excluded from voice XP (configurable)
+* XP rates can be modified server-wide or through multipliers
+* Channels and roles can be excluded from XP earning
+
+When a user earns enough XP to exceed their current level's threshold, a level-up event is triggered, which can:
+
+* Award role rewards if configured
+* Send level-up announcements via configured channels
+* Remove previous role rewards if configured
+* Update the user's rank on the leaderboard
+
 # Leveling Configuration
 
-## Leveling Enabled
-This disables or enables message leveling in the server.
-> While this is not requied to be enabled for Voice Leveling to work, the `/manage-xp` and `/manage-level` commands will not function while this is disabled.
+> While **Leveling Enabled** is not requied to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
 {.is-info}
 
-## Voice Leveling Enabled
-This disables or enables voice leveling in the server. You can keep this disabled while regular leveling is enabled so that users only earn XP for messages if you wish.
-
-## Remove Roles on Demotion
-Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user gets demoted via the `/manage-xp` or `/manage-level` commands.
-
-## Remove Roles on Level Up
-Enabling this feature will have Cakey Bot automatically remove any Role Rewards when a user levels up. (Including the `/manage-xp` or `/manage-level` commands.)
-
-## Wipe User XP on Leave
-Enabling this will wipe user's XP whenever they leave the server. This will also apply if they get kicked or banned.
-
-# Ignore Muted Users
-This setting will toggle whether or note Muted or Deafend users will be excluded from earning XP in voice channels. (Defaults to enabled)
-
-## Send Messages as Embed <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This will cause any level up messages to be sent inside of a simple Discord embed instead of just plaintext.
-
-## Max Level <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This allows you to set the maximum level that a user a level up to. By default the max level is set to 999.
+| Name                     | Description                                                                                                                             | Default Value | Min Value | Max Value | Premium Feature  |
+| :----------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :-------- | :-------- | :--------------- |
+| Leveling Enabled         | Enables or disables message leveling in the server. Note: `/manage-xp` and `/manage-level` commands won't function if this is disabled. | Enabled       |           |           | No               |
+| Voice Leveling Enabled   | Enables or disables voice leveling. You can keep this off to only grant XP for messages.                                                | Enabled       |           |           | No               |
+| Remove Roles on Demotion | Automatically removes Role Rewards when a user is demoted using `/manage-xp` or `/manage-level`.                                        | Disabled      |           |           | No               |
+| Remove Roles on Level Up | Automatically removes Role Rewards when a user levels up, including via commands.                                                       | Disabled      |           |           | No               |
+| Wipe User XP on Leave    | Wipes a user’s XP when they leave, are kicked, or banned.                                                                               | Disabled      |           |           | No               |
+| Ignore Muted Users       | Toggles whether muted or deafened users earn XP in voice channels.                                                                      | Enabled       |           |           | No               |
+| Ignore Solo Users        | Toggles whether users alone in a voice channel earn XP.                                                                                 | Enabled       |           |           | No               |
+| Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Min Voice XP per Minute  | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| Max Voice XP per Minute  | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
+| XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
 
 ## Announcement Location
 * `Disabled`- This disables ALL level up messages. (`/rank` and `/leaderboard` commands will still work.)
@@ -72,31 +84,10 @@ This allows you to set the maximum level that a user a level up to. By default t
 This is the message that is sent when a user levels up. The default message is: `Congratulations {user}! You have advanced to level {level}!`.
 
 You can also use a few placeholders in this message:
-* `{user}` - The username mention of the user who leveled up. (It will not send ping notifications)
+* `{user}` - The username mention of the user who leveled up.
 * `{level}` - The new level that the user has advanced to.
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
-
-## Min/Max XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-
-This sets the minimum and maximum XP a user can be given per message. There's a few limits: 
-* The Max XP must be larger than the Min XP
-* Both must be larger than 0
-* Both must be less than 10,000
-
-The default values for this setting are:
-* Min XP: 15
-* Min XP: 25
-
-## Min/Max Voice XP <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
-This sets the minimum and maximum XP a user can be given per minute spent inside of a voice channel. There's a few limits: 
-* The Max XP must be larger than the Min XP
-* Both must be larger than 0
-* Both must be less than 10,000
-
-The default values for this setting are:
-* Min Voice XP: 5
-* Min Voice XP: 8
 
 ## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
@@ -104,18 +95,8 @@ This allows you to set a custom word or pharse to be used to easily access your 
 For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
 If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
 
-NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
-
-## XP Rate
-This is a multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up. You can set these rates:
-* 0.25x
-* 0.5x
-* 0.75x
-* 1x
-* 1.5x
-* 2x
-* 2.5x
-* 3x
+> NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
+{.is-info}
 
 ## Ignored Roles & Channels (NoXP Roles/Channels)
 This is a list of channels or roles where XP will NOT be rewarded to users.
@@ -123,7 +104,7 @@ This is a list of channels or roles where XP will NOT be rewarded to users.
 ## Double XP Days
 You can also specify days for Cakey Bot to award double XP on. The double XP will be calculated AFTER the XP rate has been calculated. You can select multiple days to apply double XP on.
 
-![image_(9).png](/image_(9).png)
+![Double XP Options](/image_(9).png)
 
 # Role Rewards
 You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users level up they will receive these roles once they meet the level requirement. You can also use the "Remove Roles on Level Up" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
@@ -143,14 +124,39 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 > **Note:** XP decay is **NOT** affected by multipliers.
 {.is-info}
 
-## Decay Rate
-This field determines the percentage of XP lost per day once the decay process begins. The default decay rate is set to 10% (`0.10`) of the user's current XP ***per day***.
+## Configuration Settings
+| Name          | Description                                                                                                                                         | Default Value |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Decay Rate    | Determines the percentage of XP lost per day once the decay process begins. This is based on the user's current XP and is applied daily.           | 0.10 (10%)    |
+| Decay Days    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
+| Decay Minimum | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
 
-## Decay Days
-This specifies the minimum number of days of inactivity required before XP decay starts. By default, XP decay will not begin until a user has been inactive for **7 days**.
 
-## Decay Minimum
-This field sets the minimum XP level required for a user to be eligible for decay. It also defines the point at which the decay process stops. The default value is set to `1`, meaning users will not lose XP below level 1 due to decay.
+# Season XP Drops
+Season XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming.
+
+> **Note:** Season XP Drops can only occur when the feature is enabled and a valid output channel is configured.
+{.is-info}
+
+## Configuration Settings
+| Name                  | Description                                                                                                                                              | Default Value |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Drops Enabled         | Determines whether Season XP Drops are active. When disabled, no XP drops will occur regardless of other settings.                                      | Off (0)       |
+| Output Channel        | The channel where XP drop events are announced. If no valid channel is set, drops will not trigger.                                                     | None (0)      |
+| Min. XP               | The minimum XP amount that can be awarded during a drop event.                                                                                          | 500           |
+| Max. XP               | The maximum XP amount that can be awarded during a drop event.                                                                                          | 2000          |
+| Min. Time (Hours)     | The minimum interval between XP drop events, measured in hours.                                                                                         | 2 hours       |
+| Max. Time (Hours)     | The maximum interval between XP drop events, measured in hours.                                                                                         | 6 hours       |
+
+**Behavior Overview**
+- XP drop events are randomly scheduled between the configured minimum and maximum hours.  
+- Each drop awards a random XP amount within the defined XP range.  
+- Drops will only occur when both the feature and output channel are set.  
+- Claiming a drop resets the drop timer and triggers the next event window.
+* The previous drop must be claimed for a new one to spawn.
+
+> **Tip:** Use shorter time intervals during events to increase engagement and activity.
+{.is-success}
 
 # Rank Card Customization
 
@@ -158,7 +164,7 @@ This field sets the minimum XP level required for a user to be eligible for deca
 You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
 
 Our fancy image banner editor:
-<image src="/leveling-editor.jpg" width="800px">
+<image src="/leveling-editor.jpg" width="800px" alt="Banner Editor">
   
 > The recommended image size is `Width: 930` x `Height: 280` for custom image banners.
 {.is-info}
@@ -168,33 +174,18 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 
 [![A demo profile card](/card.png)](/card.png)
 
-## ![two cyan hands shaking](/cb-partner.png) Partner Badge
-This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users!
-<br />
- 
-## ![two cyan hands shaking](/cb-translator.png) Translater Badge
-This badge is given to people who make Cakey Bot available in other languages.
-<br />
+| Badge      | Name      | Description                      |
+| :--------- | :--------- | :------------------------------ |
+| ![partner badge](/cb-partner.png) | Partner | This badge is given out to our partners, some of the coolest bots across the Discord ecosystem. This by far the rarest badge with only 2 users! |
+| ![translator badge](/cb-translator.png) | Translater | This badge is given to people who make Cakey Bot available in other languages. |
+| ![the CakeyBot logo](/cb-staff.png) | Cakey Bot Staff | This badge is given to developers, moderators, writers, and administrators working on Cakey Bot. |
+| ![active tester badge](/cb-tester.png) | Active Tester | This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server. |
+| ![graphic designer badge](/cb-graphic-designer.png) | Graphic Designer | This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord. |
+| ![custom bot icon](/cb-custom-bot.png) | Custom Bot Owner | This special badge is granted to users who purchase a Custom Bot version of Cakey Bot. <3 |
+| ![The highest tier badge](/tier_10_64.png) | Premium User | Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership. |
 
-## ![the CakeyBot logo](/cb-staff.png) Staff Badge
-This badge is given to developers, moderators, writers, and administrators working on Cakey Bot.
-<br />
-
-## ![cb-tester.png](/cb-tester.png) Active Tester
-This badge is given to users who actively help test new Cakey Bot features and provide feedback in our tester Discord server.
-<br />
-  
-## ![graphic designer badge](/cb-graphic-designer.png) Graphic Designer
-This badge is awarded to talented individuals who contribute to Cakey Bot’s visual identity by designing emotes, icons, banners, or other graphical assets. Their creativity helps enhance the bot’s appearance and branding across Discord.
-<br />
-  
-## ![cb-custom-bot.png](/cb-custom-bot.png) Custom Bot Owner
-This special badge is granted to users who purchase a Custom Bot version of Cakey Bot. <3
-<br />
-
-## ![The highest tier badge](/tier_10_64.png) Premium Badge
-Users who purchase the premium version of Cakey Bot get a special badge that evolves as they maintain their membership.
-![progression_banner.png](/progression_banner.png)
+## Premium User Badge Progression
+![progression banner](/progression_banner.png)
 
 # Frequently Asked Questions
 ## What XP equation is used for leveling?

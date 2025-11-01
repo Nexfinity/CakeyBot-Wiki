@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: Discord statistics display with Cakey Bot - Member count, server stats, semi-live counters. Server metrics visualization guide.
 published: 1
-date: 2025-02-20T05:27:15.378Z
+date: 2025-10-23T01:41:26.536Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -32,7 +32,7 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 {.is-info}
 
 # Supported Stats
-* Total Members ~ The total number of members in the server
+* Total Members ~ The total number of members in the server (bots & humans combined)
 * Total Bots ~ Tracks how many bots are in the server
 * Total Humans ~ Tracks how many Humans are in the server
 <hr>
@@ -46,3 +46,6 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 <hr>
 
 * Total Server Boosts ~ The total number of boosts in the server
+<hr>
+
+* Specific Role Count ~ The total number of users who have the specified role

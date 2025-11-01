@@ -2,7 +2,7 @@
 title: Tags
 description: Discord tag system with Cakey Bot - Quick responses, stored information, command aliases. Knowledge base creation guide.
 published: 1
-date: 2024-12-04T06:17:13.072Z
+date: 2025-04-30T11:14:00.159Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -12,18 +12,14 @@ dateCreated: 2022-10-18T08:21:24.448Z
 
 This feature allows you to set up a variety of "tags" that users can list and use to output pre-determined strings of text. This is useful for creating public FAQ responses without making a bunch of [Auto Responders](https://wiki.cakey.bot/en/auto-responder). Also, you can configure tags to be modified by different permission levels, unlike Custom Commands which can only be modified by server admins. The different permission tiers are listed below:
 
-* Manage Own: Admins - Manage All: Admins
-  * Only administrators can manage tags. _(Default behavior)_
-* Manage Own: Mods - Manage All: Admins
-  * Moderators can manage their own tags, administrators can manage all tags
-* Manage Own: Mods - Manage All: Mods
-  * Moderators can manage every tag, regardless of who created it.
-* Manage Own: Users - Manage All: Admins
-  * Users can manage their own tags, administrators can manage all tags
-* Manage Own: Users - Manage All: Mods
-  * Users can manage their own tags, moderators can manage all tags
-* Manage Own: Users - Manage All: Users
-  * Any user can manage every tag, regardless of who created it.
+| Manage Own       | Manage All      | Description                                                                 |
+|------------------|------------------|-----------------------------------------------------------------------------|
+| Admins           | Admins           | Only administrators can manage tags. _(Default behavior)_                   |
+| Mods             | Admins           | Moderators can manage their own tags; admins can manage all tags.           |
+| Mods             | Mods             | Moderators can manage every tag, regardless of ownership.                   |
+| Users            | Admins           | Users can manage their own tags; admins can manage all tags.                |
+| Users            | Mods             | Users can manage their own tags; moderators can manage all tags.            |
+| Users            | Users            | Any user can manage all tags, regardless of who created them.               |
 
 > **Note:** These permissions only affect creating, deleting, and modifying tags. ALL users will be able to USE every tag regardless of who created the tag.
 {.is-info}

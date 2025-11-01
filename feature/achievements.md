@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2025-01-31T05:08:24.383Z
+date: 2025-04-04T02:22:26.389Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -43,7 +43,7 @@ To delete an achievement follow these steps:
 # Customization Options
 ## Background Banners
 Currently there is a "Dark Mode" background (shown top) and a "Light Mode" background (shown bottom).
-<image src="/achievement-backgrounds.png" width="600px">
+<image src="/achievement-backgrounds.png" width="600px" alt="Banners">
 
 ## Badge Shapes & Colors
 There are several different badge combinations that you can select for your achievement unlock banners.
@@ -54,7 +54,7 @@ You can chose between 5 shapes including:
 * Diamond
 * Square
 
-<image src="/achievement-badges.png" width="600px">
+<image src="/achievement-badges.png" width="600px" alt="Badges">
 
 You can also chose between 9 different colors:
 * Red
@@ -67,7 +67,7 @@ You can also chose between 9 different colors:
 * Teal
 * Yellow
   
-<image src="/colors.jpg" width="600px">
+<image src="/colors.jpg" width="600px" alt="Colors">
 
 ## Icons
 Currently there is a small selection of icons that you can select for your banners. You can select any RGB color to be applied to the icon as well.

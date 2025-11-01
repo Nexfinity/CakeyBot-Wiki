@@ -2,7 +2,7 @@
 title: Starboard
 description: Create Discord starboard with Cakey Bot - Pin popular messages automatically, showcase best content. Community feature guide.
 published: 1
-date: 2023-11-12T16:28:50.986Z
+date: 2025-04-04T01:52:44.132Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-12T02:59:49.416Z
@@ -18,7 +18,7 @@ The Starboard feature in Cakey Bot can be a fun and engaging way to recognize an
 2. From the left sidebar, pick "Starboard".
 ![starboard_1.png](/starboard/starboard_1.png)
 3. After that, click "Enable Starboard" and "Update".
-<image src="/starboard/starboard_2.png" width="800px">
+<image src="/starboard/starboard_2.png" width="800px" alt="Enabled Screenshot">
 
 **Done!** Starboard is now enabled in your server. Remember to set a starboard channel for messages to appear when they are stared.
 
@@ -29,17 +29,17 @@ Here's how to change it:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public) and select your server.
 2. From the left sidebar, pick "Starboard".
 3. After that, under the "Min. Emote Required" section, enter the amount of reactions a message needs to get to show up on the starboard.
-<image src="/starboard/starboard_3.png" width="800px">
+<image src="/starboard/starboard_3.png" width="800px" alt="Min. Emote Screenshot">
 ### Starboard Channel
 The starboard channel is where the stared messages will show up. Here's a guide on how to set it up:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public) and select your server.
 2. From the left sidebar, pick "Starboard".
 3. After that, under the "Starboard Channel" section, select the correct channel that you would like your stared messages to appear.
-<image src="/starboard/starboard_4.png" width="800px">
+<image src="/starboard/starboard_4.png" width="800px" alt="Channel Screenshot">
 ### Custom Star Emote
 You can set a custom star emote so that members do not have to react with a `⭐`, but a custom emoji.
 Here's how to do that:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard/public) and select your server.
 2. From the left sidebar, pick "Starboard".
 3. After that, under the "Custom Star Emote" section, select the emote you would like people in your server to react with.
-<image src="/starboard/starboard_5.png" width="800px">
+<image src="/starboard/starboard_5.png" width="800px" alt="Emote Screenshot">

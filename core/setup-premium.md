@@ -2,7 +2,7 @@
 title: Setup Premium
 description: Activate Cakey Bot Premium features - 24/7 music, unlimited playlists, advanced moderation. Step-by-step premium activation guide.
 published: 1
-date: 2024-03-04T07:21:39.395Z
+date: 2025-04-04T01:54:21.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -13,12 +13,12 @@ Cakey Bot Premium is a subscription that takes your experience with Cakey Bot to
 
 # Server Premium VS Custom Bot Plans
 ### Server Premium
-Server Premium is a subscription that applies to only one server / licence but it has way more features, such as:
+Server Premium is a subscription that applies to only one server per licence but it has way more features, such as:
 - Custom Join/Leave Banner Images
 - Multiple Music Bots & 24/7 Music
 - Auto Responder & Custom Command Embeds				
 - Custom Boost Announcements
-- **[See the full list of features](https://cakey.bot/premium.php)**
+- See the full list of features [here](https://cakey.bot/premium.php)
 
 ### Custom Bot
 Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos, Emotes, Bio, Username and more! Custom Bot allows you to have:
@@ -60,7 +60,7 @@ Here are some step-by-step instructions on how to remove premium from servers:
 1. Go to the [premium page](https://cakey.bot/premium.php)
 2. Login by clicking the "Login To Manage Account" text above the diamond (NOT "Login to Dashboard" in the navigation bar)
 3. Click "Manage Account".
-<image src="/image_2023-06-02_114040495.png" width="600px">
+<image src="/image_2023-06-02_114040495.png" width="600px" alt="Management Screenshot">
 4. In the popup, enter your e-mail, then the OTP that was sent to your email.
 ### How to cancel your subscription
 1. From the popup, select the subscription you would like to cancel.

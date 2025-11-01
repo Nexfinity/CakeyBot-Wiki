@@ -2,7 +2,7 @@
 title: Support Tickets
 description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
-date: 2025-01-29T20:52:00.963Z
+date: 2025-04-04T01:58:55.836Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -15,7 +15,7 @@ dateCreated: 2022-10-18T08:20:47.352Z
 
 Cakey Bot's support ticket system allows your users to make tickets and get 1 on 1 support from your support team. You can easily manage tickets via Discord's button system and even save transcripts of the ticket history.
 
-![](/tickets1.png)
+![Ticket Screenshot](/tickets1.png)
 
 # Configure Tickets
 
@@ -46,7 +46,7 @@ Once a user has closed a ticket, Cakey Bot will send an embed with three differe
 * **Delete:** This option will delete the ticket and clears the channel history.
   * This option does NOT save a transcript unless auto-save is enabled.
 
-![](/tickets2.png)
+![Closed Ticket Screenshot](/tickets2.png)
 
 # Ticket Management
 ## Add User

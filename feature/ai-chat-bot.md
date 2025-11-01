@@ -2,7 +2,7 @@
 title: AI Chat Bot
 description: AI chatbot features in Discord with Cakey Bot - Smart responses, conversation handling. Artificial intelligence setup guide.
 published: 1
-date: 2024-11-13T13:32:42.217Z
+date: 2025-02-20T06:32:47.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:16:34.016Z

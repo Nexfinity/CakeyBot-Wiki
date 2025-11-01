@@ -2,7 +2,7 @@
 title: Auto Responder
 description: Custom Discord commands with Cakey Bot - Trigger responses, use placeholders, create complex automations. Setup guide included.
 published: 1
-date: 2024-12-04T03:25:03.521Z
+date: 2025-04-30T10:33:30.908Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -29,42 +29,25 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 > Note: Only a single auto responder will ever trigger on a given message, even if the message meets the requirements of multiple auto responders. This selection is prioritized by the lowest ID of any matching responders.
 {.is-info}
 
-* Exact Match
-  * Default behavior, looks for exact match strings
-* Contains
-  * Will search the entire message to see if it contains this string/trigger
-* Starts With
-  * Will check to see if the message begins with this string/trigger
-* Ends With
-  * Will check to see if the message ends with this string/trigger
-* Contains Files
-  * Will check to see if the message contains any files/attachments. (i.e. documents, images, videos)
-* From Webhook
-  * Will check to see if the message was sent by a webhook
-* Contains user mention
-  * Will check to see if the message contains a user mention
-* Contains channel mention
-  * Will check to see if the message contains a channel mention
-* Contains role mention
-  * Will check to see if the message contains a role mention
-* Wildcard Contains
-  * Will search the entire message to see if it contains this string/trigger while allowing you to match with wildcards:
-    * **`*`** - Matches any number of characters
-    * **`?`** - Matches a single character
-      * If you need to have a literal question mark in the trigger, you can escape it using a backslash: `\?`
-* Regex Match
-  * A more powerful version of the wildcard contains flag, allows you to match using a full regex
-  
-* Contains image attachment
-  * Will check to see if any attachments contains one of these file extension types: `.jpg, .jpeg, .png, .gif, .bmp, .tiff, .ico, .svg, .webp, .heic, .heif, .jfif, .exif, .raw, .psd, .ai, .eps`
-* Contains video attachment
-  * Will check to see if any attachments contains one of these file extension types: `.mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4v, .mpeg, .mpg, .3gp, .rm, .swf, .vob, .ts`
-* Contains audio attachment
-  * Will check to see if any attachments contains one of these file extension types: `.mp3, .wav, .flac, .aac, .m4a, .wma, .ogg, .alac, .aiff, .opus, .mid, .midi, .amr, .ape`
-* Contains text attachment
-  * Will check to see if any attachments contains one of these file extension types: `.txt, .csv, .json, .xml, .html, .htm, .md, .log, .rtf, .doc, .docx, .pdf`
-* Contains executable attachment
-  * Will check to see if any attachments contains one of these file extension types: `.exe, .msi, .bat, .sh, .app, .jar, .com, .cmd, .vb, .vbs, .ps1`
+| Flag Type                   | Description                                                                                                                        | File Extensions                                                                                                                                                     |
+| :--------------------------| :---------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Exact Match                | Default behavior, looks for exact match strings                                                                                    | –                                                                                                                                                                   |
+| Contains                   | Will search the entire message to see if it contains this string/trigger                                                           | –                                                                                                                                                                   |
+| Starts With                | Will check to see if the message begins with this string/trigger                                                                   | –                                                                                                                                                                   |
+| Ends With                  | Will check to see if the message ends with this string/trigger                                                                     | –                                                                                                                                                                   |
+| Contains Files             | Will check to see if the message contains any files/attachments (i.e. documents, images, videos)                                   | –                                                                                                                                                                   |
+| From Webhook               | Will check to see if the message was sent by a webhook                                                                             | –                                                                                                                                                                   |
+| Contains user mention      | Will check to see if the message contains a user mention                                                                           | –                                                                                                                                                                   |
+| Contains channel mention   | Will check to see if the message contains a channel mention                                                                        | –                                                                                                                                                                   |
+| Contains role mention      | Will check to see if the message contains a role mention                                                                           | –                                                                                                                                                                   |
+| Wildcard Contains          | Searches message with wildcard support: `*` (any chars), `?` (single char), use `\?` for literal question marks                    | –                                                                                                                                                                   |
+| Regex Match                | A more powerful version of wildcard, allows full regular expressions                                                               | –                                                                                                                                                                   |
+| Contains image attachment  | Checks if attachments include image formats                                                                                        | .jpg, .jpeg, .png, .gif, .bmp, .tiff, .ico, .svg, .webp, .heic, .heif, .jfif, .exif, .raw, .psd, .ai, .eps                                                          |
+| Contains video attachment  | Checks if attachments include video formats                                                                                        | .mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4v, .mpeg, .mpg, .3gp, .rm, .swf, .vob, .ts                                                                            |
+| Contains audio attachment  | Checks if attachments include audio formats                                                                                        | .mp3, .wav, .flac, .aac, .m4a, .wma, .ogg, .alac, .aiff, .opus, .mid, .midi, .amr, .ape                                                                             |
+| Contains text attachment   | Checks if attachments include document/text formats                                                                                | .txt, .csv, .json, .xml, .html, .htm, .md, .log, .rtf, .doc, .docx, .pdf                                                                                            |
+| Contains executable attachment | Checks if attachments include executable formats                                                                              | .exe, .msi, .bat, .sh, .app, .jar, .com, .cmd, .vb, .vbs, .ps1                                                                                                       |
+
 
 > **Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
 {.is-warning}
@@ -134,22 +117,26 @@ The template CSV file and bulk exported CSVs will have a few different columns w
 * Flags
   * These are only used for Auto Responders, they map directly to the Auto Responder [flags](#flags).
   * Acceptable values:
-    * 1 - Exact Match
-    * 2 - Contains
-    * 3 - Starts With
-    * 4 - Ends With
-    * 5 - Contains Files
-    * 6 - From Webhook
-    * 7 - Contains user mention
-    * 8 - Contains channel mention
-    * 9 - Contains role mention
-    * 10 - Wildcard Contains
-    * 11 - Regex Match
-    * 12 - Contains image attachment
-    * 13 - Contains video attachment"
-    * 14 - Contains audio attachment
-    * 15 - Contains text attachment
-    * 16 - Contains executable attachment
+
+    | Value | Flag Name                   |
+| :---- | :-------------------------- |
+| 1     | Exact Match                 |
+| 2     | Contains                    |
+| 3     | Starts With                |
+| 4     | Ends With                  |
+| 5     | Contains Files             |
+| 6     | From Webhook               |
+| 7     | Contains user mention      |
+| 8     | Contains channel mention   |
+| 9     | Contains role mention      |
+| 10    | Wildcard Contains          |
+| 11    | Regex Match                |
+| 12    | Contains image attachment  |
+| 13    | Contains video attachment  |
+| 14    | Contains audio attachment  |
+| 15    | Contains text attachment   |
+| 16    | Contains executable attachment |
+
 * Response
   * This is the response phrase for a trigger/command.
   * It must be less than 2,000 characters.

@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2025-09-12T01:50:01.773Z
+date: 2025-11-13T07:34:00.715Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -102,17 +102,6 @@ Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/
 
 If you have any issues with this, do not hesitate to join our [support server](https://cakey.bot/discord)!
   
-## Assign Servers
->  Custom Bots will work/function in any number of servers you invite the bot to, even if it is not assigned to the server in the web dashboard. Assigning a server is only required if you wish to change settings for the bot on a specific server in the web dashboard.
-{.is-info}
-
-Once you have created and setup the custom bot instance, you will need to assign it to the servers you plan to invite it to/configure it on. To assign the bot to a server follow these steps:
-1. Navigate to the "Premium" page on the web dashboard if you are not already on the page.
-2. Click the "Add Server" button under the "Applied Subscriptions" section
-3. Select the custom bot plan and the server you want to assign it to.
-4. Click "Add Server" button.
-5. Repeat for every server you want to use the custom bot in.
-
 ## Inviting Your Custom Bot
 1. On the Discord Developer dashboard select your bot application
 2. Go to the "OAuth2"->"General" page from the left navigation bar
@@ -179,10 +168,7 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
   
 **Q:** Will my settings persist from the main Cakey Bot or will I need to set them up again?
  **A:** Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.
-  
-**Q:** Do I need to assign every server in the dashboard that I invite the custom bot to?
- **A:** No, only for servers that you wish the change the web dashboard settings on. the custom bot will function at a basic level in all servers it's invited to.
-  
+
 **Q:** How do I change the profile picture, username or bio/about me? 
  **A:** You can adjust these on the Discord Developer Dashboard where you created the custom bot originally.
   

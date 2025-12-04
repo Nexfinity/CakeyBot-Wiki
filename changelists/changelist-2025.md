@@ -2,11 +2,21 @@
 title: Changelist 2025
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2025-10-24T05:17:13.890Z
+date: 2025-12-04T07:58:59.251Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# December 4th - Achievements Counter
+## Changed
+* The `/achievements view` command now shows unlocked counter in title.
+
+# October 31st - Seasonal Drops Fix
+## Fixed
+* Fixed an invalid permission error for game related commands in DMs.
+* Fixed an issue where automatic warning punishments incorrectly included expired warnings when checking.
+* Fixed an issue where Random Seasonal XP Drops were using the default 2-6h timer for drops instead of custom values.
 
 # October 24th - Seasonal XP Drops
 ## Added

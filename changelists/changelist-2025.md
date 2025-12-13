@@ -2,13 +2,13 @@
 title: Changelist 2025
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2025-12-13T03:29:25.480Z
+date: 2025-12-13T09:19:20.688Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
 
-# December 12th - Arc Raiders Command
+# December 13th - Arc Raiders Command
 ## Changed
 * Updated the `/seek` command to have a dropdown selection for forward, reverse, or exact. (With exact being the previous behavior of the command and being selected by default.)
 

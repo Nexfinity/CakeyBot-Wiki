@@ -2,11 +2,15 @@
 title: Changelist 2025
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2025-12-13T09:19:20.688Z
+date: 2025-12-14T06:32:40.989Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T14:55:14.523Z
 ---
+
+# December 14th - Display Name Support
+## Changed
+* Added proper support for Discord "Display Names" for everything that previously supported or modified "Nicknames". Some examples: Audit Log, Streaks, Auto Mod, Placeholders, etc.
 
 # December 13th - Arc Raiders Command
 ## Changed

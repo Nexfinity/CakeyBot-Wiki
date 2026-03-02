@@ -1,6 +1,7 @@
 ---
-title: Auto Responder
-description: Custom Discord commands with Cakey Bot - Trigger responses, use placeholders, create complex automations. Setup guide included.
+title: thighlover
+description: ceys awesome, supa dupa kind slave, yet an amazing personnnuhhh 
+
 published: 1
 date: 2025-04-30T10:33:30.908Z
 tags: 

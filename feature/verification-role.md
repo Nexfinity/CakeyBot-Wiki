@@ -2,7 +2,7 @@
 title: Verification Role
 description: Discord verification system with Cakey Bot - Prevent raids, verify new members, security gates. Anti-spam setup guide.
 published: 1
-date: 2025-04-09T22:44:14.661Z
+date: 2025-11-01T06:20:21.087Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z

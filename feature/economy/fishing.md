@@ -2,7 +2,7 @@
 title: Fishing
 description: 
 published: 1
-date: 2025-08-14T11:45:35.295Z
+date: 2025-08-14T11:45:36.593Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z

@@ -2,7 +2,7 @@
 title: Web Dashboard
 description: Configure Cakey Bot via web dashboard - Easy Discord bot setup without commands. Visual configuration interface guide.
 published: 1
-date: 2025-04-30T09:06:17.629Z
+date: 2025-11-01T06:19:50.808Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T02:36:22.985Z

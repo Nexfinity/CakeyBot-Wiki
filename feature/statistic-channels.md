@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: Discord statistics display with Cakey Bot - Member count, server stats, semi-live counters. Server metrics visualization guide.
 published: 1
-date: 2025-10-23T01:41:26.536Z
+date: 2025-11-01T06:20:13.375Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z

@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2025-04-04T02:22:26.389Z
+date: 2025-11-01T06:19:55.671Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z

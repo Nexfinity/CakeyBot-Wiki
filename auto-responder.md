@@ -2,7 +2,7 @@
 title: Auto Responder
 description: Custom Discord commands with Cakey Bot - Trigger responses, use placeholders, create complex automations. Setup guide included.
 published: 1
-date: 2025-04-30T10:33:30.908Z
+date: 2025-11-01T06:19:29.989Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z

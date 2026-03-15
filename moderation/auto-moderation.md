@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: Discord auto moderation bot - Spam filters, raid protection, content blocking with Cakey Bot. Complete security setup guide.
 published: 1
-date: 2025-08-31T02:12:54.799Z
+date: 2025-11-01T06:20:30.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z

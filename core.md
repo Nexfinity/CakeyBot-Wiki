@@ -2,7 +2,7 @@
 title: Core Category
 description: Cakey Bot core features documentation - Essential Discord bot functions, setup guides, basic configuration. Start here for basics.
 published: 1
-date: 2024-03-07T20:43:58.478Z
+date: 2025-11-01T06:19:43.224Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-07T20:43:57.394Z

@@ -2,11 +2,16 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-03-15T18:51:47.897Z
+date: 2026-03-19T23:47:23.969Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# March 19th - Website Improvements
+## Added
+* Added new dedicated page for listing and managing your premium/custom bot subscriptions on the dashboard. You can view/cancel subscriptions or update your payment method easier now. (Lifetime purchases should also be listed too)
+* Added new fishing leaderboard to the leaderboard pages. (buttons soon to be added into the bot for quick linking too)
 
 # March 6th - RSS Improvements
 ## Changed

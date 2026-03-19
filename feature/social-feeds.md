@@ -2,7 +2,7 @@
 title: Social Feeds
 description: Social media feeds with Cakey Bot - Twitch, YouTube, Reddit, RSS integration. Automated content sharing setup guide.
 published: 1
-date: 2025-04-04T02:00:31.857Z
+date: 2025-11-01T06:20:09.617Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z

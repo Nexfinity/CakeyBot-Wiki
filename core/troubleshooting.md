@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Fix common Cakey Bot issues - Bot not responding, command problems, permission errors. Complete troubleshooting guide with solutions.
 published: 1
-date: 2025-03-26T09:10:28.834Z
+date: 2025-11-01T06:19:49.559Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:20:52.188Z

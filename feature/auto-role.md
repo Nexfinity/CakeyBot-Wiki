@@ -2,7 +2,7 @@
 title: Auto Role
 description: Automatic Discord role assignment with Cakey Bot - Join roles, timed roles. Member management guide.
 published: 1
-date: 2025-02-20T06:32:51.728Z
+date: 2025-11-01T06:20:01.773Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:17:36.935Z

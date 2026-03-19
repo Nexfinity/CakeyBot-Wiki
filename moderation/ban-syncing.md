@@ -2,7 +2,7 @@
 title: Ban Syncing
 description: Sync Discord bans across servers with Cakey Bot - Multi-server moderation, ban lists. Network security management guide.
 published: 1
-date: 2025-02-20T06:33:03.492Z
+date: 2025-11-01T06:20:31.968Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-20T10:18:18.508Z

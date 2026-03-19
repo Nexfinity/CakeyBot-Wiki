@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: Cakey Bot language support - 10+ languages for Discord including Spanish, French, German. Multi-language bot configuration guide.
 published: 1
-date: 2025-10-22T19:47:27.323Z
+date: 2025-11-01T06:19:44.554Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z

@@ -2,7 +2,7 @@
 title: Starboard
 description: Create Discord starboard with Cakey Bot - Pin popular messages automatically, showcase best content. Community feature guide.
 published: 1
-date: 2025-04-04T01:52:44.132Z
+date: 2025-11-01T06:20:12.164Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-12T02:59:49.416Z

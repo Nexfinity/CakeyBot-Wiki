@@ -2,7 +2,7 @@
 title: Dashboard Audit Logs
 description: Access Cakey Bot logs via web dashboard - Error tracking, command usage, moderation history. Discord bot logging interface guide.
 published: 1
-date: 2025-04-04T01:58:35.783Z
+date: 2025-11-01T06:19:52.022Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:55:26.492Z

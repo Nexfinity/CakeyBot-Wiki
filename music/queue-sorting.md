@@ -2,7 +2,7 @@
 title: Queue Sorting
 description: Advanced Discord music bot features - Queue management and sorting with Cakey Bot. Professional audio setup guide.
 published: 1
-date: 2025-04-30T10:50:41.773Z
+date: 2025-11-01T06:20:45.605Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:07:47.675Z

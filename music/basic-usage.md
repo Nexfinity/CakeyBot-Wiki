@@ -2,7 +2,7 @@
 title: Basic Usage
 description: Play music in Discord with Cakey Bot - Basic commands, queue management, volume control. Music bot beginner's guide.
 published: 1
-date: 2025-12-13T03:30:08.626Z
+date: 2025-12-13T03:30:09.862Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z

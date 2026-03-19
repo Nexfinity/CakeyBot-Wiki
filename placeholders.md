@@ -2,7 +2,7 @@
 title: Placeholders
 description: 100+ Cakey Bot placeholders for Discord messages - User, server, channel variables. Complete reference guide with syntax examples.
 published: 1
-date: 2025-09-08T04:55:38.343Z
+date: 2025-11-01T06:20:50.744Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z

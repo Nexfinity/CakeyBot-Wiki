@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: Advanced Discord music bot features - Equalizer, filters, and presets with Cakey Bot. Professional audio setup guide.
 published: 1
-date: 2025-04-30T10:47:21.255Z
+date: 2025-11-01T06:20:43.166Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z

@@ -33,7 +33,7 @@ Server moderators with **Manage Server** can also remove AFK statuses from the w
 
 # Configuration
 
-You can also configure AFK messages further by using our [Web Dashboard](https://cakey.bot/dashboard/public). There are a few options you can change:
+You can also configure AFK messages further by using our [Web Dashboard](https://cakey.bot/dashboard). There are a few options you can change:
 
 | Name                | Description                                                                                                                                                    | Default Value | Min Value | Max Value | Premium Feature |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|-----------|------------------|

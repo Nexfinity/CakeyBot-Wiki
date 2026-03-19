@@ -49,7 +49,7 @@ Cakey Bot offers a versatile user verification system that allows server adminis
 ## Set the Verification Role ~(Required~ ~for~ ~ALL~ ~methods)~
 In order to set the role that you want users to get, you will need to type `/setup verifyrole <role>`. You can also disable or remove the role by typing `/setup verifyrole 0`. If you want to change the role later, you can just run the initial setup command and type the new role and it will update the currently saved role.
 
-> **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakey.bot/dashboard/public)!
+> **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakey.bot/dashboard)!
 {.is-success}
 
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
@@ -64,7 +64,7 @@ In order to create the verification embed, simply run the `/setup createverifyem
 {.is-info}
 
 ## Set a Custom Embed Message
-In order to set a custom embed message, simply login to the [web dashboard](https://cakey.bot/dashboard/public) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Verification Message". You can set any message you want up to 2k characters.
+In order to set a custom embed message, simply login to the [web dashboard](https://cakey.bot/dashboard) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Verification Message". You can set any message you want up to 2k characters.
 
 > Note: Setting a custom embed message is NOT requied. If no message is set, Cakey bot will generate a default message.
 {.is-info}
@@ -73,7 +73,7 @@ In order to set a custom embed message, simply login to the [web dashboard](http
 {.is-success}
 
 ## Set a Custom Password
-In order to set a custom password, simply login to the [web dashboard](https://cakey.bot/dashboard/public) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Custom Password". You can set any password you want up to 255 characters. Passwords are not currently case sensitive.
+In order to set a custom password, simply login to the [web dashboard](https://cakey.bot/dashboard) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Custom Password". You can set any password you want up to 255 characters. Passwords are not currently case sensitive.
 
 > Note: A custom password will only be required with the "Custom Password" method. Also, if no password is set, ALL attempts will fail.
 {.is-info}

@@ -20,7 +20,7 @@ This feature is ideal for managing high-traffic channels where certain roles may
 * **Automated Role Management:** No manual intervention is required to make roles mentionable again—everything is handled automatically, allowing for a hands-off experience once the cooldown is set.
 
 # Setup
-1. Login into the [web dashboard](https://cakey.bot/dashboard/public).
+1. Login into the [web dashboard](https://cakey.bot/dashboard).
 2. Select the server you want to configure.
 3. From the left menu, select the "Mention Cooldowns" page.
 

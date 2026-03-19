@@ -42,7 +42,7 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 
 # Multiple Music Bots
 
-Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our "Premium" page of the [web dashboard](https://cakey.bot/dashboard/public). Note that you must have premium enabled on the server in order to invite these additional music bots.
+Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our "Premium" page of the [web dashboard](https://cakey.bot/dashboard). Note that you must have premium enabled on the server in order to invite these additional music bots.
 
 # Supported Sources
 

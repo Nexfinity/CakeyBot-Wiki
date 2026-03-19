@@ -10,11 +10,11 @@ dateCreated: 2022-10-18T08:18:44.517Z
 
 # Overview
 
-Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakey.bot/dashboard/public).
+Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakey.bot/dashboard).
 
 # Setup/Add Feeds
 
-1. Login to our [web dashboard](https://cakey.bot/dashboard/public).
+1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Social Feeds".
 3. Click the tab for the feed you want to add (i.e. Reddit, Twitch, etc)
 4. Click the "Add New Feed" button
@@ -37,7 +37,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 ![YouTube Screenshot](/youtube2.png)
 
 ## Reddit
-> Reddit feeds currently require a [premium subscription](https://cakey.bot/premium.php) to use due to rate limit concerns.
+> Reddit feeds currently require a [premium subscription](https://cakey.bot/premium) to use due to rate limit concerns.
 {.is-warning}
 
 ![Reddit Screenshot](/reddit.png)

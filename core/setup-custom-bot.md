@@ -21,7 +21,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 
 # Purchasing Custom Bot
 To purchase a Custom Bot simply follow these instructions:
-1. Navigate to our [premium website page](https://cakey.bot/premium.php)
+1. Navigate to our [premium website page](https://cakey.bot/premium)
 2. If you haven't done so already, you will need to login to Discord using any of the "Login to Purchase" buttons on the page.
 3. Go to the "Custom Bot" section and choose either Monthly or Yearly.
 4. Once you have done so, you can then click "Subscribe" and follow the on-screen instructions.
@@ -78,7 +78,7 @@ To purchase a Custom Bot simply follow these instructions:
 > Keep this Discord Developer dashboard open for now. We'll return to invite the bot later.
 {.is-info}
 
-Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard/public) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
+Now, you can go back to Cakey Bot's [web dashboard](https://cakey.bot/dashboard) to set up your Custom Bot with this token. To set up the Custom Bot on Cakey Bot's dashboard just follow these steps:
 
 1. Login to the web dashboard
 
@@ -109,7 +109,7 @@ If you have any issues with this, do not hesitate to join our [support server](h
 <image src="/redirects.png" width="800px" alt="Redirect configuration">
 > **Note:** If you've used this bot before, it's possible other URLs may already exist. If so, simply replace an existing one with Cakey Bot's website URL or add it as a new one with the "Add Another" button.
 {.is-warning}
-4. In the text field enter `https://cakey.bot/success_invite.html` and hit the "Save" button (**Note:** This link does not match the one in the screenshot.)
+4. In the text field enter `https://cakey.bot/success_invite` and hit the "Save" button (**Note:** This link does not match the one in the screenshot.)
 5. You may return to the web dashbord and on the "Premium" page there should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
 
 > Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.

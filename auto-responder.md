@@ -19,7 +19,7 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers and auto responders.
 {.is-warning}
 
-1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard).
 2. Click on the server you want to edit auto responders on.
 3. Go to the "Auto Responder" page.
 4. You can then create, delete, and edit any responses on this page. You can get an overview of any flags that are available below.&#x20;
@@ -142,4 +142,4 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * It must be less than 2,000 characters.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
-  * The URL must start with `https://cakey.bot/dashboard/publicembed-editor?data=`
+  * The URL must start with `https://cakey.bot/dashboard/EmbedEditor?data=`

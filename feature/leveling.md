@@ -92,7 +92,7 @@ You can also use a few placeholders in this message:
 ## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
 
-For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/top.php?id=408424043482447872`. This default URL can be difficult to remember. 
+For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/id/408424043482447872`. This default URL can be difficult to remember. 
 If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
 
 > NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards)
@@ -161,7 +161,7 @@ Season XP Drops introduce timed XP bonuses that occur during active event period
 # Rank Card Customization
 
 ## Banner Images
-You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium.php) servers also have access to a wider selection of image banners for their rank cards.
+You can set different image banners for the `/rank` card. [Premium](https://cakey.bot/premium) servers also have access to a wider selection of image banners for their rank cards.
 
 Our fancy image banner editor:
 <image src="/leveling-editor.jpg" width="800px" alt="Banner Editor">

@@ -58,7 +58,7 @@ Discord requires you to verify your e-mail account to add bots into your servers
 ## Cakey Bot will not play audio or the  laggy/buggy&#x20;
 
 * As you are using Cakey Bot, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
-* If you are encountering these issues, you can check out [this section](https://cakey.bot/faq.html) in order to resolve these issues.
+* If you are encountering these issues, you can check out [this section](https://cakey.bot/faq#music-laggy) in order to resolve these issues.
 
 ## Cakey Bot forgets the playlist I queued after it leaves
 

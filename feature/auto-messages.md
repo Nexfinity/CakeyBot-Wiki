@@ -16,7 +16,7 @@ The auto message feature allows server owners to schedule recurring daily messag
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers and auto messages.
 {.is-warning}
 
-1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard).
 2. Click on the server you want to edit auto messages on.
 3. Go to the "Auto Messages" page.
 4. You can then create, delete, and edit any messages on this page.

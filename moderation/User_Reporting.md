@@ -15,7 +15,7 @@ Overall, the User Reporting feature in Cakey Bot is a valuable tool for maintain
 
 # Setting a Report Channel
 
-1. Go to the [web dashboard](https://cakey.bot/dashboard/public)
+1. Go to the [web dashboard](https://cakey.bot/dashboard)
 2. Select the server you want to set the report channel on. 
 3. From the left menu click on `Moderation`.
 4. Select a report channel from the dropdown menu then click `Update`.

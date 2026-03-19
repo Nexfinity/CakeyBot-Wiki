@@ -10,7 +10,7 @@ dateCreated: 2022-08-31T04:14:14.623Z
 
 # Getting Started
 
-> This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakey.bot/dashboard/public) to manage your server.
+> This is just the documentation for Cakey Bot. You do NOT configure the bot from here. Visit the [web dashboard](https://cakey.bot/dashboard) to manage your server.
 {.is-danger}
 
 Cakey Bot is a powerful and highly customizable Discord bot for your server. Cakey Bot has a massive music core, advanced audit logging and tons of useful moderation features to help make your servers easy to manage.
@@ -27,7 +27,7 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq.html). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
+If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 
@@ -108,7 +108,7 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 
 After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, auto responders, audit logging, etc.
 
-You can access the web dashboard [here](https://cakey.bot/dashboard/public). All of Cakey Bot's most advanced features can be configured through the web dashboard.
+You can access the web dashboard [here](https://cakey.bot/dashboard). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 
 You can configure advanced features like the ones listed below in the web dashboard:
 

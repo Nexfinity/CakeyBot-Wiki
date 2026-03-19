@@ -137,8 +137,8 @@ dateCreated: 2024-01-02T23:52:26.127Z
 # September 12th - New Resources
 ## Added
 * Added two new resources to the website:
-  * https://cakey.bot/xp-table.html
-  * https://cakey.bot/xp-calculator.html
+  * https://cakey.bot/xp-table
+  * https://cakey.bot/xp-calculator
 
 # September 3rd - User App Context Menus
 ## Changed

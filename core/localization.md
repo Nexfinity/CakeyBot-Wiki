@@ -86,7 +86,7 @@ We are adding more languages and you can contribute on our Weblate page [here](h
 **2) What do the different files mean?**
 
 - **strings.resx:** This file contains all translations that are used in Cakey Bot's responses on [Discord](https://discord.gg/Y3VdQAD).
-- **web-strings.php:** This file contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakey.bot/dashboard/public).
+- **web-strings.php:** This file contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakey.bot/dashboard).
 - **slash-commands.resx:** This file contains all translations that are used in the slash commands for Cakey Bot on [Discord](https://discord.gg/Y3VdQAD).
 
 **3) Do I need permission to contribute?**

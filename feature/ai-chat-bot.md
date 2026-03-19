@@ -23,7 +23,7 @@ All servers start with 20 FREE requests every month! After that you will have to
 
 To setup Cakey Bot's chat AI simply follow these steps:
 
-1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard/public).
+1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard).
 2. Click on the server you want to enable the chat bot on.
 3. Go to the "Bot Settings/Core" page.
 4. Toggle the "Enable AI Chat Bot" setting to on.
@@ -33,7 +33,7 @@ To setup Cakey Bot's chat AI simply follow these steps:
 {.is-warning}
 
 # Accents
-Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakey.bot/dashboard/public) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
+Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! By default all responses will be in regular English, however you can head over to our [web dashboard](https://cakey.bot/dashboard) and change the "Chat Bot Accent" on our "Bot Settings" page. We currently support these accents:
 * Default English
 * Australian accent
 * British Accent

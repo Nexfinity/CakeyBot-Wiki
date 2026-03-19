@@ -15,7 +15,7 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 {.is-success}
 
 # Setup
-1. Login into the [web dashboard](https://cakey.bot/dashboard/public).
+1. Login into the [web dashboard](https://cakey.bot/dashboard).
 2. Select the server you want to configure.
 3. From the left menu, select the "Daily Content" page.
 4. Enable the daily content you want to see and select an output channel.

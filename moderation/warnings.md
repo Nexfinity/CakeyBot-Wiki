@@ -49,7 +49,7 @@ You can also view warnings on our web dashboard. Once you log in and select a se
 Cakey Bot provides a few ways to remove and clear warnings from users.
 
 ### Single Warning
-You can clear a specific warning from a user with the `/unwarn <id>` command. You can get the warning ID from the `/warnings <user>` command or from the [web dashboard](https://cakey.bot/dashboard/public).
+You can clear a specific warning from a user with the `/unwarn <id>` command. You can get the warning ID from the `/warnings <user>` command or from the [web dashboard](https://cakey.bot/dashboard).
 
 ### Clear All Warnings
 You can clear every warning from a user with the `/clearwarnings <user>` command.
@@ -63,7 +63,7 @@ You can clear every warning from a user with the `/clearwarnings <user>` command
 The "Warning Auto Punishments" feature in Cakey Bot automatically enforces consequences for rule violations by tracking user warnings and triggering pre-defined punishments, such as mutes, kicks, or bans. It helps maintain a healthy community environment, reduces the burden on moderators, and ensures consistency and fairness in disciplinary actions.
 
 ## Configuration
-You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard/public), on the "Warnings" page.
+You can configure the Warning Auto Punishments feature from the [web dashboard](https://cakey.bot/dashboard), on the "Warnings" page.
 Here's how to add your first auto-punishment:
 1. Click "Add Punishment".
 2. Select the punishment and the required warnings to get that punishment.

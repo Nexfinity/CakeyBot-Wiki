@@ -2,7 +2,7 @@
 title: Setup Premium
 description: Activate Cakey Bot Premium features - 24/7 music, unlimited playlists, advanced moderation. Step-by-step premium activation guide.
 published: 1
-date: 2025-11-01T06:19:48.308Z
+date: 2026-03-21T16:41:15.396Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -57,16 +57,9 @@ Here are some step-by-step instructions on how to remove premium from servers:
 3. Scroll down until you see "Premium Servers".
 4. Next to your server, press "Deactivate".
 # How to Manage/Cancel Premium Susbcriptions
-1. Go to the [premium page](https://cakey.bot/premium)
-2. Login by clicking the "Login To Manage Account" text above the diamond (NOT "Login to Dashboard" in the navigation bar)
-3. Click "Manage Account".
-<image src="/image_2023-06-02_114040495.png" width="600px" alt="Management Screenshot">
-4. In the popup, enter your e-mail, then the OTP that was sent to your email.
-### How to cancel your subscription
-1. From the popup, select the subscription you would like to cancel.
-2. Click on "Cancel Subscription", then select a cancel reason.
-3. To confirm, click on the "Confirm Cancelation" button.
-### How to add add-ons
-1. From the popup, select the subscription that you would like to add add-ons to.
-2. Click "Edit subscription", then click "Add addons".
-3. Select the addon, then click "Add".
+1. Go to the [main website](https://cakey.bot)
+2. Login by clicking the login button (either the 'arrow' button in the nav bar or the login buttons on the premium page).
+3. Click the user profile dropdown menu in the top-right nav bar (will have your profile picture and username)
+4. Click "Manage Subscriptions" in that dropdown.
+5. Find the subscription you want to manage and click the red "Cancel" button.
+6. Follow the on screen instructions to finish the cancelation.

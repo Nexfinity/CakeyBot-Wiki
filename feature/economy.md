@@ -2,7 +2,7 @@
 title: Economy Overview
 description: Discord economy bot features - Work, rob, shop, gambling games with Cakey Bot. Free economy system configuration guide.
 published: 1
-date: 2025-11-01T06:20:04.440Z
+date: 2026-03-28T21:52:53.203Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -60,6 +60,15 @@ In addition to the regular commands, there's a number of customization options t
 | Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
 | Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
 | Fishing Weight    | Define if the weight of caught fish should be kg or lbs.                                                                            | lbs          |           |           | No               |
+
+## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
+
+For example, the default leaderboard URL will look something like this: `https://cakey.bot/leaderboard/id/408424043482447872`. This default URL can be difficult to remember. 
+If you set a vanity URL to something like `caketropolis`, you can then access your server's leaderboard via `https://cakey.bot/leaderboard/caketropolis` which is alot easier for users to remember.
+
+> NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards). Also this setting is linked/syncronized across multiple features.
+{.is-info}
 
 # Anti-Abuse Mechanics
 > Note: Details are intentionally limited for this in order to make it more difficult for malicious actors trying to abuse the economy system. Also not all anti-abuse mechanics may be listed.

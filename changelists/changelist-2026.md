@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-03-28T12:14:05.258Z
+date: 2026-03-28T20:54:06.188Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -11,6 +11,8 @@ dateCreated: 2026-01-13T22:54:52.663Z
 # March 28th - Gist Support
 ## Added
 * Added gist support to the git previewer.
+* Added new 'Nord' theme for the website.
+* Added the "Specific Role Count" stat channel type.
 
 # March 21st - Streaks Leaderboard
 ## Added

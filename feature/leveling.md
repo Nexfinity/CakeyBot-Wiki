@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-03-28T21:55:03.139Z
+date: 2026-03-28T21:55:08.826Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -154,7 +154,7 @@ Random XP Drops introduce timed XP bonuses that occur during active event period
 - Drops will only occur when both the feature and output channel are set.  
 - Claiming a drop resets the drop timer and triggers the next event window.
 - The previous drop must be claimed for a new one to spawn.
-- The random images used for the drops may change throuyghout the year to reflect the current season or nearby holiday to help keep things refreshing/new.
+- The random images used for the drops may change throughout the year to reflect the current season or nearby holiday to help keep things refreshing/new.
 
 > **Tip:** Use shorter time intervals during events to increase engagement and activity.
 {.is-success}

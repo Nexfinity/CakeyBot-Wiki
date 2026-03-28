@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-03-28T21:52:18.730Z
+date: 2026-03-28T21:55:03.139Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -132,10 +132,10 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 | Decay Minimum | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
 
 
-# Season XP Drops
-Season XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming.
+# Random XP Drops
+Random XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming.
 
-> **Note:** Season XP Drops can only occur when the feature is enabled and a valid output channel is configured.
+> **Note:** Random XP Drops can only occur when the feature is enabled and a valid output channel is configured.
 {.is-info}
 
 ## Configuration Settings
@@ -153,7 +153,8 @@ Season XP Drops introduce timed XP bonuses that occur during active event period
 - Each drop awards a random XP amount within the defined XP range.  
 - Drops will only occur when both the feature and output channel are set.  
 - Claiming a drop resets the drop timer and triggers the next event window.
-* The previous drop must be claimed for a new one to spawn.
+- The previous drop must be claimed for a new one to spawn.
+- The random images used for the drops may change throuyghout the year to reflect the current season or nearby holiday to help keep things refreshing/new.
 
 > **Tip:** Use shorter time intervals during events to increase engagement and activity.
 {.is-success}

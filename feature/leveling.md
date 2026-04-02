@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-03-28T21:55:08.826Z
+date: 2026-04-02T20:47:05.768Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -142,11 +142,15 @@ Random XP Drops introduce timed XP bonuses that occur during active event period
 | Name                  | Description                                                                                                                                              | Default Value |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
 | Drops Enabled         | Determines whether Season XP Drops are active. When disabled, no XP drops will occur regardless of other settings.                                      | Off (0)       |
-| Output Channel        | The channel where XP drop events are announced. If no valid channel is set, drops will not trigger.                                                     | None (0)      |
+| Output Channel        | The channel where XP drop events are announced. If multiple are selected, the bot will randomly choose one for each drop. | None (0)      |
 | Min. XP               | The minimum XP amount that can be awarded during a drop event.                                                                                          | 500           |
 | Max. XP               | The maximum XP amount that can be awarded during a drop event.                                                                                          | 2000          |
 | Min. Time (Hours)     | The minimum interval between XP drop events, measured in hours.                                                                                         | 2 hours       |
 | Max. Time (Hours)     | The maximum interval between XP drop events, measured in hours.                                                                                         | 6 hours       |
+
+> **Note:** If no valid channel is set, drops will not trigger. You need to have drops enabled AND atleast one output channel selected.
+{.is-warning}
+
 
 **Behavior Overview**
 - XP drop events are randomly scheduled between the configured minimum and maximum hours.  

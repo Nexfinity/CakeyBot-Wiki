@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-03-28T21:56:00.446Z
+date: 2026-04-02T20:44:39.860Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 2nd - Random XP Drop Multi-Channel Support
+## Added
+* Added the ability to select multiple channels for the random XP drops. (Bot will randomly select one channel from the list every time a drop is sent. This helps decrease/discourage auto-clickers/botting)
 
 # March 28th - Gist Support & Random XP Drops
 ## Added

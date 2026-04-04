@@ -2,11 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-02T20:44:39.860Z
+date: 2026-04-04T14:22:12.457Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 4th - Random XP Drop Anti-Abuse
+## Added
+* Added ignored roles setting for streaks.
+* Added some anti-abuse/anti-bot features to Random XP Drops including:
+  * Toggle to prevent the same person from claiming a drop back to back
+  * Toggle to add randomized button placements
 
 # April 2nd - Random XP Drop Multi-Channel Support
 ## Added

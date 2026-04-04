@@ -2,7 +2,7 @@
 title: Streaks
 description: Discord daily streak system with Cakey Bot - Reward consistency, daily check-ins, streak tracking. Engagement rewards setup guide.
 published: 1
-date: 2025-11-01T06:20:15.890Z
+date: 2026-04-04T14:23:11.495Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -46,6 +46,9 @@ Here's how to do that:
 
 ## Ignored Channels
 This is a list of channels that will be ignored when looking for messages to update a user's streak.
+
+## Ignored Roles
+This is a list of roles that will be ignored when looking for messages to update a user's streak.
 
 ## Send DM Reminders
 Enabling this feature will have Cakey Bot send reminders to users via DMs when their streak is either going to end soon (~12 hours prior to expiring) and when it actually expires.

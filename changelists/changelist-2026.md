@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-05T18:22:08.656Z
+date: 2026-04-05T20:04:25.570Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -11,6 +11,8 @@ dateCreated: 2026-01-13T22:54:52.663Z
 # April 5th - Leveling QOL Features
 ## Changed
 * Increased mention cooldown limits.
+* Split the Ignore Muted toggle for voice leveling XP into two options (Ignored Muted & Ignore Deafened)
+
 ## Added
 * Added the ability to have XP decay immunity roles that you can give to users.
 * Added additional context to the AI chat bot. (i.e. who the bot is chatting with)
@@ -18,6 +20,9 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added the option to give bonus XP for image and video files on messages.
 * Added a toggle for level up messages to ping users.
 * Added a toggle for support ticket logs to ping users.
+* Added Ignored Channels for Audio Transcripts.
+* Added Ignored Channels for Auto Quoter.
+* Added Ignored Channels for Git Code Previewer.
 
 # April 4th - Random XP Drop Anti-Abuse
 ## Added

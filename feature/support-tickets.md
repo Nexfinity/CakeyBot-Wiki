@@ -2,7 +2,7 @@
 title: Support Tickets
 description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
-date: 2025-11-01T06:20:17.172Z
+date: 2026-04-05T15:05:52.635Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -76,6 +76,9 @@ Defaults to disabled. When enabled, this will prompt the user to confirm that th
 Defaults to disabled. When enabled, this will send attempt to send a DM to the user who opened the ticket once it has been closed with basic information about the ticket.
 > **Note:** Sometimes users have DMs blocked or Discord will fail to send the DM. There is nothing Cakey Bot can do about this!
 {.is-warning}
+
+## Disable Transcript Mentions
+Toggles whether transcript channel logs will mention users/roles.
 
 ## Ping Staff Role on Ticket Creation
 Defaults to disabled. When enabled, it will ping the Support Team staff role when a new ticket is created.

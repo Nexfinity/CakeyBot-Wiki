@@ -2,7 +2,7 @@
 title: Streaks
 description: Discord daily streak system with Cakey Bot - Reward consistency, daily check-ins, streak tracking. Engagement rewards setup guide.
 published: 1
-date: 2026-04-04T14:23:11.495Z
+date: 2026-04-05T15:04:02.427Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -88,3 +88,4 @@ Usage Key: `<required>` / `[optional]`
 | /streaks view | Shows your current streak. (Or the selected user's) | [user] | None | 
 | /streaks toggle-opt-out | Allows you to opt out of streaks for your account. | N/A | None | 
 | /streaks toggle-reminder-opt-out | Allows you to opt out of streak DM reminders. | N/A | None | 
+| /setup reset-all-streaks | Reset ALL user streaks to 0 for this server. This will RESET ALL current streaks! | \<confirm\> | ManageServer or Administrator | 

@@ -2,13 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-05T15:01:24.525Z
+date: 2026-04-05T18:22:08.656Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
 # April 5th - Leveling QOL Features
+## Changed
+* Increased mention cooldown limits.
 ## Added
 * Added the ability to have XP decay immunity roles that you can give to users.
 * Added additional context to the AI chat bot. (i.e. who the bot is chatting with)

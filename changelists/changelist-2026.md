@@ -2,11 +2,20 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-04T14:22:12.457Z
+date: 2026-04-05T15:01:24.525Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 5th - Leveling QOL Features
+## Added
+* Added the ability to have XP decay immunity roles that you can give to users.
+* Added additional context to the AI chat bot. (i.e. who the bot is chatting with)
+* Added the `/setup reset-all-streaks` command to reset ALL user streaks in the server. (For fairness sake, you can NOT reset specific user's streaks.)
+* Added the option to give bonus XP for image and video files on messages.
+* Added a toggle for level up messages to ping users.
+* Added a toggle for support ticket logs to ping users.
 
 # April 4th - Random XP Drop Anti-Abuse
 ## Added

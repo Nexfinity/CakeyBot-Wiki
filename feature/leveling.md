@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-04-04T14:25:10.496Z
+date: 2026-04-05T15:16:27.149Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -129,9 +129,10 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 ## Configuration Settings
 | Name          | Description                                                                                                                                         | Default Value |
 | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| Decay Rate    | Determines the percentage of XP lost per day once the decay process begins. This is based on the user's current XP and is applied daily.           | 0.10 (10%)    |
-| Decay Days    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
-| Decay Minimum | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
+| Decay Rate (per day)    | Determines the percentage of XP lost per day once the decay process begins. This is based on the user's current XP and is applied daily.           | 0.10 (10%)    |
+| Days Since Activity    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
+| Minimum Level | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
+| Decay Ignore Roles | Users with these roles will not have XP decay applied even if inactive | None |
 
 
 # Random XP Drops

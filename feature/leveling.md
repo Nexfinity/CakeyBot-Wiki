@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-04-05T15:18:24.325Z
+date: 2026-04-05T15:19:53.519Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -66,6 +66,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Wipe User XP on Leave    | Wipes a user’s XP when they leave, are kicked, or banned.                                                                               | Disabled      |           |           | No               |
 | Ignore Muted Users       | Toggles whether muted or deafened users earn XP in voice channels.                                                                      | Enabled       |           |           | No               |
 | Ignore Solo Users        | Toggles whether users alone in a voice channel earn XP.                                                                                 | Enabled       |           |           | No               |
+| Disable Level Up Mentions        | Toggles whether level up messages will mention users/roles.                                                                                 | Disabled       |           |           | No               |
 | Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 | Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 | Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 1,000     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |

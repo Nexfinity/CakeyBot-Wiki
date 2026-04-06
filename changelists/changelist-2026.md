@@ -2,11 +2,17 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-05T20:04:25.570Z
+date: 2026-04-06T20:44:50.203Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 6th - New Achievement Reward Options
+## Added
+* Added new reward options for achievements:
+  * Remove Leveling XP
+  * Add/Remove Economy Money 
 
 # April 5th - Leveling QOL Features
 ## Changed

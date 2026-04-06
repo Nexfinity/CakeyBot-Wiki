@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2025-11-01T06:19:55.671Z
+date: 2026-04-06T20:45:47.222Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -70,7 +70,7 @@ You can also chose between 9 different colors:
 <image src="/colors.jpg" width="600px" alt="Colors">
 
 ## Icons
-Currently there is a small selection of icons that you can select for your banners. You can select any RGB color to be applied to the icon as well.
+We currently support the full set of font awesome pro icons that you can select for your banners (currently limited to solid style). You can select any RGB color to be applied to the icon as well.
 
 # Types of Achievements
 ## Progression-Based Achievements

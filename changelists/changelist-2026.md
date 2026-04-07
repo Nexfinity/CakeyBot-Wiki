@@ -2,11 +2,21 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-06T20:44:50.203Z
+date: 2026-04-07T09:23:32.493Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 7th - Server Discovery
+## Added
+* Due to popular request, Cakey Bot has now created a "Server Discovery" system for servers that use Cakey Bot! You can view servers here: <https://cakey.bot/discovery>
+  * Note: No servers are visible due to none being accepted _yet_.
+  * Applications are open and will be processed over the next few days, can apply within the dashboard here once you select a server to manage: <https://cakey.bot/dashboard/discovery>
+  * Servers MUST utilize cakey bot and keep Cakey Bot in the server.
+  * Server Discovery will display things like server name, icon, invite join link, popular features utilized in cakey bot, links to leaderboards, and more!
+  * Ranking is purely randomized (and cached for 6h), searching/filtering coming soon.
+  * This is a very early release and we will continue to iterate and improve it based on user feedback.
 
 # April 6th - New Achievement Reward Options
 ## Added

@@ -2,7 +2,7 @@
 title: Tags
 description: Discord tag system with Cakey Bot - Quick responses, stored information, command aliases. Knowledge base creation guide.
 published: 1
-date: 2025-11-01T06:20:18.512Z
+date: 2026-04-10T23:15:37.509Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:21:24.448Z
 
 # Overview
 
-This feature allows you to set up a variety of "tags" that users can list and use to output pre-determined strings of text. This is useful for creating public FAQ responses without making a bunch of [Auto Responders](https://wiki.cakey.bot/en/auto-responder). Also, you can configure tags to be modified by different permission levels, unlike Custom Commands which can only be modified by server admins. The different permission tiers are listed below:
+This feature allows you to set up a variety of "tags" that users can list and use to output pre-determined strings of text. This is useful for creating public FAQ responses without making a bunch of [Auto Responders](https://wiki.cakey.bot/en/auto-responder). Also, you can configure tags to be modified by different permission levels, unlike Auto Responders which can only be modified by server admins. The different permission tiers are listed below:
 
 | Manage Own       | Manage All      | Description                                                                 |
 |------------------|------------------|-----------------------------------------------------------------------------|

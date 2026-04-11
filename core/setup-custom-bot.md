@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2026-04-08T22:46:59.088Z
+date: 2026-04-11T13:24:21.060Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -24,7 +24,13 @@ To purchase a Custom Bot simply follow these instructions:
 4. Once you have done so, you can then click "Subscribe" and follow the on-screen instructions.
 
 # Setting Up Custom Bot
-> **Note:** This section is currently being re-written to match the new custom bot setup wizard flow. If you can any questions pelase contact us in our [support server](https://cakey.bot/discord).
+Once you have purchased the custom bot, you can follow these instructions:
+1) Navigate to the [Custom Bot](https://cakey.bot/dashboard/CustomBot) page of the web dashboard.
+2) You should be prompted via modal popup to start the setup process using our step-by-step setup wizard. 
+* If you get the wizard, follow the on screen instructions to complete the setup process.
+* If you do NOT see the wizard, simply click the "Set Up New Bot" button to force open the setup wizard modal. (You can also optionally select the new bot in the dropdown menu and it'll prompt you for setup as well)
+3) Once you have everything setup, you can move on the inviting your custom bot with the instructions below.
+> **Note:** Do not skip any of the steps/instructions in the wizard. Failure to follow the steps may result in the bot not being setup/started correctly. If you have questions or issues join our [support server](https://cakey.bot/discord).
 {.is-danger}
 
 # Inviting Your Custom Bot

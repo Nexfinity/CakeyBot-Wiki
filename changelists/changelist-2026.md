@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-11T13:34:48.387Z
+date: 2026-04-11T16:52:53.160Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -15,14 +15,18 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed an issue where editing achievements would throw errors or let you change the type.
 * Fixed an issue where the progress was displayed incorrect for custom/manual achievement types.
 * Fixed an issue where auto messages and auto responders would incorrectly display an embed being set on them when it wasn't.
+* Fixed an issue where you couldn't cancel active subscriptions
+* Fixed an issue where all subscriptions were listed as "Premium" even if they were not.
 
 ## Changed
 * Migrated to GPT-Image-1.5 instead of DALL-E due to DALL-E being deprecated on May 12th.
+* The "Manage Subscriptions" page now displays old/cancelled subscriptions.
 
 ## Added
 * Added a check to the Twitch OAuth settings page that checks when your granted OAuth scopes mismatch from Cakey's currently required ones and prompts you to re-link.
 * Added a search, sort and filter system to the Server Discovery system on the website.
 * Added additional info/properties for servers (such as displaying server's banner & icons for enabled features on the main page)
+* Added the ability to remove scheduled cancellations on the "Manage Subscriptions" page.
 
 # April 7th - Server Discovery
 ## Added

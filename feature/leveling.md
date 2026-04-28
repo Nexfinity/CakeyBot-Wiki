@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-04-05T20:21:49.373Z
+date: 2026-04-28T19:36:06.471Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -219,13 +219,14 @@ There's several tools you can use:
   
 # Related Commands
 Usage Key: `<required>` / `[optional]`
-| Command                          | Description                                                              | Usage                                   | Permission                |
-| :------------------------------- | :----------------------------------------------------------------------- | :------------------------------------: | :-----------------------: |
-| /leaderboard                     | View the top 10 users on the leaderboard.                                | N/A                                    | None                      |
-| /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer             |
-| /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>    | ManageServer             |
-| /rank                            | Get your rank or another user's rank.                                    | [user]                                 | None                      |
-| /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                             | N/A                                    | ManageServer or Administrator |
-| /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | N/A | ManageServer or Administrator |
-| /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                              | ManageServer or Administrator |
-| /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                  | \<confirm>                              | ManageServer or Administrator |
+| Command                          | Description                                                              | Usage                                      | Permission             |
+| :------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------: | :--------------------: |
+| /leaderboard                     | View the top 10 users on the leaderboard.                                | N/A                                        | None                   |
+| /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer           |
+| /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>     | ManageServer           |
+| /leveling spawn-xp-drop          | Manually spawn an XP drop in a channel.                                  | [min-xp] [max-xp] [channel]                | ManageServer           |
+| /rank                            | Get your rank or another user's rank.                                    | [user]                                     | None                   |
+| /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                             | N/A                                        | ManageServer or Administrator |
+| /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | N/A               | ManageServer or Administrator |
+| /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                                 | ManageServer or Administrator |
+| /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                  | \<confirm>                                 | ManageServer or Administrator |

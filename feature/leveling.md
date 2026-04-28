@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-04-28T19:36:06.471Z
+date: 2026-04-28T19:36:41.900Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -142,7 +142,7 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 
 
 # Random XP Drops
-Random XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming.
+Random XP Drops introduce timed XP bonuses that occur during active event periods or seasons. These drops encourage engagement and reward users for participating during special occasions. When enabled, random XP drop events can occur across configured channels, providing users with additional XP rewards upon claiming. You can also manually spawn XP drops with `/leveling spawn-xp-drop`, even if the random timer system is disabled.
 
 > **Note:** Random XP Drops can only occur when the feature is enabled and a valid output channel is configured.
 {.is-info}

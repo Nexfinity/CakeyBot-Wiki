@@ -2,11 +2,16 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-11T18:24:01.317Z
+date: 2026-04-28T19:38:09.875Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# April 28th - Manual Drop Command
+## Added
+* Added new `/leveling spawn-xp-drop` command to manually spawn XP drops.
+* Added new optional parameter to the `/tag` command to ping a specific user.
 
 # April 11th - Bug Fixes & QOL Features
 ## Fixed

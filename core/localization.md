@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: Cakey Bot language support - 10+ languages for Discord including Spanish, French, German. Multi-language bot configuration guide.
 published: 1
-date: 2025-11-01T06:19:44.554Z
+date: 2026-05-26T22:36:44.072Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -42,11 +42,13 @@ We are adding more languages and you can contribute on our Weblate page [here](h
 
 # How Do I Translate?
 
-1. Open the project on the Weblate page [here](https://translate.cakey.bot/).
-2. Make any translations/edits/updates to your language.
-3. Wait for the submissions to be reviewed.
-4. Make any requested edits to your submissions (if requested by reviewers).
-5. Wait for the strings to be merged into the production bot and enjoy!
+1. Open the project on the GitHub page [here](https://translate.cakey.bot/).
+2. Fork the project
+3. Make any translations/edits/updates to your language
+4. Create a pull request back to the repo.
+5. Wait for the PR to be reviewed.
+6. Make any requested edits to your submissions (if requested by reviewers).
+7. Wait for the strings to be merged and enjoy!
 
 # Formatting, Rules, Requirements
 
@@ -64,7 +66,7 @@ We are adding more languages and you can contribute on our Weblate page [here](h
    also common placeholders.
 4. If you need more context/info about how/where a string is used to provide an
    accurate translation, you can create a discussion or issue on the string. 
-   Alternatively, you can join our [Discord](https://cakey.bot/discord), where a reviewer can
+   Alternatively, you can join our [Discord](https://cakey.bot/support), where a reviewer can
    provide further details and screenshots.
 5. Do not translate commands. Cakey Bot only accepts base commands in English.
    For example if the translation string is `Usage: /userinfo <user>`, you can
@@ -74,27 +76,26 @@ We are adding more languages and you can contribute on our Weblate page [here](h
    capitalization on them.
 7. If you are unsure how you should format a specific string, you can look at
    another language's file or you can open up a discussion. (You can also ask on
-   our [Discord](https://cakey.bot/discord))
+   our [Discord](https://cakey.bot/support) )
 8. Don't translate emojis or emotes. This will cause them to break and display incorrectly to users.
 
 # FAQ
 
 **1) What if I don't see a section for my language?**
 
-- You can join our [Discord](https://cakey.bot/discord) and create a ticket requesting for it to be added.
+- You can simply create a new section for your language and clone the English
+  file into it.
 
-**2) What do the different files mean?**
+**2) What do the folders mean?**
 
-- **strings.resx:** This file contains all translations that are used in Cakey Bot's responses on [Discord](https://discord.gg/Y3VdQAD).
-- **web-strings.php:** This file contains all translations that are used on Cakey Bot's [Web Dashboard](https://cakey.bot/dashboard).
-- **slash-commands.resx:** This file contains all translations that are used in the slash commands for Cakey Bot on [Discord](https://discord.gg/Y3VdQAD).
+- Bot: This folder contains all translations that are used in the Cakey Bot
+  itself on Discord.
+- Website: This folder contains all translations that are used on Cakey Bot's
+  [Web Dashboard](https://cakeybot.app/dashboard/public).
+
+> Note: Website also has subfolders for each language type, whereas the Bot folder does not.
+{.is-info}
 
 **3) Do I need permission to contribute?**
 
 - Nope! Anyone can contribute, just be sure to follow our rules and formatting guidelines above.
-
-**4) When do the translations get added to the bot/website?**
-
-- If the language has already been accepted, they will periodically be added to the production servers when major changes have been made. Keep an eye on our website and bot news announcement channels on Discord.
-- If the language hasn't been accepted yet, it will need to reach >70% of the strings being approved for it to be accepted and added as a language option.
-  - Some accepted languages may have less than this due to new strings being added later. In these cases, the languages will _not_ be removed from the bot/website.

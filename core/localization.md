@@ -2,7 +2,7 @@
 title: Localization (Multi-Language)
 description: Cakey Bot language support - 10+ languages for Discord including Spanish, French, German. Multi-language bot configuration guide.
 published: 1
-date: 2026-05-26T22:36:44.072Z
+date: 2026-05-26T22:37:23.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T03:26:55.413Z
@@ -15,25 +15,25 @@ dateCreated: 2022-09-01T03:26:55.413Z
 
 Cakey Bot supports over 16 different languages across the bot  and web dashboard. Localization is implemented on a per-server basis, meaning that when a server administrator changes the language setting, it affects all bot interactions for all users within that server. Currently supported languages are listed below:
 
-| Language            | Contributors                          | Bot Completion % | Web Completion % |
-| :------------------| :------------------------------------- | :--------------- | :---------------- |
-| Arabic/العربية      | Sipancoolboy, Basam                     | 24%               | 39%               |
-| English            | –                                     | 100%              | 100%              |
-| Chinese Simplified/中文 | Lukeee                            | 44%               | 68%               |
-| Dutch/Nederlands   | Vikthor                               | 44%               | 66%               |
-| French/Français    | –                                     | 48%               | 68%               |
-| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         | 75%               | 90%               |
-| Greek/ελληνικά      | xxNikosGaming                        | 44%               | 67%               |
-| Italian/Italiano   | GiorgioHerbie                         | 45%               | 68%               |
-| Japanese/日本語       | hikarun                             | 44%               | 67%               |
-| Korean/한국어        | Johnmacro                            | 45%               | 67%               |
-| Portuguese/Português | Kaiser, LoadSec                     | 49%               | 73%               |
-| Romanian/Limba română | Silviu200530                       | 44%               | 67%               |
-| Russian/Русский язык | Misha133                            | 54%               | 69%               |
-| Spanish/Español    | Xurtan                                | 100%              | 99%              |
-| Swedish/Svenska    | Hampus                                | 44%               | 67%               |
-| Turkish/Türkçe     | Aleph, Oğuzhan                        | 45%               | 68%               |
-| Ukrainian/Українська | papip1                              | 44%               | 68%               |
+| Language            | Contributors                          |
+| :------------------| :------------------------------------- |
+| Arabic/العربية      | Sipancoolboy, Basam                     |
+| English            | –                                     |
+| Chinese Simplified/中文 | Lukeee                            |
+| Dutch/Nederlands   | Vikthor                               |
+| French/Français    | –                                     |
+| German/Deutsch     | Marcel, MST2, MrTonno, Angelo         |
+| Greek/ελληνικά      | xxNikosGaming                        |
+| Italian/Italiano   | GiorgioHerbie                         |
+| Japanese/日本語       | hikarun                             |
+| Korean/한국어        | Johnmacro                            |
+| Portuguese/Português | Kaiser, LoadSec                     |
+| Romanian/Limba română | Silviu200530                       |
+| Russian/Русский язык | Misha133                            |
+| Spanish/Español    | Xurtan                                |
+| Swedish/Svenska    | Hampus                                |
+| Turkish/Türkçe     | Aleph, Oğuzhan                        |
+| Ukrainian/Українська | papip1                              |
 
 We are adding more languages and you can contribute on our Weblate page [here](https://translate.cakey.bot/). Once the majority of a language is completed (>80% translated) on Github/Weblate it will be added as an officially supported language. Weblate and Github are frequently synced so you can contribute to whichever you find the easiest.
 

@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-04-28T19:38:09.875Z
+date: 2026-05-31T20:10:52.055Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# May 31st - Starboard QOL
+## Added
+* Added the ability to exclude messages from starboard updates if older than X amount of days.
 
 # April 28th - Manual Drop Command
 ## Added

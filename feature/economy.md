@@ -2,7 +2,7 @@
 title: Economy Overview
 description: Discord economy bot features - Work, rob, shop, gambling games with Cakey Bot. Free economy system configuration guide.
 published: 1
-date: 2026-03-28T21:52:53.203Z
+date: 2026-06-06T22:46:31.152Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -105,7 +105,7 @@ Usage Key: `<required>` / `[optional]`
 | /eco high-or-low         | Guess higher or lower to win more money.                       | N/A                                         | None                   |
 | /eco iteminfo            | View information about a specific item.                        | \<item>                                     | None                   |
 | /eco items               | View all of the items you or someone else owns.                | \<user>                                     | None                   |
-| /eco leaderboard         | View the top 10 users on the leaderboard.                      | N/A                                         | None                   |
+| /eco leaderboard         | View the top 10 users on the leaderboard.                      | [limit]                                     | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
 | /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
 | /eco rob                 | Attempt to rob another user.                                   | \<user>                                     | None                   |
@@ -113,12 +113,12 @@ Usage Key: `<required>` / `[optional]`
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                         | None                   |
 | /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                         | None                   |
 | /eco work                | Work for money.                                                | N/A                                         | None                   |
-| /eco fishing fish              | Fish in a specific biome for a chance to catch fish.            | `<biome> <rod> <bait>`      | None       |
+| /eco fishing fish              | Fish in a specific biome for a chance to catch fish.            | <biome> <rod> <bait>      | None       |
 | /eco fishing list-biomes       | List all available fishing biomes.                              | N/A                         | None       |
 | /eco fishing list-rods         | List all available fishing rods.                                | N/A                         | None       |
 | /eco fishing list-bait         | List all available fishing baits.                               | N/A                         | None       |
-| /eco fishing inventory         | View your (or selected players) fishing inventory & stats.      | `[user]`                    | None       |
-| /eco fishing leaderboard       | View the top 10 users on the fishing leaderboard.               | `<type>`                    | None       |
+| /eco fishing inventory         | View your (or selected players) fishing inventory & stats.      | [user]                    | None       |
+| /eco fishing leaderboard       | View the top 10 users on the fishing leaderboard.               | <type>                    | None       |
 | /eco minefield           | Play a minefield game for a chance to earn money.              | N/A                                         | None                   |
 | /ecoadmin manage-money   | Manage a user's economy balance.                               | \<give \| remove \| set> \<user> \<amount>     | ManageServer or Administrator |
 | /ecoadmin reset-economy  | Reset the economy for this server. This will RESET ALL user balances! | \<confirm>                             | ManageServer or Administrator |

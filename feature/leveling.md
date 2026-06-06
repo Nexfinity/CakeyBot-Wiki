@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-06-06T22:45:16.729Z
+date: 2026-06-06T23:22:40.758Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -72,15 +72,19 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | No |
 | Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 1,000     | No |
 | Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 1,000     | No |
-| Min XP per Image       | Sets the minimum BONUS XP a user can gain per message containing an image.                                                                                       | 0            | 1         | 1,000     | No |
-| Max XP per Image       | Sets the maximum BONUS XP a user can gain per message containing an image. Must be greater than Min Image XP.                                                           | 0            | 1         | 1,000     | No |
-| Min XP per Videos       | Sets the minimum BONUS XP a user can gain per message containing an video.                                                                                        | 0            | 1         | 1,000     | No |
-| Max XP per Videos       | Sets the maximum BONUS XP a user can gain per message containing an video. Must be greater than Min Video XP.                                                           | 0            | 1         | 1,000     | No |
-| Min Voice XP per Minute  | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 1,000     | No |
-| Max Voice XP per Minute  | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 1,000     | No |
+| Text Cooldown                 | Sets the cooldown in minutes between text messages that can earn XP.                                                                    | 1             | 1         | 60        | No |
+| Min XP per Image              | Sets the minimum BONUS XP a user can gain per message containing an image.                                                              | 0             | 1         | 1,000     | No |
+| Max XP per Image              | Sets the maximum BONUS XP a user can gain per message containing an image. Must be greater than Min Image XP.                           | 0             | 1         | 1,000     | No | 
+| Image Cooldown                | Sets the cooldown in minutes between image attachments that can earn bonus XP.                                                          | 1             | 1         | 60        | No |
+| Min XP per Video              | Sets the minimum BONUS XP a user can gain per message containing a video.                                                               | 0             | 1         | 1,000     | No |
+| Max XP per Video              | Sets the maximum BONUS XP a user can gain per message containing a video. Must be greater than Min Video XP.                            | 0             | 1         | 1,000     | No |
+| Video Cooldown                | Sets the cooldown in minutes between video attachments that can earn bonus XP.                                                          | 1             | 1         | 60        | No |
+| Min Voice XP per Minute       | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 1,000     | No |
+| Max Voice XP per Minute       | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 1,000     | No |
+| Voice Cooldown                | Sets the interval in minutes at which voice XP is awarded.                                                                              | 2             | 1         | 60        | No |
 | XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
-  | Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
-  | Randomize Button Placement        | Randomizes the claim button position in random XP drop messages to prevent automated claiming bots.                                     | Disabled      |           |           | No               |
+| Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
+| Randomize Button Placement        | Randomizes the claim button position in random XP drop messages to prevent automated claiming bots.                                     | Disabled      |           |           | No               |
 
 ## Announcement Location
 * `Disabled`- This disables ALL level up messages. (`/rank` and `/leaderboard` commands will still work.)

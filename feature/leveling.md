@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
 published: 1
-date: 2026-05-04T21:42:15.454Z
+date: 2026-06-06T22:45:16.729Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -221,7 +221,7 @@ There's several tools you can use:
 Usage Key: `<required>` / `[optional]`
 | Command                          | Description                                                              | Usage                                      | Permission             |
 | :------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------: | :--------------------: |
-| /leaderboard                     | View the top 10 users on the leaderboard.                                | N/A                                        | None                   |
+| /leaderboard                     | View the top 10 users on the leaderboard.                                | [limit]                                    | None                   |
 | /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer           |
 | /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>     | ManageServer           |
 | /leveling spawn-xp-drop          | Manually spawn an XP drop in a channel.                                  | [min-xp] [max-xp] [channel]                | ManageServer           |

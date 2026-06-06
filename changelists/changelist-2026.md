@@ -2,11 +2,22 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-05-31T20:10:52.055Z
+date: 2026-06-06T22:48:16.735Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# June 6th - Feature Requests
+## Fixed
+* Fixed a bug where new tickets couldn't be opened by a user if their previous one was manually deleted by an admin.
+
+## Changed
+* Added optional parameter to bulk add/remove role commands to apply them as persistent roles.
+* Added optional parameter to xp and eco leaderboards to change the number of users returned. Between 3 and 15 users.
+
+## Added
+* Added the ability to set custom cooldowns for leveling xp earning per-category.
 
 # May 31st - Starboard QOL
 ## Added

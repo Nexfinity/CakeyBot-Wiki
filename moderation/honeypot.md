@@ -2,7 +2,7 @@
 title: Honeypot
 description: Automatically punish users who post in a designated trap channel with Cakey Bot's Honeypot feature.
 published: 1
-date: 2026-06-07T18:24:33.679Z
+date: 2026-06-07T18:25:31.619Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-07T18:14:17.602Z
@@ -49,9 +49,3 @@ The default punishment is **Softban**.
 
 ## Log Channel
 An optional channel where Cakey Bot posts a log entry each time the honeypot is triggered. The log entry will include details about the user who was caught. Leave this unset to disable logging.
-
-# Tips & Recommendations
-- **Hide the channel from bots and mods** — exclude your moderation roles and bot roles from seeing the channel so legitimate users are not accidentally affected.
-- **Make it look attractive to bad actors** — name the channel something like `#free-nitro` or `#admin-only` to lure self-bots and raiders.
-- **Pair it with a log channel** — always configure a log channel so you have a record of punishments applied by the honeypot.
-- **Use Ban or Softban for raids** — Timeout or Kick allows users to return; Ban or Softban is more effective against coordinated attacks.

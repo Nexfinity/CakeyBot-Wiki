@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-06-06T22:48:16.735Z
+date: 2026-06-07T01:30:39.492Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -15,6 +15,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 ## Changed
 * Added optional parameter to bulk add/remove role commands to apply them as persistent roles.
 * Added optional parameter to xp and eco leaderboards to change the number of users returned. Between 3 and 15 users.
+* Changed random XP drop default values for min/max XP. (Dropped 500-2,000 to 100-500)
 
 ## Added
 * Added the ability to set custom cooldowns for leveling xp earning per-category.

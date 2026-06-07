@@ -2,7 +2,7 @@
 title: Honeypot
 description: Automatically punish users who post in a designated trap channel with Cakey Bot's Honeypot feature.
 published: 1
-date: 2026-06-07T18:14:17.602Z
+date: 2026-06-07T18:24:33.679Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-07T18:14:17.602Z
@@ -14,7 +14,7 @@ dateCreated: 2026-06-07T18:14:17.602Z
 # Overview
 The Honeypot feature lets you designate a channel as a trap. Cakey Bot will automatically post a visible warning embed in the channel, alerting users that posting there will result in punishment. Any user who sends a message in the honeypot channel regardless of content is immediately punished with the action you have configured.
 
-This is useful for catching bots, self-bots, or inattentive users who ignore channel warnings, and can act as an early-detection layer on top of your existing moderation setup.
+This is useful for catching spam bots, self-bots, or phishing accounts who ignore channel warnings. This can act as an early-detection layer on top of your existing moderation setup.
 
 # How It Works
 1. You select a channel as the honeypot and choose a punishment type.
@@ -43,6 +43,9 @@ The action Cakey Bot takes against any user who sends a message in the honeypot 
 | **Ban** | Permanently bans the user from the server. |
 
 The default punishment is **Softban**.
+
+> **Note:** All punishment types will also delete the offending message from the honeypot channel. The softban & ban types will remove the emssage from ALL affected channels.
+{.is-info}
 
 ## Log Channel
 An optional channel where Cakey Bot posts a log entry each time the honeypot is triggered. The log entry will include details about the user who was caught. Leave this unset to disable logging.

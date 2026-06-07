@@ -2,14 +2,11 @@
 title: Honeypot
 description: Automatically punish users who post in a designated trap channel with Cakey Bot's Honeypot feature.
 published: 1
-date: 2026-06-07T18:25:31.619Z
+date: 2026-06-07T18:40:51.124Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-07T18:14:17.602Z
 ---
-
-> This feature is currently in **beta**. Behaviour may change without notice.
-{.is-warning}
 
 # Overview
 The Honeypot feature lets you designate a channel as a trap. Cakey Bot will automatically post a visible warning embed in the channel, alerting users that posting there will result in punishment. Any user who sends a message in the honeypot channel regardless of content is immediately punished with the action you have configured.

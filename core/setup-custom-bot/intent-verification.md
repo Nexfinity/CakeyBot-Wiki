@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-11T22:19:59.936Z
+date: 2026-06-11T22:20:18.225Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -13,7 +13,7 @@ dateCreated: 2026-06-11T22:04:47.406Z
 
 # Overview
 > **Note:** Unless Discord changes it at a later date, you will have to keep re-verifying your bot once a year, so please keep a link to this guide for future applications. If you forget the link, you can always reach out to our [support team](https://cakey.bot/support).
-{.is-warning}
+{.is-info}
 
 TBD
 

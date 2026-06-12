@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-11T22:20:18.225Z
+date: 2026-06-12T13:43:38.170Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -35,7 +35,7 @@ Select **Yes**
 ```
 In the bot's bio.
 ```
-> **Note:** The privacy policy is required to be listed somewhere publicly, this is a Discord limitation and not something we can get around. Discord typically requires it to be in the bot's bio. If you do not want to link to Cakey's website directly, you could copy/paste our entire privacy policy onto your own website, github gist, or similar text format that Discord accepts and use that instead. Note that using other listings for it may affect verification approval or require changes asked by Discord's support team.
+> **Note:** The privacy policy is required to be listed somewhere publicly, this is a Discord limitation and not something we can get around. Discord typically requires it to be in the bot's bio. If you do not want to link to Cakey's website directly, you could copy/paste our entire privacy policy onto your own website, [Github gist](https://gist.github.com/), or similar text format that Discord accepts and use that instead. Note that using other listings for it may affect verification approval or require changes asked by Discord's support team.
 {.is-info}
 
 ### Please share a link to your Privacy Policy.

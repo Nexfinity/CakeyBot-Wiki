@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-12T13:43:38.170Z
+date: 2026-06-12T13:44:32.751Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -21,7 +21,7 @@ TBD
 > **Note:** This guide does NOT guarentee your application will be accepted. This guide should be sufficient for Discord to approve it, however, at the end of the day the application is decided on by Discord. If you run into complications or followup questions from Discord, please reach out to our [support team](https://cakey.bot/support).
 {.is-danger}
 
-Discord has a fairly straight forward application form which will ask various questions. For select menus, select the option suggested by this guide and for any text input sections you can copy/opaste the text directly from the code-blocks provided in this guide. This guide should be laid out in the same order as Discord's application form.
+Discord has a fairly straight forward application form which will ask various questions. For select menus, select the option suggested by this guide and for any text input sections you can copy/paste the text directly from the code-blocks provided in this guide. This guide should be laid out in the same order as Discord's application form.
 
 ## Application Details
 ```

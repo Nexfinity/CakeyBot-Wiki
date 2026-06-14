@@ -2,7 +2,7 @@
 title: Honeypot
 description: Automatically punish users who post in a designated trap channel with Cakey Bot's Honeypot feature.
 published: 1
-date: 2026-06-07T18:40:51.124Z
+date: 2026-06-14T20:36:44.087Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-07T18:14:17.602Z
@@ -28,6 +28,9 @@ Navigate to **Dashboard → Honeypot** for your server.
 Select the text channel to designate as the trap. Once saved, Cakey Bot will immediately post a warning message in that channel. Any user who sends a message there will be automatically punished.
 
 Set this to **None** to disable the honeypot entirely. The warning embed will be removed from the previously configured channel.
+
+> **Note:** For best results the honeypot channel should be positioned at the very top of your server (or as close as possible). As most spam bots start sending from the very top channel and work their way down. This allows Cakey to grab the message before it sends to other channels most of the time.
+{.is-info}
 
 ## Punishment
 The action Cakey Bot takes against any user who sends a message in the honeypot channel. Available options:

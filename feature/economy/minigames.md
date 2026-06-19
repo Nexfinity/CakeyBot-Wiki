@@ -1,8 +1,8 @@
 ---
 title: Other Minigames
-description: 
+description: Explore the other minigames available in Cakey Bot's economy system beyond fishing, including how to play and earn rewards.
 published: 1
-date: 2025-08-08T04:22:29.956Z
+date: 2026-06-19T22:34:11.604Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:20:04.715Z

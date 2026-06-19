@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-06-19T11:48:38.678Z
+date: 2026-06-19T14:14:12.688Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -12,6 +12,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 ## Fixed
 * Fixed an issue where paginated commands (such as ping, warnings, etc) would fail when Discord failed to parse the custom emotes.
 * Deployed a massive bot-wide set of bug fixes across many features that were caught by our internal sentry system.
+* Deployed a fix for birthdays not announcing.
 
 # June 15th - Honey Pot Channel
 ## Added

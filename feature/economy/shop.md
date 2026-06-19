@@ -1,8 +1,8 @@
 ---
 title: Item/Boost Shop
-description: 
+description: Browse the Cakey Bot Item & Boost Shop — spend in-game currency on roles, perks, and economy boosts for your Discord server.
 published: 1
-date: 2025-08-08T04:13:35.761Z
+date: 2026-06-19T22:34:49.895Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:12:25.252Z

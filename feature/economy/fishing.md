@@ -1,8 +1,8 @@
 ---
 title: Fishing
-description: 
+description: Learn how the Fishing minigame works in Cakey Bot's economy system, including catches, rarities, and rewards.
 published: 1
-date: 2025-08-14T11:45:36.593Z
+date: 2026-06-19T22:34:27.906Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z

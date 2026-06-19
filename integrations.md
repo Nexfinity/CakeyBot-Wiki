@@ -1,8 +1,8 @@
 ---
 title: Integration Category
-description: 
+description: See which third-party platforms Cakey Bot integrates with, including Twitch, to bring notifications and content into your Discord server.
 published: 1
-date: 2025-04-03T11:55:19.839Z
+date: 2026-06-19T22:33:57.434Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-03T11:55:18.710Z

@@ -1,8 +1,8 @@
 ---
 title: Roleplay
-description: 
+description: Set up Cakey Bot's Roleplay feature to let members interact with custom roleplay commands and actions in your Discord server.
 published: 1
-date: 2025-04-20T08:31:30.166Z
+date: 2026-06-19T22:34:38.734Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:31:29.035Z

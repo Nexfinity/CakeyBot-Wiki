@@ -2,7 +2,7 @@
 title: Honeypot
 description: Automatically punish users who post in a designated trap channel with Cakey Bot's Honeypot feature.
 published: 1
-date: 2026-06-14T20:36:44.087Z
+date: 2026-06-20T13:28:01.053Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-07T18:14:17.602Z
@@ -44,7 +44,7 @@ The action Cakey Bot takes against any user who sends a message in the honeypot 
 
 The default punishment is **Softban**.
 
-> **Note:** All punishment types will also delete the offending message from the honeypot channel. The softban & ban types will remove the emssage from ALL affected channels.
+> **Note:** All punishment types will also delete the offending message from the honeypot channel. The softban & ban types will remove the message from ALL affected channels.
 {.is-info}
 
 ## Log Channel

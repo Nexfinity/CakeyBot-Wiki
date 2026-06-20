@@ -2,7 +2,7 @@
 title: Getting Started
 description: Cakey Bot documentation - Complete guide for Discord bot setup, features, commands. Configure music, moderation, leveling and more.
 published: 1
-date: 2026-06-20T01:06:45.223Z
+date: 2025-12-14T06:43:23.438Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T04:14:14.623Z
@@ -27,7 +27,7 @@ This documentation provides information on every module/feature, including the d
 
 ## Troubleshooting
 
-If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our #support channel.
+If you are having issues with the bot, check out our [troubleshooting page](/en/core/troubleshooting). You can also find answers to common questions on our [FAQ page](https://cakey.bot/faq). If you do not find your issue there, you can also join our [Discord server](https://cakey.bot/discord) and get direct assistance there in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel.
 
 ## Suggestions
 

@@ -2,11 +2,14 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2026-04-11T13:24:41.050Z
+date: 2026-06-21T18:46:03.659Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
 ---
+
+> Already have a Custom Bot and looking for our intent verification guide? You can locate it [here](https://wiki.cakey.bot/en/core/setup-custom-bot/intent-verification).
+{.is-info}
 
 # Overview
 Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos and Username! Custom Bot allows you to have:

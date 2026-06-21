@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T19:07:07.247Z
+date: 2026-06-21T19:07:59.349Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -75,6 +75,7 @@ Select/check both of these intents:
 Join/Leave Announcements - Sending custom embeds/image banners for user join/leave notifications
 Audit Logs/Moderation - Audit logging for potential malicious users (i.e. malicious links/invites in profile data), abusive nickname moniotoring.
 User leaderbaords for xp/leveling/economy/fishing/streaks - Displaying user info (such as username/nickname & profile pictures) on image-based leaderboard rankings for various features
+Achievements - Allows granting achievements for certain triggers that require user profile information.
 ```
 ### Please provide links to screenshots and/or videos that demonstrate your use case
 ```

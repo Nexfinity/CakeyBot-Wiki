@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T20:23:52.395Z
+date: 2026-06-21T20:33:53.425Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -113,6 +113,7 @@ Category Content Restrictions - Auto Mod feature that monitors message/file cont
 Emoji Stats - Cakey Bot reads messages for emojis and saves an incrementing count of emoji usage. (Does not store message/userids, only emoji+count)
 Leveling/XP - Cakey bot monitors messages to allow users to earn XP for different types. Message content is required to give varying amounts of XP based on message type and for anti-abuse/spam purposes.
 Role Mention cooldowns - Cakey bot can monitor messages that ping specific roles and disable role mentions for specified cooldown amount to prevent spam abuse.
+Starboard - Ability for users to react and pin message content to a dedicated channel.
 ```
 ### Please provide links to screenshots and/or videos that demonstrate your use case
 ```

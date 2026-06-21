@@ -2,13 +2,13 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T19:11:17.648Z
+date: 2026-06-21T20:21:37.359Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
 ---
 
-> **Note:** This only affects custom bots that have more than 10,000 unique users across all servers it is in combined. If your bot does not have this many users then you can disreagrd this page.
+> **Note:** This only affects custom bots that have more than 10,000 unique users across all servers it is in combined. If your bot does not have this many users then you can disregard this page.
 {.is-warning}
 
 # Overview

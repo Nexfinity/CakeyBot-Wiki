@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T19:08:26.714Z
+date: 2026-06-21T19:11:17.648Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -98,11 +98,11 @@ Select **Yes**
 ## Message Content Intent
 ### Can users opt-out of having their message content data tracked?
 Select **No**
-## Are you storing message content data off-platform (outside of Discord)?
+### Are you storing message content data off-platform (outside of Discord)?
 Select **No**
-## Will the message content data be used to train machine learning or AI Models?
+### Will the message content data be used to train machine learning or AI Models?
 Select **No**
-## Why do you need the Message Content intent?
+### Why do you need the Message Content intent?
 ```
 Auto Quoter/Git Preview - Allows users to paste a message link or github/gitlab url and Cakey Bot will embed a preveiw in the chat. (Has anti abuse limitations for message quoter to prevent sharing in external servers)
 Auto Moderation/Anti-Raid - Cakey Bot monitors chats and messages for content that violations a server's word blacklist, malicious links, files or other relaterd spam or malicious content.
@@ -114,7 +114,7 @@ Emoji Stats - Cakey Bot reads messages for emojis and saves an incrementing coun
 Leveling/XP - Cakey bot monitors messages to allow users to earn XP for different types. Message content is required to give varying amounts of XP based on message type and for anti-abuse/spam purposes.
 Role Mention cooldowns - Cakey bot can monitor messages that ping specific roles and disable role mentions for specified cooldown amount to prevent spam abuse.
 ```
-## Please provide links to screenshots and/or videos that demonstrate your use case
+### Please provide links to screenshots and/or videos that demonstrate your use case
 ```
 TBD
 ```

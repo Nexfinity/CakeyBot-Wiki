@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T18:52:06.003Z
+date: 2026-06-21T18:54:33.130Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -79,7 +79,18 @@ TBD
 TBD
 ```
 ### Are you storing any API Data off-platform (outside of Discord)?
-Select **??**
+Select **Yes**
+
+### Are you storing API Data for 30 days or less?
+Select **No**
+
+### How do users contact you to request deletion of their activity data?
+```
+They can contact the Cakey Bot support team and request deletion. They can also send an email to support@cakey.bot if they prefer an off-platform method. Links to our support Discord can be found on the main website (https://cakey.bot) or via the `/help` command.
+```
+
+### Are you encrypting the data that you store at rest, as is required by our developer policy?
+Select **Yes**
 
 ## Message Content Intent
 ### Can users opt-out of having their message content data tracked?

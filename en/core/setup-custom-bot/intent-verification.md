@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T20:41:59.609Z
+date: 2026-06-21T20:44:04.909Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -121,6 +121,7 @@ Starboard - Ability for users to react and pin message content to a dedicated ch
 ### Please provide links to screenshots and/or videos that demonstrate your use case
 ```
 https://cdn.cakey.bot/Intent%20Verification/auditlogs.png
+https://cdn.cakey.bot/Intent%20Verification/auditlog-message.jpg
 https://cdn.cakey.bot/Intent%20Verification/auotquoter.png
 https://cdn.cakey.bot/Intent%20Verification/auto-responder.jpg
 https://cdn.cakey.bot/Intent%20Verification/automod.jpg

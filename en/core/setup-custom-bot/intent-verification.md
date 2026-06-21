@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T20:23:30.015Z
+date: 2026-06-21T20:23:52.395Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -106,7 +106,7 @@ Select **No**
 ```
 Auto Quoter/Git Preview - Allows users to paste a message link or github/gitlab url and Cakey Bot will embed a preveiw in the chat. (Has anti abuse limitations for message quoter to prevent sharing in external servers)
 Auto Moderation/Anti-Raid - Cakey Bot monitors chats and messages for content that violations a server's word blacklist, malicious links, files or other relaterd spam or malicious content.
-Honeypot/Anti-Phishing - Allows Cakey Bot to monitor for phishing cntent to delete it (i.e. MrBeast scam images)
+Honeypot/Anti-Phishing - Allows Cakey Bot to monitor for phishing content to delete it (i.e. MrBeast scam images)
 Auto Responder/Custom Commands - Let's server setup custom responses/triggers based on message content
 AI Chat Bot (opt-in) - Allows users to opt-in to use Cakey Bot's AI Chat Bot feature. Allow scope to a specific channel and perserves a temporary 2 message history that gets purged automatically.
 Category Content Restrictions - Auto Mod feature that monitors message/file content in specific channels to enforce specific rule-sets (such as GIF-only channels or Spotify only links)

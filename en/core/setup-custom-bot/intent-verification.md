@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T19:07:59.349Z
+date: 2026-06-21T19:08:26.714Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -119,7 +119,7 @@ Role Mention cooldowns - Cakey bot can monitor messages that ping specific roles
 TBD
 ```
 ## Acknowledgement
-Select/checkbox this.
+Select/check this.
 
 > **Note:** While this should be sufficient for most/all applications/bots, Discord support staff may ask additional or followup questions or request certian changes. If they do, pelase reach out to our support team for assistance.
 {.is-info}

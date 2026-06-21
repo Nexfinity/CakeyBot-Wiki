@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T20:41:50.562Z
+date: 2026-06-21T20:41:59.609Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -127,6 +127,7 @@ https://cdn.cakey.bot/Intent%20Verification/automod.jpg
 https://cdn.cakey.bot/Intent%20Verification/git-preview.png
 https://cdn.cakey.bot/Intent%20Verification/honeypot.jpg
 https://cdn.cakey.bot/Intent%20Verification/leveling.png
+https://cdn.cakey.bot/Intent%20Verification/starboard.png
 ```
 ## Acknowledgement
 Select/check this.

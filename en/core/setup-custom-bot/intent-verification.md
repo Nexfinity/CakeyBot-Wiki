@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-21T20:44:04.909Z
+date: 2026-06-27T12:52:13.792Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -25,13 +25,14 @@ Discord has a fairly straight forward application form which will ask various qu
 
 ## Application Details
 ```
+This application is a custom bot variant of Cakey Bot (https://cakey.bot). The bot's main/primary features include:
 AFK Messages - Allow users to set an AFK message so other users know when someone is AFK and when they'll be back.
 Audit Log - Advanced log for all actions performed on your Discord server and users.
 Announcements - Customizable join/leave/ban/kick messages.
-Auto Moderation - Advanced and fully configurable via our web dashboard. Includes text filters, zalgo detection and more.
+Auto Moderation - Advanced and fully configurable via our web dashboard.
 Auto Quoter - Automatically quote Discord messages in when a URL is posted in a channel.
 Auto Responder/Custom Commands - Have Cakey Bot respond to custom text triggers or commands using powerful placeholder variables.
-Games - Cool games to make your server fun and entertain your players. Including interact trivia and Multiplayer Tic-Tac-Toe!
+Games - Cool games to make your server fun and entertain your players.
 Giveaways - Host giveaways and reward your users with fancy prizes!
 Leveling/XP - Level up your users and grant roles for their efforts!
 Moderation - Contains powerful moderation tools to keep your server in check and running smoothly.
@@ -39,7 +40,7 @@ Music - Play music from popular web sources, Direct URL/Web File and Spotify in 
 Reminders - Useful to way to remember a list of stuff to do directly in Discord.
 Roleplay - A variety of commands that are great for roleplay servers.
 Role Management - Easy to use commands to update and manage the roles in your server.
-Social Feeds - Monitor events and social feeds for popular services like Twitch, Reddit, youtube and more!
+Social Feeds - Monitor events and social feeds for popular services like Twitch, Reddit and more!
 Starboard - Star messages to save them to your starboard. Promote funny messages and encourage user activity/discussions.
 Support Tickets - Provide easy 1on1 support between your users and staff team using private ticket channels! You can even save transcripts of closed tickets.
 Tags - Create tags that anyone in your server can use or even allow users to create their own tags.

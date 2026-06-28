@@ -2,11 +2,19 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-06-19T14:14:12.688Z
+date: 2026-06-28T22:43:11.773Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# June 28th - Additional Bug Fixes
+## Fixed
+Fixed an issue where some servers would receive multiple Daily Contents per day.
+Fixed an issue where birthdays would not be announced in some servers.
+Fixed an issue where birthdays would be sent multiple times (on incorrect days)
+Fixed an issue where channel categories were not displaying on some select menus in the web dashboard.
+Fixed an issue where streak and economy leaderboards would show "Unknown" users when leveling was disabled.
 
 # June 19th - Mega Bug Fix Update
 ## Fixed

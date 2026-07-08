@@ -2,11 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-06-28T22:43:23.759Z
+date: 2026-07-08T00:04:11.464Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 7th - Giveaway Fixes
+## Fixed 
+* Fixed `/giveaway reroll` & `/giveaway list-entries` commands not displaying any giveaways in the selector. Note, this will only fix giveaways going forward, not any previous giveaways.
+
+## Added
+* Added an optional parameter to the `/giveaway reroll` command to allow re-rolling only a specific user on the giveaway instead of all winners for multi-winner giveaways.
 
 # June 28th - Additional Bug Fixes
 ## Fixed

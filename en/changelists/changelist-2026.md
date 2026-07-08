@@ -2,17 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-08T00:15:36.147Z
+date: 2026-07-08T00:18:45.424Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
-# July 7th - Giveaway Fixes
+# July 7th - Giveaway & Voice Fixes
 ## Fixed 
 * Fixed `/giveaway reroll` & `/giveaway list-entries` commands not displaying any giveaways in the selector. Note, this will only fix giveaways going forward, not any previous giveaways.
 * Fixed an issue where temp voice lobbies were not deleted if the last user to leave was a bot.
 * Fixed an issue where "Ignore Muted/Deafened User" options were ignored upon leaving the voice chat.
+* Fixed an issue where "Ignored Roles" were not always ignored during voice XP calculations.
 
 ## Added
 * Added an optional parameter to the `/giveaway reroll` command to allow re-rolling only a specific user on the giveaway instead of all winners for multi-winner giveaways.

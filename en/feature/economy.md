@@ -51,7 +51,7 @@ In addition to the regular commands, there's a number of customization options t
 
 | Name                         | Description                                                                                                                                                                                                    | Default Value       | Min Value | Max Value | Premium Feature |
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ | :-------- | :-------- | :--------------- |
-| Currency Symbol             | Customize the currency symbol (e.g., $, €, ¥, or emojis).                                                                            | $          |           |           | No               |
+| Currency Symbol             | Customize the currency symbol (e.g., $, €, ¥, or emojis). Limited to 1-3 characters.                                                                            | $          | 1         | 3         | No               |
 | Currency Symbol Position    | Define the currency symbol's position before or after the balance (e.g., $100 or 100$).                                                                            | Before          |           |           | No               |
 | Initial Balance             | The starting balance for new users. Also used during resets with `/ecoadmin reset-economy`.                                                                                                                        | 100                 | 0         | 1,000,000,000 | No               |
 | Max Balance                 | The maximum balance users can hold to prevent inflation.                                                                                                                 | 1,000,000,000              | 0         | 1,000,000,000 | No               |
@@ -60,6 +60,18 @@ In addition to the regular commands, there's a number of customization options t
 | Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
 | Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
 | Fishing Weight    | Define if the weight of caught fish should be kg or lbs.                                                                            | lbs          |           |           | No               |
+
+## Shop & Boost Limits
+The number of items and boosts you're able to create in the `/eco shop` is tiered based on your server's subscription:
+
+| Tier                          | Item Cap | Boost Cap |
+| :----------------------------- | :------- | :-------- |
+| Free                            | 2        | 1         |
+| Premium                         | 5        | 3         |
+| Whitelabel (absolute max)       | 15       | 10        |
+
+> Individual items and boosts also have their own configurable ownership caps (`MaxPerUser` and `MaxGlobal`). See the [Item/Boost Shop](/en/feature/economy/shop) page for full details.
+{.is-info}
 
 ## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
@@ -98,14 +110,14 @@ Usage Key: `<required>` / `[optional]`
 
 | Command                  | Description                                                     | Usage                                      | Permission             |
 | :----------------------- | :------------------------------------------------------------- | :------------------------------------------ | :--------------------- |
-| /eco balance             | Check your balance or the balance of another user.             | \<user>                                     | None                   |
+| /eco balance             | Check your balance or the balance of another user.             | [user]                                     | None                   |
 | /eco beg                 | Beg for money.                                                 | N/A                                         | None                   |
 | /eco coinflip            | Guess the result to win 50% of your bet.                       | \<guess> \<amount>                          | None                   |
 | /eco guess               | Guess the number (1-10) for a chance to gain 2x-3x the amount. | \<guess> \<amount>                          | None                   |
 | /eco high-or-low         | Guess higher or lower to win more money.                       | N/A                                         | None                   |
 | /eco iteminfo            | View information about a specific item.                        | \<item>                                     | None                   |
-| /eco items               | View all of the items you or someone else owns.                | \<user>                                     | None                   |
-| /eco leaderboard         | View the top 10 users on the leaderboard.                      | [limit]                                     | None                   |
+| /eco items               | View all of the items you or someone else owns.                | [user]                                     | None                   |
+| /eco leaderboard         | View the top users on the leaderboard. `limit` can be 3-15 (default 10). | [limit]                                     | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
 | /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
 | /eco rob                 | Attempt to rob another user.                                   | \<user>                                     | None                   |

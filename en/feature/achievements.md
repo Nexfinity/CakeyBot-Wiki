@@ -26,12 +26,39 @@ To create an achievement login to our [web dashboard](https://cakey.bot/dashboar
 3. Make any desired configurations on the pop-up modal
 4. Click "Create Achievement" button
 
+> You can create up to **10 achievements** per server. [Premium](https://cakey.bot/premium) servers have no limit on the number of achievements.
+{.is-info}
+
+The achievement fields have the following limits:
+
+| Field | Limit |
+| :--- | :--- |
+| Name | 300 characters |
+| Description | 140 characters |
+| Icon Name | 20 characters |
+| Progression Target (limit) | 1,000,000 |
+| XP Add / XP Remove Reward | 0 - 1,000,000 |
+| Eco Money Add / Eco Money Remove Reward | 0 - 1,000,000 |
+
+## Clone Achievements
+Need a new achievement that's similar to one you already have? Instead of starting from scratch you can clone an existing achievement:
+1. Open the "Achievements" page
+2. Find the achievement you want to clone
+3. Click the clone button on the achievement
+4. This will open the create achievement modal pre-filled with the cloned achievement's settings - make any desired changes and click "Create Achievement"
+
 ## Edit Achievements
 To modify an achievement follow these steps:
 1. Open the "Achievements" page
 2. Find the achievement you want to modify
 3. Click the blue pen button on the achievement
 4. Make any desired changes on the pop-up modal & click save
+
+## Enable/Disable Achievements
+Achievements can be temporarily disabled without deleting them. While disabled, users will not be able to unlock or progress towards the achievement. To toggle an achievement:
+1. Open the "Achievements" page
+2. Find the achievement you want to enable/disable
+3. Click the enable/disable toggle on the achievement
 
 ## Delete Achievements
 To delete an achievement follow these steps:
@@ -72,6 +99,16 @@ You can also chose between 9 different colors:
 ## Icons
 We currently support the full set of Font Awesome Pro icons that you can select for your banners (currently limited to solid style). You can select any RGB color to be applied to the icon as well.
 
+# Rewards
+When a user unlocks an achievement, Cakey Bot can automatically reward them with any combination of the following:
+* **XP Add / XP Remove** - Adds or removes leveling XP from the user.
+* **Eco Money Add / Eco Money Remove** - Adds or removes economy money from the user.
+* **Add Roles** - Grants the selected Discord role(s) to the user.
+* **Remove Roles** - Removes the selected Discord role(s) from the user.
+
+## Ignored Channels
+You can select specific channels to be excluded from counting towards achievement progress. For example, if you exclude a channel from message-count tracking, messages sent in that channel won't count towards a "Send X messages" achievement.
+
 # Types of Achievements
 ## Progression-Based Achievements
 Currently Cakey Bot supports several progression-based events for awarding achievements. These events include:
@@ -91,6 +128,9 @@ Currently Cakey Bot supports several progression-based events for awarding achie
   
 > **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)
 {.is-warning}
+
+> The progression target (e.g. the "X" in "Send X messages") is capped at **1,000,000**.
+{.is-info}
   
 # Related Commands
 Usage Key: `<required>` / `[optional]`
@@ -99,6 +139,6 @@ Usage Key: `<required>` / `[optional]`
 | /achievements info | View information about a specific achievement. | \<achievement> | None | 
 | /achievements list | View a list of all achievements for this server. | N/A | None | 
 | /achievements view | View the selected users progress towards achievements. | [user] | None | 
-| /achievements custom | Grant or revoke a custom achievement. | \<grant \| revoke> \<achievement> [user] | ManageServer or Administrator |
+| /achievements custom | Grant or revoke a custom achievement. | \<grant \| revoke> \<achievement> [user] | Manage Events |
 | /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 
 | /setup clear-achievement-data | Remove ALL achievement data for the server. | N/A | ManageServer or Administrator | 

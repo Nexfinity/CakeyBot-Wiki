@@ -23,9 +23,14 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 > Note: You MUST also select a channel, if you do not, then no daily content will be sent.
 {.is-warning}
 
+Each content category has its own individual output channel and optional role-ping setting, so you can send different categories to different channels and ping a different role for each one.
+
+> The number of categories you can have enabled at once is tiered: **1** enabled category for non-premium servers, **3** for premium servers, and unlimited for whitelabel servers.
+{.is-info}
+
 # Daily Image Types
 * Random Image
-  * Will select a random image from any of the categories below.
+  * Will select a random image from any of the categories below. This is its own separately configurable category with its own output channel and role-ping setting, not just an aggregation of the categories below it.
 * Cat
 * Dog
 * Fox
@@ -56,4 +61,4 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 > You MUST have an active custom bot subscription to use this type.
 {.is-warning}
 
-This daily content type allows you to specify a custom list of text or images for the bot to send. The list is separated by semicolons (`;`).
+This daily content type allows you to specify a custom list of text or images for the bot to send. The list is separated by semicolons (`;`) and is limited to 65,000 characters. You can also set a Custom Title, which is limited to 255 characters.

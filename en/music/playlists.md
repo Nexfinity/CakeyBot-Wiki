@@ -45,5 +45,6 @@ Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
 | /playlist | Creates, deletes or loads a custom music playlist. (Use !play for youtube/spotify playlists) | \<create \| load \| delete> \<name> | None | 
+| /playlist add | Adds the current queue's songs to an existing playlist. | \<name> | None | 
 | /playlist list | List all of your currently saved playlists. | N/A | None | 
 | /playlist rename | Renames the selected playlist. | \<name> \<newName> | None | 

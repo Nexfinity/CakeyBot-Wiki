@@ -70,17 +70,17 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Disable Level Up Mentions        | Toggles whether level up messages will mention users/roles.                                                                                 | Disabled       |           |           | No               |
 | Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 | Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | No |
-| Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 1,000     | No |
-| Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 1,000     | No |
+| Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 10,000    | No |
+| Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 10,000    | No |
 | Text Cooldown                 | Sets the cooldown in minutes between text messages that can earn XP.                                                                    | 1             | 1         | 60        | No |
-| Min XP per Image              | Sets the minimum BONUS XP a user can gain per message containing an image.                                                              | 0             | 1         | 1,000     | No |
-| Max XP per Image              | Sets the maximum BONUS XP a user can gain per message containing an image. Must be greater than Min Image XP.                           | 0             | 1         | 1,000     | No | 
+| Min XP per Image              | Sets the minimum BONUS XP a user can gain per message containing an image.                                                              | 0             | 1         | 10,000    | No |
+| Max XP per Image              | Sets the maximum BONUS XP a user can gain per message containing an image. Must be greater than Min Image XP.                           | 0             | 1         | 10,000    | No | 
 | Image Cooldown                | Sets the cooldown in minutes between image attachments that can earn bonus XP.                                                          | 1             | 1         | 60        | No |
-| Min XP per Video              | Sets the minimum BONUS XP a user can gain per message containing a video.                                                               | 0             | 1         | 1,000     | No |
-| Max XP per Video              | Sets the maximum BONUS XP a user can gain per message containing a video. Must be greater than Min Video XP.                            | 0             | 1         | 1,000     | No |
+| Min XP per Video              | Sets the minimum BONUS XP a user can gain per message containing a video.                                                               | 0             | 1         | 10,000    | No |
+| Max XP per Video              | Sets the maximum BONUS XP a user can gain per message containing a video. Must be greater than Min Video XP.                            | 0             | 1         | 10,000    | No |
 | Video Cooldown                | Sets the cooldown in minutes between video attachments that can earn bonus XP.                                                          | 1             | 1         | 60        | No |
-| Min Voice XP per Minute       | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 1,000     | No |
-| Max Voice XP per Minute       | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 1,000     | No |
+| Min Voice XP per Minute       | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 10,000    | No |
+| Max Voice XP per Minute       | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 10,000    | No |
 | Voice Cooldown                | Sets the interval in minutes at which voice XP is awarded.                                                                              | 2             | 1         | 60        | No |
 | XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
 | Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
@@ -101,6 +101,9 @@ You can also use a few placeholders in this message:
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
 
+> Both the Announcement Message and the "Announcement Message When Role Is Awarded" message are capped at **2,000 characters**.
+{.is-info}
+
 ## Leaderboard Vanity URL <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 This allows you to set a custom word or pharse to be used to easily access your server's leaderboard instead of the default URL that uses the server's ID.
 
@@ -109,6 +112,9 @@ If you set a vanity URL to something like `caketropolis`, you can then access yo
 
 > NOTE: If you set a vanity URL, the default URL will also continue to work. (You can use both URLs to access to leaderboards). Also this setting is linked/syncronized across multiple features.
 {.is-info}
+
+> Vanity URLs are capped at **20 characters** and cannot start with "id".
+{.is-warning}
 
 ## Ignored Roles & Channels (NoXP Roles/Channels)
 This is a list of channels or roles where XP will NOT be rewarded to users.
@@ -130,6 +136,9 @@ You can set up to 5 different multipliers of each type (Or up to 10 with a premi
 > Note: Role/Channel XP multipliers will get added AFTER other XP multipliers (such as double XP days and global rate).
 {.is-info}
 
+> Multiplier values must be between **0.01 and 10.00**.
+{.is-info}
+
 # XP Decaying
 XP Decay reduces a user's XP over time when they are inactive, ensuring leaderboards reflect active participation. Decay begins after a set period of inactivity and is applied daily at a configurable rate. It stops once users reach a minimum XP level. Multipliers do not affect XP decay, ensuring fairness across all users.
 
@@ -143,6 +152,9 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 | Days Since Activity    | Specifies the minimum number of days of inactivity before XP decay starts.                                                                          | 7 days        |
 | Minimum Level | Sets the minimum XP level for decay to occur and defines the lowest level a user can decay to. XP will not drop below this threshold. | 1 |
 | Decay Ignore Roles | Users with these roles will not have XP decay applied even if inactive | None |
+
+> Decay Rate can be set between **0.01-1.0** (1%-100%). Days Since Activity can be set between **1-365** days. Minimum Level can be set between **1-1,000**.
+{.is-info}
 
 
 # Random XP Drops
@@ -163,6 +175,9 @@ Random XP Drops introduce timed XP bonuses that occur during active event period
 
 > **Note:** If no valid channel is set, drops will not trigger. You need to have drops enabled AND atleast one output channel selected.
 {.is-warning}
+
+> **Limits:** Min. XP and Max. XP have a hard cap of **1,000,000**. Min. Time (Hours) can be set between **1-23**. Max. Time (Hours) can be set between **2-24** and must be greater than Min. Time.
+{.is-info}
 
 
 **Behavior Overview**

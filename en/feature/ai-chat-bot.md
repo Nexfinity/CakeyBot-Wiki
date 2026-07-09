@@ -54,5 +54,19 @@ Cakey Bot's Chat Bot AI can also respond to you in different languages/accents! 
 Since every request made to OpenAI costs Cakey Bot money we will include limits on the number of requests you can make to the bot each month. Every message sent to the bot is equal to a single request. You can also buy higher limits than this if you need to. You can view a detailed list of limits below:
 * Non-Premium: 20 Request/month
 * Premium: 500 Request/month
-* Custom Bot: 750 Request/month
+* Custom Bot: 1,000 Request/month
   * Custom Bot servers also have the option to use their own custom API key instead
+
+# Voice Transcript Usage
+
+In addition to chat requests, Cakey Bot tracks a separate monthly usage counter for **Voice Transcript** requests. You can view your current usage on the ChatBot page of the [Web Dashboard](https://cakey.bot/dashboard). Limits are:
+* Non-Premium: 50 Requests/month
+* Premium: 500 Requests/month
+* Custom Bot: 750 Requests/month
+
+# Imagine Usage
+
+Cakey Bot also tracks a separate monthly usage counter for **Imagine** (AI image generation) requests, visible on the ChatBot page of the [Web Dashboard](https://cakey.bot/dashboard). Limits are:
+* Non-Premium: 5 Requests/month
+* Premium: 50 Requests/month
+* Custom Bot: 100 Requests/month

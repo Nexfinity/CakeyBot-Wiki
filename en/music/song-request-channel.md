@@ -10,14 +10,14 @@ dateCreated: 2022-10-18T08:08:52.952Z
 
 # Overview
 
-> This feature requires slightly more setup to enable. To add this feature to your discord you must have **`Manage Server`** permissions. Also note that Cakey Bot requires the following permissions as well: **`Create Channels`**, **`Add Reactions`**, **`Manage Messages`**
+> This feature requires slightly more setup to enable. To add this feature to your discord you must have **`Manage Server`** permissions. Also note that Cakey Bot requires the following permissions as well: **`Create Channels`**, **`Manage Messages`**
 {.is-warning}
 
 # Setup
 
 In order to set up this feature you must have **`Manage Server`** permissions. You can then run the `/setup songrequest` command in any channel that Cakey Bot has access to read/view messages in. If you and Cakey Bot both have the required permissions, a new channel called _`#cakey_songrequests`_ will have been created.&#x20;
 
-In this new channel, you will see a fancy embed with 6 buttons added to it and a block of text with more information above it. Do NOT delete this message. If you do, you will need to delete the channel and run the setup again.
+In this new channel, you will see a fancy embed with 5 buttons added to it and a block of text with more information above it. Do NOT delete this message. If you do, you will need to delete the channel and run the setup again.
 
 ![Song Request Embed](/song_request.png)
 

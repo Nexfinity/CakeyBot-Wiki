@@ -19,6 +19,20 @@ In order to start logging you will need to designate a text channel as the log c
 > Cakey Bot will need access to Send/Read messages in the channel you designate as the audit log.
 {.is-warning}
 
+> Every event type below can be individually routed to its **own log channel** with its **own embed color** — you are not limited to a single generic log channel for everything.
+{.is-info}
+
+# Dashboard Configuration
+
+In addition to configuring each event's channel/color individually, the "Audit Log" page on the [Web Dashboard](https://cakey.bot/dashboard) also includes:
+* **Enable All** - Enables logging for every event type at once.
+* **Disable All** - Disables logging for every event type at once.
+* **Set All Channels** - Sets every event's log channel to the same channel in one action.
+* **Ignored Channels** - Events that occur in the specified channels will be skipped and not logged.
+* **Ignored Roles** - Events performed by users with the specified roles will be skipped and not logged.
+* **Ignore Ticket Creation/Deletion** - When enabled, suppresses audit log entries for support ticket creation/deletion events.
+* **Monitored Roles** - Tracks and logs when specific roles are added to or removed from members, separate from the general "User Updated (Roles changed)" event.
+
 # Audit Events
 
 * Bot Added

@@ -9,7 +9,7 @@ dateCreated: 2022-10-18T08:11:39.725Z
 ---
 
 # Basic Purging
-You can purge any amount of messages (up to 100) by typing `/purge any <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned.
+You can purge any amount of messages (up to 200) by typing `/purge any <amount>`. This will delete the specified number of messages as long as they are not older than 2 weeks and are not pinned.
 
 # Advanced Purge Filters
 If you only want to purge specific messages that meet certain conditions you can use an advanced purge filter by typing `/purge <type> <amount>`. You can view a list of advanced filters below:
@@ -39,15 +39,15 @@ If you only want to purge specific messages that meet certain conditions you can
 Usage Key: `<required>` / `[optional]`
 | Command            | Description                                                                | Usage                           | Permission     |
 | :----------------- | :------------------------------------------------------------------------- | :----------------------------: | :-------------: |
-| /purge any         | Delete a number of messages in the channel.                               | \<amount> [reactions-only]                        | Administrator |
-| /purge between     | Delete every message between the two given message IDs. (Includes the two given) | \<first-message-id> \<second-message-id> [reactions-only] | Administrator |
-| /purge bots        | Delete messages sent by any bots in the channel.                          | \<amount> [reactions-only]                        | Administrator |
-| /purge components  | Delete messages that contain components. (buttons/selects).               | \<amount> [reactions-only]                        | Administrator |
-| /purge embeds      | Delete messages containing rich embeds in the channel.                    | \<amount> [reactions-only]                        | Administrator |
-| /purge images      | Delete a number of images in the channel.                                 | \<amount> [reactions-only]                        | Administrator |
-| /purge invites     | Delete server invites posted in the channel.                              | \<amount> [reactions-only]                        | Administrator |
-| /purge links       | Delete a number of links posted in the channel.                           | \<amount> [reactions-only]                        | Administrator |
-| /purge mentions    | Delete messages with mentions in the channel.                             | \<amount> [reactions-only]                        | Administrator |
-| /purge self        | Delete messages sent by Cakey Bot in the channel.                         | \<amount> [reactions-only]                        | Administrator |
-| /purge until       | Delete every message after the given message ID.                          | \<message-id> [reactions-only]                    | Administrator |
-| /purge user        | Delete messages sent by given user.                                       | \<user> \<amount> [reactions-only]                | Administrator |
+| /purge any         | Delete a number of messages in the channel.                               | \<amount> [reactions-only]                        | Manage Messages |
+| /purge between     | Delete every message between the two given message IDs. (Includes the two given) | \<first-message-id> \<second-message-id> [reactions-only] | Manage Messages |
+| /purge bots        | Delete messages sent by any bots in the channel.                          | \<amount> [reactions-only]                        | Manage Messages |
+| /purge components  | Delete messages that contain components. (buttons/selects).               | \<amount> [reactions-only]                        | Manage Messages |
+| /purge embeds      | Delete messages containing rich embeds in the channel.                    | \<amount> [reactions-only]                        | Manage Messages |
+| /purge images      | Delete a number of images in the channel.                                 | \<amount> [reactions-only]                        | Manage Messages |
+| /purge invites     | Delete server invites posted in the channel.                              | \<amount> [reactions-only]                        | Manage Messages |
+| /purge links       | Delete a number of links posted in the channel.                           | \<amount> [reactions-only]                        | Manage Messages |
+| /purge mentions    | Delete messages with mentions in the channel.                             | \<amount> [reactions-only]                        | Manage Messages |
+| /purge self        | Delete messages sent by Cakey Bot in the channel.                         | \<amount> [reactions-only]                        | Manage Messages |
+| /purge until       | Delete every message after the given message ID.                          | \<message-id> [reactions-only]                    | Manage Messages |
+| /purge user        | Delete messages sent by given user.                                       | \<user> \<amount> [reactions-only]                | Manage Messages |

@@ -9,7 +9,10 @@ dateCreated: 2025-01-24T04:16:57.525Z
 ---
 
 # Overview
-The auto message feature allows server owners to schedule recurring daily messages that are automatically sent to a specified channel at a designated time. These messages can be simple text or enhanced with a custom Discord embed, making them versatile for announcements, reminders, or community engagement. The feature includes options to enable or disable messages, ensuring flexibility based on the server's needs. Messages are sent reliably at the set time each day, helping server owners maintain consistent communication with their members.
+The auto message feature allows server owners to schedule recurring messages that are automatically sent to a specified channel at a designated time. Messages can be scheduled to send every day, or on a specific day of the week. These messages can be simple text or enhanced with a custom Discord embed, making them versatile for announcements, reminders, or community engagement. The feature includes options to enable or disable messages, ensuring flexibility based on the server's needs. Messages are sent reliably at the set time, helping server owners maintain consistent communication with their members.
+
+> Message content is limited to 2,000 characters. The number of auto messages you can create is tiered: **1** for non-premium servers, **3** for premium servers, and **10** for whitelabel servers.
+{.is-info}
 
 # Setup
 
@@ -24,7 +27,7 @@ The auto message feature allows server owners to schedule recurring daily messag
 3. Go to the "Auto Messages" page.
 4. You can then create, delete, and edit any messages on this page.
 
-> Auto Messages will send every day at the specified time. The time will be absed on the "Timezone" that you configure for your server on the "Bot Settings" page.
+> Auto Messages will send every day at the specified time by default, or you can configure a specific day of the week for the message to send instead. The time will be absed on the "Timezone" that you configure for your server on the "Bot Settings" page.
 {.is-info}
 
 # Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>

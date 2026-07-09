@@ -12,6 +12,12 @@ dateCreated: 2022-10-18T08:18:44.517Z
 
 Cakey Bot has the ability to send live updates and notifications to specific channels using web hooks. While Cakey Bot only supports a few official sources, you can suggest less-common feeds for us to look into adding though! You can set up these feeds via the "Social Feeds" page on the [web dashboard](https://cakey.bot/dashboard).
 
+> **Note:** Non-premium servers are limited to **1 enabled feed** for each of Twitch, YouTube, and RSS. Reddit feeds require a [premium subscription](https://cakey.bot/premium) entirely (see below). Upgrading to premium removes these caps.
+{.is-info}
+
+> **Note:** This page covers Twitch live-stream notifications only. For full Twitch event integration including subscriber/follower/donation events, see the [Twitch Integration](/en/integrations/twitch) page.
+{.is-info}
+
 # Setup/Add Feeds
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
@@ -20,6 +26,7 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 4. Click the "Add New Feed" button
 5. Fill in the required information. All feeds will require a channel ID and a web hook URL for that channel in order to post messages there. You can read how to create a web hook URL [here](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
    1. You can optionally set a custom embed color and a role to ping for new notifications.
+   2. You can also optionally set a Discord Thread ID, which will make notifications post into that specific thread instead of the channel itself.
 6. Click "Create"
 
 > **Note:** It can take _up to_ 5 minutes for modifications/additions to sync with the bot. After that, most feeds will search for new content/events every 10 seconds to 1 minute depending on the feed type and rate limits.

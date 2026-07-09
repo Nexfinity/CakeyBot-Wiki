@@ -19,8 +19,6 @@ Cakey Bot can play music from multiple sources which you can view a full list of
 
 1. Join a voice channel that Cakey bot has access to join/speak in
 2. Type `/play <song>` (The `/play` command will auto-summon Cakey Bot)
-   1. You can also use the `/move` command if no one else is using the bot
-3. If you typed !join or !move in step two you will now need to type !play \<song> in order to start playing a song
 
 If no song is currently playing when you add one, it will start to play instantly. If a song is currently playing, your song will be added to a queue that will play through automatically.
 
@@ -29,16 +27,25 @@ If no song is currently playing when you add one, it will start to play instantl
 
 # Requirements
 
-Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to function. You will also need to be in a voice channel to summon Cakey Bot to it. If Cakey Bot is currently being used by users in another channel you will not be able to summon it to your channel. Many commands in Cakey Bot excluding `/dc` require a song to be playing in order to be used. If a song is not playing an error message will be displayed. Some commands can not be used while a live stream is playing, to use these commands you will have to wait until the live stream ends or skip the live stream.
+Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to function. You will also need to be in a voice channel to summon Cakey Bot to it. If Cakey Bot is currently being used by users in another channel you will not be able to summon it to your channel. Many commands in Cakey Bot excluding `/disconnect` require a song to be playing in order to be used. If a song is not playing an error message will be displayed. Some commands can not be used while a live stream is playing, to use these commands you will have to wait until the live stream ends or skip the live stream.
 
 # Configuration
 | Name               | Description                                                                                                                                                                                                         | Default Value | Min Value | Max Value | Premium Feature |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------|-----------|-----------------|
-| Title Blacklist    | A list of words/phrases that are blocked from appearing in song titles. Used to filter inappropriate or abusive content.                                                                                           | Empty         | —         | —         | No              |
+| Title Blacklist    | A list of words/phrases that are blocked from appearing in song titles. Used to filter inappropriate or abusive content. Limited to 2,000 characters.                                                             | Empty         | —         | —         | No              |
 | Default Volume     | Controls the initial playback volume of the bot. Resets to this value when the queue ends or new playback begins.                                                                                                  | 50            | 0         | 100       | No              |
 | 24/7 Music         | Keeps the bot in a voice channel continuously, even when not actively playing music.                                                                                                                               | Disabled      | —         | —         | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>             |
 | Vote Skipping      | Enables vote-based skipping of currently playing songs.                                                                                                                     | False         | —         | —         | No              |
-| Max Song Length    | Restricts the maximum allowed duration of a song in the queue (in minutes).                                                                                                  | 10            | 1         | 180       | No              |
+| Max Song Length    | Restricts the maximum allowed duration of a song in the queue (in minutes).                                                                                                  | -1            | -1        | 1440      | No              |
+
+> A Max Song Length of `-1` means unlimited song length.
+{.is-info}
+
+> The `/volume` command accepts a range of **1-200%**, separate from the Default Volume setting above (which controls the dashboard's 0-100 initial playback volume).
+{.is-info}
+
+> The `/play` command's queue is capped at **50 songs** for non-Premium servers.
+{.is-info}
 
 # Multiple Music Bots
 
@@ -64,12 +71,14 @@ Usage Key: `<required>` / `[optional]`
 | /play           | Starts playing music with the given query.                 | \<query>                          | None                 |
 | /playfile       | Starts playing the uploaded music file.                    | \<query>                          | None                 |
 | /playlist       | Creates, deletes or loads a custom music playlist. (Use !play for youtube/spotify playlists) | \<create \| load \| delete> \<name> | None |
+| /playlist add   | Adds the current queue's songs to an existing playlist.    | \<name>                          | None                 |
 | /playlist list  | List all of your currently saved playlists.                | N/A                              | None                 |
 | /playlist rename| Renames the selected playlist.                             | \<name> \<newName>                 | None                 |
 | /queue          | Displays the current music queue.                          | N/A                              | None                 |
+| /radio          | Plays a live online radio station.                          | \<query>                          | None                 |
 | /restart        | Goes to the start of the current song.                     | N/A                              | None                 |
 | /resume         | Resumes the current song.                                  | N/A                              | None                 |
 | /seek           | Seeks to a specific position or moves forward/backward in the current song.               | \<time>                           | None                 |
 | /shuffle        | Shuffles the current song queue randomly.                  | N/A                              | None                 |
 | /skip           | Votes to skip the current song.                            | [count]                          | None                 |
-| /volume         | Changes the bot's volume.                                  | \<volume>                         | None                 |
+| /volume         | Changes the bot's volume. (1-200%)                          | \<volume>                         | None                 |

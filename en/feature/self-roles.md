@@ -23,11 +23,14 @@ To list all roles that can be self-assigned you can use the `/selfrole list` com
 
 After you have added some roles to the self role list you (and your users) can add/remove the roles from yourself using the `/selfrole use <role>` and `/selfrole unuse <role>` commands.
 
-> If you want to use any of our advanced self-assign methods (like buttons or selection dropdowns) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed using the assignment method you set on our web dashboard.
+> If you want to use our advanced self-assign method (selection dropdowns) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed where users can assign themselves roles using select-menu dropdowns.
 {.is-info}
 
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
+
+> A server can have a maximum of **250** self roles.
+{.is-warning}
 
 # Role Requirements
 You can also set optional role requirements. This means users will need to meet or exceed these requirements in order to assign the role to themselves. The currently supported requirements are:

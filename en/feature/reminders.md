@@ -17,7 +17,7 @@ Cakey Bot allows you to set reminders for yourself easily using the `/reminder` 
 > If you block Cakey Bot or do not share any servers with Cakey Bot at the time that your reminder is sent, you will not receive it. Cakey Bot has to have access to message you directly to deliver the reminder as reminders are sent using Direct Messaging.
 {.is-warning}
 
-To create a reminder all you need to do is run the `/reminder <time> <text>` command. You will need to set an amount of time from this moment for Cakey Bot to remind you as well as a small block of text. Text is limited to 200 characters and there is no limit for the timeframe. Cakey Bot accepts most human-readable time frames, for example: `1d5h30s` or `3w5d`.
+To create a reminder all you need to do is run the `/reminder <time> <text>` command. You will need to set an amount of time from this moment for Cakey Bot to remind you as well as a small block of text. Text is limited to 200 characters. The reminder time must be at least **10 minutes** into the future, and there is no upper limit for the timeframe. Cakey Bot accepts most human-readable time frames, for example: `1d5h30s` or `3w5d`.
 
 You can also view all of your current reminders with the `/reminder list` command.
 

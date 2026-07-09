@@ -22,8 +22,11 @@ You can set your own birthday by running the `/birthday set` command. You can al
 > Server moderators can manually set/update other user's birthdays.
 {.is-info}
 
+> The `year` parameter is optional and defaults to `2016` if not provided. It must be between **1900 and 2100**, and any year greater than the current year will be rejected.
+{.is-info}
+
 ## View upcoming birthdays
-You can view upcoming birthdays with the `/birthday next` command. By default it will show the next 3 birthdays though you can specify a limit between 1 and 10.
+You can view upcoming birthdays with the `/birthday next` command. By default it will show the next 5 birthdays though you can specify a limit between 1 and 10.
 
 ## Remove your own birthday or another user's birthday
 You can remove your birthday by running the `/birthday remove` command. 
@@ -43,13 +46,26 @@ A birthday role is NOT required for birthday announcements to be made. Announcem
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
+# Custom Birthday Message
+By default, Cakey Bot announces birthdays with a generic message. You can customize this on the "Custom Birthday Messages" field of the birthday page of the [web dashboard](https://cakey.bot/dashboard).
+
+You can enter multiple messages separated by a semicolon (`;`) — a random message from the list will be chosen each time a birthday is announced.
+
+You can also use a few placeholders in your message(s):
+* `{user.mention}` - Mentions the user whose birthday it is.
+* `{user.username}` / `{user.nickname}` / `{user.globalname}` - The user's username, nickname, or global display name.
+* `{server.name}` - Your server's name.
+
+> The custom birthday message is capped at **5,000 characters**.
+{.is-info}
+
 # Related Commands
 Usage Key: `<required>` / `[optional]`
 | Command                           | Description                                                          | Usage                                | Permission                |
 | :-------------------------------- | :------------------------------------------------------------------- | :---------------------------------: | :-----------------------: |
 | /birthday channel                 | Sets or updates the birthday announcement channel.                  | \<channel>                           | ManageServer or Administrator |
-| /birthday next                    | View any upcoming birthdays.                                        | \<limit>                             | None                      |
-| /birthday remove                  | Remove your birthday. (Or another user's birthday)                  | [user]                               | None                      |
+| /birthday next                    | View any upcoming birthdays.                                        | [limit]                              | None                      |
+| /birthday remove                  | Remove your birthday. (Or another user's birthday)                  | [user]                               | None (Manage Server required to remove another user's birthday) |
 | /birthday role                    | Sets or updates the birthday auto role.                             | \<role>                              | ManageServer or Administrator |
 | /birthday set                     | Sets or updates your birthday.                                      | \<month> \<day> [year] [user]        | None                      |
 | /birthday view                    | View a user's birthday. (If they have one set)                      | \<user>                              | None                      |

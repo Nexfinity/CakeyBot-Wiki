@@ -28,22 +28,31 @@ This is the list of support item types that you can configure for users to purch
 * **Economy Boosts:** Enhances earning rates for specified periods. (Created on separate "Boosts" page.)
 
 ## Configuration
-* **Cost:** The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item.
+* **Name / Description:** Each item's name and description are limited to a max of **255 characters**.
+* **Cost:** The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item. Max value: **1,000,000,000**.
 * **Type:** The type of item for the user to unlock/buy.
 * **Data:** The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
-* **Secondary Data:** The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user.
+* **Secondary Data:** The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user, up to a max of **100,000** hours.
+* **Max Per User:** Caps how many of this item a single user can own at once. Configurable between **0 and 999**.
   
 > **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
 {.is-warning}
+
+> The number of items you can create is also tiered based on your server's subscription (2 free / 5 premium / 15 whitelabel max). See the [Economy Overview](/feature/economy) page for the full tier breakdown.
+{.is-info}
 
 # Boosts
 Boosts allow server owners to create multipliers that users can activate to enhance their earnings in the server's economy. Boosts can stack, meaning users can apply multiple boosts at once for greater rewards. These multipliers only apply to certain commands, such as games, and do not affect direct money modifications like `/pay` or `/donate`. In multiplayer scenarios, boosts are applied to the winnings received by the boosted player, but losses incurred by other players remain unaffected.
 
 ## Configuration
-* **Duration:** This is how long the boost is active for once purchased. The time is based in hours.
-* **Multiplier:** This is how much the boost affects earnings. Keep in mind that boosts can stack with other boosts.
-* **Cost:** The cost for the user to purchase the boost. Note: This only applies if `IsPurchasable` is enabled for the boost.
+* **Duration:** This is how long the boost is active for once purchased. The time is based in hours, up to a max of **8,760 hours** (1 year).
+* **Multiplier:** This is how much the boost affects earnings, configurable between **1.0 and 10.0**. Keep in mind that boosts can stack with other boosts.
+* **Cost:** The cost for the user to purchase the boost. Note: This only applies if `IsPurchasable` is enabled for the boost. Max value: **1,000,000,000**.
 * **IsPurchasable:** When this is enabled, it allows the boost to be purchased in the `/eco shop`. Otherwise users are unable to aquire the boost.
+* **Max Per User:** Caps how many of this boost a single user can have active at once. Configurable between **0 and 999**.
+
+> The number of boosts you can create is also tiered based on your server's subscription (1 free / 3 premium / 10 whitelabel max). See the [Economy Overview](/feature/economy) page for the full tier breakdown.
+{.is-info}
 
 ## Notes Regarding Functionality:
 * Multiple boosts can be stacked/applied at once.

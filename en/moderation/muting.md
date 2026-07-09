@@ -26,6 +26,16 @@ You can also mute people temporarily. It works exactly like normal muting above 
 > Note: This command was previously known as `/tempmute`, it has now been replaced in favor of `/timeout` as it uses native Discord systems to mute the user which is more effective and reliable.
 {.is-info}
 
+> `/timeout` durations must be between **1 second** and **28 days** (2,419,200 seconds). Values outside of this range will be rejected.
+{.is-warning}
+
+# Dashboard Configuration
+
+The Moderation page on the [Web Dashboard](https://cakey.bot/dashboard) includes a dedicated **Timeout Output Channel** setting, separate from the general audit log, which lets you route timeout notifications to their own channel.
+
+> Also see [Persistent Mutes](/en/moderation/persistent-roles#persistent-mutes) — a dashboard toggle that automatically re-applies the mute role to a user if they leave and rejoin the server while muted.
+{.is-info}
+
 # Related Commands
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |

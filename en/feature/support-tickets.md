@@ -29,9 +29,13 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 **Auto Save Transcripts:** If enabled, it will automatically create transcripts for all closed tickets. A transcript channel will have to be configured/set for this to function. <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 
+**Initial Embed Message/Color:** Customize the message and embed color shown before a user opens a ticket (up to 2,000 characters).
+
+**Open Embed Message/Color:** Customize the message and embed color shown once the ticket channel has been created (up to 2,000 characters).
+
 # Usage/Creating Tickets
 
-Once you have enabled and configured support tickets via the web dashboard your users can start making tickets once you create an embed using the `/setup createticketembed` command. Running this command will create a fancy embed with a button that users can click to automatically open up tickets. When users click the button it will prompt them to enter a reason for their ticket.
+Once you have enabled and configured support tickets via the web dashboard your users can start making tickets once you create an embed using the `/setup createticketembed <type>` command, selecting the "Panel" type when prompted. Running this command will create a fancy embed with a button that users can click to automatically open up tickets. When users click the button it will prompt them to enter a reason for their ticket.
 
 You do _not_ need to make/set up a support category, Cakey Bot will automatically generate the correct channels and permissions if Cakey Bot has access to do so.
 
@@ -64,7 +68,7 @@ By default, any staff members who have view/send access to tickets can respond t
 Staff members can use the `/ticket remind` command to send a DM reminder to the user who opened the ticket. The DM prompts them to respond if the issue is still unresolved and provides a button link to open the ticket.
 
 ## Close Requests
-The `/ticket request-close` command allows staff members to request the closure of a ticket. Instead of immediately closing the ticket, this command notifies the original user that opened the ticket that the staff have requested the ticket to be closed. The user can then review and approve or deny the request.
+The `/ticket request-close <reason>` command allows staff members to request the closure of a ticket. Instead of immediately closing the ticket, this command notifies the original user that opened the ticket that the staff have requested the ticket to be closed. The user can then review and approve or deny the request. The `reason` parameter is required and can be up to 255 characters.
 
 # Advanced Settings
 These are advanced settings that you can configure via the web dashboard to further customize your support ticket system!
@@ -85,6 +89,9 @@ Defaults to disabled. When enabled, it will ping the Support Team staff role whe
 > **Note:** You MUST have a Support Team role configured on the web dashboard or this setting will not do anyhting.
 {.is-info}
 
+## Ping User on Ticket Creation
+Defaults to disabled. When enabled, it will ping the user who opened the ticket when it is created. This is separate from the "Ping Staff Role on Ticket Creation" setting above.
+
 ## Allow Feedback Ratings
 This allows users to submit feedback ratings on the support they received inside of a ticket.
 
@@ -104,9 +111,9 @@ This allows you to prevent specific roles from creating tickets. This can be use
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| /setup createticketembed | Create an embed to open tickets with a button. | N/A | None | 
+| /setup createticketembed | Create an embed to open tickets with a button. | \<type> | None | 
 | /ticket remind | Sends a reminder to the user. | N/A | None | 
-| /ticket request-close | Requests to close the ticket. | N/A | None | 
+| /ticket request-close | Requests to close the ticket. | \<reason> | None | 
 | /ticket adduser | Adds a user to the ticket. | \<user> | None | 
 | /ticket anonreply | Replies to a support ticket anonymously. | \<message> | None | 
 | /ticket removeuser | Removes a user from a ticket. | \<user> | None | 

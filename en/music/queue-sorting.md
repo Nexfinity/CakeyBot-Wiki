@@ -46,7 +46,6 @@ Usage Key: `<required>` / `[optional]`
 | /sortqueue reverse      | Sorts the queue in reverse of current order.                   | N/A                                     | Server Mod/DJ        |
 | /sortqueue swap         | Swaps two different tracks in the queue.                       | \<firstIndex> \<secondIndex>              | Server Mod/DJ        |
 | /sortqueue title        | Sorts the queue based on the title.                            | \<asc/desc>                              | Server Mod/DJ        |
-| /remove dupes           | Removes any duplicate songs from the queue.                    | N/A                                     | None                 |
 | /remove duplicates      | Removes any duplicate songs from the queue.                    | N/A                                     | None                 |
 | /remove first           | Remove the first song from the queue.                          | N/A                                     | Server Mod/DJ        |
 | /remove keyword         | Removes songs from the queue if their title contains the specified keyword. | \<keyword>                              | Server Mod/DJ        |

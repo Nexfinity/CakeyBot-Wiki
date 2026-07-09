@@ -40,6 +40,9 @@ Note: DMs for the user leave event will likely fail 90% of the time due to the u
 
 You can set/modify messages and the announcement channel via our [web dashboard](https://cakey.bot/dashboard). Just log in, select a server, and head on over to the "Announcements" page. Once here you can select a channel as well as setting the custom message. You can set a message for any one of these events, some of them or all of them. You can also set different channels for each event type.
 
+> Each of the Join, Leave, Ban, and Boost announcement messages is limited to 4,000 characters.
+{.is-info}
+
 > In order to have Cakey Bot send the messages, you will have to set a channel for Cakey Bot to post to. You can find more information about this below.
 {.is-info}
 

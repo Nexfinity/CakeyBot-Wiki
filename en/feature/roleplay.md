@@ -9,7 +9,7 @@ dateCreated: 2025-04-20T08:31:29.035Z
 ---
 
 # Overview
-The roleplay system adds a fun and expressive layer to your server by enabling users to interact with one another using animated GIFs and themed messages. Whether you're feeling affectionate, playful, dramatic, or silly, there's a command to match the mood — from `/rp hug` and `/rp cuddle` to `/rp slap` and `/rp facepalm`.
+The roleplay system adds a fun and expressive layer to your server by enabling users to interact with one another using animated GIFs and themed messages. Whether you're feeling affectionate, playful, dramatic, or silly, there's a command to match the mood — from `/rp hug` and `/rp pat` to `/rp slap` and `/rp facepalm`.
 
 These commands are designed to enhance social interaction and encourage lighthearted engagement between server members. Most actions are directed at another user (e.g., `/rp pat <user>` or `/rp bonk <user>`), while others trigger a random reaction without a target, such as `/rp cry` or `/rp pout`.
 
@@ -22,19 +22,26 @@ Usage Key: `<required>` / `[optional]`
 > Individual commands can be toggled on/off separately via the web dashboard.
 {.is-info}
 
-| Command     | Description                       | Usage                 | Permission |
-| :---------- | :-------------------------------- | :-------------------- | :--------- |
-| /rp bonk    | Bonk someone                      | \<user>               | None       |
-| /rp cry     | Random crying GIF ;-;             | N/A                   | None       |
-| /rp cuddle  | Cuddle someone.                   | \<user>               | None       |
-| /rp facepalm| Displays a facepalm gif.          | N/A                   | None       |
-| /rp feed    | Feed someone.                     | \<user>               | None       |
-| /rp hug     | Hug someone.                      | \<user>               | None       |
-| /rp kiss    | Kiss someone.                     | \<user>               | None       |
-| /rp pat     | Pat someone.                      | \<user>               | None       |
-| /rp poke    | Poke someone.                     | \<user>               | None       |
-| /rp pout    | Random pouting GIF >︹<           | N/A                   | None       |
-| /rp ship    | Ships two users together.         | \<user> \<user>       | None       |
-| /rp slap    | Slap someone.                     | \<user>               | None       |
-| /rp tickle  | Tickle someone.                   | \<user>               | None       |
-| /rp wink    | Wink at someone ;)                | \<user>               | None       |
+| Command       | Description                       | Usage                 | Permission |
+| :------------ | :--------------------------------- | :-------------------- | :--------- |
+| /rp bite      | Bite someone                      | \<user>               | None       |
+| /rp bonk      | Bonk someone                      | \<user>               | None       |
+| /rp cry       | Random crying GIF ;-;             | N/A                   | None       |
+| /rp dance     | Dance with someone                | \<user>               | None       |
+| /rp facepalm  | Displays a facepalm gif.          | N/A                   | None       |
+| /rp feed      | Feed someone.                     | \<user>               | None       |
+| /rp grabcheeks| Grab someone's cheeks             | \<user>               | None       |
+| /rp highfive  | High five someone                 | \<user>               | None       |
+| /rp holdhands | Hold hands with someone           | \<user>               | None       |
+| /rp hug       | Hug someone.                      | \<user>               | None       |
+| /rp kiss      | Kiss someone.                     | \<user>               | None       |
+| /rp lick      | Lick someone                      | \<user>               | None       |
+| /rp pat       | Pat someone.                      | \<user>               | None       |
+| /rp poke      | Poke someone.                     | \<user>               | None       |
+| /rp pout      | Random pouting GIF >︹<           | N/A                   | None       |
+| /rp ship      | Ships two users together.         | \<user> \<user>       | None       |
+| /rp slap      | Slap someone.                     | \<user>               | None       |
+| /rp stare     | Stare at someone                  | \<user>               | None       |
+| /rp tickle    | Tickle someone.                   | \<user>               | None       |
+| /rp wave      | Wave at someone                   | \<user>               | None       |
+| /rp wink      | Wink at someone ;)                | \<user>               | None       |

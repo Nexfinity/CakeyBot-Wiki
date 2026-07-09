@@ -47,7 +47,10 @@ Cakey Bot offers a versatile user verification system that allows server adminis
 # Setting Up Verification
 
 ## Set the Verification Role ~(Required~ ~for~ ~ALL~ ~methods)~
-In order to set the role that you want users to get, you will need to type `/setup verifyrole <role>`. You can also disable or remove the role by typing `/setup verifyrole 0`. If you want to change the role later, you can just run the initial setup command and type the new role and it will update the currently saved role.
+In order to set the role that you want users to get, you will need to type `/setup verifyrole <role>`. If you want to change the role later, you can just run the initial setup command and type the new role and it will update the currently saved role.
+
+> **Note:** To disable or remove the verification role, you must use the [web dashboard](https://cakey.bot/dashboard) — this cannot be done via the slash command, since Discord does not allow role parameters to accept a value like `0`.
+{.is-warning}
 
 > **Helpful Tip:** You can also set the verification role in the [web dashboard](https://cakey.bot/dashboard)!
 {.is-success}
@@ -72,6 +75,17 @@ In order to set a custom embed message, simply login to the [web dashboard](http
 > **Helpful Tip:** You can also use _some_ [basic placeholders](/en/placeholders) in the custom message!
 {.is-success}
 
+## Set a Custom Verify Button Text
+In order to customize the text shown on the "Verify" button, simply login to the [web dashboard](https://cakey.bot/dashboard) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Verification Button Text". You can set any text you want up to 80 characters.
+
+> Note: Setting a custom button text is NOT required. If none is set, Cakey Bot will use the default "Verify" text.
+{.is-info}
+
+## Set a Custom Embed URL
+<span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Custom Bot Only</span>
+
+Whitelabel/Custom Bot servers can use our custom embed editor to design a fully custom verification embed, then paste the generated **Embed URL** into the "Embed URL" text field on the web dashboard's "Verification Role" page. This overrides the default verification embed with your custom design.
+
 ## Set a Custom Password
 In order to set a custom password, simply login to the [web dashboard](https://cakey.bot/dashboard) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Custom Password". You can set any password you want up to 255 characters. Passwords are not currently case sensitive.
 
@@ -83,5 +97,5 @@ Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
 | /verify | The command that users run to verify themselves. | N/A | None | 
-| /setup verifyrole | Set a role that users can assign to themselves when typing the command. | \<role> | ManageServer or Administrator | 
+| /setup verifyrole | Set a role that users can assign to themselves when typing the command. | \<role> | ManageServer or Administrator, and Manage Roles | 
 | /setup createverifyembed | Generate an embed with verification instructions. | N/A | None | 

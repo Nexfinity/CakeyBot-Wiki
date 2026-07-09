@@ -28,11 +28,14 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 # Features
 
 * Blacklist file extensions
+  * Can also be inverted into a **whitelist mode**, only allowing the listed extensions instead of blocking them.
 * Capitalization check
 * Duplicated text
 * Duplicated words
 * Word Blacklist
+  * Can also optionally check blacklisted words in **voice channel transcripts**, not just text messages.
 * Discord invite URLs
+  * Includes an option to whitelist/ignore invites from **partnered** and **verified** Discord servers.
 * Any URL/Link (+Whitelist specific URLs)
 * Mass mentions
 * Mass emoji
@@ -46,6 +49,16 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
   * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
   * **Note:** We now include a blacklisted image hash database. This will actively try to block known phishing related images that bypass traditional text moderation bots/tools.
 * Markdown Headers
+* Phone Number Detection
+  * Fully configurable check to detect and act on messages containing phone numbers.
+
+# Ignored Roles/Channels
+
+Most Auto Moderation checks can be configured to skip specific roles and channels, letting you exempt trusted roles or non-monitored channels from moderation checks entirely.
+
+# Excluding Admins/Mods/Bots
+
+Cakey Bot lets you toggle whether Admins, Mods, and/or Bots should be excluded from Auto Moderation checks entirely, so trusted roles/accounts aren't accidentally punished.
 
 # Punishment Types
 
@@ -55,6 +68,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 4. Delete Message & Kick User
 5. Delete Message & Kick + Warn User
 6. Ban User (Delete 24h)
+7. Delete Message & Timeout User
 
 # Category Specific Channels
 
@@ -86,7 +100,7 @@ You can automatically kick or ban users when they join if they meet any of the c
   * This will automatically kick ban users whose entire username is nothing but numbers (for example: `534534534534`) as this is a commonly used naming scheme for some raids.
 * Invite in Username
 * Unverified Bots
-* New Accounts (<48 Hours Old by default)
+* New Accounts (1 Hour Old by default)
 * No Avatar
 
 You can even set a threshold for how old the user's account must be before the 'New Accounts' detection gets triggered.

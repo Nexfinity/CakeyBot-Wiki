@@ -75,7 +75,7 @@ Enabling this feature will have Cakey Bot automatically remove all Role Rewards 
 Enabling this feature will have Cakey Bot automatically remove any old Role Rewards when a user earns a new streak.
 
 # Role Rewards
-You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users increase their streak they will receive these roles once they meet the streak requirement. You can also use the "Remove Roles on Streak Increase" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
+You can set up to 10 different role rewards (Or up to 20 with a premium susbcription). As users increase their streak they will receive these roles once they meet the streak requirement. Each role reward's streak-day requirement must be between **1 and 1,000** days. You can also use the "Remove Old Roles on New Streak" setting to have old role rewards removed when users are assigned a new role. By default, users will keep ALL of their role rewards.
 
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}

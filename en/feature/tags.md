@@ -32,7 +32,7 @@ This feature allows you to set up a variety of "tags" that users can list and us
 4. Fill in the required information. All tags will require a name and a response.
 5. Click "Create"
 
-Once you have created tags, you can also modify them here.
+Once you have created tags, you can also modify them here. You can also toggle a tag enabled or disabled without deleting it.
 
 # Create/Manage Tags (Bot/In-Discord)
 
@@ -48,6 +48,7 @@ To use a tag simply type `/tag <name>`.
 # Limitations/Restrictions
 
 * You can't have duplicate tags with the same name
+* Tag names are limited to 255 characters
 * Tags are also limited to Discord's message character limit
 * @User, @Role and @Everyone/@Here mentions are completely disabled in tags
 

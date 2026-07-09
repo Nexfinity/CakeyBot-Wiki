@@ -15,6 +15,9 @@ Warnings will record the date the warning was received, the reason as well as th
 ## Warn Users
 You can warn users with a given reason using the `/warn <user> <reason>` . It will place a warning on their account which you can then view later. By default warnings will also send the user a DM. There is also an optional "isSilent" parameter which will suppress the DM sent to the user for the warning.
 
+> The `/warn` reason has a **300-character limit** (checked after mention substitution). Note this is lower than the 500-character limit allowed for `/kick`, `/ban`, `/mute`, and `/timeout` reasons.
+{.is-warning}
+
 > Warnings will also be sent to Cakey bot's audit log as a special event if you have one configured for moderation logs.
 {.is-info}
 
@@ -73,6 +76,9 @@ Here's how to add your first auto-punishment:
 
 # Auto Moderation Punishment
 If you have any Auto Mod events enabled you can set the punishment to automatically warn users when the violate the rules as well. Any warnings given by Auto Mod will be listed next to regular warnings and will be able to removed using the same methods.
+
+# Warning Expiry
+On the "Warnings" page of the [web dashboard](https://cakey.bot/dashboard), you can configure a **Warning Expiry** setting which determines how many days a warning stays active before it automatically expires. This is configurable between **-1** (never expire) and **730** days.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

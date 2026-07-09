@@ -17,13 +17,16 @@ To create a sticky message, use the `/stickymessage create <message-text> [chann
 
 | Parameter       | Description                                                                                      | Default Value | Min Value | Max Value | Premium Feature |
 |-----------------|--------------------------------------------------------------------------------------------------|---------------|-----------|-----------|------------------|
-| `message-text`  | The text content of the sticky message.                                                          | -           | -       | -       | No               |
+| `message-text`  | The text content of the sticky message.                                                          | -           | -       | 2,000 characters       | No               |
 | `channel`       | The channel where the sticky message will be posted. If not provided, uses the current channel.  | Current       | -       | -       | No               |
-| `embed-url`     | An optional embed URL to attach to the sticky message.                                           | None          | -       | -       | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>               |
+| `embed-url`     | An optional embed URL to attach to the sticky message.                                           | None          | -       | 4,000 characters       | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>               |
 | `delay`         | The time delay in seconds between re-posting the sticky message.                                 | 20          | 5       | 60      | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>               |
 | `min-messages`  | The minimum number of messages required before re-posting the sticky message.                    | 8           | 3       | 100     | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>               |
 
 Example: `/stickymessage create "Welcome to the channel! Please read the rules." #general 30 10`
+
+> There is a limit to how many sticky messages a server can have at once: **3** for free servers, **10** for premium servers, and **15** for whitelabel servers.
+{.is-info}
 
 ## Listing Sticky Messages
 To list all current sticky messages, use the `/stickymessage list` command.
@@ -36,6 +39,6 @@ To delete a sticky message, use the `/stickymessage delete <id>` command with th
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| /stickymessage create | Create a new sticky message. | \<message> [channel] [embedUrl] [delay] [minMessages] | ManageServer or Administrator | 
-| /stickymessage delete | Delete the specified sticky message. | \<stickyMessageId> | ManageServer or Administrator | 
-| /stickymessage list | Get a list of all sticky messages in the server. | N/A | ManageServer or Administrator | 
+| /stickymessage create | Create a new sticky message. | \<message> [channel] [embedUrl] [delay] [minMessages] | ManageMessages | 
+| /stickymessage delete | Delete the specified sticky message. | \<stickyMessageId> | ManageMessages | 
+| /stickymessage list | Get a list of all sticky messages in the server. | N/A | ManageMessages | 

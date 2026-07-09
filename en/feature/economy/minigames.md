@@ -55,3 +55,7 @@ Each stage:
 * 💰 **Cash Out** to lock in your winnings before you guess wrong.
 
 The further you go, the more you earn — but one mistake resets it all!
+
+## Other Games
+> Looking for the betting-style games like `/eco coinflip`, `/eco guess`, `/eco rock-paper-scissors`, or `/eco split-or-steal`? Check out the [Economy Overview](/feature/economy) page.
+{.is-info}

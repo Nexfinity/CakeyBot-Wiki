@@ -60,6 +60,7 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 * You can't have duplicate tags with the same name
 * Auto Responders are also limited to Discord's message character limit
 * Messages sent by bots or webhooks will be ignored
+* Non-Premium servers are limited to **100 auto responders**. Premium servers have no cap on the number of auto responders.
 
 # Placeholders/Variables
 

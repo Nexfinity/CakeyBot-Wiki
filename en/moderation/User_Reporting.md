@@ -37,13 +37,30 @@ Your uers can follow the steps below to report users or content:
 
 # What do the staff see?
 
-The staff are prompted with an embed where they can take action. First, they will have both the ID of the user who sent the message and the ID of user who reported the message. They will also have the time that the message was sent as well as a link to jump to the message. The embed will also include the message content if it's available (For embeds it will try to grab the embed's description if there is one.)
+The staff are prompted with an embed where they can take action. The embed's exact contents and available buttons depend on whether a message or a user was reported.
 
-The embed will also include these punishment actions: 
+## Report Message
+
+For a `Report Message`, the staff will have both the ID of the user who sent the message and the ID of the user who reported the message. They will also have the time that the message was sent as well as a link to jump to the message. The embed will also include the message content if it's available (For embeds it will try to grab the embed's description if there is one.)
+
+The embed includes these action buttons:
 * Delete the message
 * Warn the user
 * Timeout the user for 24h
 * Delete the Report
+* Claim
+* Finish/Mark Finished
+
+## Report User
+
+For a `Report User`, the staff will have the ID of the reported user, the ID of the user who reported them, and the reason provided for the report. Since there is no specific message involved, there is no "Delete the message" button.
+
+The embed includes these action buttons:
+* Warn the user
+* Timeout the user for 24h
+* Delete the Report
+* Claim
+* Finish/Mark Finished
 <br />
 
 <image src="/image_2023-05-31_105845157.png" width="800px" alt="Report Screenshot">

@@ -44,7 +44,7 @@ You will need to enable ban sync for every server you wish to add to a ban sync 
 **Note:** Once the server has been added to a pool you can disable this toggle again to prevent the server from being added to other pools. This toggle will NOT remove servers from existing pools, it only prevents the server from being added to new pools.
 
 # Adding Servers to Pools
-> Currently only 3 servers can be in a given pool at once. However, a server can be included in multiple different pools.
+> The number of servers allowed in a given pool at once is tiered: **3** for free servers, **7** for Premium servers, and **15** for Custom Bot (whitelabel) servers. However, a server can be included in multiple different pools.
 {.is-info}
 
 While on the Ban Sync page follow these steps:

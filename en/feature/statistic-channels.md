@@ -20,7 +20,7 @@ Statistic channels are locked voice channels on the side of your server that dis
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Statistic Channels".
 3. Toggle/enable any statistic channels you want. (Wait up to 20 minutes for them to generate)
-4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number.
+4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number. This custom text is limited to 75 characters.
 
 > **Helpful Tip:** You can freely reposition the stats category and channels! Also, you can freely rename/customize the category name!
 {.is-success}
@@ -49,3 +49,6 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 <hr>
 
 * Specific Role Count ~ The total number of users who have the specified role
+
+> **Note:** You must select a role before you can enable the "Specific Role Count" stat channel.
+{.is-warning}

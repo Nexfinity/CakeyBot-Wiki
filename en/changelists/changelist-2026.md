@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-08T00:51:33.846Z
+date: 2026-07-09T00:12:51.204Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -15,6 +15,8 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed an issue where "Ignore Muted/Deafened User" options were ignored upon leaving the voice chat.
 * Fixed an issue where "Ignored Roles" were not always ignored during voice XP calculations.
 * Fixed an issue where anti-raid fuzzy score limit flags default value (and other valid values) as NaN.
+* Fixed not being able to select forum channels as "Ignored Channels" across the dashboard.
+* Fixed channels not being ordered correctly. (Same as their order in Discord)
 
 ## Added
 * Added an optional parameter to the `/giveaway reroll` command to allow re-rolling only a specific user on the giveaway instead of all winners for multi-winner giveaways.

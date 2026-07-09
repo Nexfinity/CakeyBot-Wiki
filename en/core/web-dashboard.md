@@ -12,13 +12,16 @@ dateCreated: 2022-09-01T02:36:22.985Z
 
 Cakey Bot is a highly customizable utility and moderation bot. You can configure many features and settings in Cakey Bot using our web dashboard. You can access our web dashboard by visiting [this link](https://cakey.bot/dashboard) or by clicking "Manage Servers" in the navigation bar of our website.
 
-Once you have selected a server to manage, you will be taken to that server's home page. This page will show you general server stats and some basic bot settings like the default music volume, language, and command prefix. After you are on this page, you can either modify these settings or navigate to other modules to configure.
+Once you have selected a server to manage, you will be taken to that server's home page. This page will show you general server stats and quick access to configuration modules such as Bot Settings (Language, Timezone, Staff Notes Role) and Music (default volume). After you are on this page, you can navigate to other modules to configure your server.
 
 ![image.png](/dash/image.png)
 
 # Login
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers.
 {.is-warning}
+
+> You can also grant specific users or roles dashboard access without requiring Manage Server or Administrator. See [Dashboard Access](/en/core/dashboard-access) for details.
+{.is-info}
 
 To access the Web Dashboard, server administrators must:
 
@@ -31,7 +34,7 @@ To access the Web Dashboard, server administrators must:
 After selecting a server, administrators are taken to that server's homepage. This page displays:
 
 * Server statistics (member count, channel count, etc.)
-* Core bot settings (prefix, default music volume, language)
+* Core bot settings (language, timezone, and staff notes role, configured on the Bot Settings page; default music volume is configured separately on the Music page)
 * Quick access to all available configuration modules
 
 This serves as the central hub from which administrators can navigate to other sections of the dashboard.
@@ -40,7 +43,15 @@ This serves as the central hub from which administrators can navigate to other s
 
 Once you have selected a server to manage, you will be taken to that server's homepage. The homepage will display basic statistics and general core settings for that server.
 
-Once you have selected the server you want to modify you can change various features and core settings for it.
+Once you have selected the server you want to modify you can change various features and core settings for it, including but not limited to:
+
+* Suggestion Channels (new/approved/denied)
+* Voice Transcription (disabled/manual/automatic modes — automatic requires Premium)
+* GitHub Link Previewer (with ignored channels)
+* Auto Quoter (with ignored channels)
+* Code Block Reminder
+* Per-command Roleplay (`/rp`) toggles
+* [Dashboard Access](/en/core/dashboard-access) grants for specific users/roles
 
 # Viewing Server Activity & Logs
 
@@ -73,7 +84,7 @@ When using the Web Dashboard, consider these recommended practices:
 
 1) **Regular Review:** Periodically review your configuration settings to ensure they still align with your server's needs.
 
-2) **Permission Management:** Only give `Manage Server` or `Administrator` permissions to trusted individuals, as they will gain full access to the dashboard.
+2) **Permission Management:** Only give `Manage Server` or `Administrator` permissions to trusted individuals, as they will gain full access to the dashboard. If you only need to give someone dashboard access without granting them broader Discord permissions, use [Dashboard Access](/en/core/dashboard-access) instead.
 
 3) **Feature Integration:** When enabling new features, consider how they will interact with existing ones. For example, economy rewards might affect the leveling system.
 

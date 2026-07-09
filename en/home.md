@@ -106,14 +106,17 @@ You can invite Cakey Bot using this [Discord OAuth URL](https://cakey.bot/invite
 > You will need **`Manage Server`** or **`Administrator`** permission to customize Cakey Bot in your server.
 {.is-warning}
 
+> You can also grant specific users or roles dashboard access without requiring Manage Server or Administrator. See [Dashboard Access](/en/core/dashboard-access) for details.
+{.is-info}
+
 After you invite Cakey Bot, most commands/features will work right out of the box (assuming it has the correct permissions). However, there are some more advanced features that you can enable. Some of these features include but are not limited to: multiple languages, auto moderation, auto responders, audit logging, etc.
 
 You can access the web dashboard [here](https://cakey.bot/dashboard). All of Cakey Bot's most advanced features can be configured through the web dashboard.
 
 You can configure advanced features like the ones listed below in the web dashboard:
 
--   Default music volume
--   Bot Language
+-   Default music volume (on the Music page)
+-   Bot Language, Timezone, and Staff Notes Role (on the Bot Settings page)
 -   Modify Module-Specific Configurations
 -   Setup Auto Responders
 -   Setup Auto-Moderation

@@ -18,7 +18,7 @@ Cakey Bot provides several logs accessible on the website. These include changes
 4. Scrolling down the page will reveal the options to switch pages as well as the number of results shown in the page.
 
 # Dashboard Logs
-These logs are added whenever anyone with Administrator or Manage Server permissions has used your Dashboard to change a Bot setting. This will include the time of the change, the Administrator's Discord tag, and what change they made.
+These logs are added whenever anyone with Administrator or Manage Server permissions (or a user/role granted [Dashboard Access](/en/core/dashboard-access)) has used your Dashboard to change a Bot setting. This will include the time of the change, the Administrator's Discord tag, and what change they made.
 ![Dasboard Log Screenshot](/logs1.png)
 
 # Moderation Logs

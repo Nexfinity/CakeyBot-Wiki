@@ -17,6 +17,7 @@ Custom Bot is an advanced version of Premium that allows you to completely rebra
 * Custom Bot Profile Picture
 * Custom Bot Username
 * Custom Bot Bio
+* Custom Bot Presence/Status (online/idle/dnd/invisible) and status message
 * Better Performance
 
 # Purchasing Custom Bot
@@ -68,6 +69,62 @@ If you have any issues in getting this sorted, do not hesitate to join our [supp
 
 # Additional Customization
 Once you have setup and configured your bot you can setup additional customizations like custom API keys, custom embed colors and more. Simply login to the web dashboard and navigate to the "Custom Bot" page.
+
+## Custom Embed Colors
+You can individually configure the color used for **14 different embed types**:
+* Good
+* Warning
+* Error
+* Ok
+* Boost
+* AutoMod
+* Trivia
+* Reddit
+* Gold
+* Pokemon
+* Twitch
+* Debug
+* Voice Transcribe
+* Starboard
+
+## Presence & Status
+You can configure your custom bot's presence (Online, Idle, Do Not Disturb, or Invisible) as well as a custom status message.
+
+> Custom bot status messages are limited to **128 characters**.
+{.is-info}
+
+## Website URL
+You can set a custom website URL for your bot.
+
+> Custom bot website URLs are limited to **128 characters**.
+{.is-info}
+
+## Command Toggles
+You can individually disable the following commands/features for your custom bot:
+* Help command
+* About command
+* Leaderboard buttons
+
+## Chat Bot AI Key
+The custom Chat Bot AI API key is **OpenAI-specific only**. It must be a valid OpenAI-format API key, and the model used is restricted to one of the following:
+* gpt-3.5-turbo
+* gpt-3.5-turbo-1106
+* gpt-4-turbo-preview
+* gpt-4
+* gpt-4o
+* gpt-4.1
+
+## Settings Presets
+You can save up to **3 settings presets** of your custom bot configuration. Once saved, presets can be:
+* Re-applied to your custom bot
+* Renamed
+* Deleted
+
+> Preset names must be between **1 and 64 characters**.
+{.is-info}
+
+## Leave Guild
+Custom bots have a self-service **"Leave Guild"** button on the dashboard, allowing you to remove your custom bot from a server without needing to do so manually through Discord.
   
 # Custom Emote Replacement
 Cakey Bot even allows you to customize and swap out every custom emote we use in the bot. In order to do this simply follow the steps listed below:

@@ -17,6 +17,9 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 > You will need **`Manage Server`** or **`Administrator`** permission to manage servers and setup Auto Moderation.
 {.is-warning}
 
+> You can also grant specific users or roles dashboard access without requiring Manage Server or Administrator. See [Dashboard Access](/en/core/dashboard-access) for details.
+{.is-info}
+
 1. Login to the web dashboard on the [main website here](https://cakey.bot/dashboard).
 2. Click on the server you want to edit custom commands on.
 3. Go to the "Auto Moderation" page.

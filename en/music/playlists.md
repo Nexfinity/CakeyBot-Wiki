@@ -2,7 +2,7 @@
 title: Music Playlists
 description: Advanced Discord music bot features - Playlists with Cakey Bot. Professional audio setup guide.
 published: 1
-date: 2025-11-01T06:20:44.300Z
+date: 2026-07-09T19:50:13.742Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:02:54.523Z
@@ -37,7 +37,7 @@ You are also able to delete playlists with the `/playlist delete <name>` command
 
 If you want to see a list of all of your playlists and the number of songs in each playlist you can run the `/playlist list` command.
 
-> A remarkable feature of using Cakey Bot's custom playlist system is that you don't have to navigate to external websites to use it AND your playlist can contain songs from multiple different sources (YouTube, Twitch, Spotify, Bandcamp, etc).
+> A remarkable feature of using Cakey Bot's custom playlist system is that you don't have to navigate to external websites to use it AND your playlist can contain songs from multiple different sources (Deezer, Twitch, Spotify, Bandcamp, etc).
 {.is-success}
 
 # Related Commands

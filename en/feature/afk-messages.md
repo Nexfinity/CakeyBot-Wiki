@@ -29,7 +29,7 @@ You are able to set your own AFK message by typing `/afk <message>`. If you ever
 
 You are able to remove your own AFK message by typing the `/unafk` command.
 
-Server moderators with **Manage Server** can also remove AFK statuses from the web dashboard and see a list of all currently applied AFK messages.
+Server moderators with **Manage Server** (or a user/role granted [Dashboard Access](/en/core/dashboard-access)) can also remove AFK statuses from the web dashboard and see a list of all currently applied AFK messages.
 
 # Configuration
 

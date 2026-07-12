@@ -48,6 +48,7 @@ Auto Moderation allows Cakey Bot to automatically detect rule breakers and punis
 * Phishing URL Detection
   * **NOTE:** This feature is only to help block malicious URLs while allowing "safe" URLs. While we constantly try to improve its accuracy, it will NOT block every unsafe URL. You will still need to manually review some URLs.
   * **Note:** We now include a blacklisted image hash database. This will actively try to block known phishing related images that bypass traditional text moderation bots/tools.
+  * **Note:** The image similarity threshold (0.01–1.0) is configurable on the dashboard. Lower values require near-exact matches (fewer false positives); higher values are more lenient and may catch more image variants.
 * Markdown Headers
 * Phone Number Detection
   * Fully configurable check to detect and act on messages containing phone numbers.

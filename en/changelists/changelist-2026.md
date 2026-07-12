@@ -2,11 +2,17 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-09T00:12:51.204Z
+date: 2026-07-12T23:51:29.534Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 12th - Perceptual Hashing Checks
+## Added
+* Added perceptual hashing checks for phishing images.
+* Added the ability to adjust the aggresive-ness of the perceptual hashing check for anti-phishing.
+  * Lower values (e.g. 0.05) require near-exact matches, reducing false positives. Higher values (e.g. 0.30) are more lenient and may flag visually similar images.
 
 # July 8th - Giveaway & Voice Fixes
 ## Fixed 

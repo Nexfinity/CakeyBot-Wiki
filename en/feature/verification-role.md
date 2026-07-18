@@ -2,7 +2,7 @@
 title: Verification Role
 description: Discord verification system with Cakey Bot - Prevent raids, verify new members, security gates. Anti-spam setup guide.
 published: 1
-date: 2025-11-01T06:20:21.087Z
+date: 2026-07-18T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:54.369Z
@@ -81,10 +81,10 @@ In order to customize the text shown on the "Verify" button, simply login to the
 > Note: Setting a custom button text is NOT required. If none is set, Cakey Bot will use the default "Verify" text.
 {.is-info}
 
-## Set a Custom Embed URL
+## Set a Custom Verification Embed
 <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Custom Bot Only</span>
 
-Whitelabel/Custom Bot servers can use our custom embed editor to design a fully custom verification embed, then paste the generated **Embed URL** into the "Embed URL" text field on the web dashboard's "Verification Role" page. This overrides the default verification embed with your custom design.
+Whitelabel/Custom Bot servers can use the [Embed Editor](/en/feature/embed-editor) to design a fully custom verification embed, save it, then select it from the **Custom Embed** dropdown on the web dashboard's "Verification Role" page. This overrides the default verification embed with your custom design.
 
 ## Set a Custom Password
 In order to set a custom password, simply login to the [web dashboard](https://cakey.bot/dashboard) and navigate to the "Verification Role" page. Once there, you should see a text box labeled "Custom Password". You can set any password you want up to 255 characters. Passwords are not currently case sensitive.

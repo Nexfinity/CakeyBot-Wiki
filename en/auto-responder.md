@@ -2,7 +2,7 @@
 title: Auto Responder
 description: Custom Discord commands with Cakey Bot - Trigger responses, use placeholders, create complex automations. Setup guide included.
 published: 1
-date: 2025-11-01T06:19:29.989Z
+date: 2026-07-18T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -81,9 +81,9 @@ To use images in responses, you can simply just type the image URL/link like you
 You can include an optional embed on responses by following the steps below:
 
 1. Follow the instructions at the top of this page to sign in to the dashboard.
-2. Use our custom embed editor to design your embed on the dashboard.
-3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
-4. Create an auto responder like you normally would and paste the URL you copied in the last step into the **Embed URL** text field.
+2. Open the [Embed Editor](/en/feature/embed-editor) and design your embed.
+3. Click **Save** (or **Save As New**) and give it a name.
+4. Create an auto responder like you normally would, then select your saved embed from the **Custom Embed** dropdown.
 
 > Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
 {.is-info}
@@ -146,4 +146,4 @@ The template CSV file and bulk exported CSVs will have a few different columns w
   * It must be less than 2,000 characters.
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
-  * The URL must start with `https://cakey.bot/dashboard/EmbedEditor?data=`
+  * This must be the numeric ID of an embed already saved for this server in the [Embed Editor](/en/feature/embed-editor) — you can find a saved embed's ID in the **Custom Embed** dropdown. Leave blank for no embed.

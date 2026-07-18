@@ -2,7 +2,7 @@
 title: Announcements
 description: Discord welcome messages with Cakey Bot - Greet members, assign roles, send DMs automatically. Custom welcome setup guide.
 published: 1
-date: 2025-11-01T06:19:59.303Z
+date: 2026-07-18T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:12.467Z
@@ -63,9 +63,9 @@ Our fancy image banner editor:
 You can include an optional embed on announcements by following the steps below:
 
 1. Login to the dashboard.
-2. Use our custom embed editor to design your embed.
-3. Copy your browser URL or click the "**Get Data Link**" button in the dropdown menu and copy the URL from there.
-4. Paste the URL you copied in the last step into the **Embed URL** text field.
+2. Open the [Embed Editor](/en/feature/embed-editor) and design your embed.
+3. Click **Save** (or **Save As New**) and give it a name.
+4. Select your saved embed from the **Custom Embed** dropdown on the Announcements page.
 
 > Custom embeds will work with all **Basic Placeholders**. You can find the list of supported placeholders [here](https://wiki.cakey.bot/en/placeholders). Custom embeds will **NOT** work with the **Advanced Placeholders**.
 {.is-info}

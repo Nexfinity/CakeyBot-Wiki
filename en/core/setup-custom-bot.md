@@ -107,12 +107,16 @@ You can individually disable the following commands/features for your custom bot
 
 ## Chat Bot AI Key
 The custom Chat Bot AI API key is **OpenAI-specific only**. It must be a valid OpenAI-format API key, and the model used is restricted to one of the following:
-* gpt-3.5-turbo
-* gpt-3.5-turbo-1106
-* gpt-4-turbo-preview
 * gpt-4
 * gpt-4o
 * gpt-4.1
+* gpt-5.4
+* gpt-5.4-mini
+* gpt-5.4-nano
+* gpt-5.5
+* gpt-5.6-sol
+* gpt-5.6-terra
+* gpt-5.6-luna
 
 ## Settings Presets
 You can save up to **3 settings presets** of your custom bot configuration. Once saved, presets can be:

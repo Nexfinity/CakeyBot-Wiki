@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:16:34.016Z
 
 # Overview
 
-> Cakey Bot's chat bot makes use of OpenAI's ChatGPT-3.5-turbo, meaning that every single message and response costs us money. As such, the AI chat bot requests will be locked behind premium. (Excluding trial limits for non-premium servers)
+> Cakey Bot's chat bot makes use of OpenAI's ChatGPT models, meaning that every single message and response costs us money. As such, the AI chat bot requests will be locked behind premium. (Excluding trial limits for non-premium servers)
 {.is-warning}
 
 Cakey Bot has a built-in AI chatbot that can generate semi-realistic conversations and responses to various questions and prompts. To interact with the AI you must directly ping/mention Cakey Bot then include your question/message after that mention. Cakey bot will then generate a response and reply to you.

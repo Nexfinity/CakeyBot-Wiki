@@ -2,10 +2,10 @@
 title: Embed Editor
 description: Design and save custom Discord embeds with Cakey Bot - Build rich embeds visually and reuse them across Auto Responder, Auto Messages, Announcements, and Verification.
 published: 1
-date: 2026-07-18T00:00:00.000Z
+date: 2026-07-19T00:04:50.164Z
 tags: 
 editor: markdown
-dateCreated: 2026-07-18T00:00:00.000Z
+dateCreated: 2026-07-19T00:03:28.448Z
 ---
 
 # Overview
@@ -49,7 +49,7 @@ Once an embed is saved, it appears in the **Custom Embed** dropdown on any page 
 * [Auto Responder](/en/auto-responder#custom-embeds)
 * [Auto Messages](/en/feature/auto-messages#custom-embeds)
 * [Announcements](/en/feature/announcements#custom-embeds)
-* [Verification](/en/feature/verification-role#set-a-custom-verification-embed) _(Whitelabel/Custom Bot servers only)_
+* [Verification](/en/feature/verification-role#set-a-custom-verification-embed) _(Custom Bot servers only)_
 
 Just select it from the dropdown — no more copying and pasting a URL.
 

@@ -41,7 +41,7 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 > A Max Song Length of `-1` means unlimited song length.
 {.is-info}
 
-> The `/volume` command accepts a range of **1-200%**, separate from the Default Volume setting above (which controls the dashboard's 0-100 initial playback volume).
+> The `/volume` command's `volume` parameter accepts a range of **1-200%** and only changes the volume of the current playback session. To update the persistent Default Volume setting above instead, use the command's separate `default-volume` parameter (**0-100**, matching the dashboard's range) — this can be set with or without also changing the live `volume`, and doesn't require a song to be currently playing.
 {.is-info}
 
 > The `/play` command's queue is capped at **50 songs** for non-Premium servers.
@@ -81,4 +81,4 @@ Usage Key: `<required>` / `[optional]`
 | /seek           | Seeks to a specific position or moves forward/backward in the current song.               | \<time>                           | None                 |
 | /shuffle        | Shuffles the current song queue randomly.                  | N/A                              | None                 |
 | /skip           | Votes to skip the current song.                            | [count]                          | None                 |
-| /volume         | Changes the bot's volume. (1-200%)                          | \<volume>                         | None                 |
+| /volume         | Changes the bot's volume. (1-200%)                          | [volume] [default-volume]         | None                 |

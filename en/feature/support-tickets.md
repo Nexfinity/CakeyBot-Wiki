@@ -81,6 +81,11 @@ Defaults to disabled. When enabled, this will send attempt to send a DM to the u
 > **Note:** Sometimes users have DMs blocked or Discord will fail to send the DM. There is nothing Cakey Bot can do about this!
 {.is-warning}
 
+## Auto Delete Tickets On Close
+Defaults to disabled. When enabled, the ticket channel will automatically be deleted a few seconds after it's closed, so staff don't need to click the "Delete" option manually.
+> If **Auto Save Transcripts** is also enabled, the transcript is always fully generated and saved before the channel is deleted — enabling this setting will never cause you to lose ticket history.
+{.is-info}
+
 ## Disable Transcript Mentions
 Toggles whether transcript channel logs will mention users/roles.
 

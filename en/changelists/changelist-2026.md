@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-19T00:27:38.414Z
+date: 2026-07-19T16:37:06.354Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 19th - Direct Embed Sending
+## Added
+* Added the ability to directly send custom embeds to channels/webhooks instead of requiring the user of auto responder triggers using the new embed editor experience.
 
 # July 18th - Embed Editor Saving/Loading Support
 ## Added

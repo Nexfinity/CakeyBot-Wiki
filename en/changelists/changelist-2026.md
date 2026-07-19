@@ -2,11 +2,20 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-12T23:51:29.534Z
+date: 2026-07-19T00:26:58.793Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 18th - Embed Editor Saving/Loading Support
+## Added
+* Added the ability to save/load your custom embeds directly in the editor!
+  * Additionally, you can now select which embed to use from a dropdown menu instead of dealing with long convoluted copy/paste data strings/urls.
+
+# July 17th - Auto Responder Placeholder Syntax Highlighting
+## Added
+* Added placeholder syntax highlighting for Auto Responders. 
 
 # July 12th - Perceptual Hashing Checks
 ## Added

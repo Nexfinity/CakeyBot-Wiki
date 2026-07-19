@@ -2,7 +2,7 @@
 title: Auto Messages
 description: Schedule Discord messages with Cakey Bot - Timed announcements, recurring posts, auto content. Automated messaging setup guide.
 published: 1
-date: 2026-07-18T00:00:00.000Z
+date: 2026-07-19T12:15:33.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-24T04:16:57.525Z
@@ -27,7 +27,7 @@ The auto message feature allows server owners to schedule recurring messages tha
 3. Go to the "Auto Messages" page.
 4. You can then create, delete, and edit any messages on this page.
 
-> Auto Messages will send every day at the specified time by default, or you can configure a specific day of the week for the message to send instead. The time will be absed on the "Timezone" that you configure for your server on the "Bot Settings" page.
+> Auto Messages will send every day at the specified time by default, or you can configure a specific day of the week for the message to send instead. The time will be based on the "Timezone" that you configure for your server on the "Bot Settings" page.
 {.is-info}
 
 # Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>

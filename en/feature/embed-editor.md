@@ -42,6 +42,18 @@ Use the dropdown at any time to switch to a different saved embed and load it ba
 > Servers are limited to **100 saved embeds** total, and each person is separately limited to **100 saved embeds** per server. A single save can contain at most **10 embeds**. Exact duplicate saves (identical embed content) are blocked.
 {.is-info}
 
+# Sending Your Embed Directly
+
+If you just want to post the embed right now rather than attaching it to a saved embed elsewhere, click **Send Embed** in the Saved Embeds panel. This sends whatever is currently in the editor — you don't need to save it first.
+
+A window will open letting you choose how to send it:
+
+* **Channel** — Pick a channel from the dropdown and the bot will post the embed there. The bot needs **View Channel**, **Send Messages**, and **Embed Links** permissions in that channel — if it's missing any of them, you'll be told which one.
+* **Webhook URL** — Toggle "Send to a webhook URL instead" to post the embed through a Discord webhook rather than the bot. Paste in the webhook's URL and the embed is sent as that webhook, without needing the bot to have any permissions in the destination channel.
+
+> Sending an embed posts it immediately — there's no preview step after you hit Send. Double check the embed and destination first.
+{.is-warning}
+
 # Using a Saved Embed Elsewhere
 
 Once an embed is saved, it appears in the **Custom Embed** dropdown on any page that supports custom embeds:

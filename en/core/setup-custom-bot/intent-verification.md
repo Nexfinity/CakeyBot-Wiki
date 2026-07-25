@@ -2,7 +2,7 @@
 title: Custom Bot Intent Verification
 description: A short guide to help you answer the privileged intent verification application for custom bots.
 published: 1
-date: 2026-06-27T12:52:13.792Z
+date: 2026-07-25T12:19:51.116Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-11T22:04:47.406Z
@@ -108,15 +108,17 @@ Select **No**
 Select **No**
 ### Why do you need the Message Content intent?
 ```
-Auto Quoter/Git Preview - Allows users to paste a message link or github/gitlab url and Cakey Bot will embed a preveiw in the chat. (Has anti abuse limitations for message quoter to prevent sharing in external servers)
-Auto Moderation/Anti-Raid - Cakey Bot monitors chats and messages for content that violations a server's word blacklist, malicious links, files or other relaterd spam or malicious content.
+NOTE: WE DO NOT USE TEXT/PREFIX BASED COMMANDS. ONLY SLASH COMMANDS.
+Auto Quoter - Allows users to paste a message link and Cakey Bot will embed a preveiw in the chat. (Has anti abuse limitations for message quoter to prevent sharing in external servers)
+Auto Moderation/Anti-Raid - Cakey Bot monitors chats and messages for content that violations a server's word blacklist, malicious links, files or other relaterd spam or malicious content. Including Cross-user exact & fuzzy message-content duplication detection (raid/bot-flood signature), mass user-mention regex count.
+Anti-Phishing - Downloads image attachments and perceptually hashes them against known phishing images.
+Code Block Reminder - Pattern-matches full message text against ~15 language heuristics to detect un-fenced code.
+Git Preveiwer - Regex match for GitHub/GitLab/Codeberg URLs pasted in chat
 Honeypot/Anti-Phishing - Allows Cakey Bot to monitor for phishing content to delete it (i.e. MrBeast scam images)
-Auto Responder/Custom Commands - Let's server setup custom responses/triggers based on message content
-AI Chat Bot (opt-in) - Allows users to opt-in to use Cakey Bot's AI Chat Bot feature. Allow scope to a specific channel and perserves a temporary 2 message history that gets purged automatically.
+Auto Responder - Let's server setup custom responses/triggers based on message content
 Category Content Restrictions - Auto Mod feature that monitors message/file content in specific channels to enforce specific rule-sets (such as GIF-only channels or Spotify only links)
 Emoji Stats - Cakey Bot reads messages for emojis and saves an incrementing count of emoji usage. (Does not store message/userids, only emoji+count)
-Leveling/XP - Cakey bot monitors messages to allow users to earn XP for different types. Message content is required to give varying amounts of XP based on message type and for anti-abuse/spam purposes.
-Role Mention cooldowns - Cakey bot can monitor messages that ping specific roles and disable role mentions for specified cooldown amount to prevent spam abuse.
+Leveling/XP - Detects ContentType prefix image/ or video/ on attachments to award media-XP bonuses. Message content is required to give varying amounts of XP based on message type and for anti-abuse/spam purposes.
 Starboard - Ability for users to react and pin message content to a dedicated channel.
 ```
 ### Please provide links to screenshots and/or videos that demonstrate your use case

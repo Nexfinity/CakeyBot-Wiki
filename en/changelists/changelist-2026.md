@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-26T20:33:25.623Z
+date: 2026-07-26T21:38:39.306Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -14,6 +14,9 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added new `/birthday list` command.
 * Birthday related commands now display the year, if the user provided one.
 * Auto Mod audit logs now have localized footer timestamps & user ID information similar to other audit logs.
+* Added new forum auto unarchive feature.
+* Added custom message support for social feed announcements.
+* Added temp-ban support for auto ban triggers in auto mod.
 
 # July 19th - Direct Embed Sending
 ## Fixed

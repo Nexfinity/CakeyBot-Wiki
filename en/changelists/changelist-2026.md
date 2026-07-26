@@ -2,11 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-19T21:51:11.118Z
+date: 2026-07-26T20:33:25.623Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 26th - Counting Channel
+## Added
+* Added new counting channel feature.
+* Added new `/birthday list` command.
+* Birthday related commands now display the year, if the user provided one.
+* Auto Mod audit logs now have localized footer timestamps & user ID information similar to other audit logs.
 
 # July 19th - Direct Embed Sending
 ## Fixed

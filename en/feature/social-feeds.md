@@ -2,7 +2,7 @@
 title: Social Feeds
 description: Social media feeds with Cakey Bot - Twitch, YouTube, Reddit, RSS integration. Automated content sharing setup guide.
 published: 1
-date: 2025-11-01T06:20:09.617Z
+date: 2026-07-26T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:18:44.517Z
@@ -30,6 +30,26 @@ Cakey Bot has the ability to send live updates and notifications to specific cha
 6. Click "Create"
 
 > **Note:** It can take _up to_ 5 minutes for modifications/additions to sync with the bot. After that, most feeds will search for new content/events every 10 seconds to 1 minute depending on the feed type and rate limits.
+{.is-info}
+
+# Custom Messages
+Every feed type (Twitch, YouTube, Reddit, and RSS) supports an optional **Custom Message**, configurable per-feed on the [web dashboard](https://cakey.bot/dashboard). When set, this text is sent as the actual message content alongside the notification embed — not baked into the embed itself — so it's the right place to put an `@everyone` or role mention if you want one included in the message text itself (in addition to, or instead of, the feed's normal role ping setting).
+
+> If a feed has both a role ping **and** a Custom Message configured, the role ping is sent first, immediately followed by your custom message text.
+{.is-info}
+
+Custom Messages support placeholder tokens that get replaced with real values from the notification. Supported tokens differ per feed type:
+
+| Feed Type | Supported Tokens |
+| :--- | :--- |
+| Twitch | `{link}`, `{streamer}`, `{title}`, `{game}` |
+| YouTube | `{link}`, `{channel}` |
+| Reddit | `{link}`, `{subreddit}`, `{title}` |
+| RSS | `{link}`, `{title}` |
+
+Example (Twitch): `@everyone {streamer} just went live playing {game}! {link}`
+
+> Custom Messages are limited to 2,000 characters, matching Discord's own message length limit.
 {.is-info}
 
 # Previews

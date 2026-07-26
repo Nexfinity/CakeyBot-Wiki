@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: Discord auto moderation bot - Spam filters, raid protection, content blocking with Cakey Bot. Complete security setup guide.
 published: 1
-date: 2025-11-01T06:20:30.792Z
+date: 2026-07-26T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -105,3 +105,12 @@ You can automatically kick or ban users when they join if they meet any of the c
 * No Avatar
 
 You can even set a threshold for how old the user's account must be before the 'New Accounts' detection gets triggered.
+
+## Ban Duration
+By default, each of the five auto-ban rules above (Numeric Only Usernames, Invite in Username, Unverified Bots, New Accounts, No Avatar) issues a **permanent** ban. On the [web dashboard](https://cakey.bot/dashboard), you can optionally set a **duration** for each rule individually — once set, that specific rule will issue a temporary ban instead, and the user will be automatically unbanned once the duration passes.
+
+> Leaving a rule's duration blank (or setting it to 0) keeps that rule's ban permanent. Setting a duration only affects that one rule — the other four can independently stay permanent or have their own separate durations.
+{.is-info}
+
+> The maximum allowed duration is **30 days**. Longer values are automatically capped to this maximum.
+{.is-warning}

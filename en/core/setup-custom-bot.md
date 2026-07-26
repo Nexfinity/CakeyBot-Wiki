@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - White-label, custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2026-06-21T18:46:03.659Z
+date: 2026-07-23T15:08:07.518Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -153,7 +153,7 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
  **A:** Please verify you enabled the correct intents when creating the bot on Discord's developer dashboard.
   
 **Q:** How many servers can I invite the custom bot to?
- **A:** Currently, unlimited. This may change in the future if users abuse the capability however.
+ **A:** Up to 10.
   
 **Q:** Will my settings persist from the main Cakey Bot or will I need to set them up again?
  **A:** Yes, The main bot and custom bot will share the same settings for a given server. No additional setup or copying is required.

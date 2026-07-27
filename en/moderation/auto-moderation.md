@@ -85,6 +85,7 @@ You can view a list of category channels you can configure below:
 * Videos Only
 * Images Only
 * GIFs Only
+* Media Only (Images, Videos & GIFs combined, including video links like YouTube)
 * Files Only
 * Emotes & Stickers Only
 * Counting Only

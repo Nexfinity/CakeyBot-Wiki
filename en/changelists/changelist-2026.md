@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-26T21:38:39.306Z
+date: 2026-07-27T09:48:28.344Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 27th - Media Category Channel
+## Added
+* Added new category channel type for combined media content.
 
 # July 26th - Counting Channel
 ## Added

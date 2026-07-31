@@ -48,6 +48,38 @@ Controls what happens when someone posts a wrong count.
 ## Fail Role
 An optional role that Cakey Bot automatically gives to whoever breaks the count.
 
+### Fail Role Duration
+An optional amount of time (in minutes) the fail role stays assigned before Cakey Bot automatically removes it again.
+
+* Leave this empty or set it to `0` to make the fail role assignment **permanent** - it will not be removed automatically.
+* Otherwise, Cakey Bot removes the role after the configured number of minutes elapses, up to a maximum of `43200` minutes (30 days).
+
+## Ignored Roles
+An optional list of roles (you can select more than one) that fully exclude members from the counting game. A member is ignored if they hold **any** of the configured roles.
+
+Members with an Ignored Role:
+* Cannot contribute a valid count - even if they post the correct next number, it will not be accepted.
+* Cannot break/reset the count by posting invalid text.
+* Have any message they send in the counting channel **silently deleted** instead. There's no reply, reaction, or streak reset - the message is simply removed as if it never happened.
+
+This is useful for excluding moderators, bots, or other accounts that regularly post in the counting channel from affecting the game.
+
+## Custom Failure Message & Embed
+By default, Cakey Bot replies with a built-in failure message when someone breaks the count. You can override this with your own text and/or embed instead.
+
+* **Custom Failure Message** - Plain text sent instead of the default failure message. Supports the same [placeholders](https://wiki.cakey.bot/en/placeholders) used elsewhere on the dashboard (e.g. `{user.mention}`, `{server.name}`).
+* **Custom Failure Embed** - A saved embed (built with the dashboard's embed editor) sent instead of the default failure message.
+  > Custom Failure Embed is a **premium** feature. Non-premium servers can still set a custom plain-text message, but the embed picker is disabled.
+  {.is-warning}
+
+If both are left empty, Cakey Bot falls back to its default failure message. If a Custom Failure Embed was previously set but your server's premium subscription has since ended, Cakey Bot falls back to the Custom Failure Message (or the default message if that's empty too) until premium is restored.
+
+## Reset Current Count
+A "Reset Count" button on the dashboard immediately resets the current count back to `0` - the same reset that happens when someone breaks the count - without needing anyone to actually post an invalid message in Discord.
+
+> This only resets the current count and current counter. The all-time highest streak is never affected.
+{.is-info}
+
 # How It Works
 When a member posts a correct count, Cakey Bot reacts to their message with ✅.
 

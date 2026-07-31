@@ -2,11 +2,21 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-27T09:48:28.344Z
+date: 2026-07-31T23:33:42.422Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# July 31st - New Counting Settings
+## Fixed
+* Fixed an issue where Discord's new native GIFs (klippy), were being incorrectly deleted within GIF-only category channels.
+
+## Added
+* Added the ability to have the Counting Channel fail role be applied temporarily instead of permanent.
+* Added the ability to set ignored roles for Counting channel. (Will not contribute or reset the count)
+* Added a button to force reset the current count.
+* Added the ability to set a custom message/embed for the counting failure message.
 
 # July 27th - Media Category Channel
 ## Added

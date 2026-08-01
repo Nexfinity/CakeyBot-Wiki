@@ -1,6 +1,6 @@
 ---
 title: Leveling
-description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6. Complete setup with formulas and examples.
+description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
 date: 2026-06-06T23:22:40.758Z
 tags: 
@@ -17,9 +17,18 @@ The Leveling & XP System in Cakey Bot provides a comprehensive user progression 
 # Importing/Exporting Leveling Data
 ## Importing
 Cakey Bot makes it extremely easy to import your data from external/third-party bots! Currently we have support to automatically import data from these bots:
-* [MEE6](https://mee6.xyz/)
+* [MEE6](https://mee6.xyz/) - imported automatically, no file needed.
+* [Lurkr](https://lurkr.gg/) - requires attaching an exported levels JSON file (see below).
 
-In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
+In order to automatically import the leveling data make sure you have `Manage Server` or `Administrator` permissions and then run the `/setup import-levels` command, choosing the bot you're migrating from. Keep in mind it may take a few mintues to run if your server has a lot of users/data to export!
+
+### Importing from Lurkr
+Unlike MEE6, Lurkr doesn't have a public leaderboard API Cakey Bot can pull from directly - you'll need to export your server's level data from Lurkr's dashboard first:
+1. Open your server's Lurkr dashboard and export the levels leaderboard as a JSON file.
+2. Run `/setup import-levels` and select `Lurkr` as the bot.
+3. Attach the exported JSON file to the `file` option of the command.
+
+Cakey Bot will read the attached file directly, so nothing is fetched from Lurkr automatically for this import.
 
 > Note that importing data will **WIPE** all existing leveling data for your server. This process can not be reversed so be sure before you run the command.
 {.is-danger}
@@ -246,6 +255,6 @@ Usage Key: `<required>` / `[optional]`
 | /leveling spawn-xp-drop          | Manually spawn an XP drop in a channel.                                  | [min-xp] [max-xp] [channel]                | ManageServer           |
 | /rank                            | Get your rank or another user's rank.                                    | [user]                                     | None                   |
 | /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                             | N/A                                        | ManageServer or Administrator |
-| /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | N/A               | ManageServer or Administrator |
+| /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | \<bot> [file]      | ManageServer or Administrator |
 | /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                                 | ManageServer or Administrator |
 | /setup reset-levels-missing      | Reset the levels/xp for users who have left the server.                  | \<confirm>                                 | ManageServer or Administrator |

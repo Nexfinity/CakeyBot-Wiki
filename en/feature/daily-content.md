@@ -62,3 +62,9 @@ Each content category has its own individual output channel and optional role-pi
 {.is-warning}
 
 This daily content type allows you to specify a custom list of text or images for the bot to send. The list is separated by semicolons (`;`) and is limited to 65,000 characters. You can also set a Custom Title, which is limited to 255 characters.
+
+## Remove Once Posted
+The Custom Content card has a **Remove Once Posted** toggle. When enabled, each item is removed from your list immediately after it's posted, so the same item can never be sent again - this prevents duplicate posts if you're cycling through a fixed set of content.
+
+> This is irreversible. Once an item is removed it cannot be restored, so make sure you keep a saved copy of your list elsewhere before enabling this toggle.
+{.is-danger}

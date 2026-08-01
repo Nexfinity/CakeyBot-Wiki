@@ -2,11 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-07-31T23:33:42.422Z
+date: 2026-08-01T21:55:31.654Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 1st - Lurkr Importing
+## Fixed
+* Implemented a TON of misc. bug & performance fixes.
+
+## Added
+* Added support to import Lurkr levels with the `/setup import-levels` command.
 
 # July 31st - New Counting Settings
 ## Fixed

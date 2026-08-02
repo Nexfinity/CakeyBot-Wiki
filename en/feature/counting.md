@@ -1,6 +1,6 @@
 ---
 title: Counting
-description: Discord counting game with Cakey Bot - group counting channel, strict or equation mode, streak tracking. Community engagement guide.
+description: Discord counting game with Cakey Bot - group counting channel, exact number, equation, or equation-only mode, streak tracking. Community engagement guide.
 published: 1
 date: 2026-07-26T00:00:00.000Z
 tags: 
@@ -27,8 +27,12 @@ The single channel where the counting game is active. Only messages sent in this
 ## Mode
 Controls what counts as a valid next number.
 
-* **Strict** - The next message must be exactly the next number. For example, after `3` is posted, the next message must be `4`.
-* **Equation** - The next message can be any valid math expression that evaluates to the next number. For example, after `3` is posted, someone could post `2*2` for `4`.
+* **Exact Number Only** - The next message must be exactly the next number, written as a plain number. For example, after `3` is posted, the next message must be `4` - an equation like `2*2` is **not** accepted.
+* **Exact OR Equation** - The next message can be either a plain number or a math equation that evaluates to the next number. For example, after `3` is posted, someone could post either `4` or `2*2`.
+* **Equation Only** - The next message must be a math equation that evaluates to the next number - a bare number by itself is **not** accepted, even if it's correct. For example, after `3` is posted, `2*2` is accepted but `4` on its own is not.
+
+> In **Exact OR Equation** and **Equation Only** modes, the letter `x`/`X` is automatically treated as a multiplication sign, since that's common informal notation. Posting `2x2` is treated the same as `2*2` - it won't be rejected as a wrong answer.
+{.is-info}
 
 ## Prevent Consecutive Counting
 > Enabled by default.

@@ -2,10 +2,10 @@
 title: Counting
 description: Discord counting game with Cakey Bot - group counting channel, exact number, equation, or equation-only mode, streak tracking. Community engagement guide.
 published: 1
-date: 2026-07-26T00:00:00.000Z
+date: 2026-08-02T13:57:51.943Z
 tags: 
 editor: markdown
-dateCreated: 2026-07-26T00:00:00.000Z
+dateCreated: 2026-07-26T19:43:10.813Z
 ---
 
 # Overview
@@ -35,15 +35,9 @@ Controls what counts as a valid next number.
 {.is-info}
 
 ## Prevent Consecutive Counting
-> Enabled by default.
-{.is-info}
-
 When enabled, the same person can't post two counts in a row - someone else has to post the next number before that person can count again.
 
 ## Reset on Mistake
-> Enabled by default.
-{.is-info}
-
 Controls what happens when someone posts a wrong count.
 
 * **Enabled** - A wrong count resets the game back to `1`.

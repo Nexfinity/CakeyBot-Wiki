@@ -18,7 +18,7 @@ The birthday announcement channel is where all of the birthday announcements wil
 {.is-info}
 
 ## Setting your birthday
-You can set your own birthday by running the `/birthday set <month> <day> [year]` command. `month` is selected from a dropdown and `day` must be between 1 and 31. You can also change or update your birthday by running this command again with the updated date.
+You can set your own birthday by running the `/birthday set <month> <day> [year] [timezone]` command. `month` is selected from a dropdown and `day` must be between 1 and 31. You can also change or update your birthday by running this command again with the updated date.
 
 The command replies ephemerally with a confirmation, for example:
 > Successfully set @user's birthday to: `Jan 5th`
@@ -28,6 +28,17 @@ The command replies ephemerally with a confirmation, for example:
 {.is-info}
 
 > The `year` parameter is completely optional — leave it out if you don't want to share it. If provided, it must be between **1900 and 2100**. Year is only ever shown back to you if you actually supplied one, for example `Jan 5th, 1995`.
+{.is-info}
+
+## Setting a personal timezone for your birthday
+By default, Cakey Bot checks whether it's your birthday using the server's configured timezone (set on the **Bot Settings** page of the [web dashboard](https://cakey.bot/dashboard)). If you live in a different timezone than the rest of the server, this can cause your birthday to be announced a day early or late.
+
+You can override this for your own birthday by passing the optional `timezone` parameter to `/birthday set`, using an IANA timezone identifier such as `America/New_York`, `Europe/London`, or `Asia/Tokyo`.
+
+> If you update your birthday date without passing `timezone` again, your previously-set timezone is kept - you don't need to resupply it every time.
+{.is-info}
+
+> A server admin can also view and update (or clear back to the server default) a member's birthday timezone from the birthday page of the [web dashboard](https://cakey.bot/dashboard).
 {.is-info}
 
 ## View a user's birthday
@@ -97,7 +108,7 @@ Usage Key: `<required>` / `[optional]`
 | /birthday next                    | View any upcoming birthdays.                                        | [limit]                              | None                      |
 | /birthday remove                  | Remove your birthday. (Or another user's birthday)                  | [user]                               | None (Manage Server required to remove another user's birthday) |
 | /birthday role                    | Sets or updates the birthday auto role.                             | \<role>                              | ManageServer or Administrator |
-| /birthday set                     | Sets or updates your birthday. (Or, if a moderator, another user's) | \<month> \<day> [year] [user]        | None (Manage Server required to set another user's birthday) |
+| /birthday set                     | Sets or updates your birthday. (Or, if a moderator, another user's) | \<month> \<day> [year] [timezone] [user] | None (Manage Server required to set another user's birthday) |
 | /birthday view                    | View a user's birthday. (If they have one set)                      | \<user>                              | None                      |
 | /setup clear-all-birthdays        | Remove ALL birthdays for the server.                                | \<confirm>                           | ManageServer or Administrator |
 | /setup clear-missing-birthdays    | Remove birthdays for users who have left the server.                | \<confirm>                           | ManageServer or Administrator |

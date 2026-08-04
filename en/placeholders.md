@@ -151,38 +151,6 @@ dateCreated: 2022-10-18T08:00:48.805Z
 > These require Cakey Bot to have "Manage Message" permissions.
 {.is-info}
 
-## Require
-
-`{require:&role}` - Set the required role to use the command. Replace "**role**" with the role ID.\
-`{require:#channel}` - Set the required channel that the command can be run in. Replace "**channel**" with the channel ID.\
-`{require:@user}` - Set the specific user who can use this command. Replace "**user**" with the user ID.
-
-Examples:
-
-```asciidoc
-{require:&237273200055156736}    //Specific role ID
-
-{require:#225182513465786369}    //Specific channel ID
-
-{require:@225182513465786369}    //Specific user ID
-```
-
-## Not
-
-`{not:&role}` - Blacklist a specific role from using the command. Replace "**role**" with the role ID.\
-`{not:#channel}` - Blacklist the command from being run in a specific channel. Replace "**channe**l" with the channel ID.\
-`{not:@user}` - Blacklist a specific user from using the command. Replace "**user**" with the user ID.
-
-Examples:
-
-```asciidoc
-{not:&237273200055156736}    //Specific role ID
-
-{not:#225182513465786369}    //Specific channel ID
-
-{not:@225182513465786369}    //Specific user ID
-```
-
 ## Add Tag/Remove Tag on Forums/Threads
 > These placeholders will only trigger for the initial post on a new thread. Existing threads will be unaffected.
 {.is-warning}

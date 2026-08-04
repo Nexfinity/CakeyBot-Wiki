@@ -55,6 +55,28 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 > **Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
 {.is-warning}
 
+# Permissions
+
+Every auto responder has an optional, collapsed-by-default **Permissions** section in its create/edit/clone form on the web dashboard. Use it to restrict who can trigger a response and where, without needing to write anything into the response text itself.
+
+| Selector | Effect |
+| :------- | :----- |
+| Required Roles | The member must hold **any** of the selected roles to trigger this response. |
+| Excluded Roles | A member holding **any** of the selected roles is blocked from triggering this response. |
+| Required Channels | The response can only trigger in one of the selected channels. |
+| Excluded Channels | The response is blocked in the selected channels. |
+| Required Users | Only the selected users can trigger this response. |
+| Excluded Users | The selected users are blocked from triggering this response. |
+
+> Leave a selector empty to skip that restriction entirely. All six selectors are independent — you can combine, for example, a Required Role with an Excluded Channel on the same response.
+{.is-info}
+
+> Required and Excluded checks for the **same category** (e.g. Required Roles + Excluded Roles) are both evaluated — a member could technically satisfy a Required Role while also holding an Excluded Role, in which case the exclusion still blocks the response.
+{.is-info}
+
+> This replaces the old `{require:}`/`{not:}` text placeholders. Those are no longer supported — any existing auto responders using them were migrated to the new Permissions selectors automatically.
+{.is-warning}
+
 # Limitations/Restrictions
 
 * You can't have duplicate tags with the same name
@@ -147,3 +169,8 @@ The template CSV file and bulk exported CSVs will have a few different columns w
 * Embed
   * This is an optional field for responses that use a Cakey Bot [custom embed](#custom-embeds). Embeds can only be used by Premium Servers regardless if a value is set here or not.
   * This must be the numeric ID of an embed already saved for this server in the [Embed Editor](/en/feature/embed-editor) — you can find a saved embed's ID in the **Custom Embed** dropdown. Leave blank for no embed.
+* RequiredRoles / ExcludedRoles / RequiredChannels / ExcludedChannels / RequiredUsers / ExcludedUsers
+  * These are all optional and correspond directly to the [Permissions](#permissions) selectors.
+  * Each field accepts a semicolon-separated (`;`) list of Discord role, channel, or user IDs (matching the relevant field). Leave a field blank to skip that restriction.
+  * Example: `237273200055156736;225182513465786369` sets two required/excluded roles at once.
+  * Older CSV files exported before the Permissions feature existed can still be imported — these columns will simply be treated as blank (no restrictions).

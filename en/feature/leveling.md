@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-06-06T23:22:40.758Z
+date: 2026-08-05T09:48:58.346Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -144,14 +144,11 @@ In addition to level-based Role Rewards, you can automatically grant roles to wh
 
 You can configure a role for each of the 10 positions independently on the dashboard. Leaving a position set to "None" means no role is granted for that position.
 
-> Note: Just like Role Rewards, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions.
+> Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
 > If multiple users are tied in XP, they ALL receive the role for the better (lower-numbered) position. For example, if two users are tied for what would be #2 and #3, both receive the role configured for position #2, and the role for position #3 is not granted to anyone that cycle.
 {.is-info}
-
-> This is a Premium-only feature due to the continuous background processing required to keep roles in sync. If Premium is removed from your server, any previously granted leaderboard roles will automatically be revoked.
-{.is-warning}
 
 # Role & Channel XP Multipliers
 You can set up to 5 different multipliers of each type (Or up to 10 with a premium susbcription). Role and Channel multipliers are counted separately. If a user qualifies one (or more) of these multipliers, all of their received XP will be multiplied by the largest multiplier they have. Role and Channel XP multipliers will NOT stack with other multipliers of the same type if a user qualifies for multiple (Role multipliers WILL stack with a Channel multiplier though). They WILL also stack with other multipliers such as  double XP days.

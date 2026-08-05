@@ -2,11 +2,23 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-01T23:39:56.254Z
+date: 2026-08-05T11:23:42.471Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 5th - Leveling Position Roles
+## Added
+* Added the ability to assign unique roles to users in the top 10 leveling positions.
+
+# August 4th - Auto Responder Permission QOL
+## Added
+* Added the ability to configure required and ignored roles, users and channels for Auto Responders directly in the UI with select menus instead of manually typed placeholders and IDs.
+
+# August 3rd - Birthday Timezones
+## Added
+* Added the ability for users to set per-user timezones for their birthday announcement overridding the guild timezone.
 
 # August 1st - Lurkr Importing
 ## Fixed

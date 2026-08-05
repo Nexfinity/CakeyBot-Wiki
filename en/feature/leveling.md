@@ -139,6 +139,20 @@ You can set up to 10 different role rewards (Or up to 20 with a premium susbcrip
 > Note: In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions. In addition, if these roles gain this permission after being set, the bot will no longer assign them.
 {.is-danger}
 
+# Leaderboard Roles <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+In addition to level-based Role Rewards, you can automatically grant roles to whoever currently holds a Top 10 leaderboard position (ranked by total XP). Unlike Role Rewards, these roles are re-evaluated on a recurring basis (roughly every 15-30 minutes) and follow whoever currently occupies each position - if someone is overtaken and drops out of a position (or out of the top 10 entirely), the bot automatically removes the role from them and grants it to whoever now holds that spot.
+
+You can configure a role for each of the 10 positions independently on the dashboard. Leaving a position set to "None" means no role is granted for that position.
+
+> Note: Just like Role Rewards, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions.
+{.is-danger}
+
+> If multiple users are tied in XP, they ALL receive the role for the better (lower-numbered) position. For example, if two users are tied for what would be #2 and #3, both receive the role configured for position #2, and the role for position #3 is not granted to anyone that cycle.
+{.is-info}
+
+> This is a Premium-only feature due to the continuous background processing required to keep roles in sync. If Premium is removed from your server, any previously granted leaderboard roles will automatically be revoked.
+{.is-warning}
+
 # Role & Channel XP Multipliers
 You can set up to 5 different multipliers of each type (Or up to 10 with a premium susbcription). Role and Channel multipliers are counted separately. If a user qualifies one (or more) of these multipliers, all of their received XP will be multiplied by the largest multiplier they have. Role and Channel XP multipliers will NOT stack with other multipliers of the same type if a user qualifies for multiple (Role multipliers WILL stack with a Channel multiplier though). They WILL also stack with other multipliers such as  double XP days.
 

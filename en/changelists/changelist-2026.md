@@ -2,13 +2,13 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-05T22:16:57.880Z
+date: 2026-08-05T22:17:11.917Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
-# August 5th - Leveling Position Roles
+# August 5th - Leveling Position Roles & Self Role Changes
 ## Fixed
 * Fixed fishing bait sometimes being consumed even when it wasn't the bait you had equipped for that cast. Each bait now only gets used up when it was actually selected and its effect applied.
 

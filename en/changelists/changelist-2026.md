@@ -2,14 +2,25 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-05T11:23:42.471Z
+date: 2026-08-05T22:16:57.880Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
 # August 5th - Leveling Position Roles
+## Fixed
+* Fixed fishing bait sometimes being consumed even when it wasn't the bait you had equipped for that cast. Each bait now only gets used up when it was actually selected and its effect applied.
+
+## Changed
+* Self roles are now created, edited, and deleted entirely from the dashboard instead of Discord commands. The `/selfrole addrole` and `/selfrole removerole` commands have been removed; `/selfrole use`, `/selfrole unuse`, `/selfrole list`, and `/selfrole embed` still work as before.
+
 ## Added
+* Added Self Role Groups, letting you make a set of self roles mutually exclusive.
+  * Unique groups let a user hold only one role from the group at a time; claiming a different role in the group automatically removes whichever one they held before.
+  * Multi-select groups let a user hold up to a configurable number of roles from the group at once, automatically removing their oldest-claimed role once they go over the limit.
+  * Groups can optionally require members to already have a specific role, or be a minimum leveling level, before they can claim any role from that group. If a required role is later deleted, claims from that group are blocked with a clear message until an admin sets a new one or removes the requirement.
+* Added full management for self roles and self role groups to the dashboard.
 * Added the ability to assign unique roles to users in the top 10 leveling positions.
 
 # August 4th - Auto Responder Permission QOL

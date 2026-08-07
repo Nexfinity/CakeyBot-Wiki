@@ -2,11 +2,19 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-07T00:05:52.643Z
+date: 2026-08-07T22:50:03.299Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 7th - Level-Up Message Conditional Placeholders
+## Added
+* Added conditional placeholder blocks to Level Up Messages, letting you show or hide part of a message based on the level a user just reached.
+  * `{#level.N}...{/level.N}` only shows its contents when the level reached is exactly N.
+  * `{^level.N}...{/level.N}` shows its contents when the level reached is NOT N.
+  * Blocks can be stacked independently for different levels, or nested to build a fallback message that only shows up when none of the listed levels matched.
+* Added syntax highlighting to the Level Up Message and Level Up Message (Role Reward) editors on the dashboard, matching the highlighting already used for AutoResponder placeholders.
 
 # August 6th - Suggestion Decisions
 ## Added

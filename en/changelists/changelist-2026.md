@@ -2,11 +2,22 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-05T22:17:11.917Z
+date: 2026-08-07T00:02:18.126Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 7th - Suggestion Decisions
+## Added
+* Added `/suggestion accept`, `/suggestion deny`, `/suggestion duplicate`, and `/suggestion review`, letting staff decide on a suggestion with an optional reason. The suggestion's embed updates to show the outcome (green/red/blue/yellow) and the reason, if one was given.
+  * Autocomplete is available for these commands, suggesting recent suggestions from the server's Suggestion Channel.
+  * Deciding requires the Administrator or Manage Server permission.
+* Added a Suggestions page to the dashboard showing every decision made for your server, with the ability to edit a decision after the fact.
+## Changed
+* `/suggestion` is now `/suggestion create` - the old bare `/suggestion` command has been replaced by the subcommand group above.
+* A Suggestion Channel must now be configured before members can create suggestions. The setting has moved off Bot Settings onto the new Suggestions page, which is now the only place to configure it.
+* The existing Approve/Deny buttons on suggestions now record their decision the same way the new commands do, so they also show up in the dashboard's decision history.
 
 # August 5th - Leveling Position Roles & Self Role Changes
 ## Fixed

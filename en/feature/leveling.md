@@ -110,6 +110,28 @@ You can also use a few placeholders in this message:
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
 
+### Conditional Level Blocks
+You can wrap part of your message in a conditional block so it only appears for specific levels:
+* `{#level.N}...{/level.N}` - Only shows the text between the tags if the level the user just reached is **exactly** `N`.
+* `{^level.N}...{/level.N}` - The inverse: only shows the text between the tags if the level the user just reached is **NOT** `N`.
+
+For example, this message shows a special line only on level 10:
+```
+Congratulations {user}! You have advanced to level {level}!{#level.10}You've unlocked double digits!{/level.10}
+```
+
+You can stack as many of these blocks as you want, and each one is evaluated independently:
+```
+{#level.10}You've unlocked double digits!{/level.10}{#level.25}Quarter century club!{/level.25}
+```
+
+Blocks can also be nested inside each other, as long as each closing `{/level.N}` matches the most recently opened tag with the same `N` (like nested brackets). This lets you build a "none of the above" fallback message that only shows up when none of the listed levels matched:
+```
+{^level.10}{^level.25}{^level.50}Keep going, you're doing great!{/level.50}{/level.25}{/level.10}
+```
+
+Text outside of any conditional block always shows up as normal, exactly like any other placeholder text.
+
 > Both the Announcement Message and the "Announcement Message When Role Is Awarded" message are capped at **2,000 characters**.
 {.is-info}
 

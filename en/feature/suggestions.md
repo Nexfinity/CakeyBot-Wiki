@@ -19,7 +19,7 @@ Suggestions let your members propose ideas and vote on them with a simple upvote
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to the "Suggestions" page and set the **Suggestion Channel** where new suggestions will be posted. This is required - `/suggestion create` won't work until it's set.
-3. Optionally, go to "Bot Settings" and set the **Suggestion Approved Channel** / **Suggestion Denied Channel** to forward a copy of accepted/denied suggestions there as well.
+3. On that same page, optionally set the **Suggestion Approved Channel** / **Suggestion Denied Channel** to forward a copy of accepted/denied suggestions there as well.
 
 # Creating a Suggestion
 

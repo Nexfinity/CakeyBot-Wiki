@@ -2,11 +2,18 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-07T22:50:03.299Z
+date: 2026-08-11T23:31:10.126Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 11th - New Achievement Trigger
+## Fixed
+* Fixed an issue that could cause some achievements to re-trigger an announcement, such as after streak resets.
+
+## Added
+* Added a "Reached level X" trigger for achievements so you can customize even more level up rewards. Such as roles & economy money.
 
 # August 7th - Level-Up Message Conditional Placeholders
 ## Added

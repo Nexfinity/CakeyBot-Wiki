@@ -121,9 +121,12 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Joined X threads.
 * Set their birthday.
 * Acquire an X day streak.
+* Reach level X.
 * CUSTOM / MANUAL
 
 > **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
+> 
+> **Exception:** "Reach level X" achievements are unlocked as soon as a user's level reaches **or passes** the required level, since a single level-up can skip past several levels at once (e.g. a large XP grant or a Double XP Day). Every level-based achievement a user has reached will unlock, not just the highest one.
 {.is-info}
   
 > **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)

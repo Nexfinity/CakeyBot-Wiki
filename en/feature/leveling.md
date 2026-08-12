@@ -92,6 +92,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Max Voice XP per Minute       | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 10,000    | No |
 | Voice Cooldown                | Sets the interval in minutes at which voice XP is awarded.                                                                              | 2             | 1         | 60        | No |
 | XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
+| XP Equation               | The XP-to-level curve used to calculate levels. See [What XP equation is used for leveling?](#what-xp-equation-is-used-for-leveling) below for the available options. | Default (MEE6 Style) |           |           | No               |
 | Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
 | Randomize Button Placement        | Randomizes the claim button position in random XP drop messages to prevent automated claiming bots.                                     | Disabled      |           |           | No               |
 
@@ -267,10 +268,25 @@ Users who support Cakey Bot will get badges on their profile, so you'll know the
 
 # Frequently Asked Questions
 ## What XP equation is used for leveling?
-Cakey Bot uses the same leveling XP equation as the popular MEE6 bot. You can use the following formula to calculate how much XP you need to level up:
-`5 * (lvl ^ 2) + (50 * lvl) + 100 - xp`, where
+From the "Leveling" page on the [dashboard](https://cakey.bot/dashboard), you can choose which XP-to-level equation your server uses under the **XP Equation** setting. Four options are available:
+
+| Equation | Formula (XP needed to advance from level `lvl`, minus `xp` already earned towards it) |
+| :--- | :--- |
+| Default (MEE6 Style) | `5 * (lvl ^ 2) + (50 * lvl) + 100 - xp` |
+| Linear | `2000 - xp` (a flat 2,000 XP per level, regardless of current level) |
+| Lurkr Style | `50 * (lvl ^ 2) - (100 * lvl) + 150 - xp` |
+| Amari Style | `20 * (lvl ^ 2) - (40 * lvl) + 55 - xp` |
+
+Where:
 * `lvl` is your current level
 * `xp` is how much XP you already have towards the next level.
+
+**Default (MEE6 Style)** is the same leveling XP equation Cakey Bot has always used, and matches the popular MEE6 bot's curve. It remains the default for all servers.
+
+> Changing this setting takes effect immediately - every user's displayed level is recalculated against the new curve the next time it's checked, since only raw XP is ever stored (not level). This means levels can jump up or down right away for existing users; there is no gradual transition or grandfathering of old levels.
+{.is-warning}
+
+You can use our free [XP Calculator](https://cakey.bot/xp-calculator) tool to work out exactly how much XP is needed between two levels under any of the four equations - if you're logged in, it can even load your server's currently configured equation automatically.
 
 ## Is there a cooldown or anti-abuse?
 Yes, Cakey Bot has a cooldown for messages to help discourage spamming. Only one message per 60 second interval will award XP, even if multiple messages are sent during that time.

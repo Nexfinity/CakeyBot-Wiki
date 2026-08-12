@@ -34,12 +34,12 @@ The bot will also automatically update the user's nickname to display their curr
 {.is-info}
 
 ## Custom Streak Icon
-You can set a custom streak icon that will be used instead of `🔥` — either a standard Unicode emoji or one of your server's own custom emotes.
+You can set a custom streak icon that will be used instead of `🔥`.
 
 Here's how to do that:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard) and select your server.
 2. From the left sidebar, pick "Streaks".
-3. After that, click the streak icon field you want to change to open the picker, then switch between the "Unicode" and "Server Emotes" tabs to pick either a standard emoji or one of your server's custom emotes.
+3. After that, under the "Custom Streak Icon" section, select the emote you would like to be used for the streak icon.
 
 > You can even set custom streak emotes for 100 day streaks and 1 year streaks!
 {.is-success}

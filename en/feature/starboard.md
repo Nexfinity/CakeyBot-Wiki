@@ -58,9 +58,12 @@ The starboard channel is where the stared messages will show up. Here's a guide 
 3. After that, under the "Starboard Channel" section, select the correct channel that you would like your stared messages to appear.
 <image src="/starboard/starboard_4.png" width="800px" alt="Channel Screenshot">
 ### Custom Star Emote
-You can set a custom star emote so that members do not have to react with a `⭐`, but a custom emoji.
+You can set a custom star emote so that members do not have to react with a `⭐`, but a different emote instead — either a standard Unicode emoji or one of your server's own custom emotes.
 Here's how to do that:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard) and select your server.
 2. From the left sidebar, pick "Starboard".
-3. After that, under the "Custom Star Emote" section, select the emote you would like people in your server to react with.
+3. After that, click the "Custom Star Emote" field to open the picker, then switch between the "Unicode" and "Server Emotes" tabs to pick either a standard emoji or one of your server's custom emotes.
 <image src="/starboard/starboard_5.png" width="800px" alt="Emote Screenshot">
+
+> If a custom emote is later deleted from your server (or the bot loses access to it), Cakey Bot automatically falls back to the default `⭐` when posting new starred messages, rather than showing a broken emote.
+{.is-info}

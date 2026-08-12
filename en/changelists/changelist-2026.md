@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-12T14:39:56.964Z
+date: 2026-08-12T14:40:10.998Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -10,7 +10,6 @@ dateCreated: 2026-01-13T22:54:52.663Z
 
 # August 12th - Starboard Custom Emotes
 ## Added
-## Adde
 * Added support for custom guild emotes on starboard reactions. 
 
 # August 11th - New Achievement Trigger

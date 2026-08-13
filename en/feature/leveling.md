@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-08-05T09:48:58.346Z
+date: 2026-08-13T08:24:10.834Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -63,7 +63,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 
 # Leveling Configuration
 
-> While **Leveling Enabled** is not requied to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
+> While **Leveling Enabled** is not required to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
 {.is-info}
 
 | Name                     | Description                                                                                                                             | Default Value | Min Value | Max Value | Premium Feature  |

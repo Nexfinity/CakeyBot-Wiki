@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-08-05T09:48:58.346Z
+date: 2026-08-13T08:25:23.962Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -63,7 +63,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 
 # Leveling Configuration
 
-> While **Leveling Enabled** is not requied to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
+> While **Leveling Enabled** is not required to be enabled for **Voice Leveling** to work, the `/manage-xp` and `/manage-level` commands will not function while it is disabled.
 {.is-info}
 
 | Name                     | Description                                                                                                                             | Default Value | Min Value | Max Value | Premium Feature  |
@@ -219,7 +219,7 @@ Random XP Drops introduce timed XP bonuses that occur during active event period
 | Min. Time (Hours)     | The minimum interval between XP drop events, measured in hours.                                                                                         | 2 hours       |
 | Max. Time (Hours)     | The maximum interval between XP drop events, measured in hours.                                                                                         | 6 hours       |
 
-> **Note:** If no valid channel is set, drops will not trigger. You need to have drops enabled AND atleast one output channel selected.
+> **Note:** If no valid channel is set, drops will not trigger. You need to have drops enabled AND at least one output channel selected.
 {.is-warning}
 
 > **Limits:** Min. XP and Max. XP have a hard cap of **1,000,000**. Min. Time (Hours) can be set between **1-23**. Max. Time (Hours) can be set between **2-24** and must be greater than Min. Time.

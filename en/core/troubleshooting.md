@@ -42,11 +42,24 @@ Discord requires you to verify your e-mail account to add bots into your servers
 
 * If Cakey Bot isn't responding to commands, try the following:
   1. Make sure Cakey Bot is showing as online.
-     * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 4.
+     * If Cakey Bot is offline, try kicking the bot out of your server and inviting it again. If after doing that Cakey Bot is still showing as offline, you may skip to step 5.
   2. Make sure Cakey Bot has the permissions to read and send messages in the channel.
      * You can give the `Administrator` permission to Cakey Bot to make this easier.
-  3. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakey.bot/discord) server to see if there are any issues going on.
-  4. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakey.bot/discord) server to receive assistance from a member of our Support Team.
+  3. Check our [live status page](https://cakey.bot/status) to see the current shard count, per-shard server count, and gateway ping. If a shard shows as offline or has very high ping, that's a good sign the issue is on our end rather than a per-server configuration problem.
+  4. Take a look at our [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) channel on our official [Cakey Bot Discord](https://cakey.bot/discord) server to see if there are any issues going on.
+  5. If the above methods do not work, please choose option 3 in our [#support](https://discord.com/channels/408424043482447872/730159265209253908) channel on the [Cakey Bot Discord](https://cakey.bot/discord) server to receive assistance from a member of our Support Team.
+
+### What does the status page show?
+
+The [status page](https://cakey.bot/status) is a public, live view of Cakey Bot's Discord connection - it is separate from the [#status-and-outages](https://discord.com/channels/408424043482447872/697929149356179516) Discord channel, which is used for manually posted incident updates.
+
+* **Shards** - Cakey Bot splits its connection to Discord across multiple shards, each responsible for a subset of servers. The total shard count grows automatically as the bot joins more servers.
+* **Servers** - the number of servers currently assigned to each shard, and the total across all shards.
+* **Ping** - each shard's gateway latency, color-coded green (good), yellow (elevated), red (high), or dark red (very high).
+* **Online/Offline** - whether a shard is currently connected. A shard can briefly show offline during a reconnect; if it stays offline for more than a minute, that shard has lost its connection to Discord.
+
+> The page refreshes automatically every 30 seconds and the underlying data updates roughly every 20 seconds, so it may lag a few seconds behind the bot's true state.
+{.is-info}
 
 # Audio Troubleshooting
 

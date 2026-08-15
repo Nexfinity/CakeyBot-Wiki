@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-15T15:39:26.145Z
+date: 2026-08-15T23:17:26.474Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -15,6 +15,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 ## Added
 * Added the ability to change the open ticket button's text.
 * Added the ability to rename ticket panels.
+* Added toggles for daily content to optionally create a discussion thread.
 
 # August 12th - Starboard Custom Emotes & XP Equations
 ## Added

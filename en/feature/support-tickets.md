@@ -23,6 +23,8 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 2. Go to "Support Tickets".
 3. Configure your desired settings
 
+**Panel Name:** Give the panel a custom name (up to 100 characters). If left blank, it displays as "Panel #1" wherever the panel is referenced, including the `/setup createticketembed` panel picker.
+
 **Support Staff Role:** Selecting a support staff role will automatically allow users with the selected role to view/access all support tickets. If you do not select a support staff role only Administrators will have access to tickets.
 
 **Transcript Channel:** Selecting a transcript channel will unlock the ability to save ticket history to the selected channel. Which will allow staff to review old closed/deleted tickets.
@@ -33,9 +35,13 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 **Open Embed Message/Color:** Customize the message and embed color shown once the ticket channel has been created (up to 2,000 characters).
 
+**Open Embed Title:** Customize the title shown on the "Open a Ticket" embed (up to 256 characters). Leave blank to use the default title ("Support Ticket").
+
+**Open Button Label:** Customize the text shown on the "Open a Ticket" button (up to 80 characters). Leave blank to use the default label ("Open a Ticket").
+
 # Usage/Creating Tickets
 
-Once you have enabled and configured support tickets via the web dashboard your users can start making tickets once you create an embed using the `/setup createticketembed <type>` command, selecting the "Panel" type when prompted. Running this command will create a fancy embed with a button that users can click to automatically open up tickets. When users click the button it will prompt them to enter a reason for their ticket.
+Once you have enabled and configured support tickets via the web dashboard your users can start making tickets once you create an embed using the `/setup createticketembed <panel>` command. The `panel` option autocompletes with your panel's name (its custom name if you've set one, otherwise "Panel #1") — select it to generate a fancy embed with a button that users can click to automatically open up tickets. When users click the button it will prompt them to enter a reason for their ticket.
 
 You do _not_ need to make/set up a support category, Cakey Bot will automatically generate the correct channels and permissions if Cakey Bot has access to do so.
 
@@ -116,7 +122,7 @@ This allows you to prevent specific roles from creating tickets. This can be use
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |
-| /setup createticketembed | Create an embed to open tickets with a button. | \<type> | None | 
+| /setup createticketembed | Create an embed to open tickets with a button. | \<panel> | None | 
 | /ticket remind | Sends a reminder to the user. | N/A | None | 
 | /ticket request-close | Requests to close the ticket. | \<reason> | None | 
 | /ticket adduser | Adds a user to the ticket. | \<user> | None | 

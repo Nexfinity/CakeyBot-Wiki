@@ -25,6 +25,11 @@ Cakey Bot's Daily Content feature allows servers to automatically receive fun an
 
 Each content category has its own individual output channel and optional role-ping setting, so you can send different categories to different channels and ping a different role for each one.
 
+Each category also has its own **Create Thread** toggle. When enabled, a discussion thread is automatically created on every message that category posts, so your members can discuss that day's content without cluttering the main channel.
+
+> Creating a thread requires the bot to have the Create Public Threads permission in the output channel. If the bot lacks this permission, the content still posts normally - the thread just silently fails to create.
+{.is-info}
+
 > The number of categories you can have enabled at once is tiered: **1** enabled category for non-premium servers, **3** for premium servers, and unlimited for whitelabel servers.
 {.is-info}
 

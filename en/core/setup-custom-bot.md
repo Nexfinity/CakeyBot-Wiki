@@ -41,7 +41,7 @@ Once you have purchased the custom bot, you can follow these instructions:
 1. Navigate to the [premium page](https://cakey.bot/dashboard/premium) on the web dashboard.
 2. There should be a "Invite" button next to your custom bot subscription in the "Premium Subscriptions" list.
 
-> Custom Bots are currently able to be invited to an unlimited number of servers. This may change in the future if users abuse the capability.
+> Custom Bots can currently be invited to up to 10 servers.
 {.is-info}
   
 > **Note:** While you can keep the main Cakey Bot & your Custom Bot in the same server. It is advised to kick the main Cakey Bot to prevent duplicate data (such as double audit logs, or users gaining extra leveling xp from both bots.)

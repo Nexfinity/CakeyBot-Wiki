@@ -2,7 +2,7 @@
 title: Daily Content
 description: Daily automated Discord content with Cakey Bot - Facts, jokes, quotes, custom posts. Engagement automation setup guide.
 published: 1
-date: 2025-11-01T06:20:03.045Z
+date: 2026-08-15T23:22:14.260Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T02:24:11.247Z
@@ -30,7 +30,7 @@ Each category also has its own **Create Thread** toggle. When enabled, a discuss
 > Creating a thread requires the bot to have the Create Public Threads permission in the output channel. If the bot lacks this permission, the content still posts normally - the thread just silently fails to create.
 {.is-info}
 
-> The number of categories you can have enabled at once is tiered: **1** enabled category for non-premium servers, **3** for premium servers, and unlimited for whitelabel servers.
+> The number of categories you can have enabled at once is tiered: **1** enabled category for non-premium servers, **3** for premium servers, and unlimited for custom bot servers.
 {.is-info}
 
 # Daily Image Types

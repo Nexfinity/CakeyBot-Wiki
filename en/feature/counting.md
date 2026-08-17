@@ -11,7 +11,7 @@ dateCreated: 2026-07-26T19:43:10.813Z
 # Overview
 **Counting Game** lets your members work together to count upward as a group in a dedicated channel. One person posts a number, the next person continues the count, and so on — if someone breaks the count, what happens next depends on how you've configured the feature.
 
-> Counting Game is configured entirely through the [web dashboard](https://cakey.bot/dashboard) — there is no slash command for it.
+> Counting Game is configured entirely through the [web dashboard](https://cakey.bot/dashboard). The `/counting` slash command lets members check the game's current state, stats, and break role info from within Discord.
 {.is-info}
 
 # Accessing Counting Game Settings
@@ -88,3 +88,10 @@ When a member posts an incorrect count, Cakey Bot replies explaining what happen
 
 # Related Commands
 There are no slash commands for this feature - it is configured entirely through the web dashboard.
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| /counting status | Shows the current count, the next expected number, and who currently holds the count. | N/A | None |
+| /counting stats | Shows the all-time highest count your server has ever reached. | N/A | None |
+| /counting my-role | Shows whether you currently hold the server's [Fail Role](#fail-role), and when it expires if temporary. | N/A | None |
+| /counting break-role | Shows the role (if any) assigned to whoever breaks the count, and whether it's permanent or temporary. | N/A | None |

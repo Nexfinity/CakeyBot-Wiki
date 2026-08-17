@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-15T23:17:26.474Z
+date: 2026-08-17T15:33:10.122Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 16th - Counting Command
+## Added
+* Added new set of `/counting` commands to view various info and stats for the counting channel and punishment role.
 
 # August 15th - Support Ticket Updates
 ## Changed

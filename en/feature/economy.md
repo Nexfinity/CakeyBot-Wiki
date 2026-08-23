@@ -67,8 +67,8 @@ The number of items and boosts you're able to create in the `/eco shop` is tiere
 | Tier                          | Item Cap | Boost Cap |
 | :----------------------------- | :------- | :-------- |
 | Free                            | 2        | 1         |
-| Premium                         | 5        | 3         |
-| Whitelabel (absolute max)       | 15       | 10        |
+| Premium                         | 10       | 3         |
+| Whitelabel (absolute max)       | 20       | 10        |
 
 > Individual items and boosts also have their own configurable ownership caps (`MaxPerUser` and `MaxGlobal`). See the [Item/Boost Shop](/en/feature/economy/shop) page for full details.
 {.is-info}

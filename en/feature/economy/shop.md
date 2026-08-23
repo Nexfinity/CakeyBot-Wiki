@@ -38,7 +38,7 @@ This is the list of support item types that you can configure for users to purch
 > **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
 {.is-warning}
 
-> The number of items you can create is also tiered based on your server's subscription (2 free / 5 premium / 15 whitelabel max). See the [Economy Overview](/feature/economy) page for the full tier breakdown.
+> The number of items you can create is also tiered based on your server's subscription (2 free / 10 premium / 20 whitelabel max). See the [Economy Overview](/feature/economy) page for the full tier breakdown.
 {.is-info}
 
 # Boosts

@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-30T19:59:03.000Z
+date: 2026-08-30T20:36:54.063Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -21,7 +21,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added version history for forms, keeping the last 20 saves with a per-section diff and the ability to restore an older version.
 * Added a "My Submissions" page so users can see every form they've submitted across all servers using Cakey Bot.
 * Added a shared bulk selection bar to 13 dashboard pages, letting you select multiple items and act on them all at once instead of one at a time.
-* Added a collapsible icon-rail mode for the dashboard sidebar, remembered per browser.
+* Added a collapsible mode for the dashboard sidebar.
 
 # August 16th - Counting Command
 ## Added

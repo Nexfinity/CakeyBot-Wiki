@@ -2,16 +2,13 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-30T20:36:54.063Z
+date: 2026-08-30T20:37:08.088Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
 # August 30th - Forms & Bulk Selection
-## Fixed
-* Fixed the login flow losing track of the page you were on when it needed you to sign in again, so you're now returned to it instead of the dashboard.
-
 ## Changed
 * Audit log entries now name what they affected (e.g. the channel or role name) instead of only showing a count.
 

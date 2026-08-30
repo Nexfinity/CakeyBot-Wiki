@@ -1,11 +1,11 @@
 ---
 title: Forms
-description: Discord custom forms with Cakey Bot - ban appeals, join applications, conditional questions. Build forms, review responses, automate decisions.
+description: Custom forms with Cakey Bot - ban appeals, join applications, conditional questions. Build forms, review responses, automate decisions.
 published: 1
-date: 2026-08-30T16:00:00.000Z
+date: 2026-08-30T21:10:25.952Z
 tags: 
 editor: markdown
-dateCreated: 2026-08-30T16:00:00.000Z
+dateCreated: 2026-08-30T20:34:56.856Z
 ---
 
 # Overview

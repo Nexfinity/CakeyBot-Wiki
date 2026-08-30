@@ -2,11 +2,26 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-08-17T15:33:10.122Z
+date: 2026-08-30T19:59:03.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# August 30th - Forms & Bulk Selection
+## Fixed
+* Fixed the login flow losing track of the page you were on when it needed you to sign in again, so you're now returned to it instead of the dashboard.
+
+## Changed
+* Audit log entries now name what they affected (e.g. the channel or role name) instead of only showing a count.
+
+## Added
+* Added a new Forms system for building custom forms with 8 question types and conditional visibility based on answers, roles, boosts, Nitro, server tenure, account age, and permissions. Forms can be a general questionnaire, a ban appeal (approving it unbans the submitter), or a join application (approving it generates and DMs an invite). See the [Forms wiki page](/en/feature/forms) for the full writeup.
+* Added a review workflow for form responses: approve/reject with optional reviewer notes, automatic role changes on either outcome, and a DM to the submitter with the decision.
+* Added version history for forms, keeping the last 20 saves with a per-section diff and the ability to restore an older version.
+* Added a "My Submissions" page so users can see every form they've submitted across all servers using Cakey Bot.
+* Added a shared bulk selection bar to 13 dashboard pages, letting you select multiple items and act on them all at once instead of one at a time.
+* Added a collapsible icon-rail mode for the dashboard sidebar, remembered per browser.
 
 # August 16th - Counting Command
 ## Added

@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2026-09-10T09:49:09.000Z
+date: 2026-09-10T11:20:06.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -103,8 +103,8 @@ We currently support the full set of Font Awesome Pro icons that you can select 
 ## Showcase
 `/achievements showcase` draws every badge a member has unlocked as a single image, laid out as a grid under their name. Badges are grouped by tier group with the highest tier first, and disabled achievements are left out.
 
-## Rank Card Badges
-A member's unlocked badges also appear on their rank card from `/rank`, continuing the row after the account badges. The highest tiers are shown first, and the row stops before it would run off the card.
+> Rank cards show official Cakey Bot badges only. Achievement badges are not shown there.
+{.is-info}
 
 # Rewards
 When a user unlocks an achievement, Cakey Bot can automatically reward them with any combination of the following:
@@ -152,7 +152,7 @@ Some triggers can be pointed at a single channel or a single role instead of cou
 Progress is tracked separately for each target, so the same trigger can back several achievements at once without them interfering.
 
 ## Tiers
-Achievements can be grouped into a **tier group** with a **tier number**, letting you build a ladder such as Chatter I, Chatter II and Chatter III. Tiers decide the order badges are shown in on the showcase and which ones make it onto a rank card.
+Achievements can be grouped into a **tier group** with a **tier number**, letting you build a ladder such as Chatter I, Chatter II and Chatter III. Tiers decide the order badges are shown in on the showcase, highest tier first.
 
 > **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
 > 

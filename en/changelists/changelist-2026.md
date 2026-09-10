@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-10T09:49:09.000Z
+date: 2026-09-10T11:20:06.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -25,7 +25,6 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added ignored roles for achievements, so members holding them don't accumulate progress.
 * Added six achievement triggers: obtaining a role, sending gifs, sending stickers, being muted, minutes streamed in voice, and wearing the server tag.
 * Added `/achievements showcase`, drawing every badge a member has unlocked as one image.
-* Added unlocked achievement badges to rank cards, shown after the account badges.
 
 ## Changed
 * Filling in a form now checks required and invalid answers before the review step instead of after submitting, outlining every question that needs attention with the reason underneath and jumping to the first one.
@@ -34,7 +33,6 @@ dateCreated: 2026-01-13T22:54:52.663Z
 
 ## Fixed
 * Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.
-* Fixed achievement badges not rendering on rank cards.
 
 # September 6th - Multiple Ticket Panels & Thread Tickets
 ## Fixed

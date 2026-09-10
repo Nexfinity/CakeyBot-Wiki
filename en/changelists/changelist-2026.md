@@ -2,13 +2,21 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-10T11:20:06.000Z
+date: 2026-09-10T21:17:29.137Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
 # September 10th - Forms Review & Achievement Scoping
+## Fixed
+* Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.
+
+## Changed
+* Filling in a form now checks required and invalid answers before the review step instead of after submitting, outlining every question that needs attention with the reason underneath and jumping to the first one.
+* Answers on a form can now be up to 16,000 characters, raised from 4,000.
+* The achievements dashboard page was rebuilt around how cramped it was on mobile.
+
 ## Added
 * Added accept and deny buttons to form submissions posted in Discord, so responses can be decided without opening the dashboard. Denying asks for a reason, which is passed on to the submitter. Reviewer roles control who can press them, falling back to anyone with Manage Server or Administrator when none are set. See the [Forms wiki page](/en/feature/forms).
 * Added separate role lists for each decision, so approving or rejecting can both add roles and remove roles at once, replacing the single add-or-remove choice.
@@ -25,14 +33,6 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added ignored roles for achievements, so members holding them don't accumulate progress.
 * Added six achievement triggers: obtaining a role, sending gifs, sending stickers, being muted, minutes streamed in voice, and wearing the server tag.
 * Added `/achievements showcase`, drawing every badge a member has unlocked as one image.
-
-## Changed
-* Filling in a form now checks required and invalid answers before the review step instead of after submitting, outlining every question that needs attention with the reason underneath and jumping to the first one.
-* Answers on a form can now be up to 16,000 characters, raised from 4,000.
-* The achievements dashboard page was rebuilt around how cramped it was on mobile.
-
-## Fixed
-* Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.
 
 # September 6th - Multiple Ticket Panels & Thread Tickets
 ## Fixed

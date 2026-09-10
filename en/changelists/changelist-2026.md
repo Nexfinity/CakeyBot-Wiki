@@ -36,6 +36,25 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.
 * Fixed achievement badges not rendering on rank cards.
 
+# September 6th - Multiple Ticket Panels & Thread Tickets
+## Fixed
+* Ticket ratings are now stored in the database instead of in memory, so a pending rating request is no longer lost when the bot restarts.
+* Closing, reopening, claiming, or saving a transcript on a ticket whose panel has been deleted now tells you the panel is gone instead of silently failing. Every ticket command makes the same check.
+
+## Changed
+* Tickets now record when they were opened and closed, which the dashboard uses to show median time to close and reply times.
+
+## Added
+* Added support for multiple ticket panels, up to 10 per server. Each panel has its own support role, transcript channel, embeds, button label, blacklisted roles, and auto close/remind settings, so you can run separate ticket types side by side.
+  * Editing a panel's embed or button now rewrites the panel message already posted in your server, so what members see always matches your settings.
+  * Deleting a panel is blocked while it still has open tickets.
+* Added thread tickets. A panel can now open tickets as private threads or public threads instead of channels, which keeps them out of your channel list and sidesteps Discord's 50 channel per category limit.
+* Added ticket claiming. Staff can claim and unclaim a ticket from the ticket embed or the dashboard, so it's clear who is handling what.
+* Added a Ticket Manager page to the dashboard, listing every ticket with its panel, who opened it, who claimed it, status, rating, and last activity.
+  * Sort by any column, filter by state or panel, and search by name or ID.
+  * Close, reopen, claim, add or remove a user, reply, send a reminder, or delete a ticket without leaving the dashboard.
+  * Tracked ticket categories are grouped by panel with a live channel count, so you can see which are close to Discord's 50 channel cap before tickets start failing.
+
 # August 31st - Detailed Audits & Embed Previewer
 ## Added
 * Added detailed dashboard audit logs.

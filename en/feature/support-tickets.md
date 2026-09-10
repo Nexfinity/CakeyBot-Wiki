@@ -2,7 +2,7 @@
 title: Support Tickets
 description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
-date: 2026-04-05T15:05:52.635Z
+date: 2026-09-10T09:49:09.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -17,11 +17,32 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 ![Ticket Screenshot](/tickets1.png)
 
+# Panels
+
+A **panel** is one complete ticket setup: its own staff role, category, embeds, button and settings. A server can have up to **10 panels**, so you can run separate setups for general support, bug reports and staff applications, each with its own staff role and its own category.
+
+From the Support Tickets page you pick which panel to work on, and everything under Configure Tickets applies to whichever one is selected.
+
+**Post Panel** sends that panel's embed and button to a channel you choose, without needing `/setup createticketembed`.
+
+**Delete Panel** removes the panel and its settings.
+> Deleting a panel is refused while it still has open tickets. Close them first, otherwise those tickets would be left with nothing behind them.
+{.is-warning}
+
+**Ticket Type** decides how tickets open for that panel:
+* **Channel:** a normal text channel inside the panel's category. This is the default.
+* **Private Thread:** a private thread. No channel is created, so the category limit doesn't apply.
+* **Public Thread:** a public thread, visible to anyone who can see the parent channel.
+
+> Editing a panel's open embed or button rewrites every copy of that panel already posted, so a live panel can't drift from what the dashboard says is saved. A Refresh action is there for panels that were edited while the bot was offline.
+{.is-info}
+
 # Configure Tickets
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Support Tickets".
-3. Configure your desired settings
+3. Pick the panel you want to configure.
+4. Configure your desired settings
 
 **Panel Name:** Give the panel a custom name (up to 100 characters). If left blank, it displays as "Panel #1" wherever the panel is referenced, including the `/setup createticketembed` panel picker.
 
@@ -57,6 +78,31 @@ Once a user has closed a ticket, Cakey Bot will send an embed with three differe
   * This option does NOT save a transcript unless auto-save is enabled.
 
 ![Closed Ticket Screenshot](/tickets2.png)
+
+# Ticket Manager
+
+The **Ticket Manager** page on the dashboard lists every ticket across every panel, so staff can work through them without hunting for channels in Discord.
+
+Each row shows the panel it belongs to, who opened it, who has claimed it, its status, the rating it was given and when it was last active. Columns can be sorted, and the list can be filtered by state and by panel or searched.
+
+Staff actions available on a ticket from here:
+* **Close** and **Reopen**
+* **Claim**, marking yourself as the person handling it
+* **Add User** and **Remove User**
+* **Reply**, posting into the ticket as the bot
+* **Remind**, nudging the ticket's opener
+* **Delete**
+
+> Actions your roles wouldn't be allowed to perform are disabled before you click them, rather than failing afterwards. The same permission check still runs on the server.
+{.is-info}
+
+The page also groups ticket categories per panel and shows how full each one is against Discord's 50 channel limit, so you can see an overflow coming before it happens.
+
+Anything done from the Ticket Manager reads the same in Discord as if it had been done there: the embeds and DMs use the bot's own wording and colours.
+
+## Ratings
+
+If **Allow Feedback Ratings** is enabled, closing a ticket asks its opener to rate the support they received. Ratings are recorded against the ticket and shown in the Ticket Manager list, so you can see how a panel or a staff member is doing over time.
 
 # Ticket Management
 ## Add User

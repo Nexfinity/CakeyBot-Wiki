@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2026-04-06T20:45:57.985Z
+date: 2026-09-10T09:49:09.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -99,6 +99,13 @@ You can also chose between 9 different colors:
 ## Icons
 We currently support the full set of Font Awesome Pro icons that you can select for your banners (currently limited to solid style). You can select any RGB color to be applied to the icon as well.
 
+# Showing Off Achievements
+## Showcase
+`/achievements showcase` draws every badge a member has unlocked as a single image, laid out as a grid under their name. Badges are grouped by tier group with the highest tier first, and disabled achievements are left out.
+
+## Rank Card Badges
+A member's unlocked badges also appear on their rank card from `/rank`, continuing the row after the account badges. The highest tiers are shown first, and the row stops before it would run off the card.
+
 # Rewards
 When a user unlocks an achievement, Cakey Bot can automatically reward them with any combination of the following:
 * **XP Add / XP Remove** - Adds or removes leveling XP from the user.
@@ -108,6 +115,12 @@ When a user unlocks an achievement, Cakey Bot can automatically reward them with
 
 ## Ignored Channels
 You can select specific channels to be excluded from counting towards achievement progress. For example, if you exclude a channel from message-count tracking, messages sent in that channel won't count towards a "Send X messages" achievement.
+
+## Ignored Roles
+Members holding any of the selected roles don't accumulate achievement progress at all. Useful for excluding bots, muted members or staff accounts from progression achievements.
+
+## Unlock Messages
+By default every unlock announcement uses the server wide achievement message. An individual achievement can override that with a message of its own, which is used only when that achievement unlocks.
 
 # Types of Achievements
 ## Progression-Based Achievements
@@ -122,7 +135,24 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Set their birthday.
 * Acquire an X day streak.
 * Reach level X.
+* Obtain a specific role.
+* Send X gifs.
+* Send X stickers.
+* Be muted X times.
+* Stream for X minutes in voice.
+* Wear the server tag.
 * CUSTOM / MANUAL
+
+## Scoped Achievements
+Some triggers can be pointed at a single channel or a single role instead of counting server wide.
+
+* **Per channel:** message, reaction, thread, voice and streaming triggers can be limited to one channel, so "Send 100 messages in #introductions" counts separately from messages sent anywhere else.
+* **Per role:** the "Obtain a specific role" trigger targets the role being watched for.
+
+Progress is tracked separately for each target, so the same trigger can back several achievements at once without them interfering.
+
+## Tiers
+Achievements can be grouped into a **tier group** with a **tier number**, letting you build a ladder such as Chatter I, Chatter II and Chatter III. Tiers decide the order badges are shown in on the showcase and which ones make it onto a rank card.
 
 > **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
 > 
@@ -143,5 +173,7 @@ Usage Key: `<required>` / `[optional]`
 | /achievements list | View a list of all achievements for this server. | N/A | None | 
 | /achievements view | View the selected users progress towards achievements. | [user] | None | 
 | /achievements custom | Grant or revoke a custom achievement. | \<grant \| revoke> \<achievement> [user] | Manage Events |
+| /achievements showcase | Show off the achievement badges a member has unlocked. | [user] | None |
+| /achievements leaderboard | See who has unlocked the most achievements in this server. | N/A | None |
 | /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 
 | /setup clear-achievement-data | Remove ALL achievement data for the server. | N/A | ManageServer or Administrator | 

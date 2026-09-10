@@ -2,11 +2,39 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-01T00:16:19.496Z
+date: 2026-09-10T09:49:09.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 10th - Forms Review & Achievement Scoping
+## Added
+* Added accept and deny buttons to form submissions posted in Discord, so responses can be decided without opening the dashboard. Denying asks for a reason, which is passed on to the submitter. Reviewer roles control who can press them, falling back to anyone with Manage Server or Administrator when none are set. See the [Forms wiki page](/en/feature/forms).
+* Added separate role lists for each decision, so approving or rejecting can both add roles and remove roles at once, replacing the single add-or-remove choice.
+* Added a pending role held while a response waits on a decision, roles handed out for submitting at all, and a role pinged when a submission is posted.
+* Added pages to forms. A page break splits the questions that follow it onto a new page, pages can be reordered by dragging, and answers are saved as a draft as each page is completed.
+* Added Markdown support in question text, covering bold, italics, lists, links, code blocks and tables.
+* Added an Image Upload question type. Uploads are re-encoded before being stored, so only the picture itself is kept, and responses carrying images are posted as a gallery with each picture under the question that asked for it.
+* Added editing for submissions. A submitter can change their answers until a reviewer decides, the message in the submit channel is rewritten and marked as edited, and the previous answers are kept as a revision.
+* Added scheduled opening for forms, with an optional announcement posted when a form opens.
+* Added resubmitting after a rejection as a separate setting from allowing multiple submissions.
+* Added per channel and per role scoping for achievements, so a trigger can be tracked against one channel or one role instead of server wide. See the [Achievements wiki page](/en/feature/achievements).
+* Added achievement tiers, letting achievements be grouped into a ladder such as Chatter I, II and III.
+* Added a per achievement unlock message, overriding the server wide one.
+* Added ignored roles for achievements, so members holding them don't accumulate progress.
+* Added six achievement triggers: obtaining a role, sending gifs, sending stickers, being muted, minutes streamed in voice, and wearing the server tag.
+* Added `/achievements showcase`, drawing every badge a member has unlocked as one image.
+* Added unlocked achievement badges to rank cards, shown after the account badges.
+
+## Changed
+* Filling in a form now checks required and invalid answers before the review step instead of after submitting, outlining every question that needs attention with the reason underneath and jumping to the first one.
+* Answers on a form can now be up to 16,000 characters, raised from 4,000.
+* The achievements dashboard page was rebuilt around how cramped it was on mobile.
+
+## Fixed
+* Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.
+* Fixed achievement badges not rendering on rank cards.
 
 # August 31st - Detailed Audits & Embed Previewer
 ## Added

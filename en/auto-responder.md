@@ -2,7 +2,7 @@
 title: Auto Responder
 description: Custom Discord commands with Cakey Bot - Trigger responses, use placeholders, create complex automations. Setup guide included.
 published: 1
-date: 2026-07-18T00:00:00.000Z
+date: 2026-09-10T09:49:09.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T07:56:56.699Z
@@ -55,6 +55,32 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 > **Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
 {.is-warning}
 
+## Regex Match Triggers
+
+Every message sent in your server is checked against every regex trigger you have, so each one is given a strict time budget to match in. A pattern that takes too long is abandoned.
+
+> If a regex trigger repeatedly runs out of time, Cakey Bot **disables that auto responder automatically** rather than letting it slow down every message in the server. You'll find it toggled off on the dashboard. Fix the pattern and re-enable it.
+{.is-warning}
+
+The usual cause is a pattern that isn't anchored. Without `^`, the engine doesn't read the message once. It starts over from every single character in it, so a 200 character message is scanned 200 times instead of once, and that cost climbs sharply on longer messages.
+
+Anchoring the pattern with `^` tells it to try once, from the start:
+
+| | Pattern |
+| :--- | :--- |
+| Slow | `(?i)(?=.*\bhello\b)(?=.*\b(help\|support)\b).*` |
+| Fast | `(?si)^(?=.*\bhello\b)(?=.*\b(?:help\|support)\b).*` |
+
+Both match the same messages. The differences that matter:
+* **`^`** anchors it, so the message is read once instead of once per character. This is the important one.
+* **`s`** makes `.` match newlines too. Without it an anchored pattern only ever sees the first line of a multi-line message.
+* **`(?:...)`** makes the group non-capturing, so the engine isn't storing text you never use.
+
+> Patterns are matched case-insensitively already, so you don't need `(?i)`. Avoid `[\s\S]` and other constructs that rely on an uppercase letter, since patterns are lowercased before they run and `[\s\S]` would become `[\s\s]`, which only matches whitespace. Use the `s` flag instead.
+{.is-info}
+
+Shortening your list of words is rarely the fix. Alternation over a dozen short words costs almost nothing next to an unanchored scan.
+
 # Permissions
 
 Every auto responder has an optional, collapsed-by-default **Permissions** section in its create/edit/clone form on the web dashboard. Use it to restrict who can trigger a response and where, without needing to write anything into the response text itself.
@@ -83,6 +109,7 @@ Every auto responder has an optional, collapsed-by-default **Permissions** secti
 * Auto Responders are also limited to Discord's message character limit
 * Messages sent by bots or webhooks will be ignored
 * Non-Premium servers are limited to **100 auto responders**. Premium servers have no cap on the number of auto responders.
+* Regex triggers that repeatedly take too long to match are disabled automatically. See [Regex Match Triggers](#regex-match-triggers).
 
 # Placeholders/Variables
 

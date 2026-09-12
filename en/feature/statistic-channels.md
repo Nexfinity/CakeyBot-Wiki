@@ -62,7 +62,7 @@ In addition to the fixed stats above, you can build your own voice channels name
 
 Cakey Bot creates the channel under your stats category and keeps it updated every ~20 minutes, the same as the fixed stat channels above.
 
-> You can have up to **10** custom stat channels per server. Each name is capped at **100 characters**, matching Discord's own channel name limit.
+> Free servers can have **1** custom stat channel, [Premium](https://cakey.bot/premium) servers can have up to **3**, and Custom Bot servers can have up to **5**. Each name is capped at **100 characters**, matching Discord's own channel name limit.
 {.is-info}
 
 # Stats Message

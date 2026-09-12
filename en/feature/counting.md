@@ -95,7 +95,7 @@ Automatically grant a role to whoever breaks the count once your server reaches 
 2. Click "Counting Game" in the left sidebar and find the **Milestone Roles** section.
 3. Add a milestone, setting the count it triggers at and the role to grant.
 
-> You can configure up to **25 milestones** per server, each with its own unique count.
+> Free servers can configure up to **5** milestones, [Premium](https://cakey.bot/premium) servers up to **10**, and Custom Bot servers up to **20** - each with its own unique count.
 {.is-info}
 
 > In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions.

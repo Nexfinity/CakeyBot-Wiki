@@ -192,7 +192,7 @@ Rather than relying on members to run `/leaderboard`, you can have Cakey Bot kee
 2. Go to "Leveling" and find the **Pinned Leaderboards** section.
 3. Add a pinned leaderboard, choosing its channel, period (All Time/Weekly/Monthly), and how many users to show (3-15).
 
-> You can have up to **5** pinned leaderboards per server, so you can cover multiple channels, periods, or sizes at once.
+> Free servers can have **1** pinned leaderboard, [Premium](https://cakey.bot/premium) servers can have up to **3**, and Custom Bot servers can have up to **5** - so you can cover multiple channels, periods, or sizes at once.
 {.is-info}
 
 The pinned message refreshes automatically every **15 minutes**. If Cakey Bot fails to update a pinned message 12 times in a row (for example, because the channel or message was deleted), it stops trying and removes that pinned leaderboard from your configuration.

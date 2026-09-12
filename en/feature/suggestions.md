@@ -20,6 +20,10 @@ Suggestions let your members propose ideas and vote on them with a simple upvote
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to the "Suggestions" page and set the **Suggestion Channel** where new suggestions will be posted. This is required - `/suggestion create` won't work until it's set.
 3. On that same page, optionally set the **Suggestion Approved Channel** / **Suggestion Denied Channel** to forward a copy of accepted/denied suggestions there as well.
+4. Optionally set a **Suggestion Ping Role**, which is pinged whenever a new suggestion is posted. The role needs to be mentionable, or the bot needs permission to mention any role.
+
+> The ping role is only mentioned when a suggestion is first posted - deciding on it later (accept/deny/duplicate/review) does not ping it again.
+{.is-info}
 
 # Creating a Suggestion
 

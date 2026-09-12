@@ -78,6 +78,31 @@ A "Reset Count" button on the dashboard immediately resets the current count bac
 > This only resets the current count and current counter. The all-time highest streak is never affected.
 {.is-info}
 
+# Counting Saves
+Saves are a purchasable [Economy Shop](/en/feature/economy) item type ("Counting Save") that protect a member from resetting the count when they slip up.
+
+If a member holding at least one save breaks the count - posts the wrong number, or (with **Prevent Consecutive Counting** enabled) posts twice in a row - Cakey Bot spends one of their saves instead of resetting. The count carries on from where it was, and the member is told how many saves they have left.
+
+> Saves only come into play when **Reset on Mistake** is enabled. If mistakes don't reset the count anyway, saves are never spent.
+{.is-info}
+
+To offer Counting Saves, create a shop item of type "Counting Save" from the [Economy Shop](/en/feature/economy) settings on the dashboard, choosing how many saves a single purchase grants (1-100).
+
+# Milestone Roles
+Automatically grant a role to whoever breaks the count once your server reaches a specific number.
+
+1. Open the [web dashboard](https://cakey.bot/dashboard) and select your server.
+2. Click "Counting Game" in the left sidebar and find the **Milestone Roles** section.
+3. Add a milestone, setting the count it triggers at and the role to grant.
+
+> You can configure up to **25 milestones** per server, each with its own unique count.
+{.is-info}
+
+> In order to prevent abuse, Cakey Bot will prevent selecting roles that contain `Administrator`, `Manage Server` or `Manage Roles` permissions.
+{.is-danger}
+
+Milestone roles are a one-time grant - reaching the milestone hands out the role, but it is not taken away if the count later resets.
+
 # How It Works
 When a member posts a correct count, Cakey Bot reacts to their message with ✅.
 
@@ -95,3 +120,4 @@ Usage Key: `<required>` / `[optional]`
 | /counting stats | Shows the all-time highest count your server has ever reached. | N/A | None |
 | /counting my-role | Shows whether you currently hold the server's [Fail Role](#fail-role), and when it expires if temporary. | N/A | None |
 | /counting break-role | Shows the role (if any) assigned to whoever breaks the count, and whether it's permanent or temporary. | N/A | None |
+| /counting saves | Shows how many counting saves you currently hold. | N/A | None |

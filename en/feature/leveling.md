@@ -176,6 +176,27 @@ You can configure a role for each position independently on the dashboard. Leavi
 > If your server's Premium subscription lapses, roles previously granted for positions #4-10 are automatically removed. Positions #1-3 keep working regardless of Premium status. Any positions #4-10 you had configured are preserved (not deleted) while Premium is inactive, and pick back up automatically if you resubscribe.
 {.is-warning}
 
+# Leaderboard Periods
+`/leaderboard` can rank users by XP earned in a specific window instead of their all-time total:
+* **All Time** - Ranks by total XP ever earned (the default). Shows each user's level.
+* **Weekly** - Ranks by XP earned since the most recent Monday (UTC). Shows XP earned during the week instead of level.
+* **Monthly** - Ranks by XP earned since the 1st of the current calendar month (UTC). Shows XP earned during the month instead of level.
+
+> Weekly and Monthly XP is tracked separately from a user's all-time total and doesn't affect their level - it exists purely to rank activity within that window.
+{.is-info}
+
+# Pinned Leaderboards
+Rather than relying on members to run `/leaderboard`, you can have Cakey Bot keep a leaderboard message pinned and automatically up to date in a channel of your choice.
+
+1. Login to our [web dashboard](https://cakey.bot/dashboard).
+2. Go to "Leveling" and find the **Pinned Leaderboards** section.
+3. Add a pinned leaderboard, choosing its channel, period (All Time/Weekly/Monthly), and how many users to show (3-15).
+
+> You can have up to **5** pinned leaderboards per server, so you can cover multiple channels, periods, or sizes at once.
+{.is-info}
+
+The pinned message refreshes automatically every **15 minutes**. If Cakey Bot fails to update a pinned message 12 times in a row (for example, because the channel or message was deleted), it stops trying and removes that pinned leaderboard from your configuration.
+
 # Role & Channel XP Multipliers
 You can set up to 5 different multipliers of each type (Or up to 10 with a premium susbcription). Role and Channel multipliers are counted separately. If a user qualifies one (or more) of these multipliers, all of their received XP will be multiplied by the largest multiplier they have. Role and Channel XP multipliers will NOT stack with other multipliers of the same type if a user qualifies for multiple (Role multipliers WILL stack with a Channel multiplier though). They WILL also stack with other multipliers such as  double XP days.
 
@@ -190,6 +211,9 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 
 > **Note:** XP decay is **NOT** affected by multipliers.
 {.is-info}
+
+## Decay DM Notifications
+By default, Cakey Bot sends a member a DM when their XP decays, with a button on that DM they can press to stop future decay DMs for just themselves. The dashboard's **Decay DM Notifications** setting lets you turn these DMs off for the whole server instead - once disabled, no one gets a decay DM regardless of their individual opt-out status.
 
 ## Configuration Settings
 | Name          | Description                                                                                                                                         | Default Value |
@@ -301,7 +325,7 @@ There's several tools you can use:
 Usage Key: `<required>` / `[optional]`
 | Command                          | Description                                                              | Usage                                      | Permission             |
 | :------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------: | :--------------------: |
-| /leaderboard                     | View the top 10 users on the leaderboard.                                | [limit]                                    | None                   |
+| /leaderboard                     | View the top users on the leaderboard, optionally for a weekly/monthly period. | [limit] [period]                  | None                   |
 | /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer           |
 | /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>     | ManageServer           |
 | /leveling spawn-xp-drop          | Manually spawn an XP drop in a channel.                                  | [min-xp] [max-xp] [channel]                | ManageServer           |

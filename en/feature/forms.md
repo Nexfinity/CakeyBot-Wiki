@@ -28,7 +28,10 @@ Forms let you collect structured answers from users through a public web page in
 * **Ban Appeal:** Submitted by users who are currently banned from the guild. Approving it unbans them.
 * **Join Application:** Submitted by users who are not yet in the guild. Approving it generates a one-time invite and DMs it to them.
 
-**Submit Channel:** If set, every new submission is posted to this channel. A response containing image answers is posted as a gallery rather than an embed, and a response too long for one Discord message has the whole thing attached as a Markdown file alongside the summary.
+**Submit Channel:** If set, every new submission is posted to this channel, mentioning the submitter by name. A response containing image answers is posted as a gallery rather than an embed, and a response too long for one Discord message has the whole thing attached as a Markdown file alongside the summary.
+
+> The submitter mention identifies who responded but doesn't actually ping them - only the **Notify Role** mention (if set) sends a real notification. Forms using **Allow Anonymous** show "Submitted anonymously" instead, since there's no Discord identity to mention.
+{.is-info}
 
 **Notify Role:** If set, this role is pinged when a submission is posted to the Submit Channel.
 
@@ -118,6 +121,8 @@ Question text supports a subset of Markdown: bold, italics, strikethrough, lists
 
 > Anything that isn't plain formatting or a normal `http`/`https` link is stripped before the page is sent. A question cannot be used to inject scripts into the form.
 {.is-info}
+
+Discord custom emotes (typed as `<:name:id>`, or pasted as a `cdn.discordapp.com` emoji link) are rendered as pictures wherever they appear - in question text, answer options, and submitted answers on the dashboard's Responses page.
 
 ## Pages
 

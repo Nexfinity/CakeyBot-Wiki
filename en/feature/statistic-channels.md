@@ -52,3 +52,38 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 
 > **Note:** You must select a role before you can enable the "Specific Role Count" stat channel.
 {.is-warning}
+
+# Custom Stat Channels
+In addition to the fixed stats above, you can build your own voice channels named however you like, combining any mix of stats into a single name using [placeholders](https://wiki.cakey.bot/en/placeholders) - for example `Text: {server.counttextchannels} | VC: {server.countvoicechannels}`.
+
+1. Login to our [web dashboard](https://cakey.bot/dashboard).
+2. Go to "Statistic Channels" and find the **Custom Stat Channels** section.
+3. Type a channel name using placeholders and save it.
+
+Cakey Bot creates the channel under your stats category and keeps it updated every ~20 minutes, the same as the fixed stat channels above.
+
+> You can have up to **10** custom stat channels per server. Each name is capped at **100 characters**, matching Discord's own channel name limit.
+{.is-info}
+
+# Stats Message
+Instead of a voice channel, you can have Cakey Bot keep a single message updated in a regular text channel with whatever stats you want written into it.
+
+1. Login to our [web dashboard](https://cakey.bot/dashboard).
+2. Go to "Statistic Channels" and find the **Stats Message** section.
+3. Choose a channel and write your message using [placeholders](https://wiki.cakey.bot/en/placeholders), then save.
+
+The message is edited in place roughly every 20 minutes with the latest numbers.
+
+> The stats message can be up to **2,000 characters** - much longer than a channel name allows, since it isn't limited by Discord's channel naming rules.
+{.is-info}
+
+> Changing the message's channel starts a fresh message in the new channel. The old message left behind in the previous channel isn't deleted automatically.
+{.is-warning}
+
+# New Placeholders
+These placeholders are available for use in Custom Stat Channel names and the Stats Message:
+* `{server.countbots}` - Number of bots in the server.
+* `{server.counthumans}` - Number of human members in the server.
+* `{server.countmembers}` - Total member count (bots and humans combined).
+* `{server.countonline}` - Number of members currently online, idle, or do-not-disturb (excludes offline/invisible).
+* `{server.countboosts}` - Number of server boosts.

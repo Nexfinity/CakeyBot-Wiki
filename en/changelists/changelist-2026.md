@@ -8,6 +8,35 @@ editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
+# September 12th - Embed Builder, Sender Profiles & Leaderboard Periods
+## Fixed
+* Fixed the Achievements page's channel and role pickers offering nothing but "None" for target channels/roles and ignored roles.
+* Fixed a script error on the Achievements page that kept the limit field visible for triggers with no limit and hid the target pickers entirely.
+* Fixed achievement trigger names showing a literal `&#x27;` instead of an apostrophe.
+* Fixed ticket transcripts and form image uploads silently failing in some deployments, caused by storage credentials not being passed through to the bot's container.
+* Fixed channel and role pickers sometimes showing empty right after a shard reconnect; they now fall back to fetching directly from Discord until the cache is ready again.
+* Fixed messages sent from the dashboard being able to mention any role rather than only the ones actually written into them.
+
+## Changed
+* Replaced the Embed Editor with a new built-in Embed Builder. See the [Embed Builder wiki page](/en/feature/embed-editor) for the full writeup.
+* Every modal field on the dashboard now shows a hint underneath it, replacing the separate info tooltips settings pages used before.
+* Select menus now open upward when there isn't room below, and stay the width of their trigger inside modals.
+* Economy shop item modals now only show the data field relevant to the item type you're editing, with a proper role picker for role-type items.
+* Achievements now use the same shared bulk-select bar as other dashboard pages.
+
+## Added
+* Added Sender Profiles to the Embed Builder - a display name and avatar you can send an embed under, delivered through a webhook the bot keeps in the channel. See the [Embed Builder wiki page](/en/feature/embed-editor#sender-profiles).
+* Added weekly and monthly periods to `/leaderboard` and Pinned Leaderboards, alongside the existing all-time view.
+* Added Pinned Leaderboards: keep up to 5 leaderboard messages pinned and automatically refreshed in channels of your choice. See the [Leveling wiki page](/en/feature/leveling#pinned-leaderboards).
+* Added a server-wide toggle to turn off XP decay DM notifications entirely.
+* Added Counting Saves: a purchasable shop item that absorbs one mistake instead of resetting the count, with `/counting saves` to check your balance.
+* Added Milestone Roles for the counting game, automatically granted once the count reaches a number you configure.
+* Added up to 10 Custom Stat Channels built from placeholders, and an optional Stats Message kept updated in a text channel.
+* Added five new placeholders: `{server.countbots}`, `{server.counthumans}`, `{server.countmembers}`, `{server.countonline}`, and `{server.countboosts}`.
+* Added a Suggestion Ping Role, pinged whenever a new suggestion is posted.
+* Added custom emote rendering to Forms - emotes now render as pictures in question text, answer options, and submitted answers.
+* Added a submitter mention to the message posted in a form's Submit Channel.
+
 # September 10th - Forms Review & Achievement Scoping
 ## Fixed
 * Fixed large form submissions failing to post to the submit channel at all. A response now spans several embeds, and attaches the whole thing as a file when it would otherwise be cut short.

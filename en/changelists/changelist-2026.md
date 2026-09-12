@@ -23,15 +23,16 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Select menus now open upward when there isn't room below, and stay the width of their trigger inside modals.
 * Economy shop item modals now only show the data field relevant to the item type you're editing, with a proper role picker for role-type items.
 * Achievements now use the same shared bulk-select bar as other dashboard pages.
+* Pinned Leaderboards, Custom Stat Channels, and Counting Milestone Roles now scale with your plan (Free/Premium/Custom Bot) instead of one flat cap for every server - see the Added entries below for the exact numbers.
 
 ## Added
 * Added Sender Profiles to the Embed Builder - a display name and avatar you can send an embed under, delivered through a webhook the bot keeps in the channel. See the [Embed Builder wiki page](/en/feature/embed-editor#sender-profiles).
 * Added weekly and monthly periods to `/leaderboard` and Pinned Leaderboards, alongside the existing all-time view.
-* Added Pinned Leaderboards: keep up to 5 leaderboard messages pinned and automatically refreshed in channels of your choice. See the [Leveling wiki page](/en/feature/leveling#pinned-leaderboards).
+* Added Pinned Leaderboards: keep up to 1 (Free), 3 (Premium), or 5 (Custom Bot) leaderboard messages pinned and automatically refreshed in channels of your choice. See the [Leveling wiki page](/en/feature/leveling#pinned-leaderboards).
 * Added a server-wide toggle to turn off XP decay DM notifications entirely.
 * Added Counting Saves: a purchasable shop item that absorbs one mistake instead of resetting the count, with `/counting saves` to check your balance.
-* Added Milestone Roles for the counting game, automatically granted once the count reaches a number you configure.
-* Added up to 10 Custom Stat Channels built from placeholders, and an optional Stats Message kept updated in a text channel.
+* Added Milestone Roles for the counting game, automatically granted once the count reaches a number you configure - up to 5 (Free), 10 (Premium), or 20 (Custom Bot) per server.
+* Added Custom Stat Channels built from placeholders - up to 1 (Free), 3 (Premium), or 5 (Custom Bot) per server - and an optional Stats Message kept updated in a text channel.
 * Added two new placeholders: `{server.countbots}` and `{server.counthumans}`.
 * Added a Suggestion Ping Role, pinged whenever a new suggestion is posted.
 * Added custom emote rendering to Forms - emotes now render as pictures in question text, answer options, and submitted answers.

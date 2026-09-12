@@ -32,7 +32,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added Counting Saves: a purchasable shop item that absorbs one mistake instead of resetting the count, with `/counting saves` to check your balance.
 * Added Milestone Roles for the counting game, automatically granted once the count reaches a number you configure.
 * Added up to 10 Custom Stat Channels built from placeholders, and an optional Stats Message kept updated in a text channel.
-* Added five new placeholders: `{server.countbots}`, `{server.counthumans}`, `{server.countmembers}`, `{server.countonline}`, and `{server.countboosts}`.
+* Added two new placeholders: `{server.countbots}` and `{server.counthumans}`.
 * Added a Suggestion Ping Role, pinged whenever a new suggestion is posted.
 * Added custom emote rendering to Forms - emotes now render as pictures in question text, answer options, and submitted answers.
 * Added a submitter mention to the message posted in a form's Submit Channel.

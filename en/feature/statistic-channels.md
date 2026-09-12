@@ -79,11 +79,3 @@ The message is edited in place roughly every 20 minutes with the latest numbers.
 
 > Changing the message's channel starts a fresh message in the new channel. The old message left behind in the previous channel isn't deleted automatically.
 {.is-warning}
-
-# New Placeholders
-These placeholders are available for use in Custom Stat Channel names and the Stats Message:
-* `{server.countbots}` - Number of bots in the server.
-* `{server.counthumans}` - Number of human members in the server.
-* `{server.countmembers}` - Total member count (bots and humans combined).
-* `{server.countonline}` - Number of members currently online, idle, or do-not-disturb (excludes offline/invisible).
-* `{server.countboosts}` - Number of server boosts.

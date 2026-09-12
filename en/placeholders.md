@@ -2,7 +2,7 @@
 title: Placeholders
 description: 100+ Cakey Bot placeholders for Discord messages - User, server, channel variables. Complete reference guide with syntax examples.
 published: 1
-date: 2025-11-01T06:20:50.744Z
+date: 2026-09-12T12:47:17.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -62,27 +62,29 @@ dateCreated: 2022-10-18T08:00:48.805Z
 
 ## Server
 
-`{server.id}` - Server’s ID\
-`{server.name}` - Server’s name\
-`{server.icon}` - Server’s icon\
-`{server.memberCount}` - Number of members in the server\
-`{server.ownerID}` - Owner’s ID\
-`{server.createdAt}` - Server’s creation date\
-`{server.region}` - Server’s region\
-`{server.ownername}` - Owner’s Username\
-`{server.splashurl}` - Splash URL (if one is set)\
-`{server.bannerurl}` - Banner URL (if one is set)\
-`{server.verificationlevel}` - The server's verification/moderation level\
-`{server.vanityurl}` - Vanity URL code\
-`{server.boostlevel}` - Boosted tier level\
-`{server.boostcount}` - The number of boosts the server has\
-`{server.vanityurl}` - Vanity URL code\
-`{server.afkchannel}` - AFK channel name\
-`{server.afktimeout}` - The AFK timeout (in seconds)\
-`{server.countallchannels}` - The number of channels in the server\
-`{server.counttextchannels}` - The number of **text** channels in the server\
-`{server.countvoicechannels}` - The number of **voice** channels in the server\
-`{server.countemoji}` - The number of emoji in the server\
+`{server.id}` - Server’s ID
+`{server.name}` - Server’s name
+`{server.icon}` - Server’s icon
+`{server.memberCount}` - Number of members in the server (bots & humans)
+`{server.countbots}` - Number of bots in the server
+`{server.counthumans}` - Number of humans in the server
+`{server.ownerID}` - Owner’s ID
+`{server.createdAt}` - Server’s creation date
+`{server.region}` - Server’s region
+`{server.ownername}` - Owner’s Username
+`{server.splashurl}` - Splash URL (if one is set)
+`{server.bannerurl}` - Banner URL (if one is set)
+`{server.verificationlevel}` - The server's verification/moderation level
+`{server.vanityurl}` - Vanity URL code
+`{server.boostlevel}` - Boosted tier level
+`{server.boostcount}` - The number of boosts the server has
+`{server.vanityurl}` - Vanity URL code
+`{server.afkchannel}` - AFK channel name
+`{server.afktimeout}` - The AFK timeout (in seconds)
+`{server.countallchannels}` - The number of channels in the server
+`{server.counttextchannels}` - The number of **text** channels in the server
+`{server.countvoicechannels}` - The number of **voice** channels in the server
+`{server.countemoji}` - The number of emoji in the server
 `{server.countroles}` - The number of roles in the server
 `{server.countstagechannels}` - The number of stage channels in the server
 `{server.countevents}` - The number of events in the server

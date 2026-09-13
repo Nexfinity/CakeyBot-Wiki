@@ -46,6 +46,15 @@ Cakey Bot also includes several other ways to earn money that do not include any
 * **/eco rob** - Attempt to rob another user.
 * **/eco beg** - Beg for money.
 
+## Daily, Weekly & Monthly Rewards
+On top of the repeatable earning commands above, Cakey Bot offers a set of periodic rewards that can each be claimed once per cooldown window for a guaranteed, risk-free payout:
+* **/eco daily** - Claim your daily reward.
+* **/eco weekly** - Claim your weekly reward.
+* **/eco monthly** - Claim your monthly reward.
+
+> These cooldowns are **rolling windows** measured from your last claim (24 hours, 7 days, and 30 days respectively), not a reset at a fixed calendar time. Claiming your daily reward at 3 PM means you can claim it again starting at 3 PM the next day, not at midnight.
+{.is-info}
+
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
 
@@ -60,6 +69,12 @@ In addition to the regular commands, there's a number of customization options t
 | Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
 | Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
 | Fishing Weight    | Define if the weight of caught fish should be kg or lbs.                                                                            | lbs          |           |           | No               |
+| Daily Min Amount             | The minimum amount granted by `/eco daily`.                                                                                                | 1,500                | 1         | 10,000,000 | No               |
+| Daily Max Amount             | The maximum amount granted by `/eco daily`.                                                                                                | 11,000               | 1         | 10,000,000 | No               |
+| Weekly Min Amount            | The minimum amount granted by `/eco weekly`.                                                                                               | 10,500               | 1         | 50,000,000 | No               |
+| Weekly Max Amount            | The maximum amount granted by `/eco weekly`.                                                                                               | 38,500               | 1         | 50,000,000 | No               |
+| Monthly Min Amount           | The minimum amount granted by `/eco monthly`.                                                                                              | 22,500               | 1         | 200,000,000 | No              |
+| Monthly Max Amount           | The maximum amount granted by `/eco monthly`.                                                                                              | 165,000              | 1         | 200,000,000 | No              |
 
 ## Shop & Boost Limits
 The number of items and boosts you're able to create in the `/eco shop` is tiered based on your server's subscription:
@@ -113,17 +128,20 @@ Usage Key: `<required>` / `[optional]`
 | /eco balance             | Check your balance or the balance of another user.             | [user]                                     | None                   |
 | /eco beg                 | Beg for money.                                                 | N/A                                         | None                   |
 | /eco coinflip            | Guess the result to win 50% of your bet.                       | \<guess> \<amount>                          | None                   |
+| /eco daily               | Claim your daily reward.                                        | N/A                                         | None                   |
 | /eco guess               | Guess the number (1-10) for a chance to gain 2x-3x the amount. | \<guess> \<amount>                          | None                   |
 | /eco high-or-low         | Guess higher or lower to win more money.                       | N/A                                         | None                   |
 | /eco iteminfo            | View information about a specific item.                        | \<item>                                     | None                   |
 | /eco items               | View all of the items you or someone else owns.                | [user]                                     | None                   |
 | /eco leaderboard         | View the top users on the leaderboard. `limit` can be 3-15 (default 10). | [limit]                                     | None                   |
+| /eco monthly             | Claim your monthly reward.                                      | N/A                                         | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
 | /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
 | /eco rob                 | Attempt to rob another user.                                   | \<user>                                     | None                   |
 | /eco rock-paper-scissors | Challenge another user to Rock, Paper, Scissors.               | \<amount>                                   | None                   |
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                         | None                   |
 | /eco split-or-steal      | Challenge another user to split or steal.                      | N/A                                         | None                   |
+| /eco weekly              | Claim your weekly reward.                                       | N/A                                         | None                   |
 | /eco work                | Work for money.                                                | N/A                                         | None                   |
 | /eco fishing fish              | Fish in a specific biome for a chance to catch fish.            | <biome> <rod> <bait>      | None       |
 | /eco fishing list-biomes       | List all available fishing biomes.                              | N/A                         | None       |

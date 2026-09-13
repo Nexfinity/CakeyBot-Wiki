@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-13T23:26:14.998Z
+date: 2026-09-13T23:27:28.394Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -15,6 +15,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added new manual economy shop item type with a handler role and notification channel.
 * Added a new Discord markdown toolbar with an emote button and a fuzzy searchable placeholder picker fed by the wiki descriptions.
 * Added the ability to edit text fields directly in the live preview of the embed editor, with markdown and placeholder highlighting while typing.
+* Added `/eco daily`, `/eco weekly`, and `/eco monthly` commands.
 
 # September 12th - Embed Builder, Sender Profiles & Leaderboard Periods
 ## Fixed

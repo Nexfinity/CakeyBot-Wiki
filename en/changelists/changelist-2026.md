@@ -8,6 +8,10 @@ editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
+# September 14th - Higher Economy Balance Cap
+## Changed
+* Raised the maximum allowed value for the Max Balance setting from 1,000,000,000 to 1,000,000,000,000 (1 trillion). See the [Economy wiki page](/en/feature/economy#customization).
+
 # September 13th - Markdown Editor & New Achievement
 ## Added
 * Added new changelist pop-up modal on the dashboard for the latest changes.

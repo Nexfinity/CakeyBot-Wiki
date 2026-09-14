@@ -135,6 +135,7 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Set their birthday.
 * Acquire an X day streak.
 * Reach level X.
+* Reach an economy balance of X.
 * Obtain a specific role.
 * Send X gifs.
 * Send X stickers.
@@ -156,7 +157,10 @@ Achievements can be grouped into a **tier group** with a **tier number**, lettin
 
 > **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
 > 
-> **Exception:** "Reach level X" achievements are unlocked as soon as a user's level reaches **or passes** the required level, since a single level-up can skip past several levels at once (e.g. a large XP grant or a Double XP Day). Every level-based achievement a user has reached will unlock, not just the highest one.
+> **Exception:** "Reach level X" and "Reach an economy balance of X" achievements are unlocked as soon as a user's level or balance reaches **or passes** the required amount, since a single change can skip past several thresholds at once (e.g. a large XP grant/Double XP Day, or a big economy payout from `/eco monthly`, a shop sale, etc.). Every threshold a user has reached will unlock, not just the highest one.
+{.is-info}
+  
+> Balance achievements are re-checked every time a user's balance changes from any economy action - working, gambling, claiming daily/weekly/monthly rewards, being paid, robbing or being robbed, shop purchases, and so on. There's no separate command to trigger the check.
 {.is-info}
   
 > **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)

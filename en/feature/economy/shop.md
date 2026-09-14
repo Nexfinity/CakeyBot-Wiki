@@ -26,16 +26,32 @@ This is the list of support item types that you can configure for users to purch
 * **Role Unlocks:** Grants permanent access to specified Discord roles.
 * **Temporary Role Unlocks:** Grants time-limited access to roles. (specified in hours)
 * **Economy Boosts:** Enhances earning rates for specified periods. (Created on separate "Boosts" page.)
+* **Manual (handled by staff):** Grants nothing automatically — instead it notifies your staff so they can fulfill the purchase by hand. See [Manual Items](#manual-items-handled-by-staff) below for the full mechanics.
 
 ## Configuration
 * **Name / Description:** Each item's name and description are limited to a max of **255 characters**.
 * **Cost:** The cost for the user to purchase the item. Note: This only applies if `IsPurchasable` is enabled for the item. Max value: **1,000,000,000**.
 * **Type:** The type of item for the user to unlock/buy.
-* **Data:** The `Data` field is the amount of XP to give the user OR the ID of the role to grant. Depending on the "Type" selected.
-* **Secondary Data:** The `Secondary Data` field is only used when "Temporary Role" type is selected. It is the _**number of hours**_ for the bot to grant the role to the user, up to a max of **100,000** hours.
+* **Data:** The `Data` field is the amount of XP to give the user, the ID of the role to grant, or (for Manual items) the handler role to notify. Depending on the "Type" selected.
+* **Secondary Data:** The `Secondary Data` field is used for "Temporary Role" and "Manual" types. For Temporary Role it's the _**number of hours**_ for the bot to grant the role to the user, up to a max of **100,000** hours. For Manual items it's the notification channel where purchases are posted.
 * **Max Per User:** Caps how many of this item a single user can own at once. Configurable between **0 and 999**.
   
 > **Note:** The _type_ of data placed into the `Data` and `Secondary Data` fields will change depending on the `Type` selected. Keep this in mind when creating and modifying items.
+{.is-warning}
+
+## Manual Items (Handled by Staff)
+Manual items are for anything that can't be granted automatically by the bot - a custom role setup done by hand, a physical or external reward, access to something outside of Discord, etc. Buying one deducts the cost and adds the item to the buyer's `/eco items` inventory like any other item, but **nothing else happens automatically** - it's entirely on your staff to follow through.
+
+When configuring a Manual item:
+* **Data** is set to a **Handler Role** - the role that gets pinged when someone buys the item.
+* **Secondary Data** is set to a **Notification Channel** - where the purchase notice is posted.
+
+When a member buys a Manual item:
+1. The bot posts an embed titled "Purchase waiting to be handled" in the notification channel, pinging the handler role. It shows who bought what and for how much, plus the item's Description if one is set.
+2. Anyone holding the handler role (or with Manage Server/Administrator) can press the **Mark handled** button on that embed once they've followed up with the buyer.
+3. Pressing it turns the embed green, adds a "Handled by" field naming the staff member, disables the button, and sends the buyer a DM confirming their purchase was handled.
+
+> If the configured handler role or notification channel is ever deleted, the item can no longer be purchased until you fix its Data/Secondary Data fields - members attempting to buy it will get an error instead.
 {.is-warning}
 
 > The number of items you can create is also tiered based on your server's subscription (2 free / 10 premium / 20 whitelabel max). See the [Economy Overview](/feature/economy) page for the full tier breakdown.

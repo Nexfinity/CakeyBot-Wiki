@@ -48,6 +48,9 @@ In addition to configuring each event's channel/color individually, the "Audit L
   * Includes logs of deleted system messages including when users delete their own join message
   * Displays if the deleted message was a reply to another message and includes the content from that original emssage
   * Shows message author & message content
+* Attachment Deleted
+  * Fires instead of "Message Deleted" when the deleted message had one or more attachments, so attachment deletions can be routed to their own channel/color and toggled independently.
+  * Falls back to the "Message Deleted" channel if you haven't set a separate one for it.
 * Message Modified
   * Includes "Jump-To" button
   * Shows before/after message content

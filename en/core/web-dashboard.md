@@ -53,6 +53,12 @@ Once you have selected the server you want to modify you can change various feat
 * Per-command Roleplay (`/rp`) toggles
 * [Dashboard Access](/en/core/dashboard-access) grants for specific users/roles
 
+# Getting Help While You Configure
+Most feature pages on the dashboard have a "How does this work?" button on their title card. Clicking it slides the matching wiki article in from the right (or up as a drag-to-dismiss sheet on mobile) without leaving the page you're on, so you can check how a setting works without losing your place. It links through to the full wiki page too, if you want the complete article.
+
+> This is available on most feature pages - a handful of pages (like the server homepage and read-only log panels) don't have a matching wiki article and won't show the button.
+{.is-info}
+
 # Viewing Server Activity & Logs
 
 The dashboard provides several read-only panels that display important information about your server:

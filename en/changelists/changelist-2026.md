@@ -8,6 +8,25 @@ editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
+# September 16th - In-Dashboard Help & Custom Bot Fixes
+## Fixed
+* Fixed the navbar dropdowns not opening on the Economy, Feeds, Tags, and Auto Messages pages.
+* Fixed the separator and weight unit dropdowns on the Economy page showing two selected entries.
+* Fixed the Embed Builder's Send button disappearing when "Send via webhook" is ticked, which made webhook sending impossible.
+* Fixed the Required and Excluded Channels pickers for Auto Responder not listing forum channels. See the [Auto Responder wiki page](/en/auto-responder#permissions).
+* Fixed `{user.achievement.count}`, `/achievements view`, and `/achievements leaderboard` disagreeing on how many achievements a member has unlocked.
+  * All three now count the same thing: achievements actually unlocked that still exist and are enabled.
+  * The progress page also no longer mixes up progress between channel- or role-scoped achievements.
+* Fixed `/achievements list`, `/eco iteminfo`, `/eco items`, and other embed commands failing with "Unknown error occurred" on some custom bots.
+  * Caused by a malformed website URL in the custom bot settings, which the bot applied to every embed link.
+  * The dashboard now rejects a URL Discord would not accept, and the bot ignores one that slipped through. See the [Custom Bot wiki page](/en/core/setup-custom-bot#website-url).
+* Fixed channel dropdowns coming up empty on the dashboard when the custom bot could not list the server's channels.
+  * Falls back to Cakey Bot's own view of the server when it is also a member. See the [Custom Bot wiki page](/en/core/setup-custom-bot#frequently-asked-questions).
+
+## Added
+* Added a "How does this work?" button to feature pages on the dashboard, opening the matching wiki article in a side panel (a bottom sheet on mobile) without leaving the page. Covers most feature pages, from Starboard and Leveling to Audit Log and Anti-Raid. Replaces the old "check out our wiki" banners. See the [Web Dashboard wiki page](/en/core/web-dashboard#getting-help-while-you-configure).
+* Added rendering for `#`/`##`/`###` headings and `-#` subtext in the Embed Builder's preview, matching what Discord supports in descriptions and field values. See the [Embed Builder wiki page](/en/feature/embed-editor#designing-your-embed).
+
 # September 14th - Higher Economy Balance Cap
 ## Changed
 * Raised the maximum allowed value for the Max Balance setting from 1,000,000,000 to 1,000,000,000,000 (1 trillion). See the [Economy wiki page](/en/feature/economy#customization).

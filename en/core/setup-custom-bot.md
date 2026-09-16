@@ -96,7 +96,7 @@ You can configure your custom bot's presence (Online, Idle, Do Not Disturb, or I
 ## Website URL
 You can set a custom website URL for your bot.
 
-> Custom bot website URLs are limited to **128 characters**.
+> Custom bot website URLs are limited to **128 characters**, and must be a full, valid link (e.g. `https://example.com`) - just a domain name or something Discord wouldn't accept as a URL will be rejected when you save. If you don't type a scheme, `https://` is added for you automatically.
 {.is-info}
 
 ## Command Toggles
@@ -166,3 +166,6 @@ Cakey Bot even allows you to customize and swap out every custom emote we use in
   
 **Q:** I'm getting the "Private application cannot have a default authorization link" error.
  **A:** Go to the "Installation" section on the Discord developer dashboard and set your "Install Link" to "None". You can also optionally just make the bot public, however, making the bot public is not reccomended as anyone can invite the custom bot to their server and potentially abuse it.
+
+**Q:** A channel dropdown on the dashboard is showing up empty for my custom bot.
+ **A:** This usually clears up on its own after a moment - the dashboard talks to your custom bot's own Discord connection to list channels, and a temporary rate limit or connection hiccup can leave a dropdown empty until it recovers. If the main Cakey Bot also happens to still be in that server, the dashboard falls back to its view of the channels in the meantime; otherwise, just reload the page after a bit.

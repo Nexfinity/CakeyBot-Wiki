@@ -2,7 +2,7 @@
 title: Counting
 description: Discord counting game with Cakey Bot - group counting channel, exact number, equation, or equation-only mode, streak tracking. Community engagement guide.
 published: 1
-date: 2026-08-02T13:57:51.943Z
+date: 2026-09-18T21:59:20.466Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-26T19:43:10.813Z
@@ -112,7 +112,6 @@ When a member posts an incorrect count, Cakey Bot replies explaining what happen
 {.is-success}
 
 # Related Commands
-There are no slash commands for this feature - it is configured entirely through the web dashboard.
 Usage Key: `<required>` / `[optional]`
 | Command | Description | Usage | Permission |
 | :--- | :--- | :---: | :---: |

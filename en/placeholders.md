@@ -2,7 +2,7 @@
 title: Placeholders
 description: 100+ Cakey Bot placeholders for Discord messages - User, server, channel variables. Complete reference guide with syntax examples.
 published: 1
-date: 2026-09-12T12:47:17.086Z
+date: 2026-09-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:00:48.805Z
@@ -105,6 +105,47 @@ dateCreated: 2022-10-18T08:00:48.805Z
 `{date}` - Current date\
 `{datetime}` - Current date with the 24 hour time\
 `{datetime12}` - Current date with the 12 hour time
+
+## Invite Tracking
+
+Available in join, leave and ban announcements, their custom embeds and banners, when [invite tracking](/en/feature/invite-tracking) is enabled. On a leave or ban they describe the invite the member originally joined with.
+
+`{inviter.mention}` - Mentions the member who created the invite\
+`{inviter.username}` - The inviter's username\
+`{inviter.name}` - The inviter's nickname or display name\
+`{inviter.id}` - The inviter's ID\
+`{inviter.avatar}` - The inviter's avatar URL\
+`{inviter.invites}` - The inviter's total invites (regular - left - fake + bonus)\
+`{inviter.regular}` - The inviter's regular invites\
+`{inviter.left}` - How many of the inviter's invited members have left\
+`{inviter.fake}` - The inviter's fake invites\
+`{inviter.bonus}` - The inviter's bonus invites\
+`{invite.code}` - The invite code that was used\
+`{invite.url}` - The full discord.gg link of that code\
+`{invite.uses}` - How many times the code has been used\
+`{invite.maxuses}` - The code's use limit, 0 when unlimited\
+`{invite.label}` - The label given to the code on the dashboard\
+`{invite.source}` - How the member arrived: Invite, Vanity, Bot or Unknown\
+`{invite.isfake}` - Whether the join counted as fake\
+`{user.joincount}` - How many times this member has joined the server\
+`{user.isrejoin}` - Whether the member has been in the server before\
+`{user.stayduration}` - How long the member was in the server, for leave and ban announcements
+
+When the inviter cannot be worked out, for example a join through the vanity URL, the inviter and invite placeholders read "Unknown" and the counts read 0.
+
+## Server Statistics
+
+Available in [statistic channel](/en/feature/statistic-channels) names and the stats message when [server statistics](/en/feature/server-stats) is enabled. Each one takes an optional day window: `{messages:7d}` covers the last 7 days, `{messages}` the last 30, and any number of days up to 30 works.
+
+`{messages}` - Messages sent in the window\
+`{voice_hours}` - Hours spent in voice in the window\
+`{voice_minutes}` - Minutes spent in voice in the window\
+`{active_members}` - Members who sent a message or joined voice in the window\
+`{top_chatter}` - The member who sent the most messages\
+`{top_voice}` - The member who spent the most time in voice\
+`{joins}` - Members who joined in the window (needs invite tracking)\
+`{leaves}` - Members who left in the window (needs invite tracking)\
+`{time:FORMAT}` - The current time in the server's timezone, for example `{time:HH:mm}`
 
 ## Mentions
 

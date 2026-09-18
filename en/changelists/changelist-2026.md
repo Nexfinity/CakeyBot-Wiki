@@ -2,11 +2,35 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-13T23:27:28.394Z
+date: 2026-09-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 18th - Invite Tracking & Server Statistics
+## Added
+* Added Invite Tracking. The bot records which invite every new member arrived through and credits the inviter, with an invite leaderboard, join and leave analytics, labels that name a code and can hand out a role to everyone who joins through it, a blacklist, manual adjustments, weekly or monthly reports and an optional public leaderboard page. Joins from accounts younger than a set age, rejoins and self invites can count as fake. See the [Invite Tracking wiki page](/en/feature/invite-tracking).
+* Added `/invites view`, `/invites inviter`, `/invites list`, `/invites codes`, `/invites leaderboard`, `/invites stats` and `/invites sync`. Configuration lives on the dashboard.
+* Added invite placeholders for join, leave and ban announcements, their embeds and banners: `{inviter.mention}`, `{inviter.invites}`, `{invite.code}`, `{invite.label}`, `{invite.source}`, `{user.joincount}`, `{user.stayduration}` and more. See the [placeholders page](/en/placeholders#invite-tracking).
+* Added Server Statistics. Messages per member and channel and time spent in voice are recorded, with at a glance numbers, message, voice and member growth charts, busiest channels and members, a busiest hours heatmap, excluded channels, roles and members, a CSV export and a per member privacy opt out. Free servers look back 7 days, premium servers 30. See the [Server Statistics wiki page](/en/feature/server-stats).
+* Added activity roles, handing a role to everybody past a message or voice threshold, or only to the highest placed members, and taking it back when they drop out.
+* Added `/serverstats server`, `/serverstats me`, `/serverstats user`, `/serverstats channel`, `/serverstats top`, `/serverstats chart` and `/serverstats privacy`.
+* Added activity placeholders for statistic channel names and the stats message, such as `{messages:7d}`, `{voice_hours:7d}`, `{active_members:7d}`, `{top_chatter:7d}`, `{joins:7d}` and `{time:HH:mm}`, each with an optional day window. See the [placeholders page](/en/placeholders#server-statistics).
+* Added a live preview of a statistic channel's finished name against Discord's 100 character limit. The part that will not fit is struck out and the placeholder responsible is named. See the [Statistic Channels wiki page](/en/feature/statistic-channels#custom-stat-channels).
+* Added a saved embed to the stats message on premium servers, with the placeholders working inside the embed.
+* Added Invite Tracking and Server Stats groups to the placeholder picker.
+
+## Changed
+* The statistic channel length limit now applies to the finished name rather than the template, so templates may be up to 200 characters. Member names inside a channel name are shortened to 32 characters so a long name never pushes the rest out.
+* Ping role pickers on the daily content, anti-raid and suggestion pages now offer @everyone, like the social feed ones already did.
+
+## Removed
+* Removed the `/arc-raiders` commands.
+
+## Fixed
+* Fixed the embed pickers on the Announcements page not saving when an embed was chosen on its own.
+* Fixed the achievement add and remove role pickers offering @everyone.
 
 # September 16th - In-Dashboard Help & Custom Bot Fixes
 ## Fixed

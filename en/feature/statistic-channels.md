@@ -2,7 +2,7 @@
 title: Statistic Channels
 description: Discord statistics display with Cakey Bot - Member count, server stats, semi-live counters. Server metrics visualization guide.
 published: 1
-date: 2025-11-01T06:20:13.375Z
+date: 2026-09-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-06T05:52:28.431Z
@@ -20,7 +20,7 @@ Statistic channels are locked voice channels on the side of your server that dis
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Statistic Channels".
 3. Toggle/enable any statistic channels you want. (Wait up to 20 minutes for them to generate)
-4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number. This custom text is limited to 75 characters.
+4. (Optional) Set custom text/name for the channels. Using `{count}` as the placeholder for the stat value/number.
 
 > **Helpful Tip:** You can freely reposition the stats category and channels! Also, you can freely rename/customize the category name!
 {.is-success}
@@ -54,7 +54,7 @@ In order to remove or delete a stat channel you will first need to disable/toggl
 {.is-warning}
 
 # Custom Stat Channels
-In addition to the fixed stats above, you can build your own voice channels named however you like, combining any mix of stats into a single name using [placeholders](https://wiki.cakey.bot/en/placeholders) - for example `Text: {server.counttextchannels} | VC: {server.countvoicechannels}`.
+In addition to the fixed stats above, you can build your own voice channels named however you like, combining any mix of stats into a single name using [placeholders](https://wiki.cakey.bot/en/placeholders) - for example `Text: {server.counttextchannels} | VC: {server.countvoicechannels}`. When [server statistics](/en/feature/server-stats) is enabled, the [activity placeholders](/en/placeholders#server-statistics) work here too, so a name can read `Msgs 7d: {messages:7d} | Top: {top_chatter:7d}`.
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Statistic Channels" and find the **Custom Stat Channels** section.
@@ -62,8 +62,10 @@ In addition to the fixed stats above, you can build your own voice channels name
 
 Cakey Bot creates the channel under your stats category and keeps it updated every ~20 minutes, the same as the fixed stat channels above.
 
-> Free servers can have **1** custom stat channel, [Premium](https://cakey.bot/premium) servers can have up to **3**, and Custom Bot servers can have up to **5**. Each name is capped at **100 characters**, matching Discord's own channel name limit.
+> Free servers can have **1** custom stat channel, [Premium](https://cakey.bot/premium) servers can have up to **3**, and Custom Bot servers can have up to **5**. Each finished name is capped at **100 characters**, matching Discord's own channel name limit.
 {.is-info}
+
+While you type, the dashboard shows what the channel will be called with the server's current numbers and how many of those 100 characters it uses. Placeholders count by what they turn into rather than by their length in the template, so the template itself may be up to 200 characters. If the finished name runs over, the part that will not fit is struck out, the placeholder responsible is named, and the channel cannot be saved until it fits. Member names inside a channel name are shortened to 32 characters so one long name never pushes the rest of the text out.
 
 # Stats Message
 Instead of a voice channel, you can have Cakey Bot keep a single message updated in a regular text channel with whatever stats you want written into it.
@@ -79,3 +81,5 @@ The message is edited in place roughly every 20 minutes with the latest numbers.
 
 > Changing the message's channel starts a fresh message in the new channel. The old message left behind in the previous channel isn't deleted automatically.
 {.is-warning}
+
+On [Premium](https://cakey.bot/premium) servers the stats message can also carry one of your saved embeds from the [Embed Builder](/en/feature/embed-editor). The placeholders work inside the embed too, and the message text can be left empty to post the embed on its own.

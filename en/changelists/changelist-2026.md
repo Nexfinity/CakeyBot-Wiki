@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-13T23:27:28.394Z
+date: 2026-09-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z

@@ -47,15 +47,16 @@ The rules are worked out every 30 minutes at most; the interval is configurable.
 # Counter Channels and the Stats Message
 [Statistic channel](/en/feature/statistic-channels) names and the stats message accept activity placeholders alongside the usual server placeholders, so one name can read `Messages this week: 1,204 | Top: Sylveon`. See the [server statistics placeholders](/en/placeholders#server-statistics) for the list; each one takes an optional day window such as `{messages:7d}`.
 
-# Commands
+# Related Commands
 Every command takes an optional range of a day, a week or a month. A month is premium only.
 
-* `/serverstats server` ~ How active the server has been.
-* `/serverstats me` ~ Your own activity.
-* `/serverstats user <user>` ~ A member's activity.
-* `/serverstats channel <channel>` ~ A channel's activity.
-* `/serverstats top [kind]` ~ The most active members or channels by messages or voice.
-* `/serverstats chart [kind]` ~ A chart of messages, voice or member growth.
-* `/serverstats privacy` ~ Opts you in or out of per member statistics in every server.
-
-Everything else is configured from the dashboard.
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| /serverstats server | How active the server has been. | [range] | None |
+| /serverstats me | Your own activity. | [range] | None |
+| /serverstats user | A member's activity. | \<user> [range] | None |
+| /serverstats channel | A channel's activity. | \<channel> [range] | None |
+| /serverstats top | The most active members or channels by messages or voice. | [kind] [range] | None |
+| /serverstats chart | A chart of messages, voice or member growth. | [kind] [range] | None |
+| /serverstats privacy | Opts you in or out of per member statistics in every server. | N/A | None |

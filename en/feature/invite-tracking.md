@@ -46,16 +46,14 @@ When an invite is used up on its last use, Discord deletes it before the bot can
 * **Invite reports** ~ Post a weekly or monthly summary of the server's joins and leaves to a channel.
 * **Invite settings** ~ Enable the feature, the fake delay, rejoins counting as fake, whether leaves are subtracted, and a public leaderboard page at `/leaderboard/your-address`.
 
-# Commands
-* `/invites view [user]` ~ A member's totals.
-* `/invites inviter <user>` ~ Who invited a member, and through which code.
-* `/invites list [user]` ~ Everyone a member has invited.
-* `/invites codes [user]` ~ The invite codes a member owns, with their uses and labels.
-* `/invites leaderboard [range]` ~ The invite leaderboard.
-* `/invites stats [range]` ~ Join and leave statistics for the server.
-* `/invites sync` ~ Refreshes the cached invite list. Requires `Manage Server`.
-
-Everything else is configured from the dashboard.
-
-# Announcement Placeholders
-Join, leave and ban announcements, including their custom embeds and banners, can show who invited the member. See the [invite placeholders](/en/placeholders#invite-tracking) for the full list, for example `{inviter.mention}`, `{invite.code}` and `{user.stayduration}`.
+# Related Commands
+Usage Key: `<required>` / `[optional]`
+| Command | Description | Usage | Permission |
+| :--- | :--- | :---: | :---: |
+| /invites view | A member's totals. | [user] | None |
+| /invites inviter | Who invited a member, and through which code. | \<user> | None |
+| /invites list | Everyone a member has invited. | [user] | None |
+| /invites codes | The invite codes a member owns, with their uses and labels. | [user] | None |
+| /invites leaderboard | The invite leaderboard. | [range] | None |
+| /invites stats | Join and leave statistics for the server. | [range] | None |
+| /invites sync | Refreshes the cached invite list. | N/A | ManageServer |

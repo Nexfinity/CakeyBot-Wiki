@@ -2,10 +2,10 @@
 title: Invite Tracking
 description: Discord invite tracking with Cakey Bot - See who invited who, invite leaderboards, fake invite detection, invite labels and scheduled reports.
 published: 1
-date: 2026-09-18T12:00:00.000Z
+date: 2026-09-18T22:01:09.061Z
 tags: 
 editor: markdown
-dateCreated: 2026-09-18T12:00:00.000Z
+dateCreated: 2026-09-18T21:50:31.788Z
 ---
 
 # Overview
@@ -44,7 +44,7 @@ When an invite is used up on its last use, Discord deletes it before the bot can
 * **Invite blacklist** ~ Members and roles whose invites are never counted.
 * **Invite adjustments** ~ Change a member's regular, bonus or fake counts by hand, forgive lost invites for everyone after a mass leave, or reset a single member or the whole server.
 * **Invite reports** ~ Post a weekly or monthly summary of the server's joins and leaves to a channel.
-* **Invite settings** ~ Enable the feature, the fake delay, rejoins counting as fake, whether leaves are subtracted, and a public leaderboard page at `/leaderboard/your-address`.
+* **Invite settings** ~ Enable the feature, the fake delay, rejoins counting as fake, whether leaves are subtracted, and a public leaderboard page.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

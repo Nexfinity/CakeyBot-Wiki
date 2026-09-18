@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-18T12:00:00.000Z
+date: 2026-09-18T22:40:34.978Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -17,6 +17,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * The length limit for Custom Stat Channels now applies to the finished name rather than the template, so templates may be up to 200 characters.
   * Member names inside a channel name are shortened to 32 characters so a long name never pushes the rest out.
 * Ping role pickers on the Daily Content, Anti-Raid, and Suggestions pages now offer `@everyone`, like the social feed ones already did.
+* Bumped AFK message limit from 100 characters to 300 characters.
 
 ## Added
 * Added a new Invite Tracking feature.

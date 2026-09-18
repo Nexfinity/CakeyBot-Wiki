@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:17:02.783Z
 
 # Overview
 
-AFK messages allow you to automatically display a message to users who ping you. This allows you to explain why you might not be responding or when you'll be back. AFK messages have a 100-character limit to prevent abuse and you are unable to use clickable links/user mentions in the message. Currently, AFK messages default to being permanent and will last until you or a server admin removes it. This behavior can be configured.
+AFK messages allow you to automatically display a message to users who ping you. This allows you to explain why you might not be responding or when you'll be back. AFK messages have a 300-character limit to prevent abuse and you are unable to use clickable links/user mentions in the message. Currently, AFK messages default to being permanent and will last until you or a server admin removes it. This behavior can be configured.
 
 > AFK messages will also have a trashcan button added to them. When clicked, it will delete the AFK message in order to keep the channel clean. It will not remove the user from being AFK however.
 {.is-info}

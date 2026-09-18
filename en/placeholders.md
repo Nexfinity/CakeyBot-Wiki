@@ -135,16 +135,18 @@ When the inviter cannot be worked out, for example a join through the vanity URL
 
 ## Server Statistics
 
-Available in [statistic channel](/en/feature/statistic-channels) names and the stats message when [server statistics](/en/feature/server-stats) is enabled. Each one takes an optional day window: `{messages:7d}` covers the last 7 days, `{messages}` the last 30, and any number of days up to 30 works.
+Available in [statistic channel](/en/feature/statistic-channels) names and the stats message when [server statistics](/en/feature/server-stats) is enabled.
 
-`{messages}` - Messages sent in the window\
-`{voice_hours}` - Hours spent in voice in the window\
-`{voice_minutes}` - Minutes spent in voice in the window\
-`{active_members}` - Members who sent a message or joined voice in the window\
-`{top_chatter}` - The member who sent the most messages\
-`{top_voice}` - The member who spent the most time in voice\
-`{joins}` - Members who joined in the window (needs invite tracking)\
-`{leaves}` - Members who left in the window (needs invite tracking)\
+Each of these covers the **last 30 days** by default. Add `:Nd` to cover the last N days instead, from 1 up to 30: `{messages:7d}` is messages in the last 7 days, `{messages:1d}` in the last 24 hours, `{top_chatter:14d}` the most active member of the last two weeks. On free servers anything past 7 days is capped to 7.
+
+`{messages}` - Messages sent in the last 30 days\
+`{voice_hours}` - Hours spent in voice in the last 30 days\
+`{voice_minutes}` - Minutes spent in voice in the last 30 days\
+`{active_members}` - Members who sent a message or joined voice in the last 30 days\
+`{top_chatter}` - The member who sent the most messages in the last 30 days\
+`{top_voice}` - The member who spent the most time in voice in the last 30 days\
+`{joins}` - Members who joined in the last 30 days (needs invite tracking)\
+`{leaves}` - Members who left in the last 30 days (needs invite tracking)\
 `{time:FORMAT}` - The current time in the server's timezone, for example `{time:HH:mm}`
 
 ## Mentions

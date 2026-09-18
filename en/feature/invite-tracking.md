@@ -44,7 +44,7 @@ When an invite is used up on its last use, Discord deletes it before the bot can
 * **Invite blacklist** ~ Members and roles whose invites are never counted.
 * **Invite adjustments** ~ Change a member's regular, bonus or fake counts by hand, forgive lost invites for everyone after a mass leave, or reset a single member or the whole server.
 * **Invite reports** ~ Post a weekly or monthly summary of the server's joins and leaves to a channel.
-* **Invite settings** ~ Enable the feature, the fake delay, rejoins counting as fake, whether leaves are subtracted, and a public leaderboard page.
+* **Invite settings** ~ Enable the feature, the fake delay, rejoins counting as fake, whether leaves are subtracted, whether the breakdown behind each total is shown on the [website leaderboard](https://cakey.bot/leaderboard), and an optional address for it such as `/leaderboard/your-address`. The Invites tab itself is always there, like the other leaderboards.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

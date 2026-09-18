@@ -8,6 +8,39 @@ editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
+# September 18th - Invite Tracking & Server Statistics
+## Fixed
+* Fixed embed pickers on the Announcements page not saving when an embed was chosen on its own.
+* Fixed the Achievement add and remove role pickers offering `@everyone`.
+
+## Changed
+* The length limit for Custom Stat Channels now applies to the finished name rather than the template, so templates may be up to 200 characters.
+  * Member names inside a channel name are shortened to 32 characters so a long name never pushes the rest out.
+* Ping role pickers on the Daily Content, Anti-Raid, and Suggestions pages now offer `@everyone`, like the social feed ones already did.
+
+## Added
+* Added a new Invite Tracking feature.
+  * Records which invite every new member came through and credits the inviter.
+  * Invite leaderboard, join and leave analytics, labels that name a code and can hand out a role, a blacklist, manual adjustments, weekly or monthly reports, and an optional public leaderboard page.
+  * Joins from young accounts, rejoins, and self invites can count as fake.
+  * Configured from the dashboard, with `/invites view`, `/invites inviter`, `/invites list`, `/invites codes`, `/invites leaderboard`, `/invites stats`, and `/invites sync` in Discord.
+* Added invite placeholders for join, leave, and ban announcements, their embeds, and banners: `{inviter.mention}`, `{inviter.invites}`, `{invite.code}`, `{invite.label}`, `{invite.source}`, `{user.joincount}`, `{user.stayduration}`, and more.
+* Added a new Server Statistics feature.
+  * Records messages per member and channel and time spent in voice, never message content.
+  * At a glance numbers, message, voice, and member growth charts, busiest channels and members, a busiest hours heatmap, excluded channels, roles and members, and a CSV export.
+  * Activity roles hand a role to everybody past a message or voice threshold, or only to the top members, and take it back when they drop out.
+  * Members can opt out of being counted individually with `/serverstats privacy`.
+  * Free servers look back 7 days, premium servers 30.
+  * `/serverstats server`, `/serverstats me`, `/serverstats user`, `/serverstats channel`, `/serverstats top`, and `/serverstats chart` in Discord, everything else on the dashboard.
+* Added activity placeholders for Statistic Channel names and the stats message: `{messages:7d}`, `{voice_hours:7d}`, `{active_members:7d}`, `{top_chatter:7d}`, `{joins:7d}`, `{time:HH:mm}`, and more, each with an optional day window.
+* Added custom stat channels, up to 10 per server, named with any mix of server and activity placeholders.
+* Added a live preview of the finished stat channel name against Discord's 100 character limit. The part that will not fit is struck out and the placeholder responsible is named.
+* Added support for the stats message to carry a saved embed on premium servers, with the placeholders working inside it.
+* Added Invite Tracking and Server Stats groups to the dashboard's placeholder picker, with highlighting in the editors.
+
+## Removed
+* Removed the `/arc-raiders` command.
+
 # September 16th - In-Dashboard Help & Custom Bot Fixes
 ## Fixed
 * Fixed the navbar dropdowns not opening on the Economy, Feeds, Tags, and Auto Messages pages.

@@ -26,7 +26,7 @@ To create an achievement login to our [web dashboard](https://cakey.bot/dashboar
 3. Make any desired configurations on the pop-up modal
 4. Click "Create Achievement" button
 
-> You can create up to **10 achievements** per server. [Premium](https://cakey.bot/premium) servers have no limit on the number of achievements.
+> You can create up to **100 achievements** per server. [Premium](https://cakey.bot/premium) servers can create up to **200**, and custom bots have no limit. If a server ends up over its limit (for example, when Premium expires), all of its achievements are disabled until enough are deleted to fit again.
 {.is-info}
 
 The achievement fields have the following limits:

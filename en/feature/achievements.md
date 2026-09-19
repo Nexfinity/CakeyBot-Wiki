@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2026-09-10T11:20:06.000Z
+date: 2026-09-19T01:29:56.856Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -143,6 +143,9 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Stream for X minutes in voice.
 * Wear the server tag.
 * CUSTOM / MANUAL
+  
+> **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)
+{.is-warning}
 
 ## Scoped Achievements
 Some triggers can be pointed at a single channel or a single role instead of counting server wide.
@@ -159,15 +162,7 @@ Achievements can be grouped into a **tier group** with a **tier number**, lettin
 > 
 > **Exception:** "Reach level X" and "Reach an economy balance of X" achievements are unlocked as soon as a user's level or balance reaches **or passes** the required amount, since a single change can skip past several thresholds at once (e.g. a large XP grant/Double XP Day, or a big economy payout from `/eco monthly`, a shop sale, etc.). Every threshold a user has reached will unlock, not just the highest one.
 {.is-info}
-  
-> Balance achievements are re-checked every time a user's balance changes from any economy action - working, gambling, claiming daily/weekly/monthly rewards, being paid, robbing or being robbed, shop purchases, and so on. There's no separate command to trigger the check.
-{.is-info}
-  
-> **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)
-{.is-warning}
 
-> The progression target (e.g. the "X" in "Send X messages") is capped at **1,000,000**.
-{.is-info}
   
 # Related Commands
 Usage Key: `<required>` / `[optional]`

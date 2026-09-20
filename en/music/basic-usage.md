@@ -2,7 +2,7 @@
 title: Basic Usage
 description: Play music in Discord with Cakey Bot - Basic commands, queue management, volume control. Music bot beginner's guide.
 published: 1
-date: 2026-06-19T23:55:30.210Z
+date: 2026-09-20T12:00:00.000Z
 tags: music
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -44,7 +44,7 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 > The `/volume` command's `volume` parameter accepts a range of **1-200%** and only changes the volume of the current playback session. To update the persistent Default Volume setting above instead, use the command's separate `default-volume` parameter (**0-100**, matching the dashboard's range) — this can be set with or without also changing the live `volume`, and doesn't require a song to be currently playing.
 {.is-info}
 
-> The `/play` command's queue is capped at **50 songs** for non-Premium servers.
+> The `/play` command's queue is capped at **50 songs** for non-Premium servers. Members with [Cakey Personal](/en/feature/cakey-personal) have no queue limit (up to 5,000 songs) in any server.
 {.is-info}
 
 # Multiple Music Bots

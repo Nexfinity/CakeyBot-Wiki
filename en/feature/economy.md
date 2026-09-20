@@ -2,7 +2,7 @@
 title: Economy Overview
 description: Discord economy bot features - Work, rob, shop, gambling games with Cakey Bot. Free economy system configuration guide.
 published: 1
-date: 2026-06-06T22:46:31.152Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T19:35:02.607Z
@@ -55,6 +55,21 @@ On top of the repeatable earning commands above, Cakey Bot offers a set of perio
 > These cooldowns are **rolling windows** measured from your last claim (24 hours, 7 days, and 30 days respectively), not a reset at a fixed calendar time. Claiming your daily reward at 3 PM means you can claim it again starting at 3 PM the next day, not at midnight.
 {.is-info}
 
+### Claim Reminders
+Use **/eco reminders** to get a DM when a reward you have claimed before is ready again.
+* `/eco reminders` on its own shows your current settings for the server.
+* Add `daily`, `weekly` or `monthly` set to `True` or `False` to turn a reminder on or off.
+* You get **one** reminder each time a reward becomes available, and a single DM lists everything that is ready (at most one DM every 10 minutes).
+* Switching a reminder on while the reward is already available does not send a DM straight away. Reminders start after your next claim.
+* The DM has a **Turn off for this server** button.
+* You can also manage reminders from the [User Customization](/en/feature/user-customization#claim-reminders) page, where a master switch turns them all off at once.
+
+> Reminders are opt-in and free for everyone. If your DMs are closed, Cakey Bot cannot reach you and switches your reminders off. Rewards a server has disabled are never reminded about.
+{.is-info}
+
+### Cakey Personal Bonus
+Members with [Cakey Personal](/en/feature/cakey-personal) earn **+25% coins** on money they earn (games, work, begging, robbing and fishing) and get their **daily, weekly and monthly rewards doubled**. Payments, donations, refunds and split payouts are never boosted, and the bonuses multiply with any boosts the member owns. Server admins can switch this off with the **Cakey Personal Coin Bonus** setting below.
+
 # Customization
 In addition to the regular commands, there's a number of customization options that you can configure on our dashboard. These options include:
 
@@ -69,6 +84,7 @@ In addition to the regular commands, there's a number of customization options t
 | Wipe User Balance on Leave  | When enabled, wipes a user’s balance when they leave or are kicked/banned. They will only retain the "Initial Balance" if they rejoin.                                                                       | Disabled            |           |           | No               |
 | Add Space to Currency Symbol| Adds a space between the currency symbol and the number for better readability (e.g., `$100` → `$ 100`).                                                                                                       | Disabled            |           |           | No               |
 | Fishing Weight    | Define if the weight of caught fish should be kg or lbs.                                                                            | lbs          |           |           | No               |
+| Cakey Personal Coin Bonus    | Lets members with [Cakey Personal](/en/feature/cakey-personal) earn +25% coins and doubled daily, weekly and monthly rewards in this server.                                                                                       | Enabled             |           |           | No               |
 | Daily Min Amount             | The minimum amount granted by `/eco daily`.                                                                                                | 1,500                | 1         | 10,000,000 | No               |
 | Daily Max Amount             | The maximum amount granted by `/eco daily`.                                                                                                | 11,000               | 1         | 10,000,000 | No               |
 | Weekly Min Amount            | The minimum amount granted by `/eco weekly`.                                                                                               | 10,500               | 1         | 50,000,000 | No               |
@@ -137,6 +153,7 @@ Usage Key: `<required>` / `[optional]`
 | /eco monthly             | Claim your monthly reward.                                      | N/A                                         | None                   |
 | /eco pay                 | Pay another user.                                              | \<user> \<amount>                           | None                   |
 | /eco donate              | Donate to a randomly selected user.                            | \<amount>                                   | None                   |
+| /eco reminders           | Get a DM when your daily, weekly or monthly reward is ready again. With no options it shows your current settings. | [daily] [weekly] [monthly]      | None                   |
 | /eco rob                 | Attempt to rob another user.                                   | \<user>                                     | None                   |
 | /eco rock-paper-scissors | Challenge another user to Rock, Paper, Scissors.               | \<amount>                                   | None                   |
 | /eco shop                | Purchase items from the shop for bonuses.                      | N/A                                         | None                   |

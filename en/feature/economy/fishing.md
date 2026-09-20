@@ -2,7 +2,7 @@
 title: Fishing
 description: Learn how the Fishing minigame works in Cakey Bot's economy system, including catches, rarities, and rewards.
 published: 1
-date: 2026-06-19T22:34:27.906Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-08T04:09:34.397Z
@@ -92,6 +92,9 @@ You can check your own inventory or look at another player’s stats if you have
 | **Advanced Rod**  | 25,000 | 20%          | Fishing rod with a 20% chance of failure when casting.  |
 | **Master Rod**    | 50,000 | 10%          | Fishing rod with a 10% chance of failure when casting.  |
 | **Legendary Rod** | 100,000 | 2%          | Fishing rod with a 2% chance of failure when casting.  |
+
+> **Cakey Personal:** members with [Cakey Personal](/en/feature/cakey-personal) can fish with the **Legendary Rod** in every server for as long as they are subscribed, without owning it or the rods before it. It is never added to your inventory, so it stops working when the plan ends, and it cannot be bought while it is included.
+{.is-info}
 
 > **Note:** You must buy the previous rod before you can buy the next rod. For example, in order to buy the "Legendary Rod", you must first purchase the "Advanced Rod" THEN the "Master Rod" before you can purchase the "Legendary Rod".
 {.is-info}

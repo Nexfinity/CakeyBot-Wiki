@@ -2,7 +2,7 @@
 title: Setup Custom Bot
 description: Create custom Discord bot with Cakey Bot - Custom branding, private bot hosting. Premium customization setup guide.
 published: 1
-date: 2026-08-15T23:22:54.460Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-17T18:39:13.501Z
@@ -104,6 +104,9 @@ You can individually disable the following commands/features for your custom bot
 * Help command
 * About command
 * Leaderboard buttons
+
+## Cakey Personal Styling
+Members with [Cakey Personal](/en/feature/cakey-personal) get a lime highlight and an icon on leaderboards, including on your bot. If you would rather keep leaderboards unbranded, turn off **Show Cakey Personal styling on leaderboards** on the Custom Bot page of the dashboard. The Personal icons are generic (no Cakey logo).
 
 ## Chat Bot AI Key
 The custom Chat Bot AI API key is **OpenAI-specific only**. It must be a valid OpenAI-format API key, and the model used is restricted to one of the following:

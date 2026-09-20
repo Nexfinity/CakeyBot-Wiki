@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-08-13T08:25:23.962Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -54,6 +54,9 @@ Key technical constraints:
 * XP rates can be modified server-wide or through multipliers
 * Channels and roles can be excluded from XP earning
 
+> Members with [Cakey Personal](/en/feature/cakey-personal) earn **+50% XP** from messages, voice and random XP drops. It multiplies with double XP days and role/channel multipliers. Server admins can switch it off with the **Cakey Personal XP Bonus** setting below.
+{.is-info}
+
 When a user earns enough XP to exceed their current level's threshold, a level-up event is triggered, which can:
 
 * Award role rewards if configured
@@ -77,6 +80,8 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Ignore Deafened Users       | Toggles whether deafened users earn XP in voice channels.                                                                      | Enabled       |           |           | No               |
 | Ignore Solo Users        | Toggles whether users alone in a voice channel earn XP.                                                                                 | Enabled       |           |           | No               |
 | Disable Level Up Mentions        | Toggles whether level up messages will mention users/roles.                                                                                 | Disabled       |           |           | No               |
+| Cakey Personal XP Bonus  | Lets members with [Cakey Personal](/en/feature/cakey-personal) earn +50% XP in this server.                                              | Enabled       |           |           | No               |
+| Personal Rank Cards      | Shows a [Cakey Personal](/en/feature/cakey-personal) member's own rank card banner instead of this server's rank card.                  | Enabled       |           |           | No               |
 | Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 | Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | No |
 | Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 10,000    | No |
@@ -213,7 +218,7 @@ XP Decay reduces a user's XP over time when they are inactive, ensuring leaderbo
 {.is-info}
 
 ## Decay DM Notifications
-By default, Cakey Bot sends a member a DM when their XP decays, with a button on that DM they can press to stop future decay DMs for just themselves. The dashboard's **Decay DM Notifications** setting lets you turn these DMs off for the whole server instead - once disabled, no one gets a decay DM regardless of their individual opt-out status.
+By default, Cakey Bot sends a member a DM when their XP decays, with a button on that DM they can press to stop future decay DMs for just themselves. The dashboard's **Decay DM Notifications** setting lets you turn these DMs off for the whole server instead - once disabled, no one gets a decay DM regardless of their individual opt-out status. Members can also switch decay DMs off for themselves in every server from their [User Customization](/en/feature/user-customization) page.
 
 ## Configuration Settings
 | Name          | Description                                                                                                                                         | Default Value |

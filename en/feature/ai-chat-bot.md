@@ -2,7 +2,7 @@
 title: AI Chat Bot
 description: AI chatbot features in Discord with Cakey Bot - Smart responses, conversation handling. Artificial intelligence setup guide.
 published: 1
-date: 2025-11-01T06:19:58.145Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:16:34.016Z
@@ -70,3 +70,6 @@ Cakey Bot also tracks a separate monthly usage counter for **Imagine** (AI image
 * Non-Premium: 5 Requests/month
 * Premium: 50 Requests/month
 * Custom Bot: 100 Requests/month
+
+# Cakey Personal Allowance
+Members with [Cakey Personal](/en/feature/cakey-personal) get their own monthly allowance on top of the server's: **40** chat requests, **10** image generations and **100** voice transcriptions. The server's limit is always used first; once it runs out, the member's personal allowance is used instead. It is separate for each person, resets on the 1st of every month (UTC), and is shown on the [User Customization](/en/feature/user-customization) page. Custom Bot servers that use their own AI key have no limit, so nothing is taken from it there.

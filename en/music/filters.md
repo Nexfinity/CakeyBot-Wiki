@@ -2,7 +2,7 @@
 title: Filters, Equalizer & Presets
 description: Advanced Discord music bot features - Equalizer, filters, and presets with Cakey Bot. Professional audio setup guide.
 published: 1
-date: 2025-11-01T06:20:43.166Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:06:53.977Z
@@ -28,6 +28,9 @@ You can also use our presets for those of you who just want a quick and easy sol
 * Ear Rape
 
 # Custom Filters <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+> Members with [Cakey Personal](/en/feature/cakey-personal) can use the filters in any server, even without Premium.
+{.is-info}
+
 
 You can also set custom filters on your music using the `/filter <name> <options>` command. If you'd like to revert these changes you can set the `resetfilter` parameter to `true` (e.g. `/filter <name> resetfilter:true`) alongside the command's other required options. If you run the `/nowplaying` command, it will show all of your currently applied filters as well. Our possible filters include:
 

@@ -2,7 +2,7 @@
 title: Streaks
 description: Discord daily streak system with Cakey Bot - Reward consistency, daily check-ins, streak tracking. Engagement rewards setup guide.
 published: 1
-date: 2026-04-05T15:04:02.427Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-28T23:45:44.838Z
@@ -56,7 +56,7 @@ Enabling this feature will have Cakey Bot send reminders to users via DMs when t
 > Note: Due to privacy settings and Discord limitations users may sometimes **not** receive DMs even when this setting is enabled. There is nothing Cakey Bot can do to bypass this if users have DMs blocked.
 {.is-warning}
 
-> Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command or with the opt-out button included on the DM reminder itself.
+> Note: When this is enabled users can manually opt out of DM reminders for themselves using the `/streaks toggle-reminder-opt-out` command or with the opt-out button included on the DM reminder itself. Members can also turn streak reminders off in every server at once from their [User Customization](/en/feature/user-customization) page.
 {.is-info}
 
 ## Disable Nickname Change

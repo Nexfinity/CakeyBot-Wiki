@@ -2,11 +2,28 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-18T22:40:34.978Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 20th - Cakey Personal
+## Added
+* Added **Cakey Personal**, a new plan for you rather than for a server. It stacks with Server Premium and Custom Bot and comes as monthly, yearly or a limited lifetime plan.
+  * +50% XP and +25% coins, with daily, weekly and monthly rewards doubled.
+  * Your own rank card banner, a lime leaderboard highlight with an icon of your choice, and a rank card badge that grows with every month you stay subscribed.
+  * Unlimited music queues and playlists, every music filter in any server, and use of the Music Bot in servers without Premium.
+  * A monthly AI allowance of 40 chat requests, 10 image generations and 100 voice transcriptions, used after the server's own limit.
+  * The Legendary fishing rod for as long as you are subscribed.
+  * Server admins can switch off the XP bonus, the coin bonus and personal rank cards, and Custom Bot owners can hide the Personal leaderboard styling.
+  * See the [Cakey Personal](/en/feature/cakey-personal) page.
+* Added a real **User Customization** page at [cakey.bot/user-customization](https://cakey.bot/user-customization) with notification preferences that apply in every server: level-up DMs, streak reminders, XP decay DMs and achievement pings. Per-server streak and decay DM settings can now be changed there too. See the [User Customization](/en/feature/user-customization) page.
+* Added **claim reminders**: `/eco reminders` (or the User Customization page) sends you one DM when your daily, weekly or monthly reward is ready again.
+* Added tier colours and the Personal icon to the website leaderboards and the public leaderboard pages.
+
+## Changed
+* The Manage Subscriptions page now finds and can cancel Cakey Personal subscriptions.
 
 # September 18th - Invite Tracking & Server Statistics
 ## Fixed

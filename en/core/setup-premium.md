@@ -2,7 +2,7 @@
 title: Setup Premium
 description: Activate Cakey Bot Premium features - 24/7 music, unlimited playlists, advanced moderation. Step-by-step premium activation guide.
 published: 1
-date: 2026-03-21T16:41:15.396Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-01T01:06:38.138Z
@@ -19,6 +19,9 @@ Server Premium is a subscription that applies to only one server per licence but
 - Auto Responder & Custom Command Embeds				
 - Custom Boost Announcements
 - See the full list of features [here](https://cakey.bot/premium)
+
+### Cakey Personal
+Cakey Personal is a subscription for **you** rather than a server. Its perks - bonus XP and coins, your own rank card, a lime leaderboard highlight, unlimited music, extra AI requests and more - follow you into every server, and it stacks with Server Premium and Custom Bot. See the full details on the [Cakey Personal](/en/feature/cakey-personal) page.
 
 ### Custom Bot
 Custom Bot is an advanced version of Premium that allows you to completely rebrand Cakey Bot with your own Logos, Emotes, Bio, Username and more! Custom Bot allows you to have:
@@ -43,6 +46,9 @@ To purchase Cakey Bot Premium, you can follow these steps:
 4. Follow the instructions to complete the payment process.
 
 After, you can also purchase add-ons or cancel the subscription.
+
+> Cakey Personal is bought on its own page, [cakey.bot/personal](https://cakey.bot/personal), and is applied to **you**, not to a server - there is nothing to add to a server afterwards.
+{.is-info}
 # How to Apply Premium to Servers
 Here are some step-by-step instructions on how to apply premium to servers:
 1. Open the [web dashboard](https://cakey.bot/dashboard).
@@ -61,5 +67,5 @@ Here are some step-by-step instructions on how to remove premium from servers:
 2. Login by clicking the login button (either the 'arrow' button in the nav bar or the login buttons on the premium page).
 3. Click the user profile dropdown menu in the top-right nav bar (will have your profile picture and username)
 4. Click "Manage Subscriptions" in that dropdown.
-5. Find the subscription you want to manage and click the red "Cancel" button.
+5. Find the subscription you want to manage (Server Premium, Custom Bot and Cakey Personal all appear here) and click the red "Cancel" button.
 6. Follow the on screen instructions to finish the cancelation.

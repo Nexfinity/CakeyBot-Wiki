@@ -2,7 +2,7 @@
 title: Music Playlists
 description: Advanced Discord music bot features - Playlists with Cakey Bot. Professional audio setup guide.
 published: 1
-date: 2026-07-09T19:50:13.742Z
+date: 2026-09-20T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:02:54.523Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:02:54.523Z
 
 # Overview
 
-> Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. ([Premium](https://cakey.bot/premium) users are excluded from this limit)
+> Playlists must have 50 songs or less to be added to the queue and can not exceed the max queue size of 50 songs. ([Premium](https://cakey.bot/premium) servers and members with [Cakey Personal](/en/feature/cakey-personal) are excluded from this limit)
 {.is-warning}
 
 # Load Playlists

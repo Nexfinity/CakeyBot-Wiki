@@ -38,7 +38,7 @@ You can hold **one** Personal plan at a time. If you already have one, the purch
 | **Bigger AI allowance** | Your own monthly allowance on top of the server's: **40** AI chat requests, **10** image generations and **100** voice transcriptions. |
 | **Legendary fishing rod** | Fish with the Legendary Rod in every server for as long as you are subscribed, without buying the earlier rods first. |
 
-> **What Personal does not change:** 24/7 music is a server setting and stays a Server Premium feature. Other members of a server without Premium still need the *server* to have Premium for their own Music Bot commands.
+> **What Personal does not change:** other members of a server without Premium still need the *server* to have Premium for their own Music Bot commands.
 {.is-warning}
 
 ## AI Allowance

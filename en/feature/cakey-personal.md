@@ -33,7 +33,7 @@ You can hold **one** Personal plan at a time. If you already have one, the purch
 | **Double claims** | `/eco daily`, `/eco weekly` and `/eco monthly` pay **exactly double** (not double plus 25%), before any boosts you own. |
 | **Your own rank card** | Design one rank card banner that is shown instead of the server's card for your `/rank`, including the premium backgrounds. |
 | **Lime leaderboard highlight and icon** | A lime slot and an icon of your choice next to your name on the bot's leaderboard images, the website leaderboards and the public leaderboard pages. |
-| **Rank card badge** | The tier badge on your rank card grows with every month you stay subscribed. If you also hold a server subscription, the longer of the two is used. |
+| **Rank card badges** | A lime leaf badge sits among your other badges on your rank card, and the tier badge next to it grows with every month you stay subscribed. The tier badge counts from the earliest start date across Cakey Personal, Server Premium and Custom Bot, so an older subscription is never reset by a new one. |
 | **Unlimited music** | No queue or playlist size limits (up to 5,000 tracks) and every music filter, in any server. You can also use the Music Bot in servers that do not have Premium. |
 | **Bigger AI allowance** | Your own monthly allowance on top of the server's: **40** AI chat requests, **10** image generations and **100** voice transcriptions. |
 | **Legendary fishing rod** | Fish with the Legendary Rod in every server for as long as you are subscribed, without buying the earlier rods first. |

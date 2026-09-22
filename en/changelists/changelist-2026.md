@@ -2,13 +2,35 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-20T12:00:00.000Z
+date: 2026-09-22T20:50:11.660Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
+# September 22nd - Achievement Fixes & User Preferences Button
+## Fixed
+* Fixed automatic achievements staying locked at full progress.
+  * An achievement only unlocked when a counter landed exactly on its limit, so one created, edited, or recreated after you had already passed it never unlocked.
+  * Every trigger now unlocks anything you have reached or passed, boost and birthday achievements included.
+  * Achievements you already earned are filled in quietly the next time you are active, without announcing them again.
+  * Lower tiers of a tier group you already hold are filled in as well.
+* Fixed creating an achievement on the dashboard sometimes adding it two or three times.
+  * The create button now waits while the save is in flight, and an identical achievement is no longer added twice.
+* Fixed sending an embed to a webhook failing with "Discord rejected the embed".
+  * Webhook sends now go through the same checks as channel sends, so an embed that posts to a channel posts to a webhook too.
+* Fixed the send to channel list showing only None on custom bot servers.
+  * Loading a dashboard page could log the custom bot out mid request, which also caused random 401 errors on other pages.
+  * If Discord genuinely refuses a custom bot token, the dashboard now says so and links to the Custom Bot settings instead of showing empty lists.
+
+## Added
+* Added a Manage User Preferences button to level up, streak reminder, streak reset, and XP decay DMs.
+  * Opens `cakey.bot/user-customization`, and if you are not signed in you land back on it after logging in.
+
 # September 20th - Cakey Personal
+## Changed
+* The Manage Subscriptions page now finds and can cancel Cakey Personal subscriptions.
+
 ## Added
 * Added **Cakey Personal**, a new plan for you rather than for a server. It stacks with Server Premium and Custom Bot and comes as monthly, yearly or a limited lifetime plan.
   * +50% XP and +25% coins, with daily, weekly and monthly rewards doubled.
@@ -21,9 +43,6 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Added a real **User Customization** page at [cakey.bot/user-customization](https://cakey.bot/user-customization) with notification preferences that apply in every server: level-up DMs, streak reminders, XP decay DMs and achievement pings. Per-server streak and decay DM settings can now be changed there too. See the [User Customization](/en/feature/user-customization) page.
 * Added **claim reminders**: `/eco reminders` (or the User Customization page) sends you one DM when your daily, weekly or monthly reward is ready again.
 * Added tier colours and the Personal icon to the website leaderboards and the public leaderboard pages.
-
-## Changed
-* The Manage Subscriptions page now finds and can cancel Cakey Personal subscriptions.
 
 # September 18th - Invite Tracking & Server Statistics
 ## Fixed

@@ -2,11 +2,34 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-22T20:50:11.660Z
+date: 2026-09-23T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 23rd - Forms Rule Sets & Placeholders
+## Fixed
+* Fixed denying a form submission from Discord leaving the Accept and Deny buttons on the post.
+  * Denied posts are now marked the same way approved ones are, and both get a ✅ or ❌ reaction, including when decided from the dashboard.
+* Fixed Markdown in form descriptions, success messages, reviewer notes and answer options showing as literal asterisks on the website.
+* Fixed conditional questions sometimes showing or hiding differently in the browser than on submit.
+* Fixed quoted answers (`{{Q1}}`) showing the raw placeholder until the question was answered.
+* Fixed page breaks being counted as questions, and showing as empty answers in responses and CSV exports.
+* Fixed My Submissions showing responses to forms without a review step as awaiting review forever.
+* Fixed saving a custom bot token onto the wrong slot breaking the dashboard for every server. The save is now refused with a message pointing at the right slot.
+
+## Changed
+* Form conditions are now grouped into rule sets, each set to all or any of its conditions, instead of a flat list with a rule set number. See the [Forms wiki page](/en/feature/forms#conditional-visibility).
+* A condition on a multiple choice, dropdown or checkbox question now picks its expected answer from the question's options instead of it being typed.
+* Form text now supports underline, `-#` subtext and headings, matching Discord.
+
+## Added
+* Added placeholders to a form's success message and launch announcement, including `{form.name}`, `{form.link}` and `{form.expiresat}`. See the [Forms wiki page](/en/feature/forms#placeholders).
+* Added an Allow Editing After Submitting setting to forms, on by default.
+* Added Move to page on form questions, to move or copy a question onto another page.
+* Added a Submit again link to My Submissions when a form accepts another submission.
+* Added the server banner to public form pages.
 
 # September 22nd - Achievement Fixes & User Preferences Button
 ## Fixed

@@ -2,7 +2,7 @@
 title: Forms
 description: Custom forms with Cakey Bot - ban appeals, join applications, conditional questions. Build forms, review responses, automate decisions.
 published: 1
-date: 2026-09-10T09:49:09.000Z
+date: 2026-09-23T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-30T20:34:56.856Z
@@ -41,6 +41,8 @@ Forms let you collect structured answers from users through a public web page in
 
 **Allow Resubmitting After Rejection:** Lets a rejected user submit again, even when Allow Multiple Submissions is off.
 
+**Allow Editing After Submitting:** Lets submitters change their answers until the response is decided (see [Editing a Submission](#editing-a-submission)). On by default. Turn it off and the Edit my answers link is hidden and edits are refused.
+
 **Max Responses:** Closes the form automatically once it has collected this many submissions. Leave blank for unlimited.
 
 **Active / Draft:** A draft form is fully editable but its public link returns nothing to submitters (staff with manage access can still open it in preview). Publishing a form takes it out of draft; toggling it inactive afterward stops new submissions without touching the draft state or deleting anything.
@@ -49,7 +51,7 @@ Forms let you collect structured answers from users through a public web page in
 
 **Expires At:** Optional date/time after which the form stops accepting submissions.
 
-**Announcement Channel / Role / Message:** When a form has an Opens At time, Cakey can post an announcement the moment it opens, optionally pinging a role. The announcement is only ever posted once per form.
+**Announcement Channel / Role / Message:** When a form has an Opens At time, Cakey can post an announcement the moment it opens, optionally pinging a role. The announcement is only ever posted once per form. The message supports [placeholders](#placeholders).
 
 **Required Role:** Restricts submission to members holding a specific role. Not used for join applications, since the submitter isn't a member yet.
 
@@ -59,7 +61,7 @@ Forms let you collect structured answers from users through a public web page in
 
 **Allow Anonymous:** Stores a response without the submitter's Discord identity. The submitter still has to sign in with Discord so the form can check they're allowed to submit, but their user ID, name, and answers aren't linked back to them once stored. Because there's no user to act on, a form using this cannot add/remove roles, unban, or invite anyone when a response is decided.
 
-**Success Message:** Custom text shown after a successful submission. Leave blank for the default message.
+**Success Message:** Custom text shown after a successful submission and in the DM confirming it. Leave blank for the default message. Supports [Markdown](#formatting) and [placeholders](#placeholders).
 
 **Require CAPTCHA:** Adds a Cloudflare Turnstile challenge to the public page.
 > Turnstile needs `Turnstile__SiteKey` and `Turnstile__SecretKey` configured on the website. If they're missing, a form with this enabled will refuse every submission rather than silently skip the check.
@@ -97,6 +99,27 @@ A user can only ever have one appeal pending or under review on a form at a time
 
 **Roles Held For Applicant:** Roles from this list are saved for the applicant the moment they're approved, and applied automatically as soon as they actually join through the generated invite - they don't need to still be present at approval time for this to work.
 
+## Placeholders
+
+The Success Message and the Announcement Message can use these placeholders. A hint under both fields in the builder lists the form ones.
+
+`{form.name}` - The name of the form\
+`{form.link}` - The link people use to open the form\
+`{form.role}` - The form's Required Role\
+`{form.submissions}` - How many submissions the form accepts (Max Responses, otherwise unlimited or 1)\
+`{form.opensat}` - When the form opens\
+`{form.expiresat}` - When the form closes\
+`{user.mention}` - Mentions the submitter\
+`{user.id}` - The submitter's ID\
+`{user.username}` - The submitter's username\
+`{user.globalname}` - The submitter's display name\
+`{server.name}` - The server's name\
+`{server.id}` - The server's ID
+
+The `user` placeholders describe the submitter, so they come out empty in the launch announcement, which isn't about anyone. On the website, where Discord markup would show up raw, a mention, role, or date is written out as a plain name or date instead. Anything else in curly braces is left as written.
+
+See the [Placeholders](/en/placeholders) page for more on how placeholders work.
+
 # Questions
 
 A form is built from questions, added and reordered in the Form Builder. There are 9 question types:
@@ -115,9 +138,9 @@ A form is built from questions, added and reordered in the Form Builder. There a
 
 A question can also carry an **image of its own**, shown above the answer field. That's separate from the Image Upload type: one is a picture you show the submitter, the other is a picture you ask them for.
 
-## Question Text
+## Formatting
 
-Question text supports a subset of Markdown: bold, italics, strikethrough, lists, links, inline code, code blocks and tables. Line breaks are kept as written, so you can lay out examples across several lines.
+Question text, answer options for multiple choice and checkbox questions, the form's description, the Success Message and reviewer notes all support a subset of Markdown: headings (`#`, `##`), bold, italics, underline (`__text__`), strikethrough, subtext (`-#`), lists, links, inline code, code blocks and tables. Formatting follows Discord's rules, so text looks the same on the website as in the DMs Cakey sends. Line breaks are kept as written, so you can lay out examples across several lines.
 
 > Anything that isn't plain formatting or a normal `http`/`https` link is stripped before the page is sent. A question cannot be used to inject scripts into the form.
 {.is-info}
@@ -130,6 +153,10 @@ Adding a **page break** splits everything after it onto a new page. Submitters a
 
 Each page can have its own title and introduction text, and pages can be dragged into a different order in the builder without disturbing the questions inside them.
 
+To put a question on a different page, use **Move to page** on the question. Pick the page, then choose **Move** to take it there or **Copy** to leave the original where it is. The builder then switches to that page.
+
+Page breaks aren't questions. They're left out of the question count on the Forms page, the responses and the CSV export.
+
 Answers are saved as a draft as each page is completed, so closing the tab part way through doesn't lose anything. Reopening the form picks up where the submitter left off.
 
 ## Image Upload Questions
@@ -141,10 +168,20 @@ Every upload is decoded and re-encoded before it's stored, so only the actual pi
 > SVG files are refused. They're XML and can carry scripts, so they're never accepted as an answer.
 {.is-warning}
 
+## Quoting Earlier Answers
+
+Turn on **Quote earlier answers in this question** and write `{{Q1}}` in a question's text to show the answer given to question 1, `{{Q2}}` for question 2, and so on. Questions are numbered in order across the whole form, page breaks not included. Until the earlier question is answered, the placeholder shows nothing, and long answers are cut down to 100 characters.
+
+Duplicating or moving questions updates these numbers, so they still point at the same questions.
+
+## Required Only When
+
+A question can be made required only when an earlier answer matches something, using **Required only when** in its settings. Leave it on **Always use the setting above** to just follow the question's normal Required setting.
+
 ## Conditional Visibility
 
 Any question can be hidden unless the submitter meets conditions you set, checked against:
-* **A previous answer** (equals, doesn't equal, contains, greater than, or less than a value you set).
+* **A previous answer** (equals, doesn't equal, contains, greater than, less than, is answered, or is not answered). For multiple choice, dropdown and checkbox questions you pick the expected answer from that question's options instead of typing it, so renaming an option doesn't silently break the condition. A condition on a question the submitter can't see never passes.
 * **Discord roles** the submitter holds (any of, all of, or none of a list you choose).
 * **Server tenure** - how long they've been a member.
 * **Account age** - how old their Discord account is.
@@ -152,16 +189,20 @@ Any question can be hidden unless the submitter meets conditions you set, checke
 * **Nitro status** - whether they have Discord Nitro.
 * **Permissions** - whether they hold specific guild permissions.
 
-Conditions within the same group all have to pass (AND); separate groups are combined so that passing any one group is enough (OR). This lets you build something like "show this question if the user has the Verified role AND has been a member 30+ days, OR if they have the Staff role."
+Conditions are grouped into **rule sets**. Each rule set has its own setting for how its conditions combine:
+* **All conditions must pass** (AND)
+* **Any condition can pass** (OR)
+
+Use **Add rule set** to add another one. The question shows when **any** rule set passes. This lets you build something like "show this question if the user has the Verified role AND has been a member 30+ days, OR if they have the Staff role" with two rule sets.
 
 > Every condition about the submitter is checked on the server before the page is sent to them. A question they don't qualify for is never included in what their browser receives - it isn't just hidden with CSS.
 {.is-info}
 
 # Submitting a Form
 
-Share a form's public link (`https://cakey.bot/forms/<code>`) anywhere - it works for anyone, including people who aren't signed in yet, so a shared link still shows the form's name and description as a preview. Actually answering and submitting requires signing in with Discord.
+Share a form's public link (`https://cakey.bot/forms/<code>`) anywhere - it works for anyone, including people who aren't signed in yet, so a shared link still shows the form's name and description as a preview. Actually answering and submitting requires signing in with Discord. The page shows the server's icon, with its banner above it if it has one.
 
-The public page shows a progress indicator as questions are answered, and a review step summarizing every answer before the final submit. After submitting, the user lands on a status page showing their response's current state (Pending, Under Review, Approved, or Rejected), which they can return to later from the link they were given or from **My Submissions** (`https://cakey.bot/my-form-submissions`), reachable from the user menu once signed in - this lists everything they've submitted across every server that uses Cakey Bot.
+The public page shows a progress indicator as questions are answered, and a review step summarizing every answer before the final submit. After submitting, the user lands on a status page showing their response's current state (Pending, Under Review, Approved, or Rejected, or just Received for a form without Require Approval), which they can return to later from the link they were given or from **My Submissions** (`https://cakey.bot/my-form-submissions`), reachable from the user menu once signed in - this lists everything they've submitted across every server that uses Cakey Bot. When the form lets them submit again (Allow Multiple Submissions, or Allow Resubmitting After Rejection after a rejection), My Submissions shows a **Submit again** link.
 
 Required questions and invalid answers are caught before the review step, across every page rather than only the one being looked at. Each question needing attention is outlined with the reason underneath it, and the page jumps to the first one.
 
@@ -169,7 +210,7 @@ The submitter also gets a DM confirming the submission, with a **View Submission
 
 ## Editing a Submission
 
-A submitter can change their answers from their status page for as long as the response hasn't been decided. Once a reviewer approves or rejects it, editing is refused - what the reviewer acted on stays as they read it.
+A submitter can change their answers from their status page for as long as the response hasn't been decided, as long as the form has **Allow Editing After Submitting** on. Once a reviewer approves or rejects it, editing is refused - what the reviewer acted on stays as they read it.
 
 Editing a response:
 * Rewrites the message in the Submit Channel so reviewers see the current answers, marked as edited.
@@ -182,7 +223,7 @@ Responses can be decided from either the dashboard or Discord.
 
 **From the dashboard:** open a form's Responses from the Forms page to see everything submitted to it. Each response can be approved or rejected with optional reviewer notes attached.
 
-**From Discord:** when a form has Require Approval enabled, its submission message in the Submit Channel carries **Accept** and **Deny** buttons. Denying opens a box asking for a reason, which is passed on to the submitter. Who may press them is controlled by Reviewer Roles (see [Approval & Rejection Actions](#approval-rejection-actions)); with none set, anyone holding **`Manage Server`** or **`Administrator`** can. Once decided, the message records who decided it and the buttons are removed.
+**From Discord:** when a form has Require Approval enabled, its submission message in the Submit Channel carries **Accept** and **Deny** buttons. Denying opens a box asking for a reason, which is passed on to the submitter. Who may press them is controlled by Reviewer Roles (see [Approval & Rejection Actions](#approval-rejection-actions)); with none set, anyone holding **`Manage Server`** or **`Administrator`** can. Once decided, whether from Discord or the dashboard, the message is recoloured, records who decided it, has its buttons removed, and gets a ✅ or ❌ reaction so the outcome shows at a glance.
 
 Deciding a response:
 * Runs the role changes configured for that outcome (Approval/Rejection Actions above).
@@ -192,7 +233,7 @@ Deciding a response:
 
 A response can only be decided once - approving or rejecting an already-decided response is refused.
 
-You can also export all of a form's responses to CSV from the Responses page.
+You can also export all of a form's responses to CSV from the Responses page, with one column per question.
 
 # Version History
 

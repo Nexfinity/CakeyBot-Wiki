@@ -2,11 +2,33 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-23T12:00:00.000Z
+date: 2026-09-24T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 24th - Role Panels, Auto Message Frequencies & Stability
+## Fixed
+* Fixed the bot going offline repeatedly while the database struggled.
+  * The streak reminder check loaded almost the whole streak table once a minute from every bot; it now loads only the members it might remind, once every half hour.
+* Fixed reminders, giveaways, temporary bans and temporary roles set far in the future stopping the whole queue.
+  * Jobs are now loaded a day ahead as their time approaches, so one set years out no longer sits in memory or breaks the others.
+* Fixed auto messages on servers whose local date differs from UTC sometimes being skipped or posted twice.
+* Fixed automatic achievements created after you passed their limit staying locked, for boost and birthday achievements too.
+
+## Changed
+* The achievements page toolbar now remembers your search, filter, sort and page size per server, shows total and shown counts, and can sort by most owners.
+* Achievement cards show the roles the achievement adds and removes, and how many members hold it; click the count to see who.
+* Deleting an achievement or an auto responder now names the entry in the confirmation.
+
+## Added
+* Added **Role Panels** to Self Roles: design a message with a select menu or buttons that members use to pick roles, with a live preview, and post it into a channel from the dashboard. See the [Self Roles wiki page](/en/feature/self-roles#role-panels).
+  * Any role can go on a panel; one that is not a self role yet is added to your self roles when you save.
+  * With Premium, a panel can use a saved embed from the Embed Builder, with your own message text above it.
+* Added **every other week** and **monthly** frequencies to auto messages. See the [Auto Messages wiki page](/en/feature/auto-messages#frequency).
+* Added edit detection to the counting game: editing a counted message into something else is treated as a mistake. See the [Counting wiki page](/en/feature/counting).
+* Added `/achievements owners` to see who has unlocked an achievement.
 
 # September 23rd - Forms Rule Sets & Placeholders
 ## Fixed

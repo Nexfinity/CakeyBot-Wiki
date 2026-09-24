@@ -65,7 +65,12 @@ To delete an achievement follow these steps:
 1. Open the "Achievements" page
 2. Find the achievement you want to delete
 3. Click the red trash can button on the achievement
-4. Confirm the deletion in the pop-up modal
+4. Confirm the deletion in the pop-up modal (it names the achievement and its ID, so you can be sure you picked the right one)
+
+## Overview Toolbar
+The toolbar above the achievement cards lets you search, filter by state or trigger, sort, and choose how many cards to show per page. These choices are remembered per server, so they survive creating or editing an achievement. The right of the toolbar shows how many achievements you have in total and how many match the current search and filter.
+
+Each card also shows the roles the achievement adds (`+`) and removes (`-`) when unlocked, and a member count of how many people currently hold it. Click the count to see who they are, or use `/achievements owners` in Discord.
 
 # Customization Options
 ## Background Banners
@@ -174,5 +179,6 @@ Usage Key: `<required>` / `[optional]`
 | /achievements custom | Grant or revoke a custom achievement. | \<grant \| revoke> \<achievement> [user] | Manage Events |
 | /achievements showcase | Show off the achievement badges a member has unlocked. | [user] | None |
 | /achievements leaderboard | See who has unlocked the most achievements in this server. | N/A | None |
+| /achievements owners | See which members have unlocked a specific achievement. | \<achievement> | None |
 | /setup force-check-boosts | Force check user boosts for achievements. | N/A | ManageServer or Administrator | 
 | /setup clear-achievement-data | Remove ALL achievement data for the server. | N/A | ManageServer or Administrator | 

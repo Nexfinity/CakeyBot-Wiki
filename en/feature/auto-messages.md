@@ -30,6 +30,13 @@ The auto message feature allows server owners to schedule recurring messages tha
 > Auto Messages will send every day at the specified time by default, or you can configure a specific day of the week for the message to send instead. The time will be based on the "Timezone" that you configure for your server on the "Bot Settings" page.
 {.is-info}
 
+## Frequency
+Besides every day or one weekday, a message can repeat less often:
+
+* **Every week** - the default: every day, or on the chosen weekday.
+* **Every other week** - on the chosen weekday, skipping alternate weeks. The two-week spacing counts from the first time the message is posted, and starts over when you change the weekday or frequency.
+* **Every month** - on a chosen day of the month. A day the month does not have (for example the 31st) posts on the month's last day instead.
+
 # Custom Embeds <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
 You can include an optional embed on responses by following the steps below:
 

@@ -108,6 +108,8 @@ When a member posts a correct count, Cakey Bot reacts to their message with ✅.
 
 When a member posts an incorrect count, Cakey Bot replies explaining what happened - whether the count reset back to `1` or is continuing from where it left off - and states the server's all-time highest streak.
 
+Editing a counted message is treated the same as a mistake. If the message holding the current count is edited to anything other than the number it was accepted for, or an older message with a ✅ is edited so it no longer reads as a count at all, the ✅ is swapped for ❌ and the count resets (or a Counting Save is spent), following the same "Reset on Mistake" and fail role settings.
+
 > The all-time highest streak is tracked permanently for your server and never decreases, even when the current count resets. It's a record of the best your server has ever done!
 {.is-success}
 

@@ -34,8 +34,29 @@ Each self role can also be edited or deleted from the same page.
 
 Once you've added some roles to the self role list, you (and your users) can add/remove them from yourselves using the `/selfrole use <role>` and `/selfrole unuse <role>` commands.
 
-> If you want to use our advanced self-assign method (selection dropdowns) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed where users can assign themselves roles using select-menu dropdowns.
+> If you want to use our advanced self-assign method (selection dropdowns) you will need to create a self-role embed using the `/selfrole embed` command. This will generate an embed where users can assign themselves roles using select-menu dropdowns. For a panel you can design and edit from the dashboard, see [Role Panels](#role-panels).
 {.is-info}
+
+# Role Panels
+
+A role panel is a message Cakey Bot posts in a channel where members pick roles with a click, no commands needed. Panels are managed under **Role Panels** on the Self Roles dashboard page.
+
+Each panel has:
+
+* A **name**, only shown on the dashboard.
+* A **picker style**: a **select menu** (one dropdown; what a member has selected is what they hold) or **buttons** (one per role; pressing it adds or removes that role).
+* An **embed title and text** shown above the picker. With Premium, a saved embed from the Embed Builder can take their place, with the text field then posted as the message above it.
+* **Roles**: up to 25 roles. Each can have its own label and emoji (a unicode emoji, or a custom emote as `<:name:id>`), and with buttons, a button colour. A role that is not a self role yet is added to your self role list when the panel is saved, so its requirements and group can be set there afterwards.
+
+The dashboard shows a live preview of the panel while you edit it. Click the paper plane on a panel to post it into a channel. Editing a posted panel updates the message in Discord on its own; deleting a panel removes the message too.
+
+Panels respect every self role rule: role requirements, group limits and prerequisites, and the Administrator / Manage Server / Manage Roles restriction.
+
+> Free servers can keep **1** panel, Premium servers **3**, and Custom Bots **10**. One panel is enough for most servers, since it offers up to 25 roles.
+{.is-info}
+
+> With Premium, a panel can use a saved embed from the Embed Builder instead of the plain title and text, for full control over the look.
+{.is-success}
 
 # Role Requirements
 You can also set optional role requirements. This means users will need to meet or exceed these requirements in order to assign the role to themselves. The currently supported requirements are:

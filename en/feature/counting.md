@@ -2,7 +2,7 @@
 title: Counting
 description: Discord counting game with Cakey Bot - group counting channel, exact number, equation, or equation-only mode, streak tracking. Community engagement guide.
 published: 1
-date: 2026-09-18T21:59:20.466Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-26T19:43:10.813Z
@@ -32,6 +32,9 @@ Controls what counts as a valid next number.
 * **Equation Only** - The next message must be a math equation that evaluates to the next number - a bare number by itself is **not** accepted, even if it's correct. For example, after `3` is posted, `2*2` is accepted but `4` on its own is not.
 
 > In **Exact OR Equation** and **Equation Only** modes, the letter `x`/`X` is automatically treated as a multiplication sign, since that's common informal notation. Posting `2x2` is treated the same as `2*2` - it won't be rejected as a wrong answer.
+{.is-info}
+
+> The same two modes also read a comma as a decimal separator and superscript digits as an exponent. `9,99+0,01` is treated the same as `9.99+0.01`, and `8²` the same as `8^2`.
 {.is-info}
 
 ## Prevent Consecutive Counting
@@ -72,6 +75,13 @@ By default, Cakey Bot replies with a built-in failure message when someone break
 
 If both are left empty, Cakey Bot falls back to its default failure message. If a Custom Failure Embed was previously set but your server's premium subscription has since ended, Cakey Bot falls back to the Custom Failure Message (or the default message if that's empty too) until premium is restored.
 
+## Rewards for Counting
+Pay members in your server's [economy](/en/feature/economy) currency for every correct count. Set the least and the most a count pays, and the amount is picked at random between the two, up to `1000` per count.
+
+* Set the most to `0` to pay nothing, which is the default.
+* The least cannot be more than the most.
+* Only correct counts pay. A mistake pays nothing, whether or not a save was spent on it.
+
 ## Reset Current Count
 A "Reset Count" button on the dashboard immediately resets the current count back to `0` - the same reset that happens when someone breaks the count - without needing anyone to actually post an invalid message in Discord.
 
@@ -87,6 +97,14 @@ If a member holding at least one save breaks the count - posts the wrong number,
 {.is-info}
 
 To offer Counting Saves, create a shop item of type "Counting Save" from the [Economy Shop](/en/feature/economy) settings on the dashboard, choosing how many saves a single purchase grants (1-100).
+
+# Member Stats and Leaderboards
+Cakey Bot keeps three numbers for every member who takes part: how many counts they got right, how many they got wrong, and how many saves were spent on them. `/counting leaderboard` shows the top 10 members for whichever of the three you pick, and the server's leaderboard page on the website has a Counting tab with the same numbers.
+
+Correct counts can also unlock [achievements](/en/feature/achievements) through the "Count correctly X times" trigger.
+
+> Stats are recorded from the update that added them. Counts made before that are not included.
+{.is-info}
 
 # Milestone Roles
 Automatically grant a role to whoever breaks the count once your server reaches a specific number.
@@ -122,3 +140,4 @@ Usage Key: `<required>` / `[optional]`
 | /counting my-role | Shows whether you currently hold the server's [Fail Role](#fail-role), and when it expires if temporary. | N/A | None |
 | /counting break-role | Shows the role (if any) assigned to whoever breaks the count, and whether it's permanent or temporary. | N/A | None |
 | /counting saves | Shows how many counting saves you currently hold. | N/A | None |
+| /counting leaderboard | Shows who has counted the most, slipped the most or used the most saves. | [board] | None |

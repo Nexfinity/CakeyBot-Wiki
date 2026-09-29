@@ -2,7 +2,7 @@
 title: Tags
 description: Discord tag system with Cakey Bot - Quick responses, stored information, command aliases. Knowledge base creation guide.
 published: 1
-date: 2026-04-10T23:15:37.509Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:21:24.448Z
@@ -29,10 +29,16 @@ This feature allows you to set up a variety of "tags" that users can list and us
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to "Tags".
 3. Click the "Add New Tag" button
-4. Fill in the required information. All tags will require a name and a response.
+4. Fill in the required information. All tags will require a name and either a response or a saved embed.
 5. Click "Create"
 
 Once you have created tags, you can also modify them here. You can also toggle a tag enabled or disabled without deleting it.
+
+## Embeds
+A tag can send a saved embed from the [Embed Builder](/en/feature/embed-editor). Pick the embed in the add, edit or duplicate window. The tag's text is posted above the embed, and can be left empty for a tag that is only an embed.
+
+> Tag embeds are a **premium** feature. If your server's premium subscription ends, the tag goes back to sending its text only until premium is restored.
+{.is-warning}
 
 # Create/Manage Tags (Bot/In-Discord)
 

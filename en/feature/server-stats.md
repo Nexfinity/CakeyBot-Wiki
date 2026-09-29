@@ -2,7 +2,7 @@
 title: Server Statistics
 description: Discord server activity statistics with Cakey Bot - Message and voice activity per member and channel, charts, busiest hours, activity roles and live counter channels.
 published: 1
-date: 2026-09-18T12:00:00.000Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-18T12:00:00.000Z
@@ -32,6 +32,12 @@ Every tab follows the range picked at the top: the last 24 hours, 7 days or 30 d
 * **Activity roles** ~ Roles handed out automatically from activity, see below.
 * **Counter channels** ~ The placeholders that put live activity numbers into statistic channel names and the stats message.
 * **Tracking settings** ~ Enable tracking, whether bots count, whether muted or deafened voice time and the AFK channel count, excluded channels, roles and members, and resetting one member or the whole server.
+
+## Member Count, Joins and Leaves
+The member count is recorded about once an hour, so a server that has just been set up shows its first count within the hour. Joins and leaves are counted as they happen, and do not need [Invite Tracking](/en/feature/invite-tracking) to be enabled.
+
+> This works the same on a custom bot. Days from before the bot started recording stay empty on the chart.
+{.is-info}
 
 # Activity Roles
 A rule gives a role to the members whose activity matches it and removes it again when it no longer does. Each rule sets:

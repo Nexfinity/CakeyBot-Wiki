@@ -121,6 +121,12 @@ You can wrap part of your message in a conditional block so it only appears for 
 * `{#level.N}...{/level.N}` - Only shows the text between the tags if the level the user just reached is **exactly** `N`.
 * `{^level.N}...{/level.N}` - The inverse: only shows the text between the tags if the level the user just reached is **NOT** `N`.
 
+`N` can also cover more than one level:
+* `{#level.10-24}...{/level.10-24}` - A range, here levels 10 through 24, both included.
+* `{#level.100+}...{/level.100+}` - Open ended, here level 100 and everything above it.
+
+Ranges work with `{^level.N}` too, and the closing tag must repeat the range exactly as the opening tag wrote it.
+
 For example, this message shows a special line only on level 10:
 ```
 Congratulations {user}! You have advanced to level {level}!{#level.10}You've unlocked double digits!{/level.10}
@@ -137,6 +143,25 @@ Blocks can also be nested inside each other, as long as each closing `{/level.N}
 ```
 
 Text outside of any conditional block always shows up as normal, exactly like any other placeholder text.
+
+### Random Messages
+Wrap several messages in a choose block and one of them is picked at random each time, so members do not see the same announcement on every level:
+```
+{#choose}
+Nice! {user} just reached level {level}!
+{or}
+Look who's climbing the ranks! {user} is now level {level}!
+{or}
+Level {level} unlocked for {user}! Keep going!
+{/choose}
+```
+
+A choose block can sit inside a level block, which gives each level range its own set of messages:
+```
+{#level.10-24}{#choose}Double digits suit you, {user}!{or}{user} is now level {level}!{/choose}{/level.10-24}
+```
+
+A choose block cannot be placed inside another choose block.
 
 > Both the Announcement Message and the "Announcement Message When Role Is Awarded" message are capped at **2,000 characters**.
 {.is-info}

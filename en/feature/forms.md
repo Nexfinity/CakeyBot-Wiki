@@ -2,7 +2,7 @@
 title: Forms
 description: Custom forms with Cakey Bot - ban appeals, join applications, conditional questions. Build forms, review responses, automate decisions.
 published: 1
-date: 2026-09-23T12:00:00.000Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-30T20:34:56.856Z
@@ -137,6 +137,10 @@ A form is built from questions, added and reordered in the Form Builder. There a
 | Image Upload | A picture uploaded by the submitter. |
 
 A question can also carry an **image of its own**, shown above the answer field. That's separate from the Image Upload type: one is a picture you show the submitter, the other is a picture you ask them for.
+
+## Compact List
+
+Turn on **Compact list** above the questions to show each question as a single line with its number, text and type, which makes a long form easier to get around. Click a question to open it, and drag its number to move it.
 
 ## Formatting
 

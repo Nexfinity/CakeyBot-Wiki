@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2026-09-19T01:29:56.856Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -71,6 +71,18 @@ To delete an achievement follow these steps:
 The toolbar above the achievement cards lets you search, filter by state or trigger, sort, and choose how many cards to show per page. These choices are remembered per server, so they survive creating or editing an achievement. The right of the toolbar shows how many achievements you have in total and how many match the current search and filter.
 
 Each card also shows the roles the achievement adds (`+`) and removes (`-`) when unlocked, and a member count of how many people currently hold it. Click the count to see who they are, or use `/achievements owners` in Discord.
+
+## Folders
+Folders keep a long list of achievements manageable. The folder bar above the cards lists your folders next to "All achievements" and "No folder"; click one to show only what is in it.
+
+* **Create a folder:** click "New folder" and give it a name of up to 50 characters. A server can have up to 50 folders, each with its own name.
+* **Put achievements in a folder:** pick the folder in the create, edit or clone window, or select several achievements and use "Move to folder".
+* **Rename, reorder or delete a folder:** select the folder and use the buttons beside the folder bar. Deleting a folder keeps its achievements, which end up in no folder.
+
+An achievement sits in one folder at most. Folders only organise the dashboard; they change nothing about how an achievement unlocks or is shown in Discord.
+
+## Custom Order
+Set the sort to "Custom order" to arrange achievements yourself. Drag a card, or use the arrows on it, to move it. The order is saved as you go.
 
 # Customization Options
 ## Background Banners
@@ -147,6 +159,7 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 * Be muted X times.
 * Stream for X minutes in voice.
 * Wear the server tag.
+* Count correctly X times in the [counting game](/en/feature/counting).
 * CUSTOM / MANUAL
   
 > **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)
@@ -163,9 +176,17 @@ Progress is tracked separately for each target, so the same trigger can back sev
 ## Tiers
 Achievements can be grouped into a **tier group** with a **tier number**, letting you build a ladder such as Chatter I, Chatter II and Chatter III. Tiers decide the order badges are shown in on the showcase, highest tier first.
 
-> **Note:** Announcements for unlocks are only sent when a user's stats are equal to the required limit. If an achievement is created after the user exceeds the limit the announcement will not be sent. Though it will still be displayed as unlocked for the user when checked via commands.
-> 
-> **Exception:** "Reach level X" and "Reach an economy balance of X" achievements are unlocked as soon as a user's level or balance reaches **or passes** the required amount, since a single change can skip past several thresholds at once (e.g. a large XP grant/Double XP Day, or a big economy payout from `/eco monthly`, a shop sale, etc.). Every threshold a user has reached will unlock, not just the highest one.
+## Server Tag Removal
+A "Wear the server tag" achievement can be set to be taken back when the tag comes off. Turn on "Take it back when the tag comes off" in the create or edit window.
+
+A member who stops wearing the tag then loses the achievement, along with the XP, currency and roles it gave them. Their XP and balance never go below zero. Putting the tag back on unlocks the achievement again.
+
+## Unlocks and Announcements
+An achievement unlocks as soon as a member's progress reaches **or passes** its limit. A single change can skip past several limits at once (a large XP grant, a Double XP Day, a big economy payout), and every limit the member has reached unlocks, not just the highest one.
+
+> **Note:** The announcement is only posted when a member crosses the limit. If an achievement is created or edited after a member is already past its limit, they still unlock it and receive its rewards the next time they are active, but nothing is posted. This keeps a new achievement on a busy server from posting once for every member who was already there.
+>
+> To test a new achievement's announcement, use a limit above your current progress or a member who has none yet.
 {.is-info}
 
   

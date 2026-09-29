@@ -2,11 +2,53 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-24T12:00:00.000Z
+date: 2026-09-29T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# September 29th - Music Recovery, Autoplay, Counting Stats & Achievement Folders
+## Fixed
+* Fixed the Members and Growth chart and the member count in Server Stats staying empty on custom bots.
+  * The member count is now recorded about once an hour by every bot, instead of once a day by Cakey Bot only.
+* Fixed joins and leaves in Server Stats showing 0 unless Invite Tracking was enabled.
+* Fixed members who were already past an achievement's limit receiving none of its rewards.
+  * They now get the rewards the next time they are active. No announcement is posted for them, so a new achievement does not post once for every member who was already past it.
+* Fixed bulk actions on the dashboard failing for achievements, tags, auto responders, economy boosts, warnings and self roles.
+* Fixed XP drop messages always being in English instead of the server's language.
+* Fixed the total and shown counts on the achievements page sitting out of line with the rest of the toolbar.
+* Fixed the form builder jumping up the page while the question list was redrawn.
+* Fixed the bot treating its own full connection pool as the database being down, which made it stop talking to the database for longer than it needed to.
+* Fixed soft bans being copied to other servers by Ban Sync, which left the member banned there and could ban them again in the original server.
+  * Affects the Honeypot soft ban punishment and `/ban` with `softBan`.
+  * Soft bans are no longer shared through Ban Sync at all, since the member is meant to be able to rejoin.
+* Fixed XP drops saying they were already claimed when nobody had claimed them.
+  * Happened to any drop spawned shortly after another one was claimed, including ones from `/leveling spawn-xp-drop`.
+  * Prevent Consecutive Claims could also miss the last claimer for the same reason.
+* Fixed Split or Steal not paying out and showing an empty result in servers set to a language other than English.
+* Fixed Split or Steal paying out 0 or the wrong amount in servers whose currency prefix contains numbers, such as a custom emote.
+  * Games that were already posted before this update still finish normally.
+* Fixed the Role Panel window on the dashboard being cut off behind the sidebar on smaller screens.
+
+## Changed
+* Level up messages can now target a range of levels with `{#level.10-24}` or every level from one upward with `{#level.100+}`. See the [Leveling wiki page](/en/feature/leveling).
+* The counting game now reads a comma as a decimal separator and superscript digits as an exponent, so `9,99+0,01` and `8²` are accepted. See the [Counting wiki page](/en/feature/counting).
+
+## Added
+* Added **music recovery**: after a bot restart or a reconnect, Cakey Bot rejoins the voice channel and carries on with the same queue, song position, volume and loop setting. See the [Music wiki page](/en/music/basic-usage#restarts-and-reconnects).
+  * Only players that were playing within the last 30 minutes are brought back.
+* Added **music autoplay**: when the queue runs out, songs similar to the last one are added so the music keeps going. See the [Music wiki page](/en/music/basic-usage#autoplay).
+  * Turn it on from the Music page of the dashboard, or with the Autoplay button on `/nowplaying` and the song request message.
+* Added random level up messages: wrap several messages in `{#choose}` and separate them with `{or}` to have one picked at random each time.
+* Added counting stats: correct counts, mistakes and saves used are now kept for every member.
+  * Added `/counting leaderboard` and a Counting tab on the server's leaderboard page.
+  * Added rewards for counting: pay members a random amount of your server's currency for every correct count.
+  * Added a "Count correctly X times" achievement trigger.
+* Added achievement **folders** and a **custom order** to the dashboard. See the [Achievements wiki page](/en/feature/achievements#folders).
+* Added an option for "Wear the server tag" achievements to be taken back, along with their rewards, when the member stops wearing the tag.
+* Added saved embeds to tags, with Premium. See the [Tags wiki page](/en/feature/tags#embeds).
+* Added a compact list to the form builder that shows each question as a single line.
 
 # September 24th - Role Panels, Auto Message Frequencies & Stability
 ## Fixed

@@ -2,7 +2,7 @@
 title: Basic Usage
 description: Play music in Discord with Cakey Bot - Basic commands, queue management, volume control. Music bot beginner's guide.
 published: 1
-date: 2026-09-20T12:00:00.000Z
+date: 2026-09-29T12:00:00.000Z
 tags: music
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -37,8 +37,20 @@ Cakey Bot requires at least **`Connect`** and **`Speak`** permissions to functio
 | 24/7 Music         | Keeps the bot in a voice channel continuously, even when not actively playing music.                                                                                                                               | Disabled      | —         | —         | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>             |
 | Vote Skipping      | Enables vote-based skipping of currently playing songs.                                                                                                                     | False         | —         | —         | No              |
 | Max Song Length    | Restricts the maximum allowed duration of a song in the queue (in minutes).                                                                                                  | -1            | -1        | 1440      | No              |
+| Autoplay           | When the queue runs out, adds songs similar to the last one so the music keeps going.                                                                                        | Disabled      | N/A       | N/A       | No              |
 
 > A Max Song Length of `-1` means unlimited song length.
+{.is-info}
+
+# Autoplay
+With autoplay on, Cakey Bot adds a song similar to the last one whenever the queue runs out, so the music keeps going without anyone queueing more. It only does this while somebody is listening, and it avoids songs it has played recently.
+
+Autoplay can be turned on and off from the Music page of the [web dashboard](https://cakey.bot/dashboard), with the Autoplay button on `/nowplaying`, or with the Autoplay button on the [song request channel](/en/music/song-request-channel) message. Songs you queue yourself always play before anything autoplay adds.
+
+# Restarts and Reconnects
+Cakey Bot remembers each server's player: the queue, the song that was playing and how far into it, the volume, the loop setting and whether autoplay was on. After a bot restart or a reconnect it rejoins the voice channel and carries on from where it was.
+
+> A player is only brought back if it was playing within the last 30 minutes. One that was stopped with `/disconnect`, finished its queue, or was left alone in its channel is not brought back.
 {.is-info}
 
 > The `/volume` command's `volume` parameter accepts a range of **1-200%** and only changes the volume of the current playback session. To update the persistent Default Volume setting above instead, use the command's separate `default-volume` parameter (**0-100**, matching the dashboard's range) — this can be set with or without also changing the live `volume`, and doesn't require a song to be currently playing.

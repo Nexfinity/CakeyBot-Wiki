@@ -14,6 +14,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed the activity role rules on the Server Stats page saving with default values. Picking a role submitted the rule before the other fields were set, which also made the real submit fail with "a rule already exists".
 * Fixed searching the mod logs on the dashboard failing when the search text matched a channel or role name.
 * Fixed XP drops arriving late or not at all after a bot restart. The next drop is now counted from the last drop instead of from the restart.
+* Fixed a suggestion vote counting twice after switching it from against to for. The extra rows this left behind are cleaned up, so some suggestions will show lower counts.
 
 ## Changed
 * The leaderboard page labels its Messages and Voice columns as XP Messages and XP Voice, since they only count messages and minutes that earned XP.

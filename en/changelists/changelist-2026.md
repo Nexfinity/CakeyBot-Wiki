@@ -15,6 +15,8 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed searching the mod logs on the dashboard failing when the search text matched a channel or role name.
 * Fixed XP drops arriving late or not at all after a bot restart. The next drop is now counted from the last drop instead of from the restart.
 * Fixed a suggestion vote counting twice after switching it from against to for. The extra rows this left behind are cleaned up, so some suggestions will show lower counts.
+* Fixed the tab row on the server leaderboard page clipping its last tabs on phones. It now scrolls sideways, and the Invites tab is simply called Invites.
+* Fixed the Counting tab from September 29th missing from the server leaderboard page on cakey.bot.
 
 ## Changed
 * The leaderboard page labels its Messages and Voice columns as XP Messages and XP Voice, since they only count messages and minutes that earned XP.

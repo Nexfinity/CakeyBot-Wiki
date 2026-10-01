@@ -87,6 +87,8 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 10,000    | No |
 | Max XP per Message       | Sets the maximum XP a user can gain per message. Must be greater than Min XP.                                                           | 25            | 1         | 10,000    | No |
 | Text Cooldown                 | Sets the cooldown in minutes between text messages that can earn XP.                                                                    | 1             | 1         | 60        | No |
+| Minimum Message Length        | Messages with fewer characters than this earn no text XP. 0 turns the check off. Image and video bonus XP is not affected.               | 0             | 0         | 2,000     | No |
+| Favour Longer Messages        | Skews the XP roll so long messages tend towards Max XP and short ones towards Min XP. Every message still rolls, so a long message is not guaranteed the maximum. | Disabled |  |  | No |
 | Min XP per Image              | Sets the minimum BONUS XP a user can gain per message containing an image.                                                              | 0             | 1         | 10,000    | No |
 | Max XP per Image              | Sets the maximum BONUS XP a user can gain per message containing an image. Must be greater than Min Image XP.                           | 0             | 1         | 10,000    | No | 
 | Image Cooldown                | Sets the cooldown in minutes between image attachments that can earn bonus XP.                                                          | 1             | 1         | 60        | No |
@@ -100,6 +102,8 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | XP Equation               | The XP-to-level curve used to calculate levels. See [What XP equation is used for leveling?](#what-xp-equation-is-used-for-leveling) below for the available options. | Default (MEE6 Style) |           |           | No               |
 | Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
 | Randomize Button Placement        | Randomizes the claim button position in random XP drop messages to prevent automated claiming bots.                                     | Disabled      |           |           | No               |
+| Captcha Before Claiming           | Clicking a drop sends the member a code image to type in before the drop is paid. Only the first correct answer gets the drop. Works with Randomize Button Placement and with `/leveling spawn-xp-drop`. | Disabled |  |  | No |
+| Roles That Cannot Claim           | Members with any of these roles cannot claim random XP drops.                                                                          | None          |           |           | No               |
 
 ## Announcement Location
 * `Disabled`- This disables ALL level up messages. (`/rank` and `/leaderboard` commands will still work.)

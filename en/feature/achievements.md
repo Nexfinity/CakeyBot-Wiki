@@ -165,6 +165,15 @@ Currently Cakey Bot supports several progression-based events for awarding achie
 > **Note:** You can not swap progress based achievements into CUSTOM / MANUAL achievements _after_ they have been created. (or vice-versa)
 {.is-warning}
 
+### How Progress Is Counted
+Achievements keep their own counters, separate from [leveling](/en/feature/leveling). Counting starts the moment the server sets an achievement channel, and it is not reset when an achievement is created, so a member who was already active can unlock a new achievement straight away.
+
+The counters are not the same numbers as the leveling leaderboard:
+* **Messages** counts every message a member sends outside the ignored channels and roles. The leveling leaderboard only counts messages that earned XP, which is at most one per text cooldown, so a member who chats in bursts has far more achievement messages than leveling messages.
+* **Voice minutes** counts every minute spent in a voice channel. Leveling skips muted, deafened and solo time and has its own cooldown, so there the leveling number is usually the higher one.
+
+The server's leaderboard page on the website has an **Achievements** tab that shows the top members for each of these counters, so everyone can see how far they are from the next achievement.
+
 ## Scoped Achievements
 Some triggers can be pointed at a single channel or a single role instead of counting server wide.
 

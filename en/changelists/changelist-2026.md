@@ -2,11 +2,30 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-09-29T12:00:00.000Z
+date: 2026-10-01T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 1st - Drop Captchas, Message Length XP & Achievement Stats
+## Fixed
+* Fixed the saved embed picker on the Tags page being greyed out on Premium servers.
+* Fixed the activity role rules on the Server Stats page saving with default values. Picking a role submitted the rule before the other fields were set, which also made the real submit fail with "a rule already exists".
+* Fixed searching the mod logs on the dashboard failing when the search text matched a channel or role name.
+* Fixed XP drops arriving late or not at all after a bot restart. The next drop is now counted from the last drop instead of from the restart.
+
+## Changed
+* The leaderboard page labels its Messages and Voice columns as XP Messages and XP Voice, since they only count messages and minutes that earned XP.
+
+## Added
+* Added an **Achievements** tab to the server's leaderboard page with a board for each statistic achievements count: messages, voice minutes, streamed minutes, reactions, stickers, GIFs, threads created and joined, giveaways joined and correct counts. See the [Achievements wiki page](/en/feature/achievements#how-progress-is-counted).
+* Added a **captcha** option for random XP drops. See the [Leveling wiki page](/en/feature/leveling).
+  * Clicking the drop sends the member a code image to type in, and only the first correct answer gets the drop.
+  * Works together with Randomize Button Placement and with drops from `/leveling spawn-xp-drop`.
+* Added a role blacklist for random XP drops: members with one of the chosen roles cannot claim.
+* Added a **minimum message length** for text XP. Shorter messages earn none. Off by default.
+* Added **Favour Longer Messages**: text XP leans towards the maximum for long messages and the minimum for short ones. Every message still rolls, so a long message is not guaranteed the maximum. Off by default.
 
 # September 29th - Music Recovery, Autoplay, Counting Stats & Achievement Folders
 ## Fixed
@@ -26,6 +45,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed XP drops saying they were already claimed when nobody had claimed them.
   * Happened to any drop spawned shortly after another one was claimed, including ones from `/leveling spawn-xp-drop`.
   * Prevent Consecutive Claims could also miss the last claimer for the same reason.
+  * The claim is now a single step, so two members clicking at the same moment can no longer both be paid.
 * Fixed Split or Steal not paying out and showing an empty result in servers set to a language other than English.
 * Fixed Split or Steal paying out 0 or the wrong amount in servers whose currency prefix contains numbers, such as a custom emote.
   * Games that were already posted before this update still finish normally.

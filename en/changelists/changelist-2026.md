@@ -15,6 +15,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed searching the mod logs on the dashboard failing when the search text matched a channel or role name.
 * Fixed XP drops arriving late or not at all after a bot restart. The next drop is now counted from the last drop instead of from the restart.
 * Fixed a suggestion vote counting twice after switching it from against to for. The extra rows this left behind are cleaned up, so some suggestions will show lower counts.
+* Fixed achievements being saved, and duplicated, while they were still being filled in. After visiting a page with automatic saving, such as Tickets or the Counting Game, leaving any field in the achievement window saved it as a new achievement with only the fields filled in so far.
 * Fixed activity roles never being given back to a member who lost the role some other way, such as a moderator or another bot removing it. Cakey Bot now checks the member still has it each time the rules run.
 * Fixed the tab row on the server leaderboard page clipping its last tabs on phones. It now scrolls sideways, and the Invites tab is simply called Invites.
 * Fixed the Counting tab from September 29th missing from the server leaderboard page on cakey.bot.

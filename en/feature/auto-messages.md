@@ -11,7 +11,7 @@ dateCreated: 2025-01-24T04:16:57.525Z
 # Overview
 The auto message feature allows server owners to schedule recurring messages that are automatically sent to a specified channel at a designated time. Messages can be scheduled to send every day, or on a specific day of the week. These messages can be simple text or enhanced with a custom Discord embed, making them versatile for announcements, reminders, or community engagement. The feature includes options to enable or disable messages, ensuring flexibility based on the server's needs. Messages are sent reliably at the set time, helping server owners maintain consistent communication with their members.
 
-> Message content is limited to 2,000 characters. The number of auto messages you can create is tiered: **1** for non-premium servers, **3** for premium servers, and **10** for whitelabel servers.
+> Message content is limited to 2,000 characters. The number of auto messages you can create is tiered: **1** for non-premium servers, **25** for premium servers, and **50** for whitelabel servers.
 {.is-info}
 
 # Setup

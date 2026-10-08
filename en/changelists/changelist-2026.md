@@ -2,11 +2,77 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-01T12:00:00.000Z
+date: 2026-10-08T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 8th - Multiple Starboards, Ticket Business Hours, Music Log & Suggestion Threads
+## Fixed
+* Fixed voice minutes not counting towards achievements limited to one voice channel. The minutes were stored without a channel, so a channel scoped achievement only got the leftover minutes when the member left, and the first two minute tick was counted as one minute.
+* Fixed the Premium checkout buttons doing nothing after moving around the site, and purchases made in that window not being tied to the buyer's Discord account.
+* Fixed the Auto Mod word and link lists not saving.
+* Fixed switching servers sending you to the server picker when Discord briefly returned no servers, instead of asking you to sign in again.
+* Fixed the shop pinging members when an item name or description contained a mention.
+* Fixed hard to read text in light mode on the invite tracker page.
+* Fixed `/suggestion accept` and `/suggestion deny` not posting the suggestion to the approved and denied channels like the buttons do.
+* Fixed the anti-raid similarity limit never triggering. Messages with the same text, ignoring case, are now counted together, and image only messages are skipped.
+* Fixed the anti-raid fuzzy score check matching messages that were not actually alike, and triggering more than once for the same spam wave.
+* Fixed the anti-raid message checks punishing everyone who chatted during a raid. Only the members who sent the spam are punished now.
+* Fixed the anti-raid account creation time limit showing seconds on the dashboard when it is counted in minutes.
+* Fixed support staff not being added to tickets that open as threads unless the support role was pinged.
+* Fixed double XP days following the bot's own timezone instead of your server's timezone.
+
+## Changed
+* The whole dashboard and website now run on a new frontend.
+  * Pages load without a full refresh, so moving between pages is faster and keeps your place.
+  * Pages with a save button warn before you leave with unsaved changes.
+  * Switching the language no longer reloads the page and keeps anything you were typing.
+* Reworked the commands page: commands are grouped under their parent command with a category sidebar, search, readable permission names, copyable usage and a filter for user app commands. Clicking a command name gives you a link straight to that command.
+* Reworked the FAQ page with search across every question and answer and a category sidebar.
+* Reworked the status page with an overall health banner, average ping, a shard lookup by server ID and the live state of your custom bots when signed in.
+* Redesigned server discovery browsing and the server detail page.
+  * Online counts and weekly messages are shown for servers that opt in, servers with 350+ messages a week get an Active badge, and you can sort by most active, most online, newest and recently updated.
+  * Member count and activity are opt in per listing, and hidden values are never sent to the browser.
+  * Long descriptions render Discord style markdown and custom emotes.
+  * Owners get 30 day analytics for visitors and join clicks, and a live preview of their card and detail page while editing.
+  * An approved listing whose description changes substantially is re-reviewed, and stays visible meanwhile.
+* Rank cards and leaderboard images now show each member's server nickname and server avatar.
+* The busiest members list in [Server Stats](/en/feature/server-stats) shows names and avatars instead of IDs.
+* The confirmation after `/suggestion create` is now only shown to you, so it no longer stays in the chat.
+* The leveling XP rate now also multiplies the image and video bonuses.
+* Starboards no longer count reactions from bots.
+* Settings across the dashboard now have short explanations under them, covering what they do, what their values mean and which permissions the bot needs.
+* Music, leveling, suggestion and starboard changes made on the dashboard now take effect right away.
+
+## Added
+* Added reporting for discovery listings, with a reason and an optional note.
+* Added **multiple starboards** per server. See the [Starboard wiki page](/en/feature/starboard).
+  * Each starboard has its own name, channel, emote, star threshold, ignored channels and message age limit.
+  * One starboard is free, and Server Premium or a Custom Bot raises the limit to 5.
+  * Each emote can only be used by one starboard, and two starboards can share a channel.
+  * `Force to Starboard` asks which starboard to post to when the server has more than one.
+* Added more starboard options.
+  * An **any reaction** mode counts each member once, whatever emotes they react with.
+  * A channel filter turns the channel list into a whitelist, so only messages from those channels or categories are posted.
+  * Starboard posts now show up to 4 images.
+* Added a `private` option to `/rank` that shows your rank card only to you, and a leveling setting that lets members check only their own rank. See the [Leveling wiki page](/en/feature/leveling).
+* Added excluded roles to statistics roles, so members with those roles are never given the role.
+* Added **business hours** to ticket panels. See the [Support Tickets wiki page](/en/feature/support-tickets).
+  * Pick the opening and closing times, the time zone and the days. Closing times can run past midnight.
+  * Outside those hours, new tickets are either refused or opened with a notice that a reply may take longer. The notice can use `{hours}`.
+* Added **multipanels** for tickets, which post one message with a button for each panel you pick.
+* Added a private responses setting for music, which makes music command replies visible only to the member who used them.
+* Added a **music log channel**, which logs songs played, who requested them, and player actions like skip, pause and volume.
+* Added automatic **threads for suggestions**. See the [Suggestions wiki page](/en/feature/suggestions).
+  * Each new suggestion gets a public thread named after its title.
+  * After a suggestion is accepted, denied or marked a duplicate, its thread can be left open, locked and archived, archived, or deleted.
+* Added Discord link previews for cakey.bot pages.
+  * A leaderboard link shows the server icon, the top ten and an open button, and the weekly, monthly and economy tabs show their own board.
+  * Form links show the form name, description and server, and discovery links show the banner, description, member count and a join button.
+  * The home, premium, status and commands pages have their own previews, and a link to one command or category shows its usage or its commands.
+  * Custom bot leaderboards on leaderboards.site get the same unbranded preview.
 
 # October 1st - Drop Captchas, Message Length XP & Achievement Stats
 ## Fixed

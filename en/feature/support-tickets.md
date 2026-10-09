@@ -2,7 +2,7 @@
 title: Support Tickets
 description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
-date: 2026-09-10T09:49:09.000Z
+date: 2026-10-08T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -37,6 +37,14 @@ From the Support Tickets page you pick which panel to work on, and everything un
 > Editing a panel's open embed or button rewrites every copy of that panel already posted, so a live panel can't drift from what the dashboard says is saved. A Refresh action is there for panels that were edited while the bot was offline.
 {.is-info}
 
+## Multipanels
+
+A **multipanel** posts one message with a button for each panel you pick, so members can choose the type of ticket. Each panel gets its own button, using that panel's button label. A server can have up to 10 multipanels, and a multipanel can offer up to 25 panels.
+
+You manage them under **Multipanels** on the Support Tickets page. Give each one a **Multipanel name**, choose its **Panels to offer**, and post it to a channel. Posting it again in the same channel edits the message already there instead of sending a new one. Once a multipanel is posted, saving it updates the posted message.
+
+**Delete multipanel** removes it from the dashboard, but a message already posted stays in its channel and its buttons keep opening tickets for their panels.
+
 # Configure Tickets
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
@@ -47,6 +55,8 @@ From the Support Tickets page you pick which panel to work on, and everything un
 **Panel Name:** Give the panel a custom name (up to 100 characters). If left blank, it displays as "Panel #1" wherever the panel is referenced, including the `/setup createticketembed` panel picker.
 
 **Support Staff Role:** Selecting a support staff role will automatically allow users with the selected role to view/access all support tickets. If you do not select a support staff role only Administrators will have access to tickets.
+
+For thread tickets, Cakey Bot adds the role to the thread by mentioning it in a message that is edited in and deleted straight away, so nobody gets a notification. Discord only adds the role's members this way if the role is mentionable or Cakey Bot has the `Mention Everyone` permission. When **Ping Staff Role on Ticket Creation** is enabled, the ping itself adds them instead.
 
 **Transcript Channel:** Selecting a transcript channel will unlock the ability to save ticket history to the selected channel. Which will allow staff to review old closed/deleted tickets.
 
@@ -160,6 +170,15 @@ How it works:
 
 > **Note:** Ticket transcripts must be enabled for this feature to work properly.
 {.is-warning}
+
+## Business Hours
+Each panel can be limited to business hours by turning on **Limit tickets to business hours**. Set **Opens at**, **Closes at**, the **Time zone** and the days the hours apply to. A closing time earlier than the opening time runs past midnight into the next day.
+
+**Outside business hours** decides what happens to a ticket opened outside these hours:
+* **Refuse new tickets:** the ticket is not opened.
+* **Open the ticket and post a notice in it:** the ticket opens as normal with a notice that a reply may take longer.
+
+**Notice message** sets the text of that notice. Use `{hours}` to show the business hours, or leave it empty for the default message.
 
 ## Blacklisted Roles
 This allows you to prevent specific roles from creating tickets. This can be useful if you have users who are spamming or abusing the ticket system.

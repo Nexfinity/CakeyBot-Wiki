@@ -68,6 +68,9 @@ Enabling this feature will prevent Cakey Bot from modifying the nickname of user
 > Note: Users can entirely opt out of the streak system for themselves using the `/streaks toggle-opt-out` command or with the opt-out button included on the DM reminder itself.
 {.is-info}
 
+> Note: Users who want to keep their streak but not show it can use the `/streaks toggle-nickname` command, or the "Show my streak in my nickname" switch on their [User Customization](/en/feature/user-customization) page. Their streak still counts and they still receive role rewards, and Cakey Bot removes the streak from their nickname.
+{.is-info}
+
 ## Remove Roles on Streak Reset
 Enabling this feature will have Cakey Bot automatically remove all Role Rewards when a user's streak gets reset.
 
@@ -88,4 +91,5 @@ Usage Key: `<required>` / `[optional]`
 | /streaks view | Shows your current streak. (Or the selected user's) | [user] | None | 
 | /streaks toggle-opt-out | Allows you to opt out of streaks for your account. | N/A | None | 
 | /streaks toggle-reminder-opt-out | Allows you to opt out of streak DM reminders. | N/A | None | 
+| /streaks toggle-nickname | Hides or shows your streak in your nickname. | N/A | None | 
 | /setup reset-all-streaks | Reset ALL user streaks to 0 for this server. This will RESET ALL current streaks! | \<confirm\> | ManageServer or Administrator | 

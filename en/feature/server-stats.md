@@ -2,7 +2,7 @@
 title: Server Statistics
 description: Discord server activity statistics with Cakey Bot - Message and voice activity per member and channel, charts, busiest hours, activity roles and live counter channels.
 published: 1
-date: 2026-09-29T12:00:00.000Z
+date: 2026-10-08T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-18T12:00:00.000Z
@@ -25,7 +25,7 @@ Only counts are stored, never message content. Members can opt out of being coun
 Every tab follows the range picked at the top: the last 24 hours, 7 days or 30 days. The raw counts for the range can be downloaded as CSV.
 
 * **At a glance** ~ Messages sent, hours in voice, active members, member count, joins and leaves, with message and voice charts over time.
-* **Message activity** ~ Messages by channel over time, and the busiest channels and members.
+* **Message activity** ~ Messages by channel over time, and the busiest channels and members. Members are shown with their name and avatar.
 * **Voice activity** ~ Voice time by channel over time, and the channels and members with the most voice time.
 * **Members and growth** ~ Member count over time with joins and leaves per day.
 * **Busiest hours** ~ A heatmap of which hours of which weekdays the server is busiest, in UTC.
@@ -47,6 +47,7 @@ A rule gives a role to the members whose activity matches it and removes it agai
 * How members are picked: everybody past a number, or only the highest placed.
 * The number to reach, or how many members to pick.
 * How many days of activity to look at.
+* Roles that never get this role. Members with any of these roles are not given the role, and lose it at the next update if they already have it.
 
 The rules are worked out every 30 minutes at most; the interval is configurable.
 

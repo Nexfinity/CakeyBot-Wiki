@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-09-20T12:00:00.000Z
+date: 2026-10-08T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -82,6 +82,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Disable Level Up Mentions        | Toggles whether level up messages will mention users/roles.                                                                                 | Disabled       |           |           | No               |
 | Cakey Personal XP Bonus  | Lets members with [Cakey Personal](/en/feature/cakey-personal) earn +50% XP in this server.                                              | Enabled       |           |           | No               |
 | Personal Rank Cards      | Shows a [Cakey Personal](/en/feature/cakey-personal) member's own rank card banner instead of this server's rank card.                  | Enabled       |           |           | No               |
+| Members can only check their own rank | Members can only open their own rank card with the `/rank` command. Using the `user` option on someone else is refused. | Disabled |  |  | No |
 | Send Messages as Embed   | Sends level up messages as Discord embeds instead of plaintext.                                                                         | Disabled      |           |           | <span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span> |
 | Max Level                | Sets the maximum level a user can reach.                                                                                                | 999           | 1         | 1,000     | No |
 | Min XP per Message       | Sets the minimum XP a user can gain per message.                                                                                        | 15            | 1         | 10,000    | No |
@@ -98,7 +99,7 @@ When a user earns enough XP to exceed their current level's threshold, a level-u
 | Min Voice XP per Minute       | Sets the minimum XP a user can gain per minute in a voice channel.                                                                      | 5             | 1         | 10,000    | No |
 | Max Voice XP per Minute       | Sets the maximum XP a user can gain per minute in a voice channel. Must be greater than Min Voice XP.                                   | 8             | 1         | 10,000    | No |
 | Voice Cooldown                | Sets the interval in minutes at which voice XP is awarded.                                                                              | 2             | 1         | 60        | No |
-| XP Rate                  | The multiplier that is set for ever user in the server. It can adjust how quickly (or slowly) users level up.                           | 1x            | 0.25x     | 3x        | No               |
+| XP Rate                  | The multiplier that is set for every user in the server. It can adjust how quickly (or slowly) users level up. It also multiplies image and video bonus XP. | 1x            | 0.25x     | 3x        | No               |
 | XP Equation               | The XP-to-level curve used to calculate levels. See [What XP equation is used for leveling?](#what-xp-equation-is-used-for-leveling) below for the available options. | Default (MEE6 Style) |           |           | No               |
 | Prevent Consecutive Claims        | Prevents the same user from claiming multiple consecutive random XP drops. Users must wait for another user to claim before claiming again. | Disabled      |           |           | No               |
 | Randomize Button Placement        | Randomizes the claim button position in random XP drop messages to prevent automated claiming bots.                                     | Disabled      |           |           | No               |
@@ -187,6 +188,8 @@ This is a list of channels or roles where XP will NOT be rewarded to users.
 
 ## Double XP Days
 You can also specify days for Cakey Bot to award double XP on. The double XP will be calculated AFTER the XP rate has been calculated. You can select multiple days to apply double XP on.
+
+Days follow the server's timezone set in the bot settings, so a double XP day starts and ends at midnight in that timezone. Servers without a timezone set use UTC.
 
 ![Double XP Options](/image_(9).png)
 
@@ -306,6 +309,12 @@ Our fancy image banner editor:
 > The recommended image size is `Width: 930` x `Height: 280` for custom image banners.
 {.is-info}
 
+## Names and Avatars
+Rank cards and leaderboard images show a member's server nickname and server avatar when they have one, and fall back to their Discord name and avatar otherwise. The `{user.username}` placeholder on rank cards shows the server nickname as well.
+
+## Private Rank Cards
+Set the `private` option on `/rank` to `True` and only you will see the rank card.
+
 # Rank Card Badges
 Users who support Cakey Bot will get badges on their profile, so you'll know they're cool.
 
@@ -363,7 +372,7 @@ Usage Key: `<required>` / `[optional]`
 | /leveling manage-level           | Manage a user's level.                                                   | \<give \| remove \| set> \<user> \<level>  | ManageServer           |
 | /leveling manage-xp              | Manage a user's XP.                                                      | \<give \| remove \| set> \<user> \<xp>     | ManageServer           |
 | /leveling spawn-xp-drop          | Manually spawn an XP drop in a channel.                                  | [min-xp] [max-xp] [channel]                | ManageServer           |
-| /rank                            | Get your rank or another user's rank.                                    | [user]                                     | None                   |
+| /rank                            | Get your rank or another user's rank. `private` shows the card only to you. | [user] [private]                                   | None                   |
 | /setup export-cakey-levels       | Exports your Cakey Bot leveling and XP data.                             | N/A                                        | ManageServer or Administrator |
 | /setup import-levels             | Imports your leveling and XP data from other bots. NOTE: EXISTING LEVEL DATA WILL BE OVERWRITTEN! | \<bot> [file]      | ManageServer or Administrator |
 | /setup reset-levels              | Reset the leveling for this server. This will RESET ALL user levels & XP!| \<confirm>                                 | ManageServer or Administrator |

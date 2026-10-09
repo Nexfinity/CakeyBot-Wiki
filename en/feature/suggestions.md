@@ -2,7 +2,7 @@
 title: Suggestions
 description: Discord suggestion system with Cakey Bot - vote on suggestions, and accept/deny/duplicate/review decisions with reasons. Setup guide.
 published: 1
-date: 2026-08-07T00:00:00.000Z
+date: 2026-10-08T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-07T00:00:00.000Z
@@ -19,15 +19,31 @@ Suggestions let your members propose ideas and vote on them with a simple upvote
 
 1. Login to our [web dashboard](https://cakey.bot/dashboard).
 2. Go to the "Suggestions" page and set the **Suggestion Channel** where new suggestions will be posted. This is required - `/suggestion create` won't work until it's set.
-3. On that same page, optionally set the **Suggestion Approved Channel** / **Suggestion Denied Channel** to forward a copy of accepted/denied suggestions there as well.
+3. On that same page, optionally set the **Suggestion Approved Channel** / **Suggestion Denied Channel** to forward a copy of accepted/denied suggestions there as well. This happens whether the decision is made with the buttons or with `/suggestion accept` and `/suggestion deny`.
 4. Optionally set a **Suggestion Ping Role**, which is pinged whenever a new suggestion is posted. The role needs to be mentionable, or the bot needs permission to mention any role.
+5. Optionally turn on **Create a thread for each suggestion** and choose a **Thread after a decision** option. See [Suggestion Threads](#suggestion-threads) below.
 
 > The ping role is only mentioned when a suggestion is first posted - deciding on it later (accept/deny/duplicate/review) does not ping it again.
 {.is-info}
 
 # Creating a Suggestion
 
-Once a Suggestion Channel is configured, any member can run `/suggestion create` to open a form asking for a title and description. Submitting it posts an embed - always in the configured Suggestion Channel, regardless of which channel the command was run in - with upvote/downvote buttons, an **Approve**/**Deny** button pair, and a **Create Discussion Thread** button.
+Once a Suggestion Channel is configured, any member can run `/suggestion create` to open a form asking for a title and description. Submitting it posts an embed - always in the configured Suggestion Channel, regardless of which channel the command was run in - with upvote/downvote buttons, an **Approve**/**Deny** button pair, and a **Create Discussion Thread** button. The confirmation that your suggestion was posted is only visible to you.
+
+# Suggestion Threads
+
+When **Create a thread for each suggestion** is turned on, Cakey Bot opens a public thread under every new suggestion for discussion. The thread is named after the suggestion's title. The bot needs the **Create Public Threads** permission in the Suggestion Channel.
+
+**Thread after a decision** controls what happens to a suggestion's thread once it is decided:
+
+| Option | Result |
+| :--- | :--- |
+| Leave it open | The thread is left as it is. |
+| Lock and archive it | The thread is locked and archived. |
+| Archive it | The thread is archived. |
+| Delete it | The thread is deleted. |
+
+This applies when a suggestion is accepted, denied or marked a duplicate, with either the buttons or the slash commands. Marking a suggestion as under review leaves its thread alone. The bot needs the **Manage Threads** permission.
 
 > If no Suggestion Channel is configured yet, `/suggestion create` shows an error explaining that an admin needs to set one up first, with a link to this article.
 {.is-info}

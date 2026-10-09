@@ -49,6 +49,7 @@ The "Counting mode" setting decides which reactions count toward the threshold.
 - **Any reaction:** each member counts once, whichever emotes they react with.
 ### Min. Emote Required
 Min. Emote Required means how many reactions the message needs to have until it gets put on the starboard. Defaults to **2** reactions, and the dashboard enforces a minimum of **1**.
+In the "Any reaction" counting mode this field is called "Min. members reacting", and each member counts once however many emotes they add.
 Here's how to change it:
 1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard) and select your server.
 2. From the left sidebar, pick "Starboard".
@@ -90,6 +91,20 @@ Here's how to do that:
 
 > If a custom emote is later deleted from your server (or the bot loses access to it), Cakey Bot automatically falls back to the default `⭐` when posting new starred messages, rather than showing a broken emote.
 {.is-info}
+
+### Post Marker Emote
+In the "Any reaction" counting mode, each post on the board starts with a marker emote instead of the board emote. It defaults to `✨` when left empty, and it can be a standard Unicode emoji or one of your server's custom emotes. The dashboard refuses a marker that another "Specific emote" board posting to the same channel uses as its emote, since the bot could not tell their posts apart.
+Here's how to set it up:
+1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard) and select your server.
+2. From the left sidebar, pick "Starboard".
+3. After that, set "Counting mode" to "Any reaction" and pick an emote in the "Post marker emote" field.
+
+### Post Color
+Each board can give its posts its own embed color. When "Use a custom post color" is off, posts use the default starboard color.
+Here's how to set it up:
+1. Head over to [Cakey Bot's Dashboard](https://cakey.bot/dashboard) and select your server.
+2. From the left sidebar, pick "Starboard".
+3. After that, turn on "Use a custom post color" and pick a color or enter a hex code.
 
 # Force to Starboard
 Members with the Manage Messages permission can right click a message and pick Apps, then "Force to Starboard" to post it without waiting for reactions. If the server has more than one active starboard, Cakey Bot asks which board to post it to. This does not work on messages inside a starboard channel.

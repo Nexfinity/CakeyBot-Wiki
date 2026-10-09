@@ -23,6 +23,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed the anti-raid account creation time limit showing seconds on the dashboard when it is counted in minutes.
 * Fixed support staff not being added to tickets that open as threads unless the support role was pinged.
 * Fixed double XP days following the bot's own timezone instead of your server's timezone.
+* Fixed auto roles never being given on servers with a rules screen, since members are still pending when they join. Auto roles are now given as soon as the member accepts the rules.
 
 ## Changed
 * The whole dashboard and website now run on a new frontend.
@@ -59,6 +60,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
   * Starboard posts now show up to 4 images.
 * Added a `private` option to `/rank` that shows your rank card only to you, and a leveling setting that lets members check only their own rank. See the [Leveling wiki page](/en/feature/leveling).
 * Added excluded roles to statistics roles, so members with those roles are never given the role.
+* Added `/streaks toggle-nickname` and a matching switch in your server preferences, which keep your streak and its rewards while leaving the count out of your nickname. See the [Streaks wiki page](/en/feature/streaks).
 * Added **business hours** to ticket panels. See the [Support Tickets wiki page](/en/feature/support-tickets).
   * Pick the opening and closing times, the time zone and the days. Closing times can run past midnight.
   * Outside those hours, new tickets are either refused or opened with a notice that a reply may take longer. The notice can use `{hours}`.

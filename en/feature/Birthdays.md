@@ -95,6 +95,7 @@ You can also use a few placeholders in your message(s):
 * `{user.mention}` - Mentions the user whose birthday it is.
 * `{user.username}` / `{user.nickname}` / `{user.globalname}` - The user's username, nickname, or global display name.
 * `{server.name}` - Your server's name.
+* `{age}` - The age the user is turning. It stays empty for users who set their birthday without a year.
 
 > The custom birthday message is capped at **5,000 characters**.
 {.is-info}

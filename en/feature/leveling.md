@@ -118,6 +118,7 @@ This is the message that is sent when a user levels up. The default message is: 
 You can also use a few placeholders in this message:
 * `{user}` - The username mention of the user who leveled up.
 * `{level}` - The new level that the user has advanced to.
+* `{rank}` - The user's position on the server leaderboard.
 * `{reward}` - The role that was awared to the user.
   * **NOTE: You should only use the reward placeholder on the "Announcement Message When Role Is Awarded" section.**
 

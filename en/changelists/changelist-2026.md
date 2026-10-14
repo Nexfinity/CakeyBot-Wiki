@@ -24,6 +24,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 * Fixed support staff not being added to tickets that open as threads unless the support role was pinged.
 * Fixed ticket channels opening without the welcome message and buttons, and ticket and giveaway commands failing with a permission error inside them, on servers where Cakey Bot does not have Administrator. The bot hid the ticket category from everyone without keeping access for itself. New categories now give the bot access, and existing ones are repaired the next time a ticket opens in them.
 * Fixed `/giveaway create` refusing to run when Cakey Bot could not post in the channel the command was typed in. It now checks the channel you pick for the giveaway and names it when permissions are missing.
+* Fixed the ticket inactivity reminder and the no response auto close firing on tickets that were just opened. Inactivity now counts from when the ticket opened until the opener's first message.
 * Fixed double XP days following the bot's own timezone instead of your server's timezone.
 * Fixed auto roles never being given on servers with a rules screen, since members are still pending when they join. Auto roles are now given as soon as the member accepts the rules.
 

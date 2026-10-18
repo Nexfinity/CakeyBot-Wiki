@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
 
-# October 18th - Leaderboard Resets, Starboard Media, GIF Detection & Multiple Ticket Staff Roles
+# October 18th - Data Import, Leaderboard Resets, Starboard Media, GIF Detection & Multiple Ticket Staff Roles
 ## Fixed
 * Fixed `/setup reset-levels` not wiping the weekly and monthly leaderboards, only the all time one.
 * Fixed starboard posts showing an empty embed for videos and some images. Images now show in the post, videos and other files are linked, and forwarded messages and GIFs from Discord's GIF picker show their media.
@@ -16,6 +16,13 @@ dateCreated: 2026-01-13T22:54:52.663Z
 
 ## Added
 * Added the ability to set multiple support staff roles on a ticket panel. Members with any of the roles can see and manage the panel's tickets. See the [Support Tickets wiki page](/en/feature/support-tickets).
+* Added a data import page to the dashboard for moving to Cakey Bot from other bots. See the [Data Import wiki page](/en/feature/data-import).
+  * Levels and XP come over from MEE6, Lurkr, Polaris, Arcane, Amari and Tatsu, or from any JSON or CSV file, with a preview, a choice to replace, keep the higher or add to existing XP, a minimum level, level roles, and conversion between the bots' level curves.
+  * Cash and bank balances come over from UnbelievaBoat.
+  * A MEE6 export brings over welcome messages, level and birthday settings, custom commands, reaction roles, auto-moderation, Twitch alerts, the economy and shop, audit log, embeds, automations, achievements, feeds and timers, section by section. Anything past your plan's limits is imported switched off.
+  * Every import can be undone for 24 hours from the import history.
+* Added the `{rank}` placeholder to level up messages, showing the member's position on the server leaderboard.
+* Added the `{age}` placeholder to birthday messages, showing the age the member is turning for birthdays saved with a year.
 
 # October 8th - Multiple Starboards, Ticket Business Hours, Music Log & Suggestion Threads
 ## Fixed

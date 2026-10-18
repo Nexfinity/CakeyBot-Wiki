@@ -2,11 +2,20 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-08T12:00:00.000Z
+date: 2026-10-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 18th - Leaderboard Resets, Starboard Media, GIF Detection & Multiple Ticket Staff Roles
+## Fixed
+* Fixed `/setup reset-levels` not wiping the weekly and monthly leaderboards, only the all time one.
+* Fixed starboard posts showing an empty embed for videos and some images. Images now show in the post, videos and other files are linked, and forwarded messages and GIFs from Discord's GIF picker show their media.
+* Fixed Tenor GIF links not being detected as GIFs, so they did not count towards the GIF achievement and were deleted in GIF-only category channels. Klipy links and GIF files are detected the same way.
+
+## Added
+* Added the ability to set multiple support staff roles on a ticket panel. Members with any of the roles can see and manage the panel's tickets. See the [Support Tickets wiki page](/en/feature/support-tickets).
 
 # October 8th - Multiple Starboards, Ticket Business Hours, Music Log & Suggestion Threads
 ## Fixed

@@ -2,7 +2,7 @@
 title: Support Tickets
 description: Discord ticket system with Cakey Bot - Help desk, support channels, ticket management. Customer support setup guide.
 published: 1
-date: 2026-10-08T12:00:00.000Z
+date: 2026-10-18T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:20:47.352Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-18T08:20:47.352Z
 
 # Overview
 
-> Make sure that Cakey Bot has the **`Manage Channels`** permission and that the Cakey Bot's role is _above_ the support staff role.
+> Make sure that Cakey Bot has the **`Manage Channels`** permission and that the Cakey Bot's role is _above_ your support staff roles.
 {.is-warning}
 
 Cakey Bot's support ticket system allows your users to make tickets and get 1 on 1 support from your support team. You can easily manage tickets via Discord's button system and even save transcripts of the ticket history.
@@ -19,7 +19,7 @@ Cakey Bot's support ticket system allows your users to make tickets and get 1 on
 
 # Panels
 
-A **panel** is one complete ticket setup: its own staff role, category, embeds, button and settings. A server can have up to **10 panels**, so you can run separate setups for general support, bug reports and staff applications, each with its own staff role and its own category.
+A **panel** is one complete ticket setup: its own staff roles, category, embeds, button and settings. A server can have up to **10 panels**, so you can run separate setups for general support, bug reports and staff applications, each with its own staff roles and its own category.
 
 From the Support Tickets page you pick which panel to work on, and everything under Configure Tickets applies to whichever one is selected.
 
@@ -54,9 +54,9 @@ You manage them under **Multipanels** on the Support Tickets page. Give each one
 
 **Panel Name:** Give the panel a custom name (up to 100 characters). If left blank, it displays as "Panel #1" wherever the panel is referenced, including the `/setup createticketembed` panel picker.
 
-**Support Staff Role:** Selecting a support staff role will automatically allow users with the selected role to view/access all support tickets. If you do not select a support staff role only Administrators will have access to tickets.
+**Support Staff Roles:** Select one or more roles to act as support staff for the panel. Members with **any** of the selected roles can view/access all of the panel's tickets and use the staff-only ticket commands, so you can give access to several teams (for example a Moderators role and a Support role) without putting everyone in one role. If you do not select any support staff roles only Administrators will have access to tickets.
 
-For thread tickets, Cakey Bot adds the role to the thread by mentioning it in a message that is edited in and deleted straight away, so nobody gets a notification. Discord only adds the role's members this way if the role is mentionable or Cakey Bot has the `Mention Everyone` permission. When **Ping Staff Role on Ticket Creation** is enabled, the ping itself adds them instead.
+For thread tickets, Cakey Bot adds the roles to the thread by mentioning them in a message that is edited in and deleted straight away, so nobody gets a notification. Discord only adds a role's members this way if the role is mentionable or Cakey Bot has the `Mention Everyone` permission. When **Ping Staff Roles on Ticket Creation** is enabled, the ping itself adds them instead.
 
 **Transcript Channel:** Selecting a transcript channel will unlock the ability to save ticket history to the selected channel. Which will allow staff to review old closed/deleted tickets.
 
@@ -123,14 +123,14 @@ You can also remove other users from tickets by typing the `/ticket removeuser <
 
 ## Anonymous Replies
 By default, any staff members who have view/send access to tickets can respond to them like they would in other channels. However, sometimes staff memebrs may want to reply to a ticket anonymously without showing their username. In order to this all they have to do is run the `/ticket anonreply <message>` command. this will send a generic anonymous message from Cakey Bot instead of the staff member.
-> In order to use the anonymous reply system, the staff member MUST have the Support Team role which can be set on the web dashboard.
+> In order to use the anonymous reply system, the staff member MUST have one of the panel's support staff roles, which can be set on the web dashboard.
 {.is-info}
 
 ## Reminders
-Staff members can use the `/ticket remind` command to send a DM reminder to the user who opened the ticket. The DM prompts them to respond if the issue is still unresolved and provides a button link to open the ticket.
+Staff members with one of the panel's support staff roles can use the `/ticket remind` command to send a DM reminder to the user who opened the ticket. The DM prompts them to respond if the issue is still unresolved and provides a button link to open the ticket.
 
 ## Close Requests
-The `/ticket request-close <reason>` command allows staff members to request the closure of a ticket. Instead of immediately closing the ticket, this command notifies the original user that opened the ticket that the staff have requested the ticket to be closed. The user can then review and approve or deny the request. The `reason` parameter is required and can be up to 255 characters.
+The `/ticket request-close <reason>` command allows staff members with one of the panel's support staff roles to request the closure of a ticket. Instead of immediately closing the ticket, this command notifies the original user that opened the ticket that the staff have requested the ticket to be closed. The user can then review and approve or deny the request. The `reason` parameter is required and can be up to 255 characters.
 
 # Advanced Settings
 These are advanced settings that you can configure via the web dashboard to further customize your support ticket system!
@@ -151,13 +151,13 @@ Defaults to disabled. When enabled, the ticket channel will automatically be del
 ## Disable Transcript Mentions
 Toggles whether transcript channel logs will mention users/roles.
 
-## Ping Staff Role on Ticket Creation
-Defaults to disabled. When enabled, it will ping the Support Team staff role when a new ticket is created.
-> **Note:** You MUST have a Support Team role configured on the web dashboard or this setting will not do anyhting.
+## Ping Staff Roles on Ticket Creation
+Defaults to disabled. When enabled, it will ping every one of the panel's support staff roles when a new ticket is created.
+> **Note:** You MUST have at least one support staff role configured on the web dashboard or this setting will not do anything.
 {.is-info}
 
 ## Ping User on Ticket Creation
-Defaults to disabled. When enabled, it will ping the user who opened the ticket when it is created. This is separate from the "Ping Staff Role on Ticket Creation" setting above.
+Defaults to disabled. When enabled, it will ping the user who opened the ticket when it is created. This is separate from the "Ping Staff Roles on Ticket Creation" setting above.
 
 ## Allow Feedback Ratings
 This allows users to submit feedback ratings on the support they received inside of a ticket.

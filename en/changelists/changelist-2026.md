@@ -2,11 +2,16 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-18T12:00:00.000Z
+date: 2026-10-20T16:54:04.833Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 20th - Misc Bug Fixes
+## Fixed
+* Fixed an issue where slash command markdown would be stripped from the embed editor.
+* Fixed an issue where http/website format GIFs for tenor & klipy would be embedded as a URL instead of a GIF on the starboard.
 
 # October 18th - Data Import, Leaderboard Resets, Starboard Media, GIF Detection & Multiple Ticket Staff Roles
 ## Fixed

@@ -2,11 +2,29 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-20T16:54:04.833Z
+date: 2026-10-21T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 21st - Badge Colors & Icon Styles, Paused Suggestions, Weekly & Monthly Leaderboard Roles, Music Bot Request Channels & Ticket Forms
+## Fixed
+* Fixed daily custom content skipping days when the list had empty entries, such as a blank line at the end.
+
+## Changed
+* Ban, temporary ban, unban, kick, mute, unmute and timeout replies now show the member's mention, their ID and the reason.
+* Suggestions that are under review now stay open, so members can keep voting and staff can still approve or deny them with the buttons.
+* Changing a suggestion's status on the dashboard now updates its buttons in Discord as well as its embed.
+* Achievement icon names can now be up to 64 characters.
+
+## Added
+* Added custom badge colors to achievements, so a badge can use any color instead of one of the 9 presets. See the [Achievements wiki page](/en/feature/achievements#badge-shapes-colors).
+* Added icon styles to achievement badges, covering every Font Awesome style and Pro+ pack, plus brand icons such as Discord and Twitch. See the [Achievements wiki page](/en/feature/achievements#icons).
+* Added a Paused status for suggestions, set with `/suggestion pause` or from the dashboard. See the [Suggestions wiki page](/en/feature/suggestions).
+* Added weekly and monthly leaderboard roles, given to the top members of the last finished week or month. See the [Leveling wiki page](/en/feature/leveling#weekly-and-monthly-leaderboard-roles).
+* Added song request channels for the additional music bots, set up on the dashboard's Music page, with an Add Song button on each bot's player message, with Premium. See the [Song Request Channel wiki page](/en/music/song-request-channel#additional-music-bots).
+* Added ticket forms, so each ticket panel can ask up to 5 questions of its own when a ticket is opened, or none at all. See the [Support Tickets wiki page](/en/feature/support-tickets).
 
 # October 20th - Misc Bug Fixes
 ## Fixed

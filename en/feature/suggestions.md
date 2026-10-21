@@ -1,8 +1,8 @@
 ---
 title: Suggestions
-description: Discord suggestion system with Cakey Bot - vote on suggestions, and accept/deny/duplicate/review decisions with reasons. Setup guide.
+description: Discord suggestion system with Cakey Bot - vote on suggestions, and accept/deny/duplicate/review/pause decisions with reasons. Setup guide.
 published: 1
-date: 2026-10-08T12:00:00.000Z
+date: 2026-10-21T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-07T00:00:00.000Z
@@ -10,7 +10,7 @@ dateCreated: 2026-08-07T00:00:00.000Z
 
 # Overview
 
-Suggestions let your members propose ideas and vote on them with a simple upvote/downvote embed. Staff can then accept, deny, mark as a duplicate, or put a suggestion under review - each decision updates the suggestion's embed with a colored status and an optional reason, and is recorded so it shows up in the dashboard's decision history.
+Suggestions let your members propose ideas and vote on them with a simple upvote/downvote embed. Staff can then accept, deny, mark as a duplicate, put a suggestion under review, or pause it - each decision updates the suggestion's embed with a colored status and an optional reason, and is recorded so it shows up in the dashboard's decision history.
 
 > A Suggestion Channel must be configured before members can create suggestions - see [Configuring Suggestions](#configuring-suggestions) below.
 {.is-warning}
@@ -23,7 +23,7 @@ Suggestions let your members propose ideas and vote on them with a simple upvote
 4. Optionally set a **Suggestion Ping Role**, which is pinged whenever a new suggestion is posted. The role needs to be mentionable, or the bot needs permission to mention any role.
 5. Optionally turn on **Create a thread for each suggestion** and choose a **Thread after a decision** option. See [Suggestion Threads](#suggestion-threads) below.
 
-> The ping role is only mentioned when a suggestion is first posted - deciding on it later (accept/deny/duplicate/review) does not ping it again.
+> The ping role is only mentioned when a suggestion is first posted - deciding on it later (accept/deny/duplicate/review/pause) does not ping it again.
 {.is-info}
 
 # Creating a Suggestion
@@ -43,7 +43,7 @@ When **Create a thread for each suggestion** is turned on, Cakey Bot opens a pub
 | Archive it | The thread is archived. |
 | Delete it | The thread is deleted. |
 
-This applies when a suggestion is accepted, denied or marked a duplicate, with either the buttons or the slash commands. Marking a suggestion as under review leaves its thread alone. The bot needs the **Manage Threads** permission.
+This applies when a suggestion is accepted, denied or marked a duplicate, with either the buttons or the slash commands. Marking a suggestion as under review or paused leaves its thread alone. The bot needs the **Manage Threads** permission.
 
 > If no Suggestion Channel is configured yet, `/suggestion create` shows an error explaining that an admin needs to set one up first, with a link to this article.
 {.is-info}
@@ -57,7 +57,9 @@ Members vote using the 👍/👎 buttons on a suggestion embed. Voting the oppos
 Members with the **Administrator** or **Manage Server** permission can decide on a suggestion two ways:
 
 * **Buttons** - Click **Approve** or **Deny** directly on the suggestion embed. This updates the embed's color and footer immediately, but doesn't support attaching a reason.
-* **Slash commands** - `/suggestion accept`, `/suggestion deny`, `/suggestion duplicate`, or `/suggestion review`, each taking the suggestion's message link or ID and an optional reason. These support all four outcomes (including Duplicate and Under Review, which have no button equivalent) and let you explain the decision.
+* **Slash commands** - `/suggestion accept`, `/suggestion deny`, `/suggestion duplicate`, `/suggestion review`, or `/suggestion pause`, each taking the suggestion's message link or ID and an optional reason. These support all five outcomes (including Duplicate, Under Review and Paused, which have no button equivalent) and let you explain the decision.
+
+A suggestion that is under review or paused stays open, so members can keep voting and staff can still approve or deny it with the buttons.
 
 Whichever path is used, the suggestion's embed color updates to match the outcome:
 
@@ -67,6 +69,7 @@ Whichever path is used, the suggestion's embed color updates to match the outcom
 | Denied | Red |
 | Duplicate | Blue |
 | Under Review | Yellow |
+| Paused | Purple |
 
 If a reason was given, it's added to the embed as a **Reason** field. Deciding on a suggestion again (with either method) replaces its previous decision.
 
@@ -92,3 +95,4 @@ Usage Key: `<required>` / `[optional]`
 | /suggestion deny | Denies a suggestion, updates its embed, and records the decision. | `<suggestion> [reason]` | ManageServer or Administrator |
 | /suggestion duplicate | Marks a suggestion as a duplicate, updates its embed, and records the decision. | `<suggestion> [reason]` | ManageServer or Administrator |
 | /suggestion review | Marks a suggestion as under review, updates its embed, and records the decision. | `<suggestion> [reason]` | ManageServer or Administrator |
+| /suggestion pause | Marks a suggestion as paused, updates its embed, and records the decision. | `<suggestion> [reason]` | ManageServer or Administrator |

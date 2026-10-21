@@ -2,7 +2,7 @@
 title: Basic Usage
 description: Play music in Discord with Cakey Bot - Basic commands, queue management, volume control. Music bot beginner's guide.
 published: 1
-date: 2026-10-08T12:00:00.000Z
+date: 2026-10-21T12:00:00.000Z
 tags: music
 editor: markdown
 dateCreated: 2022-10-18T08:01:58.307Z
@@ -68,7 +68,7 @@ Cakey Bot remembers each server's player: the queue, the song that was playing a
 
 # Multiple Music Bots
 
-Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our "Premium" page of the [web dashboard](https://cakey.bot/dashboard). Note that you must have premium enabled on the server in order to invite these additional music bots.
+Cakey Bot has additional bots that you can invite that are designed specifically for music playback! You can find the invites to these bots on our "Premium" page of the [web dashboard](https://cakey.bot/dashboard). Note that you must have premium enabled on the server in order to invite these additional music bots. Each one can also have its own [song request channel](/en/music/song-request-channel#additional-music-bots).
 
 # Supported Sources
 

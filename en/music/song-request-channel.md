@@ -2,7 +2,7 @@
 title: Song Request Channel
 description: Discord song request channel with Cakey Bot - Dedicated music commands channel, queue management. Music bot channel setup guide.
 published: 1
-date: 2025-11-01T06:20:46.878Z
+date: 2026-10-21T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:08:52.952Z
@@ -36,6 +36,15 @@ The song request channel is very simple to use. In order to use it, you (or whoe
 
 > You don't have to use the _`#cakey_songrequests`_ channel in order to make use of the embed system! As long as you have the embed/song request channel setup, it will always update with the current song/queue info regardless if you use the channel or if you use regular commands.
 {.is-info}
+
+# Additional Music Bots
+<span style="background-color: rgb(253, 172, 65); color: black; padding: 3px 7px; font-size: 12px; border-radius: 5px;">Premium Only</span>
+
+Each of the [additional music bots](/en/music/basic-usage#multiple-music-bots) (Cakey Bot 2 to Cakey Bot 6) can have its own song request channel. Set them up on the dashboard's **Music** page under **Music Bot Request Channels** by picking a channel for each bot that is in your server. The bot posts its player message in that channel within a minute of saving.
+
+The additional music bots can't read messages, so typing a song in their channel does nothing. Members add songs with the **Add Song** button on the player message instead, which asks for a song name or link. It's best to stop members from sending messages in these channels.
+
+Removing a bot's channel on the dashboard stops it using that channel, but leaves the channel and the player message where they are.
 
 # Related Commands
 Usage Key: `<required>` / `[optional]`

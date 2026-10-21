@@ -2,7 +2,7 @@
 title: Achievements
 description: Discord achievement system with Cakey Bot - Custom badges, milestone rewards, progress tracking. Gamification setup guide.
 published: 1
-date: 2026-09-29T12:00:00.000Z
+date: 2026-10-21T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-18T10:08:47.560Z
@@ -35,7 +35,7 @@ The achievement fields have the following limits:
 | :--- | :--- |
 | Name | 300 characters |
 | Description | 140 characters |
-| Icon Name | 20 characters |
+| Icon Name | 64 characters |
 | Progression Target (limit) | 1,000,000 |
 | XP Add / XP Remove Reward | 0 - 1,000,000 |
 | Eco Money Add / Eco Money Remove Reward | 0 - 1,000,000 |
@@ -113,8 +113,12 @@ You can also chose between 9 different colors:
   
 <image src="/colors.jpg" width="600px" alt="Colors">
 
+Turn on **Custom badge color** to pick any color instead. Very dark and very light colors are adjusted slightly so the badge and its icon stay visible.
+
 ## Icons
-We currently support the full set of Font Awesome Pro icons that you can select for your banners (currently limited to solid style). You can select any RGB color to be applied to the icon as well.
+You can pick any Font Awesome icon for your badges, including brand icons such as Discord or Twitch. You can select any RGB color to be applied to the icon as well.
+
+**Icon Style** draws the icon in another Font Awesome style, such as Regular, Light, Duotone or Sharp, or one of the Pro+ packs such as Jelly, Chisel or Whiteboard. The packs only have some of the icons, so picking one limits the icon list to the icons it has, and styles that don't have the icon you picked are faded. Brand icons only come in their own style.
 
 # Showing Off Achievements
 ## Showcase

@@ -2,7 +2,7 @@
 title: Leveling
 description: Discord leveling system with Cakey Bot - XP rewards, role progression, import from MEE6 or Lurkr. Complete setup with formulas and examples.
 published: 1
-date: 2026-10-08T12:00:00.000Z
+date: 2026-10-21T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-23T12:37:54.412Z
@@ -213,6 +213,11 @@ You can configure a role for each position independently on the dashboard. Leavi
 
 > If your server's Premium subscription lapses, roles previously granted for positions #4-10 are automatically removed. Positions #1-3 keep working regardless of Premium status. Any positions #4-10 you had configured are preserved (not deleted) while Premium is inactive, and pick back up automatically if you resubscribe.
 {.is-warning}
+
+## Weekly and Monthly Leaderboard Roles
+The Leaderboard Roles card has a tab for each leaderboard: All time, weekly and monthly. Weekly and monthly roles go to the top members of the last finished week or month, ranked by the XP they earned in it, and members keep them until the next week or month ends. Weeks start on Monday and months on the 1st, in UTC. The same free and Premium positions apply to each tab.
+
+A member can hold an all time, a weekly and a monthly role at the same time, and if two tabs give the same role to the same member, they keep it as long as either tab still does.
 
 # Leaderboard Periods
 `/leaderboard` can rank users by XP earned in a specific window instead of their all-time total:

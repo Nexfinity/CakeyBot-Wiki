@@ -2,7 +2,7 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-24T23:21:56.339Z
+date: 2026-10-24T23:31:42.750Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
@@ -11,6 +11,7 @@ dateCreated: 2026-01-13T22:54:52.663Z
 # October 24th - Counting Only Category Channel Removed
 ## Fixed
 * Fixed an issue where Auto Quoters didn't embed GIFs correctly.
+* Fixed an issue where Auto Mod was matching partial steams incorrectly.
 
 ## Removed
 * Removed the "Counting Only" category channel from Auto Moderation. Servers that used it were moved to the [Counting Game](/en/feature/counting) in the same channel, with the default settings. If several channels were set, the first one was used, and servers that already ran the Counting Game kept their channel.

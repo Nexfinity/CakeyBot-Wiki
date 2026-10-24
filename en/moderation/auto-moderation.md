@@ -2,7 +2,7 @@
 title: Auto Moderation
 description: Discord auto moderation bot - Spam filters, raid protection, content blocking with Cakey Bot. Complete security setup guide.
 published: 1
-date: 2026-07-26T00:00:00.000Z
+date: 2026-10-24T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-18T08:10:13.844Z
@@ -88,7 +88,6 @@ You can view a list of category channels you can configure below:
 * Media Only (Images, Videos & GIFs combined, including video links like YouTube)
 * Files Only
 * Emotes & Stickers Only
-* Counting Only
 * Links Only
 
 # Auto Kick/Ban

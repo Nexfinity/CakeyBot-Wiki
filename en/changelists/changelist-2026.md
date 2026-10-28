@@ -2,11 +2,17 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-24T23:31:42.750Z
+date: 2026-10-27T12:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 27th - Misc Bug Fixes
+## Fixed
+* Fixed bulk delete failing on the Mod Logs dashboard tab, Birthdays, AFK List, the Economy shop, Auto Messages and Feeds pages, and bulk enable and disable failing on Auto Messages.
+* Fixed closing and reopening thread tickets from the dashboard's Ticket Manager. Closing a thread ticket now locks and archives the thread, as the close button in Discord does.
+* Fixed deleting a ticket panel sometimes failing. A deleted panel's categories are now removed with it.
 
 # October 24th - Counting Only Category Channel Removed
 ## Fixed
@@ -15,6 +21,10 @@ dateCreated: 2026-01-13T22:54:52.663Z
 
 ## Removed
 * Removed the "Counting Only" category channel from Auto Moderation. Servers that used it were moved to the [Counting Game](/en/feature/counting) in the same channel, with the default settings. If several channels were set, the first one was used, and servers that already ran the Counting Game kept their channel.
+
+# October 23rd - Music Bot Request Channels on Custom Bot Servers
+## Fixed
+* Fixed the Music page not showing the additional music bots and their song request channels on servers with a custom bot.
 
 # October 21st - Badge Colors & Icon Styles, Paused Suggestions, Weekly & Monthly Leaderboard Roles, Music Bot Request Channels & Ticket Forms
 ## Fixed

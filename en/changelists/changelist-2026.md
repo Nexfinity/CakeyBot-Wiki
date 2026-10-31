@@ -2,11 +2,15 @@
 title: Changelist 2026
 description: Cakey Bot update history - New features, bug fixes, improvements for Discord. Complete version changelog and release notes.
 published: 1
-date: 2026-10-27T12:00:00.000Z
+date: 2026-10-31T14:34:52.433Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-13T22:54:52.663Z
 ---
+
+# October 31th - New AR Flag
+## Added
+* Added new "Contains sticker" flag to Auto Responder.
 
 # October 27th - Misc Bug Fixes
 ## Fixed

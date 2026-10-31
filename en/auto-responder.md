@@ -50,9 +50,10 @@ This feature allows you to set up custom triggers on Discord that Cakey Bot can 
 | Contains audio attachment  | Checks if attachments include audio formats                                                                                        | .mp3, .wav, .flac, .aac, .m4a, .wma, .ogg, .alac, .aiff, .opus, .mid, .midi, .amr, .ape                                                                             |
 | Contains text attachment   | Checks if attachments include document/text formats                                                                                | .txt, .csv, .json, .xml, .html, .htm, .md, .log, .rtf, .doc, .docx, .pdf                                                                                            |
 | Contains executable attachment | Checks if attachments include executable formats                                                                              | .exe, .msi, .bat, .sh, .app, .jar, .com, .cmd, .vb, .vbs, .ps1                                                                                                       |
+| Contains sticker           | Will check to see if the message has a sticker. Any sticker counts, including ones from other servers | – |
 
 
-> **Note:** When using the "Contains Files", "From Webhook", and "Contains X mention", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
+> **Note:** When using the "Contains Files", "From Webhook", "Contains X mention", and "Contains sticker", the "Command" field is still required. However, it is not used to actually trigger the auto response. It's purely a cosmetic property.&#x20;
 {.is-warning}
 
 ## Regex Match Triggers
@@ -189,6 +190,7 @@ The template CSV file and bulk exported CSVs will have a few different columns w
 | 14    | Contains audio attachment  |
 | 15    | Contains text attachment   |
 | 16    | Contains executable attachment |
+| 17    | Contains sticker           |
 
 * Response
   * This is the response phrase for a trigger/command.
